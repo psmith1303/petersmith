@@ -1,0 +1,30 @@
+<!-- bloglog.html -->
+
+{{ partial "header.html" . }}
+<h2>Running history</h2>
+<p>Trotting around and about.</p>
+{{ range (where .Data.Pages "Section" "running").GroupByDate "2006" }}
+  <h3>{{ .Key }}</h3>
+  <ul>
+    {{ range.Pages }}
+    <li style="clear:both;">
+  <span class="float-left">
+    <svg width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="#4E9E25"stroke-width="3">
+      {{ if  (isset .Params "svgmap") }}
+            {{ .Params.svgmap  | safeHTML }}
+      {{ end }}
+    </g>
+    </svg>
+  </span>
+  <div style="overflow: hidden;"> 
+    <a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>
+    <p>{{ .Summary }}</p>
+  </div>
+  </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+{{ partial "footer.html" . }}
+

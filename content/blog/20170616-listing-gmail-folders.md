@@ -1,0 +1,42 @@
++++
+categories = ["IT"]
+date = "2017-06-16T11:03:40+12:00"
+draft = "False"
+slug = "list-gmail-folders"
+title = "Listing GMail folders"
+
++++
+
+I have been playing around with moving my email reading into Emacs. In doing so, it was useful to see what 'folders' I had on Gmail. So, I put together this quick and dirty script.
+
+````python
+
+import email
+import imaplib
+import sys
+import pprint
+
+host= 'imap.gmail.com'
+
+username= 'anyone@gmail.com'
+password= 'mmuuppeettss'
+
+mail= imaplib.IMAP4_SSL(host)
+
+try:
+	rc, data = mail.login(username, password)
+except imaplib.IMAP4.error:
+        print ('Login failed :(')
+        sys.exit(1)
+
+print(rc, data)
+
+rc, mailboxes = mail.list()
+
+if rc == 'OK':
+        print('Mailboxes:')
+        print(mailboxes)
+else:
+        pprint('Failed to get mailboxes: {}'.format(rc))
+
+````

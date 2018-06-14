@@ -1,0 +1,20 @@
++++
+title = "Journalling"
+date = "2006-05-04T14:07:00+12:00"
+categories = ["Jottings"]
+slug = "journalling"
+draft = "False"
++++
+Well, despite some encouragement from Chintaka, and some inspiration from Anja,
+I'm still not doing much here. Having said that, I should mention that things
+are pretty full on at the moment.  After my entry on grading, I was surprised
+to find that the topic came up at the recent _Board of Studies_ for the GSE.
+More particular, we had a very robust discussion on grading-on-the-curve. No
+doubt we will be continuing that discussion (as we always do). I think it is
+hard to work at any educational establishment without the topic arising from
+time to time.
+
+I'm not sure if that is a symptom of the fact that both systems (norm reference
+and criterion referenced) both have their shortcomings, or if it a sign there
+is little to choose between them ![:)](/images/icon_smile.gif).
+

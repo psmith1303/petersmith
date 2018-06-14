@@ -1,0 +1,12 @@
+<article>
+    <h4>{{ .Date.Format "Monday, 2 Jan 2006" }}</h4>
+    <h5><a href='{{ .Permalink }}'> {{ .Title }}</a></h5>
+
+	  {{ if .Truncated }}
+    {{ .Summary }}
+      <a href="{{ .Permalink }}">[more]</a>
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+    <hr>		
+</article>

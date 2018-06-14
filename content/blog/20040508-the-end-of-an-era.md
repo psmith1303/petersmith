@@ -1,0 +1,17 @@
++++
+title = "The end of an era"
+date = "2004-05-08T15:14:00+12:00"
+categories = ["Friday fives"]
+slug = "the-end-of-an-era"
+draft = "False"
++++
+It seems like [Friday Five](http://www.fridayfive.org/) has ended.
+
+As the site says:
+
+> This is the end of the Friday Five. I know most of you have seen
+this coming and I appreciate you humouring me. I haven't enjoyed it
+for some time now and because of that I can no longer justify the
+bandwidth. I'm not going to give it away or sell it or bring anyone on
+to help; Two-and-a-half years is a good run. Let's let it go. :)
+

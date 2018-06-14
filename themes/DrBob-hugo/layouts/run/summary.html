@@ -1,0 +1,8 @@
+<h4 class="meta"><a href='{{ .Permalink }}'> {{ .Title }}</a></h5>
+<h5 class="meta">{{ .Date.Format "Monday, 2 Jan 2006" }}</h4>
+
+{{ if .Truncated }}
+  {{ .Summary }}<a href="{{ .Permalink }}"> [more]</a>
+{{ else }}
+  {{ .Content }}
+{{ end }}

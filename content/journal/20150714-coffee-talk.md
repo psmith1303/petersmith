@@ -1,0 +1,18 @@
++++
+title = "Coffee talk"
+slug = "coffee-talk"
+date = "2015-07-14T11:01:00+12:00"
+categories = ["Teaching"]
+draft = "False"
++++
+I caught up with Andrew (B&E) and Angela (FHMS) today for coffee and conversation. As always, we talked mainly about teaching. In particular the main themes were the implementation of Canvas and Angela's PhD topic ... teaching.
+
+The more I hear about the Canvas, the more I like it. However, the more I realise that this is a great opportunity to change (improve) how I use our LMS (from Cecil to Canvas). The goal can't be just to create Cecil 2.0
+
+Perhaps my biggest concern is the degree to which Canvas gets 'locked down', not allowing me (and other academics) to use all of its features. Otherwise, I can see that most folk (including me) will end up making Cecil 2.0
+
+Angela's PhD topic continues to move around; that's pretty normal I guess. I put out the idea that students can be categorised across two dimensions: smartness and hard working. Or as I put it, by means of the two biggest determinants of academic success: IQ and Conscientiousness.  Andrew raised the issue that IQ measures have some cultural constraints (fair enough), and so do most personality type measures too (re conscientiousness).
+
+The type of support/help that each type of student needs depends on their relative level of smartness and workingness. This speaks against a general set of tools or guidance.
+
+That led on to a discussion of how do you get people to change what they do; i.e., adopt new study practices? It not a straightforward process driven by logic, as people are often more skilled and practiced in their old way of doing things. This is a well understood problem in change management, but I am not so sure that we (as teachers) understand it well.

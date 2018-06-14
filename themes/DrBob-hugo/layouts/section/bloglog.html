@@ -1,0 +1,18 @@
+<!-- bloglog.html -->
+
+{{ partial "header.html" . }}
+<h2>Blog archive</h2>
+<p>Something of a placeholder just in case</p>
+{{ range (where .Data.Pages "Section" "bloglog").GroupByDate "2006" }}
+  <h3>{{ .Key }}</h3>
+  <ul>
+    {{ range .Pages }}
+      <li> <a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>
+				<p>{{ .Summary }}</p>
+			</li>
+	  {{ end }}
+  </ul>
+{{ end }}
+
+{{ partial "footer.html" . }}
+

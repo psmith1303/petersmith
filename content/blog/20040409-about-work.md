@@ -1,0 +1,48 @@
++++
+title = "About work"
+date = "2004-04-09T15:53:00+12:00"
+categories = ["Friday fives"]
+slug = "about-work"
+draft = "False"
++++
+And here is this week's [Friday Five](http://www.fridayfive.org/)
+
+1.  _What do you do for a living?_ I mainly teach and research at the
+    [University of Auckland](http://www.auckland.ac.nz). I also do a bit
+    of
+    management consulting too. I suppose into this list, I should put
+    that I'm currently a doctoral candidate[^1] researching the way in
+    which strategy comes about (is created) in professional service
+    firms.
+2.  _What do you like most about your job?_ The flexibility---I can
+    work the way I want to, when I want, and how I want to. On top of
+    that,
+    I can read and research the things I find interesting. For me, I'd
+    say
+    that was pretty hard to beat.
+3.  _What do you like least about your job?_ Having to write. I enjoy
+    the reading and the research; I'm okay and the synthesing of ideas,
+    etc; But, I've always found writing a chore---I can do it, but it
+    takes
+    discipline.
+4.  _When you have a bad day at work it's usually because ..._ Either,
+    I haven't written enough for this week's PhD quota, or I'm worried
+    about the students. Strange, one I can something about, the other
+    is
+    really beyond my control.
+5.  _What other career(s) are you interested in?_ Day trading ---
+    again its the flexibility and the ability to do some analysis.
+    Process consultant---since leaving IT
+    (does anyone actually leave), I've become more and more interested
+    in
+    people and how they work/think/etc. [Process
+    consulting](http://www.amazon.com/exec/obidos/tg/detail/-/0201067366[2])
+    would allow me to explore that more.
+
+This week's questions, are from
+[melanie](http://www.livejournal.com/users/myprimalscream/) .
+
+
+[^1]: The actual title of my PhD research (at this time) is _Strategising in
+professional service firms_
+

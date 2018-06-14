@@ -1,0 +1,61 @@
++++
+title = "Academic Productivity"
+date = "2008-09-22T22:23:00+12:00"
+categories = ["Productivity"]
+slug = "academic-productivity"
+draft = "False"
++++
+PhD's and productivity. What could be relevant at this juncture?
+[Academic Productivity](http://www.academicproductivity.com/) does what
+it says on the box.
+Tucked away on the site are the following observations:
+
+> 1. Doing a PhD is lonely
+> 2. Your picking the right advisor will determine your happiness level more than anything else
+
+
+The second point reminded me of a joke. I found this copy at
+[Rabbitchick](http://c0y0t3.blogspot.com/2005/09/choose-your-phd-supervisor-carefully.html)
+
+> One sunny day a rabbit came out of her hole in the ground to
+enjoy the fine weather.  The day was so nice that she became careless and a fox snuck up behind
+her and caught her. "I am going to eat you for lunch!", said the fox.
+"Wait)" replied the rabbit, "You should at least wait a few days." "Oh
+yeah? Why should I wait?" "Well, I am just finishing my thesis on "The
+Superiority of Rabbits over Foxes and Wolves."" "Are you crazy? I
+should eat you right now! Everybody knows that a fox will always win
+over a rabbit." "Not really, not according to my research. If you
+like, you can come into my hole and read it for yourself. If you are
+not convinced, you can go ahead and have me for lunch." "You really are
+crazy!" But since the fox was curious and had nothing to lose, it went
+with the rabbit. The fox never came out.  
+> 
+> A few days later the rabbit was again taking a break from writing
+and sure enough, a wolf came out of the bushes and was ready to set upon
+her. "Wait)" yelled the rabbit, "You can't eat me right now." "And why
+might that be, my furry appetizer?" "I am almost finished writing my
+thesis on "The Superiority of Rabbits over Foxes and Wolves.'" The
+wolf laughed so hard that it almost lost its grip on the rabbit. "Maybe
+I shouldn't eat you; you really are sick ... in the head. You might have
+something contagious." "Come and read it for yourself; you can eat
+me afterwards if you disagree with my conclusions." So the wolf went
+down into the rabbit's hole and never came out.
+>
+> The rabbit finished her thesis and was out celebrating in the
+local lettuce patch. Another rabbit came along and asked, "What's up?
+You seem very happy." "Yup, I just finished my thesis."
+"Congratulations. What's it about?" ""The Superiority of Rabbits
+over Foxes and Wolves.'" "Are you sure? That doesn't sound right." "Oh
+yes. Come and read it for yourself." So together they went down into
+the rabbit's hole.
+>
+> As they entered, the friend saw the typical graduate abode, albeit a
+rather messy one after writing a thesis. The computer with the
+controversial work was in one corner. And to the right there was a
+pile of fox bones, on the left a pile of wolf bones. And in the middle
+was a large, well-fed lion. The Moral of the Story: The title of your
+thesis doesn't matter. The subject doesn't matter. The research
+doesn't matter. All that matters is who your supervisor is.
+
+(Ouch. The grammar fairy didn't like that last sentence at-all.)
+

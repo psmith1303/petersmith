@@ -1,0 +1,96 @@
++++
+title = "Achieving routine in organizational change"
+date = "2004-04-13T22:25:00+12:00"
+categories = ["Research"]
+slug = "achieving-routine-in-organizational-change"
+draft = "False"
++++
+Today's reading is:
+
+> Pondy, L. R., & Huff, A. S. (1985).
+Achieving routine in organizational change. _Journal of
+Management, 11_(2), 103--116.
+
+I thought I'd have a look at how popular (that is, well cited) was
+yesterday's (monster) reading, A quick skim on EBSCO Host showed that it
+had been cited over 113
+times (not bad I thought). So, I've had a look at all the articles that
+used _The structuring of organizational structures_ reading and
+picked a selection. So here is the first one (of several that I?ll
+read over the coming week). I've decided to do them in historical
+order, earliest to most recent; there is no rhyme nor reason for this
+order, other than I like historical flow. So, with no further ado, on
+to my summary of the article.
+
+The background of this article is that Pondy and Huff have been
+looking at decision making in a school district for four years. This
+is article is based on one of those decisions---I expect somewhere
+there are more articles based on other decisions that were taken
+there.
+
+Organisations make undertake significant changes in their
+operations. However, the magnitude of the change may not be
+apparent until after the change has been undertaken. According to the
+authors, one view of change, put forward by March, is that change can
+be treated as routine. And so, the "article therefore explores the
+routines as an _achievement_ of management" (italics in original,
+p. 104). So, how the drama of significant change be avoided? How can
+it be presented in a way that is seen as routine?
+
+Drawing largely on the work of (Ranson, Hinings, & Greenwood, 1980), the authors suggest that there
+are two things to consider. First, those who wish to minimize change
+in an organization's structure must seek to de-emphasis or counteract
+changes in interpretations, power or context, and to resolve or
+smooth over apparent contradictions in values/interests or
+situational context? (Pondy & Huff, p. 114).
+
+Second, for those who wish instead to maximize[^1] " the proper
+strategy is to induce changes in context, power, or interpretive
+schema, or to highlight or introduce contradictions in values or
+situations context" (Pondy & Huff, p. 114).
+This is facilitated by the fact that organisations do have routines,
+and thus the routines can be exploited to signal either the routine
+nature of the change, or to emphasise its non-routineness.
+
+Thus for the Pondy & Huff, "the task of
+administration is two-fold: first, to construct a repertory or
+library of routines; and second, to make use of those routines for
+routinizing the new and unfamiliar" (p. 114). "Routines are
+eoliths, tools that are shaped by the uses to which they are put -- the
+point of this article is that administrators are both tool-makers
+and tool-users" (p. 115).
+
+So what are my thoughts on this? Well firstly there Darl has talked
+(and written) about the need for continuity in organisations. I
+don't recall if he drew on this work---but there are some strong links
+between his work and Pondy & Huff, and back to
+March, too.
+
+But, more importantly, when is change 'big'? The answer to that, seems
+to be when people thing its big (And that is the same answer to the
+questions "When is a class big"). The power of treating big changes as
+routine (or usual) is impressive. When a lot of ambiguity exists
+around a change, the managers (or in the case I'm think of, the
+lecturers) can successful present it as routine and in doing so,
+shape the interpretive schemas of those affected by the change. Thus,
+as posited by Ranson, & co., the change can
+be accomplished without drama.
+
+Consequently, I regard this as a very practical and useful
+article.
+
+
+
+[^1]: Why might someone want to maximise structural change? The answer
+to that questions is back in Ranson, Hinings, & Greendwoods article.
+
+
+## References
+
+Pondy, L. R., & Huff, A. S. (1985). Achieving
+routine in organizational change. _Journal of Management, 11_(2),
+103--116.
+
+Ranson, S., Hinings, C. R., & Greenwood, R.
+(1980). The structuring of organizational structures.
+_Administrative Science Quarterly, 25_, 1--17.

@@ -1,0 +1,87 @@
++++
+title = "Argyris & Sch&ouml;n"
+date = "2004-04-26T21:59:00+12:00"
+categories = ["MGMT 301"]
+slug = "argyris-schon"
+draft = "False"
++++
+I think this will be a long entry. I feel like there is a lot to write
+about. But perhaps, I'll try and keep it brief.
+
+The ideas of Argyris and Sch&ouml;n are central to MGMT 301--it is, 
+after all, called management theory and practice. Of the three 
+recommend readings, one imparts the language of theory-of-use 
+(T-of-U), theory-in-action (T-in-A), etc.,
+whilst the others show how much work/practice/skill it takes to 'get it
+right'. For that reason, the two articles can seem like hard going, and
+not offering much to the reader. But, that's the point, they aren't
+about content -- they're about how to think _and_ apply this ideas.
+
+We could, and perhaps should, spend the whole of the rest of the
+course just looking at things in terms of T-of-U, T-in-A, governing
+variables, action strategies, consequences, single loop learning,
+double loop learning, the characteristics of Model I and Model II.
+
+There probably isn't time to get into organisational learning.
+Can we spot the Model I and Model I behaviours from today--and 
+I'm using these illustratively--not because I'm fixated on them?
+
+The BHAGs can be seen as an action strategy. Alas, the consequence
+(results) haven't been what the proposers wanted (the class didn't buy
+into them). What might be the unintended consequences of the BHA 
+(Kim pointed that out quiet eloquently, as did Jeff)? So, will 
+those affect re jig their action strategies (tweak the action 
+strategies), or will they go back and look at the governing
+variables. Will they consider DPE's governing variables?
+
+Taking Brendan's comment about valid (and full information), and in
+some ways Howie's too, was the class actually being set up to operate
+under Model I conditions. Was I trying to structure things to win,
+not lose? How much was I con straining choice and being defensive?
+
+How much (and how usefully) was I emphasising the 'rational position'?
+
+I think after a moments reflection most people, including me, would
+agree that _I was very Model I_.
+
+And how was that different when the CEOs met together? (Sharing
+control?) How much of attribution making went on, how much public
+testing of evaluations went on.
+
+Returning to Brendan's comment about available information. I
+wonder what full and valid information would like? Would it include:
+
+- Who was involved?
+- What was their circumstances? (How critical is this paper to
+there situation?)
+- Precise details of how much was copied? (We don't have that
+information, we only have what was noticed.)
+- What they've done to ensure they understand referencing?
+- How much work would be really involved in the BHAG? (To echo Gilbert &
+Sullivan, does "the punishment fit the crime"?)
+- What feedback and information have they received before about
+referencing
+
+At first it seems like a lot (and I'm sure the list is still
+incomplete), and it is -- it does require a lot of commitment
+(Model I) to do -- then again, I've never
+thought that management is easy (despite rumours circulating that
+it is just 'common sense').
+
+Thinking about Mike's Bikes, I wonder what peoples individual
+governing variables and action strategies are. From memory, the
+typical governing variable are those given by Argyris & Sch&ouml;n.
+
+To end I'd like to ask a question. Earlier today, I had a meeting
+with some colleagues in another department in Business & 
+Economics. As always, we enquired about each
+others courses. At the start of their course they talked about the need
+to reference, cite, and quote correctly; and where met with yawns,
+and "Yes, we've heard all this before". And now, they've handed back the
+first assignment in their course, and the incidence of problems is
+higher than in our course:
+
+So, I'm curious to know, what would have to be different for us
+never to need to address this problem again. That is to say what could
+we (that means the class too) do differently that no one would fail
+to correctly reference, cite, and quote?

@@ -1,0 +1,44 @@
++++
+title = "Team Agreements"
+date = "2004-08-02T16:49:00+12:00"
+categories = ["MGMT 301"]
+slug = "team-agreements"
+draft = "False"
++++
+Monday's are such a full day. From 9:00--12:00, I with teams; From 
+12:00--1:00 DPE to discuss the teams, I'm teaching 302 from
+2:00--3:00 (so I have an hour to 'shift gears'), and finally 
+I'm teach 101 from 5:00--6:00. Yes, pretty full.
+
+The first team of the day found me not at my best. I'd spent the
+weekend doing psychodrama and I think I was still processing what
+went on over the weekend. I did recognise what was happening for me,
+and I apologised to the team--but I'm not sure it helped them.
+
+One team I sat in with made a very good suggestion about
+evaluating each other (as part of the team agreements). For each of
+the broad categories in their team agreement, they
+suggested that they simple tell each person (anonymously as it
+happens) the thing they are doing the best in that category, thing
+that would make the biggest improvement in their performance (again
+in that category) and there rank in that category. It has a certain
+simple elegance I like (and I'm sure I haven't reported back exactly
+as the team member presented it, so apologies to that team too).
+
+Thinking of Mike's Bikes, I wonder how many people have found the
+"offline" mode in Net Mike, and are using it to roll-forward and to
+roll-back? It's a useful training aid for many types of decisions
+(however, it is useless for some types of decisions too).
+_Gossip_ A general theme that seems to be emerging is how to deal
+with the issues of takeovers. There are two major ways to avoid being
+taken over.
+
+- Be too big and expensive to buy
+- Have too much market share so the commerce rules inhibit
+takeovers
+
+Alas, both of these defences take time to put in place.
+The first of the summits has been announced. They are normally very
+helpful to people. Of course, being geared to a particular role,
+they aren't that helpful to other people.
+

@@ -1,0 +1,27 @@
+<!-- indexes.html -->
+		 
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+
+<article>
+	<h4>Category index: By usage</h4>
+  {{ $data := .Data }}
+	<ul class="categories">
+  {{ range $key,$value := .Data.Index.ByCount }} 
+  <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }})</li>
+  {{ end }}
+	</ul>
+
+
+
+<h4>Category index: Alphabetical</h4>
+  {{ $data := .Data }}
+  <ul class="categories">
+{{ range $key,$value := .Data.Index.Alphabetical }} 
+  <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }})</li>
+  {{ end }}
+</ul>
+</article>
+
+{{ partial "footer.html" . }}

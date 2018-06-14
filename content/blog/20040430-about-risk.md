@@ -1,0 +1,30 @@
++++
+title = "About risk"
+date = "2004-04-30T14:09:00+12:00"
+categories = ["Friday fives"]
+slug = "about-risk"
+draft = "False"
++++
+And here is this week's [Friday Five](http://www.fridayfive.org/) (Okay, I've
+recycled an old one, as there is no new F5).
+
+1.  What's the most daring thing you've ever done? Daring or
+    stupid? I've overtaken in dense fog. That was stupid. The car
+    didn't make it, but I got lucky. That taught me a lesson.
+2.  What one thing would you like to try that your
+    mother/friend/significant other would never approve of? Take
+    100,000 to the casino and try to do a Martingale at roulette (yes, I know
+    the statistics are against me).
+3.  On a scale of 1---10, what's your risk factor? (1=never take risks,
+    10=it's a lifestyle) 7
+4.  What's the best thing that's ever happened to you as a result
+    of being bold/risky? Doing a PhD, I should have completed my second
+    masters degree first, but someone suggested that I go straight to
+    the big game.
+5.  ... and the worst? Doing PhD (we'll you've caught me on a bad day
+    for writing). But really, doing a PhD is a double edged sword. It
+    has it's really good times and it's really bad times---and I'm never
+    sure if it is worth the effort, reward, etc.
+
+This was recycled from [Chirir Blog](http://agg.zive.net/\~chihir/blog/archives/000148.html)
+

@@ -1,0 +1,28 @@
+baseurl = "https://www.petersmith.org/"
+title = "The occasional ramblings of an academic"
+theme = "DrBob-hugo"
+
+canonifyURLs =  true
+pygmentsuseclasses =  false
+pygmentsCodeFences = true
+pygmentsStyle  = "monokai"
+
+
+IsMultiLingual = false
+DefaultContentLanguage = "en"
+
+[taxonomies]
+  category =  "categories"
+
+[permalinks]
+  blog = "/blog/:year/:month/:day/:slug/"
+  journal = "/journal/:year/:month/:day/:slug/"
+  teaching = "/teaching/:year/:month/:slug/"
+  resources = "/resources/:slug/"
+  run = "/running/:slug:"
+	
+[sitemap]
+	changefreq = "monthly"
+	priority = 0.5
+	filename = "sitemap.xml"
+

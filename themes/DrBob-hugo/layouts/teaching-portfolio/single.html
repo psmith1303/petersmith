@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<h4>{{ .Title }}</h4>
+<h5 class="meta">>{{ .Date.Format "January 2, 2006" }}</h5>
+
+{{ range .Params.categories }}
+    &middot; <a class="small" href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a>
+{{ end }}
+
+    
+ 
+{{ .Content }}
+
+
+{{ partial "footer.html" . }}

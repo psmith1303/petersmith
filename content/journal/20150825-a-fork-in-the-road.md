@@ -1,0 +1,14 @@
++++
+title = "A fork in the road"
+slug = "a-fork-in-the-road"
+date = "2015-08-25T21:29:00+12:00"
+categories = ["MGMT300"]
+draft = "False"
++++
+I've noticed that my feedback to students is bifurcating; I seem to be going down one of two paths.
+
+Much of my feedback is of the form "You're not doing the basics well yet. Go back to Daudelin and slavishly follow her approach". At this point in time, I worry about these people as they may not have sufficient quality material (in the form of the learning journals) to do a passable summative learning journal.
+
+However, some students have clearly mastered the basics and are probably ready for feedback that is going to take them to another level. For these students, I have no worries about them doing a good job of the summative learning journal. The only question in my mind is how high a grade will they get.
+
+So, I hope no-one is too surprised if I start to put some stretch goals in front of them vis-a-vis the learning journals (in fact they should feel pleased that they are doing well).

@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<article>  
+  <h4 class="meta">All journal entries</h4>
+  {{ range (where .Site.Pages "Section" "journal").GroupByDate "2006"  }}
+	  {{ partial "titles-n-dates.html" . }}
+ {{ end }}
+</article>
+
+{{ partial "footer.html" . }}
+

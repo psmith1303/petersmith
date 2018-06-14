@@ -1,0 +1,73 @@
++++
+title = "Judgement"
+date = "2008-06-11T20:32:00+12:00"
+categories = ["MBA"]
+slug = "judgement"
+draft = "False"
++++
+I went along to one of the MBA classes tonight. They had some concerns
+about the marking of an assignment. One thing that struck me was how
+some people had exercised good judgement in deciding how to tackle
+the question.
+
+And so, I began to wonder what I meant by good judgement. So, as I
+often do, I looked at the Oxford English Dictionary. Amongst the many
+meanings of the word, I found:
+
+> 8. a. The faculty of judging; ability to form an opinion; that
+> function of the mind whereby it arrives at a notion of anything; the
+> critical faculty; discernment.
+
+and of course (?), I had a look at
+[Wikipedia](http://en.wikipedia.org/wiki/Judgment), which I found less
+helpful, viz:
+
+> In non-legal contexts, a judgment (American English) or judgement
+> (British English) is a balanced weighing up of evidence
+> preparatory to making a decision. A formal process of
+> evaluation applies. A judgment may be expressed as a statement,
+> e.g. S: 'A is B' and is usually the
+> outcome of an evaluation of alternatives.
+
+Whilst Wikipedia's definition does talk about weighing up evidence,
+it does seem a bit more formulaic in its approach.
+
+Anyway, along time ago, or at least it feels that way, when I was doing
+my MBA, I was taught finance by a Prof from America. During one of 
+the early classes, he was asked what one needed to do to be successful 
+in the course.
+
+I remember his answer to this day. He said, "Use good judgement at all
+times."
+
+This is probably good advice in many areas of our lives.
+
+I firmly believe that one of the hallmarks of good managers, and
+leaders, is their ability to exercise good judgement.  Consequently,
+MBA programme
+we should expect--and participants should require--opportunities to
+demonstrate (and be rewarded for) their skill in exercising good
+judgement.
+
+So, I'm left with the thought "What can we do to help you develop
+better judgement?"
+
+Judgement is an exercise in evaluation, one needs to practice it.
+So, I don't believe that there is any way in which good judgement can
+be taught without an experiential component (there must an
+experience of using judgement in order to better refine it).
+
+I'm not sure that spelling things out in ever increasing detail
+contributes to developing judgement. Indeed, Hare in his
+commentary on the teaching of judgement argues for open-endedness
+and a degree of ambiguity (he says vagueness). Hare goes on to say
+that "the teacher is responsible for providing the minimum
+requirement ... and for bringing the person to a point where they can
+exercise judgement". Most importantly, and echoing my earlier point,
+Hare says "'Knowledge' does not require that we work things out for
+ourselves but judgement does."
+
+At this point in time, as the bulk of their MBA programme lies ahead 
+of them, again wonder what we can do differently to help each person 
+develop better judgement.
+

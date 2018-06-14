@@ -1,0 +1,16 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "News"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "Another somewhat academic theme"
+homepage = "http://www.petersmith.org/"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.18
+
+[author]
+  name = "Peter Smith"
+  homepage = "http://www.petersmith.org"
+

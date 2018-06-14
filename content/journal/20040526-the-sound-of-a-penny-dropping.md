@@ -1,0 +1,56 @@
++++
+title = "The sound of a penny dropping"
+date = "2004-05-26T10:01:00+12:00"
+categories = ["MGMT 301"]
+slug = "the-sound-of-a-penny-dropping"
+draft = "False"
++++
+As always, it was interesting to read this week's [The wonderful world of
+Armi](http://www.thereflectivepractitioner.org/armi/archives/000347.html).
+
+It does sound like he has had a real _aha_ moment.
+Providing student's with meaningful aha's is very difficult.
+Here's why. For me, learning can only be said to have occurred if
+behaviour changes. If people reflect on their time at university, I
+wonder how much their behaviour changed. For example, how much has
+changed in the way assignments are tackled; e.g. how much do you rely
+on sample assignments to guide you.
+
+Behavioural change is hard because it only happens if a person's
+maps change. And maps only change (usually) when they are shown not to
+work in some way. Firstly, we might not be able to find a map to use
+i.e. We might have a street map of Auckland, but be lost in Los Angeles
+(Hmm, what would Weick say). If we know the that we have the wrong map
+that we experience it as a problem. George Kelly[^1] would say that
+when our construct system (maps) fails in this way we experience anxiety.
+
+Secondly, we might be using a map and then realise that it doesn't
+work any more. For example, if you're driving round Auckland using an
+old Auckland map (or as I did a few years ago, driving around London
+using an old map of London), you might find that roads you intended to
+use are now one-way, or closed off, or even there are new roads which
+you didn't expect. Your map is broken. When you notice your map is
+broken, George Kelly would say that we experience it as anger.
+
+So, for us to recognise our maps as being broken (in some way) we have
+to experience anxiety, anger, or something similar. All of which is
+uncomfortable--and people are very skilled at avoiding being uncomfortable.
+
+Now lecturers know this. And here's the dilemma. If real learning
+(changes in peoples maps) only happen through a degree of
+"discomfort" (and there's plenty of evidence for this), what impact
+does that have when student's carry out evaluations of the class.
+We'll the research seems to say that lecturers get marked down ... so
+the challenge is "How can I engender real learning, without shooting
+myself in the foot[^2] (career wise)".
+
+
+[^1]: George Kelly, and the ideas of personal construct psychology
+are pretty useful here, because it is a very 'map' orientated view of
+people (well, he uses the term constructs) and it really is geared to
+the idea of "man \[sic\] the scientist", that is people as constant
+learners. His _experience cycle_ is much like Kolb's _learning cycle_.
+
+[^2]: Because the evaluation sheets students complete really do
+matter.
+

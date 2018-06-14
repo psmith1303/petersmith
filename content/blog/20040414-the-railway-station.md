@@ -1,0 +1,27 @@
++++
+title = "The railway station"
+date = "2004-04-14T22:53:00+12:00"
+categories = ["The Arts"]
+slug = "the-railway-station"
+draft = "False"
++++
+Did you know you can have photos in your blog? It is pretty easy. Just
+choose "Upload file" from the main menu (that is is, if you have a blog
+here).
+
+![Rain Steam and Speed](/images/Railway-thumb.jpg)
+
+We went and had a look at the new railway station in downtown Auckland.  As we
+were wandering through the building I was struck by the beautiful windows.
+Click on the image for the full size picture.  The "window' is actually a glass
+dome in the ceiling.
+
+It really is a lovely station, but it is a shame that there are no
+trains---I've been there three or four times and there is never a train in the
+station. In fact, all the people I see there seem to be tourists exploring the
+architecture---not actually going anywhere.  In the defence of the station, I
+should say I've only been there at weekends. How different is it during the
+working week?
+
+Oh well, back to writing ...
+
