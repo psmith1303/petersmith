@@ -14,7 +14,7 @@ certificates (via [Letsencrypt](https://letsencrypt.org/)) and so
 https works as it should.
 
 To make it all happen, I also moved to using
-[Cloudflare](https://letsencrypt.org/] as my DNS provider. It makes
+[Cloudflare](https://letsencrypt.org/) as my DNS provider. It makes
 the provisioning of SSL certificates from Letsencrypt much cleaner (as
 verification is done automatically through an API to the DNS, rather
 than by creating files on the web server).
