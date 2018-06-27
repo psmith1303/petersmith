@@ -12,7 +12,7 @@ comments = "no"
 date = "2018-04-28"
 publishdate = "2018-04-28"
 aliases = [
-	"/publications/zones-of-particpation/index.html"/index.html"
+	"/publications/zones-of-participation/index.html"
 ]
 +++
 This paper shows how strategic initiatives in the context of well-established
