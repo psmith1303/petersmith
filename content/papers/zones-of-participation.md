@@ -10,7 +10,7 @@ tag = "advancing-innovation"
 keywords = ["open strategy", "inclusion", "exclusion", "transparency", "opacity"]
 comments = "no"
 date = "2018-04-28"
-publishdate = "2018-04-28"OA
+publishdate = "2018-04-28"
 aliases = [
 	"/publications/zones-of-particpation/index.html"/index.html"
 ]
