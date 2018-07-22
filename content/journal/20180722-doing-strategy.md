@@ -34,12 +34,12 @@ Going back to the course outline, it describes strategy has having
 three dimensions: strategy process, strategy content, and strategy
 context. The 'what' of strategy is about strategy content. My
 experience of courses such as BUSINESS 101 and 102, INTBUS 202, and
-MKTG 301 is that their emphasis, vis-%agrave;-vis strategy, tends to
+MKTG 301 is that their emphasis, vis-&agrave;-vis strategy, tends to
 be on the 'what' of strategy.
 
-I'm going to drift into so history here, that is not really covered in
+I'm going to drift into some history here, that is not really covered in
 the textbook (whereas the three dimensions are), as I find a
-historical analysis useful.
+historical perspective useful.
 
 The earliest work of strategy, as applied to commerce/business,
 emerged in the early 1960s and is associated with people such as
@@ -47,7 +47,7 @@ Ansoff and Chandler. They were largely concerned with what the
 organization should do; e.g., should the firm engage in related or
 unrelated diversification; should the firm be centralised or
 decentralised. The questions where about what was the best course of
-action for the firm. This was the dominate theme of both research into
+action for the firm. This was the dominant theme of both research into
 and the practice of strategy into the 1970s. In many ways I think this
 reached its zenith in the model from Schendel and Hoffer's book
 [-@schendel_1979_strategicmanagementnew]:
