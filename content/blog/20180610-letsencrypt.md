@@ -72,7 +72,7 @@ Done
 
 #### Setting up NAS
 
-Next stop was my FreeNAS box. FOr this I followed the very helpful instructions (and scripts) from [danb35](https://github.com/danb35/deploy-freenas).
+Next stop was my FreeNAS box. For this I followed the very helpful instructions (and scripts) from [danb35](https://github.com/danb35/deploy-freenas).
 
 There were a few things that fooled me for a while. After my first attempt, when I ran `deploy_freenas.py` I kept trying to install certificates, only to have it fail with a `Response 400` error. After putting in some debug code, I realised it was because I already had certificates --- the code names the certificates on any particular day with the same name. Once I deleted the certificates on FreeNAS things were better. Except ...
 
