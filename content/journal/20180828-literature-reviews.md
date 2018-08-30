@@ -22,7 +22,7 @@ know to make sense of the research.
 There are four main types of literature review: survey, critical,
 systematic/synthetic, and supportive.
 
-## The survey literature review
+#### The survey literature review
 
 The survey approach is most useful as one seeks to get an initial
 handle on a new area of research. As questions, the purpose of this type of review is:
@@ -31,7 +31,7 @@ handle on a new area of research. As questions, the purpose of this type of revi
 * What are the key issues and current trends?
 * What subjects are particularly interesting to me?
 
-## The critical literature review
+#### The critical literature review
 
 The critical approach is a "much more focused set of articles and
 books" and identifies the current arguments. From this review the
@@ -45,7 +45,7 @@ the purpose of this type of review is:
 * Where might I make a contribution?
 * What vocabulary should I use?
 
-## The systematic literature review
+#### The systematic literature review
 
 Having identified ones *research question*, the systematic review
 "searches multiple fields of inquiry for reputable work that addresses
@@ -56,7 +56,7 @@ As questions, the purpose of this type of review is:
 * What is already known in the area of intended contribution from
   qualitative and quantitative investigations across areas of inquiry?
 
-## The Supportive literature review
+#### The Supportive literature review
 
 "Once the [research] project is underway ... small forays into the
 literature", supportive reviews will be undertaken to address specific
@@ -65,8 +65,7 @@ questions, the purpose of this type of review is:
 
 * How can the literature resolve specific problems or support news that occur as I carry out my research
 
-
-# References
+#### References
 
 Huff, A. S. (2009). *Designing research for publication.* Thousand Oaks, CA: SAGE Publications.
 
