@@ -8,7 +8,7 @@ categories = [
 +++
 
 I have just spent the past 70 minutes, or so, talking with [Charlotta
-Windahl(https://scholar.google.com/citations?user=OZ-0drUAAAAJ) and
+Windahl](https://scholar.google.com/citations?user=OZ-0drUAAAAJ) and
 [Johnny Chan](https://scholar.google.com/citations?user=b5k1364AAAAJ)
 about their (potential) project on **market shaping**. Okay, I must
 confess here, that I am supervising a PhD student who is looking at
@@ -41,7 +41,7 @@ But this is the state of my thinking at the moment.
 One implication of the stance taken here is that it is a mistake to
 take *any* changes in a market to be an example of market shaping. 
 
-## Triggers of market shaping
+#### Triggers of market shaping
 
 In the face of competitive moves, firms may respond by either direct
 competitive responses (e.g., dropping prices) or by indirect
@@ -50,7 +50,7 @@ to reduce price competition). Thus, the trigger for an organization to
 pursue market shaping might be anything that is felt as change in
 competitive pressure.
 
-## Markets in transition
+#### Markets in transition
 
 Markets (as a form of institution) are always in a state of flux. They
 may be changing as a result of market shaping activity of a player in
@@ -60,7 +60,7 @@ the rules of the game have changed.
 Until that point, the market shaping attempts might be labelled either
 as nascent or maybe even failing.
 
-## Some examples of market shaping
+#### Some examples of market shaping
 
 I like the idea that the actions of the Japanese car industry in,
 regard to quality/reliability, was market shaping. They change
@@ -74,7 +74,7 @@ companies, reduced/removed a major 'substitute' for their more
 expensive product (albeit in the guise of public safety).
 
 
-## References
+#### References
 
 Dorobantu, S., Kaul, A., & Zelner, B. (2017). *Nonmarket strategy
 research through the lens of new institutional economics: An
