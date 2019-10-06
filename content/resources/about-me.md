@@ -9,11 +9,11 @@ weight = 900
 
 I am a teacher and lecturer at
 the
-[University of Auckland](http://www.auckland.ac.nz/ "The University of Auckland"),
+[University of Auckland](https://www.auckland.ac.nz/ "The University of Auckland"),
 where my main teaching and research activity is in the field of
 strategy. I am particularly interested
 in
-[Strategy-as-practice](http://www.strategy-as-practice.org/ "The special interest group for Strategy as Practice") (a
+[Strategy-as-practice](https://www.strategy-as-practice.org/ "The special interest group for Strategy as Practice") (a
 practice-based view of strategy), *Professional service firms*,
 especially engineering firms, and *Innovation as strategy*, especially
 technology roadmapping (TRM).
@@ -23,7 +23,7 @@ firms.
 
 I my spare time, I can be found
 enjoying
-[running](http://smashrun.com/peter.smith/ "The stats on my running"),
+[running](https://smashrun.com/peter.smith/ "The stats on my running"),
 and drinking coffee.
 
 
@@ -33,11 +33,11 @@ outlines my perspective and approach to teaching, along with what I
 actually do. However, it is a little out of date.
 
 I also do a some running, thanks to the encouragement
-of [Andrew](http://www.andrewisgettingfit.com/).
+of [Andrew](https://www.andrewisgettingfit.com/).
 
 In what little spare time I have, I have been looking
 into
-[the history of my family](http://genes.petersmith.org/ "The families of Peter Smith and Lisa Woolsey").
+[the history of my family](https://genes.petersmith.org/ "The families of Peter Smith and Lisa Woolsey").
 
 Perhaps unsurprisingly, the areas in which I consult are general
 management, strategy, high-technology firms, and professional service

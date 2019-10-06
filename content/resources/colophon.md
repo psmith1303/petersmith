@@ -6,7 +6,7 @@ slug = "colophon"
 draft = "False"
 weight = 995
 +++
-As [Brian A. Maicke](http://www.personal.psu.edu/bam49/notebook/colophon/) asks, "So what exactly is a colophon?" Well Google says:
+As [Brian A. Maicke](https://www.personal.psu.edu/bam49/notebook/colophon/) asks, "So what exactly is a colophon?" Well Google says:
 
 > **colophon**
 >
@@ -36,7 +36,7 @@ I have used many ways of generating sites. Oringally, I hand-coded HTML. Then ca
 My orginal Hugo theme came from [Kieran Healy](https://kieranhealy.org/), and he used the [Kube CSS framework](https://imperavi.com/kube/) from [Impervari](https://imperavi.com/). As I redesigned the site, I have stuck with the same [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) framework. Nothing fancy, just plain-ole CSS.
 
 #### Fonts
-My font choice is the default provided by Kube. [Font Awesome](http://fontawesome.io/) provides the scalable icons, as the do for so much of the web.
+My font choice is the default provided by Kube. [Font Awesome](https://fontawesome.io/) provides the scalable icons, as the do for so much of the web.
 
 #### Miscellany
 *Get Clear* from Smart Business Insights provide the analytics for the sites. 

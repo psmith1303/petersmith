@@ -11,8 +11,8 @@ Here you will find details of the sites policies, _etc._, such as copyright, usa
 ## Copyright
 
 The contents of this site are copyright  1996--2015 by Peter Smith
-[![Creative Commons License](http://creativecommons.org/images/public/somerights)](http://creativecommons.org/licenses/by-nc-sa/1.0/)
-This weblog is licensed under a [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/1.0/).
+[![Creative Commons License](https://creativecommons.org/images/public/somerights)](https://creativecommons.org/licenses/by-nc-sa/1.0/)
+This weblog is licensed under a [Creative Commons License](https://creativecommons.org/licenses/by-nc-sa/1.0/).
 
 
 ## Usage policy
