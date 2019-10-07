@@ -129,4 +129,4 @@ So that's all well and good.
 
 As an side, I setup a static site saying, "This is not the website your looking for" for anyone coming to my site (well trying to go through the Edgeroute).
 
-Now to get certificates working on my real websites---here at http://petersmith.org/
+Now to get certificates working on my real websites---here at https://petersmith.org/

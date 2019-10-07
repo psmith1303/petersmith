@@ -11,16 +11,16 @@ abandon-it.
 
 Went to a great seminar by Kevin Scholes of [Johnson and Scholes ---
 Exploring corporate
-strategy](http://www.pearsoneduc.com/book.asp?prodID=100000000004706&d=BS)
+strategy](https://www.pearsoneduc.com/book.asp?prodID=100000000004706&d=BS)
 fame. It is nice to meet someone who is so passionate about their
 teaching. He is also a great story teller.
 
 Had a chat with Biljana in marketing about [Mike's
-Bikes](http://www.smartsims.com/). It was good to talk about a subject
+Bikes](https://www.smartsims.com/). It was good to talk about a subject
 that really interests us both.
 
 I've noticed that that the battery in my old [Palm
-Pilot](http://www.palm.com/) is pretty low. In fact I really should get
+Pilot](https://www.palm.com/) is pretty low. In fact I really should get
 around to backing it up. Alas, when I upgraded to Windows XP I found the
 Palm desktop software would no longer install and work correctly. Having said
 that, a search of the Palm site indicates that an updated desktop (4.10) is

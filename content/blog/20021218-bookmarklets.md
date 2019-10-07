@@ -7,6 +7,6 @@ draft = "False"
 +++
 I'm hooked on bookmarklets. See [Bookmarklets and other useful
 things for IE's Links
-bar](http://www.fjordaan.uklinux.net/movabletype/fblog/archives/000059.html)
+bar](https://www.fjordaan.uklinux.net/movabletype/fblog/archives/000059.html)
 for more details.
 

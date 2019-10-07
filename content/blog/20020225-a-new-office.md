@@ -16,7 +16,7 @@ will be three main programs.
 - A series of writing retreats---the last one was so good, this was
  first on our list
 - A series of workshops covering things like
- [EndNote](http://www.isiresearchsoft.com/). I might be roped into
+ [EndNote](https://www.isiresearchsoft.com/). I might be roped into
  delivering that one in particular.
 - PhD seminars/get togethers/social event, every six weeks-or-so.
 - Presenting seminars by the PhD cohort to the department (for
