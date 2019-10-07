@@ -6,7 +6,7 @@ slug = "ten-years-to-master"
 draft = "False"
 +++
 In an interesting post by [Peter Norvig
-says](http://norvig.com/21-days.html) talks about how long it takes to
+says](https://norvig.com/21-days.html) talks about how long it takes to
 develop expertise. I've somewhat quoted him here; with a few tweaks to
 the contemporary references.
 

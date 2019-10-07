@@ -6,7 +6,7 @@ slug = "professionalism-the-third-logic"
 draft = "False"
 +++
 As some may know, we
-([MER](http://web-beta.archive.org/web/20100505010923/http://www.business.auckland.ac.nz/))
+([MER](https://web-beta.archive.org/web/20100505010923/https://www.business.auckland.ac.nz/))
 have a reading group. The book selected for today's meeting was:
 
 Freidson, E. (2001). _Professionalism: The third logic_. Chicago:
@@ -14,7 +14,7 @@ Chicago University Press.
 
 Thus, my reading for today is that book. Some parts of these notes are
 shamelessly taken from my current PhD thesis draft.
-By my calculation, when [Freidson](https://web.archive.org/web/20050829025939/http://itsa.ucsf.edu/~eliotf/)
+By my calculation, when [Freidson](https://web.archive.org/web/20050829025939/https://itsa.ucsf.edu/~eliotf/)
 wrote this he was 78. I hope that I can write as well when I reach that
 age.
 
@@ -59,7 +59,7 @@ notion of there being three logics at work -- that of the free market
 trust us), and that of the bureaucratic (let the buyer beware? I'm not
 sure).
 
-As [Catherine](http://staff.business.auckland.ac.nz/ccasey) says,
+As [Catherine](https://staff.business.auckland.ac.nz/ccasey) says,
 Freidson is unashamedly 'for' the professions. Actually, I'll just
 drift in to talking about reading group for a moment, as it is
 connected. Being professionals ourselves, the book was of

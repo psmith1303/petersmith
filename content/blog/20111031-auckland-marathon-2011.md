@@ -10,9 +10,9 @@ probably made the rookie mistake of going out too fast at the start of
 the race ... I was certainly telling myself that around the 30k mark
 (where I found it increasingly hard to hit my target pace). It was
 great to see
-[Kim W.](https://web.archive.org/web/20130605192809/http://www.dailymile.com/people/kiwikim21) 
-[Louise S.](https://web.archive.org/web/20120824182640/http://www.dailymile.com/people/louiseshrimpton) 
-[Andrew E.](https://web.archive.org/web/20120824182640/http://www.dailymile.com/people/AndrewE) and
+[Kim W.](https://web.archive.org/web/20130605192809/https://www.dailymile.com/people/kiwikim21) 
+[Louise S.](https://web.archive.org/web/20120824182640/https://www.dailymile.com/people/louiseshrimpton) 
+[Andrew E.](https://web.archive.org/web/20120824182640/https://www.dailymile.com/people/AndrewE) and
 Malcolm. Perhaps the hardest part of the race was trying to stand up
 after I had sat on the floor to remove my timing-chip. All in all, I
 happy to have beaten my previous record by 19 minutes. Note to self;

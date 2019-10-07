@@ -88,7 +88,7 @@ wp_import_fixup.py
 	"""
 	Script to fix hilighted code blocks from WordPress wp-syntax plugin.
 
-	WordPress wp-syntax plugin (http://wordpress.org/extend/plugins/wp-syntax/)
+	WordPress wp-syntax plugin (https://wordpress.org/extend/plugins/wp-syntax/)
 	uses a "lang" attr on pre tags to define the syntax hilighting, like:
 
 	    <pre lang="bash">

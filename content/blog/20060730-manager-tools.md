@@ -6,7 +6,7 @@ slug = "manager-tools"
 draft = "False"
 +++
 I do enjoy podcasts. One of the best ones I've found is done by the folks at
-[Manager Toos](http://www.manager-tools.com/). Their podcasts provide a wide
+[Manager Toos](https://www.manager-tools.com/). Their podcasts provide a wide
 range of behaviours that managers can implement to improve their effectiveness
 (and efficiency).
 

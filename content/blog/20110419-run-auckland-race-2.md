@@ -7,7 +7,7 @@ draft = "False"
 +++
 Sunday was the second race in the Run Auckland series. This time it was
 at [Te
-Atatu](http://maps.google.com/?q=http://share.abvio.com/4df8/7197/4cb5/61b3/Runmeter-Run-20110417-0901.kml).
+Atatu](https://maps.google.com/?q=https://share.abvio.com/4df8/7197/4cb5/61b3/Runmeter-Run-20110417-0901.kml).
 
 ![Race results for race two in the 2011 RUN Auckland
 series](/images/RunAuckland2.png "Run Auckland Race 2")

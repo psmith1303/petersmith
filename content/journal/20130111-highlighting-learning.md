@@ -6,10 +6,10 @@ slug = "highlighting-learning"
 draft = "False"
 +++
 A
-[report](http://www.psychologicalscience.org/index.php/publications/journals/pspi/learning-techniques.html
+[report](https://www.psychologicalscience.org/index.php/publications/journals/pspi/learning-techniques.html
 "A report")
 highlighted by [Times
-Ideas](http://ideas.time.com/2013/01/09/highlighting-is-a-waste-of-time-the-best-and-worst-learning-techniques/
+Ideas](https://ideas.time.com/2013/01/09/highlighting-is-a-waste-of-time-the-best-and-worst-learning-techniques/
 "Times Ideas on highlighting")
 suggests that highlighting information as a form of learning has little
 real impact over simply reading the material. Yet, the evidence (and my

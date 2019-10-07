@@ -95,7 +95,7 @@ meaningful; on the other hand, the intermittent articulating of
 elements of interpretive schemes as purposive values and interests
 that lie behind the strategic implementing or warranting of
 structural frameworks" (p. 5). I'd link this back to my interest in
-Kelly's [Personal construct psychology](http://www.repgrid.com/pcp/)
+Kelly's [Personal construct psychology](https://www.repgrid.com/pcp/)
 this is really about how people construe things.
 - "Such frames [provinces of meaning] typically remain taken for
 granted and incorporate both evaluative sentiments about the relative
@@ -104,7 +104,7 @@ of belief "which serve as the reference schema for my explication of
 the world'" (citing Shutz and Luhmann, p. 5). For me, here we have a
 direct link to the work of Argyris and Sch&ouml;n's single and double
 look leaning. I'm also reminded that
-[David Siedl](https://web.archive.org/web/20041230220946/http://www.bwl.uni-muenchen.de/personen/person.asp?id=999) is
+[David Siedl](https://web.archive.org/web/20041230220946/https://www.bwl.uni-muenchen.de/personen/person.asp?id=999) is
 keen on Luhmann and uses his work a lot in his work on
 strategy-as-practice. That our "provinces of meaning' are taken for
 granted, should be no surprise. They are embodied in our assumptions

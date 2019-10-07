@@ -28,9 +28,9 @@ focuses on the bad press that globalisation has been getting
 
 Having read the article, I can't help feeling that like the myth of
 globalisation as a source of
-[evil](http://www.hartford-hwp.com/archives/25/046.html) (as it is
+[evil](https://www.hartford-hwp.com/archives/25/046.html) (as it is
 portrayed on many
-[websites](http://www.google.com/search?q=globalization+evil)) needs to
+[websites](https://www.google.com/search?q=globalization+evil)) needs to
 be properly considered, rather than accepted (as politically driven
 rhetoric). It reminds me of the claims that the pace of change is
 faster than ever before ... I'm still waiting to see the _hard_

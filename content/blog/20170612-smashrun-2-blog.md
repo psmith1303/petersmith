@@ -13,8 +13,8 @@ title = "Smashrun 2 blog"
 
 Having moved away from using Facebook, I wanted to keep a record of my
 running, primarily for my own use. Although I do have all my runs
-on [SmashRun](http://smashrun.com/peter.smith), I decide to keep my
-[runs](http://www.petersmith.org/running/) on this site too.
+on [SmashRun](https://smashrun.com/peter.smith), I decide to keep my
+[runs](https://www.petersmith.org/running/) on this site too.
 
 And so, [BlogMyRun](https://github.com/psmith1303/BlogMyRun) was born.
 
@@ -38,4 +38,4 @@ I have also used the Google Static Map API to show the run. It is
 customised the way I like it :)
 
 I plan to build an extension to create monthly, 'macro-logs' in a
-similar vein to [fellrnr](http://fellrnr.com/wiki/Training_Macrolog).
+similar vein to [fellrnr](https://fellrnr.com/wiki/Training_Macrolog).

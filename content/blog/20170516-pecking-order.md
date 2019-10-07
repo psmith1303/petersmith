@@ -10,8 +10,8 @@ title = "Pecking order"
 +++
 
 Tonight we went along to
-see [Pecking Order](http://www.imdb.com/title/tt6760956/), courtesy
-of [Flicks](http://www.flicks.co.nz/). What a delightful film about
+see [Pecking Order](https://www.imdb.com/title/tt6760956/), courtesy
+of [Flicks](https://www.flicks.co.nz/). What a delightful film about
 the world of competitive chicken (and other birds) raising.
 
 The documentary team did a great job of showing the passion and

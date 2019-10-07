@@ -6,7 +6,7 @@ slug = "tisdalls-shop-of-the-year"
 draft = "False"
 +++
 I've been exchanging a few emails with Richard
-[Tisdall](http://www.tisdalls.co.nz/) regarding the "unreliable'
+[Tisdall](https://www.tisdalls.co.nz/) regarding the "unreliable'
 stepmeter, that I replaced. He has been concerned by the problem and
 very helpful in dealing with it. People sometimes complain that
 Kiwi's don't know how to _do_ customer service, but I think my

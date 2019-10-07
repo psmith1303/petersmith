@@ -6,7 +6,7 @@ slug = "a-new-server"
 draft = "False"
 +++
 I've decided to upgrade the server here. So, I've bought a box from [PB
-Technologies](http://www.pbtech.co.nz/), with an 2.5G Pentium CPU, 80GB of
+Technologies](https://www.pbtech.co.nz/), with an 2.5G Pentium CPU, 80GB of
 disk, and 512MB of memory. Alas, when started the installation process it kept
 hanging when it tried to access the hard disk. The last message on the screen
 was:

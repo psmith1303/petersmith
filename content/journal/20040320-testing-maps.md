@@ -6,7 +6,7 @@ slug = "testing-maps"
 draft = "False"
 +++
 The results from the first roll-over of [Net
-Mike](http://www.smartsims.com) are available now. Until Monday, teams
+Mike](https://www.smartsims.com) are available now. Until Monday, teams
 will only know the results in their own world. I wonder what lessons
 lessons are taken away from this first roll-over. How many people will
 consider their assumptions confirmed? What will happen in those
@@ -18,7 +18,7 @@ discarded and new maps will be sought for.
 
 On one level, I'm a big fan of the scientific method especially in
 its guise of
-[falsificationism](http://en.wikipedia.org/wiki/Falsificationism). As
+[falsificationism](https://en.wikipedia.org/wiki/Falsificationism). As
 an
 aside, I occasionally teach a course called [Managing Science & 
 Technology](https://ndeva.auckland.ac.nz/ndeva/course_catalog/Uofak/Science-General.htm).
@@ -42,8 +42,8 @@ exception that tests if the rule [is right or wrong]_. Thus, if there
 is an exception, then the rule is wrong (or incomplete).
 
 Anyway, for a more complete explanation of falsificationsim read
-about [Karl Popper](http://en.wikipedia.org/wiki/Karl_Popper) and
-[here](http://plato.stanford.edu/entries/popper/).
+about [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) and
+[here](https://plato.stanford.edu/entries/popper/).
 
 However, what happens in reality is different. When asked to prove
 something, people will seek confirmation rather than

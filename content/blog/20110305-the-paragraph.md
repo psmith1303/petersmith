@@ -7,7 +7,7 @@ draft = "False"
 +++
 The paragraph is a continuing source of mystery to me. What makes a
 really good paragraph? Is it as formulaic as suggested by [Thomas
-Basb&oslash;ll](http://secondlanguage.blogspot.com/2010/09/paragraph.html)?
+Basb&oslash;ll](https://secondlanguage.blogspot.com/2010/09/paragraph.html)?
 
 Actually, I'm doing a Thomas a great disservice when I caste his
 writing
@@ -34,7 +34,7 @@ is all that is needed.
 
 Differing levels of expertise requires differing types of "explanation"
 or instruction. So, while something like
-[this](http://www.indiana.edu/\~wts/pamphlets/paragraphs.shtml) might
+[this](https://www.indiana.edu/\~wts/pamphlets/paragraphs.shtml) might
 be
 highly appropriate and digestible at one level of expertise---say that of
 a regular (Unruh, 1979)---something like Thomas'es work might be more

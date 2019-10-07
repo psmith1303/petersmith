@@ -9,7 +9,7 @@ How strange, it is a month since we last went to the theatre.
 
 Anyway, at the last moment Chris had two spare for _Noises off_ at
 the
-[Bruce Mason Theatre](http://www.bmcentre.co.nz/). So off we jolly well
+[Bruce Mason Theatre](https://www.bmcentre.co.nz/). So off we jolly well
 went. What a riot. To quote the press release:
 
 > Quite simply the funniest play ever written about theatre. "Noises
@@ -23,7 +23,7 @@ went. What a riot. To quote the press release:
 Cast includes Peter Elliott, Mark Hadlow, Ilona Rodgers
 
 Well it was all true. I've seen the
-[movie](http://us.imdb.com/Title?0105017) before, but this was even
+[movie](https://us.imdb.com/Title?0105017) before, but this was even
 funnier. There is a magic that happens in a live performance which
 is different to the big screen.
 

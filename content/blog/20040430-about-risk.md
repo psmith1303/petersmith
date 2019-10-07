@@ -5,7 +5,7 @@ categories = ["Friday fives"]
 slug = "about-risk"
 draft = "False"
 +++
-And here is this week's [Friday Five](http://www.fridayfive.org/) (Okay, I've
+And here is this week's [Friday Five](https://www.fridayfive.org/) (Okay, I've
 recycled an old one, as there is no new F5).
 
 1.  What's the most daring thing you've ever done? Daring or
@@ -26,5 +26,5 @@ recycled an old one, as there is no new F5).
     has it's really good times and it's really bad times---and I'm never
     sure if it is worth the effort, reward, etc.
 
-This was recycled from [Chirir Blog](http://agg.zive.net/\~chihir/blog/archives/000148.html)
+This was recycled from [Chirir Blog](https://agg.zive.net/\~chihir/blog/archives/000148.html)
 

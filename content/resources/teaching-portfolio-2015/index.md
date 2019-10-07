@@ -208,7 +208,7 @@ The evidence from MGMT 300 is of a different type. Each week students submit a l
 Evidence of teaching scholarship
 --------------------------------
 
-Through all the examples given, I have demonstrated that I listen to student feedback, I reflect on my own teaching, and I make changes as a result. For additional evidence of that reflection, I invite readers to peruse http://petersmith.org/journal, a blog where---since 2002---I have be writing about my teaching both to foster my own learning and to make my teaching efforts more transparent to my students.
+Through all the examples given, I have demonstrated that I listen to student feedback, I reflect on my own teaching, and I make changes as a result. For additional evidence of that reflection, I invite readers to peruse https://petersmith.org/journal, a blog where---since 2002---I have be writing about my teaching both to foster my own learning and to make my teaching efforts more transparent to my students.
 
 I have also provided evidence that I am active in enhancing the quality of teaching, not only in my own department, but also in the Business School as a whole, and across the University.
 

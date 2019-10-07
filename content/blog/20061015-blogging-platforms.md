@@ -5,7 +5,7 @@ categories = ["Jottings"]
 slug = "blogging-platforms"
 draft = "False"
 +++
-I originally started to use [Django](http://www.djangoproject.com/)
+I originally started to use [Django](https://www.djangoproject.com/)
 because I wanted to write some on-line survey instruments. However, I
 seemed to have become sidetracked with porting my old site to Django.
 

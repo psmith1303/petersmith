@@ -13,12 +13,12 @@ up]({{< relref "20061015-blogging-platforms.md" >}}).
 In some ways, this was because I couldn't get Django working on [my current
 host]({{< relref "20061231-a-new-host.md" >}}).
 However, today, I spent a little time getting
-[Django](http://www.djangoproject.com/) working at [A2
-Hosting](http://www.a2hosting.com/), and this is how I did it.
+[Django](https://www.djangoproject.com/) working at [A2
+Hosting](https://www.a2hosting.com/), and this is how I did it.
 
 (A big thanks to [Jeff
-Croft](http://www2.jeffcroft.com/blog/2006/may/11/django-dreamhost/) and
-[Seamusc](http://seamusc.com/blog/2007/jun/11/how-get-django-working-digiwebie-using-djangocgi/)---they
+Croft](https://www2.jeffcroft.com/blog/2006/may/11/django-dreamhost/) and
+[Seamusc](https://seamusc.com/blog/2007/jun/11/how-get-django-working-digiwebie-using-djangocgi/)---they
 laid out pretty much what needed to be done).
 
 First of all I set up `www2.petersmith.org` (which
@@ -51,7 +51,7 @@ and in cgi-bin went dj.cgi
     Code copy/pasted from <span class="caps">PEP-0333</span> and then
     tweaked to serve django.
 
-    http://www.python.org/dev/peps/pep-0333/\#the-server-gateway-side
+    https://www.python.org/dev/peps/pep-0333/\#the-server-gateway-side
 
 
     This script assumes django is on your sys.path, and that your site code
@@ -69,11 +69,11 @@ and in cgi-bin went dj.cgi
     uncompressed zips on the sys.path for django and the site code, as
     this can be (theorectically) faster. See PEP-0273 specifically Benchmarks.
     
-    http://www.python.org/dev/peps/pep-0273/).
+    https://www.python.org/dev/peps/pep-0273/).
     
     Make sure all python files are compiled in your code base.  See
     
-    http://docs.python.org/lib/module-compileall.html)
+    https://docs.python.org/lib/module-compileall.html)
     
     import os, sys
     #insert a sys.path.append("whatever") in here if django is not

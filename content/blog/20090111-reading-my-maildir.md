@@ -5,10 +5,10 @@ categories = ["IT"]
 slug = "reading-my-maildir"
 draft = "False"
 +++
-Having downloaded my emails from [gmail](http://gmail.com/) (so I can
+Having downloaded my emails from [gmail](https://gmail.com/) (so I can
 have a backup), how do I read them (in case gmail goes down).
 
-We'll I've elected to use [mutt](http://www.mutt.org/), which is a nice
+We'll I've elected to use [mutt](https://www.mutt.org/), which is a nice
 piece of software based on the "Worse is better" principle. As the
 author of mutt says:
 

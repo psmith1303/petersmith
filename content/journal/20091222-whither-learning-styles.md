@@ -6,7 +6,7 @@ slug = "whither-learning-styles"
 draft = "False"
 +++
 The [Chronicle of Higher
-Education](http://chronicle.com/article/Matching-Teaching-Style-to/49497/)
+Education](https://chronicle.com/article/Matching-Teaching-Style-to/49497/)
 led me to an interesting article on learning styles by Pashler,
 McDaniel, Rohrer, and Bjork (2009).
 
@@ -36,14 +36,14 @@ The summary of the article outlines the idea of learning styles:
 > teachers and educators built around the concept of learning styles.
 
 The article, commissioned by [Psychological Science in the Public
-Interest](http://www3.interscience.wiley.com/journal/118508815/home),
+Interest](https://www3.interscience.wiley.com/journal/118508815/home),
 goes on to question what evidence there is to support these type of
 practices; _i.e._, is there evidence that attending to learning styles
 has a material impact on learning?
 
 I think my first exposure to the notion of learning styles was through
-[Darl](http://nz.linkedin.com/pub/darl-kolb/0/535/730)
-[Kolb](https://web.archive.org/web/20100513125012/http://staff.business.auckland.ac.nz/5145.aspx) who gave me David
+[Darl](https://nz.linkedin.com/pub/darl-kolb/0/535/730)
+[Kolb](https://web.archive.org/web/20100513125012/https://staff.business.auckland.ac.nz/5145.aspx) who gave me David
 Kolb's (1976) classic article to read. One take-away I had from that
 article was, that although we might have preferences (in our style of
 learning) it is generally a good thing to be able to draw on all the

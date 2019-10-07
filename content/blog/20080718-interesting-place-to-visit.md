@@ -5,6 +5,6 @@ categories = ["Jottings"]
 slug = "interesting-place-to-visit"
 draft = "False"
 +++
-[Andrew is getting fit](http://www.andrewisgettingfit.com/) and I'm envious; 
-[Jaffa Pete](http://jafapete.wordpress.com/) is thought provoking
+[Andrew is getting fit](https://www.andrewisgettingfit.com/) and I'm envious; 
+[Jaffa Pete](https://jafapete.wordpress.com/) is thought provoking
 

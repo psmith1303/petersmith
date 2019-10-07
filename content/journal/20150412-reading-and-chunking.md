@@ -15,6 +15,6 @@ For a typical 20-page reading, the first step should around five to ten minutes.
 
 The way this process works is that provides a framework for you to remember. The key ideas hang-off the main idea, and all the little ideas hang of the key-ideas. Even if you cannot remember all of the little ideas, you can often work them out because of the framework.
 
-This process works because of chunking. Chunking works because the brain can handle big chunks of information better than lots of little (unconnected information). It is easier to remember a phone number as 923 7178 rather than 923718. The chunks (923) and (7178) are more memorable. For a fuller description have a look at the page on Wikipedia on [chunking](http://en.wikipedia.org/wiki/Chunking_%28psychology%29). 
+This process works because of chunking. Chunking works because the brain can handle big chunks of information better than lots of little (unconnected information). It is easier to remember a phone number as 923 7178 rather than 923718. The chunks (923) and (7178) are more memorable. For a fuller description have a look at the page on Wikipedia on [chunking](https://en.wikipedia.org/wiki/Chunking_%28psychology%29). 
 
 Anyway, it works. And it is one of the ways you can be more effective in your learning.

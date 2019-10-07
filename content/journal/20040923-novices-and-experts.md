@@ -7,7 +7,7 @@ draft = "False"
 +++
 It doesn't seem so long ago that I was
 [commenting]({{< relref "20040727-on-becoming-a-critically-reflexive-practitioner.md" >}})
-on a recent edition of the [JM](http://www.sagepub.com/journal.aspx?pid=181)
+on a recent edition of the [JM](https://www.sagepub.com/journal.aspx?pid=181)
 (well actually it was a couple of months). Anyway, I'm just reading
 the latest edition 28(5), that is a special edition on _problem based
 learning_.

@@ -5,9 +5,9 @@ categories = ["Research"]
 slug = "recording-on-the-ipod"
 draft = "False"
 +++
-A few months ago, I brought a [Photo iPod](http://www.apple.com/ipodphoto/). As
+A few months ago, I brought a [Photo iPod](https://www.apple.com/ipodphoto/). As
 I was buying it, I noticed the
-[iTalk](http://www.griffintechnology.com/products/italk/) recorder adaptor and
+[iTalk](https://www.griffintechnology.com/products/italk/) recorder adaptor and
 thought "How cool, I can use the iPod as a dictation machine too". For
 dictating notes and memos, I've found the iTalk to offer pretty good quality
 recording. Somewhat belatedly I found out that the iPod is constrained to a
@@ -21,8 +21,8 @@ battery, but what about the sound quality. Well, to be blunt it was a
 little too quiet, and the microphone wasn't very omni-directional.
 
 The iTalk will hand an external microphone, and so, a little bit of research
-later (probably not enough) and I had a [Crown](http://www.crownaudio.com/)
-[Sound Grabber II](http://www.crownaudio.com/mic_web/soundgrabber.htm)
+later (probably not enough) and I had a [Crown](https://www.crownaudio.com/)
+[Sound Grabber II](https://www.crownaudio.com/mic_web/soundgrabber.htm)
 microphone in my hands.
 
 The result---terrible. The sound level was so low as to be useless.  I emailed
@@ -36,13 +36,13 @@ the 1.5 volt AAA that is normally used. Still not enough sound level.
 
 Somewhere, in reading about recording interviews for research purposes, I cam
 across a site (whose details I can't find again), that suggested that a company
-in the UK, [FEL Communications](http://www.felmicamps.co.uk/), did a range of
+in the UK, [FEL Communications](https://www.felmicamps.co.uk/), did a range of
 microphone pre-amplifies that were pretty good---"Did I need a pre-amp?", I
 wondered.
 
 Anyway, I email FEL explaining my problem.  They responded that they didn't
 know for certain if any of their products (and in particular their [MP3
-amplifier](http://www.felmicamps.co.uk/products/felmp3preamp.html)) would do
+amplifier](https://www.felmicamps.co.uk/products/felmp3preamp.html)) would do
 the job. But, kindly they said, order the product, and if it doesn't work you
 can return it for a full refund (including the air mail). What did I have to
 lose?
@@ -58,7 +58,7 @@ able to hear what was said.
 
 This isn't quite the end of the story. One idea I had was to use something like
 DragonDictate (aka [Dragon Naturally
-Speaking](http://www.scansoft.com/naturallyspeaking/)) to transcribe the files.
+Speaking](https://www.scansoft.com/naturallyspeaking/)) to transcribe the files.
 Alas, whilst Dragon will transcribe files, it won't do the 8Khz files produced
 by the iPod and (tucked away in the documentation) there is the admonishment
 that it can only hand single speakers. No doubt someone will suggest that I

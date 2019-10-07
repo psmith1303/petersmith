@@ -6,7 +6,7 @@ slug = "the-sound-of-a-penny-dropping"
 draft = "False"
 +++
 As always, it was interesting to read this week's [The wonderful world of
-Armi](http://www.thereflectivepractitioner.org/armi/archives/000347.html).
+Armi](https://www.thereflectivepractitioner.org/armi/archives/000347.html).
 
 It does sound like he has had a real _aha_ moment.
 Providing student's with meaningful aha's is very difficult.

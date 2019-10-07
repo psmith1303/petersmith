@@ -5,9 +5,9 @@ categories = ["IT"]
 slug = "google-mail"
 draft = "False"
 +++
-It seems that the [UoA](http://www.auckland.ac.nz) has moved its
-student email services over to [Google's](http://www.google.com/)
-[gmail](http://www.gmail.com/) service.
+It seems that the [UoA](https://www.auckland.ac.nz) has moved its
+student email services over to [Google's](https://www.google.com/)
+[gmail](https://www.gmail.com/) service.
 
 This means that all the old address (UPI@ec.auckland.ac.nz) will move to the new
 domain aucklanduni.ac.nz. No doubt this has been done to ease the

@@ -39,7 +39,7 @@ PPPoE interface). Doh! I thought my firewall wasn't working but it was
 me all along.
 
 In sorting out that problem, I came across the
-website <http://canyouseeme.org/>. Very useful for checking if a port
+website <https://canyouseeme.org/>. Very useful for checking if a port
 is open on your external IP address.
 
 I have some learning to do still about the power of this product. And

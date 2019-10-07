@@ -13,7 +13,7 @@ building' before I got into setting goals (aka, picking races).
 My starting point is my current 5 Km race time of 19:34. The various
 tables from version 2 of the "Daniels' running formula", give me a VDOT
 of 51. Will a little help from [FellRnr's VDOT
-calculator](http://fellrnr.com/wiki/VDOT_Calculator), my recommended
+calculator](https://fellrnr.com/wiki/VDOT_Calculator), my recommended
 training paces are:
 
 - Easy 4:51--5:28 min/Km (65--79% of max heart rate)

@@ -6,9 +6,9 @@ slug = "the-lives-of-others"
 draft = "False"
 +++
 We went an saw the Oscar winning [The lives of
-others](http://www.imdb.com/title/tt0405094/) this evening. As [Mark
-Kermode](http://en.wikipedia.org/wiki/Mark_Kermode) said, its good but
-[Pan's Labyrinth](http://www.imdb.com/title/tt0457430/) is better.
+others](https://www.imdb.com/title/tt0405094/) this evening. As [Mark
+Kermode](https://en.wikipedia.org/wiki/Mark_Kermode) said, its good but
+[Pan's Labyrinth](https://www.imdb.com/title/tt0457430/) is better.
 
 Both of these films are well worth seeing.
 

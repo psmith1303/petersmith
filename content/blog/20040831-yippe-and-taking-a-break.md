@@ -6,7 +6,7 @@ slug = "yippe-and-taking-a-break"
 draft = "False"
 +++
 I've had had a letter from the [Graduate
-Centre](http://www.auckland.ac.nz/postgraduate/) that says I:
+Centre](https://www.auckland.ac.nz/postgraduate/) that says I:
 >
 >  have satisfactorily completed the goals approved when you were
 initially registered. Accordingly your registration is confirmed.

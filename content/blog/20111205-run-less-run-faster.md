@@ -5,7 +5,7 @@ categories = ["Fitness"]
 slug = "run-less-run-faster"
 draft = "False"
 +++
-I'm a fan of the [FIRST](http://www2.furman.edu/sites/first/Pages/default.aspx
+I'm a fan of the [FIRST](https://www2.furman.edu/sites/first/Pages/default.aspx
 "Furman Institute of Running and Scientific Training") "Run less, run faster"
 programme. So, I've cobbled together a
 [spreadsheet](/images/FirstMarathon.xlsx "spreadsheet") that does most
@@ -15,7 +15,7 @@ actually-achieve).
 
 For a brief(ish) summary of the programme, you can read the [article at
 Runner's
-World](http://www.runnersworld.com/article/0,7120,s6-238-244---11816-0,00.html
+World](https://www.runnersworld.com/article/0,7120,s6-238-244---11816-0,00.html
 "Run less, run faster: An article from Runner's World").
 
 FIRST actually have two programmes, one for a first-time marathoner, and one

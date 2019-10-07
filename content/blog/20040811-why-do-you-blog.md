@@ -6,14 +6,14 @@ slug = "why-do-you-blog"
 draft = "False"
 +++
 I was talking with
-[Amit](https://web.archive.org/web/20070526211006/http://www.thereflectivepractitioner.org/armi/) yesterday, and
+[Amit](https://web.archive.org/web/20070526211006/https://www.thereflectivepractitioner.org/armi/) yesterday, and
 he was saying that he keeps on journalling/blogging because it forces
 him to reflect on what he has done. I think, like me, he finds it hard
 to be reflective in "the moment". No doubt a psychodramatist would
 refer to this an example of the cultural conserve inhibiting
 spontaneity.
 
-Any way, [Cao Xue-qin](https://web.archive.org/web/20070526211006/http://www.thereflectivepractitioner.org/cxq/) asked me
+Any way, [Cao Xue-qin](https://web.archive.org/web/20070526211006/https://www.thereflectivepractitioner.org/cxq/) asked me
 why I blog. Well, there is a part of me that enjoys the "sound" of my own
 voice. However, the three main reasons I blog are:
 

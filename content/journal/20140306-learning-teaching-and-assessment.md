@@ -7,7 +7,7 @@ draft = "False"
 +++
 I'm enrolled in the course ACADPRAC 701 *Learning, Teaching &
 Assessment* as part of the *Postgraduate Certificate in Academic
-Practice* at the [University of Auckland](http://www.auckland.ac.nz)
+Practice* at the [University of Auckland](https://www.auckland.ac.nz)
 
 The documentation for the course recommends that I:
 

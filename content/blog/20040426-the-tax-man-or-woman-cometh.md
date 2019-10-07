@@ -5,7 +5,7 @@ categories = ["The Arts"]
 slug = "the-tax-man-or-woman-cometh"
 draft = "False"
 +++
-Some mail from the [IRD](http://www.ird.govt.nz/) finally caught up
+Some mail from the [IRD](https://www.ird.govt.nz/) finally caught up
 with me. I was ---a little--- very surprised to find that that they felt I
 owed them about 7,700 in penalty tax, interest, etc. According to
 the tag line at the bottom of the statement, interest was accruing at
@@ -37,7 +37,7 @@ undertaking), and from my point of view it is working.  (BTW, cultural change
 is on my _very hard_ to achieve list.)
 
 As a final aside, one of the most engaging movies about people in tax
-department is [A taxing woman](http://www.imdb.com/title/tt0093502/)
+department is [A taxing woman](https://www.imdb.com/title/tt0093502/)
 (Marusa no onna). It's Japanese with English subtitles, but it is so
 funny. They made a sequel, but it wasn't nearly as-good.
 

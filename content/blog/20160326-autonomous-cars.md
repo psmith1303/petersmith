@@ -6,7 +6,7 @@ categories = ["Technology"]
 draft = "False"
 +++
 
-One of the presentations at ISPIM in Boston was by [Nicole Mace](https://www.linkedin.com/in/nichole-mace-44bb65) from [Zip Car](http://www.zipcar.com/). She said a lot of interesting things and, off the back of her comment about Zip Car being bout by Avis, it got me thinking about the nature of the disruption this innovation may create.
+One of the presentations at ISPIM in Boston was by [Nicole Mace](https://www.linkedin.com/in/nichole-mace-44bb65) from [Zip Car](https://www.zipcar.com/). She said a lot of interesting things and, off the back of her comment about Zip Car being bout by Avis, it got me thinking about the nature of the disruption this innovation may create.
 
 <!--more-->
 

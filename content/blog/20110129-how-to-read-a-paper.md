@@ -5,13 +5,13 @@ categories = ["Research"]
 slug = "how-to-read-a-paper"
 draft = "False"
 +++
-[Ben Goldacre](http://www.badscience.net/about-dr-ben-goldacre/) is one
+[Ben Goldacre](https://www.badscience.net/about-dr-ben-goldacre/) is one
 of my favourite journalists. Over the years I've particularly enjoyed
 his "debunking" of [Gillian
-McKeith](http://www.badscience.net/2007/02/ms-gillian-mckeith-banned-from-calling-herself-a-doctor/).
+McKeith](https://www.badscience.net/2007/02/ms-gillian-mckeith-banned-from-calling-herself-a-doctor/).
 
 Anyway, his latest column is a lovely read on [how to read a
-paper](http://www.badscience.net/2011/01/how-to-read-a-paper/).
+paper](https://www.badscience.net/2011/01/how-to-read-a-paper/).
 
-I thoroughly recommend getting his [RSS feed](http://www.badscience.net/feed/).
+I thoroughly recommend getting his [RSS feed](https://www.badscience.net/feed/).
 

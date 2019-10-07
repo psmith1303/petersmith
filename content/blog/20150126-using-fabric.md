@@ -12,7 +12,7 @@ content, etc). But, on Windoz systems 'make' is not always available.
 As a result I'm looking at fabric. Out of the box, Pelican will install fabric
 scripts to automate much of the posting/updating process. However, it has taken
 me a little while to find [an examples of using fabric to create new
-posts](http://nafiulis.me/making-a-static-blog-with-pelican.html) (or, more
+posts](https://nafiulis.me/making-a-static-blog-with-pelican.html) (or, more
 accurately, to easy the creation of new posts). I modified the code a little to
 use markdown rather than rst, and I added some code to launch vim to edit the
 post.

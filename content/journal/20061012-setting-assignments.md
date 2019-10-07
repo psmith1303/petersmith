@@ -50,7 +50,7 @@ hard to design assignments that are reliably "difficult". For
 example, when designing a multiple choice question (to be part of a
 test bank), I will often test it and analyse the results over several
 iterations and hundreds of students. I'll use
-[TestGraf](http://www.psych.mcgill.ca/faculty/ramsay/TestGraf.html) to
+[TestGraf](https://www.psych.mcgill.ca/faculty/ramsay/TestGraf.html) to
 perform the analysis to ensure that question _work_ in an
 appropriate (intended manner). Even with all my experience in
 writing multiple-choice questions I will still (occasionally)

@@ -13,10 +13,10 @@ On-line journals (web logs or 'blogs') have become a popular way for
 people to express their opinion on issues, and as a way to share their
 reflections. As part of my teaching I have encouraged students to share
 their work and their reflections through a web-site I run called-[The
-Reflective Practitioner](http://www.thereflectivepractitioner.org/).
-Based on an idea from Dartmouth ([DartBlogs](http://dartblogs.com/)),
+Reflective Practitioner](https://www.thereflectivepractitioner.org/).
+Based on an idea from Dartmouth ([DartBlogs](https://dartblogs.com/)),
 which in turn was based on an idea from [Harvard
-weblogs](http://blogs.law.harvard.edu/), this web-site allows students
+weblogs](https://blogs.law.harvard.edu/), this web-site allows students
 to keep an on-line journal. The evidence from the web-site's logs and
 from student feedback is that the journals are a very popular way for
 students to understand one another better. Although many students are
@@ -38,7 +38,7 @@ the method, they find it an enjoyable and reward method.
 ## Business Simulations
 
 For over five years, I have been using the business simulation [Mike's
-Bikes](http://www.smartsims.com/), both with first
+Bikes](https://www.smartsims.com/), both with first
 year students and with stage III students. The simulation is used as a
 practice field for students to experience being part of a
 multi-disciplinary management team. The simulation is a core part of the
@@ -48,7 +48,7 @@ encounter in managing their own team and their own company.
 
 ## Online teaching portfolio
 
-I have started to [share](http://www.petersmith.org/)my teaching
+I have started to [share](https://www.petersmith.org/)my teaching
 philosophy, as demonstrated by this journal, my research work, and my
 reflections on teaching with my students through the use of on-line
 journals or blogs.
@@ -58,7 +58,7 @@ journals or blogs.
 Having used _Cecil_ for a
 number of years to advise students of their grades I was interested in
 going one step further and mark their work online. Fortunately,[Turn It
-In](http://www.turnitin.com/) also allows for the electronic marking of
+In](https://www.turnitin.com/) also allows for the electronic marking of
 students' work. I have trialled this system with my students, and whilst
 they liked the immediacy and detail of the feedback process, there are
 some infrastructural problems that prevent me from adopting this; 
@@ -67,7 +67,7 @@ response is insufficient for it to be practical.
 
 ## Peer Feedback
 One of the facilities available through using [Turn It
-In](http://www.turnitin.com/)is peer feedback. Once
+In](https://www.turnitin.com/)is peer feedback. Once
 students have submitted their work to Turn It In, it is possible to set
 up rubrics that allow students to review and critique the work of their
 peers. I have used this for a number of years in the course *MGMT 302  
@@ -76,9 +76,9 @@ Business Policy & Strategy* and it is widely liked.
 ## Turn It In
 
 Having attended a seminar in Melbourne on plagiarism I was luckily
-enough to meet with John Barry, the founder and CEO of [iParadigms](http://www.iparadigms.com/). 
+enough to meet with John Barry, the founder and CEO of [iParadigms](https://www.iparadigms.com/). 
 One of the products that iParadigms produces is [Turn It
-In](http://www.turnitin.com/), a tool that checks the
+In](https://www.turnitin.com/), a tool that checks the
 originality of students' work. Since then I have be actively promoting
 the use of similar products and routinely use Turn It In in all my
 classes. Besides running teaching seminars on the subject I have
@@ -154,7 +154,7 @@ Having written over 600 questions there is, nevertheless, the lingering
 question, "Do they work?".
 
 This is where I have
-adopted [TestGraf](http://www.psych.mcgill.ca/faculty/ramsay/TestGraf.html) to
+adopted [TestGraf](https://www.psych.mcgill.ca/faculty/ramsay/TestGraf.html) to
 carry out statistical analysis of the questions. This analysis allows me
 to diagnose problems with whole tests, individual questions, and items
 with a question. Consequently, I have strong evidence of the quality, in

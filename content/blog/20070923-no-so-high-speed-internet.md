@@ -5,7 +5,7 @@ categories = ["IT"]
 slug = "no-so-high-speed-internet"
 draft = "False"
 +++
-I notice that in [Orcon's](http://www.orcon.net.nz/) _Terms and Conditions_ for
+I notice that in [Orcon's](https://www.orcon.net.nz/) _Terms and Conditions_ for
 broadband, there is a paragraph that says:
 
 > 6.1 You acknowledge that any claims made about speed of service
@@ -17,7 +17,7 @@ For sometime, I have been experiencing significant "slow-downs' at peak periods
 for international traffic. For example, most of the time for national traffic I
 get about 4,000kbs downstream and 500kbs upstream (I'm on their max/max
 plan, so that seems reasonable).  At off-peak, I get similar speeds (using
-[SpeedTest](http://www.speedtest.net/) to Australia and the US.
+[SpeedTest](https://www.speedtest.net/) to Australia and the US.
 
 Alas, at peak times, my downstream speed is often lower than my
 upstream speed (i.e. less than 400kbs). In other words, I'm getting at

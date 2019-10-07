@@ -7,7 +7,7 @@ draft = "False"
 +++
 It's been 10 years since I graduated with my MBA from the [University
 of
-Auckland](http://www.auckland.ac.nz/). When I was doing the MBA there
+Auckland](https://www.auckland.ac.nz/). When I was doing the MBA there
 were two streams. One stream was called
 the Management MBA, the other stream was
 known as the Executive. There were two differences between the two

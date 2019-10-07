@@ -5,7 +5,7 @@ categories = ["Friday fives"]
 slug = "friday-already"
 draft = "False"
 +++
-And here is this week's [Friday Five](http://www.fridayfive.org/)
+And here is this week's [Friday Five](https://www.fridayfive.org/)
 (Okay, I've recycled an old one, as there is no new F5).
 
 - What was the last song you heard? Ya-Ya by Buckwheat Zydeco Ils sont Partis

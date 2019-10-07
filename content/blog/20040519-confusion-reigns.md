@@ -7,7 +7,7 @@ draft = "False"
 +++
 I end up at a psychodrama class to night. I say _ended_ because I
 only popped in to drop off some books to the library at
-[ATCP](http://www.psychodrama.org.nz/atcp.html).
+[ATCP](https://www.psychodrama.org.nz/atcp.html).
 
 I'd had some confusing calls during the day about classes being on,
 so I went in just in case I was still confused (about the class being

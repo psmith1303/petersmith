@@ -24,7 +24,7 @@ to words. For example, we use the word accident in our every day lives
 and most of us recognise the meaning (which is often associated with
 blame or responsibility). However, in medicine the word has a different
 meaning ([An occurring symptom; esp. an unfavourable
-symptom](http://www.oed.com/view/Entry/1051?rskey=tPHQMm&result=1&isAdvanced=false\#)).
+symptom](https://www.oed.com/view/Entry/1051?rskey=tPHQMm&result=1&isAdvanced=false\#)).
 And yet the medical profession routinely distinguishes between that
 meaning and the more usual meaning.
 

@@ -6,7 +6,7 @@ slug = "opening-the-floodgates"
 draft = "False"
 +++
 After talking with
-[Darl](http://www.thereflectivepractitioner.org/dkolb/), I've sent an email out
+[Darl](https://www.thereflectivepractitioner.org/dkolb/), I've sent an email out
 through _Cecil_ to the
 [class]({{< relref "20040308-mgmt-301.md" >}}) about
 journaling.
@@ -21,7 +21,7 @@ thing of making a public commitment. Finally, it could just be
 out-and-out fun.
 
 Of course there are some downsides. The system I'm using here,
-[Movable Type](http://www.movabletype.org/), is one of the best
+[Movable Type](https://www.movabletype.org/), is one of the best
 blogging systems and it can be pretty straight forward to use--but
 if anyone wants to customise the look (and why shouldn't they) it can
 take the notice sometime to get to grips with the complexity of the

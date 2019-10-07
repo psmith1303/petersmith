@@ -6,7 +6,7 @@ slug = "how-to-write-an-article"
 draft = "False"
 +++
 Once again, from the excellent [Research as a second
-language](http://secondlanguage.blogspot.com/2010/02/materials-and-craft-skills.html),
+language](https://secondlanguage.blogspot.com/2010/02/materials-and-craft-skills.html),
 here is a guide to assembling an article.
 
 > Here's a way of getting started:

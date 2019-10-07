@@ -5,9 +5,9 @@ categories = ["The Arts"]
 slug = "whos-afraid-of-virginia-woolf"
 draft = "False"
 +++
-Lisa and I went to the [Maidment Theatre](http://www.maidment.auckland.ac.nz/)
+Lisa and I went to the [Maidment Theatre](https://www.maidment.auckland.ac.nz/)
 last night, and saw _Who's afraid of Virginia Woolf_.  I enjoyed the
-[movie](http://www.imdb.com/title/tt0061184/) when I saw it, but I enjoyed the
+[movie](https://www.imdb.com/title/tt0061184/) when I saw it, but I enjoyed the
 play even more.
 
 Whilst the whole caste were good, I think that Hera Dunleavy deserves a special

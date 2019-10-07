@@ -18,6 +18,6 @@ I've just finished reading a really good assignment that is well
 linked to _Mornington Crescent_. I've asked the author if I can
 circulate it. It has a few flaws, but it the best I've read so far.
 (And, it has a link to a good
-[site](http://madeira.physiol.ucl.ac.uk/cgi-bin/delphi/interactive/mcg/mcgames.pl)
+[site](https://madeira.physiol.ucl.ac.uk/cgi-bin/delphi/interactive/mcg/mcgames.pl)
 too.)
 

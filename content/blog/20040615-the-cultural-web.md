@@ -5,7 +5,7 @@ categories = ["Research"]
 slug = "the-cultural-web"
 draft = "False"
 +++
-I was talking [Rachel](http://staff.business.auckland.ac.nz/rwolfgramm)
+I was talking [Rachel](https://staff.business.auckland.ac.nz/rwolfgramm)
 about some of the work she has been doing with regards to strategy in
 Maori organisations. We digressed on to Johnson's (1992) and since
 neither of us had a slide on it, I quickly made this copy using

@@ -5,7 +5,7 @@ categories = ["The Arts"]
 slug = "animation-now"
 draft = "False"
 +++
-The first film of the [film festival](http://www.nzff.telecom.co.nz/) (for me
+The first film of the [film festival](https://www.nzff.telecom.co.nz/) (for me
 any way) was _Animation Now_; a collection of "animated gems"[^1]. I agree with
 someone else who was there, who said it wasn't as good as last year.
 

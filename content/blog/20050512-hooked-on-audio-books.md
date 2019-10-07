@@ -13,7 +13,7 @@ For some time I've been saying I'd like to do more reading. Of late
 most (all) of my reading has been linked to my research and teaching.  There
 has been little time for "recreational" reading.  That was before I got my
 [iPod]({{< relref "20050322-recording-on-the-ipod.md" >}})
-and before I found out about [Audible](http://www.audible.com/). Now I'm hooked
+and before I found out about [Audible](https://www.audible.com/). Now I'm hooked
 on buying and downloading audio books. The beauty of audio books on the iPod is
 that you can listen as you are walking from place to place. Now I can get
 through two or three books a month extra---it doesn't sound like much, but it

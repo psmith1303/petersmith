@@ -6,7 +6,7 @@ slug = "yale-on-writing"
 draft = "False"
 +++
 Yale college has some of the [best resources on
-writing](http://writing.yalecollege.yale.edu/writing-yale) that I have
+writing](https://writing.yalecollege.yale.edu/writing-yale) that I have
 come across. One of the challenges teachers face is to what extent
 should they draw on others material, as opposed to writing their own
 "guides".

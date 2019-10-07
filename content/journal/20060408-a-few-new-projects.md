@@ -8,12 +8,12 @@ draft = "False"
 I'm working on a few projects at the moment.
 
 Firstly, I'm setting up a couple of
-[Wikis](http://en.wikipedia.org/wiki/Wiki "What is a WikiWiki"). One
+[Wikis](https://en.wikipedia.org/wiki/Wiki "What is a WikiWiki"). One
 I'll use to create a resource for students doing the [MBA Research
-Project](http://www.mbanotebook.ac.nz/index.php/Main_Page "MBA
+Project](https://www.mbanotebook.ac.nz/index.php/Main_Page "MBA
 Research Project").
 
-The other will provide an overall guide _[The Auckland MBA&trade;](http://www.mbanotebook.ac.nz/ "Roadmap of the
+The other will provide an overall guide _[The Auckland MBA&trade;](https://www.mbanotebook.ac.nz/ "Roadmap of the
 Auckland MBA") programme.
 
 Secondly, I'm playing around with podcasts. I think it might be a
@@ -23,9 +23,9 @@ happening.
 
 Both the wiki and the podcasts have fairly steep learning curves.
 Besides get the necessary software set up
-([MoinMoin](http://moinmoin.wikiwikiweb.de/ "MoinMoin software") for
+([MoinMoin](https://moinmoin.wikiwikiweb.de/ "MoinMoin software") for
 the wiki, and
-[Audacity](http://audacity.sourceforge.net/ "Link to the main Audacity
+[Audacity](https://audacity.sourceforge.net/ "Link to the main Audacity
 site")
 for recording and editing the podcasts) the issues of how to
 structure both are quite interesting. For the Wiki the issue is one

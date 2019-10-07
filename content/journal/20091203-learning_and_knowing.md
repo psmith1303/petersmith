@@ -6,7 +6,7 @@ slug = "learning_and_knowing"
 draft = "False"
 +++
 For a number of months, [Lisa
-Callagher](https://web.archive.org/web/20100513124031/http://staff.business.auckland.ac.nz/5272.aspx) and I have
+Callagher](https://web.archive.org/web/20100513124031/https://staff.business.auckland.ac.nz/5272.aspx) and I have
 been talking about theories of practice. We have both found the
 discussions productive in sharpening our individual understanding of
 theories of practice. However, I have not taken the time to note the

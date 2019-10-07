@@ -6,11 +6,11 @@ slug = "pulled-pork-cochinita-pibil"
 draft = "False"
 +++
 Amongst the stream of articles that turn up through my [RSS
-reader](http://www.google.co.nz/reader) was one for pulled pork, aka [cochinita
-pibil](http://simplyrecipes.com/recipes/cochinita_pibil/).  [Eric
-Guthey](http://uk.cbs.dk/degree_programmes/cbs_graduate_school/kandidatuddannelser/leadership_and_management_studies/menu/faculty_staff/faculty_staff/line_coordinator/eric_guthey)
+reader](https://www.google.co.nz/reader) was one for pulled pork, aka [cochinita
+pibil](https://simplyrecipes.com/recipes/cochinita_pibil/).  [Eric
+Guthey](https://uk.cbs.dk/degree_programmes/cbs_graduate_school/kandidatuddannelser/leadership_and_management_studies/menu/faculty_staff/faculty_staff/line_coordinator/eric_guthey)
 had told me how great pulled pork could be, so I thought "why not?".  So, off
-to [Mexican Specialties](http://www.mexicanspecialities.co.nz/) for some and 24
+to [Mexican Specialties](https://www.mexicanspecialities.co.nz/) for some and 24
 hours later I had some of the most delicious pork ever.
 
 This recipe is definitely a keeper.

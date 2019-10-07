@@ -6,7 +6,7 @@ slug = "take-a-closer-look"
 draft = "False"
 +++
 I was reading [Amit's weekly journal
-entry](http://www.thereflectivepractitioner.org/armi/archives/000323.html)
+entry](https://www.thereflectivepractitioner.org/armi/archives/000323.html)
 today and I was struck by the change that seems to be happening in
 that team. In general terms, I think we (DPE)
 have noticed such changes in the past in other teams. I know I'm
@@ -38,7 +38,7 @@ final assignment--but, it isn't intended to be that. I'm just
 curious to understand the teams more fully.
 
 BTW, for those who are interested, I read a pretty solid [lit
-review](http://www.loyno.edu/\~dmyers/S04_classes/S04_CMMN702/temp_examples/www.stedwards.edu_science_last_Literature_Review.rtf)
+review](https://www.loyno.edu/\~dmyers/S04_classes/S04_CMMN702/temp_examples/www.stedwards.edu_science_last_Literature_Review.rtf)
 on Virtual Teams this morning. If you're interested in virtual
 teams, then it presents an interesting summary of some of the
 literature.

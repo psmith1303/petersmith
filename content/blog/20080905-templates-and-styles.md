@@ -7,7 +7,7 @@ draft = "False"
 +++
 Well it seems that my
 [upgrade]({{< relref "20080806-yet-another-upgrade.md" >}})
-of [Movable Type](http://www.movabletype.com/) didn't go as smoothly as
+of [Movable Type](https://www.movabletype.com/) didn't go as smoothly as
 I thought.
 
 Having moved to version 4.1, I rapidly, and too hastily moved to

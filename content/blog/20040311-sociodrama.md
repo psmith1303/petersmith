@@ -6,7 +6,7 @@ categories = ["Psychodrama"]
 draft = "False"
 +++
 
-[Judith McMorland](http://web.archive.org/web/20050307052941/http://www.colearnz.co.nz/) and
+[Judith McMorland](https://web.archive.org/web/20050307052941/https://www.colearnz.co.nz/) and
 I have decided to run a short seminar or workshop for postgrad
 students, Doctoral candidates, and staff. The title of the seminar is
 _Exploring the year ahead: creating responses to challenges and
@@ -31,7 +31,7 @@ role training:
 > system. Role training focuses on the development of one aspect of
 > a role, but has in its larger view the transformation of the
 > groups and culture in which we live. "[Wellington Psychodrama
-> Training Institute](https://web.archive.org/web/20041114040426/http://psychodrama.org.nz/programme_wpti_training.html).
+> Training Institute](https://web.archive.org/web/20041114040426/https://psychodrama.org.nz/programme_wpti_training.html).
 
 Anyway, at the bottom of the flyer is says that I'm a _sociodramatist
 in training_. So, I shouldn't be surprised that some (thanks Karla)

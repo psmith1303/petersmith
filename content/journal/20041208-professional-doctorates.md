@@ -6,23 +6,23 @@ slug = "professional-doctorates"
 draft = "False"
 +++
 One of the workshops I attended whilst at
-[ANZAM](http://www.anzam.uts.edu.au/) was entitled *Best
+[ANZAM](https://www.anzam.uts.edu.au/) was entitled *Best
 practices framework in doctoral education*. It was 'hosted' by Ronel Erwee from
-the [University of Southern Queensland](http://www.usq.edu.au/). In
+the [University of Southern Queensland](https://www.usq.edu.au/). In
 principle, the workshop was about the requirements that Australian
 universities have to meet for their professional (taught?)
 doctorate programs, namely for DBs. Being in charge of the USQ
 program since '97, Ronel has been active in this area for awhile and
-has written on it [too](http://www.usq.edu.au/resources/erwee2004vol1.pdf).
+has written on it [too](https://www.usq.edu.au/resources/erwee2004vol1.pdf).
 
 Most of the participants are actively involved in DBA programs (mainly
 in Australia), but main of these programs are offered (very
 profitably) as distance education in Asia. In this regard, of
 particular interest was
-[Aldelaide's](http://www.adelaide.edu.au/) [program](https://web.archive.org/web/20041210040725/http://business.unisa.edu.au/igsm/dba/default.asp) which
+[Aldelaide's](https://www.adelaide.edu.au/) [program](https://web.archive.org/web/20041210040725/https://business.unisa.edu.au/igsm/dba/default.asp) which
 has 50 local students and about 450 overseas! In addition, Clive
 Smallman, who has a lot of experience in the UK and Europe, is looking
-at what [Lincoln](http://www.lincoln.ac.nz/) might do.
+at what [Lincoln](https://www.lincoln.ac.nz/) might do.
 
 Most of the programs are three years long. The first year comprising
 of a number of 'papers', and the remaining two years being spent of a

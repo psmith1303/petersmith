@@ -5,7 +5,7 @@ categories = ["Friday fives"]
 slug = "the-end-of-an-era"
 draft = "False"
 +++
-It seems like [Friday Five](http://www.fridayfive.org/) has ended.
+It seems like [Friday Five](https://www.fridayfive.org/) has ended.
 
 As the site says:
 

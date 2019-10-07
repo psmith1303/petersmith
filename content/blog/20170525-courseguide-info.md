@@ -27,7 +27,7 @@ Well that's not strictly true. I did do a few things different to the guide.
 
 I went with a rather generic domain name, so that, if needed in
 future, I can add the content for other courses there. I.e., I will
-really use http://courseguide.info/business705/ for this course.
+really use https://courseguide.info/business705/ for this course.
 
 I plan to use [bookdown](https://bookdown.org/yihui/bookdown/) to
 stucture the data; that way I can deliver it either as a website, a

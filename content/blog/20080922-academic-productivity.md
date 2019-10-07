@@ -6,7 +6,7 @@ slug = "academic-productivity"
 draft = "False"
 +++
 PhD's and productivity. What could be relevant at this juncture?
-[Academic Productivity](http://www.academicproductivity.com/) does what
+[Academic Productivity](https://www.academicproductivity.com/) does what
 it says on the box.
 Tucked away on the site are the following observations:
 
@@ -15,7 +15,7 @@ Tucked away on the site are the following observations:
 
 
 The second point reminded me of a joke. I found this copy at
-[Rabbitchick](http://c0y0t3.blogspot.com/2005/09/choose-your-phd-supervisor-carefully.html)
+[Rabbitchick](https://c0y0t3.blogspot.com/2005/09/choose-your-phd-supervisor-carefully.html)
 
 > One sunny day a rabbit came out of her hole in the ground to
 enjoy the fine weather.  The day was so nice that she became careless and a fox snuck up behind

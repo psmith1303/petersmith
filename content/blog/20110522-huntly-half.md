@@ -6,10 +6,10 @@ slug = "huntly-half"
 draft = "False"
 +++
 Did I mention I did the [Huntly half
-marathon](http://www.huntlyhalf.co.nz/). Did I mention that it was a
+marathon](https://www.huntlyhalf.co.nz/). Did I mention that it was a
 new
 personal best time? Did I mention that it gave me a qualifying time for
-the [New York marathon](http://www.nycmarathon.org/) next year?
+the [New York marathon](https://www.nycmarathon.org/) next year?
 
 Well it's all true.
 

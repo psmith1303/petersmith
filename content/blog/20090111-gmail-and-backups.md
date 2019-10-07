@@ -6,7 +6,7 @@ slug = "gmail-and-backups"
 draft = "False"
 +++
 I tend to keep all my email. In fact, I've been doing that since 1999.
-The [University of Auckland Business School](http://www.business.auckland.ac.nz/) 
+The [University of Auckland Business School](https://www.business.auckland.ac.nz/) 
 uses Exchange and puts quotas on the amount of mail that each individual 
 can store. Although, over the years, the size of the quota has increased, 
 it isn't enough to allow me to keep all my email. So, I've been using 
@@ -16,15 +16,15 @@ is now over 3Gb (which I suppose isn't much in the scheme of things),
 but it is a constant source of worry to our IT folks.
 
 I've often wondered how else I might store the messages, and I think I
-might put them all up on [gmail](http://gmail.com). Although gmail is
+might put them all up on [gmail](https://gmail.com). Although gmail is
 reliable, it isn't 100%, so if I do use it as my mail archive, I also
 want a separate backup.
 
 Having looked around, I think I might use
-[getmail](http://pyropus.ca/software/getmail/) to copy my email from
-gmail into a [maildir](http://en.wikipedia.org/wiki/Maildir)
+[getmail](https://pyropus.ca/software/getmail/) to copy my email from
+gmail into a [maildir](https://en.wikipedia.org/wiki/Maildir)
 Roughly, I followed the instructions from [George
-Donnelly](http://georgedonnelly.com/unix/how-to-quickly-set-up-a-daily-backup-of-your-gmail-account)
+Donnelly](https://georgedonnelly.com/unix/how-to-quickly-set-up-a-daily-backup-of-your-gmail-account)
 
 I tweaked a couple of things. My rcfile (getmail.gmail) looks like
 this:

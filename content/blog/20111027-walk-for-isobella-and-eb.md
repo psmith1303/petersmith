@@ -9,14 +9,14 @@ I'm running the Auckland Marathon on Sunday. I'm looking forward to it, and it
 should be fun. A few weeks later, I'll be in
 [Kerikeri](https://maps.google.com/maps?q=kerikeri&hl=en&sll=37.0625,--95.677068&sspn=62.057085,62.490234&vpsrc=0&hnear=Kerikeri,+Northland,+New+Zealand&t=m&z=11)
 running the [KeriKeri half
-marathon](http://www.runwalkseries.co.nz/default.asp?PageID=22925).
+marathon](https://www.runwalkseries.co.nz/default.asp?PageID=22925).
 
 I'm doing the run at KeriKeri to raise awareness about Epidermylosis Bullosa
 and to raise money for Debra New Zealand, a [support group for sufferers of
-EB](http://www.facebook.com/pages/Walk-for-Isobella-EB/201005623259849?sk=info)
+EB](https://www.facebook.com/pages/Walk-for-Isobella-EB/201005623259849?sk=info)
 and their families. Most of the information here, I've taken from the [Walk for
 Isobella and
-EB](http://www.facebook.com/pages/Walk-for-Isobella-EB/201005623259849) pages.
+EB](https://www.facebook.com/pages/Walk-for-Isobella-EB/201005623259849) pages.
 
 > Epidermolysis Bullosa is medical Latin for skin that blisters and
 > tears easily. _Epidermal_ describes "outer skin layers'; _lysis_ means

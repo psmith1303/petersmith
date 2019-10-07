@@ -19,7 +19,7 @@ rather than at a more sophisticated stage III level. e.g. So,
 did anyone who focused on EI or EQ consider that it
 is a socially constructed map (possible based on other, more
 established, personality factors from the [big
-five](http://www.uwmc.uwc.edu/psychology/big_five.htm))?
+five](https://www.uwmc.uwc.edu/psychology/big_five.htm))?
 
 Anyway, I think for next time we should remove that topic from the
 survey and replace it with something else.

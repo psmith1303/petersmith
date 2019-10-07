@@ -6,7 +6,7 @@ slug = "the-economics-of-textbook"
 draft = "False"
 +++
 [Andrea
-James](http://www.boingboing.net/2010/01/03/prescription-for-con.html)
+James](https://www.boingboing.net/2010/01/03/prescription-for-con.html)
 has been talking about the economics of textbooks, and how the money is
 distributed. He reports that:
 

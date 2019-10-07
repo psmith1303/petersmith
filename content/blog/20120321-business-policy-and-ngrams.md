@@ -8,7 +8,7 @@ draft = "False"
 Much has been written about the change from _business policy_ to
 _business strategy_ (aka strategic management). I thought it would be
 interesting to look at that change over time. So, searching [Google's
-corpus of ngram books](http://books.google.com/ngrams/) I've tracked
+corpus of ngram books](https://books.google.com/ngrams/) I've tracked
 the rise and fall of business policy and business strategy.
 
 ![US english chart](/images/US-eng-chart.png "n-gram for US strategy and policy")

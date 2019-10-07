@@ -16,8 +16,8 @@ citations look. I take it for granted that they are correct.
 _I was wrong._ It should have been (Oram, 2007, 2011).
 
 As a result, [I have reported
-it](http://forums.zotero.org/discussion/17356/semicolions-in-apa-6th) to
-the good folk at [Zotero](http://www.zotero.org/). They say it should be
+it](https://forums.zotero.org/discussion/17356/semicolions-in-apa-6th) to
+the good folk at [Zotero](https://www.zotero.org/). They say it should be
 fixed in the next day or two. I'll refresh my styles next week and see
 what happens.
 

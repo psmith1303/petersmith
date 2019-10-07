@@ -6,9 +6,9 @@ slug = "our-new-house"
 draft = "False"
 +++
 Well we have finally moved into our new house. It was designed by
-[Chris Tate](http://www.christate.co.nz/) and built by DW Homes. It's great.
+[Chris Tate](https://www.christate.co.nz/) and built by DW Homes. It's great.
 Of course there are a few things for
- [DW Homes to resolve](http://66uqs.tadalist.com/lists/1798221/public), but that is
+ [DW Homes to resolve](https://66uqs.tadalist.com/lists/1798221/public), but that is
 probably true of any new building.
 
 So this is the before picture ...

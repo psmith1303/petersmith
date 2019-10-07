@@ -30,7 +30,7 @@ mmol/l (less than 2.0---good), and my total cholesterol to HDL ratio is 3.4
 (and they like it below 4.5).  So, generally, it sounds good.  I had hope he
 might have reduced the Inhibace, but no, not yet. In fact he's put me on folic
 acid too. I'll have to do some
-[reading](http://www.qmw.ac.uk/poffice/nr221102.shtml) on that.
+[reading](https://www.qmw.ac.uk/poffice/nr221102.shtml) on that.
 
 [^1]: Actually, he said for heart attack patients with bad arteries (not me
 really), they like it to below 2.5 mmol/l so I feel pretty good about it

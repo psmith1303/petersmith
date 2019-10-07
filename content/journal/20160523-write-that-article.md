@@ -7,7 +7,7 @@ draft = "False"
 
 +++
 
-I these notes are based on the presentation [Write that article in 7 days](http://www.slideshare.net/ingermewburn/write-that-journal-article-in-7-days-12742195) by Dr Inger Meburn and Dr Judy Maxwell.
+I these notes are based on the presentation [Write that article in 7 days](https://www.slideshare.net/ingermewburn/write-that-journal-article-in-7-days-12742195) by Dr Inger Meburn and Dr Judy Maxwell.
 
 First, if you have data, artefacts or ideas, prelim analysis or thoughts then it is possible to churn out an article quickly.
 

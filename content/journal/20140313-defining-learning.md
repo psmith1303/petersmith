@@ -6,7 +6,7 @@ slug = "defining-learning"
 draft = "False"
 +++
 I have come across some engaging material by [Terry
-Doyle](http://learnercenteredteaching.wordpress.com/) that is intended
+Doyle](https://learnercenteredteaching.wordpress.com/) that is intended
 to help faculty "in moving from a teacher centered practice to a learner
 centred one". What stands out for me is the way he draws on
 contemporary neuroscience understanding of learning. His definition of

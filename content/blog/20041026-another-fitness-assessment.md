@@ -6,7 +6,7 @@ slug = "another-fitness-assessment"
 draft = "False"
 +++
 I had another fitness assessment at the university's---[Recreation-
-Centre](http://www2.auckland.ac.nz/recreation/) today. Here are
+Centre](https://www2.auckland.ac.nz/recreation/) today. Here are
 the results.
 
 Overall, my weight loss has plateaued  but I'm definitely fitter. I

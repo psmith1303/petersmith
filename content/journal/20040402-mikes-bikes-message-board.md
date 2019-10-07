@@ -6,7 +6,7 @@ slug = "mikes-bikes-message-board"
 draft = "False"
 +++
 Every Friday, when teaching MGMT 301, I
-check [Net Mike](http://www.smartsims.com) to see if everything is ready
+check [Net Mike](https://www.smartsims.com) to see if everything is ready
 for the roll-over later in the day. If I have time on my hands I also
 read the message board that is built into Net Mike.
 

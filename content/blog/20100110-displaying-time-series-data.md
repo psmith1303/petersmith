@@ -8,7 +8,7 @@ draft = "False"
 From time-to-time its necessary to display time-series data. I've always tended
 to use some form of line graph. But there are other ways. In [11 Ways to
 Visualize Changes Over
-Time](http://flowingdata.com/2010/01/07/11-ways-to-visualize-changes-over-time-a-guide/),
+Time](https://flowingdata.com/2010/01/07/11-ways-to-visualize-changes-over-time-a-guide/),
 Nathan suggests aside from the line, one might use:
 
 - the scatter
@@ -26,5 +26,5 @@ And in the comments there are a whole lot more suggested.
 
 I was so interested in Nathan's post, that I read more of his site.  It's good.
 Very good. So much so that I've subscribed to [his RSS
-feed](http://feeds.feedburner.com/FlowingData).
+feed](https://feeds.feedburner.com/FlowingData).
 

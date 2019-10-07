@@ -17,14 +17,14 @@ different from the question "_Could_ it make a difference to
 the quality of journals that people have to do?"). But then it struck me
 --perhaps we should adopt _learning journals_ instead of 'vanilla'
 journals. (There is plenty of information on learning journals on
-the web. See [here](http://www.audiencedialogue.org/journal.html), 
-[here](http://www.qub.ac.uk/mgt/itsoc/proj/learjour.html), or
-[here](http://www.lancs.ac.uk/staff/gyaccp/cjgh_27_2_05lores.pdf)--
+the web. See [here](https://www.audiencedialogue.org/journal.html), 
+[here](https://www.qub.ac.uk/mgt/itsoc/proj/learjour.html), or
+[here](https://www.lancs.ac.uk/staff/gyaccp/cjgh_27_2_05lores.pdf)--
 these are just a few from a [Google
-search](http://www.google.com/search?q=%22learning+log%22+%22learning+journal)
+search](https://www.google.com/search?q=%22learning+log%22+%22learning+journal)
 --I didn't even attempt to find a quality source from somewhere like
 the [Journal of Management
-Education](http://www.ingenta.com/journals/browse/sage/j285)--and yes,
+Education](https://www.ingenta.com/journals/browse/sage/j285)--and yes,
 there are a couple of article there (one even cites Daudelin)).
 So maybe in week one we could have student's read the _Learning from
 experience through reflection_ article, do some research into
@@ -39,7 +39,7 @@ Anyway, I'd be interested in some feedback on this, so please "mail
 me with your thoughts.
 
 Having said all of this, and having read the _afore-linked_
-articles above, including the two in [JME](http://www.ingenta.com/journals/browse/sage/j285),
+articles above, including the two in [JME](https://www.ingenta.com/journals/browse/sage/j285),
 I'm very tempted to do trial it. And so, a la Kolb (David A. Kolb, not
 Darl Kolb), I prepare to go round the leaning cycle-again.
 

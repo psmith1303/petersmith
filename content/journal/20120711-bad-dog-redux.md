@@ -8,7 +8,7 @@ draft = "False"
 It lives (again)!
 
 [Bad]({{< relref "20060728-bad-dog.md" >}}) [Dog]({{< relref "20070223-bad-dog-2.md" >}})
-is [back up and running](http://baddog.ac.nz "Off to Bad Dog").
+is [back up and running](https://baddog.ac.nz "Off to Bad Dog").
 
 At this stage, I have set it up to allow students to maintain blogs (as a
 form of learning journals) and later I hope to get a wiki working again.

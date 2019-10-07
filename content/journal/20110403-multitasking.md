@@ -10,11 +10,11 @@ overload](https://www.mckinseyquarterly.com/Organization/Talent/Recovering_from_
 But it also talked about the consequences of multitasking.
 
 There is a lot of
-[popular](http://understandingteenagers.com.au/blog/2010/07/generation-z-multitasking-teens/)
-[writing](http://www.ehow.com/info_8056211_generation-characteristics.html)
-[about](https://web.archive.org/web/20120718095637/http://www.planetdomainnews.com/news/articles/228/1/Are-You-Ready-for-Generation-Z/Page1.html)
+[popular](https://understandingteenagers.com.au/blog/2010/07/generation-z-multitasking-teens/)
+[writing](https://www.ehow.com/info_8056211_generation-characteristics.html)
+[about](https://web.archive.org/web/20120718095637/https://www.planetdomainnews.com/news/articles/228/1/Are-You-Ready-for-Generation-Z/Page1.html)
 the
-[current](http://www.kellyservices.ca/eprise/main/web/us/hr_manager/articles_sept07_generation)
+[current](https://www.kellyservices.ca/eprise/main/web/us/hr_manager/articles_sept07_generation)
 generation doing a lot of multitasking. But I wonder where is the
 evidence that they are any better at it than any other generation.
 

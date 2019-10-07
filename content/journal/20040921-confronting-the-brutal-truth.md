@@ -11,7 +11,7 @@ take-overs, insolvent firms, firms who are just realising that they
 might not win) is the one that is indicated in the Black Book (and in
 the Red Book?) by Jim Collins.
 
-_Also see website on [Confronting the brutal truth](http://www.jimcollins.com)_
+_Also see website on [Confronting the brutal truth](https://www.jimcollins.com)_
 
 Alas, out of all the journals I've read today, only one person seems
 to have made use of it (in fact no one else even mentioned it). Which
@@ -24,5 +24,5 @@ Anyway, I recommend the reading to you.
 
 (Oh, BTW, every time
 I read this article I'm reminded of the Vietnam veteran in [Pulp
-Fiction](http://www.imdb.com/title/tt0110912/))
+Fiction](https://www.imdb.com/title/tt0110912/))
 

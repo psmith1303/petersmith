@@ -9,22 +9,22 @@ weight = 405
 
 ## Fourth Annual Teaching And Learning Showcase
 Each year, the [Centre for Professional
-Development](http://www.auckland.ac.nz/) at the. [University of
-Auckland](http://www.auckland.ac.nz/), holds the Teaching and Learning
+Development](https://www.auckland.ac.nz/) at the. [University of
+Auckland](https://www.auckland.ac.nz/), holds the Teaching and Learning
 Showcase, where staff get together in order to share *The art of
 excellent teaching*. As part of this year's showcase, [Lisa
-Callagher](https://web.archive.org/web/20080226045114/http://staff.business.auckland.ac.nz/lcallagher) and I
+Callagher](https://web.archive.org/web/20080226045114/https://staff.business.auckland.ac.nz/lcallagher) and I
 presented the initial results of our work on developing greater academic
 honesty amongst students.
 
 ## Using peer reviews
-Today I was hosted by [ISOM](http://www.isom.auckland.ac.nz/) to talk
+Today I was hosted by [ISOM](https://www.isom.auckland.ac.nz/) to talk
 about they ways in which I have used the "Peer Review" feature
-of [TurnItIn](http://www.turnitin.com/). This is a brief summary of my
+of [TurnItIn](https://www.turnitin.com/). This is a brief summary of my
 talk.
 
 I have been using the Peer Review feature
-of [TurnItIn](http://www.turnitin.com/) for the past two years in my
+of [TurnItIn](https://www.turnitin.com/) for the past two years in my
 stage III course*Business Policy & Strategy*. The approach I have used
 consists of students submitting their assignments to TurnItIn, reviewing
 three of their peers' assignments (and in turn having their own
@@ -39,7 +39,7 @@ during week eleven---giving me just enough time to mark it before any
 final examination. When the timing of other assignments are taken into
 account, scheduling of peer reviews is not a trivial matter.
 
-[TurnItIn](http://www.turnitin.com/) allows the feedback to be
+[TurnItIn](https://www.turnitin.com/) allows the feedback to be
 structured in two ways. Firstly, the students can answer questions about
 the assignment they are reviewing; for example, "In what way could the
 introduction to this essay be improved?" Secondly, Likert like scales
@@ -57,11 +57,11 @@ receiving three sets of feedback and having seen three other essays
 weak reviewer.
 
 There are three ways by
-which [TurnItIn](http://www.turnitin.com/) allows reviewers to be
+which [TurnItIn](https://www.turnitin.com/) allows reviewers to be
 allocated. I have tended to use random allocation for all three reviewers.
 However, it is possible to allow people to choose who they review, or
 for the instructor to explicitly allocate
-reviewers. [TurnItIn](http://www.turnitin.com/) is flexible enough to
+reviewers. [TurnItIn](https://www.turnitin.com/) is flexible enough to
 allow any combination of these approaches. For example, it is possible
 to allocate three reviewers and allow the student to pick a third essay
 to review them self. However, I like to keep the reviewers (and
@@ -73,7 +73,7 @@ peer review process is "What if someone steals my good idea?" I have not
 seen any evidence of this happening (and I have looked for it), but this
 observation does little to quell the students' concerns. So, I tend to
 fall back on the policy for plagiarism as a deterrent (especially
-as [TurnItIn](http://www.turnitin.com/) should catch
+as [TurnItIn](https://www.turnitin.com/) should catch
 any replication).
 
 Despite that concern, I think that the students like peer review. Why

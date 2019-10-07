@@ -11,7 +11,7 @@ When I mentioned the idea to Susan Geertshuis (Professor of Lifelong Learning an
 
 So, with a great deal of input from Lyn Collie, this video was produced:
 
-<embed src="http://mediastore.auckland.ac.nz/assets/jwplayer51/player.swf"
+<embed src="https://mediastore.auckland.ac.nz/assets/jwplayer51/player.swf"
  width="640"
  height="480"
  bgcolor="undefined"

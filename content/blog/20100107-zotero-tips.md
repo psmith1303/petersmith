@@ -5,10 +5,10 @@ categories = ["Research"]
 slug = "zotero-tips"
 draft = "False"
 +++
-I really like [Zotero](http://www.zotero.org/). The more I use it, the
+I really like [Zotero](https://www.zotero.org/). The more I use it, the
 more useful and powerful I find it. Also, the technical support for the
 product (from the community of users and especially from [Dan
-Stillman](http://forums.zotero.org/account/6/) is outstanding.
+Stillman](https://forums.zotero.org/account/6/) is outstanding.
 
 Dan pointed out a really useful feature to me today. When adding items
 to Zotero, sometimes the title of the item is published ALL IN UPPER

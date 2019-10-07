@@ -5,9 +5,9 @@ categories = ["Learning"]
 slug = "re-inventing-the-wheel"
 draft = "False"
 +++
-Over on [Study Hacks](http://calnewport.com/) there is an article on
+Over on [Study Hacks](https://calnewport.com/) there is an article on
 [How to Build a Paper Research
-Database](http://calnewport.com/blog/?p=121). The article describes:
+Database](https://calnewport.com/blog/?p=121). The article describes:
 
 > This is how you win a Pulitzer Prize. Imagine, then, what this
 > technique would do for an undergraduate research paper or your
@@ -16,7 +16,7 @@ Database](http://calnewport.com/blog/?p=121). The article describes:
 > Microsoft Excel. I'll tell you how to format it, populate it, and
 > use it to structure your writing.
 
-It seems to me that just by using [Zotero](http://www.zotero.org/)
+It seems to me that just by using [Zotero](https://www.zotero.org/)
 would do much (if not all) of what the article recommends. Not only
 that, Zotero would do it more easily and quickly.
 

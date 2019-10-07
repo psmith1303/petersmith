@@ -11,7 +11,7 @@ In taking with Susan Geertshuis (Professor of Lifelong Learning and Director of 
 
 So, with a great deal of help from Lyn Collie, this video was produced.
 
-<embed src="http://mediastore.auckland.ac.nz/assets/jwplayer51/player.swf"
+<embed src="https://mediastore.auckland.ac.nz/assets/jwplayer51/player.swf"
     width="640"
     height="480"
     bgcolor="undefined"

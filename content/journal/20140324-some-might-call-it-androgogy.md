@@ -6,7 +6,7 @@ slug = "some-might-call-it-androgogy"
 draft = "False"
 +++
 I already have an espoused [Teaching
-Philosophy](http://www.petersmith.org/portfolio/3-philosophy/) that I make
+Philosophy](https://www.petersmith.org/portfolio/3-philosophy/) that I make
 available to all, but for this activity in ACADPRAC 701, I have sought to
 set it aside and begin from scratch.
 
@@ -96,7 +96,7 @@ Pennsylvania State University Press.
 Schatzki, T. R., Knorr Cetina, K., & von Savigny, E. (2001). _The
 practice turn in contemporary theory_. New York: Routledge. Retrieved
 from
-http://site.ebrary.com.ezproxy.auckland.ac.nz/lib/auckland/docDetail.action?docID=10095826
+https://site.ebrary.com.ezproxy.auckland.ac.nz/lib/auckland/docDetail.action?docID=10095826
 
 Suchman, L. A. (1988). Representing practice in cognitive science.
 _Human Studies_, _11_(2-3), 305--325. doi:10.1007/BF00177307

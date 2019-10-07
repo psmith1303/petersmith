@@ -50,7 +50,7 @@ cycle, George Kelly's creativity cycle, or Argyris & Sch&ouml;n ideas on the
 reflective practitioner/double loop learning, the element that they all
 have in common is learning through reflection on experience.
 Contemporary authors, such as Roger Putzel
-with [XB](http://sag.sagepub.com/cgi/content/refs/34/4/512) (experiential
+with [XB](https://sag.sagepub.com/cgi/content/refs/34/4/512) (experiential
 organizational behaviour), continue to feed the my enthusiasm for
 experiential learning. Thus in my teaching I seek to have students learn
 by reflecting on their own experiences---whether those are experiences
@@ -60,7 +60,7 @@ just modern expressions of older ideas such as Kelly's *man the
 scientist* [sic]. Perhaps one of my greatest sources of learning has
 been through the Organizational Behavior Teaching Society, in the guises
 of its conferences (OBTC) and its Journal of Management Education (JME).
-As I have written [elsewhere](http://www.petersmith.org/journal/), JME is
+As I have written [elsewhere](https://www.petersmith.org/journal/), JME is
 a constant source of learning for me, which allows me to improve my teaching.
 
 ## My own experiences as a teacher
@@ -75,7 +75,7 @@ another. More importantly, I have learnt the importance of the *teachable moment
 and to seize it whenever and wherever it occurs.
 This currently plays itself out in my reflections to students on my
 learning as they reflect back to me their learning
-through [The Reflective Practitioner](http://www.thereflectivepractitioner.org/) website.
+through [The Reflective Practitioner](https://www.thereflectivepractitioner.org/) website.
 
 # My purpose in teaching
 

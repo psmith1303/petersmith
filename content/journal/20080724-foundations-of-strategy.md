@@ -19,7 +19,7 @@ judgement. Thus, participants in the course need to practice their
 judgement--and get feedback on it--so as to refine it.
 
 One of the ways in which we
-([Dan Tisch](http://web.archive.org/web/20081014042125/http://staff.business.auckland.ac.nz/StaffDirectory/StaffProfile/tabid/542/upi/dtis001/Default.aspx) and
+([Dan Tisch](https://web.archive.org/web/20081014042125/https://staff.business.auckland.ac.nz/StaffDirectory/StaffProfile/tabid/542/upi/dtis001/Default.aspx) and
 I) have students exercise their judgement is by getting them to "do"
 cases.
 
@@ -35,7 +35,7 @@ Helen.
 What was nice was the people at the back of the class (often a quiet
 area) contributed. There was one woman who was able to bring in her
 own detailed knowledge of a similar situation here in New Zealand
-([Morris and James](http://www.morrisandjames.co.nz/)). I hope others
+([Morris and James](https://www.morrisandjames.co.nz/)). I hope others
 in the class will take there cue from her, and bring their 'expert'
 knowledge to bear when they can.
 

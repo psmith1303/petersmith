@@ -10,7 +10,7 @@ I've noticed that when I quote something, by using block-quotes, e.g.
 > block quotes
 
 ---That the subsequent paragraphs don't display correctly under Internet
-Explorer-. They are fine with [Firefox](http://www.mozilla.org/). I suppose I
+Explorer-. They are fine with [Firefox](https://www.mozilla.org/). I suppose I
 should look into at some stage. Alas, the only time I have is at home, and
 their I don't use Microsoft... So it might have to wait until the next time I
 work during the weekend (which should be a long time away).  

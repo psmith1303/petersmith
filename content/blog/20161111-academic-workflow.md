@@ -8,10 +8,10 @@ draft = "False"
 
 I have been drifting away from using the Microsoft Office suite of
 products for a number of years. It began around 2010 when I
-adopted [org-mode](http://orgmode.org/) to maintain my todo lists.
+adopted [org-mode](https://orgmode.org/) to maintain my todo lists.
 That meant I had to get to grips
-with [Emacs](http://www.gnu.org/s/emacs) . That led me
-to [beamer](http://www.ctan.org/pkg/beamer), which saw me moving away
+with [Emacs](https://www.gnu.org/s/emacs) . That led me
+to [beamer](https://www.ctan.org/pkg/beamer), which saw me moving away
 from PowerPoint.
 <!--more-->
 
@@ -22,28 +22,28 @@ Microsoft Word.
 
 However, things have moved on.
 
-I stumbled upon [Kieran Healy's website](http://kieranhealy.org/), his
+I stumbled upon [Kieran Healy's website](https://kieranhealy.org/), his
 description of
 his
 [workflow](https://kieranhealy.org/blog/2011/01/18/workflow-and-the-emacs-starter-kit-for-the-social-sciences),
 and his site
 on
-[The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/) (Not
+[The Plain Person's Guide to Plain Text Social Science](https://plain-text.co/) (Not
 to mention his [GitHub repository](https://github.com/kjhealy)).
 
 All in all, led me on a lot of work on reproducible research--such
-as [this](http://kbroman.org/steps2rr/)
-and [this](http://kbroman.org/Tools4RR/).
+as [this](https://kbroman.org/steps2rr/)
+and [this](https://kbroman.org/Tools4RR/).
 
 So the last few weeks have seen me reworkign much of my workflow.
 
 The first step has been my adoption
 of [markdown](https://daringfireball.net/projects/markdown/)
-and [Rmarkdown](http://rmarkdown.rstudio.com/) for my writing
+and [Rmarkdown](https://rmarkdown.rstudio.com/) for my writing
 (alongside Emacs). I had already been using markdown for this
 blog/site (alongside [Hugo](https://gohugo.io/) so the learning curve
 was not too steep. From markdown, I can
-use [pandoc](http://pandoc.org/) to render `PDF`, `HTML`, or `DOCX`
+use [pandoc](https://pandoc.org/) to render `PDF`, `HTML`, or `DOCX`
 files.
 
 To do that I use the following Makefile, which largely came from Kieran Healy.
@@ -51,7 +51,7 @@ To do that I use the following Makefile, which largely came from Kieran Healy.
 ~~~
 ## A Makefile in for your markdown-based paper project. 
 ## Assuming you are using the rest of my templates and toolchain,
-## (see http://kieranhealy.org/resources) you can use it
+## (see https://kieranhealy.org/resources) you can use it
 ### to create .html, .tex, and .pdf output files (complete with
 ### bibliography, if present) from your markdown file.
 ## -    Install the `pandoc-citeproc` and `pandoc-citeproc-preamble`
@@ -326,7 +326,7 @@ $endif$
 % learned, scientific, religious, juridical, poetical and other suchlike texts? 
 % Never mind that they have been proven to destroy the nervous system!
 
-% First, what about the fact that links like http://example.com are 
+% First, what about the fact that links like https://example.com are 
 % technically code and thus must not be broken across lines? 
 % [breaklinks=true] to the rescue!
 

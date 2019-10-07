@@ -6,7 +6,7 @@ slug = "politics-and-the-english-language"
 draft = "False"
 +++
 I was talking with [Nigel
-Haworth](http://staff.business.auckland.ac.nz/nhaworth) today, and he
+Haworth](https://staff.business.auckland.ac.nz/nhaworth) today, and he
 pointed me towards an essay on improving our use of the English
 language by George Orwell. As far as I can tell, the piece is long out
 of copyright, so I have reproduced it-here.

@@ -5,10 +5,10 @@ categories = ["Friday fives"]
 slug = "about-work"
 draft = "False"
 +++
-And here is this week's [Friday Five](http://www.fridayfive.org/)
+And here is this week's [Friday Five](https://www.fridayfive.org/)
 
 1.  _What do you do for a living?_ I mainly teach and research at the
-    [University of Auckland](http://www.auckland.ac.nz). I also do a bit
+    [University of Auckland](https://www.auckland.ac.nz). I also do a bit
     of
     management consulting too. I suppose into this list, I should put
     that I'm currently a doctoral candidate[^1] researching the way in
@@ -36,11 +36,11 @@ And here is this week's [Friday Five](http://www.fridayfive.org/)
     (does anyone actually leave), I've become more and more interested
     in
     people and how they work/think/etc. [Process
-    consulting](http://www.amazon.com/exec/obidos/tg/detail/-/0201067366[2])
+    consulting](https://www.amazon.com/exec/obidos/tg/detail/-/0201067366[2])
     would allow me to explore that more.
 
 This week's questions, are from
-[melanie](http://www.livejournal.com/users/myprimalscream/) .
+[melanie](https://www.livejournal.com/users/myprimalscream/) .
 
 
 [^1]: The actual title of my PhD research (at this time) is _Strategising in

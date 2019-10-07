@@ -9,7 +9,7 @@ I had a really good class in MGMT 101 this morning, they were animated
 and talkative (in a good way). I wonder how much that was a
 consequence of having them all sit together at the front of the class.
 
-[Marie Wilson](https://web.archive.org/web/20080226045120/http://staff.business.auckland.ac.nz/mwilson) once
+[Marie Wilson](https://web.archive.org/web/20080226045120/https://staff.business.auckland.ac.nz/mwilson) once
 reminded me of the difference that occurs in class dynamics as a
 result of how spread out the students are.
 

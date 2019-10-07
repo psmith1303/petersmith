@@ -6,8 +6,8 @@ slug = "multiple-weblogs"
 draft = "False"
 +++
 I've spent a happy few hours merging two weblogs together. At first I
-thought it would be as easy as [changing](http://www.phpmyadmin.net/) a
-few [SQL](http://www.mysql.com/) tables.
+thought it would be as easy as [changing](https://www.phpmyadmin.net/) a
+few [SQL](https://www.mysql.com/) tables.
 
 Alas, that is only half the job. There are also the categories that
 also need to be redone. Not a straight forward job. Perhaps I should

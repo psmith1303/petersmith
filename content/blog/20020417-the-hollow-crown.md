@@ -6,8 +6,8 @@ slug = "the-hollow-crown"
 draft = "False"
 +++
 We went to see The Hollow Crown at the [Aotea
-Centre](http://www.the-edge.co.nz/venues/centre.htm). It is an
-production by the [Royal Shakespeare Company](http://www.rsc.org.uk/).
+Centre](https://www.the-edge.co.nz/venues/centre.htm). It is an
+production by the [Royal Shakespeare Company](https://www.rsc.org.uk/).
 It was wonderful.
 
 The cast was outstanding; Diana Rigg, Derek Jacobi, Ian Richardson,

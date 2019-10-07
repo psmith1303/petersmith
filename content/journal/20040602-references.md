@@ -19,9 +19,9 @@ limitations of the article. Hurrah!.
 pieces, and journals of dubious quality. Good, reliable sources,
 typically come from good journals (well respected) and the
 individual article is cited in many other articles (in other
-journals). Just [Googling](http://www.google.com/) three or four key
+journals). Just [Googling](https://www.google.com/) three or four key
 words is unlikely to deliver up high quality sources. Nor will putting
-the same key words into [EBSOChost](http://ejournals.ebsco.com/). The
+the same key words into [EBSOChost](https://ejournals.ebsco.com/). The
 easiest way to find good sources is to start with a _known good
 article_ and read the articles that the good article cites, or
 search for articles that cite the good article. That, combined with

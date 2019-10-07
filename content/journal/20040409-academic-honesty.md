@@ -22,7 +22,7 @@ so that they they can apply it in a variety of common situations.
 - Allows students to test that they understand and can apply ideas
 such as referencing, quoting, and paraphrasing in a way that is
 consistent with the
-[Publication Manual of the AP](http://www.apa.org).
+[Publication Manual of the AP](https://www.apa.org).
 
 Conceptually, I don't think there is much new in the package -- all
 the information can be found in and around the university. What
@@ -31,7 +31,7 @@ honest way), so that it is conveniently accessible to students.
 (Oh, in case I haven't mentioned it before, check out the great
 article [Beat the Witch-hunt! Peter Levin's Guide to Avoiding and
 Rebutting Accusations of Plagiarism, for Conscientious
-Student](http://www.study-skills.net/)
+Student](https://www.study-skills.net/)
 
 This is all well and good, and we're just finalising the last few
 details/words before trialling it, BUT

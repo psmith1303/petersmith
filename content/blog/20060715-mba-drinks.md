@@ -6,13 +6,13 @@ slug = "mba-drinks"
 draft = "False"
 +++
 Last night we held a get together for the current
-[MBA](http://www.mba.auckland.ac.nz) cohorts.  Once again we held it at the
-[Northern Club](http://www.northernclub.co.nz/).
+[MBA](https://www.mba.auckland.ac.nz) cohorts.  Once again we held it at the
+[Northern Club](https://www.northernclub.co.nz/).
 
 It was so nice to see such a large turn out of "MBAers" and their partners.
 Talking to some of the partners (I didn't manage to talk to everyone), it is
 apparent how much support they provide to those undertaking [the Auckland MBA
-(tm)](http://www.mba.auckland.ac.nz/).  Consequently, I always like to thank
+(tm)](https://www.mba.auckland.ac.nz/).  Consequently, I always like to thank
 the partners because for many of the participants, they wouldn't be successful
 with out that support. That's congruent with my own experience---without Lisa's
 support when I was doing my MBA (class of 1995), I would have found the
@@ -29,9 +29,9 @@ another venue. Whatever the "politics' around that, I think it is a good thing
 that that they got together in that way.
 
 It is now clear how much impact the orientation activity, [The
-Pursuit](http://mbanotebook.ac.nz/index.php/MBA/The_Pursuit), had on the recent
+Pursuit](https://mbanotebook.ac.nz/index.php/MBA/The_Pursuit), had on the recent
 (Winter) intake of participants. As a team building exercise, it has worked
-very well. We ([Darl Kolb](http://staff.business.auckland.ac.nz/dkolb) and I)
+very well. We ([Darl Kolb](https://staff.business.auckland.ac.nz/dkolb) and I)
 will have to start planning for the Summer intake. It is also clear that had
 participants had foreknowledge of The Pursuit, they would have set up things in
 advance---which would have been somewhat counter to the goals of the exercise.

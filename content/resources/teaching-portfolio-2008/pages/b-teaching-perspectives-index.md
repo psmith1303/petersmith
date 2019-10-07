@@ -740,13 +740,13 @@ this line (26) are yourRECESSIVEperspective(s).</span>
 </table>
 </center>
 
-[View Summary of Five Perspectives on 'Good Teaching'](http://www.petersmith.org/portfolio-2008/c-tpi-summary/)
+[View Summary of Five Perspectives on 'Good Teaching'](https://www.petersmith.org/portfolio-2008/c-tpi-summary/)
 
 
 ## Reflections on my TPI
 
 I have completed the Teaching Perspectives Index from [Teaching
-Perspectives](http://teachingperspectives.com/), the results of which
+Perspectives](https://teachingperspectives.com/), the results of which
 are shown below.
 
 The four
@@ -780,4 +780,4 @@ I would like to have some specific feedback from my peers and students
 if they see me in the same way as the TPI.
 
 [^1]: Detailed descriptions of this four characteristics
-are [available](http://www.petersmith.org/portfolio-2008/c-tpi-summary).
+are [available](https://www.petersmith.org/portfolio-2008/c-tpi-summary).

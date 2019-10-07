@@ -9,10 +9,10 @@ categories = [
 slug = "freebsd-dell-wifi"
 +++
 
-For the recent [Research Bazaar](http://2017.resbaz.com/auckland/), I
+For the recent [Research Bazaar](https://2017.resbaz.com/auckland/), I
 needed a laptop with Python, R, bash, etc. So, having borrowed a
 laptop from our excellent tech people, I immediately went for my OS of
-choice, [FreeBSD](http://www.freebsd.org/). A pretty straight forward
+choice, [FreeBSD](https://www.freebsd.org/). A pretty straight forward
 install, except I needed to get the WiFi networking working.
 
 That took a little while to figure out as, at first, the WiFi chip set

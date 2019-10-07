@@ -10,7 +10,7 @@ title = "Citations in bookdown"
 
 +++
 
-I using the [bookdown](http://bookdown.org/yihui/bookdown/) package,
+I using the [bookdown](https://bookdown.org/yihui/bookdown/) package,
 to produce my coursebook for BUSINESS 705.
 
 Everything was looking good until I realised my in-text citations were
@@ -30,7 +30,7 @@ first. No luck there, but I began to wonder if I could do something
 with the [CSL](https://en.wikipedia.org/wiki/Citation_Style_Language)
 file. On
 the
-[RStudio](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) site,
+[RStudio](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) site,
 I found a reference to specifying the CSL file in RMarkdown files.
 
 So, in the YAML header of my book I added:

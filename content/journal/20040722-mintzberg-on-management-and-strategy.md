@@ -52,7 +52,7 @@ tacit knowledge and presuppositions_. Cambridge: Polity Press.
     
 
 [^1]: Well, a good part has to do with the requirement that 
-[ICANZ](http://www.icanz.co.nz/) put on institutions about the 
+[ICANZ](https://www.icanz.co.nz/) put on institutions about the 
 content that wanabe accountants have to be exposed to.
 
 [^2]: Mintzberg is mentioned quiet early on in the textbook--Inkson

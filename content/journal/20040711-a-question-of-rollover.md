@@ -8,7 +8,7 @@ draft = "False"
 As we move towards a new semester, Darl and I are pondering "When is
 the best time to rollover the simulation?" In our
 [class]({{< relref "20040308-mgmt-301.md" >}}),
-we use the business simulation [NetMike](http://www.smartsims.com/)
+we use the business simulation [NetMike](https://www.smartsims.com/)
 as a practice field for our students. Typically we simulate
 between seven and ten years. Each simulated year occurs when we
 _rollover_ the simulation to a new year.

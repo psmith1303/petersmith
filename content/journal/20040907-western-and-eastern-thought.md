@@ -6,19 +6,19 @@ slug = "western-and-eastern-thought"
 draft = "False"
 +++
 I subscribe to a number of email lists, which is probably pass&eacute; in
-this era of [RSS](http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html),
+this era of [RSS](https://www.xml.com/pub/a/2002/12/18/dive-into-xml.html),
 but anyway, one of the lists I regular read is MG-ED-DV, the ["management education and
-development list](http://aom.pace.edu/lists/l-mg-ed.stm) of the
-[Academy of Management](http://www.aomonline.org/). Last week, one of
-the postings was by [Fred Nickols](http://www.nickols.us) and pointed me to a
-[review](http://edrev.asu.edu/reviews/rev294.htm) of the book:
+development list](https://aom.pace.edu/lists/l-mg-ed.stm) of the
+[Academy of Management](https://www.aomonline.org/). Last week, one of
+the postings was by [Fred Nickols](https://www.nickols.us) and pointed me to a
+[review](https://edrev.asu.edu/reviews/rev294.htm) of the book:
 
 > Nisbett, R. E. (2003). _The geography of thought: How Asians and
 Westerners think differently ... and why_. New York: The Free Press.
 
 Having read the review, I really wanted to read the book, and so-- having 
 navigated the vagaries of
-[Voyager](http://voyager.auckland.ac.nz/) saying the book was missing,
+[Voyager](https://voyager.auckland.ac.nz/) saying the book was missing,
 I finally managed to get (and read) a copy. It was well worth it.
 
 There are few books that really change the way in which one views the

@@ -8,7 +8,7 @@ draft = "False"
 Reflecting back on the assignments I have marked so far, there are
 some interesting interpretations of the _critical_ part of
 _critical incidents_. The on-line [Merriam-Webster
-dictionary](https://web.archive.org/web/20040701014413/http://www.m-w.com/home.htm) says:
+dictionary](https://web.archive.org/web/20040701014413/https://www.m-w.com/home.htm) says:
 
 > of, relating to, or being a turning point or specially
 important juncture <critical phase>: as (1) : relating to or being

@@ -6,7 +6,7 @@ slug = "scribefire"
 draft = "False"
 +++
 Well I'm making some progress on writing more here. I'm now using
-[ScribeFire](http://www.scribefire.com/) as my publishing tool.
+[ScribeFire](https://www.scribefire.com/) as my publishing tool.
 Hopefully, the fact that it is easier to "write' will encourage me to
 do more writing.
 
@@ -16,6 +16,6 @@ mentioned.
 
 It actually took me several attempts to get ScribeFire to work.
 What I didn't realize was that [Movable
-Type](http://www.movabletype.org/) actually has a separate password
-that is used for remote [xmlrpc](http://www.xmlrpc.com/) access.
+Type](https://www.movabletype.org/) actually has a separate password
+that is used for remote [xmlrpc](https://www.xmlrpc.com/) access.
 

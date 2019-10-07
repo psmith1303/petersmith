@@ -5,13 +5,13 @@ categories = ["The Arts"]
 slug = "starsky-hutch"
 draft = "False"
 +++
-Well, I was wrong. [Kill Bill: Volume 2](http://www.imdb.com/title/tt0378194/)
+Well, I was wrong. [Kill Bill: Volume 2](https://www.imdb.com/title/tt0378194/)
 isn't on here yet. So instead we went and saw [Starsky &
-Hutch](http://www.imdb.com/title/tt0335438/).  Nice touch having [David
-Soul](http://www.imdb.com/name/nm0815800/) and [Paul Michael
-Glaser](http://www.imdb.com/name/nm0001274/) make cameo appearances.
+Hutch](https://www.imdb.com/title/tt0335438/).  Nice touch having [David
+Soul](https://www.imdb.com/name/nm0815800/) and [Paul Michael
+Glaser](https://www.imdb.com/name/nm0001274/) make cameo appearances.
 
-I didn't recognise [Juliette Lewis](http://www.imdb.com/name/nm0000496/) (who
+I didn't recognise [Juliette Lewis](https://www.imdb.com/name/nm0000496/) (who
 played Kitty) until I saw the end credits.
 
 Huggy Bear was played by Snoop Dogg (is that how you spell it?). Not

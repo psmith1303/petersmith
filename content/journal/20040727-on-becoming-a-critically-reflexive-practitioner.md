@@ -6,7 +6,7 @@ slug = "on-becoming-a-critically-reflexive-practitioner"
 draft = "False"
 +++
 I've just received the latest edition of the [Journal of Management
-Education](http://www.sagepub.com/journal.aspx?pid=181), and there is an
+Education](https://www.sagepub.com/journal.aspx?pid=181), and there is an
 element of sychronicity about it. The first article is:
 
 > Cunliffe, A. L. (2004). On becoming a critically reflective

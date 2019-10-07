@@ -8,12 +8,12 @@ draft = "False"
 So, having watched [The
 Method]({{< relref "20060722-the-method.md" >}}) we
 rushed down to the Civic for the 21:15 showing of [The Science of
-Sleep](http://www.imdb.com/title/tt0354899/). As we were waiting for the film
+Sleep](https://www.imdb.com/title/tt0354899/). As we were waiting for the film
 to start, I made the comment that the seats at the
-[Civic](http://www.civictheatre.co.nz/) are much more comfortable than those at
-the [Sky City Theatre](http://www.skycity.co.nz/). The people sitting next to
+[Civic](https://www.civictheatre.co.nz/) are much more comfortable than those at
+the [Sky City Theatre](https://www.skycity.co.nz/). The people sitting next to
 us piped up and agreed. Talking with them, it seems they are going to _35_
-films during the [festival](http://www.nzff.co.nz/). Wow! What stamina.
+films during the [festival](https://www.nzff.co.nz/). Wow! What stamina.
 However, they reported that there is someone who is seeing over _60_ of the
 films.
 

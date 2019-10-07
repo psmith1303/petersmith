@@ -12,7 +12,7 @@ title = "Learning through play"
 
 A good colleague has given a presentation entitled _Learning through
 play_ and has asked for my feedback on the (recording of
-presentation)[http://www.otago.ac.nz/fybec/programme-and-speakers/index.html].
+presentation)[https://www.otago.ac.nz/fybec/programme-and-speakers/index.html].
 This also seems like a good opportunity to be reflexive on my stance
 on teaching and learning. So here I go. (I have been given some
 guiding questions to orientate my thinking---see the headings below).
@@ -80,5 +80,5 @@ revision.
 
 ## References
 
-Perry, W. G., Sprinthall, N. A., Wideman, J. W., & Jones, F. J. (1968). _Patterns of development in thought and values of students in a liberal arts college: A validation of a scheme_. Retrieved from http://www.eric.ed.gov/ERICWebPortal/contentdelivery/servlet/ERICServlet?accno=ED024315
+Perry, W. G., Sprinthall, N. A., Wideman, J. W., & Jones, F. J. (1968). _Patterns of development in thought and values of students in a liberal arts college: A validation of a scheme_. Retrieved from https://www.eric.ed.gov/ERICWebPortal/contentdelivery/servlet/ERICServlet?accno=ED024315
 

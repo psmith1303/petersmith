@@ -6,7 +6,7 @@ slug = "genealogy"
 draft = "False"
 +++
 I have some fun working out my
-[genealogy](http://genes.petersmith.org/). So far, I'm back
+[genealogy](https://genes.petersmith.org/). So far, I'm back
 to about 1812. But after that date it gets a little tricky.
 
 The problem is that census data pre-1841 isn't very helpful

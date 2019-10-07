@@ -6,6 +6,6 @@ slug = "private-equity"
 draft = "False"
 +++
 Chintaka put me on to [Going
-Private](http://equityprivate.typepad.com/). He rate's this as the best
+Private](https://equityprivate.typepad.com/). He rate's this as the best
 blog on _Private Equity_. It certainly is worth a read.
 

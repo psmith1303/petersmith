@@ -6,7 +6,7 @@ slug = "more-upgrades"
 draft = "False"
 +++
 I've been doing a few more upgrades. The first one should allow me to
-have a [WYSISG](http://en.wikipedia.org/wiki/WYSIWYG "Wikipedia link to
+have a [WYSISG](https://en.wikipedia.org/wiki/WYSIWYG "Wikipedia link to
 WYSIWYG")
 editor.
 

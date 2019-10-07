@@ -29,7 +29,7 @@ total profit will be $320.
 So, should either baker drop the price of bread?
 
 In the original [prisoner's
-dilemma](http://plato.stanford.edu/entries/prisoner-dilemma/) if there
+dilemma](https://plato.stanford.edu/entries/prisoner-dilemma/) if there
 was only one change to sell bread then the 'best' thing either baker can
 do is drop their prices. However, if there are likely to be repeated
 rounds, then the baker should wait and see if the other baker drops
@@ -44,6 +44,6 @@ yet... and yet classical market theory seems to be based on people
 acting in their own (self) interest.
 
 As an aside, has anyone tried the [100 prisoner's
-problem](http://www.algonet.se/\~ug/projects/lightbulb/)? I'm surprised
+problem](https://www.algonet.se/\~ug/projects/lightbulb/)? I'm surprised
 this hasn't shown up in BCG interviews yet (or has it?).
 

@@ -7,6 +7,6 @@ draft = "False"
 +++
 My host here at my writing retreat has two dogs, Katie and Lizzie. To
 get a break from writing I talk them for a 
-[little walk / jog](http://www.mapmyrun.com/run/new-zealand/totara-north/181475781493). 
+[little walk / jog](https://www.mapmyrun.com/run/new-zealand/totara-north/181475781493). 
 It's a little over 4Km there and back.
 

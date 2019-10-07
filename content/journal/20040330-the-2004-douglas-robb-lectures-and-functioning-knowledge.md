@@ -5,9 +5,9 @@ categories = ["MGMT 301"]
 slug = "the-2004-douglas-robb-lectures-and-functioning-knowledge"
 draft = "False"
 +++
-Lisa and I went to see [Marina Warner](http://www.marinawarner.com/)
+Lisa and I went to see [Marina Warner](https://www.marinawarner.com/)
 give the first [2004 Douglas
-Robb](http://www.alumni.auckland.ac.nz/2446.html) lecture tonight. The
+Robb](https://www.alumni.auckland.ac.nz/2446.html) lecture tonight. The
 topic was _After The Arabian Nights: Daemons & Alters_. After the 
 lecture, I mentioned to Lisa that, for me, in delivering her lecture, 
 Marina had achieved the holy trinity of breadth, depth, and humour. 
@@ -28,14 +28,14 @@ difficulties encountered by academics doing inter-disciplinary work
 is coming to terms with the way people in their 'non-main' discipline
 think. The challenge is to understand the world in as others (in the
 other discipline) do. For example, most of the content of what is
-taught in [MER](http://web-beta.archive.org/web/20100505010923/http://www.business.auckland.ac.nz/)
+taught in [MER](https://web-beta.archive.org/web/20100505010923/https://www.business.auckland.ac.nz/)
 isn't hard. The hard part is learning how to think like a manager, or
 an academic, or a strategist, and so on. For those students who are
 doing a double major, or a minor, or a con-joint degree, they must run
 into this problem all the time. Knowing _what_ is the easy
 part, knowing _how_ is difficult because managers do think about the
 world different from scientists, differently from artists, etc.
-[Stanley Frielick](http://www2.auckland.ac.nz/cpd/staffpages/SF-Breakthroughs.pdf)
+[Stanley Frielick](https://www2.auckland.ac.nz/cpd/staffpages/SF-Breakthroughs.pdf)
 talks about it like this:
 
 >Declarative or propositional knowledge is typically the
@@ -63,7 +63,7 @@ university, through a process of osmosis; by seeing how others do
 it, rather than being proactively taught. In fact social learning,
 like this, is a crucial part of human development. Last week,
 [Judith
-McMorland](http://web.archive.org/web/20050307052941/http://www.colearnz.co.nz/) and I ran a sociodrama
+McMorland](https://web.archive.org/web/20050307052941/https://www.colearnz.co.nz/) and I ran a sociodrama
 [seminar](/blog/2004/03/11/sociodrama/)
 for post graduate students. Before the it began, we had laid the room
 out in the 'traditional' psychodrama[^2] manner, and we were sitting
@@ -105,16 +105,16 @@ and
 
 This also reminds me of an article I was reading yesterday by
 [Terry
-Noel](http://webs.wichita.edu/marketing/Faculty%20Information.htm\#Terry_Noel)
+Noel](https://webs.wichita.edu/marketing/Faculty%20Information.htm\#Terry_Noel)
 in the [Journal of Management
-Education](http://ariel.ingentaselect.com/vl=732628/cl=94/nw=1/rpsv/ij/sage/10525629/v28n2/contp1-1.htm).
+Education](https://ariel.ingentaselect.com/vl=732628/cl=94/nw=1/rpsv/ij/sage/10525629/v28n2/contp1-1.htm).
 In his article _Lessons from the learning classroom_ he describes a
 situation which parallels the problems discussed here. I
 Now all of this has a direct and immediate relevance to my PhD
 study. My topic, in case I haven't mentioned it often enough is
 _Strategising in professional service firms_. In particular I'm
 using the framework/world view of
-[strategy-as-practice](http://www.strategy-as-practice.org/) to explore
+[strategy-as-practice](https://www.strategy-as-practice.org/) to explore
 strategy making (aka strategising). Part of my problem in that
 research is how do I come to understand how strategists think about the
 world? What is their functioning knowledge. Again, the content of

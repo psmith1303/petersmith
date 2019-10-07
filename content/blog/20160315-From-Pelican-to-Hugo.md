@@ -66,7 +66,7 @@ This worked pretty well. I then manually moved the static files---and in particu
 
 For completeness, here is the configuration file (config.toml) that I am using.
 
-	baseurl = "http://www.petersmith.org/"
+	baseurl = "https://www.petersmith.org/"
 	languageCode = "en-uk"
 	title = "The occassional ramblings of an academic"
 	theme = "academe"
@@ -116,7 +116,7 @@ For completeness, here is the configuration file (config.toml) that I am using.
 	  journal = "/journal/:year/:month/:day/:slug"
 	  teaching = "/teaching/:year/:month/:slug"
 
-That was pretty much it. It too some pratting around to get the dual blog aspect of the site working (blog posts and journal posts) and I have tried to keep the links the same so the search engines don't get too upset. It took me a while to figure out how to get the archive pages working correctly, but there is a great resource at [Parsia's Den](http://parsiya.net/blog/2016-02-14-archive-page-in-hugo/).
+That was pretty much it. It too some pratting around to get the dual blog aspect of the site working (blog posts and journal posts) and I have tried to keep the links the same so the search engines don't get too upset. It took me a while to figure out how to get the archive pages working correctly, but there is a great resource at [Parsia's Den](https://parsiya.net/blog/2016-02-14-archive-page-in-hugo/).
 
 So, what is left to do. First, I need to set up the posts for all of my publications teaching. I don't have that stored away anywhere (in a form that would be easy to convert), so that will take some time to do.
 

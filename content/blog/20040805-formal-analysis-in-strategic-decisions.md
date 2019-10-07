@@ -6,14 +6,14 @@ slug = "formal-analysis-in-strategic-decisions"
 draft = "False"
 +++
 I try to be active in the
-[strategy-as-practice](http://www.strategy-as-practice.org/) community.  One of
+[strategy-as-practice](https://www.strategy-as-practice.org/) community.  One of
 the ways I do this is by maintaining a bibliography of readings that is
-available through the [web-site](http://www.strategy-as-practice.org/). A few
+available through the [web-site](https://www.strategy-as-practice.org/). A few
 weeks ago, I asked people for any suggestions to add to the bibliography.
-[Gerry Johnson](http://www.strath.ac.uk/gsb/staff/johnson_g.html) sent me a
+[Gerry Johnson](https://www.strath.ac.uk/gsb/staff/johnson_g.html) sent me a
 list he has been working on with
-[Leif](http://www.ihh.hj.se/eng/research/emm_faculty/emm_leif_melin.htm)
-[Melin](http://www.ihh.hj.se/info/nyheter/2003/2003_06_19_leifmelin.htm).  I've
+[Leif](https://www.ihh.hj.se/eng/research/emm_faculty/emm_leif_melin.htm)
+[Melin](https://www.ihh.hj.se/info/nyheter/2003/2003_06_19_leifmelin.htm).  I've
 start to work through the list, getting copies of the articles and reading
 them, as I add them to the bibliography. The first article is:
 

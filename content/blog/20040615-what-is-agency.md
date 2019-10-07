@@ -57,11 +57,11 @@ great, so I'm probably missing out on whole chunks of that literature.)
 
 
 [^1]: Interestingly, I was made aware of the [European Management
-Review](http://www.palgrave-journals.com/emr/) as a result of an e-mail from
-the [strategy-as-practice](http://www.strategy-as-practice.org/) web site and
+Review](https://www.palgrave-journals.com/emr/) as a result of an e-mail from
+the [strategy-as-practice](https://www.strategy-as-practice.org/) web site and
 e-mail list. There was a special edition of the journal (regarding
 strategy-as-practise) which was available
-[free](http://www.palgrave-journals.com/emr/journal/v1/n1/index.html) on the 
+[free](https://www.palgrave-journals.com/emr/journal/v1/n1/index.html) on the 
 the Internet.
 
 [^2]: Psycho-dramatists, that is.

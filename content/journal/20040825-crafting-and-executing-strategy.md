@@ -25,7 +25,7 @@ of the book is largely on the _content_ of strategy with little regard
 for the _process_ or _context_ of strategy. Consequently, the book
 does go somewhat 'against the grain', in as much as the mandate of the
 course is to focus on the process side of strategy; whereas, [International
-Business](http://www.business.auckland.ac.nz/comwebContent/index.cfm?fs=pgv&pageid=3621)
+Business](https://www.business.auckland.ac.nz/comwebContent/index.cfm?fs=pgv&pageid=3621)
  to be more focused on the content issues.
 
 That's not to say the book is bad; far from it. It does the job it sets

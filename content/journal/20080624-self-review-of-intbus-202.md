@@ -7,12 +7,12 @@ draft = "False"
 +++
 I've just received the _Student Evaluations of Teaching_ or
 [University Lecturing
-Questionnaire](https://web.archive.org/web/20081014020737/http://www.cad.auckland.ac.nz/index.php?p=survey_types) for
+Questionnaire](https://web.archive.org/web/20081014020737/https://www.cad.auckland.ac.nz/index.php?p=survey_types) for
 INTBUS 202: Foundations of strategy.
 
 Such evaluations have both
-[supporters](https://web.archive.org/web/20081014020700/http://www.cad.auckland.ac.nz/index.php?p=218) and
-[detractors](http://www.aus.ac.nz/Policy/StudentEvaluation/policy.asp).
+[supporters](https://web.archive.org/web/20081014020700/https://www.cad.auckland.ac.nz/index.php?p=218) and
+[detractors](https://www.aus.ac.nz/Policy/StudentEvaluation/policy.asp).
 Anyway, back to my results ...
 
 The students seem to fall into three camps. First, there are those who
@@ -49,7 +49,7 @@ So what do I take away from this, and what do I plan to change?
 
 I think there was a gap between myself and many of the students.
 Despite both my comments and
-[Dan's](https://web.archive.org/web/20080226134731/http://staff.business.auckland.ac.nz/dtisch) (the
+[Dan's](https://web.archive.org/web/20080226134731/https://staff.business.auckland.ac.nz/dtisch) (the
 other person who taught this course), most of students didn't read the
 textbook ahead of the class. For Dan's sessions that didn't matter too
 much; but for my sessions, I relied on the fact that the student's had
@@ -71,8 +71,8 @@ Having said all that, and re-read it, I sound defensive and perhaps I am.
 The more I think about it, the more I regard the contrast between
 Dan's approach an my approach as being a challenge for the students.
 When I have co-taught with others (say
-[Liliana Erakovic](https://web.archive.org/web/20080227000626/http://staff.business.auckland.ac.nz/lerakovic) or
-[Darl Kolb](https://web.archive.org/web/20080226141920/http://staff.business.auckland.ac.nz/dkolb))
+[Liliana Erakovic](https://web.archive.org/web/20080227000626/https://staff.business.auckland.ac.nz/lerakovic) or
+[Darl Kolb](https://web.archive.org/web/20080226141920/https://staff.business.auckland.ac.nz/dkolb))
 my style has been close to the other teacher. Having said that, it
 does not mean my style is the same with both--Liliana's and my style
 is very different to that when I'm teaching with Darl. Dan and I are

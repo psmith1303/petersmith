@@ -21,7 +21,7 @@ to allow people to find old material more easily.
 cleaner look, but it doesn't invite people to explore more of the site.
 - Finally, I've started using the hierarchical categories. I had
 planned to do this earlier. But, having now installed the latest
-version of the (software](http://www.movabletype.com/), it's been so
+version of the (software](https://www.movabletype.com/), it's been so
 easy to do. Now I'm wondering if I should use tags as well as
 categories.
 
@@ -32,14 +32,14 @@ forwards on what is really important; my teaching and my research.
 
 Actually, it has taken me less time than I expected to do the changes
 I -needed- wanted to make. That's all down to
-[Google's](http://www.google.com/googlebooks/chrome/) new web browser
-[Chrome](http://www.google.com/chrome). It's a slick and tidy piece of
+[Google's](https://www.google.com/googlebooks/chrome/) new web browser
+[Chrome](https://www.google.com/chrome). It's a slick and tidy piece of
 software. I would make it my main browser except that it doesn't (yet)
 support _ad blocking_, and two essential
-[Firefox](http://www.mozilla.com/firefox/) add-ins (
-[Zotero](http://www.zotero.org/) and [libx](http://www.libx.org/)) aren't
+[Firefox](https://www.mozilla.com/firefox/) add-ins (
+[Zotero](https://www.zotero.org/) and [libx](https://www.libx.org/)) aren't
 available for it (Oh, and it isn't yet available for
-[FreeBSD](http://www.freebsd.org/).
+[FreeBSD](https://www.freebsd.org/).
 
 Anyway, Chrome has this really neat feature that allows you to
 inspect elements of a web page to see which parts of your stylesheet
@@ -49,12 +49,12 @@ tweaking the site's CSS.
 And now, back to the salt mine.
 
 _Update_
-[Andrew](http://staff.business.auckland.ac.nz/StaffDirectory/StaffProfile/tabid/542/upi/aebe001/Default.aspx)
+[Andrew](https://staff.business.auckland.ac.nz/StaffDirectory/StaffProfile/tabid/542/upi/aebe001/Default.aspx)
 pointed me towards
-[CSSViewer](http://www.nicolashuon.info/?page=work&type=projects&id=cssviewer).
+[CSSViewer](https://www.nicolashuon.info/?page=work&type=projects&id=cssviewer).
 This neat
 [add-on](https://addons.mozilla.org/extensions/moreinfo.php?id=2104&application=firefox) for
-[Firefox](http://www.mozilla.com/en-US/firefox/) shows what the CSS is
+[Firefox](https://www.mozilla.com/en-US/firefox/) shows what the CSS is
 for a particular element on the screen.
 
 Google's Chrome inspector shows which parts of the style sheet is being

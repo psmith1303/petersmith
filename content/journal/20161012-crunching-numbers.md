@@ -9,7 +9,7 @@ For those who know me, it my come as a little surprise that I do some quantitati
 
 Over the past couple of days, I have been analysing some data about the performance of students in courses. To start with, I have used correlations to get a feel for what relationships might exist.
 
-I was having a problem with `corrplot` and `corrplot.mixed` and in working my way through the problem I came across this [page](https://kieranhealy.org/blog/archives/2014/08/05/a-visualization-error/) by [Kieran Healy](https://kieranhealy.org/) and his paper on [Data visualization in sociology](http://europepmc.org/articles/pmc4203684). 
+I was having a problem with `corrplot` and `corrplot.mixed` and in working my way through the problem I came across this [page](https://kieranhealy.org/blog/archives/2014/08/05/a-visualization-error/) by [Kieran Healy](https://kieranhealy.org/) and his paper on [Data visualization in sociology](https://europepmc.org/articles/pmc4203684). 
 
 It was very helpful (and worth a read).
 

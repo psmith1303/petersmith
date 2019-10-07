@@ -6,8 +6,8 @@ slug = "pigeon-holing"
 draft = "False"
 +++
 Whilst I was in hospital, or soon after, I heard a piece on the radio
-about [errors](http://www.scoop.co.nz/mason/stories/GE0405/S00035.htm) in
-prescription occurring at [ADHB](http://www.adhb.govt.nz/).
+about [errors](https://www.scoop.co.nz/mason/stories/GE0405/S00035.htm) in
+prescription occurring at [ADHB](https://www.adhb.govt.nz/).
 
 That doesn't surprise me after my experience. At one stage a
 consultant insisted that my cholesterol was too high at 7---later

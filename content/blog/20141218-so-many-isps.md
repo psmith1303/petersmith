@@ -6,7 +6,7 @@ categories = ["IT"]
 draft = "False"
 +++
 I've been going back through my old posts to make sure that they are
-being rendered correctly by [Pelican](http://blog.getpelican.com/).
+being rendered correctly by [Pelican](https://blog.getpelican.com/).
 
 As I have done that, its reminded me of the number of different ISPs
 I have been with over the years. Of course there is Spar/Telecom, TelstraClear,

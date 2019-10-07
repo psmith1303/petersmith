@@ -8,16 +8,16 @@ draft = "False"
 In writing my piece on
 [referencing]({{< relref "20091222-referencing-here-and-now.md" >}}),
 I just [Googled 'apa
-referencing'](http://www.google.co.nz/search?q=apa+referencing) and here
+referencing'](https://www.google.co.nz/search?q=apa+referencing) and here
 are the first page of search results.
 
 ![googleapa.png](/images/googleapa-thumb-700x592-16.png)
 
 I was surprised by the results. First, I used Google.co.nz instead of
 Google.com (I normally use the later), and secondly
-the [University of Auckland's](http://www.auckland.ac.nz/) referencing
+the [University of Auckland's](https://www.auckland.ac.nz/) referencing
 resource
-[Referen©ite](https://web.archive.org/web/20090325081529/http://www.cite.auckland.ac.nz/) did
+[Referen©ite](https://web.archive.org/web/20090325081529/https://www.cite.auckland.ac.nz/) did
 not feature at all on the first page.
 
 I see:
@@ -36,5 +36,5 @@ I see:
 But there is no sign of Referen©cite. I wonder why Google does not
 refer to Referen©ite on the first page (that's a rhetorical question;
 I know how [search
-engines](http://en.wikipedia.org/wiki/Web_search_engine) rank sites).
+engines](https://en.wikipedia.org/wiki/Web_search_engine) rank sites).
 

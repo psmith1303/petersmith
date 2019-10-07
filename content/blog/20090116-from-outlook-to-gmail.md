@@ -11,7 +11,7 @@ and notes and then imported them into gmail.
 
 For all my non university email addresses, I've set up forwarding
 so it goes straight to my gmail account. The IT wonks at the
-[university](http://www.auckland.ac.nz/) are in the process of setting
+[university](https://www.auckland.ac.nz/) are in the process of setting
 up the forwarding of their email to my gmail account. In the meantime
 I have a rule that moves my university email to gmail via imap
 folders. Once the proper redirection is in place, it will be
@@ -34,7 +34,7 @@ information such as "X-Spam: yes".
 
 But really, that is a minor thing. So far I am really impressed with gmail, and
 as I learn the [shortcut
-keys](http://mail.google.com/support/bin/answer.py?hl=en-uk&answer=6594) I am
+keys](https://mail.google.com/support/bin/answer.py?hl=en-uk&answer=6594) I am
 even more impressed.  Previously, I kept all my email in a series of folders
 (e.g. 2001, 2002, 2003, ...). But with gmail I've found the search so fast an
 powerful that I've done away with those somewhat arbitrary categories.

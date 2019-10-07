@@ -13,9 +13,9 @@ as half of my steps. I'd dropped it a few times so I decided to take it to
 pieces. Nothing obviously wrong there---the pendulum seemed fine. Even so, I
 though the problem was probably the result of dropping it.
 
-Off to [Tisdall's](http://www.tisdalls.co.nz/) to get a new one.  But, I
+Off to [Tisdall's](https://www.tisdalls.co.nz/) to get a new one.  But, I
 decided to check out all the different models (I'm still choosing
-[Silva](http://www.silva.se/)). After much shaking and tipping of all the
+[Silva](https://www.silva.se/)). After much shaking and tipping of all the
 different models, both I and the sales assistant agreed that the pendulums in
 the cheapest model is definitely lighter and, I suspect, less reliable. My
 first pedometer was not the cheaper model. My second one was. So, maybe the

@@ -5,11 +5,11 @@ categories = ["Case teaching"]
 slug = "national-league-case-competition"
 draft = "False"
 +++
-[We](https://web.archive.org/web/20081014045333/http://mcc.auckland.ac.nz/) won the first [National League Case
-Competition](https://web.archive.org/web/20081014113353/http://www.business.otago.ac.nz/com/usergroups/currentstudents/buscasecomp/index.html).
+[We](https://web.archive.org/web/20081014045333/https://mcc.auckland.ac.nz/) won the first [National League Case
+Competition](https://web.archive.org/web/20081014113353/https://www.business.otago.ac.nz/com/usergroups/currentstudents/buscasecomp/index.html).
 
 As [the new
-Dean](http://www.auckland.ac.nz/uoa/about/news/articles/2008/06/business_school.cfm)
+Dean](https://www.auckland.ac.nz/uoa/about/news/articles/2008/06/business_school.cfm)
 said:
 
 > The University of Auckland Business School has been crowned

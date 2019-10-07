@@ -8,10 +8,10 @@ weight = 401
 +++
 
 My name is Peter Smith and I am a lecture and researcher at
-the [University of Auckland](http://www.auckland.ac.nz/). I am based in
+the [University of Auckland](https://www.auckland.ac.nz/). I am based in
 the [Department of Management & International
-Business](http://www.business.auckland.ac.nz/) which is part of 
-[Faculty of Business & Economics](http://www.business.auckland.ac.nz/).
+Business](https://www.business.auckland.ac.nz/) which is part of 
+[Faculty of Business & Economics](https://www.business.auckland.ac.nz/).
 
 I began tutoring here in 1997, and became a full-time lecturer in 1999.
 In 2005, on top of my teaching responsibilities I was appointed deputy

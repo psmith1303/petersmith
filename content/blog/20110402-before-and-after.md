@@ -18,7 +18,7 @@ Anyway, here is a before from a couple of years ago:
 Perhaps this photo shows why I avoided having my picture taken. Anyway,
 having lost some weight, I'm now doing some running and here is a
 picture of me at the recent [Cathay Pacific half
-marathon](http://www.coolrunning.co.nz/races/cathaypacific/).
+marathon](https://www.coolrunning.co.nz/races/cathaypacific/).
 
 ![Cathy Pacific half-marathon](/images/CathayPacific-HalfMarathon1.jpg)
 
@@ -30,6 +30,6 @@ less (a New York marathon qualifying time for someone my age), and to
 do a full marathon in 3 hours 40 or less.
 
 I'll try for the 1:40 at [Huntly
-half-marathon](http://www.huntlyhalf.co.nz/) later this year, and the
-3:40 at the [Auckland marathon](http://www.aucklandmarathon.co.nz/).
+half-marathon](https://www.huntlyhalf.co.nz/) later this year, and the
+3:40 at the [Auckland marathon](https://www.aucklandmarathon.co.nz/).
 

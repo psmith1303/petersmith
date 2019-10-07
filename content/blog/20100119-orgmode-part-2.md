@@ -6,5 +6,5 @@ slug = "orgmode-part-2"
 draft = "False"
 +++
 There is a very good (well, I like it) summary of how to use Orgmode as
-a day planner at [Lost in Technopolis](http://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html).
+a day planner at [Lost in Technopolis](https://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html).
 

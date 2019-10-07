@@ -8,7 +8,7 @@ draft = "False"
 One of the more difficult things to do when carrying out research is to
 negotiate entry into a research site (especially when carrying out case
 research, which is what I hope to do).  Fortunately, [Nigel
-Haworth](http://staff.business.auckland.ac.nz/nhaworth) provided me with an
+Haworth](https://staff.business.auckland.ac.nz/nhaworth) provided me with an
 introduction to the Chairman of my "ideal' participant organisation.
 
 So today, I met with the Chairman and we had an interesting discussion about the

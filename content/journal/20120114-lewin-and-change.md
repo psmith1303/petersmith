@@ -6,9 +6,9 @@ slug = "lewin-and-change"
 draft = "False"
 +++
 Last year, I attended a practice workshop at the [University of
-Sydney](http://sydney.edu.au/). Afterwards, there was an interesting
+Sydney](https://sydney.edu.au/). Afterwards, there was an interesting
 presentation by [Paula
-Jarzbakowski](https://web.archive.org/web/20130326112217/http://www1.aston.ac.uk/aston-business-school/staff/academic/esg/prof-paula-jarzabkowski/)"
+Jarzbakowski](https://web.archive.org/web/20130326112217/https://www1.aston.ac.uk/aston-business-school/staff/academic/esg/prof-paula-jarzabkowski/)"
 called "Towards a theory of coordinating: Creating coordinating
 mechanisms in practice". At the end of the presentation, I was left
 wondering what these coordinating mechanisms add to our existing

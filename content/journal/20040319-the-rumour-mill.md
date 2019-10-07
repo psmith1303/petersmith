@@ -6,7 +6,7 @@ slug = "the-rumour-mill"
 draft = "False"
 +++
 It's been a busy week. [John
-Gray](http://www.aegis.uws.edu.au/Staff/TEXT/John%20Gray.htm) has been
+Gray](https://www.aegis.uws.edu.au/Staff/TEXT/John%20Gray.htm) has been
 visiting from Australia as we are working on a research project
 together. Because of this, I've also spent some time with an 
 RA (Research Assistant) who is working on the project with me. 
@@ -35,7 +35,7 @@ resorted to email. I really didn't want to because I felt that I
 would be able to better gauge the response with some cues. I
 actually said this to Darl (in the email) and I got back a response
 from Peter about trust, reliability (Full story at [Conspiracy
-theory](http://www.thereflectivepractitioner.org/armi/archives/000266.html))
+theory](https://www.thereflectivepractitioner.org/armi/archives/000266.html))
 
 The RA and I spent a pleasant 15 minutes talking about her experiences of MGMT 301
 and the _facts_ that people in her class believed about Net Mike. Our

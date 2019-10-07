@@ -9,12 +9,12 @@ As I've mentioned
 [before]({{< relref "20040319-the-rumour-mill.md" >}}),
 one of the things I'm researching is the organisation and management of law
 firms. This research is based on work done by [John
-Gray](http://www.aegis.uws.edu.au/Staff/TEXT/John%20Gray.htm). It's taken
+Gray](https://www.aegis.uws.edu.au/Staff/TEXT/John%20Gray.htm). It's taken
 almost a year to get everything into place but last Friday we sent out the
 surveys.  I had a couple of emails yesterday about the survey, but today,
 completed survey forms have started to arrive. So far I have a 2 per cent
 response rate---I hope to get that up to over 80 per cent. Once I get back from
-[EGOS](http://www.egosnet.org), and my Research Assistant gets back from
+[EGOS](https://www.egosnet.org), and my Research Assistant gets back from
 Australia, we'll start following up with the outstanding firms. _It really is
 nice_ that the firms have responded so promptly, and that they have taken the
 time to complete the survey.
@@ -26,7 +26,7 @@ business). I'd also like to compare the aggregated results with the results
 from Australia and Canada (and maybe the UK if they are ready). There are some
 practical implications of this which I will discuss at a later date.  It is
 also design to confirm some results of [Stan
-Malo's](http://www.cob.sjsu.edu/malos_s/) work on Options Theory in law firms
+Malo's](https://www.cob.sjsu.edu/malos_s/) work on Options Theory in law firms
 and on they way the firms manage progression of professional staff through the
 firm.
 

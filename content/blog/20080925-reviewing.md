@@ -6,13 +6,13 @@ slug = "reviewing"
 draft = "False"
 +++
 Today, I saw [Professor Yehuda
-Baruch](http://www.uea.ac.uk/nbs/people/People/Academic/Yehuda+Baruch)
+Baruch](https://www.uea.ac.uk/nbs/people/People/Academic/Yehuda+Baruch)
 from the University of East Anglia at Norwich run a workshop called
 _Opening the black box of academic reviewing and editing_. The
 session was jointly hosted by the [department of Management and
 International
-Business](http://www.business.auckland.ac.nz/comwebContent/sitemanager/index.cfm?fs=pgv&pageid=23121) and the [department of
-Psychology](http://www.psych.auckland.ac.nz/).
+Business](https://www.business.auckland.ac.nz/comwebContent/sitemanager/index.cfm?fs=pgv&pageid=23121) and the [department of
+Psychology](https://www.psych.auckland.ac.nz/).
 
 It was a most informative session, so much so that subsequently, I
 got his book out of the library:

@@ -7,8 +7,8 @@ draft = "False"
 +++
 When we return for the Easter Break, we start the class on the topic of
 single and double loop learning (Search for Argyris and Sch&ouml;n
-[Google](http://www.google.com/search?q=argyris+schon+loop+single+double)
-or through [Learn](https://web.archive.org/web/20031001175457/http://www2.auckland.ac.nz/lbr/)).
+[Google](https://www.google.com/search?q=argyris+schon+loop+single+double)
+or through [Learn](https://web.archive.org/web/20031001175457/https://www2.auckland.ac.nz/lbr/)).
 
 I find their ideas crucial at this juncture. It allows us to
 explorer, explain, and understand our behaviours issues around:

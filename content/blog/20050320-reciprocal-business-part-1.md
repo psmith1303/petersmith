@@ -76,12 +76,12 @@ likes "my approach".
 
 The problem for me is should I engage in giving advice in this way?  On
 Thursday I attend the final presentations of I-Vole session of
-[Chiasma](http://www.chiasma.auckland.ac.nz/ivolve/ivolve.php). The next
+[Chiasma](https://www.chiasma.auckland.ac.nz/ivolve/ivolve.php). The next
 day I was talking with the
-[Ken](http://forum.london.edu/lbsbiogs.nsf/0/EE7B1E0A6B4951D880256A0600315242?OpenDocument%20)
-[Simmonds](http://staff.business.auckland.ac.nz/ksimmonds) about how few
+[Ken](https://forum.london.edu/lbsbiogs.nsf/0/EE7B1E0A6B4951D880256A0600315242?OpenDocument%20)
+[Simmonds](https://staff.business.auckland.ac.nz/ksimmonds) about how few
 members of the [business
-faculty](http://www.business.auckland.ac.nz/)
+faculty](https://www.business.auckland.ac.nz/)
 attended to the event. It was mainly staff from the sciences,
 engineering, etc, (and, of course, and excellent contingent of
 students). The projects were Biotech, and Ken reflected on the fact

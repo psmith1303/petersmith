@@ -7,7 +7,7 @@ draft = "False"
 +++
 I've been working on a paper for a conference at the [Clifford
 Chance Centre for the Management of Professional Service
-Firms](http://www.sbs.ox.ac.uk/ccc/). The paper is due in the next
+Firms](https://www.sbs.ox.ac.uk/ccc/). The paper is due in the next
 couple of weeks and progress is pretty good (so-far).
 
 I do a lot of work by remote access to my computer at the University.

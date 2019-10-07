@@ -14,8 +14,8 @@ deserves.
 Que sera.
 
 So, once I'm back from [the conference in
-Europe](http://www.egosnet.org/conferences/collo24/colloquium_2008.shtml)
+Europe](https://www.egosnet.org/conferences/collo24/colloquium_2008.shtml)
 I'll return to my [home
-department](http://www.business.auckland.ac.nz/comwebContent/sitemanager/index.cfm?fs=pgv
+department](https://www.business.auckland.ac.nz/comwebContent/sitemanager/index.cfm?fs=pgv
 &pageid=23121).
 

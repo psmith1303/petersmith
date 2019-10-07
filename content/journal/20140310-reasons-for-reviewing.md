@@ -19,4 +19,4 @@ of 250 words an interesting challenge.
 
 Sotto, E. (2010, January 21). You can lecture, but can you teach? _Times
 Higher Education_. London. Retrieved from
-http://www.timeshighereducation.co.uk/features/you-can-lecture-but-can-you-teach/410056.article
+https://www.timeshighereducation.co.uk/features/you-can-lecture-but-can-you-teach/410056.article

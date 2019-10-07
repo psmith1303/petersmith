@@ -6,7 +6,7 @@ slug = "times-they-are-achanging"
 draft = "False"
 +++
 Somewhat unexpectedly, the Dean, [Barry
-Spicer](http://staff.business.auckland.ac.nz/b.spicer) sent out an
+Spicer](https://staff.business.auckland.ac.nz/b.spicer) sent out an
 email
 to the faculty about "Changes at the Graduate School of Business". I
 say unexpectedly, because tucked at the end of the email was the
@@ -31,7 +31,7 @@ to spend more time
 
 I don't feel that I am leaving my current department. It is more of
 a temporary _auf wiedersehen_ until we are all united in the [new
-building](http://www.newschool.business.auckland.ac.nz/index.cfm).
+building](https://www.newschool.business.auckland.ac.nz/index.cfm).
 So, after teaching summer school (MGMT 101,
 Organisation & Management), I'll be off to
 the GSB. Between now and then, I suspect

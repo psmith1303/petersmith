@@ -6,11 +6,11 @@ slug = "psychodrama"
 draft = "False"
 +++
 Well I've signed up for an introductory course (well they call it the _Core
-curriculum_) in [psychodrama](http://www.psychodrama.org.nz).  It will be
+curriculum_) in [psychodrama](https://www.psychodrama.org.nz).  It will be
 interesting to see what happens.
 
 I know relatively little about psychodrama, other than what I've
-[read](http://www.users.on.net/\~iam/Pdis.html) and the fact that
+[read](https://www.users.on.net/\~iam/Pdis.html) and the fact that
 Judith McMorland has demonstrated it a couple of times.
 
 Any way the first class is to night, and continues tomorrow and

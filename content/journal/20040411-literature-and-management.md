@@ -6,12 +6,12 @@ slug = "literature-and-management"
 draft = "False"
 +++
 I was reading [Media
-Tinker](http://www.mediatinker.com/blog/archives/008326.html) when I came
+Tinker](https://www.mediatinker.com/blog/archives/008326.html) when I came
 across the quote _A foolish consistency is the hobgoblin of little
 minds_ by Ralph Waldo Emerson. A quick trip to
-[Bartleby](http://www.bartleby.com/59/3/foolishconsi.html) confirmed its
+[Bartleby](https://www.bartleby.com/59/3/foolishconsi.html) confirmed its
 providence as coming from his 1841 essay
-[Self-reliance](http://www.farid-hajji.net/books/en/Emerson_Ralph_Waldo/es1-selfreliance.html).
+[Self-reliance](https://www.farid-hajji.net/books/en/Emerson_Ralph_Waldo/es1-selfreliance.html).
 
 It would be easy to make some half-baked link from this quotation to
 the topic for next week's class on *single and double loop learning*.
@@ -19,9 +19,9 @@ But, his essay is neither short, nor a straightforward; and such a
 link would do little credit to me (and no credit to Emerson). Taking
 these few words out of their complete context is a naive thing to do.
 I seem to recall [Barbara
-Czarniawska](http://www.handels.gu.se/gri/gribcza.html) (who likes to
+Czarniawska](https://www.handels.gu.se/gri/gribcza.html) (who likes to
 link management and
-[literature](http://www.amazon.com/exec/obidos/ASI/0198296142)) 
+[literature](https://www.amazon.com/exec/obidos/ASI/0198296142)) 
 once saying that a good way to
 study management is through great novels and stories. I'm not an
 aficionado of Emerson--he wasn't on my reading list at school--but

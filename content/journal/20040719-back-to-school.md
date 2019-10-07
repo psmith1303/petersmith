@@ -24,10 +24,10 @@ seem to be willing to participate, and they enjoy a laugh.  Thinking
 about what went on today, I'm not sure that I spent enough time on what
 my role in the class and in 101, in general, is. With regard to my
 general role, in the 101 teaching team I work with
-[Joe](https://web.archive.org/web/20071015234437/http://staff.business.auckland.ac.nz/jbeer) (who has responsible
+[Joe](https://web.archive.org/web/20071015234437/https://staff.business.auckland.ac.nz/jbeer) (who has responsible
 for the course) and the other lecturers
-([Sanjay](https://web.archive.org/web/20080227004800/http://staff.business.auckland.ac.nz/sbhowmick) and
-[Nigel](https://web.archive.org/web/20080226233443/http://staff.business.auckland.ac.nz/nhaworth)) to shape the
+([Sanjay](https://web.archive.org/web/20080227004800/https://staff.business.auckland.ac.nz/sbhowmick) and
+[Nigel](https://web.archive.org/web/20080226233443/https://staff.business.auckland.ac.nz/nhaworth)) to shape the
 content of the course and the format of the assignments. Joe, besides
 doing that too, is heavily concerned with the processes in course--
 making sure the mechanics work. Joe is quiet skilled at managing the

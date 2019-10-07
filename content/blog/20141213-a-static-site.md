@@ -8,9 +8,9 @@ draft = "False"
 In a possibly vain attempt to simplify my life, I am moving most of my sites
 to a lightweight platform. Specifically, I'm going away from
 [Wordpress](https://wordpress.org/) and moving to 
-[Pelican](http://blog.getpelican.com/).
+[Pelican](https://blog.getpelican.com/).
 
-It all started when it fell due to renew [The Woolseys](http://thewoolseys.com).
+It all started when it fell due to renew [The Woolseys](https://thewoolseys.com).
 The site has been moribund for sometime, and I was going to close
 it down, but some of the content is still meaningful. It had
 been running on [MovableType](https://movabletype.org/) but
@@ -29,8 +29,8 @@ features along with any fixes, but ... it's all a bit of a pain.
 
 As a result, I started looking around for alternatives. At first I 
 thought about [Ghost](https://ghost.org/) running on top of 
-[node.js](http://nodejs.org/). In fact I even upgraded my hosting at 
-[A2 Hosting](http://www.a2hosting.com) to allow me to run it. 
+[node.js](https://nodejs.org/). In fact I even upgraded my hosting at 
+[A2 Hosting](https://www.a2hosting.com) to allow me to run it. 
 But, once again it felt 'heavy' (and I could not quite figure out
 some of the templating stuff because not all the data is presented
 to all of templates).
@@ -46,7 +46,7 @@ took a bit of scripting with Vim.
 
 There was also a pile of half converted Textile data (from before the 
 sites were based on WordPress ... from when they were MovableType). 
-[Pandoc](http://johnmacfarlane.net/pandoc/) helped with that. But, 
+[Pandoc](https://johnmacfarlane.net/pandoc/) helped with that. But, 
 that put Unicode characters back in the files. Back to scripts with Vim.
 
 I still need to go through ever post and check for the odd little 

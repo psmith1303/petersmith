@@ -6,11 +6,11 @@ slug = "im-anxious"
 draft = "False"
 +++
 I'm a little
-[anxious](http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=anxious&x=0&y=0).
+[anxious](https://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=anxious&x=0&y=0).
 Okay it's not "extreme uneasiness of mind", but nevertheless I'm a
 little tense ...
 
-We had expected to have [Net Mike](http://www.smartsims.com) setup by
+We had expected to have [Net Mike](https://www.smartsims.com) setup by
 now, and to have emailed all the class with their login details. Alas,
 it's Sunday and we still haven't been able to that. The 'whys and the
 wherefores' of the situation, how it came to be, don't really matter
@@ -40,5 +40,5 @@ that. Nor do I know if they will have a problem with it.
 But here's the strange thing. Now that I've mentioned it, it is more
 likely to happen the way I anticipated it happening. Perhaps when
 we get to the lecture on [the social construction of
-reality](http://www.amazon.com/exec/obidos/tg/detail/-/0385058985/002--8823839--3331201)
+reality](https://www.amazon.com/exec/obidos/tg/detail/-/0385058985/002--8823839--3331201)
 it will be worthwhile revisiting-this.

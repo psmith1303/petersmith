@@ -6,18 +6,18 @@ slug = "launch-day"
 draft = "False"
 +++
 So, at last, I have a working web log. Most of the
-[code](http://www.frogware.com/weblog/archives/articles/weblogHowTo.html)
-to get this working came from [Frogware](http://www.frogware.com/).
+[code](https://www.frogware.com/weblog/archives/articles/weblogHowTo.html)
+to get this working came from [Frogware](https://www.frogware.com/).
 
 I also, found a lot of interesting things at [Babu's
-site](http://vsbabu.org/index.html). I think I'll have a go at using
-his [IE Editor](http://vsbabu.org/webdev/zopedev/ieeditor.html) for
-[Zope](http://www.zope.org/) to make editing this a little easier.
+site](https://vsbabu.org/index.html). I think I'll have a go at using
+his [IE Editor](https://vsbabu.org/webdev/zopedev/ieeditor.html) for
+[Zope](https://www.zope.org/) to make editing this a little easier.
 
 Getting the search engine to work is a little problematical. The
-[How To](http://www.zope.org/Documentation/How-To/ZCatalogTutorial) is
+[How To](https://www.zope.org/Documentation/How-To/ZCatalogTutorial) is
 rather out of date. Perhaps I should be looking in the [Zope
-Book](http://web.archive.org/web/20020831032838/http://www.zope.org/Members/michel/ZB).
+Book](https://web.archive.org/web/20020831032838/https://www.zope.org/Members/michel/ZB).
 
 Well, the book did help. But, I still needed to hunt around the Zope
 site for more information. But it all seems to be working now.

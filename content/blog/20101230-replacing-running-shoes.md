@@ -5,9 +5,9 @@ categories = ["Fitness"]
 slug = "replacing-running-shoes"
 draft = "False"
 +++
-[JustPlodIt](http://runkeeper.com/user/justplodit), over at
-[RunKeeper](http://runkeeper.com/) asked about [replacing
-shoes](http://runkeeper.com/user/justplodit/activity/21714311). He said:
+[JustPlodIt](https://runkeeper.com/user/justplodit), over at
+[RunKeeper](https://runkeeper.com/) asked about [replacing
+shoes](https://runkeeper.com/user/justplodit/activity/21714311). He said:
 
 > I read somewhere you should change your shoes every few months
 > (depending on your mileage), to protect your joints. I guess I've done
@@ -31,7 +31,7 @@ I'm currently working my way through a couple of New Balance shoes
 (1063, 1064), but the actual model of course depends on how much
 support, _etc._ you need. I'm a "neutral' runner, but I get myself
 test at Shoe Science (or similar) each time I'm thinking of changing
-shoes. [Andrew](http://www.andrewisgettingfit.com/) has three of four
+shoes. [Andrew](https://www.andrewisgettingfit.com/) has three of four
 different brands he uses (as he tries to find the "perfect' pair). I'm
 just using something that suits my feet and doesn't cause any problems.
 (Then again, Andrew is planning to do an ultra-marathon in March ...

@@ -6,7 +6,7 @@ slug = "fitness-assessment-2"
 draft = "False"
 +++
 I had a fitness assessment at the university's [Recreation
-Centre](http://www2.auckland.ac.nz/recreation/) today. Here are the
+Centre](https://www2.auckland.ac.nz/recreation/) today. Here are the
 results.
 
 |                   |    | Comments |

@@ -28,7 +28,7 @@ I have tweaked my general purpose Makefile to do just that:
 ```
 ## A Makefile in for your markdown-based paper project. 
 ## Assuming you are using the rest of my templates and toolchain,
-## (see http://kieranhealy.org/resources) you can use it
+## (see https://kieranhealy.org/resources) you can use it
 ### to create .html, .tex, and .pdf output files (complete with
 ### bibliography, if present) from your markdown file.
 ## -    Install the `pandoc-citeproc` and `pandoc-citeproc-preamble`

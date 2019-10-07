@@ -85,7 +85,7 @@ weight = 441
 [^2]: This course is for the BBIM
 
 [^3]: These courses can be credited towards a formal award at
-the [University of Auckland](http://www.auckland.ac.nz/).
+the [University of Auckland](https://www.auckland.ac.nz/).
 
 [^4]: Prior to 1999, my role was as a tutor, rather than as a lecturer or
 course co-ordinator

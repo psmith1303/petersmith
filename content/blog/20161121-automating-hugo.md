@@ -6,7 +6,7 @@ slug = "automating-hugo"
 +++
 I'm starting to live in Emacs, and so I wanted to automate---a bit---the way in which I create posts.
 
-So, I took a bit of code from http://wmanger.com/ and mixed in a lot of code from [Toke Høiland-Jørgensen](http://blog.tohojo.dk/2015/10/integrating-hugo-into-emacs.html). The result is something that, creates a file and opens it with the minimal [Hugo frontmatter](http://gohugo.io/content/front-matter/). For this post the front matter looks like this:
+So, I took a bit of code from https://wmanger.com/ and mixed in a lot of code from [Toke Høiland-Jørgensen](https://blog.tohojo.dk/2015/10/integrating-hugo-into-emacs.html). The result is something that, creates a file and opens it with the minimal [Hugo frontmatter](https://gohugo.io/content/front-matter/). For this post the front matter looks like this:
 
 	+++
 	date = "2016-11-21T18:48:19+13:00"

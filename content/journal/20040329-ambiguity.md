@@ -52,7 +52,7 @@ references, and theory, later.
 Choosing the _topic_ doesn't have to be hard. I think one of the
 easiest ways is to look back at your journals and see what seems
 important to you. I'll use one of [Amit's
-journals](http://www.thereflectivepractitioner.org/armi/archives/000274.html)
+journals](https://www.thereflectivepractitioner.org/armi/archives/000274.html)
 as an example. In that entry he mentions the issue of power ((As I
 write this, I'm wondering how many essays on power we might now
 get.)). It would be fairly straight forward, I imagine, for Amit to

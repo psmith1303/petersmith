@@ -7,8 +7,8 @@ draft = "False"
 +++
 I have seen the future and it's name is "Team based learning"
 
-Today, I went to [Larry Michaelsen's](http://www.ucmo.edu/x4262.xml)
-seminar on [Team Based Learning](http://www.teambasedlearning.org/)
+Today, I went to [Larry Michaelsen's](https://www.ucmo.edu/x4262.xml)
+seminar on [Team Based Learning](https://www.teambasedlearning.org/)
 
 He was impressive. Next year I will redesign one course around Team
 Based Learning (yes, it was that good).
@@ -23,9 +23,9 @@ connect the elements together.
 A few notes:
 
 He has written a few
-[books](http://www.amazon.com/s?ie=UTF8&search-type=ss&index=books&field-author=Larry20%20Michaelsen&page=1)
+[books](https://www.amazon.com/s?ie=UTF8&search-type=ss&index=books&field-author=Larry20%20Michaelsen&page=1)
 many of which are about Team Based Learning.
 
 Apart from the main :Team Based Learning web-site", information can
-also be found [here](http://www.tlcollaborative.org/ABOUT.HTM).
+also be found [here](https://www.tlcollaborative.org/ABOUT.HTM).
 

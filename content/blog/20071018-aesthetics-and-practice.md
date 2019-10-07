@@ -35,10 +35,10 @@ not sure, but it is important to have it."
 I think elegance, is related
 to [aesthetics ](https://en.wikipedia.org/wiki/Aesthetics) (which
 takes me back to work and discussions I had
-with [David Barry](http://www.geocities.com/drdavidbarry/)). As I
+with [David Barry](https://www.geocities.com/drdavidbarry/)). As I
 write this now, and as I think back, what strikes me is the strong
 relationship between practice (and those who write about it) and
-aesthetics. Perhaps, at the [EGOS conference](http://www.egosnet.org/)
+aesthetics. Perhaps, at the [EGOS conference](https://www.egosnet.org/)
 next year, I'll catch up with Daved/David and explore this in more
 detail.
 

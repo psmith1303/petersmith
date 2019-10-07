@@ -6,13 +6,13 @@ slug = "adventures-with-turnitin"
 draft = "False"
 +++
 For the past three years, I've been using
-[TurnItIn](http://www.turnitin.com) with my classes as a means of
+[TurnItIn](https://www.turnitin.com) with my classes as a means of
 improving the quality of students work. Besides using it as a tool to
 prevent plagiarism, I've been using the Peer Review option to allow
 students to see and comment on each others work. Feedback from
 students, and by looking at their marks, this has been generally
 successful.  Recently, TurnItIn introduced an array of new products including
-[GradeMark](http://www.turnitin.com/static/products_services/grademark.html)&trade;. According to the advertising blurb and what I read in the manuals,
+[GradeMark](https://www.turnitin.com/static/products_services/grademark.html)&trade;. According to the advertising blurb and what I read in the manuals,
 GradeMark should improves the process flow of marking and grading--
 allowing lecturers to electronically mark-up assignments. I've
 trialled other products and have been generally impressed by their

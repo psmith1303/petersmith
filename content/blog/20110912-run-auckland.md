@@ -18,7 +18,7 @@ running a year. My times were:
 - 00:46:47 -- Western Springs
 
 A consistent result. The outlier is Northcote Point. My race [report on Daily
-Mile](http://www.dailymile.com/people/PeterS6/entries/7395630) begins "Hills.
+Mile](https://www.dailymile.com/people/PeterS6/entries/7395630) begins "Hills.
 Need I say more".
 
 That's one thing I need to continue to work on is my hill running.  Going up,

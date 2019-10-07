@@ -26,6 +26,6 @@ problem yet.  But overall, I was please with the mechanics of the presentation.
 The general feedback I had (from the small, but select audience) was that it
 was a solid presentation. I found the discussion we had at the end very useful.
 Special thanks need to go to
-[Brigid](http://staff.business.auckland.ac.nz/bcarroll) and
-[Rachel](http://staff.business.auckland.ac.nz/rwolfgramm) for their helpful
+[Brigid](https://staff.business.auckland.ac.nz/bcarroll) and
+[Rachel](https://staff.business.auckland.ac.nz/rwolfgramm) for their helpful
 comments.

@@ -43,7 +43,7 @@ I explain to him the problems I had last time getting it fixed. But no, he
 doesn't want to do anything else (except mail me my usage).  _Arrgh!_ It will
 be interesting to see if it is fixed tomorrow.  For those wondering about the
 _Yeah. Right_ comment, it is a Kiwi reference to a series of
-[commercials](http://www.istart.co.nz/index/HM20/PC/PV23539/EX2342/CS27126)
+[commercials](https://www.istart.co.nz/index/HM20/PC/PV23539/EX2342/CS27126)
 for a beer. As in:
 
 > "We'll keep your CV on file"
@@ -57,12 +57,12 @@ talked to my ISP. And yes, despite the warnings on the site about enabling
 cookies---and I hadn't---and yes, the problem was caused by a lack of cookies.
 But seriously, this has to be one of the silliest messages[3] ever for saying
 "Turn cookies on".  Having searched
-[Google](http://www.google.com/search?q=IafTranslate.C) for the problem, it
+[Google](https://www.google.com/search?q=IafTranslate.C) for the problem, it
 seems that not many people encounter this. I wonder why.
 
 [1]: Eventually I found my original
-[posting](http://www.unixathome.org/adsl/archives/2001_02/0108.html) to the
-[ADSL list](http://www.unixathome.org/adsl/) that chronicles my first encounter of the
+[posting](https://www.unixathome.org/adsl/archives/2001_02/0108.html) to the
+[ADSL list](https://www.unixathome.org/adsl/) that chronicles my first encounter of the
 problem.
 
 [2]: At the back of my mind I'm thinking, is this a problem with

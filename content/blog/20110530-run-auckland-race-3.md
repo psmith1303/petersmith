@@ -6,7 +6,7 @@ slug = "run-auckland-race-3"
 draft = "False"
 +++
 Sunday was the fourth race in the [RUN Auckland
-series](http://www.runauckland.co.nz/about.html) at Northcote (I seem
+series](https://www.runauckland.co.nz/about.html) at Northcote (I seem
 to
 have skipped reporting on the third race in the series). My summary of
 the course is that what wasn't muddy was hilly. I don't mind the mud,

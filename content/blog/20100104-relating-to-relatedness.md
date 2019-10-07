@@ -5,7 +5,7 @@ categories = ["Research"]
 slug = "relating-to-relatedness"
 draft = "False"
 +++
-I think it was [Stephen Turner](http://www.cas.usf.edu/philosophy/turner/)
+I think it was [Stephen Turner](https://www.cas.usf.edu/philosophy/turner/)
 (2007) who lamented that much sociological theory is uninformed by our
 contemporary understanding of neuroscience.
 

@@ -6,20 +6,20 @@ slug = "orgmode-part-1"
 draft = "False"
 +++
 I've been a big fan and user of [Remember the
-milk](http://www.rememberthemilk.com/). I found it a great way to manage my
-task, and so on, in a [GTD](http://www.davidco.com/) like manner. As a bit of
+milk](https://www.rememberthemilk.com/). I found it a great way to manage my
+task, and so on, in a [GTD](https://www.davidco.com/) like manner. As a bit of
 an aside, the GTD methodology really works for me ... and every time I find
 work getting a bit out of control its because I've not been ruthlessly applying
 the principles of GTD.
 
 Anyway, I've switched to using org-mode (aka orgmode). I don't recall how I
-stumbled across [Org-Mode: Your Life in Plain Text](http://orgmode.org/). No
+stumbled across [Org-Mode: Your Life in Plain Text](https://orgmode.org/). No
 before I go any further, let me say that I don't think orgmode it for everyone.
 Its an extension to the [emacs text
-editor](http://www.gnu.org/software/emacs/), and in this
-[WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG) world a texted based programme
+editor](https://www.gnu.org/software/emacs/), and in this
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) world a texted based programme
 may be "a bridge to far'. But, as an old hand a unix (albeit a
-[vi/vim](http://www.vim.org/) user) the transition to emacs hasn't been too
+[vi/vim](https://www.vim.org/) user) the transition to emacs hasn't been too
 hard.
 
 But why change? Is this just part of the ongoing search for the perfect tool
@@ -36,9 +36,9 @@ of orgmode ... but I have deleted my Remember the Milk account.
 
 There are lots of useful resources on using orgmode in a GTD way. For
 example, [this
-one](http://members.optusnet.com.au/\~charles57/GTD/orgmode.html), [this
-one](http://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html)
-or [this one](http://www.linuxjournal.com/article/9116). Most of the articles
+one](https://members.optusnet.com.au/\~charles57/GTD/orgmode.html), [this
+one](https://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html)
+or [this one](https://www.linuxjournal.com/article/9116). Most of the articles
 assume you already have emacs up an running (which isn't hard), and that you
 know how to configure emacs (which is harder).  Fortunately, emacs now ships
 with orgmode included, so there isn't a lot of additional work that needs to be

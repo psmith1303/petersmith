@@ -11,7 +11,7 @@ title = "Student engagement"
 +++
 
 Scattered around the University's websites (and in the work of
-colleagues in [CleaR](http://www.clear.auckland.ac.nz) there are many
+colleagues in [CleaR](https://www.clear.auckland.ac.nz) there are many
 references to student engagement. This is probably because "Engagement
 could be described as the holy grail of learning .... because it has
 been linked with to positive learning outcomes both in and out of

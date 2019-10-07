@@ -6,9 +6,9 @@ slug = "peer-evaluations"
 draft = "False"
 +++
 Our BUSINESS 101 course (aka Business and Enterprise) is based on
-[Team-based learning](http://www.teambasedlearning.org/) and has an
+[Team-based learning](https://www.teambasedlearning.org/) and has an
 element of peer evaluation.This is based on the [Michaelson (percentage)
-method](http://tblc.camp9.org/resources/documents/tbl%20-%202%20methods_peer%20eval%20scores.pdf).
+method](https://tblc.camp9.org/resources/documents/tbl%20-%202%20methods_peer%20eval%20scores.pdf).
 
 We have just completed a practice run through and the results are quite
 interesting (but not unexpected).

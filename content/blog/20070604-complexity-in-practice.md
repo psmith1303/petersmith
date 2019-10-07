@@ -6,7 +6,7 @@ slug = "complexity-in-practice"
 draft = "False"
 +++
 I see that [Colin
-Campbell-Hunt](http://www.business.otago.ac.nz/Mgmt/staff/ccampbellhunt.html)
+Campbell-Hunt](https://www.business.otago.ac.nz/Mgmt/staff/ccampbellhunt.html)
 has something new in Human Relations. The full details are:
 
 > Campbell-Hunt, C. (2007). Complexity in practice. _Human
@@ -32,20 +32,20 @@ investigate these complex phenomena.
 I wonder if this came out of the [workshop at the 2005 ANZAM
 conference]({{< relref "20041208-anzam-strategising-activity-and-practice.md" >}})
 that he, [Paula
-Jarzabkowski](http://www.abs.aston.ac.uk/newweb/staff/detail.asp/sfldStaffID=A0000633)  
+Jarzabkowski](https://www.abs.aston.ac.uk/newweb/staff/detail.asp/sfldStaffID=A0000633)  
 and I put on.
 
 This year, I'm working on a paper with [Liliana
-Erakovic](http://staff.business.auckland.ac.nz/lerakovic) and [Yvon
-Dufour](http://staff.business.auckland.ac.nz/ydufour). The paper is due
+Erakovic](https://staff.business.auckland.ac.nz/lerakovic) and [Yvon
+Dufour](https://staff.business.auckland.ac.nz/ydufour). The paper is due
 on the 29 June 2007, but both Liliana and I leave in the next few weeks
-to go to Europe for the [EGOS](http://www.egosnet.org/)
-[conference](http://www.egosnet.org/conferences/collo23/colloquium_2007.shtml)
+to go to Europe for the [EGOS](https://www.egosnet.org/)
+[conference](https://www.egosnet.org/conferences/collo23/colloquium_2007.shtml)
 in Vienna. Let's hope we have enough time to complete it.
 
 The paper is based on some of the work coming from
-[strategy-as-practice](http://www.strategy-as-practice.org/) folk on
+[strategy-as-practice](https://www.strategy-as-practice.org/) folk on
 [pluralistic
-contexts](http://hum.sagepub.com/cgi/content/abstract/60/1/179) (since
+contexts](https://hum.sagepub.com/cgi/content/abstract/60/1/179) (since
 that's what all three of us have in common).
 

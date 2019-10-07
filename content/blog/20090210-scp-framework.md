@@ -6,9 +6,9 @@ slug = "scp-framework"
 draft = "False"
 +++
 There is a really nice four minute presentation of the SCP framework at
-[McKinsey](http://www.mckinseyquarterly.com/Enduring_ideas_The_SCP_Framework_2169?pagenum=1\#interactive_scp).
+[McKinsey](https://www.mckinseyquarterly.com/Enduring_ideas_The_SCP_Framework_2169?pagenum=1\#interactive_scp).
 Other _enduring ideas_ can be found
-[here](http://www.mckinseyquarterly.com/Enduring_ideas_The_SCP_Framework_2169?pagenum=1\#interactive_scp).
+[here](https://www.mckinseyquarterly.com/Enduring_ideas_The_SCP_Framework_2169?pagenum=1\#interactive_scp).
 
 All the enduring ideas aren't 'in place yet', but McKinsey are slowly
 rolling them-out.

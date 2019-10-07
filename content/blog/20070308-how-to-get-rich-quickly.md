@@ -12,7 +12,7 @@ serious money at the moment are those who are able to tap into the
 great engine of arbitrage that this behind the housing boom.
 Anyone who can "clip the ticket", particularly Banks and Real
 Estate Agents must be making a bundle. One, only needs to look at the
-number of [Aston Martins](http://www.astonmartin.com/) being driven
+number of [Aston Martins](https://www.astonmartin.com/) being driven
 round Auckland to realise how well some people are doing out of
 this-boom.
 

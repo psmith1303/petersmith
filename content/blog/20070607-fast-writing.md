@@ -5,13 +5,13 @@ categories = ["Research"]
 slug = "fast-writing"
 draft = "False"
 +++
-At yesterday's [PhD Club](http://www.phd.business.auckland.ac.nz/) meeting,
+At yesterday's [PhD Club](https://www.phd.business.auckland.ac.nz/) meeting,
 [Barbara
-Grant](http://www.auckland.ac.nz/uoa/cpd/about/ourpeople/barbaragrant.cfm) from
+Grant](https://www.auckland.ac.nz/uoa/cpd/about/ourpeople/barbaragrant.cfm) from
 the Academic Practice Group of the [Centre for Academic
-Development](http://www.cad.auckland.ac.nz/) came along to talk about
+Development](https://www.cad.auckland.ac.nz/) came along to talk about
 [\_Embedding writing in the PhD
-process\_](http://phd.business.auckland.ac.nz/node/39). Many people know
+process\_](https://phd.business.auckland.ac.nz/node/39). Many people know
 Barbara; she runs a number of writing retreats (for women) and she has a great
 "rep' for helping people with their writing.  One techniques she talked about
 was _fast writing_. In fast writing one writes, non-stop, for about 10 minutes.

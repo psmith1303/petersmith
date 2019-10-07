@@ -55,7 +55,7 @@ both approaches. In some areas (particularly when dealing with students), I
 tend toward Utilitarian approaches. However, I'm also aware that there are
 times when I've _bent the rules_ for students because of the situation/context.
 Then again, if you look at the [Academic Honesty Assistance
-tutorial](http://qa.cecil.auckland.ac.nz:8000/) (Aha---which I helped to
+tutorial](https://qa.cecil.auckland.ac.nz:8000/) (Aha---which I helped to
 develop) you'll see elements of deontology. And no doubt, from time to time, I
 fall back on egoism.  Truth be told, I suspect that we all use a variety of
 ethical guides for our behaviour. But, I wonder how much our choices, say

@@ -9,7 +9,7 @@ After talking with [Lynne
 Mitchell](https://directory.auckland.ac.nz/profile/lm-mitchell "Details
 of Lynne Mitchell")
 yesterday, I thought I would try out
-[Scopus](http://www.library.auckland.ac.nz.ezproxy.auckland.ac.nz/databases/learn_database/public.asp?record=Scopus
+[Scopus](https://www.library.auckland.ac.nz.ezproxy.auckland.ac.nz/databases/learn_database/public.asp?record=Scopus
 "Scopus at the UoA for academics (students and staff)")
 again.
 
@@ -89,7 +89,7 @@ Management Review, 8_(3), 21--31.
 
 Ministry of Education. (21012). Experiential learning cycle. _TKI: Te
 Kete Ipurangi_. Governmental. Retrieved July 19, 2012, from
-http://health.tki.org.nz/Key-collections/Curriculum-in-action/Making-Meaning/Teaching-and-learning-approaches/Experiential-learning-cycle
+https://health.tki.org.nz/Key-collections/Curriculum-in-action/Making-Meaning/Teaching-and-learning-approaches/Experiential-learning-cycle
 
 Minto, B. (2002). _The pyramid principle: Logic in writing and
 thinking_ (3rd. ed.). London: Pearson Education.

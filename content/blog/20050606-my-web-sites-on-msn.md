@@ -32,8 +32,8 @@ This page is one of the most popular on my site. There are many
 Indeed, the search term "my web sites on msn"
 is the most search phrase that delivers people to this site.
 
-If I [Google](http://www.google.co.nz/search?q=%22my+web+sites+on+MSN%22) the
-phrase [my web sites on MSN](http://support.microsoft.com/kb/308412), the first
+If I [Google](https://www.google.co.nz/search?q=%22my+web+sites+on+MSN%22) the
+phrase [my web sites on MSN](https://support.microsoft.com/kb/308412), the first
 entry is a link to Microsoft, and the second one is a link to this page.
 
 According to Microsoft:
@@ -60,5 +60,5 @@ the words in the page names of this blog are now separated by a hyphen
 instead of an underline. I wonder how long it will be until this
 becomes a popular page again.- So I have set up a redirect to ensure
 searches from Google end up on the right page and don't get a [404
-error](http://www.404errorpages.com/)
+error](https://www.404errorpages.com/)
 

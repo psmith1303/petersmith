@@ -5,15 +5,15 @@ categories = ["Productivity"]
 slug = "getting-things-done-2"
 draft = "False"
 +++
-I've been a fan of [David Allen's](http://www.davidco.com/) system for _getting things done_ or GTD for some time.
+I've been a fan of [David Allen's](https://www.davidco.com/) system for _getting things done_ or GTD for some time.
 
 Up until know, I've been using the
-[add-on](http://gtdsupport.netcentrics.com/buy/) for Outlook. It's worked
+[add-on](https://gtdsupport.netcentrics.com/buy/) for Outlook. It's worked
 pretty well, although I have experienced some instability with Outlook (but
 then again, who hasn't).
 
 I'm spent a bit of time over the weekend rehashing [David
-Avraamides's](http://davidavraamides.net/blog/2006/07/30/getting-things-done-django-style-part-2/)
+Avraamides's](https://davidavraamides.net/blog/2006/07/30/getting-things-done-django-style-part-2/)
 code to work for me. It's been fun making the changes I've needed (mainly
 cosmetic), but is seems reliable enough for me to move all of my tasks out of Outlook.
 

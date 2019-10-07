@@ -10,12 +10,12 @@ It is so nice when ones research and teaching interests intersect. As I've been
 studying practices, I've become increasing interested in the "situated" nature
 of practices (Suchman, 1987; Sharrock & Button, 2003; Lave 1991).  This has led
 me to become increasing interested in the notion of [Communities of
-practice](http://www.ewenger.com/theory/communities_of_practice_intro.htm) This
+practice](https://www.ewenger.com/theory/communities_of_practice_intro.htm) This
 lead me to some reports about [The Manchester
-Method](http://leaderswedeserve.wordpress.com/2007/05/22/the-manchester-method-as-an-educational-innovation/)
+Method](https://leaderswedeserve.wordpress.com/2007/05/22/the-manchester-method-as-an-educational-innovation/)
 as a means of teaching (especially with regard to MBA students). There is a
 helpful [PowerPoint
-sideshow](http://leaderswedeserve.files.wordpress.com/2007/05/manchester-method.ppt)
+sideshow](https://leaderswedeserve.files.wordpress.com/2007/05/manchester-method.ppt)
 that puts the method into context (of course---where would we be without
 context).
 

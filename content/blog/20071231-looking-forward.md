@@ -16,8 +16,8 @@ in the next two months (before getting back into the fray of "normal' academic
 life).
 
 I've got a lot to do this year. I hope to produce some good articles for
-[EGOS](http://www.egosnet.org/) (the conference is in July) and for
-[SMS](http://www.strategicmanagement.net/) (their conference is is October). I
+[EGOS](https://www.egosnet.org/) (the conference is in July) and for
+[SMS](https://www.strategicmanagement.net/) (their conference is is October). I
 hope to attend the EGOS conference, and Liliana (with whom I'm co-authoring the
 article---along with Yvon Dufour) will attend the SMS.  The problem (?) is that
 submissions for those conferences have to be in by the middle of January.

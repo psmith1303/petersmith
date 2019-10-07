@@ -6,9 +6,9 @@ slug = "the-copycat-syndrome-plagiarists-at-work"
 draft = "False"
 +++
 On the [JISC
-Plagiarism](http://www.jiscpas.ac.uk/) mailing list, I came across an
-[interesting article](http://www.slate.com/id/2157435/) at
-[Slate](http://www.slate.com/) by Meghan O'Rourke.
+Plagiarism](https://www.jiscpas.ac.uk/) mailing list, I came across an
+[interesting article](https://www.slate.com/id/2157435/) at
+[Slate](https://www.slate.com/) by Meghan O'Rourke.
 
 Not wishing to step on anyone's copyright, I haven't reproduced the
 article here; rather here is a quote from the opening of the article
@@ -29,6 +29,6 @@ to get you interested enough to visit Slate.
 > even cited Saddam Hussein's habitual plagiarism as evidence of
 > the leader's fundamental treachery.
 
-Anyway, the [article](http://www.slate.com/id/2157435/) is a good 
+Anyway, the [article](https://www.slate.com/id/2157435/) is a good 
 read--I commend it to you.
 

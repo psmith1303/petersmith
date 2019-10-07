@@ -19,7 +19,7 @@ meanings of the word, I found:
 > critical faculty; discernment.
 
 and of course (?), I had a look at
-[Wikipedia](http://en.wikipedia.org/wiki/Judgment), which I found less
+[Wikipedia](https://en.wikipedia.org/wiki/Judgment), which I found less
 helpful, viz:
 
 > In non-legal contexts, a judgment (American English) or judgement

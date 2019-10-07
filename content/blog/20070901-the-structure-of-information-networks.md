@@ -18,5 +18,5 @@ probabilistic techniques for link analysis, centralized and
 decentralized search algorithms, network models based on random
 graphs, and connections with work in the social sciences.
 
-Enjoy this at [Cornell](http://www.cs.cornell.edu/Courses/cs685/2007fa/)
+Enjoy this at [Cornell](https://www.cs.cornell.edu/Courses/cs685/2007fa/)
 

@@ -7,7 +7,7 @@ draft = "False"
 +++
 For sometime--in fact for many years--the [Instructions to examiners
 and
-assessors](http://www.auckland.ac.nz/webdav/site/central/shared/about/teaching-and-learning/policies-guidelines-procedures/documents/Exam-Booklet-08-for-Web.pdf)
+assessors](https://www.auckland.ac.nz/webdav/site/central/shared/about/teaching-and-learning/policies-guidelines-procedures/documents/Exam-Booklet-08-for-Web.pdf)
 has said the following about group projects:
 
 > 2 Group Projects
@@ -59,15 +59,15 @@ softened.
 Secondly, the limits on the amount of marks that can be allocated to
 group assignments has been removed. Finally, the use of peer-review or
 self-review to moderate group marks has been formally recognised. Of
-course, [the University](http://www.auckland.ac.nz/) has allowed such
+course, [the University](https://www.auckland.ac.nz/) has allowed such
 practices in the past; but only on a case-by-case basis. Now, these very
 useful pedagogical tools more 'usable' for teaching staff.
 
 As one who has used many of these techniques in my teaching, I think
 this policy change is a "very good thing".
 
-[Lisa Callagher](https://web.archive.org/web/20100513124031/http://staff.business.auckland.ac.nz/5272.aspx),
-[Andrew Eberhard](https://web.archive.org/web/20100513143121/http://staff.business.auckland.ac.nz/5055.aspx), and I
+[Lisa Callagher](https://web.archive.org/web/20100513124031/https://staff.business.auckland.ac.nz/5272.aspx),
+[Andrew Eberhard](https://web.archive.org/web/20100513143121/https://staff.business.auckland.ac.nz/5055.aspx), and I
 have been wrestling with how we can do some of the mechanics of
 peer-review in a more systematic/automated manner so that students can
 get timely and accurate feedback on how their peers see their

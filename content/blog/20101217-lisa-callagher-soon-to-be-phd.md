@@ -6,7 +6,7 @@ slug = "lisa-callagher-soon-to-be-phd"
 draft = "False"
 +++
 My friend and colleague [Lisa
-Callagher](https://web.archive.org/web/20100513124031/http://staff.business.auckland.ac.nz/5272.aspx) submitted
+Callagher](https://web.archive.org/web/20100513124031/https://staff.business.auckland.ac.nz/5272.aspx) submitted
 her
 PhD thesis today. Yay; and I'm so jealous.
 

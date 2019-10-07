@@ -31,7 +31,7 @@ working in teams and value what they can achieve, but others may well
 observe that I am rather introverted and often seem to be happier and
 more productive when working alone.
 
-The [Joahri window](http://en.wikipedia.org/wiki/Johari_window) is
+The [Joahri window](https://en.wikipedia.org/wiki/Johari_window) is
 interesting in that regard. but neither really tell the complete story.
 
 As something of an aside, the earliest reference I can find to the
@@ -46,4 +46,4 @@ original--so I have asked the library for a copy.
 
 Sotto, E. (2010, January 21). You can lecture, but can you teach? Times
 Higher Education. London. Retrieved from
-http://www.timeshighereducation.co.uk/features/you-can-lecture-but-can-you-teach/410056.article
+https://www.timeshighereducation.co.uk/features/you-can-lecture-but-can-you-teach/410056.article

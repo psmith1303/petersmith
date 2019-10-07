@@ -41,7 +41,7 @@ I, and rarely ventured out into Model II.
 
 So what could I have done differently? It would be trite to suggest
 that I be more Model I. Rather, I think
-[David Barry's](http://www.geocities.com/drdavidbarry/) admonishment
+[David Barry's](https://www.geocities.com/drdavidbarry/) admonishment
 to slowing things down is good--if things had been slowed down I would
 have had more time to think about what was happening and try and
 change the direction.

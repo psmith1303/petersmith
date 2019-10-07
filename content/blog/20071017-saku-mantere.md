@@ -6,7 +6,7 @@ slug = "saku-mantere"
 draft = "False"
 +++
 I've just come across [Saku Mantere's
-blog](http://sakumantere.blogspot.com/), and I'm left wondering _How does he do
+blog](https://sakumantere.blogspot.com/), and I'm left wondering _How does he do
 it_?
 
 He puts so much effort into his writing and research, and yet he manages to be
@@ -15,8 +15,8 @@ on).
 
 Maybe I should stop being a lazy so-and-so, and just get on with
 things. Which is a timely thought as [Giles
-Burch](http://www.gilesburch.co.nz/) presented me with my
-[NEO](http://en.wikipedia.org/wiki/NEO_PI-R) reports today.
+Burch](https://www.gilesburch.co.nz/) presented me with my
+[NEO](https://en.wikipedia.org/wiki/NEO_PI-R) reports today.
 
 For those who might be interested here are the edited highlights...
 
@@ -75,7 +75,7 @@ tend to view the glass as half full
 
 
 Looking at the individual factors what stands out. On the
-[big-five](http://en.wikipedia.org/wiki/Big_Five_personality_traits)
+[big-five](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
 
 I am:
 

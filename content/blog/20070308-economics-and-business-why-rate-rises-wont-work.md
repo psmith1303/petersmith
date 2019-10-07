@@ -6,10 +6,10 @@ slug = "economics-and-business-why-rate-rises-wont-work"
 draft = "False"
 +++
 There is a general expectation that [Allan
-Bollard](http://www.rbnz.govt.nz/monpol/about/0072140.html), the
-Governor of the [Reserve Bank](http://www.rbnz.govt.nz/) will act today
+Bollard](https://www.rbnz.govt.nz/monpol/about/0072140.html), the
+Governor of the [Reserve Bank](https://www.rbnz.govt.nz/) will act today
 by raising the [Official Cash
-Rate](http://www.rbnz.govt.nz/monpol/about/0072140.html) (OCR) in order
+Rate](https://www.rbnz.govt.nz/monpol/about/0072140.html) (OCR) in order
 to slow the economy. In particular
 he is expected to want to slow the booming housing market.
 Whilst the economics of the situation might be obvious, what many
@@ -23,7 +23,7 @@ The Reserve Bank acts to control inflation by controlling the
 Official Cash Rate. This has resulted in interest rates in new
 Zealand that are significantly higher that many other countries.
 E.g. Right now, the offical cash rates from
-[Interest.co.nz](http://www.interest.co.nz/) are:
+[Interest.co.nz](https://www.interest.co.nz/) are:
 
 
 | Country | Rate |
@@ -37,7 +37,7 @@ E.g. Right now, the offical cash rates from
 |  Japan  | 0.50%
 
 There is quiet a spread, and the big the spread the more opportunity
-for [arbitrage](http://en.wikipedia.org/wiki/Arbitrage). And business,
+for [arbitrage](https://en.wikipedia.org/wiki/Arbitrage). And business,
 is all about arbitrage; buying in one market and selling in another.
 So, the bigger the gap, the bigger the business opportunity.
 

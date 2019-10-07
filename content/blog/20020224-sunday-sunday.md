@@ -13,7 +13,7 @@ The implications of loosing all the data in my Palm pilot are just
 sinking in. The only address book I ever had was a little red one, that
 I got when I left school. Many years ago (about 10), I transferred all
 the names and address that I had in that address book to some software
-from [Time Manager International](http://www.tmiworld.com/). That
+from [Time Manager International](https://www.tmiworld.com/). That
 information (plus some) was moved to Outlook, and then eventually
 to my Palm pilot. I kept backups for ages, but a series of events
 (starting with the upgrade of this machine, has led to the total loss

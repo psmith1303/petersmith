@@ -10,7 +10,7 @@ textbooks]({{< relref "20100104-the-economics-of-textbook.md" >}})
 and my surprise at how much of the mark-up goes to the various parties.
 
 Anyway, on [Boing
-Boing](http://www.boingboing.net/2010/01/03/prescription-for-con.html)
+Boing](https://www.boingboing.net/2010/01/03/prescription-for-con.html)
 there is an interesting article that discusses the issue further (and
 provides some interesting links). The article says:
 
@@ -31,12 +31,12 @@ preferring to share, use the library, or even make copies of the
 textbooks.
 
 For the new [BUSINESS 101
-course](http://www.calendar.auckland.ac.nz/courses/prescriptions/business/business.html)
-that [Doug](https://web.archive.org/web/20100520025423/http://staff.business.auckland.ac.nz/5137.aspx),
-[Chris](https://web.archive.org/web/20130504104850/http://staff.business.auckland.ac.nz//5129.aspx) and I have
+course](https://www.calendar.auckland.ac.nz/courses/prescriptions/business/business.html)
+that [Doug](https://web.archive.org/web/20100520025423/https://staff.business.auckland.ac.nz/5137.aspx),
+[Chris](https://web.archive.org/web/20130504104850/https://staff.business.auckland.ac.nz//5129.aspx) and I have
 designed, we've moved right away from textbooks. Most (if not all) that
 the students need is available through [the databases that our
-library](https://web.archive.org/web/20130721110519/http://coursepages.library.auckland.ac.nz) pays
+library](https://web.archive.org/web/20130721110519/https://coursepages.library.auckland.ac.nz) pays
 millions of dollars for access.
 
 Having said all that, I do wonder to what extent textbooks act as

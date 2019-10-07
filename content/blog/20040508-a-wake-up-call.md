@@ -32,11 +32,11 @@ that's just the way it is.
 
 Just to make sure that the heart hasn't been damage I've had an
 ordinary treadmill test which was inconclusive. A
-[scintigram](http://www.aucklandradiology.co.nz/services/attachments/aug_2003.pdf)
+[scintigram](https://www.aucklandradiology.co.nz/services/attachments/aug_2003.pdf)
 (strangely enough, it was done by a private company down in Penrose).
 Basically, they inject you with an isotope and measure its uptake
 around the heart (the scan takes 15 minutes). Later that same day the do a 
-[Bruce protocol treadmill test](http://www.med.miami.edu/med/cardiology/non-invasive.asp\#1). Of
+[Bruce protocol treadmill test](https://www.med.miami.edu/med/cardiology/non-invasive.asp\#1). Of
 course it isn't quite as straight forward as an ordinary treadmill
 test. No. For the scintigram, when you just about reach exhaustion,
 they inject more isotopes and make you go on for another minute. Even

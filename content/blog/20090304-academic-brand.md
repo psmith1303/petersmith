@@ -6,7 +6,7 @@ slug = "academic-brand"
 draft = "False"
 +++
 Does one need an academic brand that is independent from ones
-current institution? [Some say yes.](http://academhack.outsidethetext.com/home/2009/academic-branding-and-portfolio-control/)
+current institution? [Some say yes.](https://academhack.outsidethetext.com/home/2009/academic-branding-and-portfolio-control/)
 and it certainly shouldn't be like Facebook or LinkedIn.
 
 Alas, I've yet to find a really good vehicle for maintaining my

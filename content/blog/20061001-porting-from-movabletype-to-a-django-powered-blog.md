@@ -19,6 +19,6 @@ the old entries and amend the tags. All I need to do now is port the images to
 the new system and check all the links are working.
 
 I'll do a final sweep to make sure that the
-[Textile](http://bradchoate.com/mt/docs/mtmanual_textile2.html) formating is
+[Textile](https://bradchoate.com/mt/docs/mtmanual_textile2.html) formating is
 working okay, and then I'll make the new system visible to-all.
 

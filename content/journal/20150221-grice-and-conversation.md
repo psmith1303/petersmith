@@ -12,7 +12,7 @@ many ways, a survey is a conversation between the respondent and the survey.
 To that end, she talked about Grice and his maxims of conversation. These are 
 rules that we typically--albeit unconsciously--adhere to during a conversation.
 
-Here is a brief summary from [Han's Communication Theory blog](http://hancommtheory.blogspot.co.nz/2012/04/grices-maxim.html):
+Here is a brief summary from [Han's Communication Theory blog](https://hancommtheory.blogspot.co.nz/2012/04/grices-maxim.html):
 
 > In daily life a person unconsciously communicates with others in many ways
 > such as language, gestures and expressions. In communication he/she is

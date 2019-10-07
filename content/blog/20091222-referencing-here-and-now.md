@@ -9,8 +9,8 @@ As I look back at [my last
 entry]({{< relref "20091222-whither-learning-styles.md" >}})
 it occurs to me that I use two distinct approaches to citing and
 referencing ideas, works, _etc_. Specifically, I use a mixture of
-[hyperlinks](http://en.wikipedia.org/wiki/Hyperlink) and [APA
-referencing](http://www.apastyle.org/).
+[hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) and [APA
+referencing](https://www.apastyle.org/).
 
 My habit seems to be that for non-academic works, I tend to use
 hyperlinks that go to appropriate sources. This seems consistent with
@@ -19,9 +19,9 @@ normal practice of web-based publishing.
 For scholarly works I follow APA conventions for citing and
 referencing. This seems more consistent with the academic expectations
 and practices. In acknowledgement of the fact this is electronic or
-web-based publishing I use [COinS](http://en.wikipedia.org/wiki/COinS)
+web-based publishing I use [COinS](https://en.wikipedia.org/wiki/COinS)
 to ensure there is enough information so that programmes such as
-[Zotero](http://www.zotero.org) or [LibX](http://libx.org) can
+[Zotero](https://www.zotero.org) or [LibX](https://libx.org) can
 scrape/find all the information they need to quickly locate an
 electronic copy/source of the document.
 

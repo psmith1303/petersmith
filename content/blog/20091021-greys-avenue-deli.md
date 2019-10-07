@@ -6,7 +6,7 @@ slug = "greys-avenue-deli"
 draft = "False"
 +++
 I found this place by accident, but
-[others](http://www.dineout.co.nz/restaurant.php?rest=9190&Restaurant=Greys_Ave_Deli)
+[others](https://www.dineout.co.nz/restaurant.php?rest=9190&Restaurant=Greys_Ave_Deli)
 have known about it for some time. Great coffee (albeit organic). Nice
 atmosphere. I'll be back (especially as I've given up on Spicer's).
 

@@ -6,7 +6,7 @@ slug = "the-buck-stops-where"
 draft = "False"
 +++
 In a thoughtful
-[comment](https://web.archive.org/web/20070526211021/http://www.thereflectivepractitioner.org/armi/archives/000514.html)
+[comment](https://web.archive.org/web/20070526211021/https://www.thereflectivepractitioner.org/armi/archives/000514.html)
 Amit says:
 
 > ...students in the course can't really be reasonably expected to

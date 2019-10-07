@@ -11,10 +11,10 @@ that seems fraught with problems. So I have started looking for non MT
 solutions.
 
 At the moment,
-[Linkster](http://studio.dreamdolphin.com/?section=products&page=php_scripts&script_id=1)
+[Linkster](https://studio.dreamdolphin.com/?section=products&page=php_scripts&script_id=1)
 seems like it might do the job. I'll have to download it and give it a
 go ....
 
 ... We'll it didn't work too well (for me), so I've used an idea from
-[Love links](http://kadyellebee.com/links/), which seems to work fine.
+[Love links](https://kadyellebee.com/links/), which seems to work fine.
 

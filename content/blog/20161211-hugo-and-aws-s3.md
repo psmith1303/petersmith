@@ -50,7 +50,7 @@ The right thing to do is:
 2. On your DNS set up a CNAME record for www pointing to the new S3
    bucket; i.e., `petersmith.org.s3-website-us-west-2.amazonaws.com`
 3. Set a A record on the DNS to point to `174.129.25.170` at
-   (wwwizer)[http://wwwizer.com/]. It's not their main business but it
+   (wwwizer)[https://wwwizer.com/]. It's not their main business but it
    works.
 
 

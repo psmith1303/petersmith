@@ -8,10 +8,10 @@ draft = "False"
 Paula Jarzabkowski (2004) has recently had one of articles
 published in Organization Studies. Her article is based on an
 earlier [working
-paper](http://research.abs.aston.ac.uk/working_papers/0212.pdf) she
+paper](https://research.abs.aston.ac.uk/working_papers/0212.pdf) she
 wrote a few years ago. Good on her for getting it in to a tier-one
 journal. As it happens, Paula will be visiting the
-[department](http://web-beta.archive.org/web/20100505010923/http://www.business.auckland.ac.nz)
+[department](https://web-beta.archive.org/web/20100505010923/https://www.business.auckland.ac.nz)
 in November and will be giving a couple of seminars. If you're
 interested in strategy (and who isn't), then I would commend her
 seminars to you.

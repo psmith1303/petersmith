@@ -34,4 +34,4 @@ provides a semi-structured forum for me to engage in self-reflection, so
 I'll keep on doing it (as much as ever, and possibly a bit-more).
 
 
-[^1]: Attributed to [Peter Blake](http://www.sirpeterblaketrust.org/sirpeterblake/)
+[^1]: Attributed to [Peter Blake](https://www.sirpeterblaketrust.org/sirpeterblake/)

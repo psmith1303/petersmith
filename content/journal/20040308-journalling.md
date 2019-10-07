@@ -18,7 +18,7 @@ doing in some version of _monkey see, monkey do_ , but rather it is
 to help them to develop their own practice in the sense of bricolage
 (As an aside, the notion of _bricolage_ is very important to me in
 my own research and study of
-[strategy-as-practice](http://www.strategy-as-practice.org/).)
+[strategy-as-practice](https://www.strategy-as-practice.org/).)
 
 In the following reflections, I shall refer to _me_ or _I_ a
 lot.
@@ -41,7 +41,7 @@ takes time.
 
 I was pretty pleased with the choice of music for today's class.
 _Duelling banjos_ from
-[Deliverance](http://www.imdb.com/title/tt0068473/) hinted at many of
+[Deliverance](https://www.imdb.com/title/tt0068473/) hinted at many of
 the themes I wanted to explore in the presentation of today's topic of
 teams. Note here, I was concerned with _how_ we would present--the
 process of the delivery, and the music was to accompany that, rather

@@ -6,7 +6,7 @@ slug = "yet-another-upgrade"
 draft = "False"
 +++
 It's been a long time coming, but I finally got around to upgrading
-the version of [MovableType](http://www.movabletype.com) that I use on
+the version of [MovableType](https://www.movabletype.com) that I use on
 this site.
 
 It was as painless and problem free process that one could hope for.

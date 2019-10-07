@@ -11,9 +11,9 @@ They've a great range (more than just block busters) and really well informed
 staff.
 
 Recently, the moved from [654 Dominion Road in
-Balmoral](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=654+Dominion+Rd,+mt+eden,+auckland&sll=--36.876367,174.751067&sspn=0.007355,0.00736&ie=UTF8&hq=&hnear=654+Dominion+Rd,+Mt+Eden,+Auckland+1041,+New+Zealand&z=17,%20)
+Balmoral](https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=654+Dominion+Rd,+mt+eden,+auckland&sll=--36.876367,174.751067&sspn=0.007355,0.00736&ie=UTF8&hq=&hnear=654+Dominion+Rd,+Mt+Eden,+Auckland+1041,+New+Zealand&z=17,%20)
 to [244 Dominion Rd, Mt
-Eden](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=244+Dominion+Rd,+mt+eden,+auckland&sll=37.0625,--95.677068&sspn=58.72842,60.292969&ie=UTF8&hq=&hnear=244+Dominion+Rd,+Mt+Eden,+Auckland+1024,+New+Zealand&z=17&iwloc=A)
+Eden](https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=244+Dominion+Rd,+mt+eden,+auckland&sll=37.0625,--95.677068&sspn=58.72842,60.292969&ie=UTF8&hq=&hnear=244+Dominion+Rd,+Mt+Eden,+Auckland+1024,+New+Zealand&z=17&iwloc=A)
 
 It's a move of only about 1.5 Km, but I worry about the impact it will have on
 the business.

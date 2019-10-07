@@ -6,7 +6,7 @@ slug = "ceo-summit"
 draft = "False"
 +++
 The first (of many?) summits was held with the CEOs of the various
-companies that inhabit the [Mike's Bikes](http://www.smartsims.com)
+companies that inhabit the [Mike's Bikes](https://www.smartsims.com)
 world. A little over half the CEOs attended, and all the regions were
 represented.
 
@@ -65,7 +65,7 @@ going to in order to "work out" what might happen. I know of one CF who has trac
 junction will make no difference at all to the rumour mill.
 
 As the
-[song](http://www.dorisday.net/The_Man_Who_Knew_Too_Much/Que_Sera_Sera/que_sera_sera.htm)
+[song](https://www.dorisday.net/The_Man_Who_Knew_Too_Much/Que_Sera_Sera/que_sera_sera.htm)
 goes, "Que sera sera. What ever will be, will be. The future's not ours
 to see. Que sera, sera."
 

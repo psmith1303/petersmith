@@ -6,11 +6,11 @@ slug = "boots-and-all"
 draft = "False"
 +++
 This semester I'm teaching [BUSINESS 101 *aka* Business and enterprise
-1](http://www.calendar.auckland.ac.nz/courses/prescriptions/business/business.html),
-here at [school](http://www.auckland.ac.nz/).
+1](https://www.calendar.auckland.ac.nz/courses/prescriptions/business/business.html),
+here at [school](https://www.auckland.ac.nz/).
 
 We have a
-[discussion forum](https://web.archive.org/web/20081014045835/http://forums.isom.auckland.ac.nz/) that
+[discussion forum](https://web.archive.org/web/20081014045835/https://forums.isom.auckland.ac.nz/) that
 is used within the course--but it may not work for no UoA people.
 Anyway, there is a section for introductions, and, having seen the
 first half-dozen entries, such as:
@@ -62,11 +62,11 @@ the need for cookies. One only had to look at the "fingerprint" presented
 by the browser. I seem to recall that there were about 16 different
 pieces of information that could be used collectively to uniquely
 identify the "user". See
-[this](http://www.freedom-to-tinker.com/blog/harlanyu/traceability-anonymous-online-comment)
+[this](https://www.freedom-to-tinker.com/blog/harlanyu/traceability-anonymous-online-comment)
 too.
 
 Only this week there was an article about
-[BlueCava](http://radar.oreilly.com/2011/03/device-identification-bluecava.html)
+[BlueCava](https://radar.oreilly.com/2011/03/device-identification-bluecava.html)
 that is commercialising such a system. They say that they can:
 
 > build information about each device [connected to the Internet]. One

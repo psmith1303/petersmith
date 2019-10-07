@@ -17,8 +17,8 @@ problems it faced. Anyone, who had a prepared position on the case
 should have been able to provide a robust answer to that question (and
 some did).
 
-We then sort of plodded through the [BCG](http://www.bcg.com) /
-[Mintoesque](http://www.amazon.com/exec/obidos/tg/detail/-/0960191038?v=glance)
+We then sort of plodded through the [BCG](https://www.bcg.com) /
+[Mintoesque](https://www.amazon.com/exec/obidos/tg/detail/-/0960191038?v=glance)
 approach of _situation, complication, solution, and impact_.
 I doubt we will tackle a case using this approach (in this course).
 Firstly, using a structured approach, like this, is useful for those

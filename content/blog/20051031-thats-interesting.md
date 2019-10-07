@@ -8,8 +8,8 @@ draft = "False"
 I was at a seminar to day with Anne Huff when she mentioned an old article by
 Murray Davis. We'll I'm always a sucker for a good reference, so I dutifully
 went and had a look at
-[Google](http://www.google.com/search?q=davis+%22that%27s+interesting%22).  The
-[first](http://www.sfu.ca/\~palys/interest.htm) reference it through up (which
+[Google](https://www.google.com/search?q=davis+%22that%27s+interesting%22).  The
+[first](https://www.sfu.ca/\~palys/interest.htm) reference it through up (which
 has a bit of summary of the article) provided enough information for me to get
 a copy of the original article.  So these are my notes on the article. Oh, I
 don't intended to summarise the article (what's the point of that), rather I
@@ -21,7 +21,7 @@ say, but because what they say is interesting. So this article seeks to
 discover what is interesting. As an aside I recall that in other fields of
 (positivist) research, greatness has been defined not so much by
 interestingness but also by the elegance of the theory. I'm sure [David
-Barry](http://www.geocities.com/drdavidbarry/) would have something to say here
+Barry](https://www.geocities.com/drdavidbarry/) would have something to say here
 about elegance and aesthetics.
 
 Anyway, back to the article by Davis. What is particular interesting to me (and

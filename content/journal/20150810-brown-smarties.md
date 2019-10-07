@@ -7,7 +7,7 @@ draft = "False"
 +++
 I've been delayed in putting up the list of reviewers because so many of the class have not labelled their journal entries correctly.
 
-As I skimmed those entries, I was reminded of the [brown smarties rider](http://www.snopes.com/music/artists/vanhalen.asp). Almost very journal that was missing labels seemed to suffer from major flaws, such as:
+As I skimmed those entries, I was reminded of the [brown smarties rider](https://www.snopes.com/music/artists/vanhalen.asp). Almost very journal that was missing labels seemed to suffer from major flaws, such as:
 
 * No clear problem
 * No sense of what action the author will no take based on what they have learnt from last week
