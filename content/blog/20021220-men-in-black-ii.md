@@ -6,7 +6,7 @@ slug = "men-in-black-ii"
 draft = "False"
 +++
 Well I've just finished watching [Men in Black II
-(2002)](http://us.imdb.com/Title?0120912). Not a
+(2002)](https://us.imdb.com/Title?0120912). Not a
 bad ironing movie.
 
 What's an ironing movie? When I'm ironing I like to watch a movie. It

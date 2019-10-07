@@ -6,7 +6,7 @@ slug = "sources-of-mt-ideas"
 draft = "False"
 +++
 I'm always looking for ways to improve the site, and
-[MovableBLOG](http://www.richarderiksson.com/movableblog/) seems to do
+[MovableBLOG](https://www.richarderiksson.com/movableblog/) seems to do
 just that.
 
 It has a rich supply of code (mainly PHP) and ideas. Nice stuff.
