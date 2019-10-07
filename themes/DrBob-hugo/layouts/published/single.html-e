@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<article>
+	<h4 class="meta">{{ .Title | safeHTML }}</h4>
+
+  <p class="apa">{{ .Params.citation | markdownify | safeHTML }}</p>
+
+  <nav class="pagination pager flat">
+    <ul class="apa">
+      <li class="prev">
+			{{ if .Params.doi }}
+  	    <a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>
+    	{{ end }}
+			</li>
+      <li class="next">
+	    {{ if .Params.file }}
+     	  <a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">Download PDF</a>
+			{{ end }}
+			</li>
+    </ul>
+ </nav>
+	
+	<hr>
+
+		{{ .Content }}
+  <hr>
+  {{ if .PrevInSection }}
+        <a href="{{.PrevInSection.Permalink}}"> &laquo;&nbsp;{{.PrevInSection.Title}}</a> | {{ end }}<a href="{{ $baseurl }}papers/">List of papers</a>{{ if .NextInSection }} | <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&raquo; </a>
+  {{ end }}
+</article>
+  
+{{ partial "footer.html" . }}
+
+
+

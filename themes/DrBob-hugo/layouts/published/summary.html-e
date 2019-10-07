@@ -1,0 +1,7 @@
+<article>
+  <div class="meta"><h4>{{ .Date.Format "Monday, 2 Jan 2006" }}</h4></div>
+  <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+	
+	{{ .Summary }}
+  <a href='{{ .Permalink }}'><nobr>Read more &hellip;</nobr></a>
+</article>

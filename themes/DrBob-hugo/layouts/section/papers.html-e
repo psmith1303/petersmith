@@ -1,0 +1,72 @@
+<!-- papers.html -->
+
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<article>
+	<h4 class="meta">Papers</h4>
+	<p>Much of my research revolves around professional service firms&mdash;lawyers, accountants, and engineers&mdash;and the way the do strategy. In particular I use theories-of-practice to understand issues of strategizing including strategy making, internationalisation, and innovation.</p>
+  
+<h5>Articles and Book Chapters</h5>
+  {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
+    <h5>{{ .Key }}</h5>
+		  <ul class="apa">
+	      {{ range .Pages.ByDate.Reverse }}
+		      <li>{{ .Params.citation | markdownify | safeHTML }}
+          <a href="{{ .Permalink }}">Abstract</a>
+      {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+      {{ end }}
+		     </li>
+	{{ end }}
+  </ul>              
+{{ end }}
+
+<h5>Working Papers</h5>
+{{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
+    <h5>{{ .Key }}</h5>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify| safeHTML }} 
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+          <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+        {{ end }}
+      </li>
+	    {{ end }}
+    </ul>              
+{{ end }}
+
+<h5>Retired Papers</h5>
+{{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
+    <h5>{{ .Key }}</h5>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify | safeHTML }}
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull PDF</a>
+        {{ end }}
+      </li>
+			{{ end }}
+    </ul>              
+{{ end }}
+			
+<h5>Essays and Reviews</h5>
+{{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
+    <h5>{{ .Key }}</h5>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify | safeHTML }}
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+        {{ end }} 
+      </li>
+			{{ end }}
+    </ul>              
+{{ end }} 
+
+</article>
+
+{{ partial "footer.html" . }}

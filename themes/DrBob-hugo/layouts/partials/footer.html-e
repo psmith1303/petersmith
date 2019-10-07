@@ -1,0 +1,16 @@
+<!-- footer.html -->
+
+<footer>
+	Built with <a href="http://gohugo.io">Hugo</a>
+	and <a href="http://imperavi.com/kube/">Kube</a>, and
+	&copy; Peter&nbsp;Smith 1995&ndash;{{ now.Year }}.
+</footer>
+
+{{ partial "foot_includes.html" . }}
+
+
+</div>		
+</body>
+</html>
+
+

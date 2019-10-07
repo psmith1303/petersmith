@@ -1,0 +1,11 @@
+<ul class="meta">
+  {{ if .Paginator.HasNext }}
+    <li><a href="{{.Paginator.Next.URL}}">« Older&nbsp;</a></li>
+  {{ end }}
+  <li><span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span></li>      
+  {{ if .Paginator.HasPrev }}
+    <li><a href="{{.Paginator.Prev.URL}}">&nbsp;Newer »</a></li>
+  {{ end }}
+</ul>
+     
+<hr>

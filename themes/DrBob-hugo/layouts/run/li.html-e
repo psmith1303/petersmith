@@ -1,0 +1,6 @@
+<div class = "post">
+<li>
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      <div class="meta">{{ .Date.Format "2 Jan 2006" }}</div>
+</li>
+</div>

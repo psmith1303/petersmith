@@ -1,0 +1,7 @@
+<!-- titles-n-dates.html -->
+
+<h4 class="meta">{{ .Key }}</h4>
+{{ $pages :=  .Pages }}
+{{ $links := apply $pages "partial" "post-link.html" "." }}
+{{ $clean := apply $links "chomp" "." }}
+{{ delimit $clean " &hybull; "}}

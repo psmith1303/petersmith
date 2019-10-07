@@ -1,0 +1,26 @@
+<!-- lower-nav.html -->
+{{ $baseurl := .Site.BaseURL }}
+
+<nav class="pagination pager flat centered">
+  <ul>
+    <li class="prev">
+      <span class="label tag muted">Prev</span>
+			{{if .PrevInSection}}
+  		  <a href="{{.PrevInSection.Permalink}}"></i>{{.PrevInSection.Title}}</a>
+      {{end}}
+      </li>
+      <li class="width-100">
+        <ul class="centered text-center">
+          <li>
+            <span class="label tag muted">All</span>
+						<a href="{{ $baseurl }}{{ .Section | urlize}}/">{{ .Section }} posts</a></li>
+        </ul>
+      </li>
+      <li class="next">
+        <span class="label tag muted">Next</span>
+				{{if .NextInSection}}
+  		    <a href="{{.NextInSection.Permalink}}"></i>{{.NextInSection.Title}}</a>
+      	{{end}}.
+      </li>
+  </ul>
+</nav>
