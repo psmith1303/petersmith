@@ -1,4 +1,0 @@
-<li>
-  <h5 class="meta"><a href="{{ .RelPermalink }}">{{ .Title }}</h5>
-  <div class="meta">{{ .Date.Format "2 Jan 2006" }}</div>
-</li>

@@ -1,8 +1,0 @@
-{{ partial "header.html" . }}
-<article>
-  <h4>{{ .Title }}</h4>  
-  {{ .Content }}
-</article>
-
-{{ partial "footer.html" . }}
-
