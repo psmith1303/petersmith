@@ -2,7 +2,7 @@
 title: "Qualitative research methods (BUSINESS 705)"
 date: "2017-07-24T00:00:00+12:00"
 enddate: "2017-09-01T00:00:00+12:00"
-publishdate: "2016-01-08"
+publishdate: "2017-01-01"
 host: "The University of Auckland"
 ---
 An introductory course for those about to undertake their first research project of any real size.

@@ -1,7 +1,7 @@
 ---
 title: "Strategic Management (BUSINESS 304)"
 date: "2019-07-22T00:00:00+12:00"
-enddate: "2010-10-24T00:00:00+12:00"
+enddate: "2019-10-24T00:00:00+12:00"
 publishdate: "2019-08-01"
 host: "The University of Auckland"
 ---

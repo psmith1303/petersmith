@@ -2,7 +2,7 @@
 title: "Strategic Management (BUSINESS 304)"
 date: "2017-07-24T00:00:00+12:00"
 enddate: "2017-10-27T00:00:00+12:00"
-publishdate: "2016-01-08"
+publishdate: "2017-01-08"
 host: "The University of Auckland"
 ---
 Strategy is more than thinking strategically; it is more than planing; it is more than commanding implementation. Ultimately, strategy is about getting other people on-board with what you want.
