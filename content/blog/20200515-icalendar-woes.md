@@ -8,7 +8,7 @@ categories = [
 	]
 +++
 
-I use the lovely [Orgmode](https://orgmode.org/] for managing a lot of
+I use the lovely [Orgmode](https://orgmode.org/) for managing a lot of
 my tasks, to do lists, projects and so on. It's really very very good.
 
 When reviewing my tasks etc., I thought it would be nice to see what
@@ -33,7 +33,7 @@ So, I could now download my calendar as an .ics file.
 
 There's lots of advice out there on doing this from Gmail, and I
 choose the advice from
-[Worg](https://orgmode.org/worg/org-tutorials/org-google-sync.html]
+[Worg](https://orgmode.org/worg/org-tutorials/org-google-sync.html)
 which uses an `awk` script called
 [ics2cal.awk](https://orgmode.org/worg/code/awk/ical2org.awk). This
 work pretty well, and it showed me that it could be done.
