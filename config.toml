@@ -12,7 +12,7 @@ IsMultiLingual = false
 DefaultContentLanguage = "en"
 
 [taxonomies]
-  category =  "categories"
+  category =  "categories" 
 
 [permalinks]
   blog = "/blog/:year/:month/:day/:slug/"

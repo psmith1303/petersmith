@@ -4,7 +4,7 @@
 <h2>Courses</h2>
 <p>Some of the classes I have taught in recent years, including pointers to upcoming courses and other resources, when they are available. Classes are listed once but are typically taught more frequently than that.</p>
 
-    {{ range (where .Data.Pages "Section" "journal").GroupByDate "2006" }}
+    {{ range (where .Data.RegularPages "Section" "journal").GroupByDate "2006" }}
       <h4>{{ .Key }}</h3>
         <ul class="fa-ul">
           {{ range .Pages }}

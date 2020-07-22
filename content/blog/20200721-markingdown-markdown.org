@@ -1,0 +1,18 @@
+#+title: Markingdown markdown
+#+subtitle: Moving to orgnode
+#+date: 2020-07-21
+#+categories[]: blogging, technology
+
+I used to use ~Markdown~ a lot. But, increasingly, ~org-mode~ has taken over as my 'formatter' of choice (yes, formatter isn't the right word, but it will do here).
+
+So, with this blog post, I am moving over to org-mode.
+
+The big question that I have yet to answer is, "Should I move my old
+posts from ~markdown~ to ~org-mode~ formatting? It would not be a
+trivial task, even with some scripting. Let's see how it goes :)
+
+
+As, something of a codicil, I also moved to the latest version of Hugo
+(0.74.2). This necessitated me going through and fixing/updating some
+of my templates around RSS handling and date formatting. Template
+debugging is no fun.

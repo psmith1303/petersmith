@@ -20,7 +20,7 @@ having lost some weight, I'm now doing some running and here is a
 picture of me at the recent [Cathay Pacific half
 marathon](https://www.coolrunning.co.nz/races/cathaypacific/).
 
-![Cathy Pacific half-marathon](/images/CathayPacific-HalfMarathon1.jpg)
+![Cathy Pacific half-marathon](/images/CathayPacific-HalfMarathon.jpg)
 
 That's quite a different look for me, and I'm still getting used to it
 (as are the people I work with).

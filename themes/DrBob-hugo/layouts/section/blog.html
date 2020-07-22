@@ -3,7 +3,7 @@
 
 <article>  
   <h4 class="meta">All  blog entries</h4>
-  {{ range (where .Site.Pages "Section" "blog").GroupByDate "2006"  }}
+  {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006"  }}
     {{ partial "titles-n-dates.html" . }}
   {{ end }}
 </article>

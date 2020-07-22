@@ -6,16 +6,19 @@
 				
 	<div class="col col-5">
 		<h4><a href="/journal">Journal</a></h4>
-		{{ range first 3 ((where .Data.Pages.ByDate "Section" "journal").Reverse) }}
+		{{ range  first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "journal") }}
 		  {{ partial "more-summary.html" . }}
 			<hr>
 		{{end}}
-	</div> 
+	</div>
+
+  
+
 
 	<div class="col col-4">
   	<h4><a href="/papers/">Papers</a></h4>
     <ul>
-      {{ range first 5 (where .Data.Pages.ByDate "Section" "papers").Reverse }}
+      {{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "papers") }}
       <li>{{ .Params.citation | markdownify | safeHTML }}
         <a href="{{ .Permalink }}">Abstract</a>
           {{ if isset .Params "file" }}
@@ -28,10 +31,10 @@
 
 	<div class="col col-3">
 		<h4><a href="/teaching/">Teaching</a></h4>
-    {{ range first 5 (where .Data.Pages.ByDate "Section" "teaching").Reverse }}
+    {{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "teaching") }}
       <h5 class="caps">{{.Title }}</h5>
 			<ul class="tight">		
-  			<li>Dates: {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006"  }}</li>
+  			<li>Dates: {{ .Params.date.Format "January" }}&ndash;{{ dateFormat "January 2006" .Params.enddate  }}</li>
 				<li><a href="{{ .Permalink }}"> [Details]</a></li>
 		</ul>	
 		{{ end }}
