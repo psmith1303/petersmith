@@ -4,7 +4,7 @@ date = "2014-02-18T13:34:00+12:00"
 categories = ["Site info"]
 slug = "site-policies"
 draft = "False"
-weight = 990
+weight = 300
 +++
 Here you will find details of the sites policies, _etc._, such as copyright, usage, privacy, and so on.
 <!--more-->

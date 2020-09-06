@@ -4,7 +4,7 @@ date        = "2008-09-11T14:56:27+12:00"
 categories  = [ "Portfolio", "Teaching" ]
 slug        = "teaching-portfolio-2008"
 draft       = "false"
-weight      = 110
+weight      = 900
 +++
 This teaching portfolio supported my 2008 application
 

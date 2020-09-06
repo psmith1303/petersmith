@@ -4,7 +4,7 @@ date = "2016-11-16T19:14:20+13:00"
 categories = ["Site info"]
 slug = "colophon"
 draft = "False"
-weight = 995
+weight = 200
 +++
 As [Brian A. Maicke](https://www.personal.psu.edu/bam49/notebook/colophon/) asks, "So what exactly is a colophon?" Well Google says:
 

@@ -64,6 +64,7 @@ h2 {
     font-size: 1.3em;
     font-weight: normal;
     margin: 2em 0 1em 0;
+    text-align: center;
 }
 
 
@@ -160,45 +161,11 @@ a.selected {
     }
 }
 
-
-ul.tags {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul.tags li {
-    display: inline-block;
-    margin: 0;
-    padding: 0
-}
-
-.tags a {
-    padding: 0.2em;
-    color: white;
-    color: #555;
-}
-
-.tags a:after {
-    content: " ◇";
-}
-
-
 .meta {
-                text-align: center;
+    text-align: center;
+    margin=top: 2em;
 }
 
-h4.meta {
-                margin-top: 10px;
-                margin-bottom: 0em;
-}
-
-h5.meta {
-                margin: 0px;
-                font-size: 15px;
-                font-weight: normal;
-}
 
 ul.meta {margin: 0 auto; text-align: center;}
 ul.meta li {display: inline;    }
@@ -262,6 +229,40 @@ ul.meta li:last-child:after { content: "";}
   background: none;
   padding: 1px 7px;
   border: 1px solid rgba(0, 0, 0, 0.2); }
-  .label.outline,
-  .label.outline a {
-    color: rgba(0, 0, 0, 0.65); }
+
+.label.outline,
+.label.outline a {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
+.toc li {
+    position:relative;
+    background: url(http://5thirtyone.com/sandbox/share/toc/dot.gif) repeat-x bottom;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 3px;
+}
+
+.toc-date {
+    position: absolute;
+    display: inline-block;
+    bottom: 0; right: 0;
+    padding: 0 3px 0 0;
+    background: #fff;
+}
+.toc-link {
+    background: #fff;}
+
+.link:after {
+    content:'';
+    display: inline-block;
+    width: 70px;
+    height: 10px;
+    background: url(http://5thirtyone.com/sandbox/share/toc/dot.gif) repeat-x bottom;
+    margin: 0 0 -5px 0;
+}
+
+ul.toc {
+    list-style-type: none;
+    padding-left: 0;
+}​

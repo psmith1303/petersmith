@@ -4,7 +4,7 @@ date        = "2015-09-11T14:56:27+12:00"
 categories  = [ "Portfolio", "Teaching" ]
 slug        = "teaching-portfolio-2015"
 draft       = "false"
-weight      = 100
+weight      = 850
 +++
 This teaching portfolio supported my 2015 application for a University of Auckland teaching excellence award on the basis of innovation in teaching.
 <!--more-->

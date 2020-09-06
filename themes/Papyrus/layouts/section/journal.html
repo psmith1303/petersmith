@@ -1,10 +1,12 @@
 {{ define "main" }}
 
-<article>  
-  <h2>All my blog entries</h2>
+<article>
+  <h2>Table of Contents</h2>
+  <ul class="toc">
   {{ range (where .Site.RegularPages "Section" "journal").GroupByDate "2006"  }}
-    {{ partial "titles-n-dates.html" . }}
-  {{ end }}
+    {{ partial "toc.html" . }}
+      {{ end }}
+  </ul>
 </article>
 
 {{ end }}

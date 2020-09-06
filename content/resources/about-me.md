@@ -4,7 +4,7 @@ date = "2011-01-04T11:41:00+12:00"
 categories = ["Site info"]
 slug = "about-me"
 draft = "False"
-weight = 900
+weight = 100
 +++
 
 I am a teacher and lecturer at

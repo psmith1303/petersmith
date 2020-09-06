@@ -1,10 +1,9 @@
 {{ define "main" }}
 
 <article>
-	<h2>Resources</h2>
-	<p>Some resources that might be helpful/interesting.</p>
+	<p>Here is some information, and me and this site. There are also other resources that might be helpful and/or interesting.</p>
 	{{ range where .Data.Pages.ByWeight "Type" "!=" "teaching-portfolio" }}
-      <h3>{{ .Title }}</h3>
+      <h2>{{ .Title }}</h2>
       <p>{{ partial "more-summary.html" . }}</p>
 	{{ end }}
 </article>
