@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+  {{ range (where .Site.RegularPages "Section" "journal" | first 3 ) }}
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+  {{ end }}
+</article>
+{{ end }}
+

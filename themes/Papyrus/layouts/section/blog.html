@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<article>  
+  <h2>All my blog entries</h2>
+  {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006"  }}
+    {{ partial "titles-n-dates.html" . }}
+  {{ end }}
+</article>
+
+{{ end }}
+

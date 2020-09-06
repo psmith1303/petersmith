@@ -1,0 +1,6 @@
+<!-- more-summary.html -->
+{{ if .Truncated }}
+  {{ .Summary }}<a href="{{ .Permalink }}"> [more]</a>
+{{ else }}
+  {{ .Content }}
+{{ end }}

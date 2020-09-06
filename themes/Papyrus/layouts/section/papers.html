@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<article>
+	<h2>Papers</h2>
+	<p>Much of my research revolves around professional service firms&mdash;lawyers, accountants, and engineers&mdash;and the way the do strategy. In particular I use theories-of-practice to understand issues of strategizing including strategy making, internationalisation, and innovation.</p>
+
+<h3>Articles and Book Chapters</h3>
+  {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
+    <h4>{{ .Key }}</h4>
+		  <ul class="apa">
+	      {{ range .Pages.ByDate.Reverse }}
+		      <li>{{ .Params.citation | markdownify | safeHTML }}
+          <a href="{{ .Permalink }}">Abstract</a>
+      {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+      {{ end }}
+		     </li>
+	{{ end }}
+  </ul>
+{{ end }}
+
+<h3>Working Papers</h3>
+{{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
+    <h4>{{ .Key }}</h4>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify| safeHTML }}
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+          <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+        {{ end }}
+      </li>
+	    {{ end }}
+    </ul>
+{{ end }}
+
+<h3>Retired Papers</h3>
+{{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
+    <h4>{{ .Key }}</h4>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify | safeHTML }}
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull PDF</a>
+        {{ end }}
+      </li>
+			{{ end }}
+    </ul>
+{{ end }}
+
+<h3>Essays and Reviews</h3>
+{{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
+    <h4>{{ .Key }}</h4>
+    <ul class="apa">
+			{{ range .Pages.ByDate.Reverse }}
+      <li>{{ .Params.citation | markdownify | safeHTML }}
+        <a href="{{ .Permalink }}">Abstract</a>
+        {{ if isset .Params "file" }}
+        <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">&hybull; PDF</a>
+        {{ end }}
+      </li>
+			{{ end }}
+    </ul>
+{{ end }}
+
+</article>
+
+{{ end }}

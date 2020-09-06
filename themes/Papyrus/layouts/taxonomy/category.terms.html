@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article>
+	<h2>Category index: By usage</h2>
+  {{ $data := .Data }}
+	<ul class="categories">
+    {{ range $key,$value := .Data.Index.ByCount }} 
+    <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }})</li>
+    {{ end }}
+	</ul>
+
+
+
+  <h2>Category index: Alphabetical</h2>
+  {{ $data := .Data }}
+  <ul class="categories">
+    {{ range $key,$value := .Data.Index.Alphabetical }} 
+    <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }})</li>
+    {{ end }}
+  </ul>
+</article>
+
+{{ end }}

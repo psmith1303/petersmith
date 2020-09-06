@@ -1,0 +1,19 @@
+<head>
+  <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta  name="generator" content="RocketMan" />
+  <meta  name="author" content="Peter Smith" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+  <base href="{{ .Site.Params.baseURL }}">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="stylesheet" href="/stylesheet.css" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/images/favicon.png" />
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ if not (in (string .Site.BaseURL) "localhost") }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  {{ end }}
+</head>

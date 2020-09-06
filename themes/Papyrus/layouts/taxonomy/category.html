@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+  <h2 class="meta"><a href="/categories/" title="Show all categories">{{ .Data.Singular | title }}:</a> {{ .Title }}</h2>
+
+  {{ range (.Data.Pages.GroupByDate "2006") }}
+  {{ partial "titles-n-dates.html" . }}
+  {{ end }}
+</article>
+
+{{ end }}

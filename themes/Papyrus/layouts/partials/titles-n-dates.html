@@ -1,0 +1,5 @@
+<h3>{{ .Key }}</h3>
+{{ $pages :=  .Pages }}
+{{ $links := apply $pages "partial" "post-link.html" "." }}
+{{ $clean := apply $links "chomp" "." }}
+{{ delimit $clean "; "}}

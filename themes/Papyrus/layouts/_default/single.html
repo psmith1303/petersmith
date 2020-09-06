@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="section">
+  <article>
+    <div class="article">
+      {{ .Content }}
+    </div>
+    {{ partial "list-categories" . }}
+  </article>
+</section>
+{{ end }}
