@@ -1,7 +1,8 @@
 #+title: Face-to-face contact in teaching
 #+subtitle: Some lessons
-#+date: 2020-07-21
+#+date: 2020-08-24
 #+categories[]: teaching, online
+
 
 * In-person teaching
 
@@ -15,6 +16,7 @@ Muilenburg, L. Y., & Berge, Z. L. (2005). Student barriers to online learning: A
 
  Looking at what students perceive to be the barriers to online education, it identifies eight factors that explain 62% of the variance in the results of their survey. They are:
 
+#+CAPTION: Source: Muilenburg and Berge (2005)
 | <l>                              |   <r> |           <r> |          <r> |
 | Component                        | Total | % of variance | Cumulative % |
 |----------------------------------+-------+---------------+--------------|
