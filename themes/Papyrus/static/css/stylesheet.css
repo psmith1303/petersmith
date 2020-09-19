@@ -234,7 +234,7 @@ h5.meta {
 
 .toc li {
     position:relative;
-    background: url(http://5thirtyone.com/sandbox/share/toc/dot.gif) repeat-x bottom;
+    background: url(/images/dot.gif) repeat-x bottom;
     margin: 0 0 5px 0;
     padding: 0 0 0 3px;
 }
@@ -254,7 +254,7 @@ h5.meta {
     display: inline-block;
     width: 70px;
     height: 10px;
-    background: url(http://5thirtyone.com/sandbox/share/toc/dot.gif) repeat-x bottom;
+    background: url(/images/dot.gif) repeat-x bottom;
     margin: 0 0 -5px 0;
 }
 
