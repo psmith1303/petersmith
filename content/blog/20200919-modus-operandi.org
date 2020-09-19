@@ -1,0 +1,30 @@
+#+title:Modus Operandi
+#+subtitle: A new theme
+#+date: 2020-09-19
+#categories[]: blogging
+
+* Tweaking Emacs and Org-mode
+
+  I have been trying to get Org Mode to work with a variable-pitch font, when I stumbled across the videos and website of [[https://protesilaos.com/codelog/2020-08-26-modus-themes-0-12-0/][Protesilaos Stavrou]]. Amongst all the 'gold' I found there, was the themes he has developed, Modus Operandi and Modus Vivendi. The first is a light coloured theme, whereas the other is a dark theme. I've been using a dark theme for a long time (I don't know how long), but the elegance of his themes had me switching, first to Modus Vivendi, and then to Modus Operandi. It's rather nice.
+
+  I also managed to fix (mostly) using a variable-pitched font (good old Verdana --- don't hate me for trying it). To do that I use the ~org-variable-pitch~ package from [[https://github.com/cadadr/elisp][Göktuğ Kayaalp]] (which is available via [[https://melpa.org/#/org-variable-pitch][MELPA]]). Yes, I could use many other fonts (FiraGo, Hack, ETBembo, and so on), but I went with what was to hand (bricolage at work).
+
+#+BEGIN_SRC emacs-lisp
+
+  (set-frame-font "Consolas 11" nil t)
+
+  (set-face-attribute 'default nil :family "Consolas" :height 110)
+  (set-face-attribute 'fixed-pitch nil :family "Consolas" :height 110)
+  (set-face-attribute 'variable-pitch nil :family "Verdana"  :height 110)
+
+  (set-face-attribute 'bold nil :weight 'semibold)
+
+  (require 'org-variable-pitch)
+  (set-face-attribute 'org-variable-pitch-fixed-face nil
+		      :family "Consolas")
+  (add-hook 'org-mode-hook 'org-variable-pitch--enable)
+
+#+END_SRC
+
+
+  Now I am working on getting Olivetti Mode work well, so I can have a pretty writing environment.
