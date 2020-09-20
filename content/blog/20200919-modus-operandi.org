@@ -1,6 +1,6 @@
-#+title:Modus Operandi
+#+title: Modus Operandi
 #+subtitle: A new theme
-#+date: 2020-09-19
+#+date: <2020-09-19 Sat>
 #+categories[]: blogging
 
 * Tweaking Emacs and Org-mode

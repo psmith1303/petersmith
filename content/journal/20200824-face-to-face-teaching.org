@@ -1,6 +1,6 @@
 #+title: Face-to-face contact in teaching
 #+subtitle: Some lessons
-#+date: 2020-08-24
+#+date: <2020-08-24 Mon>
 #+categories[]: teaching, online
 
 

@@ -1,6 +1,6 @@
 #+title: Markingdown markdown
-#+subtitle: Moving to orgnode
-#+date: 2020-07-21
+#+subtitle: Moving to orgmode
+#+date: <2020-07-21 Tue>
 #+categories[]: blogging, technology
 
 I used to use ~Markdown~ a lot. But, increasingly, ~org-mode~ has taken over as my 'formatter' of choice (yes, formatter isn't the right word, but it will do here).
@@ -16,3 +16,15 @@ As, something of a codicil, I also moved to the latest version of Hugo
 (0.74.2). This necessitated me going through and fixing/updating some
 of my templates around RSS handling and date formatting. Template
 debugging is no fun.
+
+Update <2020-09-20 Sun>: The date in header of a ~.org~ file (to work with Hugo) needs to look like this:
+
+#+BEGIN_SRC org
+#+title: Markingdown markdown
+#+subtitle: Moving to orgmode
+#+date: <2020-07-21 Tue>
+#+categories[]: blogging, technology
+
+#+END_SRC
+
+Not the brackets and the day of the week. This is how most dates in org-mode are written.

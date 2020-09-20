@@ -1,6 +1,6 @@
 #+title: Synchronous teaching
 #+subtitle: Is it really better
-#+date: 2020-09-09
+#+date: <2020-09-09 Wed>
 #+categories[]: teaching, online
 
 * Synchronous versus asynchronous learning events
