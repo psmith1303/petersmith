@@ -5,7 +5,7 @@
   <ul class="toc">
   {{ range (where .Site.RegularPages "Section" "journal").GroupByDate "2006"  }}
     {{ partial "toc.html" . }}
-      {{ end }}
+  {{ end }}
   </ul>
 </article>
 
