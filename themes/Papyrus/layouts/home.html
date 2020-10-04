@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  {{ range (where .Site.RegularPages "Section" "journal" | first 3 ) }}
+  {{- range (where .Site.RegularPages "Section" "journal" | first 1 ) }}
   <h2>{{ .Title }}</h2>
   {{ .Content }}
   {{ end }}

@@ -1,7 +1,7 @@
 #+title: Face-to-face contact in teaching
 #+subtitle: Some lessons
 #+date: <2020-08-24 Mon>
-#+categories[]: teaching, online
+#+categories[]: teaching online
 
 
 * In-person teaching
@@ -61,4 +61,3 @@ Muilenburg, L. Y., & Berge, Z. L. (2005). Student barriers to online learning: A
 
  It's all food for thought.
 
-* From Rachel S.

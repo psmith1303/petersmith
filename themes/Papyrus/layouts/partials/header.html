@@ -1,5 +1,6 @@
 <header>
-  <h1 class="title">{{ .Title }}</h1>
+  <h1 class="title">{{ .Date.Format "2 January 2006" }}</h1>
+
   <div class="topnav">
     {{ range .Site.Menus.main }}
     <p>

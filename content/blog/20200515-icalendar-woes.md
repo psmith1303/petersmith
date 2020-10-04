@@ -85,7 +85,7 @@ WGET=/usr/bin/wget
 ICS2ORG=/mnt/c/Users/psmith/Dropbox/psmith/bin/ical2org.awk
 ICSFILE=/mnt/c/Users/psmith/Dropbox/psmith/Temp/calendar.ics
 ORGFILE=/mnt/c/Users/psmith/Dropbox/psmith/Org/exchange-diary
-URL=http://mail.here.nz/owa/calendar/916ca3e5216345fc9fee5@here.nz/37a721c9253d46f59f6c420db2ab1/calendar.ics
+URL=http://mail.here.nz/owa/calendar/917ca3e521345fc9fee5@here.it/37a721c9253d46f59f6c420db2ab1/calendar.ics
 
 # no customization needed below
 
