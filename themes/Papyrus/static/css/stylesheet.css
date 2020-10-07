@@ -1,5 +1,6 @@
 html {
     font-family: "Verdana", "Arial", "Liberation Sans", sans-serif;
+    font-size: 10pt;
     background-color: #ddd;
     padding: 0;
     margin: 0;
@@ -56,7 +57,7 @@ header h1:after {
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     xfont-weight: normal;
     margin: 2em 0 1em 0;

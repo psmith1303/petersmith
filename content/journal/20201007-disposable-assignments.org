@@ -1,0 +1,89 @@
+#+title: Disposable assignments
+#+slug: disposable-assignments
+#+subtitle: Is it really better
+#+date: <2020-10-07 Wed>
+#+categories[]: Teaching 
+
+** Making the tacit, explicit
+
+I was talking with Rhiannon today, and the conversation moved on to the topic of /disposable assignments/ and my desire to avoid using them. As we were talking I realised I was not explaining well the concept of the disposable assignment and the need for non-disposable assignment. So, here I am collecting my thoughts.
+
+My starting point is Wiley's (2103) [[https://opencontent.org/blog/archives/2975][blog post]] on the subject.
+
+#+BEGIN_QUOTE
+*Killing the Disposable Assignment*
+
+If you’ve heard me speak in the last several months, you’ve probably heard me rail against “disposable assignments.” These are assignments that students complain about doing and faculty complain about grading. They’re assignments that add no value to the world --- after a student spends three hours creating it, a teacher spends 30 minutes grading it, and then the student throws it away. Not only do these assignments add no value to the world, they actually suck value out of the world. Talk about an incredible waste of time and brain power (an a potentially huge source of cognitive surplus)!
+
+What if we changed these “disposable assignments” into activities which actually added value to the world? Then students and faculty might feel different about the time and effort they invested in them. I have seen time and again that they do feel different about the efforts they make under these circumstances. 
+#+END_QUOTE
+
+
+When I think back my experiences during my MBA, those assignments that where strongly connected to my work and my workplace were---without doubt---the most interesting, useful, and enjoyable. So, Wiley's call for non-disposable assignments resonates with me.
+
+** Some notes on terminology
+
+Those assignments that are not disposable are variously known as either /non-disposable assignments/, /renewalble assignments/, or (somewhat confusingly to me) /open pedagogies/.
+
+** Readings of non-disposable assignments
+
+From [[https://teachanywhere.opened.ca/practices/non-disposable-assignments/][Teach anywhere]]
+
+- Paskevicius, M. & Knaack, L. (2017). The Non-Disposable Assignment: Enhancing Personalized Learning | [[https://www.slideshare.net/mpaskevi/the-nondisposable-assignment-enhancing-personalised-learning-session-1][Slideshare Deck]]
+- Wiley, D. (2013). What is Open Pedagogy? Iterating Towards Openness | [[https://opencontent.org/blog/archives/2975][Blog Post]]
+- DeRosa, R. (n.d.). Reduced Disposability | [[https://colab.plymouthcreate.net/ace-practice/reduced-disposability/][Website]]
+- Hendricks, C. (2015) Non-Disposable Assignments in Intro to Philosophy | [[http://blogs.ubc.ca/chendricks/2015/08/18/non-disposable-assignments-intro-philosophy/][Blog Post]]
+- Hendricks, C.  (October 29, 2015). Renewable assignemnts: Student work adding value to the world | [[https://flexible.learning.ubc.ca/news-events/renewable-assignments-student-work-adding-value-to-the-world/][UBC Blog Post]]
+- Levine, A. (February 21, 2017). The Challenge of Non-Disposable Assignments | [[https://cogdogblog.com/2017/02/non-disposable-assignments/][Blog Post]]
+- eCampus Ontario (January 16, 2018). An Era of Disposable Assignments? | [[https://www.ecampusontario.ca/era-disposable-assignments/][News Post]]
+- Seraphin, S. B., et al. (2019). A Conceptual Framework for Non-Disposable Assigsnments: Inspiring Implementation, Innovation, and Research | [[https://journals.sagepub.com/doi/pdf/10.1177/1475725718811711][Published Journal Article]]
+- Katz, S. and Van Allen, J. (2020). Evolving Into the Open: A Framework for Collaborative Design of Renewable Assignments | [[https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1313&context=le_pubs][Published Journal Article]]
+
+
+
+** Examples of non-disposable assignments
+
+Also from [[https://teachanywhere.opened.ca/practices/non-disposable-assignments/][Teach anywhere]]
+
+- Jhangiani, R. and DeRosa, R. (2018). Open Pedagogy Notebook: Sharing Practices, Building Community | [[http://openpedagogy.org/category/assignment/][Assignment Examples]]  | [[http://openpedagogy.org/][Website]]
+- Open Education Group (2017-2018) Renewable Assignments | [[https://openedgroup.org/doer-fellows-renewable-assignments][Website]]
+- University Central Florida | Foster Meaningful Learning with Renewable Assignments | [[https://topr.online.ucf.edu/r_1h7ucljsasbkbsd/][Website]]
+- Hendricks – Open Pedagogy Examples of Class Activities | [[http://blogs.ubc.ca/chendricks/2017/10/08/open-pedagogy-examples/comment-page-1/][Website]]
+- Project Management for Instructor Designers | [[https://pm4id.org/][Open Book]] (Pressbooks platform) by students and faculty at Brigham Young University which now includes multiple video case studies; completely rewritten examples in-text; alignment with the Project Management Professional certification exam; an expanded glossary; and downloadable HTML, PDF, ePub, MOBI, and MP3 versions of the book (among other improvements). The book is also used as the official course text at least one other university.
+- Open Pedagogy Examples | [[https://docs.google.com/document/d/1TDf9Uem4SID0anlUQPxWdwCh3SkvQnEpvQu_bRGRUIU/edit][Bcampus Google Doc List]]
+- Chem Wiki which later became a LibreText is one of the largests non-disposable assignments through a collaboration of students and faculty doing a non-disposable assignment | [[https://chem.libretexts.org/][Chemistry LibreText]]
+- Vancouver Island University Instructor Examples | The Non-Disposable Assignment:  Enhancing Personalized Learning | [[https://wordpress.viu.ca/enhancingpersonalizedlearning/][Website]]
+- From Consumer to creator: Students as producters of content | Simon Bates’ Class Creating learning objects | [[http://blogs.ubc.ca/phys101/files/2015/01/LO-Guide.pdf][Assignment Steps] | [[http://flexible.learning.ubc.ca/case-studies/simon-bates/][Website]]
+- Beasley-Murray, Jon. (n.d.) Wikiproject: Murder, Madness, and Mayhem. Wikipedia. Retrieved from https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Murder_Madness_and_Mayhem
+- NOBA Project – 2016-17 Student Video Award Winners – Students creating resources as assignments | [[https://nobaproject.com/student-video-award/winners][Website]]
+
+* Toward a definition
+
+As we were talking, Rhiannon mentioned the need for assessments to be done in furtherance of the course's learning objects, and---for us at the University of Auckland---in support of the /Graduate Profile/ (what we expect graduates to be able to do at the end of a progamme of study). Who can disagree with that?
+
+And so, I rather like this definition of a non-disposable assignment from Seraphin et al (2009, p.85):
+
+#+BEGIN_QUOTE
+... any activity that: (a) students are asked to engage in as part of an organized course; (b) promotes student learning through the completion of the assignment; (c) affords assessment of students’ learning of course objectives; and (d) provides impact or value outside of the traditional student–teacher dyad.
+#+END_QUOTE
+
+Yet, there is nothing in this definition that explicitly connects the assignment to the students work place or their work. I think this is an issue in my particular context because the students I'm thinking of are 'working professionals' doing a masters degree in a field related to their work. So when I think about "providing impact or value outside of the traditional student-teacher dyad", I see that as implicitly including the workplace, and indeed perhaps it should privilege the workplace as a venue for the value.
+
+Then, when referring to the Time-Space-Gravity model (Seraphin, et al., 2019), one can imagine that the time boundary of 10-weeks (the length of our quarter), the workplace (the space), and gravity (being hopefully high), creates some challenges in designing an non-disposable assignment.
+
+#+CAPTION: A Time–Space–Gravity model for examining utility of NDAs (Seraphin et al., 2019., p. 90)
+#+ATTR_ORG: :width 500px
+#+ATTR_HTML: :width 500px
+[[/images/Seraphin-2019-TimeSpaceGravity.jpg]]
+
+Again drawing on Seraphin et. al (p. 91),
+
+#+BEGIN_QUOTE
+... gravity may refer to the learning impact for student creator (internal gravity) and/or fellow student/public consumers (external gravity) of the final learning product. While the learning benefit to the community or society corresponds to external gravity, the fulfillment of learning objectives through experiential learning, and the development of soft skills and media literacy, are aspects of internal gravity. Furthermore, we might assess gravity in terms of the degree to which the students perceive meaningfulness (internal gravity) in their own learning, experience, creation, delivery, and/or public contribution of the final product. We might also measure gravity in terms of the classmate/peer-teaching benefit or impact on the larger community (external gravity). Gravity is not necessarily independent of the other dimensions—one might expect that as time and space increase, so too might the inherent gravity for the learning object creator and/ or consumer.
+#+END_QUOTE
+
+I would hope/desire that the gravity is high through the student perceiving the assessment as  meaningful as a result of it being well connected to their work and workplace.
+
+* References
+
+Seraphin, S. B., Grizzell, J. A., Kerr-German, A., Perkins, M. A., Grzanka, P. R., & Hardin, E. E. (2019). A conceptual framework for non-disposable assignments: Inspiring implementation, innovation, and research. Psychology Learning & Teaching, 18(1), 84–97. https://doi.org/10.1177/1475725718811711

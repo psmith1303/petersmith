@@ -7,7 +7,7 @@ type = "teaching-portfolio"
 weight = 441
 +++
 
-## Summary of my teaching at the University of Auckland, based on 15-point equivalent course load
+## Summary of my teaching at the University of Auckland, based on 15-point equivalent course[^3] load
 
 | Course | Level | '97 | '98 | '99 | '00 | '01 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | 
 |--------|-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -69,7 +69,7 @@ weight = 441
 |           | 641.302FC | Business Policy & Strategy |
 |           | 641.301FC | Management Theory & Practice |
 |           | 641.101FC | Organisation & Management |
-| **1998**  | 641.315SC | Interpersonal Relations in Organisations |
+| **1998[^4]**  | 641.315SC | Interpersonal Relations in Organisations |
 |           | 465.201FC | Managing Science & Technology |
 |           | 641.301FC | Management Theory & Practice |
 |           | 641.302SC | Business Policy & Strategy |

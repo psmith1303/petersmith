@@ -5,6 +5,7 @@ categories = ["MGMT 101"]
 slug = "the-good-the-bad-and-the-ugly"
 draft = "False"
 +++
+
 I think I owe my MGMT 101 class (in general) and some MGMT 
 101 students (in particular) an apology. Things didn't go as well 
 as I would have liked. On almost every measurement I use to 
@@ -36,7 +37,7 @@ pick up the pieces. Hence, when I saw the direction the class (or some
 of it) were taking I got a little excited and very defensive.
 Certainly towards the end of the discussion I was adopting the
 classic "win do not lose" attitude that is talked about by Argyris
-& Sch&ouml;n]. I was well and truly stuck in Model
+& Sch&ouml;n[^2]. I was well and truly stuck in Model
 I, and rarely ventured out into Model II.
 
 So what could I have done differently? It would be trite to suggest
