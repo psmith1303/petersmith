@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 #
 read -p "Commit description: " desc
 git add . && \
