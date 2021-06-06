@@ -5,6 +5,8 @@
 
 I've been kind of unhappy with my current way of creating post. It has gotten rather messy, and so I spent some time making things a bit easier --- at least in terms of creating posts.
 
+This isn't the first time I've looked at this issue. From awhile ago, see [{{% ref "20161121-automating-hugo.md" %}}][this post]] and [{{% ref "20161121-automating-hugo-part-2.md" %}}][that post].
+
 First off, I have a function to create the title of the post.
 
 #+BEGIN_SRC elisp
