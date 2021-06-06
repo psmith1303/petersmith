@@ -1,5 +1,4 @@
 #+title: Dead drive
-#+subtitle: A new theme
 #+date: <2020-09-27 Sun>
 #+categories[]: IT
 

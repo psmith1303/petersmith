@@ -1,6 +1,6 @@
 #+title: A refresh
 #+subtitle: Back topaper
-#+date: <2020-09-06 Sun>
+#+date: 2020-09-06
 #+categories[]: blogging
 
 * It's time to redecorate

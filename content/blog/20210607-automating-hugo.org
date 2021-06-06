@@ -1,6 +1,5 @@
 #+title: Automating hugo
-#+date:  2021-06-07 
-#+draft: false
+#+date:  <2021-06-07 Mon 11:55>
 #+categories[]: blogging it
 
 I've been kind of unhappy with my current way of creating post. It has gotten rather messy, and so I spent some time making things a bit easier --- at least in terms of creating posts.
