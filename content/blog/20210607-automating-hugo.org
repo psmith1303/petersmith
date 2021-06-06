@@ -52,24 +52,6 @@ Finally, as my template string was getting big, I created a file ~tpl-hugo-post.
 
 %x
 
-
- You can create between your pages using standard org mode syntax and the ref Hugo shortcode, which looks like this:
-
-{{% ref filename.org %}}
-
-Note that you need to use the % delimiter to ensure links work properly. Use the C-c C-l shortcut (org-insert-link) and enter the shortcode and a description. The source code of the link will look like this:
-
-[x[{{% ref filename.org %}}][Description]]
-
- A slightly easier way is to create a new Org Mode link type. Add this code to your Emacs configuration:
-
-  ;; New link type for Org-Hugo internal links
-  (org-link-set-parameters "hugo"
-                           :complete (lambda ()
-                                       (concat "{{% ref "
-                                               (file-relative-name (read-file-name "File: "))
-                                               " %}}")))
-
 #+END_QUOTE
 
 All, in all that works well. Now to get the uploading to Netlify etc working well.
