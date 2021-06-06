@@ -1,7 +1,7 @@
 #+title: Pace chart
 #+slug: pace-chart
 #+draft: false
-#+date: <2020-10-09 Fri 14:01>
+#+date: <2020-09-09 Wed 14:01>
 #+categories[]: Running
 
 
