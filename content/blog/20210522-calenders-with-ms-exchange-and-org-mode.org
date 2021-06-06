@@ -1,7 +1,7 @@
 #+title: Calendars with MS Exchange and Org Mode
 #+subtitle: Across the great divide
 #+date: <2021-05-22 Sat>
-#+categories[]: techonology
+#+categories[]: technology
 
 * The problem
 
