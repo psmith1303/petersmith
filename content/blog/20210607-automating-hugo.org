@@ -1,5 +1,5 @@
 #+title: Automating hugo
-#+date:  <2021-06-07 Mon>
+#+date:  2021-06-07 Mon 12:40
 #+draft: false
 #+categories[]: blogging it
 
