@@ -41,17 +41,17 @@ It took some faffing around, and I couldn't quite make the ~ps/create-hugo-post-
 
 Finally, as my template string was getting big, I created a file ~tpl-hugo-post.txt~ to make managing it easier. it looks like this (and includes some dummy text):
 
-#+BEGIN_QUOTE
-\#+title: %(format "%s" ps/post-title)
-\#+slug:  %(format "%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
-\#+date:  "%t"
-\#+draft: false
-\#+categories[]: %^{Categories|technology|it|research|the-arts|blogging|jottings|productivity|learning|teaching}
+#+BEGIN_SRC elisp
+#+title: %(format "%s" ps/post-title)
+#+slug:  %(format "%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
+#+date:  "%t"
+#+draft: false
+#+categories[]: %^{Categories|technology|it|research|the-arts|blogging|jottings|productivity|learning|teaching}
 
 %?* They're all dead dave
 
 %x
 
-#+END_QUOTE
+#+END_SRC
 
 All, in all that works well. Now to get the uploading to Netlify etc working well.
