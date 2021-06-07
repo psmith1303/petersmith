@@ -16,7 +16,7 @@ First off, I have a function to create the title of the post.
 	(setq ps/post-title (read-from-minibuffer "Title: "))
 	(let* ((filename (concat (read-from-minibuffer "Filename: "
 			 (replace-regexp-in-string "-\\.org" ".org"
-						   (concat (format-time-string "\%Y\%m\%d-")
+						   (concat (format-time-string "%Y%m%d-")
 							   (downcase
 							    (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title))
 							   ".org"))))))
@@ -42,15 +42,15 @@ It took some faffing around, and I couldn't quite make the ~ps/create-hugo-post-
 Finally, as my template string was getting big, I created a file ~tpl-hugo-post.txt~ to make managing it easier. it looks like this (and includes some dummy text):
 
 #+BEGIN_QUOTE
-#+title: \%(format "\%s" ps/post-title)
-#+slug:  \%(format "\%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
-#+date:  "\%t"
-#+draft: false
-#+categories[]: \%^{Categories|technology|it|research|the-arts|blogging|jottings|productivity|learning|teaching}
+\#+title: %(format "%s" ps/post-title)
+\#+slug:  %(format "%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
+\#+date:  "%t"
+\#+draft: false
+\#+categories[]: %^{Categories|technology|it|research|the-arts|blogging|jottings|productivity|learning|teaching}
 
-\%?* They're all dead dave
+%?* They're all dead dave
 
-\%x
+%x
 
 #+END_QUOTE
 
