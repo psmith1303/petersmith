@@ -1,0 +1,50 @@
+---
+title: "20211010 Calendars and MS Exchange, again"
+date: 2021-10-10T17:30:15+13:00
+draft: false
+---
+
+My process broke!
+
+In debugging the problem, I realised I don't need to go from MS Exchange --> ICAL --> diary --> org-mode.
+
+Instead, I can go straight from ICAL to orgmode.
+
+My script now looks like this (and uses the python script ical2orgpy) which can be installed using ~pip~.
+
+
+#+BEGIN_SRC bash
+  
+  #!/bin/bash
+  
+  # customize these
+  WGET=/usr/bin/wget
+  ICAL2ORG=/usr/local/bin/ical2orgpy
+  
+  ICSFILE=/mnt/c/Users/psmith/Dropbox/psmith/Temp/calendar.ics
+  ORGFILE=/mnt/c/Users/psmith/Dropbox/psmith/Org/exchange.org
+  URL=https://outlook.office365.com/owa/calendar/111222333/112231321/calendar.ics
+  
+  $WGET -O $ICSFILE $URL
+  
+  echo Creat an empty diary file
+  echo Remove $ORGFILE
+  rm -fr $ORGFILE
+  
+  #
+  # Fix/set the timezone from (no TZ description) to Pacific/Auckland
+  #
+  echo Fixing timezone
+  echo sed -i.bak 's/(no TZ description)/Pacific\/Auckland/' $ICSFILE
+  sed -i.bak 's/(no TZ description)/Pacific\/Auckland/' $ICSFILE
+  
+  
+  echo Doing import
+  echo $ICAL2ORG $ICSFILE $ORGFILE
+  echo ";; -*- eval: (auto-revert-mode 1); -*-" >> $ORGFILE
+  $ICAL2ORG $ICSFILE - >> $ORGFILE
+  
+  
+#+END_SRC
+
+Job done :)
