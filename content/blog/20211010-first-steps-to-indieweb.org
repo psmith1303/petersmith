@@ -8,4 +8,4 @@ I stumbled across [[[[https://aaronparecki.com/]]][Aaron Parecki's]] website, an
 
 So I've started to make some changes to my [[https://gohugo.io/][Hugo]] theme in anticipation of doing that (and of adding the ability to do micro-publishing).
 
-Now, I really need to get [[https://webmention.io/][webmention]] working.
+Now, I really need to get [[https://webmention.io/][webmention]] working, which I've started by following [[https://anaulin.org/blog/adding-webmentions/][Ana Ulin's instructions]].
