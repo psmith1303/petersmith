@@ -9,8 +9,8 @@ html {
 
 body {
     max-width: 60em;
-    margin: 0 auto;
-    padding: 4em; 
+    margin: 1em auto;
+    padding: 2em 4em 4em 4em; 
     background-color: white;
     color: #211;
 }
@@ -34,6 +34,10 @@ pre {
     padding: 0;
 }
 
+header a {
+  text-decoration: none;
+}
+
 header h1 {
     font-size: 1em;
     font-weight: normal;
@@ -48,7 +52,6 @@ header h1:before {
     color: #555;
     text-align: right;
     padding-top: 0.2em;
-    content: "Peter Smith"
 }
 
 header h1:after {
@@ -87,6 +90,18 @@ h3 {
     text-align: center;
     margin-bottom: 1em;
 }
+
+.bottomnav ul 
+{
+display: inline;
+list-style-type: none;
+text-align: center;
+padding: 0 0;
+} 
+.bottomnav li {display: inline;}
+.bottomnav li:after {content: " \02043";}
+.bottomnav li:last-child:after { content: "";}
+
 
 .footer {
     text-align: center;
@@ -173,7 +188,6 @@ a.selected {
     text-align: center;
     font-weight: 200;
 }
-
 
 ul.meta {margin: 0 auto; text-align: center;}
 ul.meta li {display: inline;    }

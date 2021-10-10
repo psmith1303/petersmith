@@ -1,9 +1,11 @@
 {{ define "main" }}
+<link href="https://github.com/psmith1303" rel="me">
 <article>
   {{- range (where .Site.RegularPages "Section" "journal" | first 1 ) }}
   <h2>{{ .Title }}</h2>
   {{ .Content }}
   {{ end }}
 </article>
+
 {{ end }}
 

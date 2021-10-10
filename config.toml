@@ -13,6 +13,8 @@ DefaultContentLanguage = "en"
 
 googleAnalytics = "UA-150476074-3"
 
+ignoreFiles = ["^\\.#"]
+
 [taxonomies]
   category =  "categories"
 
@@ -34,6 +36,11 @@ googleAnalytics = "UA-150476074-3"
     languageName = "English"
     languageCode = "en"
 
+
+[[menu.main]]
+  name = "About me"
+  url = "/site-info/about-me"
+  weight = 1
 
 [[menu.main]]
   name = "Journal"
