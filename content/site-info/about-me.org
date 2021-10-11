@@ -1,0 +1,35 @@
++++
+title = "Peter Smith"
+date = "2011-01-04T11:41:00+12:00"
+categories = ["Site info"]
+slug = "about-me"
+draft = "False"
+weight = 100
++++
+
+
+
+
+Tēnā koe! Ko Peter tōku ingoa.
+
+Greetings! My name Peter.
+
+#+CAPTION: Peter in his office
+#+ATTR_ORG: :width 500px :align right
+#+ATTR_HTML: :width 500px :aligh right :class u-photo
+[[/images/PeterInTheOffice-2020.jpg]]
+
+This website is my little corner on the Internet. As [[https://boffosocko.com][Chris Aldrich]] say's "this website as my primary hub for my online identity and communication. It’s also my online commonplace book".
+
+I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][[University of Auckland]], where my main teaching and research activity is in the field of strategy. I am particularly interested in [[https://www.strategy-as-practice.org/][Strategy-as-practice]] (a practice-based view of strategy), *Professional service firms*, especially engineering firms, and *Innovation as strategy*, especially technology roadmapping (TRM).
+
+My consulting activity revolves around strategy and strategising for high-technology firms.
+
+I probably obsess a little too much about coffee.
+
+For more detail regarding my teaching, have a look at my [[/resources/teaching-portfolio-2015/][Teaching Portfolio]]. It outlines my perspective and approach to teaching, along with what I actually do. However, it is a little out of date.
+
+Thanks to the encouragement of [[https://www.andrewisgettingfit.com/][Andrew]] I used to do a some running until I retired from it in 2021.
+
+In what little spare time I have, I have been looking into [[https://genes.petersmith.org][the history of my family]].
+ 
