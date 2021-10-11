@@ -3,9 +3,20 @@
 <link href="https://github.com/psmith1303" rel="me">
 <link href="https://twitter.com/JustAnotherCog" rel="me">
 
+<div class="h-card" align="center">
+  <h2 class="p-name">Joe Bloggs</h2>
+  <p class="p-adr h-adr">
+    <span class="p-locality">Auckland</span>
+    <span class="p-country-name">New Zealand</span>
+  </p>
+<img class="u-photo" src="/images/PeterInTheOffice-2020.jpg" alt="Peter Smith" width="100%">
+
+</div>
+
+
 <article>
   {{- range (where .Site.RegularPages "Section" "site-info" | first 1 ) }}
-  <h2>{{ .Title }}</h2>
+
   {{ .Content }}
   {{ end }}
 </article>

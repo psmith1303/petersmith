@@ -14,10 +14,6 @@ Tēnā koe! Ko Peter tōku ingoa.
 
 Greetings! My name Peter.
 
-#+CAPTION: Peter in his office
-#+ATTR_ORG: :width 500px :align right
-#+ATTR_HTML: :width 500px :aligh right :class u-photo
-[[/images/PeterInTheOffice-2020.jpg]]
 
 This website is my little corner on the Internet. As [[https://boffosocko.com][Chris Aldrich]] say's "this website as my primary hub for my online identity and communication. It’s also my online commonplace book".
 
