@@ -1,10 +1,15 @@
 {{ define "main" }}
+
+<link href="https://github.com/psmith1303" rel="me">
+<link href="https://twitter.com/JustAnotherCog" rel="me">
+
 <article>
-  {{- range (where .Site.RegularPages "Section" "journal" | first 1 ) }}
+  {{- range (where .Site.RegularPages "Section" "site-info" | first 1 ) }}
   <h2>{{ .Title }}</h2>
   {{ .Content }}
   {{ end }}
 </article>
+
 
 {{ end }}
 
