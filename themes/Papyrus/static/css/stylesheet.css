@@ -335,3 +335,5 @@ table th{
 .has-text-center {
     text-align: center;
 }
+
+#webmentions img { max-height: 1.2em; margin-right: -1ex; }

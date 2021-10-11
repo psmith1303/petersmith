@@ -4,7 +4,7 @@ date: 2021-10-10T16:33:36+13:00
 draft: false
 ---
 
-I stumbled across [[[[https://aaronparecki.com/]]][Aaron Parecki's]] website, and it got me thinking about [[https://indieweb.org/][Indieweb]] and how I might implement it.
+I stumbled across [[https://aaronparecki.com/ ][Aaron Parecki's]] website, and it got me thinking about [[https://indieweb.org/][Indieweb]] and how I might implement it.
 
 So I've started to make some changes to my [[https://gohugo.io/][Hugo]] theme in anticipation of doing that (and of adding the ability to do micro-publishing).
 
