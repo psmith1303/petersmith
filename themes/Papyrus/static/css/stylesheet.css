@@ -337,3 +337,7 @@ table th{
 }
 
 #webmentions img { max-height: 1.2em; margin-right: -1ex; }
+
+#hcard-Peter-Smith a {
+  text-decoration: none;
+}

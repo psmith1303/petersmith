@@ -8,8 +8,6 @@ weight = 100
 +++
 
 
-
-
 Tēnā koe! Ko Peter tōku ingoa.
 
 Greetings! My name Peter.
