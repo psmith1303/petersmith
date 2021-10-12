@@ -1,6 +1,6 @@
 <head>
   <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta  name="generator" content="RocketMan" />
+  <meta  name="generator" content="Hugo" />
   <meta  name="author" content="Peter Smith" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
@@ -15,6 +15,11 @@
   <link rel="apple-touch-icon" href="/images/favicon.png" />
   <link rel="webmention" href="https://webmention.io/petersmith.org/webmention" />
   <link rel="pingback" href="https://webmention.io/petersmith.org/xmlrpc" />
+  <link rel="me" href="mailto:mail@petersmith" />
+  <link rel="me" href="https://github.com/psmith1303" />
+  <link rel="me" href="https://twitter.com/JustAnotherCog" />
+  <link rel="me" href="https://orcid.org/0000-0002-6382-7051" />
+
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   <script src="/js/webmention.min.js" data-id="webmention-container" async></script>
