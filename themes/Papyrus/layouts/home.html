@@ -5,12 +5,14 @@
   <h2 class="p-name">Peter Smith</h2>
   <data class="p-given-name" value="Peter"></data>
   <data class="p-family-name" value="Smith"></data>
-  <data class="p-adr h-adr p-locality" value="Auckland"></data>,
-  <data class="p-adr h-adr p-country-name" value="New Zealand"></data>
-
   <p>
-    <div class="p-job-title">Lecturer</div> at  
-    <a class="p-org h-card" href="http://auckland.ac.nz/" target="blank">The University of Auckland</a>
+    <span class="p-job-title">Lecturer</span>
+    at <a class="p-org" href="http://auckland.ac.nz/" target="blank">The University of Auckland</a>
+  </p>
+
+  <p class="p-adr h-adr">
+    <span class="p-locality">Auckland</span>,
+    <span class="p-country-name">New Zealand</span>
   </p>
 
   <a href="/" class="u-url u-uid">
@@ -22,10 +24,11 @@
 <article>
   {{- range (where .Site.RegularPages "Section" "site-info" | first 1 ) }}
   <h2>{{ .Title }}</h2>
-  {{ .Content }}
+  <div class="p-note">
+    {{ .Content }}
+  </div>
   {{ end }}
 </article>
-
 
 {{ end }}
 

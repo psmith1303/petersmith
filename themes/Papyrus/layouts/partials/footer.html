@@ -2,15 +2,25 @@
   {{ if .IsPage }}
   {{- partial "next-prev.html" . -}}
   {{ end }}
-  <div class="bottomnav">
-    <p>&copy; <a href="{{ .Site.BaseURL  }}">Peter Smith</a> 1995&ndash;{{ now.Year }}.</p>
-    <ul>{{ range .Site.Menus.main }}
+  <div class="channels">
+    <ul class="footer-links">{{ range .Site.Menus.main }}
     <li>
       <a href="{{ .URL }}">{{ .Name }}</a>
     </li>
     {{ end }}
     </ul>
-
   </div>
+
+  <div class="elsewhere">
+    <ul class="footer-links" id="relme">
+      {{ range .Site.Menus.indieweb }}
+      <li>
+	<a href="{{ .URL }}" rel="me">{{ .Post }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
   <div id="webmentions"></div>
+
 </footer>

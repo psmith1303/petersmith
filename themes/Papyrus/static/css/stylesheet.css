@@ -9,10 +9,14 @@ html {
 
 body {
     max-width: 60em;
-    margin: 1em auto;
-    padding: 2em 4em 4em 4em; 
+    margin: 2em auto;
+    padding: 0em 0em 0em 0em; 
+}
+
+#page {
     background-color: white;
     color: #211;
+    padding: 2em 2em 2em 2em; 
 }
 
 pre, code {
@@ -86,27 +90,21 @@ h3 {
     display: none;
 }
 
-.bottomnav {
+.webinfo {
+    background-color: #ddd;
     text-align: center;
     margin-bottom: 1em;
 }
 
-.bottomnav ul 
-{
-display: inline;
-list-style-type: none;
-text-align: center;
-padding: 0 0;
-} 
-.bottomnav li {display: inline;}
-.bottomnav li:after {content: " \02043";}
-.bottomnav li:last-child:after { content: "";}
+.webinfo a {
+    color: #000;
+    text-decoration: none;
+}
 
 
 .footer {
     text-align: center;
     font-size: 0.8em;
-    border-top: 1px solid #211;
     margin-top: 5em;
 }
 
@@ -126,7 +124,7 @@ padding: 0 0;
     display: inline-block;
     margin: 0 0 0 1em;
     padding: 0;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 .topnav a:after, .subnav a:after {
@@ -345,4 +343,53 @@ table th{
 img {
   max-width: 100%;
   height: auto;
+}
+
+
+/*****************
+Sort out my footer
+******************/
+
+footer .channels {
+	padding-top: 0.4em;
+        padding-bottom: 0.4em;
+        border-top: 1px rgba(180,180,180,0.6) solid;
+        border-bottom: 1px rgba(180,180,180,0.6) solid;
+}
+
+footer ul.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer ul.footer-links li {
+    margin: 0;
+    padding: 0;
+    flex: auto;
+    text-align: center;
+}
+
+
+i.icon {
+    margin-right: 0;
+}
+i.icon, i.icons {
+    font-size: 1em;
+}
+i.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    backface-visibility: hidden;
 }
