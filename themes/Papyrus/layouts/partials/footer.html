@@ -3,7 +3,7 @@
   {{- partial "next-prev.html" . -}}
   {{ end }}
   <div class="bottomnav">
-    <p>&copy; <a class="h-card" rel="me" href="{{ .Site.BaseURL  }}">Peter Smith</a> 1995&ndash;{{ now.Year }}.</p>
+    <p>&copy; <a href="{{ .Site.BaseURL  }}">Peter Smith</a> 1995&ndash;{{ now.Year }}.</p>
     <ul>{{ range .Site.Menus.main }}
     <li>
       <a href="{{ .URL }}">{{ .Name }}</a>
