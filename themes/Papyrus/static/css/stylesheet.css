@@ -105,7 +105,7 @@ h3 {
 .footer {
     text-align: center;
     font-size: 8pt;
-    margin-top: 1em;
+    margin-top: 0em;
 }
 
 .topnav {
@@ -349,6 +349,10 @@ img {
 /*****************
 Sort out my footer
 ******************/
+.article-footer {
+	padding-top: 1em;
+        padding-bottom: 0em;
+}
 
 footer .channels {
 	padding-top: 0.4em;
@@ -395,7 +399,7 @@ i.icon {
 }
 .metainfo {
     margin-top: 1em;
-    padding-bottom: 0.4em;
+    padding-bottom: 0em;
     border-top: 1px rgba(180,180,180,0.6) solid;
     font-size: 8pt;
     font-weight: 100;
