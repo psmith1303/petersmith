@@ -7,5 +7,6 @@
   <div class="column is-right has-text-right">
     <p>Type: <a class="" href="/{{ .Type }}/">{{ .Type }}</a></p>
     {{ partial "list-categories" . }}
+    <link rel="author" class="p-author h-card" href="{{ .Site.BaseURL  }}" />
   </div>
 </div>
