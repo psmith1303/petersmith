@@ -1,0 +1,35 @@
+#+title: Second Steps in IndieWeb
+#+author: Peter Smith
+#+date: 2021-10-14T18:53:21+13:00
+#+lastmod: 2021-10-14T18:56:21+13:00
+#+categories[]: blogging technology
+#+draft: false
+
+After my first steps to IndieWeb, I got a really helpful message from [[https://robbinespu.gitlab.io/][Robbi Nespu]]. Alas, I've not (yet) got webmentions working in any real way, and the page he commented on had a broken URL (all my problems, not Robbi's). 
+
+He said:
+
+#+BEGIN_QUOTE
+Hello Peter Smith, How going? I also using Hugo, the getting webmention response working is easier if using a javascript called as [[https://github.com/PlaidWeb/webmention.js/][PlaidWeb/webmention.js]]
+
+Some tips from my experience
+
+- Setup the ~h-card~ because it important and needed for indieAuth (to use some external services such as [[https://webmention.io][https://webmention.io]]
+- You may use [[https://xray.p3k.io][https://xray.p3k.io]] to inspect if the HTML are parse correctly, you can submit the URL or just paste the raw HTML (even with ~localhost~ / ~127.0.0.1~ addressed inside the source code, it working very well). It save my time during debugging.
+- I also use [[https://telegraph.p3k.io][[https://telegraph.p3k.io]] to preview (check) if all link inside ~h-entry~ support webmention. You also can manually send webmention by give a source and target from there.
+- Lastly, validate published web using [[https://indiewebify.me/]]  get your website until level 3.
+
+Hope this helpful 😀
+
+#+END_QUOTE
+
+**** Level 1: Become a citizen of the IndieWeb
+1. Get your own domain name: Done. Many years ago.
+2. Set up Web Sign In: That was easy. Or it was until I decided to not use ~<link rel="me" href= ..../>~. And once I had that working I too the time to break it again.
+
+**** Level 2: Publishing on the IndieWeb
+1. Check your homepage h-card: I really should read the specs more closely. I bashed my head against a brick wall for a while with this. Even though I used bits of HTML from [[https://aaronparecki.com/][Aaron Parecki]] and from [[https://boffosocko.com/][Chris Aldrich]], it still took too much time.
+2. Check your posts are marked up with ~-h-entry~: Not so hard, although I have had to tweak the layout of may pages somewhat. Categories, aren't elegant yet.
+
+**** Level 3: Add the ability to send Webmentions to other IndieWeb sites
+This is a work in progress.
