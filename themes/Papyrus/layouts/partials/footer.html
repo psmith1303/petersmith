@@ -1,6 +1,8 @@
 <footer class="footer">
   {{ if .IsPage }}
   {{- partial "next-prev.html" . -}}
+
+  {{ partial "meta-data.html" . }}
   {{ end }}
   <div class="channels">
     <ul class="footer-links">{{ range .Site.Menus.main }}
@@ -20,7 +22,4 @@
       {{ end }}
     </ul>
   </div>
-
-  <div id="webmentions"></div>
-
 </footer>

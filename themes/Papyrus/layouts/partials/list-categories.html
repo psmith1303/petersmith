@@ -2,9 +2,9 @@
 
 <div>
   {{ range .Params.categories }}
-      <a href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a> &bull;
+      <a href="{{ $baseurl }}categories/{{ . | urlize }}">#{{ . }}</a>
   {{ end }}
-  <a href="{{ $baseurl }}{{ .Section | urlize}}/">All</a></p>
+  <a href="{{ $baseurl }}{{ .Section | urlize}}/">#all</a></p>
 
 </div>
 

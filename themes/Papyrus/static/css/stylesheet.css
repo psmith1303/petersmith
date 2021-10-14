@@ -1,6 +1,6 @@
 html {
     font-family: "Verdana", "Arial", "Liberation Sans", sans-serif;
-    font-size: 10pt;
+    font-size: 11pt;
     background-color: #ddd;
     padding: 0;
     margin: 0;
@@ -104,8 +104,8 @@ h3 {
 
 .footer {
     text-align: center;
-    font-size: 0.8em;
-    margin-top: 5em;
+    font-size: 8pt;
+    margin-top: 1em;
 }
 
 .topnav {
@@ -245,7 +245,7 @@ figure {
 }
 
 figcaption {
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: italic;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -393,3 +393,25 @@ i.icon {
     text-align: center;
     backface-visibility: hidden;
 }
+.metainfo {
+    margin-top: 1em;
+    padding-bottom: 0.4em;
+    border-top: 1px rgba(180,180,180,0.6) solid;
+    font-size: 8pt;
+    font-weight: 100;
+    line-height: 0.8em;
+    color: #888;
+}
+
+.metainfo a {
+    text-decoration: none;
+}
+
+
+.metainfo hr {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width="30%";
+  align="center"
+}
+

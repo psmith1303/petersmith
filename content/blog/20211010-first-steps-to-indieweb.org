@@ -1,8 +1,8 @@
----
-title: "First Steps to Indieweb"
-date: 2021-10-10T16:33:36+13:00
-draft: false
----
+#+title: First Steps to Indieweb
+#+slug:  first-steps-to-indieweb
+#+date:  2021-10-07T16:48:36+13:00
+#+categories[]: technology blogging
+
 
 I stumbled across [[https://aaronparecki.com/ ][Aaron Parecki's]] website, and it got me thinking about [[https://indieweb.org/][Indieweb]] and how I might implement it.
 

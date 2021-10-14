@@ -1,0 +1,11 @@
+<div class="metainfo columns">
+  <div class="column is-left has-text-left">
+    <p>Published on: <time class="dt-published" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "2006-01-06 15:04" }}</time></p>
+    <p>Last update: <time class="dt-updated" datetime="{{ .Lastmod }}">{{ .Lastmod.Format "2006-01-06 15:04" }}</time><p>
+    <p><i class="fas fa-link"></i> <a class="u-url uid" href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+  </div>
+  <div class="column is-right has-text-right">
+    <p>Type: <a class="" href="/{{ .Type }}/">{{ .Type }}</a></p>
+    {{ partial "list-categories" . }}
+  </div>
+</div>

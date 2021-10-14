@@ -1,11 +1,11 @@
 {{ define "main" }}
 <section class="section">
-  <article class="hentry">
+  <article class="h-entry">
     <h1 class="p-name">{{- .Title }}</h1>
     <div class="e-content">
       {{ .Content }}
     </div>
+    <div id="webmentions">Web mentions</div>
   </article>
-
 </section>
 {{ end }}
