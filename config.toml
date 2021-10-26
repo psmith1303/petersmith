@@ -1,40 +1,59 @@
-baseURL = "https://petersmith.org/"
-title = "The occasional ramblings of an academic"
-theme = "Papyrus"
+baseURL = 'https://petersmith.org/'
+languageCode = 'en-us'
+title = 'PeterSmith.org'
+theme = 'NewPapyrus'
 
-canonifyURLs =  true
-pygmentsuseclasses =  false
-pygmentsCodeFences = true
-pygmentsStyle  = "monokai"
+relativeURLS = true
+
+footnoteReturnLinkContents = '↩'
 
 
-IsMultiLingual = false
-DefaultContentLanguage = "en"
 
-googleAnalytics = "UA-150476074-3"
-
-ignoreFiles = ["^\\.#"]
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']
 
 [taxonomies]
-  category =  "categories"
+  category = 'categories'
+  tag = 'tags'
+
 
 [permalinks]
   blog = "/blog/:year/:month/:day/:slug/"
   journal = "/journal/:year/:month/:day/:slug/"
   teaching = "/teaching/:year/:month/:slug/"
+  notes = "/notes/:year/:month/:slug/"
+  run = "/running/:year/:month/:day/:slug:"
   resources = "/resources/:slug/"
-  run = "/running/:slug:"
+
 
 [sitemap]
-	changefreq = "monthly"
-	priority = 0.5
-	filename = "sitemap.xml"
+        changefreq = "monthly"
+        priority = 0.5
+        filename = "sitemap.xml"
 
 [languages]
-  [languages.en]
+[languages.en]
     contentDir = "content"
     languageName = "English"
     languageCode = "en"
+
+[Privacy]
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Author]
+    name = "Peter Smith"
+    photo = "images/PeterInTheOffice-2020.jpg"
+    profile = "https://google.com/+XXX"
+    email = "mail@petersmith.org"
+    nick = "Peter"
+    licence = "CC BY-NC-SA"
+    licenceURL = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+
 
 
 [[menu.main]]
@@ -66,7 +85,7 @@ ignoreFiles = ["^\\.#"]
   weight = 5
 [[menu.indieweb]]
   name = "LinkedIn"
-  url = "linkedin.com/in/peter-smith-00b7891b5"
+  url = "https://linkedin.com/in/peter-smith-00b7891b5"
   post = "<i class='fab fa-linkedin'></i>"
   weight = 10
 [[menu.indieweb]]
@@ -79,3 +98,16 @@ ignoreFiles = ["^\\.#"]
   url = "https://github.com/psmith1303"
   post = "<i class='fab fa-github'></i>"
   weight = 20
+
+
+
+[[menu.badges]]
+  name = "html5"
+  url = "http://validator.w3.org/check/referer"
+  post = "/images/w3c-valid-html.png"
+  weight = 5
+[[menu.badges]]
+  name = "html7"
+  url = "http://validator.w3.org/check/referer"
+  post = "/images/w3c-valid-html.png"
+  weight = 10

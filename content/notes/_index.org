@@ -1,0 +1,7 @@
+#+title: Notes
+#+subtitle: So many notes
+#+date: 2021-10-23T13:27:14+13:00
+#+lastmod: 2021-10-23T13:27:18+13:00
+#+draft: false
+
+Enjoy my notes

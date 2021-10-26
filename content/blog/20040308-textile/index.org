@@ -1,0 +1,12 @@
+#+title: Textile
+#+date: 2004-03-08T20:41:00+12:00
+#+lastmod: 2004-03-08T20:41:00+12:00
+#+categories[]: Jottings
+#+slug: textile
+#+draft: False
+
+
+I've just looked at the main web page for [[https://web.archive.org/web/20080905191502/https://www.thereflectivepractitioner.org/][The reflective practitioner]]  and realised it doesn't parse the entries well. In particular the [[https://bradchoate.com/mt/docs/mtmanual_textile2.html][Textile]] codes 
+don't make sense to PHP (which processes the page). Hmm, I shall have to think about that problem.
+
+We'll. I had been using the [[https://www.php.net/][PHP]] code to process this page based on the work of [[https://www.virtualvenus.org/archives/0307/multiple_blogs_merged_entries_list.php][Virtual Venus]] but alas, that had some problems. However, a few minutes Googling found a solution by [[https://www.sunpig.com/martin/archives/2003/06/12/multiple-blogs-on-a-single-index-page/][Sun Pig]] which seems to work well.

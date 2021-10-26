@@ -1,0 +1,81 @@
+baseURL = "https://petersmith.org/"
+title = "The occasional ramblings of an academic"
+theme = "Papyrus"
+
+canonifyURLs =  true
+pygmentsuseclasses =  false
+pygmentsCodeFences = true
+pygmentsStyle  = "monokai"
+
+
+IsMultiLingual = false
+DefaultContentLanguage = "en"
+
+googleAnalytics = "UA-150476074-3"
+
+ignoreFiles = ["^\\.#"]
+
+[taxonomies]
+  category =  "categories"
+
+[permalinks]
+  blog = "/blog/:year/:month/:day/:slug/"
+  journal = "/journal/:year/:month/:day/:slug/"
+  teaching = "/teaching/:year/:month/:slug/"
+  resources = "/resources/:slug/"
+  run = "/running/:slug:"
+
+[sitemap]
+	changefreq = "monthly"
+	priority = 0.5
+	filename = "sitemap.xml"
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageName = "English"
+    languageCode = "en"
+
+
+[[menu.main]]
+  name = "Journal"
+  url = "/journal"
+  weight = 5
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 15
+
+[[menu.main]]
+  name = "Site info"
+  url = "/site-info/"
+  weight = 99
+
+
+
+[[menu.indieweb]]
+  name = "Orid"
+  url = "https://orcid.org/0000-0002-6382-7051"
+  post = "<i class='fab fa-orcid'></i>"
+  weight = 5
+[[menu.indieweb]]
+  name = "LinkedIn"
+  url = "linkedin.com/in/peter-smith-00b7891b5"
+  post = "<i class='fab fa-linkedin'></i>"
+  weight = 10
+[[menu.indieweb]]
+  name = "Twitter"
+  url = "https://twitter.com/JustAnotherCog"
+  post = "<i class='fab fa-twitter'></i>"
+  weight = 15
+[[menu.indieweb]]
+  name = "Github"
+  url = "https://github.com/psmith1303"
+  post = "<i class='fab fa-github'></i>"
+  weight = 20

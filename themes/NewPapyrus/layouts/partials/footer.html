@@ -1,0 +1,19 @@
+<footer>
+  <p class="feet h-card vcard">&copy;
+    <a href={{ .Site.BaseURL }}
+       class="p-name u-url url author metatag" rel="me">
+      {{ .Site.Author.name }}
+    </a>
+    <img src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith"
+	 class="u-photo" style="display: none">
+    1995&ndash;{{ now.Year }} &bull; Licenced under
+    <a href="{{  .Site.Author.licenceURL }}" class="metatag">
+      {{ .Site.Author.licence }}
+    </a>
+  </p>
+  <div class="badges">
+    {{ range .Site.Menus.badges }}
+       <a rel="me" href="{{ .URL }}"><img src="{{ .Post }}"></a>
+    {{ end }}
+    </div>
+</Footer>

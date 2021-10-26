@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main>
+  <article class="toc">
+    <h1>Table of Contents: {{ .Title }}</h1>
+    <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
+    {{.Content}}
+    <ul>
+      <!-- Ranges through content/posts/*.org -->
+      {{ range .Pages.GroupByDate "2006" }}
+          {{ partial "toc.html" . }}
+      {{ end }}
+    </ul>
+  </article>
+</main>
+{{ end }}

@@ -1,0 +1,5 @@
+<h3>{{ .Key }}</h3>
+{{ $pages :=  .Pages }}
+{{ $links := apply $pages "partial" "toc-line.html" "." }}
+{{ $clean := apply $links "chomp" "." }}
+{{ delimit $clean " "}}

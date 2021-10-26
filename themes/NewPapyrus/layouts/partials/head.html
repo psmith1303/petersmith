@@ -1,0 +1,34 @@
+<head>
+  <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  {{ hugo.Generator }}
+  <meta  name="author" content="Peter Smith" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+  <base href="{{ .Site.Params.baseURL }}">
+  {{ $title := print .Site.Title " | " .Title }}
+  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <title>{{ $title }}</title>
+
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/stylesheet.css" />
+  <link rel="stylesheet" href="/css/webmention.css" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/images/favicon.png" />
+  <link rel="webmention" href="https://webmention.io/petersmith.org/webmention" />
+  <link rel="pingback" href="https://webmention.io/petersmith.org/xmlrpc" />
+  <script src="/js/webmention.min.js" async></script>
+  <script src="https://kit.fontawesome.com/28859ddd64.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150476074-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-150476074-3');
+ </script>
+</head>

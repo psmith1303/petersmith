@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article>
+  <h2>{{ humanize .Data.Plural }} by usage</h2>
+  {{ $data := .Data }}
+  <ul class="categories">
+    {{ range $key,$value := .Data.Index.ByCount }} 
+    <li><a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>
+    {{ end }}
+  </ul>
+
+  <h2>{{ humanize .Data.Plural }} alphabetically</h2>
+  {{ $data := .Data }}
+  <ul class="categories">
+    {{ range $key,$value := .Data.Index.Alphabetical }} 
+    <li><a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>
+    {{ end }}
+  </ul>
+</article>
+
+{{ end }}

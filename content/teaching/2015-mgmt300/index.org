@@ -1,0 +1,12 @@
+#+title: Management in dynamic contexts (MGMT 300)
+#+date: 2015-07-20T00:00:00+12:00
+#+enddate: 2015-11-16T00:00:00+12:00
+#+publishdate: 2015-01-01
+#+host: The University of Auckland
+
+Explore and reflect on the realities of management theory and practice through critically examining management challenges, from small entrepreneurial firms to large corporations.
+# more 
+
+This course is based on teams competing against one another using a business simulation.
+
+[[mgmt300-2015.pdf][Syllabus (PDF)]]

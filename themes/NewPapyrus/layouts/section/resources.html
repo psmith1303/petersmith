@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main>
+  <article class="toc">
+    <h1>Table of Contents: {{ .Title }}</h1>
+    <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
+    {{.Content}}
+    <ul>
+      <!-- Ranges through content/resources/*.org -->
+      {{ range .Pages.ByTitle }}
+          <li>
+	    <span class="toc-link"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></span>
+	    <span class="toc-date">{{ .Date.Format "2 Jan 2006" }}</span>
+	  </li>
+      {{ end }}
+    </ul>
+  </article>
+</main>
+{{ end }}

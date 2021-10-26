@@ -1,0 +1,425 @@
+@media (min-width: 48em) {
+    .two-columns .outline-3 {
+        width: 18em;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .two-columns .outline-3 h3 {
+        margin-top: 1em;
+    }
+
+    .two-columns .outline-3:nth-child(2n) {
+        margin-left: 3em;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+    }
+
+    #outline-container-orgheadline1 h2 {
+        margin-top: 4em;
+    }
+}
+
+/** My column framework **/
+
+.columns {
+    display: flex;
+}
+
+.column {
+  flex-grow: 1;
+}
+
+.column + .column {
+  margin-left: 2%;
+}
+
+.is-centered {
+    justify-content: center;
+}
+
+.is-left {
+    justify-content: flex-start;
+}
+
+.is-right {
+    justify-content: flex-end;
+}
+
+.has-text-left {
+    text-align: left;
+}
+
+.has-text-right {
+    text-align: right;
+}
+
+.has-text-center {
+    text-align: center;
+}
+
+
+html {
+    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-size: 12pt;
+    background-color: Gray;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+body {
+    max-width: 210mm;
+    margin: 2em auto;
+    padding: 0em 0em 0em 0em; 
+    background-color: White;
+}
+
+header {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding-top: 6em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #211;
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: DarkSlateGrey;
+}
+
+section {
+    background-color: YellowGreen;
+}
+
+article {
+    font-family: "Baskerville", "Cambria", "Garamond", serif;
+    font-size: 13pt;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-color: white;
+    line-height: 1.4em;
+}
+
+.e-content > ul{
+    padding-left: 1em;
+
+}
+
+.e-content > ul > li {
+
+}
+
+.e-content>ul>li>p:first {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.e-content>ul>li>p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.e-content>ul>li>p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+
+.article-footer {
+   padding-top: 0em;
+   padding-bottom: 0;
+}
+
+meta-data {
+    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+}
+
+aside {
+    background-color: Violet;
+}
+
+pre {
+  overflow-y: auto;
+}
+
+code {
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    color: Green;
+}
+
+code.language-sh {
+    font-size: 0.9em;
+    color: Lime;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 1em 0 0.0em 0;
+    text-align: left;
+    line-height: 30pt;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 2em 0 1em 0;
+    text-align: center;
+}
+
+
+h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+    text-align: left;
+}
+
+
+h5 {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 2em 0 1em 0;
+    text-align: left;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+blockquote {
+    font-family: "Cambria", "Times New Roman", serif;
+    font-style: italic;
+    padding-left: 1em;
+    border-left: 1px solid lightgrey;
+
+}
+
+.subtitle {
+    color: lightgrey;
+}
+
+p.subtitle {
+    margin-top: 0em;
+    margin-bottom: 1em;
+
+}
+
+/*************************
+My Table of Contents pages
+**************************/
+
+.toc > h1 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+    text-align: center;
+
+}
+
+.toc > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc > ul > li {
+    position:relative;
+    background: url(/images/dot.gif) repeat-x bottom;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 3px;
+}
+
+.toc-date {
+    position: absolute;
+    display: inline-block;
+    bottom: 0; right: 0;
+    padding: 0 3px 0 0;
+    background: #fff;
+}
+
+.toc-link > a {
+    color: black;
+}
+
+
+.toc-link {
+    background: #fff;
+}
+
+
+/*****************
+Sort out my footer
+******************/
+footer {
+    padding-top: 0.5em;
+    margin-top: 6em;
+    background-color: Gray;
+    font-size: 11pt;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+.elsewhere a {
+    font-size: 8pt;
+    color: #555;
+}
+
+.channels {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    font-size: 8pt;
+}
+
+ul.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul.footer-links li {
+    margin: 0;
+    padding: 0;
+    flex: auto;
+    text-align: center;
+}
+
+i.icon {
+    margin-right: 0;
+}
+i.icon, i.icons {
+    font-size: 1em;
+}
+i.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.meta-data {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top: 1px solid lightgrey;
+    font-size: 8pt;
+    font-weight: 100;
+    line-height: 1.2em;
+    color: #888;
+}
+
+.meta-data p {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+div.p-tag, div.p-category {
+    display: inline;
+}
+
+.footer-lins a,
+.meta-data a {
+    text-decoration: none;
+    color: #888;
+}
+
+.meta-data a:link {
+    text-decoration: none;
+    color: #888;
+}
+
+.meta-data a:visited {
+    text-decoration: none;
+    color: #888;
+}
+
+.meta-data a:hover {
+    color: #888;
+    text-decoration: underline;
+}
+
+.meta-data a:active {
+    text-decoration: none;
+    color: #888;
+}
+
+.meta {
+    font-size: 10pt;
+    padding-top: 2em;
+    text-align: center;
+    font-weight: 200;
+}
+
+ul.meta {margin: 0 auto; text-align: center;}
+ul.meta li {display: inline;    }
+ul.meta li:after {content: " \02043";}
+ul.meta li:last-child:after { content: "";}
+
+.categories ul {margin: 0 auto; text-align: left;}
+.categories li {display: inline;        }
+.categories li:after {content: " \02043";}
+.categories li:last-child:after { content: "";}
+
+/*********************
+Other styling
+*********************/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

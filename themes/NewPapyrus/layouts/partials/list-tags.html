@@ -1,0 +1,9 @@
+{{ $baseurl := .Site.BaseURL }}
+
+<div class="p-tag">
+  {{ range .Params.tags }}
+      <a href="{{ $baseurl }}tags/{{ . | urlize }}"><i class="fa fa-tag" aria-hidden="true"></i>{{ . }}</a>&nbsp;
+  {{ end }}
+  <a  href="{{ $baseurl }}tags/"><i class="fa fa-tags" aria-hidden="true"></i>All</a>&nbsp;
+</div>
+
