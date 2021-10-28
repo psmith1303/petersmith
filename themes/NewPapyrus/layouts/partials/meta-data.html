@@ -1,7 +1,7 @@
 <div class="meta-data columns">
   <div class="column is-left has-text-left">
-    <p>Created: <time class="dt-published" datetime="{{ .PublishDate.Format "2006-01-06 15:04 -0700" }}">{{ .PublishDate.Format "2006-01-06 15:04 -0700" }}</time></p>
-    <p>Updated: <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-06 15:04" }}">{{ .Lastmod.Format "2006-01-06 15:04" }}</time><p>
+    <p>Created: <time class="dt-published" datetime="{{ .PublishDate.Format "2006-01-06 15:04 -0700" }}">{{ .PublishDate.Format "2006-01-06 15:04" }}</time></p>
+    <p>Updated: <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-06 15:04 -070" }}">{{ .Lastmod.Format "2006-01-06 15:04" }}</time><p>
   </div>
   <div class="column is-right has-text-right">
     {{ partial "list-categories" . }}

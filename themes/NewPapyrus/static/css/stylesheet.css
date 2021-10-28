@@ -19,7 +19,7 @@
     }
 
     #outline-container-orgheadline1 h2 {
-        margin-top: 4em;
+        margin-top: 1em;
     }
 }
 
@@ -175,7 +175,7 @@ h1 {
 h2 {
     font-size: 1em;
     font-weight: bold;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-align: center;
 }
 
@@ -184,7 +184,7 @@ h3 {
     font-size: 1em;
     font-weight: normal;
     font-style: italic;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-align: center;
 }
 
@@ -192,7 +192,7 @@ h3 {
 h4 {
     font-size: 1em;
     font-weight: bold;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-align: left;
 }
 
@@ -201,7 +201,7 @@ h5 {
     font-size: 1em;
     font-weight: normal;
     font-style: italic;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-align: left;
 }
 
@@ -423,3 +423,44 @@ img {
   height: auto;
 }
 
+figure {
+    text-align: center
+}
+
+figcaption h4 {
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center
+}
+
+
+.tags {
+    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-weight: bold;
+    background-color: White;
+    color: Grey;
+}
+
+.sparklines {
+    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-size: 9pt;
+    background-color: White;
+    color: Red;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    min-width: 200px;
+}
+
+ul.sparklines {
+    list-style-type: none;
+}
+
+section.topborder {
+    border-top: 1px solid #211;
+    padding-top: 1em;
+    background-color: White;
+}

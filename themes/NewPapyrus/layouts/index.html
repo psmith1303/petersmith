@@ -1,26 +1,23 @@
 {{ define "main" }}
 
-
-<article>
+<Article>
   <div id="hcard-Peter-Smith" class="h-card hcard has-text-center">
-    <h2 class="p-name">Peter Smith</h2>
-    <data class="p-given-name" value="Peter"></data>
-    <data class="p-family-name" value="Smith"></data>
-    <p>
-      <span class="p-job-title">Lecturer</span>
-      at <a class="p-org" href="http://auckland.ac.nz/" target="blank">The University of Auckland</a>
-    </p>
-
-    <p class="p-adr h-adr">
-      <span class="p-locality">Auckland</span>,
-      <span class="p-country-name">New Zealand</span>
-    </p>
-
     <a href="/" class="u-url u-uid">
       <img src="/images/PeterInTheOffice-2020-small.jpg" alt="Peter Smith in the office" class="u-photo"/>
     </a>
+
+    <data class="p-name" value="Peter Smith"></data>
+    <data class="p-given-name" value="Peter"></data>
+    <data class="p-family-name" value="Smith"></data>
+    <data class="p-job-title" value="Lecturer"></data>
+    <data class="p-org" value="The University of Auckland"></data>
+    <div class="p-adr h-adr">
+      <data class="p-locality" value="Auckland"></data>
+      <data class="p-country-name" value="New Zealand"></data>
+    </div>
   </div>
-  
+
+
   {{- range (where .Site.RegularPages "Title" "About me" | first 1 ) }}
   <h2>{{ .Title }}</h2>
   <div class="p-note">
@@ -28,30 +25,15 @@
   </div>
   {{ end }}
 
-  
-  <section class="columns">
-    <div class="column">
-      <h2>Sections</h2>
-      {{ range .Pages.GroupBy "Section" }}
-      <h3>{{ .Key }}</h3>
-      <ul>
-	{{ range .Pages }}
-	Length {{ len .Pages }}
-	<li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-	</li>
-	{{ end }}
-      </ul>
-      {{ end }}
+  <section class="columns topborder">
+    <div class="column tags">
+      {{- partial "tag-cloud" . -}}
     </div>
-
     <div class="column">
-      <h2>Tag cloud</h2>
-      {{ partial "tag-cloud" . }}
+      {{- partial "posting-status" . -}}
     </div>
   </section>
-  
+
   {{ partial "meta-data.html" . }}
   <meta-data>
     {{ partial "article-footer.html" . }}
@@ -75,4 +57,3 @@
   </meta-data>
 </article>
 {{ end }}
-

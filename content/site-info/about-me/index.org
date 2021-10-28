@@ -7,12 +7,12 @@
 
 Tēnā koe! Ko Peter tōku ingoa.
 
-Greetings! My name Peter.
+Greetings! My name is Peter.
 
 
-This website is my little corner on the Internet. As [[https://boffosocko.com][Chris Aldrich]] say's "this website as my primary hub for my online identity and communication. It’s also my online commonplace book".
+This website is my little corner on the Internet. As well as being something of a [[https://en.wikipedia.org/wiki/Commonplace_book][commonplace book]], I am trying to make this website into the hub for my online identity and communications.
 
-I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][[University of Auckland]], where my main teaching and research activity is in the field of strategy. I am particularly interested in [[https://www.strategy-as-practice.org/][Strategy-as-practice]] (a practice-based view of strategy), *Professional service firms*, especially engineering firms, and *Innovation as strategy*, especially technology roadmapping (TRM).
+I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][University of Auckland]], where my main teaching and research activity is in the field of strategy. I am particularly interested in [[https://www.strategy-as-practice.org/][Strategy-as-practice]] (a practice-based view of strategy), *Professional service firms*, especially engineering firms, and *Innovation as strategy*, especially technology roadmapping (TRM).
 
 My consulting activity revolves around strategy and strategising for high-technology firms.
 
@@ -20,7 +20,5 @@ I probably obsess a little too much about coffee.
 
 For more detail regarding my teaching, have a look at my [[/resources/teaching-portfolio-2015/][Teaching Portfolio]]. It outlines my perspective and approach to teaching, along with what I actually do. However, it is a little out of date.
 
-Thanks to the encouragement of [[https://www.andrewisgettingfit.com/][Andrew]] I used to do a some running until I retired from it in 2021.
-
 In what little spare time I have, I have been looking into [[https://genes.petersmith.org][the history of my family]].
- 
+
