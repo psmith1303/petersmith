@@ -10,13 +10,58 @@ I want to get a count of blog posts by month. Actually, I want to do that for ea
 
 {{< figure src="AaronParecki-Sparklines.png" title="Screenshot of sparklines from Aaron Parecki's website" >}}
 
-The code I finally ended up with looks like this:
+The code I finally ended up with looks like this. First I have a partial template ~posting-status.html~. It cycles through all the types of sections I have and draws a sparkline, a count of posts, and a link to the section. I don't think the code is pretty, but it seems to work.
 
-#+BEGIN_SRC go
+#+BEGIN_SRC hugo
 
+{{ range .Pages.GroupBy "Section" }}
+{{ $MyKey := .Key }}
 
+ <ul class="sparklines">
+   {{ range .Pages }}
+   <li>
+      <embed {{ printf "src=%q" ( replaceRE "(\\s)" "" (partial "sparkline-data" (dict "context" . "WhatSection" $MyKey ))) | safeHTMLAttr }}  width="100" height="15">
+     {{ len .Pages }} <a href="{{ .Permalink }}">{{ .Title }}</a> 
+   </li>
+   {{ end }}
+ </ul>
+{{ end }}
 
 #+END_SRC
 
+Then there is another partial that gets the data needed for the sparkline. This took a lot of messing around because (a) Hugo was keen to HTML encode the data, and (b) I could figure way to build an 'array' of the count of posts by month. Anyway, in the end ~sparkline-data.html~ looks like this:
 
+#+BEGIN_SRC hugo
+{{ $master_list := dict "2021 10" 0 }}
 
+{{ $ThisSection := .WhatSection }}
+
+{{ range (.context.Site.RegularPages.GroupByDate "y2006_01").Reverse }}
+  {{ $my_year := .Key }} {{ $my_entries := len (where .Pages.Reverse "Section" $ThisSection  ) }}
+  {{ $temp := dict $my_year $my_entries }}
+  {{ $master_list = merge  $temp $master_list}}
+{{ end }}
+
+{{ $StartYear := 2000 }}
+{{ $EndYear := now.Format "2006" }}
+
+{{ $MyList := "0" }}
+{{ $NewOne := "" }}
+{{ range $index, $year := (seq $StartYear $EndYear ) }}
+    {{ range $month := (seq 1 12) }}
+      {{ $key := (printf "y%d_%02d" $year $month) }}
+      {{ $entries := index $master_list $key }}
+      {{ if $entries }}
+         {{ $NewOne = $entries }}
+      {{ else }}
+         {{ $NewOne = "0" }}
+      {{ end }}
+      {{ $MyList = print $MyList ", " $NewOne }}
+   {{ end }}
+{{ end }}
+
+{{- print "/images/sparkline.svg?" $MyList -}}
+
+#+END_SRC
+
+All-in-all, I don't think I good at doing coding/functions/templates in Hugo, but it works.
