@@ -64,6 +64,7 @@
 
 html {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-display: swap;
     font-size: 12pt;
     background-color: Gray;
     padding: 0;
