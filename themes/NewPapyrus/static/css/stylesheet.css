@@ -63,7 +63,7 @@
 
 
 html {
-    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 12pt;
     background-color: Gray;
     padding: 0;
@@ -99,7 +99,7 @@ section {
 }
 
 article {
-    font-family: "Baskerville", "Cambria", "Garamond", serif;
+    font-family: "Baskerville", "Palatino", "Cambria", "Garamond", serif;
     font-size: 13pt;
     margin-left: 8em;
     margin-right: 8em;
@@ -139,7 +139,7 @@ article {
 }
 
 meta-data {
-    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-family: "Courier New", "Courier", "Verdana", "Arial", sans-serif;
 }
 
 aside {

@@ -1,6 +1,6 @@
 #+title: Posts by month
 #+date: 2021-10-27T10:38:27+13:00
-#+lastmod: 2021-10-27T10:38:32+13:00
+#+lastmod: 2021-10-29T07:14:45+13:00
 #+categories[]: IT Blogging
 #+tags[]: Hugo
 #+slug: posts-by-month
@@ -64,4 +64,4 @@ Then there is another partial that gets the data needed for the sparkline. This 
 
 #+END_SRC
 
-All-in-all, I don't think I good at doing coding/functions/templates in Hugo, but it works.
+All-in-all, I don't think I am good at doing coding/functions/templates in Hugo, but it works.
