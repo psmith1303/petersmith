@@ -46,7 +46,7 @@ footnoteReturnLinkContents = '↩'
 
 [Author]
     name = "Peter Smith"
-    photo = "images/PeterInTheOffice-2020.jpg"
+    photo = "images/PeterInTheOffice-2020-small.jpg"
     profile = "https://google.com/+XXX"
     email = "mail@petersmith.org"
     nick = "Peter"
