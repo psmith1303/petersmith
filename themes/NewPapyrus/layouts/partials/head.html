@@ -9,9 +9,7 @@
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>
   <link rel="canonical" href="{{ .Permalink }}" />
-
   {{- partial "stylesheets" . -}}
-
   <link rel="shortcut icon" href="/images/favicon.ico" />
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/images/favicon.png" />
