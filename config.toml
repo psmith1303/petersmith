@@ -22,7 +22,7 @@ footnoteReturnLinkContents = '↩'
   notes = "/notes/:year/:month/:day/:slug/"
   run = "/running/:year/:month/:day/:slug:"
   resources = "/resources/:slug/"
-  reply = "/replies/:year/:month:/:day/:slug/"
+  mention = "/mentions/:year/:month:/:day/:slug/"
 
 [sitemap]
         changefreq = "monthly"
