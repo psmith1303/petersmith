@@ -1,6 +1,6 @@
 #+title: Colophon
 #+date: 2016-11-16T19:14:20+13:00
-#+categories: Site-info
+#+categories[]: SiteInfo
 #+slug: colophon
 #+draft: False
 #+weight: 200

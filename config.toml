@@ -7,8 +7,6 @@ relativeURLS = true
 
 footnoteReturnLinkContents = '↩'
 
-
-
 [frontmatter]
   lastmod = ['lastmod', ':fileModTime', ':default']
 
@@ -111,3 +109,12 @@ footnoteReturnLinkContents = '↩'
   url = "http://validator.w3.org/check/referer"
   post = "/images/w3c-valid-html.png"
   weight = 10
+
+[[params.plugins.css]]
+link = "/css/normalize.css"
+[[params.plugins.css]]
+link = "/css/stylesheet.css"
+[[params.plugins.css]]
+link = "/css/fontawesome.css"
+[[params.plugins.css]]
+link = "/css/webmention.css"

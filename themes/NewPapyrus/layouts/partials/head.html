@@ -8,12 +8,10 @@
   {{ $title := print .Site.Title " | " .Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>
-
   <link rel="canonical" href="{{ .Permalink }}" />
-  <link rel="stylesheet" href="/css/normalize.css" />
-  <link rel="stylesheet" href="/css/stylesheet.css" />
-  <link rel="stylesheet" href="/css/fontawesome.css" />
-  <link rel="stylesheet" href="/css/webmention.css" />
+
+  {{- partial "stylesheets" . -}}
+
   <link rel="shortcut icon" href="/images/favicon.ico" />
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/images/favicon.png" />

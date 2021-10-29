@@ -1,6 +1,6 @@
 #+title: Site policies
 #+date: 2014-02-18T13:34:00+12:00
-#+categories: [Site info]
+#+categories[]: SiteInfo
 #+slug: site-policies
 #+draft: False
 #+weight: 300
