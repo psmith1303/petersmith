@@ -7,5 +7,5 @@
     {{ $cssBundle = $cssBundle | append $cssFile }}
   {{ end }}
 {{ end }}
-{{ $cssBundle := $cssBundle | resources.Concat "css/bundle.css" | resources.Fingerprint }}
+{{ $cssBundle := $cssBundle | resources.Concat "/css/bundle.css" | resources.Fingerprint }}
 <style type="text/css">{{ $cssBundle.Content | safeCSS }}</style>
