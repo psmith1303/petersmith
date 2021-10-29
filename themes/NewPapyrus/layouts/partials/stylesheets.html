@@ -8,4 +8,4 @@
   {{ end }}
 {{ end }}
 {{ $cssBundle := $cssBundle | resources.Concat "/css/bundle.css" | resources.Fingerprint }}
-<style type="text/css">{{ $cssBundle.Content | safeCSS }}</style>
+<style>{{ $cssBundle.Content | safeCSS }}</style>
