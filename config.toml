@@ -1,7 +1,7 @@
-baseURL = 'https://petersmith.org/'
-languageCode = 'en-us'
-title = 'PeterSmith.org'
-theme = 'NewPapyrus'
+baseURL = "https://petersmith.org/"
+languageCode = "en-us"
+title = "PeterSmith.org"
+theme = "NewPapyrus"
 
 relativeURLS = true
 
@@ -110,11 +110,15 @@ footnoteReturnLinkContents = '↩'
   post = "/images/w3c-valid-html.png"
   weight = 10
 
-[[params.plugins.css]]
+[Params]
+  subtitle = "Some kind of bucket for bits and bytes"
+  description = "Peter's IndieWeb hub"
+
+[[Params.plugins.css]]
 link = "/css/normalize.css"
-[[params.plugins.css]]
+[[Params.plugins.css]]
 link = "/css/stylesheet.css"
-[[params.plugins.css]]
+[[Params.plugins.css]]
 link = "/css/fontawesome.css"
-[[params.plugins.css]]
+[[Params.plugins.css]]
 link = "/css/webmention.css"
