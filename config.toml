@@ -19,10 +19,10 @@ footnoteReturnLinkContents = '↩'
   blog = "/blog/:year/:month/:day/:slug/"
   journal = "/journal/:year/:month/:day/:slug/"
   teaching = "/teaching/:year/:month/:slug/"
-  notes = "/notes/:year/:month/:slug/"
+  notes = "/notes/:year/:month/:day/:slug/"
   run = "/running/:year/:month/:day/:slug:"
   resources = "/resources/:slug/"
-
+  reply = "/replies/:year/:month:/:day/:slug/"
 
 [sitemap]
         changefreq = "monthly"
