@@ -96,7 +96,7 @@ header a {
 }
 
 section {
-    background-color: YellowGreen;
+    background-color: White;
 }
 
 article {
@@ -140,7 +140,7 @@ article {
 }
 
 meta-data {
-    font-family: "Courier New", "Courier", "Verdana", "Arial", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
 }
 
 aside {
@@ -162,7 +162,7 @@ code.language-sh {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
 }
 
 h1 {
@@ -316,6 +316,14 @@ footer p {
     font-size: 8pt;
 }
 
+.channels a {
+    text-decoration: none;
+}
+
+.channels a:hover {
+    text-decoration: underline;
+}
+
 ul.footer-links {
     list-style-type: none;
     margin: 0;
@@ -439,17 +447,16 @@ figcaption h4 {
 
 
 .tags {
-    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-weight: bold;
     background-color: White;
     color: Grey;
 }
 
 .sparklines {
-    font-family: "Open Sans", "Verdana", "Arial", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 9pt;
     background-color: White;
-    color: Red;
     padding: 0;
     margin: 0;
     line-height: 1.5em;
@@ -459,6 +466,17 @@ figcaption h4 {
 ul.sparklines {
     list-style-type: none;
 }
+
+.sparklines a {
+    text-decoration: none;
+}
+
+.sparklines a:hover {
+    text-decoration: underline;
+}
+
+ul.footer-links {
+    list-style-type: none;
 
 section.topborder {
     border-top: 1px solid #211;
