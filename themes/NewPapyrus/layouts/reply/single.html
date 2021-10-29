@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="h-entry">
+  <h1 class="p-name" id="title">{{ .Title }}</h1>
+  <p class="subtitle">{{ .Params.subtitle }}</p>
+  <div class="e-content">
+    <h3>In reply to <a href="{{ .Params.targetURL }}">{{ .Params.targetURL }}</a></h3>
+    {{ .Content }}
+  </div>
+  <meta-data>
+    {{ partial "article-footer.html" . }}
+    <div class="channels">
+      <ul class="footer-links">{{ range .Site.Menus.main }}
+	<li>
+	  <a href="{{ .URL }}">{{ .Name }}</a>
+	</li>
+	{{ end }}
+      </ul>
+    </div>
+    <div class="elsewhere">
+      <ul class="footer-links" id="relme">
+	{{ range .Site.Menus.indieweb }}
+	<li>
+          <a rel="me" href="{{ .URL }}">{{ .Post }}</a>
+	</li>
+	{{ end }}
+      </ul>
+    </div>
+  </meta-data>
+</article>
+{{ end }}
