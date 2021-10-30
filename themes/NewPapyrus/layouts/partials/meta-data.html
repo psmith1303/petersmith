@@ -1,9 +1,9 @@
 <div class="meta-data columns">
   <div class="column is-left has-text-left">
-    {{ $MyDate := .PublishDate.Format "2006-01-06 15:04MST" }}
-    {{ if eq $MyDate "0001-01-01 00:00UTC" }}{{ $MyDate = .Lastmod.Format "2006-01-06 15:04MST" }}{{ end }}
+    {{ $MyDate := .PublishDate.Format "2006-01-06 15:04:00MST" }}
+    {{ if eq $MyDate "0001-01-01 00:00:00UTC" }}{{ $MyDate = .Lastmod.Format "2006-01-06 15:04:00MST" }}{{ end }}
     <p>Created: <time class="dt-published" datetime="{{ $MyDate }}">{{ $MyDate }}</time></p>
-    <p>Updated: <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-06 15:04MST" }}">{{ .Lastmod.Format "2006-01-06 15:04MST" }}</time><p>
+    <p>Updated: <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-06 15:04:00MST" }}">{{ .Lastmod.Format "2006-01-06 15:04:00MST" }}</time><p>
   </div>
   <div class="column is-right has-text-right">
     {{ partial "list-categories" . }}
