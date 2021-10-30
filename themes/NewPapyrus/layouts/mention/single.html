@@ -2,8 +2,8 @@
 <article class="h-entry">
   <h1 class="p-name" id="title">{{ .Title }}</h1>
   <p class="subtitle">{{ .Params.subtitle }}</p>
+  <h3 class="has-text-left">In reply to: <a class="u-in-reply-to" href="{{ .Params.targetURL }}">{{ .Params.targetTitle }}</a></h3>
   <div class="e-content">
-    <h3>In reply to: <a href="{{ .Params.targetURL }}">{{ .Params.targetURL }}</a></h3>
     {{ .Content }}
   </div>
   <meta-data>

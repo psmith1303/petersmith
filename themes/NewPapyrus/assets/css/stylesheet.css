@@ -173,7 +173,7 @@ h1 {
 
 h2 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 1em;
+    font-size: 12pt;
     font-weight: bold;
     margin: 1em 0 1em 0;
     text-align: center;
@@ -182,7 +182,7 @@ h2 {
 
 h3 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 1em;
+    font-size: 12pt;
     font-weight: normal;
     font-style: italic;
     margin: 1em 0 1em 0;
@@ -192,7 +192,7 @@ h3 {
 
 h4 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 1em;
+    font-size: 12pt;
     font-weight: bold;
     margin: 1em 0 1em 0;
     text-align: left;
@@ -201,7 +201,7 @@ h4 {
 
 h5 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 1em;
+    font-size: 12pt;
     font-weight: normal;
     font-style: italic;
     margin: 1em 0 1em 0;

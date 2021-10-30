@@ -5,6 +5,7 @@
 #+lastmod: 2021-10-29T19:06:38+13:00
 #+draft: false
 #+targetURL: https://aaronparecki.com/2018/06/30/11/your-first-webmention
+#+targetTitle: Your first webmention
 #+author: Peter Smith
 #+categories[]: blogging
 #+tags[]: hugo
