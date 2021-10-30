@@ -1,4 +1,4 @@
-<div class="meta-data columns u-author h-card vcard">
+<div class="meta-data columns u-author h-card">
   <div class="column is-left has-text-left">
     {{ $MyDate := .PublishDate.Format "2006-01-06 15:04 MST" }}
     {{ if eq $MyDate "0001-01-01 00:00 UTC" }}{{ $MyDate = .Lastmod.Format "2006-01-06 15:04 MST" }}{{ end }}
@@ -8,12 +8,10 @@
   <div class="column is-right has-text-right">
     {{ partial "list-categories" . }}
     {{ partial "list-tags" . }}
-    <a class="u-url uid" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>&nbsp;
+    <a class="u-url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>&nbsp;
     <a class="" href="/{{ .Type }}/">{{ humanize .Type }}</a>
-    <p>
-      <a rel="author" class="p-name u-url p-author h-card" href="{{ .Site.BaseURL  }}">Author: {{ .Site.Author.name }}</a>
-      <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
-    </p>
+    <a rel="author" class="p-name p-author" href="{{ .Site.BaseURL  }}">Author: {{ .Site.Author.name }}</a>
+    <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
   </div>
 </div>
 
