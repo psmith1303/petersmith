@@ -1,5 +1,5 @@
-<div class="meta-data columns">
-  <div class="column is-left has-text-left h-card vcard">
+<div class="meta-data columns u-author h-card vcard">
+  <div class="column is-left has-text-left">
     {{ $MyDate := .PublishDate.Format "2006-01-06 15:04 MST" }}
     {{ if eq $MyDate "0001-01-01 00:00 UTC" }}{{ $MyDate = .Lastmod.Format "2006-01-06 15:04 MST" }}{{ end }}
     <p>Created: <time class="dt-published" datetime="{{ $MyDate }}">{{ $MyDate }}</time></p>
