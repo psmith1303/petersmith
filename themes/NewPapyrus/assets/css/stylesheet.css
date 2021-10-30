@@ -439,6 +439,11 @@ img {
   height: auto;
 }
 
+.hidden {
+    display: none;
+}
+
+
 figure {
     text-align: center
 }

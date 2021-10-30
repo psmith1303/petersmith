@@ -12,7 +12,7 @@
     <a class="" href="/{{ .Type }}/">{{ humanize .Type }}</a>
     <p>
       <a rel="author" class="p-name u-url p-author h-card" href="{{ .Site.BaseURL  }}">Author: {{ .Site.Author.name }}</a>
-      <img src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" class="u-photo" style="display: none" loading="lazy">
+      <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
     </p>
   </div>
 </div>
