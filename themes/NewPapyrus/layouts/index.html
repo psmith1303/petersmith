@@ -24,17 +24,17 @@
   </div>
   {{ end }}
 
-  <section class="columns topborder">
-    <div class="column tags">
-      {{- partial "tag-cloud" . -}}
-    </div>
-    <div class="column">
-      {{- partial "posting-status" . -}}
+  <section class="topborder">
+    <h2 class="is-centered is-tight-top">Meta information</h2>
+    <div class="columns">
+      <div class="column tags">{{- partial "tag-cloud" . -}}</div>
+      <div class="column">{{- partial "posting-status" . -}} </div>
     </div>
   </section>
 
-  {{ partial "meta-data.html" . }}
+
   <meta-data>
+    {{ partial "meta-data.html" . }}
     {{ partial "article-footer.html" . }}
     <div class="channels">
       <ul class="footer-links">{{ range .Site.Menus.main }}

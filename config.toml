@@ -16,18 +16,19 @@ footnoteReturnLinkContents = '↩'
 
 
 [permalinks]
-  blog = "/blog/:year/:month/:day/:slug/"
-  journal = "/journal/:year/:month/:day/:slug/"
-  teaching = "/teaching/:year/:month/:slug/"
-  notes = "/notes/:year/:month/:day/:slug/"
-  run = "/running/:year/:month/:day/:slug:"
-  resources = "/resources/:slug/"
-  mention = "/mentions/:year/:month:/:day/:slug/"
+    blog = "/blog/:year/:month/:day/:slug/"
+    journal = "/journal/:year/:month/:day/:slug/"
+    teaching = "/teaching/:year/:month/:slug/"
+    notes = "/notes/:year/:month/:day/:slug/"
+    run = "/running/:year/:month/:day/:slug:"
+    resources = "/resources/:slug/"
+    mention = "/mentions/:year/:month:/:day/:slug/"
+
 
 [sitemap]
-        changefreq = "monthly"
-        priority = 0.5
-        filename = "sitemap.xml"
+    changefreq = "monthly"
+    priority = 0.5
+    filename = "sitemap.xml"
 
 [languages]
 [languages.en]

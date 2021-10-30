@@ -61,6 +61,13 @@
     text-align: center;
 }
 
+.is-tight-top {
+    margin-top: 0.5em;
+}
+
+.is-tight-bottom {
+    margin-bottom: 0.5em;
+}
 
 html {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
@@ -96,8 +103,8 @@ section {
 }
 
 .topborder {
-    border-top: 1px solid #211;
-    padding-top: 1em;
+    border-top: 1px solid LightGrey;
+    margin-top: 1em;
     background-color: White;
 }
 
