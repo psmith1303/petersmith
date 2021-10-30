@@ -7,7 +7,7 @@
 #+targetURL: https://aaronparecki.com/2018/06/30/11/your-first-webmention
 #+targetTitle: Your first webmention
 #+author: Peter Smith
-#+categories[]: blogging
+#+categories[]: IndieWeb
 #+tags[]: hugo
 
 I'm trying out Aaron Parecki's rather nice guide to webmentions.

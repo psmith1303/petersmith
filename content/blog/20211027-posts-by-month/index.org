@@ -1,12 +1,14 @@
 #+title: Posts by month
 #+date: 2021-10-27T10:38:27+13:00
-#+lastmod: 2021-10-29T07:14:45+13:00
+#+lastmod: 2021-10-30T16:00:17+13:00
 #+categories[]: IT Blogging
 #+tags[]: Hugo
 #+slug: posts-by-month
 #+draft: false
 
-I want to get a count of blog posts by month. Actually, I want to do that for each of my types of content. Ultimately, the idea is to generate a sparkline, rather link [[https://aaronparecki.com/][Aaron Parecki]] does on his website.
+I want to get a count of blog posts by month. Actually, I want to do that for each of my types of content. Ultimately, the idea is to generate a sparkline, rather like [[https://aaronparecki.com/][Aaron Parecki]] does on his website.
+
+# more
 
 {{< figure src="AaronParecki-Sparklines.png" title="Screenshot of sparklines from Aaron Parecki's website" >}}
 
