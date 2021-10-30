@@ -5,8 +5,6 @@
   <div class="e-content">
     {{ .Content }}
   </div>
-  <meta-data>
-    {{ partial "article-footer.html" . }}
-   </meta-data>
+  {{ partial "article-footer.html" . }}
 </article>
 {{ end }}

@@ -361,10 +361,6 @@ ul.footer-links li {
     backface-visibility: hidden;
 }
 
-meta-data {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-}
-
 .meta-data {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;    
     font-size: 9pt;
@@ -375,7 +371,7 @@ meta-data {
     padding-bottom: 0.5em;
     border-top: 1px solid lightgrey;
 
-    line-height: 1.2em;
+    line-height: 1.5em;
     color: #888;
 }
 
