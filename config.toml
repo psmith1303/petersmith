@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "PeterSmith.org"
 theme = "NewPapyrus"
 
-relativeURLS = true
+relativeURLS = false
 
 footnoteReturnLinkContents = '↩'
 

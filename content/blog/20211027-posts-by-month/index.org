@@ -8,9 +8,7 @@
 
 I want to get a count of blog posts by month. Actually, I want to do that for each of my types of content. Ultimately, the idea is to generate a sparkline, rather like [[https://aaronparecki.com/][Aaron Parecki]] does on his website.
 
-# more
-
-{{< figure src="AaronParecki-Sparklines.png" title="Screenshot of sparklines from Aaron Parecki's website" >}}
+{{< img src="AaronParecki-Sparklines.png" title="Screenshot of sparklines from Aaron Parecki's website" >}}
 
 The code I finally ended up with looks like this. First I have a partial template ~posting-status.html~. It cycles through all the types of sections I have and draws a sparkline, a count of posts, and a link to the section. I don't think the code is pretty, but it seems to work.
 
