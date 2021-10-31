@@ -9,7 +9,7 @@
   <div class="column is-right has-text-right">
     {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
     <p>
-      <a class="u-url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
+      <a class="u-url url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
       <a rel="author" class="p-name p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a> writing a
       <a class="" href="/{{ .Type }}/">{{ .Type }}</a>
       <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
