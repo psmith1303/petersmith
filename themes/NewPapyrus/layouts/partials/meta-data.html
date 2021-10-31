@@ -1,18 +1,19 @@
 <div class="meta-data columns  u-author h-card">
   <div class="column is-left has-text-left">
+    
+    <p>
+      <a rel="author" class="p-name p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a>
+      wrote a <a class="" href="/{{ .Type }}/">{{ .Type }}</a> entry
+      <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
+      <a class="u-url url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
+    </p>
+    {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
+  </div>
+  <div class="column is-right has-text-right">
     {{ $MyPubDate := .PublishDate.Format "2006-01-06 15:04 MST" }}
     {{ $MyLastDate := .Lastmod.Format "2006-01-06 15:04 MST" }}
     {{ if eq $MyPubDate "0001-01-01 00:00 UTC" }}{{ $MyPubDate = $MyLastDate }}{{ end }}
     <p>Created: <time class="dt-published" datetime="{{ $MyPubDate }}">{{ $MyPubDate }}</time></p>
     <p>Updated: <time class="dt-updated" datetime="{{ $MyLastDate }}">{{ $MyLastDate}}</time><p>
-  </div>
-  <div class="column is-right has-text-right">
-    {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
-    <p>
-      <a class="u-url url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
-      <a rel="author" class="p-name p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a> writing a
-      <a class="" href="/{{ .Type }}/">{{ .Type }}</a>
-      <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
-    </p>
   </div>
 </div>
