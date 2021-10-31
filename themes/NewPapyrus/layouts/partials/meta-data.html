@@ -1,11 +1,10 @@
-<div class="meta-data columns  u-author h-card">
-  <div class="column is-left has-text-left">
-    
+<div class="meta-data columns">
+  <div class="column is-left has-text-left author u-author h-card">
     <p>
-      <a rel="author" class="p-name p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a>
-      wrote a <a class="" href="/{{ .Type }}/">{{ .Type }}</a> entry
-      <img class="u-photo hidden" src="{{ .Site.BaseURL }}{{ .Site.Author.photo }}" alt="A picture of Peter Smith" loading="lazy">
+      A <a href="/{{ .Type }}/" alt="Type of entry">{{ .Type }}</a> entry by
+      <a rel="author" class="p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a>
       <a class="u-url url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
+      <img class="u-photo p-name hidden" src="{{ .Site.Author.photo }}" alt="Peter Smith" loading="lazy">
     </p>
     {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
   </div>
