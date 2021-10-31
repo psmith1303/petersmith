@@ -7,6 +7,11 @@ relativeURLS = false
 
 footnoteReturnLinkContents = '↩'
 
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+
 [frontmatter]
   lastmod = ['lastmod', ':fileModTime', ':default']
 
