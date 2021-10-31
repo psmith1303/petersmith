@@ -2,13 +2,14 @@
   <div class="column is-left has-text-left author u-author h-card">
     <p>
       A <a href="/{{ .Type }}/" alt="Type of entry">{{ .Type }}</a> entry by
-      <a rel="author" class="p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a>
-      <a class="u-url url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
+      <a class="p-author" href="{{ .Site.BaseURL  }}">{{ .Site.Author.name }}</a>
+      <a class="u-url " href="{{ .Permalink }}"><i class="fas fa-link"></i></a>
       <img class="u-photo p-name hidden" src="{{ .Site.Author.photo }}" alt="Peter Smith" loading="lazy">
     </p>
     {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
   </div>
   <div class="column is-right has-text-right">
+    <a class="u-url url" href="{{ .Permalink }}"></a>
     {{ $MyPubDate := .PublishDate.Format "2006-01-06 15:04 MST" }}
     {{ $MyLastDate := .Lastmod.Format "2006-01-06 15:04 MST" }}
     {{ if eq $MyPubDate "0001-01-01 00:00 UTC" }}{{ $MyPubDate = $MyLastDate }}{{ end }}
