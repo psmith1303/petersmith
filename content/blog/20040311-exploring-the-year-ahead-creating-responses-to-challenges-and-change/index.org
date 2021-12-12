@@ -1,7 +1,8 @@
 #+title: Exploring the year ahead: Creating responses to challenges and change
 #+date: 2004-03-11T14:34:00+12:00
 #+lastmod: 2004-03-11T14:34:00+12:00
-#+categories[]:Research
+#+categories[]: Research
+#+tags[]: PhD
 #+slug: exploring-the-year-ahead-creating-responses-to-challenges-and-change
 #+draft: False
 

@@ -1,7 +1,8 @@
 #+title: House for sale
 #+date: 2003-05-19T21:30:00+12:00
 #+lastmod: 2003-05-19T21:30:00+12:00
-#+categories[]: Jottings
+#+categories[]: Home
+#+tags[]: Moving
 #+slug: house-for-sale
 #+draft: False
 

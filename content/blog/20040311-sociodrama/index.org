@@ -2,7 +2,8 @@
 #+date: 2004-03-11T14:23:00+12:00
 #+lastmod: 2004-03-11T14:23:00+12:00
 #+slug: sociodrama
-#+categories[]: Psychodrama
+#+categories[]: Home
+#+tags[]: Psychodrama
 #+draft: False
 
 [[https://web.archive.org/web/20050307052941/https://www.colearnz.co.nz/][Judith McMorland]] and I have decided to run a short seminar or workshop for postgrad students, Doctoral candidates, and staff. The title of the seminar is /Exploring the year ahead: creating responses to challenges and

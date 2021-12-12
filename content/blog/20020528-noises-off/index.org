@@ -2,6 +2,7 @@
 #+date: 2002-05-28T15:11:00+12:00
 #+lastmod: 2002-05-28T15:11:00+12:00
 #+categories[]: Arts
+#+tags[]: Theatre
 #+slug: noises-off
 #+draft: False
 

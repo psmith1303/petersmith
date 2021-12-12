@@ -1,10 +1,14 @@
 #+title: Dead drive
-#+date: <2020-09-27 Sun>
-#+categories[]: it
+#+slug: dead-drive
+#+date: 2020-09-27T12:00:00+13:00
+#+lastmod: 2020-09-27T12:00:00+13:00
+#+categories[]: Tech
+#+tags[]: Hardware NAS
+#+draft: False
 
 * They're dead, Dave
 
-Woke-up to find an email from my NAS saying:
+I woke-up to find an email from my NAS saying:
 
 #+BEGIN_QUOTE
 Dear user,

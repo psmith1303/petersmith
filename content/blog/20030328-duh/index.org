@@ -1,7 +1,8 @@
 #+title: Duh!
 #+date: 2003-03-28T11:51:00+12:00
 #+lastmod: 2003-03-28T11:51:00+12:00
-#+categories[]: Psychodrama
+#+categories[]: Home
+#+tags[]: Psychodrama Moreno
 #+slug: duh
 #+draft: False
 

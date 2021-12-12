@@ -1,7 +1,8 @@
 #+title: Pesky ^M
 #+date: 2003-03-22T18:33:00+12:00
 #+lastmod: 2003-03-22T18:33:00+12:00
-#+categories[]: IT
+#+categories[]: Tech
+#+tags[]: Perl FreeBSD
 #+slug: pesky-m
 #+draft: False
 

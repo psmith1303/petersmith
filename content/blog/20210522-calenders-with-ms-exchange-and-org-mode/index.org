@@ -1,7 +1,11 @@
-#+title: Calendars with MS Exchange and Org Mode
+#+title: Calendars with MS Exchange and Orgmode
+#+slug: calendars-with-ms-exchange-and-orgmode
 #+subtitle: Across the great divide
-#+date: <2021-05-22 Sat>
-#+categories[]: technology
+#+date: 2021-05-22T11:29:00+13:00
+#+lastmod: 2021-05-22T11:29:00+13:00
+#+categories[]: Tech
+#+tags[]: Exchange Emacs Orgmode
+#+draft: False
 
 * The problem
 

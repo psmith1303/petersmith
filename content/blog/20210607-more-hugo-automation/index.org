@@ -1,7 +1,10 @@
 #+title: More Hugo automation
-#+slug:  more-hugo-automation
-#+date:  <2021-06-07 Mon 16:48>
-#+categories[]: technology
+#+slug: more-hugo-automation
+#+date: 2021-06-07T16:48:40+13:00
+#+lastmod: 2021-06-07T16:48:40+13:00
+#+categories[]: Tech
+#+tags[]: Netlify Emacs Github
+#+draft: False
 
 I publish my blog via [[https://github.com]] and [[https://app.netlify.com/][Netlify]]. I've been using [[https://magit.vc/][Magit]] to do the heavy lifting of getting my stuff off my PC and onto github. But it's a bit tidious. I really want one command to do it all.
 

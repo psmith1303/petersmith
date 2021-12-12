@@ -1,7 +1,8 @@
 #+title: My Unsolicited Commercial Email (UCE or spam) Policy
 #+date: 2003-02-18T13:43:00+12:00
-#+categories[]: Jottings
 #+lastmod: 2003-02-18T13:43:00+12:00
+#+categories[]: Tech
+#+tags[]: Spam
 #+slug: my-unsolicited-commercial-email-uce-or-spam-policy
 #+draft: False
 

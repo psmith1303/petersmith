@@ -1,0 +1,25 @@
+#+title: Of tags and categories
+#+date: 2021-12-12T13:14:35+13:00
+#+lastmod: 2021-12-12T13:14:51+13:00
+#+categories[]: Tech
+#+tags[]: Blogging Hugo Markdown Orgmode
+#+draft: False
+
+I am changing how I use tags and categories in ~Hugo~.
+
+I have to main type of content, my journal entries and my blog entries. Generally, my journal entries are about University life, especially teaching and research, whereas my blog entries are about everything else. So, I have decided that my main categories for each should be:
+
+- Journal
+  - Research
+  - Teaching
+  - Service
+- Blog
+  - Home
+  - Travel
+  - Tech
+  - Arts - the more cultured side of life; movies, theatre, books
+  - Work - work things that aren't fit for my journal
+
+And then I will use tags for a more fine-grained, /ad-hoc/ topics within those categories.
+
+Now I just need to rework all my posts to reflect that. But, I was going through them anyway, as I continues to move from using Markdown to Orgmode for my posts.

@@ -1,7 +1,8 @@
 #+title: Textile
 #+date: 2004-03-08T20:41:00+12:00
 #+lastmod: 2004-03-08T20:41:00+12:00
-#+categories[]: Jottings
+#+categories[]: Tech
+#+tags[]: Textile PHP Website Blogging
 #+slug: textile
 #+draft: False
 

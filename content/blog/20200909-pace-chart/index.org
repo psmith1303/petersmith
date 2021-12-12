@@ -1,8 +1,10 @@
 #+title: Pace chart
 #+slug: pace-chart
+#+date: 2020-09-09T14:01:00+13:00
+#+lastmod: 2020-09-09T14:01:00+13:00
+#+categories[]: Home
+#+tags[]: Running
 #+draft: false
-#+date: <2020-09-09 Wed 14:01>
-#+categories[]: running
 
 
 * A quick and easy pace chart

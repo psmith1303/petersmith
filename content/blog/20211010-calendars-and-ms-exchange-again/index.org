@@ -1,7 +1,9 @@
 #+title: Calendars and MS Exchange, again
 #+slug:  calendars-and-ms-exchange-again
 #+date:  2021-10-07T17:30:15+13:00
-#+categories[]: technology
+#+categories[]: Tech
+#+tags[]: Exchange Emacs Orgmode
+#+draft: False
 
 My process broke!
 

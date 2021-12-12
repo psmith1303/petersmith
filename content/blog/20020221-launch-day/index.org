@@ -1,7 +1,7 @@
 #+title: Launch Day
 #+date: 2002-02-21T15:34:00+12:00
 #+lastmod: 2021-10-25T14:12:24+13:00
-#+categories[]: IT
+#+categories[]: Tech
 #+tags[]: Zope
 #+slug: launch-day
 #+draft: False

@@ -1,7 +1,11 @@
-#+title: Modus Operandi
+D:       c44ae6d2-e12d-4ec2-97cb-9f96079684da
+:END:#+title: Modus Operandi
 #+subtitle: A new theme
-#+date: <2020-09-19 Sat>
-#+categories[]: blogging
+#+slug: modus-operandi
+#+date: <2020-09-19T12:00:00+13:00>
+#+categories[]: Tech
+#+tags[]: Blogging Emacs Orgmode
+#+draft: False
 
 * Tweaking Emacs and Org-mode
 

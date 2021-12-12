@@ -1,7 +1,8 @@
 #+title: A new office
 #+date: 2002-02-25T15:19:00+12:00
 #+lastmod: 2002-02-25T15:19:00+12:00
-#+categories[]: Jottings
+#+categories[]: Research Teaching
+#+tags[]: Takapuna
 #+slug: a-new-office
 #+draft: False
 

@@ -1,8 +1,8 @@
 #+title: Sunday, Sunday
 #+date: 2002-02-24T15:28:00+12:00
 #+lastmod: 2002-02-24T15:28:00+12:00
-#+categories[]: Productivity
-#+tags[]: Pilot
+#+categories[]: Tech
+#+tags[]: Pilot Productivity
 #+slug: sunday-sunday
 #+draft: False
 

@@ -3,8 +3,8 @@
 #+author: Peter Smith
 #+date: 2021-10-15T12:58:22+13:00
 #+lastmod: 2021-10-24T11:27:21+13:00
-#+categories[]: technology
-#+tags[]: typography emacs
+#+categories[]: Tech
+#+tags[]: Typography Emacs
 #+draft: false
 
 I seem to be typing more words and expressions in Māori nowadays. That sees me wanting to use macrons on letters. (i.e., ā Ā ē Ē ī Ī ō Ō ū Ū).

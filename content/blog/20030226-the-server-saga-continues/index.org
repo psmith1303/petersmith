@@ -1,7 +1,8 @@
 #+title: The server saga continues
 #+date: 2003-02-26T19:04:00+12:00
 #+lastmod: 2003-02-26T19:04:00+12:00
-#+categories[]: IT
+#+categories[]: Tech
+#+tags[]: Server
 #+slug: the-server-saga-continues
 #+draft: False
 

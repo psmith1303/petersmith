@@ -1,7 +1,7 @@
 #+title: Setting up the site
 #+date: 2002-02-20T15:38:00+12:00
 #+lastmod: 2002-02-20T15:38:00+12:00
-#+categories[]: IT
+#+categories[]: Tech
 #+tags[]: Zope
 #+slug: setting-up-the-site
 #+draft: false

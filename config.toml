@@ -88,20 +88,17 @@ footnoteReturnLinkContents = '↩'
   post = "<i class='fab fa-orcid'></i>"
   weight = 5
 [[menu.indieweb]]
-  name = "LinkedIn"
-  url = "https://linkedin.com/in/peter-smith-00b7891b5"
-  post = "<i class='fab fa-linkedin'></i>"
+  name = "SSRN"
+  url = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=657683"
+  post = "<img src='/images/ssrn.svg' alt='SSRN logo' style='display:inline-block; height:1.5em; top:0.2em; position:relative;' class='fab'>"
   weight = 10
 [[menu.indieweb]]
-  name = "Twitter"
-  url = "https://twitter.com/JustAnotherCog"
-  post = "<i class='fab fa-twitter'></i>"
-  weight = 15
 [[menu.indieweb]]
   name = "Github"
   url = "https://github.com/psmith1303"
   post = "<i class='fab fa-github'></i>"
-  weight = 20
+  weight = 90
+
 
 
 

@@ -1,7 +1,8 @@
 #+title: Fitness Assessment
 #+date: 2002-12-19T17:25:00+12:00
 #+lastmod: 2002-12-19T17:25:00+12:00
-#+categories[]: Fitness
+#+categories[]: Home
+#+tags[]: Fitness
 #+slug: fitness-assessment
 #+draft: False
 

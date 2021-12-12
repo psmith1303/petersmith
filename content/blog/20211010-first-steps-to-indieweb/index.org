@@ -2,8 +2,9 @@
 #+slug:  first-steps-to-indieweb
 #+date:  2021-10-07T16:48:36+13:00
 #+lastmod: 2021-10-14T21:21:21+43:00
-#+categories[]: technology blogging
-
+#+categories[]: Tech
+#+tags[]: Indieweb Hugo Webmention
+#+draft: false
 
 I stumbled across [[https://aaronparecki.com/ ][Aaron Parecki's]] website, and it got me thinking about [[https://indieweb.org/][Indieweb]] and how I might implement it.
 

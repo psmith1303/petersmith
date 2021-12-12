@@ -1,7 +1,10 @@
 #+title: A refresh
-#+subtitle: Back topaper
+#+subtitle: Back to paper
+#+slug: a-refresh
 #+date: 2020-09-06
-#+categories[]: blogging
+#+categories[]: Tech
+#+tags[]: Blogging Emacs Hugo
+#+draf[]: False
 
 * It's time to redecorate
 

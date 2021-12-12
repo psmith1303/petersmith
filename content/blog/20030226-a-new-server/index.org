@@ -1,7 +1,8 @@
 #+title: A new server
 #+date: 2003-02-26T11:36:00+12:00
 #+lastmod: 2003-02-26T11:36:00+12:00
-#+categories[]: IT
+#+categories[]: Tech
+#+tags[]: Server
 #+slug: a-new-server
 #+draft: False
 

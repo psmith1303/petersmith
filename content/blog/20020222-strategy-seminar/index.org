@@ -1,8 +1,8 @@
 #+title: Strategy seminar
 #+date: 2002-02-22T15:32:00+12:00
 #+lastmod: 2021-10-25T16:38:23+13:00
-#+categories[]: Research Technology
-#+tags[]: PalmPilot MikesBikes
+#+categories[]: Research
+#+tags[]: PalmPilot MikesBikes PhD
 #+lastmod: 2002-02-22T15:32:00+12:00
 #+slug: strategy-seminar
 #+draft: False
