@@ -10,7 +10,7 @@ Some files (often created under [[https://www.microsoft.com][DOS/Windoze]]) have
 
 To remove the ^M for a directory of files you can use the following script:
 
-~perl ---pi ---e "s/r//g"~
+~perl -pi -e "s/r//g"~
 
 It works a treat.
 

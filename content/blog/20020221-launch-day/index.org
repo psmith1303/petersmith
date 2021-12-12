@@ -1,9 +1,9 @@
 #+title: Launch Day
+#+slug: launch-day
 #+date: 2002-02-21T15:34:00+12:00
 #+lastmod: 2021-10-25T14:12:24+13:00
 #+categories[]: Tech
 #+tags[]: Zope
-#+slug: launch-day
 #+draft: False
 
 So, at last, I have a working web log. Most of the [[https://www.frogware.com/weblog/archives/articles/weblogHowTo.html][code]] to get this working came from [[https://www.frogware.com/][Frogware]].

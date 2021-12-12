@@ -5,7 +5,7 @@
 #+lastmod: 2021-10-24T11:27:21+13:00
 #+categories[]: Tech
 #+tags[]: Typography Emacs
-#+draft: false
+#+draft: False
 
 I seem to be typing more words and expressions in Māori nowadays. That sees me wanting to use macrons on letters. (i.e., ā Ā ē Ē ī Ī ō Ō ū Ū).
 

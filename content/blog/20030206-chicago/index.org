@@ -1,7 +1,7 @@
 #+title: Chicago
 #+date: 2003-02-06T17:52:00+12:00
 #+lastmod: 2003-02-06T17:52:00+12:00
-#+categories[]: The Arts
+#+categories[]: Arts
 #+tags[]: Movies
 #+slug: chicago
 #+draft: False

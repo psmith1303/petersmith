@@ -3,7 +3,7 @@
 #+date: 2002-04-17T15:14:00+12:00
 #+lastmod: 2002-04-17T15:14:00+12:00
 #+categories[]: Arts
-#+tags[]: Theatre 
+#+tags[]: Theatre
 #+draft: False
 
 We went to see The Hollow Crown at the [[https://www.the-edge.co.nz/venues/centre.htm][Aotea Centre]]. It is an production by the [[https://www.rsc.org.uk/][Royal Shakespeare Company]]. It was wonderful.
