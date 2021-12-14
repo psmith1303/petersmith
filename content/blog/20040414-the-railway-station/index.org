@@ -8,7 +8,8 @@
 
 Did you know you can have photos in your blog? It is pretty easy. Just choose "Upload file" from the main menu (that is is, if you have a blog here).
 
-[[file:Railway-thumb.jpg]]
+{{< img src="Railway-thumb.jpg" title="The dome at Auckland Downtown railway station" >}}
+
 
 We went and had a look at the new railway station in downtown Auckland.  As we were wandering through the building I was struck by the beautiful windows. Click on the image for the full size picture.  The "window' is actually a glass dome in the ceiling.
 

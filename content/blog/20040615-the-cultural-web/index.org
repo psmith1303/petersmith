@@ -8,8 +8,8 @@
 
 I was talking [[https://staff.business.auckland.ac.nz/rwolfgramm][Rachel]] about some of the work she has been doing with regards to strategy in Maori organisations. We digressed on to Johnson's (1992) and since neither of us had a slide on it, I quickly made this copy using PowerPoint (it looks much better full-size; just click on the image). In analysing any organisation, understanding what is going on inside it is important---and the cultural web helps with just that. I think it is one of Gerry's most practical contributions to strategy.
 
-#+CAPTION: The cultural web
-[[file:CulturalWeb.png]]
+{{< img src="CulturalWeb.png" title="The cultural web" >}}
+
 
 ** References
 
