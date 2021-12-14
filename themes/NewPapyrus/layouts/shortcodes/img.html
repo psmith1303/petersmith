@@ -1,12 +1,8 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src" )}}
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+{{ $alt   := .Get "alt" }}
 <figure>
-  <img src="{{ $img.RelPermalink }}" alt="{{ (.Get 1) }} " />
-  <figcaption><h4>{{ (.Get "alt") }}</h4></figcaption>
-  {{- if ($img.Title) -}}
-    <figcaption>
-      {{ with ($img.Title) -}}
-        <h4>{{ . }}</h4>
-      {{- end -}}
-    </figcaption>
-  {{- end }}
+  <img src="{{ $img.RelPermalink }}" alt="{{ $alt }} class="{{ $class }}" />
+  <figcaption><h4>{{ $title }}</h4></figcaption>
 </figure>

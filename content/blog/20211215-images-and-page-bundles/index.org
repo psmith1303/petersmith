@@ -1,0 +1,35 @@
+#+title: Images and page bundles
+#+date: 2021-12-15T07:13:17+13:00
+#+lastmod: 2021-12-15T07:13:22+13:00
+#+categories[]: Tech
+#+tags[]: Hugo Markdown Orgmode
+#+draft: False
+
+I use a feature of [[https://gohugo.io/][Hugo]] called [[https://gohugo.io/content-management/page-bundles/][page bundles]].
+
+With pages bundles, resources such as images are kept in the same directory as the content of a post. This keeps things a little more simple, but it does mean that OrgMode's linking system is broken.
+
+Until now, to include an image I've been using a [[https://gohugo.io/templates/shortcode-templates/][shortcode]] such as this:
+
+
+#+BEGIN_SRC
+{{< img src="AaronParecki-Sparklines.png" title="Screenshot of sparklines from Aaron Parecki's website" >}}
+#+END_SRC
+
+Which calls ~themes/NewPapyrus/layouts/shortcodes/img.html~
+
+#+BEGIN_SRC hugo
+
+{{ $img := $.Page.Resources.GetMatch (.Get "src" )}}
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+{{ $alt   := .Get "alt" }}
+<figure>
+  <img src="{{ $img.RelPermalink }}" alt="{{ $alt }} class="{{ $class }}" />
+  <figcaption><h4>{{ $title }}</h4></figcaption>
+</figure>
+
+#+END_SRC
+
+That does the job.
+ 
