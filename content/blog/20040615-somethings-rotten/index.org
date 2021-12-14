@@ -1,22 +1,19 @@
-+++
-title = "Something's rotten"
-date = "2004-06-15T12:08:00+12:00"
-categories = ["IT"]
-slug = "somethings-rotten"
-draft = "False"
-+++
+#+title: Something's rotten
+#+date: 2004-06-15T12:08:00+12:00
+#+lastmod: 2004-06-15T12:08:00+12:00
+#+categories[]: Tech
+#+tags[]: Firefox IE
+#+slug: somethings-rotten
+#+draft: False
+
 I've noticed that when I quote something, by using block-quotes, e.g.
 
-> block quotes
+#+BEGIN_QUOTE
+  block quotes
+#+END_QUOTE
 
----That the subsequent paragraphs don't display correctly under Internet
-Explorer-. They are fine with [Firefox](https://www.mozilla.org/). I suppose I
-should look into at some stage. Alas, the only time I have is at home, and
-their I don't use Microsoft... So it might have to wait until the next time I
-work during the weekend (which should be a long time away).  
+the subsequent paragraphs don't display correctly under Internet Explorer-. They are fine with [[https://www.mozilla.org/][Firefox]]. I suppose I should look into at some stage. Alas, the only time I have is at home, and their I don't use Microsoft... So it might have to wait until the next time I work during the weekend (which should be a long time away).
 
-_I've fixed it_.
+/I've fixed it/.
 
-Alas, Internet Explorer doesn't handle having a left border and no right border
-well. Removing the borders and colouring the blockquote gets around the
-problem. I found this by accident.
+Alas, Internet Explorer doesn't handle having a left border and no right border well. Removing the borders and colouring the blockquote gets around the problem. I found this by accident.
