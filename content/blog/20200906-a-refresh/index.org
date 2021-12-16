@@ -2,6 +2,7 @@
 #+subtitle: Back to paper
 #+slug: a-refresh
 #+date: 2020-09-06T12:00:00+13:00
+#+lastmod: 2020-09-06T12:00:00+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Emacs Hugo
 #+draf[]: False

@@ -1,5 +1,6 @@
 #+title: About work
 #+date: 2004-04-09T15:53:00+12:00
+#+lastmod: 2004-04-09T15:53:00+12:00
 #+categories[]: Home
 #+tags[]: Friday_fives
 #+slug: about-work

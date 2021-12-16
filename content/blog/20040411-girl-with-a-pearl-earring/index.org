@@ -2,7 +2,7 @@
 #+date: 2004-04-11T22:52:00+12:00
 #+lastmod: 2004-04-11T22:52:00+12:00
 #+categories[]: Arts
-#+tags: Movies
+#+tags[]: Movies
 #+slug: girl-with-a-pearl-earring
 #+draft: False
 

@@ -2,7 +2,7 @@
 #+date: 2004-05-08T15:14:00+12:00
 #+lastmod: 2004-05-08T15:14:00+12:00
 #+categories[]: Home
-#+tags[]: Friday fives
+#+tags[]: Friday_fives
 #+slug: the-end-of-an-era
 #+draft: False
 

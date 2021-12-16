@@ -4,7 +4,8 @@
 #+categories[]: Research
 #+slug: transcription-symbols-used-in-conversation-analysis
 #+draft: False
-#+aliases[]: /blog/2008/09/08/transcription-symbols-used-in-conversation-analysis/index.html
+#+aliases[]: /blog/2008/09/08/transcription-symbols-used-in-conversation-analysis/index.html 
+#+tags[]: Methods
 
 | Symbol     | Meaning                                                                |
 |------------+------------------------------------------------------------------------|
