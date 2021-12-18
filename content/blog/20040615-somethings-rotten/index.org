@@ -9,7 +9,9 @@
 I've noticed that when I quote something, by using block-quotes, e.g.
 
 #+BEGIN_QUOTE
-  block quotes
+
+block quotes
+
 #+END_QUOTE
 
 the subsequent paragraphs don't display correctly under Internet Explorer-. They are fine with [[https://www.mozilla.org/][Firefox]]. I suppose I should look into at some stage. Alas, the only time I have is at home, and their I don't use Microsoft... So it might have to wait until the next time I work during the weekend (which should be a long time away).

@@ -3,16 +3,16 @@
   <h2>{{ humanize .Data.Plural }} by usage</h2>
   {{ $data := .Data }}
   <ul class="categories">
-    {{ range $key,$value := .Data.Index.ByCount }} 
-    <li><a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>
+    {{ range .Data.Terms.ByCount }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
     {{ end }}
   </ul>
 
   <h2>{{ humanize .Data.Plural }} alphabetically</h2>
   {{ $data := .Data }}
   <ul class="categories">
-    {{ range $key,$value := .Data.Index.Alphabetical }} 
-    <li><a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>
+    {{ range .Data.Terms.Alphabetical }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
     {{ end }}
   </ul>
 </article>

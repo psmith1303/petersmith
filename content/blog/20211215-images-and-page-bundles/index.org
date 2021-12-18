@@ -15,7 +15,7 @@ Until now, to include an image I've been using a [[https://gohugo.io/templates/s
 #+BEGIN_SRC go
 { {< img src="AaronParecki-Sparklines.png"
    title="Screenshot of sparklines from Aaron Parecki"
-   width="50%" />}}
+   width="50%" >}}
 #+END_SRC
 
 Which calls ~themes/NewPapyrus/layouts/shortcodes/img.html~

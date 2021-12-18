@@ -1,16 +1,11 @@
-+++
-title = "Web sites and Google"
-date = "2004-07-17T13:22:00+12:00"
-categories = ["IT"]
-slug = "web-sites-and-google"
-draft = "False"
-+++
-[Google](https://www.google.com/) still isn't
-crawling the site (much). I think part of the problem is that there are very
-few sites which link to this one. Besides [The
-Woolseys](https://thewoolseys.com/) and
-[Consulting](https://consulting.co.nz/), I can't find many sites that link
-here.
+#+title: Web sites and Google
+#+date: 2004-07-17T13:22:00+12:00
+#+lastmod: 2004-07-17T13:22:00+12:00
+#+categories[]: Tech
+#+tags[]: Google
+#+slug: web-sites-and-google
+#+draft: False
+
+[[https://www.google.com/][Google]] still isn't crawling the site (much). I think part of the problem is that there are very few sites which link to this one. Besides [[https://thewoolseys.com/][The Woolseys]] and [[https://consulting.co.nz/][Consulting]], I can't find many sites that link here.
 
 Oh well. I expect time will take care of that problem.
-

@@ -1,27 +1,18 @@
-+++
-title = "The git go"
-date = 2018-08-23T09:32:30+12:00
-draft = "False"
-categories = [ 
-	"Productivity", 
-	"IT", 
-	"Technology"
-	]
-+++
-I use `git` a bit. 
+#+title: The git go
+#+date: 2018-08-23T09:32:30+12:00
+#+lastmod: 2018-08-23T09:32:30+12:00
+#+categories[]: Tech
+#+tags[]: Productivity Git Netlify
+#+draft: False
 
-My main use is around pushing stuff to either
-[Github](https://github.com) or to [Bitbucket](https://bitbucket.com);
-either as an intermediary for publishing stuff via
-[Netliy](https://netlify.com) or because I'm actually sharing stuff/code with other folk.
+I use =git= a bit.
+
+My main use is around pushing stuff to either [[https://github.com][Github]] or to [[https://bitbucket.com][Bitbucket]]; either as an intermediary for publishing stuff via [[https://netlify.com][Netliy]] or because I'm actually sharing stuff/code with other folk.
 
 And I use poorly.
 
-So I was really pleased to come across this diagram from [Oliver
-Steele](https://blog.osteele.com/2008/05/my-git-workflow/) which made
-things much clearer to me.
+So I was really pleased to come across this diagram from [[https://blog.osteele.com/2008/05/my-git-workflow/][Oliver Steele]] which made things much clearer to me.
 
-![The git transport mechanism](/images/git-transport.png)
-
+{{< img src="git-transport.png" title="The git transport mechanism" >}}
 
 And now back to work.

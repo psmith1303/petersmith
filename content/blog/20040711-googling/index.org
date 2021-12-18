@@ -1,34 +1,24 @@
-+++
-title = "Googling"
-date = "2004-07-11T12:30:00+12:00"
-categories = ["IT"]
-slug = "googling"
-draft = "False"
-+++
-I see that [Amit](https://www.thereflectivepractitioner.org/armi/) has
-an
-[interesting](https://www.thereflectivepractitioner.org/armi/archives/000383.html)
-comment on Google. He says that:
+#+title: Googling
+#+date: 2004-07-11T12:30:00+12:00
+#+categories[]: Tech
+#+tags[]: Blogging
+#+slug: googling
+#+draft: False
 
-> Key words "armi reflective" appears number two in Google
-amazing, "reflective practitioner" comes up about 6th ... amazing!
-I'm a little surprise as I've been having problems getting google
-to trawl the site correctly. Although Google comes to
-<https://www.thereflectivepractitioner.org/>
-every day or so, it never crawls through the whole web site. It just
-reads the
-[robots.txt](https://www.thereflectivepractitioner.org/robots.txt) file
-and the main index of [The
-reflectivepractitioner](https://www.thereflectivepractitioner.org/) and
-then stops. I can't figure out what's going-on.
+I see that [[https://www.thereflectivepractitioner.org/armi/][Amit]] has an [[https://www.thereflectivepractitioner.org/armi/archives/000383.html][interesting]] comment on Google. He says that:
 
-The [robot exclusion file](https://www.robotstxt.org/wc/exclusion.html),
-that is to say
-[robots.txt](https://www.thereflectivepractitioner.org/robots.txt),
-shouldn't stop it crawling. The meta data in the index.html page, i.e.
+#+BEGIN_QUOTE
 
-    <meta name="robots" content="index,follow,noarchive" \> 
-    
-shouldn't stop it---so what's happening? I emailed the folks at Google and got
-a very general reply back. I should try emailing them again. In the meantime,
-if anyone has an idea why the site isn't being crawled---please let me know.
+Key words "armi reflective" appears number two in Google amazing, "reflective practitioner" comes up about 6th ... amazing! I'm a little surprise as I've been having problems getting google to trawl the site correctly. Although Google comes to [[https://www.thereflectivepractitioner.org/]] every day or so, it never crawls through the whole web site. It just reads the [[https://www.thereflectivepractitioner.org/robots.txt][robots.txt]] file and the main index of [[https://www.thereflectivepractitioner.org/][The reflectivepractitioner]] and then stops. I can't figure out what's going-on.
+
+#+END_QUOTE
+
+The [[https://www.robotstxt.org/wc/exclusion.html][robot exclusion file]], that is to say [[https://www.thereflectivepractitioner.org/robots.txt][robots.txt]], shouldn't stop it crawling. The meta data in the index.html page, i.e.
+
+#+BEGIN_EXAMPLE
+
+<meta name="robots" content="index,follow,noarchive" \> 
+
+#+END_EXAMPLE
+
+shouldn't stop it---so what's happening? I emailed the folks at Google and got a very general reply back. I should try emailing them again. In the meantime, if anyone has an idea why the site isn't being crawled---please let me know.
