@@ -66,7 +66,7 @@ All of the studies of work situations made by sociometrists have revealed that l
 
 The resultant data from sociometric tests is frequently presented by a sociogram. A sociogram is basically a chart which indicates the social relationships that exist within a group. For example, if a group of eight persons was asked to name a group member that would make the best supervisor, the following pattern might result:[fn:10]
 
-![A sociogram](/images/sociogram.jpg)
+{{< img src="sociogram.jpg" title="A sociogram" >}}
 
 In interpreting this sociogram, 'H' would be the star of the functional leader of the group, since he was selected the greatest number of times. The solid lines indicate mutual selections, and the dotted lines indicate one-way choices. 'F' would be considered an isolate since he selected no on in the group and, in turn, no one selected him.
 

@@ -16,10 +16,10 @@ My next option was to look at raising an issue on [[https://github.com/rstudio/b
 
 So, in the YAML header of my book I added:
 
-#+BEGIN_SRC yaml
+#+BEGIN_SRC sh
 
 csl: apa.csl
 
-#+END_EXAMPLE
+#+END_SRC
 
 After placing a copy of apa.cls in the working directory of my book, all it took was a quick, build and deploy and my citations were beautifully styled as per APA.

@@ -72,41 +72,41 @@ Healy.
 
   %.html: %.md
   pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -w html -S \
-         --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
-         --data-dir=$(PREFIX)/pandoc \
-         --template=$(PREFIX)/templates/html.template \
-         --css=$(PREFIX)/marked/kultiad-serif.css \
-         --csl=$(PREFIX)/csl/$(CSL).csl \
-         --bibliography=$(BIB) \
-         -o $@ $<
+     --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
+     --data-dir=$(PREFIX)/pandoc \
+     --template=$(PREFIX)/templates/html.template \
+     --css=$(PREFIX)/marked/kultiad-serif.css \
+     --csl=$(PREFIX)/csl/$(CSL).csl \
+     --bibliography=$(BIB) \
+     -o $@ $<
 
   %.tex:  %.md
   pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -w latex -s -S \
-         --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
-         --data-dir=$(PREFIX)/pandoc \
-         --latex-engine=pdflatex \
-         --template=$(PREFIX)/templates/psmith_apa.tex \
-         --csl=$(PREFIX)/csl/$(CSL).csl \
-         --bibliography=$(BIB) \
-         -o $@ $<
+     --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
+     --data-dir=$(PREFIX)/pandoc \
+     --latex-engine=pdflatex \
+     --template=$(PREFIX)/templates/psmith_apa.tex \
+     --csl=$(PREFIX)/csl/$(CSL).csl \
+     --bibliography=$(BIB) \
+     -o $@ $<
 
 
   %.pdf:  %.md
   pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S \
-         --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
-         --data-dir=$(PREFIX)/pandoc \
-         --latex-engine=pdflatex \
-         --template=$(PREFIX)/templates/psmith_apa.tex \
-         --csl=$(PREFIX)/csl/$(CSL).csl \
-         --bibliography=$(BIB) -o $@ $<
+     --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble \
+     --data-dir=$(PREFIX)/pandoc \
+     --latex-engine=pdflatex \
+     --template=$(PREFIX)/templates/psmith_apa.tex \
+     --csl=$(PREFIX)/csl/$(CSL).csl \
+     --bibliography=$(BIB) -o $@ $<
 
   %.docx: %.md
   pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S \
-         --filter pandoc-crossref --filter pandoc-citeproc \
-         --data-dir=$(PREFIX)/pandoc \
-         --csl=$(PREFIX)/csl/$(CSL).csl \
-         --bibliography=$(BIB) \
-         -o $@ $<
+     --filter pandoc-crossref --filter pandoc-citeproc \
+     --data-dir=$(PREFIX)/pandoc \
+     --csl=$(PREFIX)/csl/$(CSL).csl \
+     --bibliography=$(BIB) \
+     -o $@ $<
 
   clean:
   rm -f *.html *.pdf *.tex *.aux *.log *.docx
@@ -124,7 +124,7 @@ For PDFs, I wanter the documents to be fairly apa-ish. I could not find a templa
   % Address a 'feature' of pandoc.
   %
   \providecommand{\tightlist}{%
-    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
   \documentclass[11pt,a4paper,doc]{apa6}
 
@@ -256,8 +256,8 @@ For PDFs, I wanter the documents to be fairly apa-ish. I could not find a templa
   % -- Redefine labelwidth for lists; otherwise, the enumerate package will cause
   % -- markers to extend beyond the left margin.
   \makeatletter\AtBeginDocument{%
-    \renewcommand{\@listi}
-      {\setlength{\labelwidth}{4em}}
+\renewcommand{\@listi}
+  {\setlength{\labelwidth}{4em}}
   }\makeatother
   \usepackage{enumerate}
   $endif$
@@ -477,174 +477,174 @@ For PDFs, I wanter the documents to be fairly apa-ish. I could not find a templa
 It does a pretty good job (for now). I have not tried inserting images and tables yet, but---for now---it is good enough. Just to compelte things, here is a sample markdown file.
 
 #+BEGIN_EXAMPLE
-    ---
-    title: "Notes on BUSINESS 705"
-    shorttitle: "DRAFT notes for 705"
-    author:
-      Peter Smith
-    affiliation:
-      The University of Auckland
-    twogroups: false             # authors span two universities, other fields: threegroups, ..., sixgroups
-    date: November 2017
-    keywords:                    # enter as many keywords as needed
-        - qualitative research
-        - research design
-        - data collection
-        - data analysus
-    abstract: |                  # abstracts are multiline text (optional)
-        This year, BUSINESS 705, is being redesigned with a view to being delivered in six weeks. It will fit between the Reseaerch Design course (BUSINESS 705), and the Advanced Qualitative Methods course (BUSINESS 7xx). This document records the design decisions  and constraints.
-    authornote: |                # author notes are multiline text (optional)
-        Correspondence: Peter Smith, Department of Management & International Business, The University of Auckland Business School, Private Bag 92019
+---
+title: "Notes on BUSINESS 705"
+shorttitle: "DRAFT notes for 705"
+author:
+  Peter Smith
+affiliation:
+  The University of Auckland
+twogroups: false             # authors span two universities, other fields: threegroups, ..., sixgroups
+date: November 2017
+keywords:                    # enter as many keywords as needed
+    - qualitative research
+    - research design
+    - data collection
+    - data analysus
+abstract: |                  # abstracts are multiline text (optional)
+    This year, BUSINESS 705, is being redesigned with a view to being delivered in six weeks. It will fit between the Reseaerch Design course (BUSINESS 705), and the Advanced Qualitative Methods course (BUSINESS 7xx). This document records the design decisions  and constraints.
+authornote: |                # author notes are multiline text (optional)
+    Correspondence: Peter Smith, Department of Management & International Business, The University of Auckland Business School, Private Bag 92019
 
-        Email: p.smith@auckland.ac.nz
-    ...
+    Email: p.smith@auckland.ac.nz
+...
 
-    # Introduction
-    The structure of research methods education in the department has changed. For those pursuing qualitative methods, the pathway comprises *Research design*, *Qualitative methods*, and---for PhD candidates--*Advanced qualitative methods*. That is to say, BUSINESS 710, BUSINESS 705, and BUSINESS 712.
+# Introduction
+The structure of research methods education in the department has changed. For those pursuing qualitative methods, the pathway comprises *Research design*, *Qualitative methods*, and---for PhD candidates--*Advanced qualitative methods*. That is to say, BUSINESS 710, BUSINESS 705, and BUSINESS 712.
 
-    According to its prescription, BUSINESS 710 seeks to:
+According to its prescription, BUSINESS 710 seeks to:
 
-    > The pursuit of new knowledge requires the ability to recognise and design appropriate and robust research studies. Students explore the principles and practices of research design, including the fundamentals of where knowledge comes from; if and to what degree we can be certain about our findings; the ethics of research activities; and how a topic might be investigated from multiple approaches and philosophical perspectives.
+> The pursuit of new knowledge requires the ability to recognise and design appropriate and robust research studies. Students explore the principles and practices of research design, including the fundamentals of where knowledge comes from; if and to what degree we can be certain about our findings; the ethics of research activities; and how a topic might be investigated from multiple approaches and philosophical perspectives.
 
-    Whereas the focus of BUSINESS 712 is more succinct, in that its prescription says:
+Whereas the focus of BUSINESS 712 is more succinct, in that its prescription says:
 
-    >  An advanced seminar on recent developments in the application of qualitative methods in business research.
+>  An advanced seminar on recent developments in the application of qualitative methods in business research.
 
-    Sitting between these two courses is the more prescriptive BUSINESS
-    705, in which:
+Sitting between these two courses is the more prescriptive BUSINESS
+705, in which:
 
-    > Students will become familiar with current theory and practice as
-    > well as methodological debates in the use of qualitative
-    > methodologies, including ethnography, case studies, archival
-    > research, participant observation, interview and focus group
-    > methods, as well as transcription and analysis. A workshop on coding
-    > qualitative data will be included.
+> Students will become familiar with current theory and practice as
+> well as methodological debates in the use of qualitative
+> methodologies, including ethnography, case studies, archival
+> research, participant observation, interview and focus group
+> methods, as well as transcription and analysis. A workshop on coding
+> qualitative data will be included.
 
-    All three courses, whilst being worth the usual 15-points, are
-    delivered in a compress format, taking six weeks instead of the normal
-    12 weeks. One implication of this change is that it may not be
-    possible, even if it is desirable, to use an examination at the end of
-    the course(s).
+All three courses, whilst being worth the usual 15-points, are
+delivered in a compress format, taking six weeks instead of the normal
+12 weeks. One implication of this change is that it may not be
+possible, even if it is desirable, to use an examination at the end of
+the course(s).
 
-    # The existing BUSINESS 705
-    The prescription for BUSINESS 705 matches closely the existing current
-    structure and content of the course. The week-by-week programme for
-    the course---as shown in the syllabus for last year's delivery of the
-    course--illustrates this.
+# The existing BUSINESS 705
+The prescription for BUSINESS 705 matches closely the existing current
+structure and content of the course. The week-by-week programme for
+the course---as shown in the syllabus for last year's delivery of the
+course--illustrates this.
 
-    1. Introduction to qualitative methods
-    2. Paradigms
-    3. Grounded theory
-    4. Case study
-    5. Ethnography
-    6. Discourse analysis
-    7. Interviews
-    8. Focus groups
-    9. Observations
-    10. Visual methods
-    11. Working on group presentations
-    12. Group presentations
+1. Introduction to qualitative methods
+2. Paradigms
+3. Grounded theory
+4. Case study
+5. Ethnography
+6. Discourse analysis
+7. Interviews
+8. Focus groups
+9. Observations
+10. Visual methods
+11. Working on group presentations
+12. Group presentations
 
-    The course was assessed through (a) a critique of a paper, (b) a
-    research paper, (c) group presentation, and (d) participation. Each of
-    these were worth 20, 45, 20, and 15 per cent respectively.
+The course was assessed through (a) a critique of a paper, (b) a
+research paper, (c) group presentation, and (d) participation. Each of
+these were worth 20, 45, 20, and 15 per cent respectively.
 
-    In contrast the doctoral research methods course at HEC Montreal is structured as:
+In contrast the doctoral research methods course at HEC Montreal is structured as:
 
-    1. Introduction
-    2. Formulating research questions
-    3. Paradigms and practices of qualitative research
-    4. Justifying your research
-    5. Designing qualitative research
-    6. Observations
-    7. Interviews
-    8. Documents
-    9. Analysis aids
-    10. Strategies for analysis
-    11. Quality criteria and triangulation
-
-
-    # Course structure
-    An implicit goal of this course is the goal of preparing students to
-    undertake their first (and perhaps only) research project of any size;
-    e.g., a masters thesis (60-point) or perhaps an honours level
-    dissertation (30-point).
-
-    ## Content
-    The current prescription may not be appropriate. Perhaps a more
-    strongly themed approach would be useful, grounded in approaches to:
-
-    1. The 'qualitative' mindset
-       - Paradigms
-    1. Designing qualitative research
-       - Formulating a research question
-       - Justifying a research questions
-       - Ethics
-       - Gaining access
-       - Quality in qualitative research
-       - Units and levels of analysis
-       - Case studies
-    1. Collecting qualitative data
-       - Using documents
-       - Surveys
-       - Interviews
-       - Focus groups
-       - Visual methods
-       - Repertory grids
-       - Observations
-       - Ethnography
-    1. Analysing qualitative data
-       - Content analysis
-       - Thematic analysis
-       - Grounded theory
-       - Discourse analysis
-       - Hermeneutics
-    1. Presenting the analysis of the qualitative data
-       - Writing up qualitative research
-       - Presenting specific types of analysis
-         * Presenting thematic analysis; e.g., the Gioia method [@gioia_2013_seekingqualitativerigor]
-         * Presenting fieldnotes; e.g., _Jarzabkowski et al._ [-@jarzabkowski_2015_conductingglobalteambased]
-
-    ## Delivery
-    The compressed delivery format means that the class is scheduled to
-    meet for three hours, twice a week, for the first six weeks of the
-    semester. This also implies that students should be spending about 20
-    hours per week on course related activities
+1. Introduction
+2. Formulating research questions
+3. Paradigms and practices of qualitative research
+4. Justifying your research
+5. Designing qualitative research
+6. Observations
+7. Interviews
+8. Documents
+9. Analysis aids
+10. Strategies for analysis
+11. Quality criteria and triangulation
 
 
-    # Assessment structure
+# Course structure
+An implicit goal of this course is the goal of preparing students to
+undertake their first (and perhaps only) research project of any size;
+e.g., a masters thesis (60-point) or perhaps an honours level
+dissertation (30-point).
 
-    # General items
+## Content
+The current prescription may not be appropriate. Perhaps a more
+strongly themed approach would be useful, grounded in approaches to:
 
-    ## Course outline
+1. The 'qualitative' mindset
+   - Paradigms
+1. Designing qualitative research
+   - Formulating a research question
+   - Justifying a research questions
+   - Ethics
+   - Gaining access
+   - Quality in qualitative research
+   - Units and levels of analysis
+   - Case studies
+1. Collecting qualitative data
+   - Using documents
+   - Surveys
+   - Interviews
+   - Focus groups
+   - Visual methods
+   - Repertory grids
+   - Observations
+   - Ethnography
+1. Analysing qualitative data
+   - Content analysis
+   - Thematic analysis
+   - Grounded theory
+   - Discourse analysis
+   - Hermeneutics
+1. Presenting the analysis of the qualitative data
+   - Writing up qualitative research
+   - Presenting specific types of analysis
+     * Presenting thematic analysis; e.g., the Gioia method [@gioia_2013_seekingqualitativerigor]
+     * Presenting fieldnotes; e.g., _Jarzabkowski et al._ [-@jarzabkowski_2015_conductingglobalteambased]
 
-    ## Canvas
+## Delivery
+The compressed delivery format means that the class is scheduled to
+meet for three hours, twice a week, for the first six weeks of the
+semester. This also implies that students should be spending about 20
+hours per week on course related activities
 
-    ## Resources
 
-    ### Readings
+# Assessment structure
 
-    ### Text book
+# General items
 
-    # References
+## Course outline
+
+## Canvas
+
+## Resources
+
+### Readings
+
+### Text book
+
+# References
 #+END_EXAMPLE
 
 Oh yes, there is one other file that is needed, and that is a YAML file called =pandoc-crossref-settings.yaml=.
 
 #+BEGIN_EXAMPLE
-    cref: True
-    codeBlockCaptions: True
-    figPrefix:
-     - "Figure"
-     - "Figures"
-    figureTitle: "Figure "
-    lstPrefix:
-     - "Listing"
-     - "Listings"
-    tblPrefix:
-     - "Table"
-     - "Tables"
-    tableTemplate: "*$$tableTitle$$ $$i$$*$$titleDelim$$ $$t$$"
+cref: True
+codeBlockCaptions: True
+figPrefix:
+ - "Figure"
+ - "Figures"
+figureTitle: "Figure "
+lstPrefix:
+ - "Listing"
+ - "Listings"
+tblPrefix:
+ - "Table"
+ - "Tables"
+tableTemplate: "*$$tableTitle$$ $$i$$*$$titleDelim$$ $$t$$"
 #+END_EXAMPLE
 
 To use these, put all three files--the Makefile, the template, and the YAML file in a directory. Rename the template to something meaningful, e.g., =business-705-course-design.md= and then run gnu make. That will build PDF, HTML, and DOCX versions of the file.
