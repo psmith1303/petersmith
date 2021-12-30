@@ -44,7 +44,7 @@ Muilenburg, L. Y., & Berge, Z. L. (2005). Student barriers to online learning: A
  6. /Time and support for studies/. This factor concerns the respondents’ perspectives on whether a lack of time or support from family, friends, or people in the work place causes barriers to their online learning.
  7. /Cost and access to the Internet/. This factor concerns whether the respondents find access to the Internet too expensive, fear the loss of privacy, confidence, or property rights, or otherwise find access to the Internet limited to the point of raising barriers to them.
  8. /Technical problems/. This factor concerns such things as a lack of consistent plat forms, browsers, and software, or the lack of technical assistance that causes obstacles to online learning.
- 
+
  So perhaps rather than thinking about this in terms of a lack of face-to-face interaction, it is more about perceived lack of social interaction with peers and instructors. Intuitively, that makes more sense.
 
  This factor---Social interaction---is driven by six sub-items:
@@ -65,4 +65,3 @@ Muilenburg, L. Y., & Berge, Z. L. (2005). Student barriers to online learning: A
  There was also a strong correlation between enjoyment of the course and /Social interaction/.
 
  It's all food for thought.
-
