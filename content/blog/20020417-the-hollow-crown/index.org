@@ -13,7 +13,9 @@ The cast was outstanding; Diana Rigg, Derek Jacobi, Ian Richardson, Donald Sinde
 According to the program, it is:
 
 #+BEGIN_QUOTE
+
 An entertainment by and about the Kings and Queens of England. Music, poetry, speeches, letters and other writings from the chronicles, from plays, and in the monarchs' own words---also music concerning them and by them.
+
 #+END_QUOTE
 
 Indeed it is the tale of the Kings and Queens from William I (1066--1087), through to Victoria (1830--1901).

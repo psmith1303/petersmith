@@ -1,16 +1,11 @@
-+++
-title = "Upgrades"
-date = "2005-12-26T11:45:00+12:00"
-categories = ["Jottings"]
-slug = "upgrades"
-draft = "False"
-+++
-It's Christmas, so it is time to do some upgrades. Firstly, let's move
-to the latest version of [Movable Type](https://www.movabletype.org/).
-Well the process was pretty straight forward, but upgrading the
-templates broke my layout. So, I guess I'll have to spend some time
-fixing that.
+#+title: Upgrades
+#+slug: upgrades
+#+date: 2005-12-26T11:45:00+12:00
+#+lastmod: 2005-12-26T11:45:00+12:00
+#+categories[]: Tech
+#+tags[]: MovableType Upgrades
+#+draft: False
 
-So, I quickly reinstalled the original templates, and everything seems
-to be back in-order.
+It's Christmas, so it is time to do some upgrades. Firstly, let's move to the latest version of [[https://www.movabletype.org/][Movable Type]]. Well the process was pretty straight forward, but upgrading the templates broke my layout. So, I guess I'll have to spend some time fixing that.
 
+So, I quickly reinstalled the original templates, and everything seems to be back in-order.

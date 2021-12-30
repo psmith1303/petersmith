@@ -1,9 +1,9 @@
 #+title: Bookmarklets for all
+#+slug: bookmarklets-for-all
 #+date: 2002-12-19T11:44:00+12:00
 #+lastmod: 2002-12-19T11:44:00+12:00
 #+categories[]: Tech
 #+tags[]: Bookmarklets
-#+slug: bookmarklets-for-all
 #+draft: False
 
 This was a collection of bookmarklets. But in reality, I did not use them.

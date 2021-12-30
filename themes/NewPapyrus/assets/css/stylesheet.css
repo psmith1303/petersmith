@@ -102,6 +102,17 @@ section {
     background-color: White;
 }
 
+input,
+button,
+legend {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 10pt;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+
 .topborder {
     border-top: 1px solid LightGrey;
     margin-top: 1em;
@@ -149,12 +160,22 @@ aside {
 }
 
 pre {
-  overflow-y: auto;
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    overflow-x: auto;
+}
+
+pre:hover, pre:focus {
+    width: min-content;
 }
 
 code {
     font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
-    color: Green;
+}
+
+code.verbatim {
+    background: white;
+    color: #513B1C;
+    font-weight: bold;
 }
 
 .language-sh {
@@ -164,10 +185,10 @@ code {
 
 h1 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: bold;
     margin: 1em 0 0 0;
-    text-align: left;
+    text-align: center;
     line-height: 30pt;
 }
 
@@ -233,6 +254,8 @@ blockquote {
     font-family: "Cambria", "Times New Roman", serif;
     font-style: italic;
     padding-left: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
     border-left: 1px solid lightgrey;
 
 }
@@ -483,5 +506,46 @@ ul.sparklines {
 
 .sparklines a:hover {
     text-decoration: underline;
+}
+
+
+hr.footnotes-separatator {
+    width: 30%;
+    margin-left: 0;
+    height: 1px;
+    border: 0 none;
+    background-color: Gray;
+}
+
+.footnote-definitions {
+        font-size: 80%;
+}
+
+.footnote-definition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: baseline;
+}
+
+.footnote-definition sup {
+    font-size: 100%;
+    top: 0;
+    margin-right: 1em;
+}
+
+.footnote-definition sup::before {
+    content: "[";
+}
+.footnote-definition sup::after {
+    content: "]";
+}
+
+
+.footnote-body p {
+    flex: 0 1 auto;
+    margin-top: 0;
+    margin-bottom: 0.3em;
 }
 

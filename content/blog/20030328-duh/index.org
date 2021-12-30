@@ -1,9 +1,9 @@
 #+title: Duh!
+#+slug: duh
 #+date: 2003-03-28T11:51:00+12:00
 #+lastmod: 2003-03-28T11:51:00+12:00
 #+categories[]: Home
 #+tags[]: Psychodrama Moreno
-#+slug: duh
 #+draft: False
 
 It is Moreno, not Monroe. I just got one of his books out of the library. It's:

@@ -1,10 +1,11 @@
-+++
-title = "Remembering a Ginger cat"
-date = "2008-02-12T13:51:00+12:00"
-categories = ["Jottings"]
-slug = "remembering-a-ginger-cat"
-draft = "False"
-+++
+#+title: Remembering a Ginger cat
+#+slug: remembering-a-ginger-cat
+#+date: 2008-02-12T13:51:00+12:00
+#+lastmod: 2008-02-12T13:51:00+12:00
+#+categories[]: Home
+#+tags[]: Cats
+#+draft: False
+
 Ginger (born 6 Oct 1997), gone but not forgotten.
 
 - Coming home from the Humane Society in a photocopier paper box (with Fred)
@@ -26,4 +27,3 @@ Ginger (born 6 Oct 1997), gone but not forgotten.
 - Watching the world go by from his basket on the deck.
 - His tiny front teeth
 - Nudging hard when he wants-food
-

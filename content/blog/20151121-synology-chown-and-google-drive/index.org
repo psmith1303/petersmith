@@ -1,20 +1,23 @@
-+++
-title = "Synology, chown and Google Drive"
-slug = "synology-chown-and-google-drive"
-date = "2015-11-21T13:06:00+12:00"
-categories = ["IT"]
-draft = "False"
-+++
-I have a small NAS where I back up all my data. Being a wee bit paranoid, I take a nightly snapshot (using rsnapshot) of all the data too. I also sync the data to a Google Drive account.  So far so good. 
+#+title: Synology, chown and Google Drive
+#+slug: synology-chown-and-google-drive
+#+date: 2015-11-21T13:06:00+12:00
+#+lastmod: 2015-11-21T13:06:00+12:00
+#+categories[]: Tech
+#+tags[]: Synology NAS FreeBSD
+#+draft: False
+
+I have a small NAS where I back up all my data. Being a wee bit paranoid, I take a nightly snapshot (using rsnapshot) of all the data too. I also sync the data to a Google Drive account. So far so good.
 
 The NAS is, amongst other things connected to a box running FreeBSD. Ah, the joys of user IDs across multiple machines. To cut a long story short I need to fix some ownership permissions. So, with narry a thought I did a quick:
 
-    chown -R psmith /volume1/homes/psmith
+#+BEGIN_EXAMPLE
+
+chown -R psmith /volume1/homes/psmith
+
+#+END_EXAMPLE
 
 Ownership problems fixed!
 
 Alas, a fair few files were touched by the chown, and now the NAS is busy sync 30,000+ files to Google Drive. That is going to take a while. Previous experiences tells me it will take about a week to transfer the 1Tb or so to Google Drive.
 
 Interestingly, the backup using rsnapshot was not impacted that way. The incremental change in data was on 11Gb, which--on a daily basis--is not unusual.
-
-

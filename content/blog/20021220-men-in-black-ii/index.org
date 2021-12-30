@@ -1,9 +1,9 @@
 #+title: Men in Black II
+#+slug: men-in-black-ii
 #+date: 2002-12-20T20:34:00+12:00
 #+lastmod: 2002-12-20T20:34:00+12:00
 #+categories[]: Arts
 #+tags[]: Movies
-#+slug: men-in-black-ii
 #+draft: False
 
 Well I've just finished watching [[https://us.imdb.com/Title?0120912][Men in Black II (2002)]]. Not a bad ironing movie.

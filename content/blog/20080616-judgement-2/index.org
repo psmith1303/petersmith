@@ -1,0 +1,15 @@
+#+title: Judgement
+#+slug: judgement-2
+#+date: 2008-06-16T19:16:00+12:00
+#+lastmod: 2008-06-16T19:16:00+12:00
+#+categories[]: Teaching
+#+tags[]: MBA
+#+draft: False
+
+I had coffee with a good colleague today. [[https://web.archive.org/web/20081014125426/https://staff.business.auckland.ac.nz/tabid/542/upi/rbro070/Default.aspx][Richard Brookes]] is one of the superb teachers around [[https://business.auckland.ac.nz/][here]].
+
+We got on to the topic of what managers really need to know and the issue of the relevancy of much management research.
+
+As a result of our discussion, I am even more convinced of the need to teach "judgement" in our MBA programmes. The challenge is that it's hard to do that.
+
+I think in my next undergraduate class, that I'll see how much /buy-in/ I can get from the students to such an assertion (and consequently, how much effort they'll put into developing better judgement).

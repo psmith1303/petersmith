@@ -1,9 +1,9 @@
 #+title: A new server
+#+slug: a-new-server
 #+date: 2003-02-26T11:36:00+12:00
 #+lastmod: 2003-02-26T11:36:00+12:00
 #+categories[]: Tech
 #+tags[]: Server
-#+slug: a-new-server
 #+draft: False
 
 I have decided to upgrade the server here. So, I bought a box from [[https://www.pbtech.co.nz/][PB Technologies]], with an 2.5G Pentium CPU, 80GB of disk, and 512MB of memory. Alas, when started the installation process it kept hanging when it tried to access the hard disk. The last message on the screen was:

@@ -1,9 +1,9 @@
 #+title: Lunch with friends
+#+slug: lunch-with-friends
 #+date: 2004-05-30T22:17:00+12:00
 #+lastmod: 2004-05-30T22:17:00+12:00
 #+categories[]: Home
 #+tags[]: Dining
-#+slug: lunch-with-friends
 #+draft: False
 
 Lisa and I met up with Brownie & Vicki Brown, [[https://www.akc.quik.co.nz/dennisl/][Dennis & Kay Lally]], and [[https://www.oldfriends.co.nz/oldfriends/member_profile.asp?oldfriends_member_id=3765][Brodie Jones]] at Cafe Extreme in Newmarket. The common thread between us is that Brownie, Dennis, Brodie, and I all worked together at [[https://www.philips.co.nz/][Philips New Zealand]]. We meet every 6 months, well may each year, at the same place.

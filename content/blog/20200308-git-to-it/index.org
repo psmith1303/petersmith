@@ -1,13 +1,14 @@
 #+title: Git to it
+#+slug: git-to-it
 #+date: 2020-03-08T09:03:08+13:00
 #+lastmod: 2020-03-08T09:03:08+13:00
 #+categories[]: Tech
 #+tags[]: Productivity git
 #+draft: False
 
-I use git for a few things, but the most important is part of my workflow for this blog. I push changes--e.g., update content--to [[file:Github][https://github.com]], where those changes are noticed by [[file:Netlify][https://netlify.com]] which drags them out and runs [[file:Hugo][https://gohugo.io/]] to make this site.
+I use git for a few things, but the most important is part of my workflow for this blog. I push changes--e.g., update content--to [[https://github.com][Github]], where those changes are notified to [[https://netlify.com][Netlify]] which drags them out and runs [[https://gohugo.io/][Hugo]] to make this site.
 
-Here are some shortened notes based on the very helpful [[file:git%20guide][https://rogerdudler.github.io/git-guide/]].
+Here are some shortened notes on =git= based on the very helpful guide at  [[file:git%20guide][https://rogerdudler.github.io/git-guide/]].
 
 *** To checkout a repository
 Create a working copy of a local repository by running the command

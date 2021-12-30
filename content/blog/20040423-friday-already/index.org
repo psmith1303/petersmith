@@ -1,9 +1,9 @@
 #+title: Friday already
+#+slug: friday-already
 #+date: 2004-04-23T06:50:00+12:00
 #+lastmod: 2004-04-23T06:50:00+12:00
 #+categories[]: Home
 #+tags[]: Friday_fives
-#+slug: friday-already
 #+draft: False
 
 And here is this week's [[https://www.fridayfive.org/][Friday Five]]

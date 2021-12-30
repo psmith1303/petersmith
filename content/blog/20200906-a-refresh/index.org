@@ -1,19 +1,18 @@
-#+title: A refresh
-#+subtitle: Back to paper
+#+title: A refresh: Back to paper
 #+slug: a-refresh
 #+date: 2020-09-06T12:00:00+13:00
 #+lastmod: 2020-09-06T12:00:00+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Emacs Hugo
-#+draf[]: False
+#+draft: False
 
-* It's time to redecorate
+** It's time to redecorate
 
 I have been doing some work tidying things up with [[https://www.gnu.org/software/emacs/][Emacs]]; doing things like sorting out my fonts and [[https://protesilaos.com/modus-themes/][themes]], and trying to get [[https://www.emacswiki.org/emacs/ArtistMode][Artist Mode]] to work properly. It's still broken for me under Windows 10 and I can't be bothered (just yet) to sort it.
 
 But in tootling around, looking for options I came across the website of [[https://zeekat.nl/][Joost Diepenmaat]]. At first I thought I was looking a PDF. Then I realised he was generating the page directly from [[https://orgmode.org/][Org]]. Interesting.
 
-* Creating a Hugo theme
+** Creating a Hugo theme
 
 Updating/changing my sites look and feel has been on my (org-mode) TO DO list for some time. But, I'm not sure I want to go to using Org to generate this site; I have too many posts that would need converting from Markdown to ".org".
 

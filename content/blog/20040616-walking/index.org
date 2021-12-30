@@ -1,9 +1,9 @@
 #+title: Walking
+#+slug: walking
 #+date: 2004-06-16T01:20:00+12:00
 #+lastmod: 2004-06-16T01:20:00+12:00
 #+categories[]: Home
 #+tags[]: Fitness
-#+slug: walking
 #+draft: False
 
 After my little [[{{< relref "20040508-a-wake-up-call/index.org" >}}][scare]], I'm doing many things to try and put the problem (well at least the majority of the medication) behind me. In many ways it is the "usual suspects', viz:

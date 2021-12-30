@@ -1,9 +1,9 @@
 #+title: About work
+#+slug: about-work
 #+date: 2004-04-09T15:53:00+12:00
 #+lastmod: 2004-04-09T15:53:00+12:00
 #+categories[]: Home
 #+tags[]: Friday_fives
-#+slug: about-work
 #+draft: False
 
 And here is this week's [[https://www.fridayfive.org/][Friday Five]]:

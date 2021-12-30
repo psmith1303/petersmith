@@ -6,11 +6,12 @@
 #+tags[]: Hardware NAS
 #+draft: False
 
-* They're dead, Dave
+** They're dead, Dave
 
 I woke-up to find an email from my NAS saying:
 
 #+BEGIN_QUOTE
+
 Dear user,
 
 Storage pool 1 (SHR, ext4) on P3000 has degraded (total number of drives: 3; number of active drives: 2).
@@ -21,6 +22,7 @@ Model: ST4000DM004-2CV104
 Serial number: WFN2XYEG
 
 Several reasons may result in storage pool degradation. Please go to Storage Manager > Storage Pool to understand the cause of degradation, or refer to [[https://www.synology.com/knowledgebase/DSM/help/DSM/StorageManager/storage_pool_repair][this article]] to learn how to repair the storage pool.
+
 #+END_QUOTE
 
 *Oops*

@@ -1,20 +1,14 @@
-+++
-title = "Running goals for 2014"
-date = "2014-05-16T20:45:00+12:00"
-categories = ["Fitness"]
-slug = "running-goals-for-2014"
-draft = "False"
-+++
-I am starting to think about my running goals for this year. Some might
-say that this post is a little overdue, as five months of the year are
-almost over. But, I have been trying to concentrate on some "base
-building' before I got into setting goals (aka, picking races).
+#+title: Running goals for 2014
+#+slug: running-goals-for-2014
+#+date: 2014-05-16T20:45:00+12:00
+#+lastmod: 2014-05-16T20:45:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
 
-My starting point is my current 5 Km race time of 19:34. The various
-tables from version 2 of the "Daniels' running formula", give me a VDOT
-of 51. Will a little help from [FellRnr's VDOT
-calculator](https://fellrnr.com/wiki/VDOT_Calculator), my recommended
-training paces are:
+I am starting to think about my running goals for this year. Some might say that this post is a little overdue, as five months of the year are almost over. But, I have been trying to concentrate on some "base building' before I got into setting goals (aka, picking races).
+
+My starting point is my current 5 Km race time of 19:34. The various tables from version 2 of the "Daniels' running formula", give me a VDOT of 51. Will a little help from [[https://fellrnr.com/wiki/VDOT_Calculator][FellRnr's VDOT calculator]], my recommended training paces are:
 
 - Easy 4:51--5:28 min/Km (65--79% of max heart rate)
 - Marathon 4:26 min/Km (80--90% of max heart rate)
@@ -22,34 +16,14 @@ training paces are:
 - Intervals 3:50min/Km (95--100% of max heart rate)
 - Reps 3:29 min/Km
 
-Initially, I am left thinking "yikes'; is my marathon pace really going
-to be 4:26 min/Km. That seems hard. Very hard. That would give me a
-3:07:00 marathon. I have been pondering if a 3:00:00 marathon might be
-possible one day, but it seems a big ask right now. Until I did this
-calculation, I was thinking of a smidgen under a 5:00 min/Kim pace for
-a 3:30:00 marathon.
+Initially, I am left thinking "yikes'; is my marathon pace really going to be 4:26 min/Km. That seems hard. Very hard. That would give me a 3:07:00 marathon. I have been pondering if a 3:00:00 marathon might be possible one day, but it seems a big ask right now. Until I did this calculation, I was thinking of a smidgen under a 5:00 min/Kim pace for a 3:30:00 marathon.
 
 So, is this realistic?
 
-The Daniels' Marathon Training Plan A, is split in to four phases.
-Phase one is about being "comfortable with steady, easy running with some
-runs of an hour of more". I have been building up my base in that
-phase, although I have not being doing the longer runs. My longest has been
-about 8 Km. Once I get the "okay' from Dr Lucy, I'll add in a hour long
-run into my current mix. Rather than adding any more mileage (I am
-doing 50 km per week), I will reallocate some distance from some days (e.g.,
-Monday and Wednesday) to my long run day (Sunday). That will make
-Mondays and Wednesdays 5 Km runs, and Sunday about 11 Km. The idea
-would be to do that for a month before moving into phase two.
+The Daniels' Marathon Training Plan A, is split in to four phases. Phase one is about being "comfortable with steady, easy running with some runs of an hour of more". I have been building up my base in that phase, although I have not being doing the longer runs. My longest has been about 8 Km. Once I get the "okay' from Dr Lucy, I'll add in a hour long run into my current mix. Rather than adding any more mileage (I am doing 50 km per week), I will reallocate some distance from some days (e.g., Monday and Wednesday) to my long run day (Sunday). That will make Mondays and Wednesdays 5 Km runs, and Sunday about 11 Km. The idea would be to do that for a month before moving into phase two.
 
-Phase two begins the "quality' part of the programme, preparing the
-body for the rigours of phase three. This will last about six or seven weeks
-and there are two quality runs; a long run and a run with intervals or
-threshold work.
+Phase two begins the "quality' part of the programme, preparing the body for the rigours of phase three. This will last about six or seven weeks and there are two quality runs; a long run and a run with intervals or threshold work.
 
-Phase three is the hardest phase; still with two quality workouts, but
-the intensity increases.
+Phase three is the hardest phase; still with two quality workouts, but the intensity increases.
 
-Phase four should be less stressful that phase three as they are more
-used to that level of work.
-
+Phase four should be less stressful that phase three as they are more used to that level of work.

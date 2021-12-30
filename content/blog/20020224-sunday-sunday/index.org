@@ -1,9 +1,9 @@
 #+title: Sunday, Sunday
+#+slug: sunday-sunday
 #+date: 2002-02-24T15:28:00+12:00
 #+lastmod: 2002-02-24T15:28:00+12:00
 #+categories[]: Tech
 #+tags[]: Pilot Productivity
-#+slug: sunday-sunday
 #+draft: False
 
 We went to the Cock and Bull for a traditional Sunday roast today. It was yummy. I was a little surprised how empty the pub was. But then again there are a few things on in town today, such as the cricket.

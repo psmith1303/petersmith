@@ -1,51 +1,63 @@
 #+title: Colophon
-#+date: 2016-11-16T19:14:20+13:00
-#+categories[]: SiteInfo
 #+slug: colophon
+#+date: 2016-11-16T19:14:20+13:00
+#+lastmod: 2021-12-31T09:38:11+13:00
+#+categories[]: SiteInfo
+#+tags[]: SiteInfo
 #+draft: False
 #+weight: 200
 
 As [Brian A. Maicke](https://www.personal.psu.edu/bam49/notebook/colophon/) asks, "So what exactly is a colophon?" Well Google says:
 
-> **colophon**
->
-> *ˈkɒləf(ə)n*
->
-> noun
->
-> * a publisher's emblem or imprint, usually on the title page of a book.
->
-> historical
->
-> * a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing.
+#+BEGIN_QUOTE
+
+*colophon*
+
+*ˈkɒləf(ə)n*
+
+noun
+
+*a publisher's emblem or imprint, usually on the title page of a book.*
+
+historical
+
+*a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing.*
+
+#+END_QUOTE
 
 How then, is this site put together; or as some other folk might ask, "What's the tool chain for producing this site?"
 
 
-#### Platform
+* Platform
 
-My platform of choice is [FreeBSD](https://www.freebsd.org/). It is boringly reliable. I can install most any software I need, and it does not need rebooting much (and certainly not as inconsiderately as
+My platform of choice is [[https://www.freebsd.org/][FreeBSD]]. It is boringly reliable. I can install most any software I need, and it does not need rebooting much (and certainly not as inconsiderately as
 Windows 10).
 
 However, these days, my main PC runs Windows 10, and I run Debian under WSL2 for all my 'unix' needs.
 
-That being said, I host the site via [Netlify](https://netlify.com). The current status of my build is: [![Netlify Status](https://api.netlify.com/api/v1/badges/cf268698-6366-4bb2-9b47-e4543db35806/deploy-status)](https://app.netlify.com/sites/petersmith/deploys)
+That being said, I host the site via [[https://netlify.com][Netlify]]. The current status of my build is: {{< htmlimg src="https://api.netlify.com/api/v1/badges/cf268698-6366-4bb2-9b47-e4543db35806/deploy-status" title="Netlify Status" >}}
 
 Hey, its all static content so no heavy lifting is required.
 
-#### Writing: Emacs
+* Writing: Emacs
 
-After many years of being a vi/vim user, I am now getting to grips with the beast that is [Emacs](https://www.gnu.org/software/emacs/). I got into Emacs so that I could experience the joys of [orgmode](https://orgmode.org/).
+After many years of being a vi/vim user, I am now getting to grips with the beast that is [[https://www.gnu.org/software/emacs/][Emacs]]. I got into Emacs so that I could experience the joys of [[https://orgmode.org/][orgmode]].
 
-#### Site Generation: Hugo
+* Site Generation: Hugo
 
-I have used many ways of generating sites. Oringally, I hand-coded HTML. Then came a templating engine. Then---for many years---there was MovableType. That was followed by Wordpress. More recently, in an effort to keep things simple and stable--I have moved to having a static site. At first that was [Pelican](https://blog.getpelican.com/) (because I knew python), but more recently I have gone with [Hugo](https://gohugo.io/). It is quick to rebuild my site and has no real dependencies.
+I have used many ways of generating sites. Oringally, I hand-coded HTML. Then came a templating engine. Then---for many years---there was MovableType. That was followed by Wordpress. More recently, in an effort to keep things simple and stable, I have moved to having a static site. At first that was [[https://blog.getpelican.com/][Pelican]] (because I knew python), but more recently I have gone with [[https://gohugo.io/][Hugo]]. It is quick to rebuild my site and has no real dependencies.
 
-#### Responsive Layout: Foundation
+* Responsive Layout: Foundation
 
-My orginal Hugo theme came from [Kieran Healy](https://kieranhealy.org/), and he used the [Kube CSS framework](https://imperavi.com/kube/) from [Impervari](https://imperavi.com/). As I redesigned the site, I have stuck with the same [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) framework. Nothing fancy, just plain-ole CSS.
+My original Hugo theme came from [[https://kieranhealy.org/][Kieran Healy]], and he used the [[https://imperavi.com/kube/][Kube CSS framework]] from [[https://imperavi.com/][[Impervari]]. As I redesigned the site, I have stuck with my own [[https://en.wikipedia.org/wiki/Cascading_Style_Sheets][CSS]] framework. Nothing fancy, just plain-ole CSS.
 
-#### Fonts
+That said, Hugo does some clever injecting of styles for code-blocks and the like using a Go framework called  [[https://github.com/alecthomas/chroma][Chroma]].
 
-My font choice is the default provided by Kube. [Font Awesome](https://fontawesome.io/) provides the scalable icons, as they do for so much of the web.
+* Fonts
+
++My font choice is the default provided by Kube. [Font Awesome](https://fontawesome.io/) provides the scalable icons, as they do for so much of the web.+
+
+As work to keep the site lightweight, I have moved to using fonts that should be generally available on any combination of browser and system.
+
+
 

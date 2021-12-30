@@ -1,29 +1,15 @@
-+++
-categories = ["Jottings"]
-date = "2017-06-15T14:02:04+12:00"
-draft = "False"
-slug = ""
-title = "Visas and social media"
-+++
+#+title: Visas and social media
+#+slug: visas-and-social-media
+#+date: 2017-06-15T14:02:04+12:00
+#+lastmod: 2017-06-15T14:02:04+12:00
+#+categories[]: Travel
+#+tags[]: Visas ESTA
+#+draft: False
 
-I have just completed the application process for
-an [ESTA](https://esta.cbp.dhs.gov/) (an American electronic travel
-'visa').
+I have just completed the application process for an [[https://esta.cbp.dhs.gov/][ESTA]] (an American electronic travel 'visa').
 
-Going through the process I was surprised to be asked for details of
-my social media accounts. It is an 'optional' part of the process, but
-I wonder how many people complete it (in all its gory detail, and
-there is a lot of detail). Indeed, I did not realise just how many
-social media sites there are beyond the big-5 (Facebook, Twitter,
-Instagram, Google+, Snapchat). As I write that, I realise that I have
-missed out the big Chinese sites and---no doubt---many more. So
-perhaps their list is not so big.
+Going through the process I was surprised to be asked for details of my social media accounts. It is an 'optional' part of the process, but I wonder how many people complete it (in all its gory detail, and there is a lot of detail). Indeed, I did not realise just how many social media sites there are beyond the big-5 (Facebook, Twitter, Instagram, Google+, Snapchat). As I write that, I realise that I have missed out the big Chinese sites and---no doubt---many more. So perhaps their list is not so big.
 
-I was also asked for any other nationalities and passports I hold
-(including expired ones). That part was not optional. Alas, I do not
-really keep the details of old/expired passports.
+I was also asked for any other nationalities and passports I hold (including expired ones). That part was not optional. Alas, I do not really keep the details of old/expired passports.
 
-But it really makes me think about how folk are trying to build up
-network diagrams of our/peoples' relationships.
-
-
+But it really makes me think about how folk are trying to build up network diagrams of our/peoples' relationships.

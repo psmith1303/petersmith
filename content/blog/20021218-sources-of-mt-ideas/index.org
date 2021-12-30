@@ -1,9 +1,9 @@
 #+title: Sources of MT ideas
+#+slug: sources-of-mt-ideas
 #+date: 2002-12-18T21:08:00+12:00
 #+lastmod: 2021-12-18T10:48:55+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Movableblog Website PHP
-#+slug: sources-of-mt-ideas
 #+draft: False
 
 I'm always looking for ways to improve the site, and [[https://www.richarderiksson.com/movableblog/][MovableBlog]] seems to do just that.

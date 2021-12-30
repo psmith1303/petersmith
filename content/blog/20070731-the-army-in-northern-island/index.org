@@ -1,28 +1,19 @@
-+++
-title = "The Army in Northern Island"
-date = "2007-07-31T09:07:00+12:00"
-categories = ["Jottings"]
-slug = "the-army-in-northern-island"
-draft = "False"
-+++
-I note that, [according to the
-BBC](https://news.bbc.co.uk/1/hi/northern_ireland/6921702.stm).
+#+title: The Army in Northern Island
+#+slug: the-army-in-northern-island
+#+date: 2007-07-31T09:07:00+12:00
+#+lastmod: 2007-07-31T09:07:00+12:00
+#+categories[]: Home
+#+tags[]: Army 
+#+draft: False
 
-> The British Army's emergency operation in Northern Ireland
-comes to an end at midnight on Tuesday [tonight] after 38 years.
-Operation Banner, as it was called, was the longest in the Army's
-history.
+I note that, [[https://news.bbc.co.uk/1/hi/northern_ireland/6921702.stm][according to the BBC]].
 
-No doubt, there will be much rejoicing in many quarters and the end of the need
-for military support for what were called [the
-    troubles](https://en.wikipedia.org/wiki/The_troubles).
+#+BEGIN_QUOTE
 
-That reminds me, I went to Beijing in 1994 and our Chinese guide would use the
-phrase "and something happened" when talking (on not talking) about protests
-and deaths that occurred in [Tiananmen
-Square](https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989).  At
-the time I found the use of the expression "and something happened" somewhat
-obtuse. But, in hindsight, the "sensibility' of saying "and something happened"
-is no more strange than calling what went on in Northern Ireland "the
-troubles".
+The British Army's emergency operation in Northern Ireland comes to an end at midnight on Tuesday [tonight] after 38 years. Operation Banner, as it was called, was the longest in the Army's history.
 
+#+END_QUOTE
+
+No doubt, there will be much rejoicing in many quarters and the end of the need for military support for what were called [[https://en.wikipedia.org/wiki/The_troubles][the troubles]].
+
+That reminds me, I went to Beijing in 1994 and our Chinese guide would use the phrase "and something happened" when talking (on not talking) about protests and deaths that occurred in [[https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989][Tiananmen Square]]. At the time I found the use of the expression "and something happened" somewhat obtuse. But, in hindsight, the "sensibility' of saying "and something happened" is no more strange than calling what went on in Northern Ireland "the troubles".

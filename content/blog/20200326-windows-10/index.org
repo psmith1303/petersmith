@@ -1,9 +1,10 @@
 #+title: Windows 10
+#+slug: windows-10
 #+date: 2020-03-26T19:17:16+13:00
 #+lastmod: 2020-03-26T19:17:16+13:00
-#+draft: False
-#+tags[]: Outlook Office365 Windows Emacs
 #+categories[]: Tech
+#+tags[]: Outlook Office365 Windows Emacs
+#+draft: False
 
 
 The part of the Business School I now work in seems to live and die by meetings, and these meetings are organised using Outlook. I have been using my trust Fastmail account, and whilst it's okay, the calendaring functions (for people looking up my availability) are too messy---they would all need to adjust their configuration.

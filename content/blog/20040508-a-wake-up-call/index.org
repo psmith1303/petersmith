@@ -1,9 +1,9 @@
 #+title: A wake up call
+#+slug: a-wake-up-call
 #+date: 2004-05-08T14:24:00+12:00
 #+lastmod: 2004-05-08T14:24:00+12:00
 #+categories[]: Home
 #+tags[]: Fitness
-#+slug: a-wake-up-call
 #+draft: False
 
 I've been away from school most of this week. It has been an exhausting week, to say the least. I've been feeling under the weather for the past month or so, and I seemed to be getting worse rather than better. So, on Monday, after my first class, I paid a visit to the doctor. Fairly quickly, he'd organised an ambulance to take me to hospital---I tried to protest that I could take a taxi, but he wouldn't consider that option. So, I spent all of Monday, Tuesday, and some of Wednesday hooked up to an ECG because they thought I might be having an angina attack, or worse still I might have had a heart attack. After two days in the "High Dependency Unit' and what seems like endless tests, they came to the conclusion that the problem was my"rampantly high' blood pressure.

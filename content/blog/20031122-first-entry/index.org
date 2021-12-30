@@ -1,8 +1,8 @@
 #+title: First Entry
+#+slug: first-entry
 #+date: 2003-11-22T08:13:00+12:00
 #+lastmod: 2003-11-22T08:13:00+12:00
 #+categories[]: Research
-#+slug: first-entry
 #+tags[]: PhD
 #+draft: False
 

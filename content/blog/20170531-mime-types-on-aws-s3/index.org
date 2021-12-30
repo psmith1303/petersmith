@@ -1,32 +1,20 @@
-+++
-categories = [
-  "Blogging",
-  "Technology",
-]
-slug = "mime-types-on-asw-s3"
-draft = "False"
-date = "2017-05-31T09:07:33+12:00"
-title = "Mime types on AWS S3"
+#+title: Mime types on AWS S3
+#+slug: mime-types-on-asw-s3
+#+date: 2017-05-31T09:07:33+12:00
+#+lastmod: 2017-05-31T09:07:33+12:00
+#+categories[]: Tech
+#+tags[]: AWS
+#+draft: False
 
-+++
+I serve up a number of static websites by hosting them on Amazon's AWS S3. It is a local cost, efficient way to maintain a presence on the web.
 
-I serve up a number of static websites by hosting them on Amazon's AWS
-S3. It is a local cost, efficient way to maintain a presence on the
-web.
+Recently, I had some problems with websites not rendering correctly because of problems with javascript and css. I eventually tracked the problem down to files being stored with the wrong MIME type, so when they were being served to client browsers, they were not be interpreted correctly.
 
-Recently, I had some problems with websites not rendering correctly
-because of problems with javascript and css. I eventually tracked the
-problem down to files being stored with the wrong MIME type, so when
-they were being served to client browsers, they were not be
-interpreted correctly.
+For example, the .css files were being stored with a meta-data type (MIME type) of =text/plain= rather than =text/css=.
 
-For example, the .css files were being stored with a meta-data type
-(MIME type) of `text/plain` rather than `text/css`.
+My first solution was to use a small script to go through an S3 bucket and fix up the meta-data (by copying the file in-place).
 
-My first solution was to use a small script to go through an S3 bucket
-and fix up the meta-data (by copying the file in-place).
-
-```bash
+#+BEGIN_SRC sh
 aws s3 cp \
       --exclude "*" \
       --include "*.css" \
@@ -35,32 +23,27 @@ aws s3 cp \
       --recursive \
        s3://www.courseguide.info/ \
        s3://www.courseguide.info
-```
+#+END_SRC
 
 This worked pretty well, but it seemed wrong to have to fix things up after having uploaded them. I know I can specify the MIME type of individual files as I upload them, but when uploading a directory tree, that seems messy and complicated.
 
-I then stumbled on a piece that suggested instead of using `s3cmd` to guess the MIME Type doing something like this:
+I then stumbled on a piece that suggested instead of using =s3cmd= to guess the MIME Type doing something like this:
 
-```bash
+#+BEGIN_SRC sh
 
 s3cmd sync -P --guess-mime-type --delete-removed  \
-	$TARGET  s3://www.courseguide.info/
+    $TARGET  s3://www.courseguide.info/
 
-```
+#+END_SRC
 
-However, before I got round to implement it, I then found out that the
-`s3cmd` is considered 'old' and that instead of using that python tool
-to work with my S3 buckets, I should be using Amazon's CLI tool,
-`aws`.
+However, before I got round to implement it, I then found out that the =s3cmd= is considered 'old' and that instead of using that python tool to work with my S3 buckets, I should be using Amazon's CLI tool, =aws=.
 
 So my upload script was modified to include:
 
-```bash
+#+BEGIN_SRC sh
 
 aws s3 sync $TARGET  s3://www.courseguide.info/  --delete --only-show-errors
 
-```
+#+END_SRC
 
-And now everything (all my file types, including images, PDFs, etc)
-seem to be getting the right MIME type set in their meta-data, and all
-is good with my websites.
+And now everything (all my file types, including images, PDFs, etc) seem to be getting the right MIME type set in their meta-data, and all is good with my websites.

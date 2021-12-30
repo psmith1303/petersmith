@@ -1,21 +1,13 @@
-+++
-title = "Trajan"
-date = "2008-09-09T15:49:00+12:00"
-categories = ["Jottings"]
-slug = "trajan"
-draft = "False"
-+++
-I have a large number of documents that I need to "re-style' before I
-import them into [nVivo](https://www.qsrinternational.com/products_nvivo.aspx).
- I can import the necessary style into each document one-by-one, but I've
-been looking for a way to apply styles across multiple files (either
-all at once, or automatically/programmatically).
+#+title: Trajan
+#+slug: trajan
+#+date: 2008-09-09T15:49:00+12:00
+#+lastmod: 2008-09-09T15:49:00+12:00
+#+categories[]: Tech
+#+tags[]: Fonts
+#+draft: False
 
-As I trawled the web looking for a solution, I can across this amusing
-[rant](https://www.goodiebag.tv/episodes/06_trajan_is_the_movie_font.htm)
-against the font
-[Trajan](https://www.linotype.com/8565/trajanregular-font.html). Indeed, there
-is an entire website devoted to [retiring Trajan](https://www.retiretrajan.com/)
+I have a large number of documents that I need to "re-style' before I import them into [[https://www.qsrinternational.com/products_nvivo.aspx][nVivo]]. I can import the necessary style into each document one-by-one, but I've been looking for a way to apply styles across multiple files (either all at once, or automatically/programmatically).
 
-![Trajan](/images/trajan.jpg)
+As I trawled the web looking for a solution, I can across this amusing [[https://www.goodiebag.tv/episodes/06_trajan_is_the_movie_font.htm][rant]] against the font [[https://www.linotype.com/8565/trajanregular-font.html][Trajan]]. Indeed, there is an entire website devoted to [[https://www.retiretrajan.com/][retiring Trajan]]
 
+{{< img src="trajan.jpg" >}}

@@ -1,9 +1,9 @@
 #+title: Bye bye Confluence
+#+slug: bye-bye-confluence
 #+date: 2021-12-18T10:43:28+13:00
 #+lastmod: 2021-12-18T10:43:39+13:00
 #+categories[]: Tech
 #+tags[]: Confluence Wiki MGMT300 Teaching Mikesbikes
-#+slug: bye-bye-confluence
 #+draft: False
 
 I have been using a Confluence wiki space in my teaching of MGMT300 since at least 2013.

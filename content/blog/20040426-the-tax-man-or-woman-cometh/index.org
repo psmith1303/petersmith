@@ -1,9 +1,9 @@
 #+title: The tax man (or woman) cometh
+#+slug: the-tax-man-or-woman-cometh
 #+date: 2004-04-26T20:20:00+12:00
 #+lastmod: 2004-04-26T20:20:00+12:00
 #+categories[]: Home
 #+tags[]: Movies
-#+slug: the-tax-man-or-woman-cometh
 #+draft: False
 
 Some mail from the [[https://www.ird.govt.nz/][IRD]] finally caught up with me. I was +a little+ very surprised to find that that they felt I owed them about 7,700 in penalty tax, interest, etc. According to the tag line at the bottom of the statement, interest was accruing at 2.38 (which is about 11%---I wish I could get that from the bank). Now, of course, I felt that I probably didn't owe them anything (I tend to be a little bit obsessive about paperwork); but, I was troubled by the thought that I might.

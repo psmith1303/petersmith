@@ -1,48 +1,29 @@
-+++
-title = "My personal learning environment"
-date = "2009-12-16T08:59:00+12:00"
-categories = ["Productivity"]
-slug = "my-personal-learning-environment"
-draft = "False"
-+++
+#+title: My personal learning environment
+#+slug: my-personal-learning-environment
+#+date: 2009-12-16T08:59:00+12:00
+#+lastmod: 2009-12-16T08:59:00+12:00
+#+categories[]: Tech
+#+tags[]: Zotero  Firefox Chrome Productivity
+#+draft: False
+ +++
 
-[Jo Badge](https://drbadgr.wordpress.com/about/) talks a bit about her [personal
-learning environment](https://drbadgr.wordpress.com/tag/ple/), and so I thought
-I'd draft out mine. I'm really web-centric and spend most of time "in'
-[Firefox](https://www.mozilla.com/en-US/firefox/personal.html) (I sometimes
-think about switching to [Chrome](https://www.google.com/chrome), but I'm hooked
-on [Zotero](https://www.zotero.org/)).
+[[https://drbadgr.wordpress.com/about/][Jo Badge]] talks a bit about her [[https://drbadgr.wordpress.com/tag/ple/][personal learning environment]], and so I thought I'd draft out mine. I'm really web-centric and spend most of time "in' [[https://www.mozilla.com/en-US/firefox/personal.html][Firefox]] (I sometimes think about switching to [[https://www.google.com/chrome][Chrome]], but I'm hooked on [[https://www.zotero.org/][Zotero]]).
 
-![My personal learning environment](/images/My%20personal%20learning%20environment.png)
 
-I found it interesting to consider what is missing here ... there is no
-PowerPoint. I so rarely use "slides'; often all I have is a single
-slide so students coming into class know they are in the right place.
-Increasingly, when I need slides I'm trying/learning to do them using
-[Beamer](https://latex-beamer.sourceforge.net/). Having said that, for
-the odd complex set of ideas I do use 
-[MindManager](https://www.mindjet.com/) in presentation mode to show how
-I see the connections between things.
+{{< img src="My personal learning environment.png" title="My personal learning environment" >}}
 
-Since writing this, I've come across Hull, Pettifer, and Kell (2008).
-They present an interesting figure, which seems to show how much I can
-actually do in [Zotero](https://www.zotero.org/) (which is most of it).
+I found it interesting to consider what is missing here ... there is no PowerPoint. I so rarely use "slides'; often all I have is a single slide so students coming into class know they are in the right place. Increasingly, when I need slides I'm trying/learning to do them using [[https://latex-beamer.sourceforge.net/][Beamer]]. Having said that, for the odd complex set of ideas I do use [[https://www.mindjet.com/][MindManager]] in presentation mode to show how I see the connections between things.
 
-![Figure 4 workflow](/images/Figure4-workflow.PNG)
+Since writing this, I've come across Hull, Pettifer, and Kell (2008). They present an interesting figure, which seems to show how much I can actually do in [[https://www.zotero.org/][Zotero]] (which is most of it).
 
-> _Figure 4_. A typical workflow for using a digital library
-> representing a subset of the literature. Tasks represented by white
-> nodes are normally performed exclusively by humans, while tasks
-> shown in blue nodes can be performed wholly or partly by machines of
-> some kind. The main problematic tasks that make digital libraries
-> difficult to use for both machines and humans are "'GET'"
-> (publication) and '"GET METADATA''. These are shown in bold and
-> discussed further in the Identity Crisis section of this paper.
+{{< img src="Figure4-workflow.PNG" title="Figure 4: Workflow" >}}
 
-> doi:10.1371/journal.pcbi.1000204.g004
+#+BEGIN_QUOTE
 
-## References
+/Figure 4/. A typical workflow for using a digital library representing a subset of the literature. Tasks represented by white nodes are normally performed exclusively by humans, while tasks shown in blue nodes can be performed wholly or partly by machines of some kind. The main problematic tasks that make digital libraries difficult to use for both machines and humans are "'GET'" (publication) and '"GET METADATA''. These are shown in bold and discussed further in the Identity Crisis section of this paper.
 
-Hull, D., Pettifer, S. R., & Kell, D. B. (2008). Defrosting the digital
-library: Bibliographic tools for the next generation web.  _PLoS Comput Biol,
-4_(10), e1000204. doi:10.1371/journal.pcbi.1000204
+#+END_QUOTE
+
+* References
+
+Hull, D., Pettifer, S. R., & Kell, D. B. (2008). Defrosting the digital library: Bibliographic tools for the next generation web. /PLoS Comput Biol, 4/(10), e1000204. doi:10.1371/journal.pcbi.1000204

@@ -1,0 +1,30 @@
+#+title: Decision-making expertise
+#+slug: decision-making-expertise
+#+date: 2011-02-13T15:47:00+12:00
+#+lastmod: 2011-02-13T15:47:00+12:00
+#+categories[]: Teaching
+#+tags[]: Article
+#+draft: False
+
+Here are some notes from:
+
+#+BEGIN_QUOTE
+
+Yates, J. F., & Tschirhart, M. D. (2006). Decision-making expertise. In K. A. Ericsson, N. Charness, P. J. Feltovich, & R. R. Hoffman (Eds.), /The Cambridge handbook of expertise and expert performance/. Cambridge, UK: Cambridge University Press.
+
+#+END_QUOTE
+
+Yates has elsewhere defined a decision as "a commitment to a course of action that is intended to yield results that are satisfying for specified individuals" (2003, p. 24).
+
+When thinking about expertise in the context of decision-making, there are a number of ways one might identify /decision quality/.
+
+From the /satisfying-results perspective/, a high quality decision is one that achieves the intended results. Whereas, there are a number of argues why such view is unsatisfactory. One argument that I find compelling, in this regard, is that that decisions are made under conditions of uncertainty, and therefore any evaluation of a decision must focus on the stakes and the odds, rather than the outcome. And so, from the /coherence perspective/, a high quality decision is that is "logically coherent, inasmuch as it is not self-contradictory.
+
+However, that is easier said than done ... as all kinds of biases may enter the picture. For example, give a few cases, people may generalise a rule about those cases, but upon getting new (and contradictory cases) they will tend to discount/ignore the new cases. Given that decisions are often a social construction, and as a result people often conflate subject matter expertise with decision-making expertise.
+
+A different approach is that offered by the /process-decomposition perspective/. In this perspective the overall process of decision-making is 'decomposed' into individual elements. The argument being that, if all the elements are executed well the decision-making is likely to be good. Although t is hard to know how to effectively split decisions into elements, research in many fields have arrived at what is called the /cardinal decision issue perspective/. It looks something like:
+
+
+{{< img src="fig_ch24.f1.jpg" title="A big picture of the cardinal decision issue perspective" >}}
+
+Such an approach, as shown in the figure above, is often used in root-cause analysis.

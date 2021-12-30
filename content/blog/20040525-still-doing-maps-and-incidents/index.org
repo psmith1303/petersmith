@@ -1,0 +1,29 @@
+#+title: Still doing maps and incidents
+#+tags[]: MGMT301 Maps
+#+slug: still-doing-maps-and-incidents
+#+date: 2004-05-25T18:30:00+12:00
+#+lastmod: 2004-05-25T18:30:00+12:00
+#+categories[]: Teaching
+#+draft: False
+
+I had an really good conversation with a student today about maps and incidents. Alas, he didn't mention his name--and I forgot to ask, so the credit for much of this entry is due to the "un-named student".
+
+What's an incident? Well, basically it is an event. It has a point in time when it starts, and a point in time when it finished. You can describe the behaviour of people during the incident. An incident typically has outcomes (look back at the [[{{< relref "20040520-critical-incidents-and-maps" >}}][earlier]]) definition.) Usually the outcomes are positive, but sometimes they are negative--they tend to be positive because we are generally successful in most things we do (Darwinianism doesn't suffer fools). I think an event should be distinguished from an incident. An event is a something that happens a particular point in time. E.g. The television broke. Our stock price collapsed, The CFO hit the CEO -- in may ways an event is too brief to be an incident (in this context).
+
+So, a /specific/ team meeting is incident, and a /particular/ telephone call between team members is an incident. Decision making ability, isn't an incident--and decisions in general aren't incidents either. Feeling despondent, is not an incident (think, what was the event that triggered the feeling). Lacking leadership isn't an incident. Having said that, some things such as "doing MGMT 301", or "doing a BCom" are incidents; but I'd suggest that they are too big for this particular assignment.
+
+Doing an assignment is an incident. Having coffee is an incident. Thinking back to the event of "the CFO hit the CEO", it might be more useful to consider the incident that was the whole meeting where the hitting occurred. The outcome of the meeting might be that the CE stopped coming to meetings. There are lots of incidents to choose from; then it's just a matter of narrowing it down to a critical incident (again, go back to the [[{{< relref "20040520-critical-incidents-and-maps" >}}][earlier]] definition). Sometimes, (we hope and expect), a useful incident will already be (partially) documented--perhaps in a journal, or in one of the other assignments.
+
+And so to maps.
+
+"So, I did a search on AB/Inform for maps and it turned up too many references--I couldn't narrow them down to a manageable number of meaningful entries", said the student.
+
+Hmm, in an echo of lectures past I hear Emma talking about "Information overload, ambiguity, uncertainty, equivocality. Sounds like this person might have problems with the map being used for assignments... A mental-map is a model of the 'real' world we use to guide us through our lives. We have many maps that we use for different things. For example, if I want to go from the University of Auckland to Cornwall Park (assuming I know the addresses) then a copy of Wise's street map will do the job nicely. However, if I want to lay a fibre optic cable from the University to Cornwall Park I need a different sort of map --a map that shows many things the street map doesn't and doesn't have some of the features of a street map. Both maps are useful, but they are useful for different things. Of course, if I want to go from the University to Cornwall park, and I don't have a car, it might be that a bus map is better than a street map.
+
+Maps filter +out+ our perceptions of the real world. They bring some things into sharp relief and diminish the importance of other things. For example, if I'm a marketing major, when confronted by Mike's Bikes I may notice or attend to the marketing issues more than other aspects, because my map is a marketing map.
+
+Maps are the shortcuts we employ as we make sense of the world. Whenever we confront a situation, we automatically pull out a (mental) map to help guide us through a situation. When I want to drive from A to B, and I don't know how to get to B, I don't think "Hmm, what map should I use", I just grab my Wise's map from the back seat of the car. But maps aren't the real world--they are simplifications of it. So sometimes they are misleading. Thinking back to the example (in class) of the London Underground system, sometimes its quicker and easier to walk between stations even though it looks like a long way on the map (because the distortions in the map hide the real geographical separation between some stations).
+
+In the example above about searching AB/Inform, the student's map of how to do an assignment has certain features on it--how much research is needed, how many pages it should be, the structure of the assignment. (Interestingly, when it comes to assignments students will often seek to check that their map is correct by asking questions of the lectures--questions that check out if the features of the map fits; but many times we don't check out if the if the map itself is right for the occasion.)
+
+This is just some notes to help people along. They shouldn't rely on this notes in isolation --- the readings say much more about maps in much better ways then I can in the brief hour or so it's taken me to write this.

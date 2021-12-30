@@ -1,9 +1,9 @@
 #+title: Confusion reigns
+#+slug: confusion-reigns
 #+date: 2004-05-19T07:46:00+12:00
 #+lastmod: 2004-05-19T07:46:00+12:00
 #+categories[]: Home
-#+tags[] Psychodrama
-#+slug: confusion-reigns
+#+tags[]: Psychodrama
 #+draft: False
 
 I end up at a psychodrama class to night. I say /ended/ because I only popped in to drop off some books to the library at [[https://www.psychodrama.org.nz/atcp.html][ATCP]].

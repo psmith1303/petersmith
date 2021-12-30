@@ -1,8 +1,9 @@
 #+title: Roughing it
+#+slug: roughing-it
 #+date: 2004-07-11T12:58:00+12:00
+#+lastmod: 2004-07-11T12:58:00+12:00
 #+categories[]: Travel
 #+tags[]: EGOS London
-#+slug: roughing-it
 #+draft: False
 
 On my recent trip to [[https://www.egosnet.org/][EGOS]], Lisa and I spent a couple of days in the UK catching up the Lisa's family. Here I am with Malcolm, her brother-in-law, cooking at a BBQ in the "English' manner---that is to say in the pouring rain. It actually had been a lovely day up until we started to cook.

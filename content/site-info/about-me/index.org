@@ -1,6 +1,8 @@
 #+title: About me
 #+date: 2011-01-04T11:41:00+12:00
+#+lastmod: 2011-01-04T11:41:00+12:00
 #+categories[]: SiteInfo
+#+tags[]: SiteInfo
 #+slug: about-me
 #+draft: False
 #+weight: 100

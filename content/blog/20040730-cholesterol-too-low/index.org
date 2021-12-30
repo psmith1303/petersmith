@@ -1,9 +1,9 @@
 #+title: Cholesterol too low?
+#+slug: cholesterol-too-low
 #+date: 2004-07-30T09:41:00+12:00
 #+lastmod: 2004-07-30T09:41:00+12:00
 #+categories[]: Home
 #+tags[]: Fitness
-#+slug: cholesterol-too-low
 #+draft: False
 
 It's been three months since I last saw the doctor, so it was time for a check up today.

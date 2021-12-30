@@ -1,14 +1,12 @@
-+++
-title = "Tony Seba"
-date = "2007-02-28T21:56:00+12:00"
-categories = ["Research"]
-slug = "tony-seba"
-draft = "False"
-+++
-Spark, we had a brief seminar from [Tony Seba](https://www.tonyseba.com/ "Tony
-Seba's web site") today. He was presenting his research (that turned into his
-book _Winners take all: The 9 fundamental rules of high tech strategy_. He is a
-very suave and compelling speaker.
+#+title: Tony Seba
+#+slug: tony-seba
+#+date: 2007-02-28T21:56:00+12:00
+#+lastmod: 2007-02-28T21:56:00+12:00
+#+categories[]: Research
+#+tags[]: Strategy HighTech
+#+draft: False
+
+Spark, we had a brief seminar from [[https://www.tonyseba.com/][Tony Seba]] today. He was presenting his research (that turned into his book /Winners take all: The 9 fundamental rules of high tech strategy/. He is a very suave and compelling speaker.
 
 Here's a summary of the his main points:
 
@@ -22,6 +20,4 @@ Here's a summary of the his main points:
 - Rule 8: Design Products and Services That Are Easy to Adopt
 - Rule 9: You're Doing Well. Congratulations. Now Change or Die.
 
-Even in this rather terse format, there are a lot of lessons to be
-learnt (especially with number 3 for Chinataka).
-
+Even in this rather terse format, there are a lot of lessons to be learnt (especially with number 3 for Chinataka).

@@ -1,9 +1,9 @@
 #+title: Spelling
+#+slug: spelling
 #+date: 2004-03-13T10:18:00+12:00
 #+lastmod: 2004-03-13T10:18:00+12:00
 #+categories[]: Tech
 #+tags[]: MovableType Zempt
-#+slug: spelling
 #+draft: False
 
 Sometime the interface to [[https://www.movabletype.org/][MovableType]] can be a little hard to work with; especially for that simple task of creating a journal entry. I find a lot of spelling mistakes slip through. So, at the moment, I am trying out [[https://www.zempt.com/][MovableType]]. Zempt allows me to create the entry on my computer, /check the spelling/ and then upload the entry to my blog. I'll be interested to see how it works out.

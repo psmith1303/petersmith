@@ -1,0 +1,21 @@
+#+title: Adventures with TurnItIn
+#+slug: adventures-with-turnitin
+#+date: 2004-06-12T11:13:00+12:00
+#+lastmod: 2004-06-12T11:13:00+12:00
+#+categories[]: Teaching
+#+tags[]: Turnitin Plagiarism
+#+draft: False
+
+For the past three years, I've been using [[https://www.turnitin.com][TurnItIn]] with my classes as a means of improving the quality of students work. Besides using it as a tool to prevent plagiarism, I've been using the Peer Review option to allow students to see and comment on each others work. Feedback from students, and by looking at their marks, this has been generally successful. Recently, TurnItIn introduced an array of new products including [[https://www.turnitin.com/static/products_services/grademark.html][GradeMark]]™. According to the advertising blurb and what I read in the manuals, GradeMark should improves the process flow of marking and grading-- allowing lecturers to electronically mark-up assignments. I've trialled other products and have been generally impressed by their ability to facility the use of structured feedback--in the form of rubrics--and the way the speed up the marking process, whilst allowing greater feedback.
+
+So, it was with some excitement I set about marking a small set (30) of assignments from one of my classes. I spent a few hours setting up some generic rubrics that would apply to case analysis. This was probably too long but the documentation is weak in this area--it is a "how to" rather than a "why to" so it isn't always clear what needs to be done and why.
+
+Anyway, I sat down to start marking. It normally takes me between twenty and thirty minutes to mark this type of assignment. Oh dear--TurnItIn being web based, and me being in New Zealand resulted in some really long response times. Even a simple mark up, using the quick tags, e.g. "S" (spelling), could take 5 seconds or more. This is too long. The quick tags are almost exclusively geared towards typos, and there is no way to add to them. So even adding a comment like "Good" (or if I was using a pen and paper, a tick mark), meant at least two lots of 5 second delays. What aggravated the situation is that if, between delays, I scrolled ahead reading the document, then at the end of the fie seconds or so, I be repositioned back to where I was originally. No, those delays were here to stay.
+
+Now it isn't all bad. When I wanted to add an extended comment the delays had no real impact. But for the bulk of my comments (except at the end) tend to be rather small.
+
+After half a dozen essays I gave up. It was taking me nearly an hour to mark a single essay and I found that I wasn't giving the normal quality of feedback I like.
+
+So, I printed the rest of the out and marked them the old fashioned way.
+
+Que sera--it's important to try these things out. I hope the students don't' feel disadvantaged in anyway.

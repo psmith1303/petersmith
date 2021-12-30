@@ -1,24 +1,15 @@
-+++
-title = "VO2 max"
-date = "2012-02-03T08:39:00+12:00"
-categories = ["Fitness"]
-slug = "vo2-max"
-draft = "False"
-+++
-If you're serious about training for a sport, it can be really helpful
-to know you [VO2 max](https://en.wikipedia.org/wiki/VO2_max) and your
-[lactate
-threshold](https://www.sport-fitness-advisor.com/lactate-threshold.html).
+#+title: VO2 max
+#+slug: vo2-max
+#+date: 2012-02-03T08:39:00+12:00
+#+lastmod: 2012-02-03T08:39:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
 
-So, I'm off the University of Auckland's ["Health and Performance
-Clinic"](https://www.clinics.auckland.ac.nz/uoa/home/about/our-services/health-and-performance/).
-They are doing a special (until 1 March 2012), whereby you can get
-either test done for just $50 (the price of the consumables).
+If you're serious about training for a sport, it can be really helpful to know you [[https://en.wikipedia.org/wiki/VO2_max][VO2 max]] and your [[https://www.sport-fitness-advisor.com/lactate-threshold.html][lactate threshold]].
 
-But it gets better, if I can get 20 people to do it, then the cost will
-only be $45 for each test. How good is that.
+So, I'm off the University of Auckland's [[https://www.clinics.auckland.ac.nz/uoa/home/about/our-services/health-and-performance/]["Health and Performance Clinic"]]. They are doing a special (until 1 March 2012), whereby you can get either test done for just $50 (the price of the consumables).
 
-When you book (on 09 923 2541) just mention mention ["Daily
-Mile"](https://www.dailymile.com/people/PeterSmith) or ["Andrew is
-Getting fit"](https://www.andrewisgettingfit.com/).
+But it gets better, if I can get 20 people to do it, then the cost will only be $45 for each test. How good is that.
 
+When you book (on 09 923 2541) just mention mention [[https://www.dailymile.com/people/PeterSmith]["Daily Mile"]] or [[https://www.andrewisgettingfit.com/]["Andrew is Getting fit"]].

@@ -1,7 +1,7 @@
 #+title: Sociodrama
+#+slug: sociodrama
 #+date: 2004-03-11T14:23:00+12:00
 #+lastmod: 2004-03-11T14:23:00+12:00
-#+slug: sociodrama
 #+categories[]: Home
 #+tags[]: Psychodrama
 #+draft: False

@@ -1,9 +1,9 @@
 #+title: Why do you blog?
+#+slug: why-do-you-blog
 #+date: 2004-08-11T09:53:00+12:00
 #+lastmod: 2004-08-11T09:53:00+12:00
 #+categories[]: Teaching
 #+tags[]: MGMT301 Blogging
-#+slug: why-do-you-blog
 #+draft: False
 
 I was talking with [[https://web.archive.org/web/20070526211006/https://www.thereflectivepractitioner.org/armi/][Amit]] yesterday, and he was saying that he keeps on journalling/blogging because it forces him to reflect on what he has done. I think, like me, he finds it hard to be reflective in "the moment". No doubt a psychodramatist would refer to this an example of the cultural conserve inhibiting spontaneity.

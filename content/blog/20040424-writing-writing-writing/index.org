@@ -1,9 +1,9 @@
 #+title: Writing, writing, writing
+#+slug: writing-writing-writing
 #+date: 2004-04-24T20:45:00+12:00
 #+lastmod: 2004-04-24T20:45:00+12:00
 #+categories[]: Research
 #+tags[]: PhD
-#+slug: writing-writing-writing
 #+draft: False
 
 The title of this is a pun on "work, work, work" said by [[https://www.imdb.com/name/nm0000316/][Mel Brooks]] in [[https://www.imdb.com/title/tt0071230/][Blazing saddles]]. Of course he isn't doing any really work---but I was.

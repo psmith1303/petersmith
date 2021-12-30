@@ -1,60 +1,31 @@
-+++
-title = "Eye candy"
-date = 2018-05-21T18:10:50+12:00
-draft = "False"
-categories = [ 
-	"Blogging", 
-	]
-+++
+#+title: Eye candy
+#+slug: eye-candy
+#+date: 2018-05-21T18:10:50+12:00
+#+lastmod: 2018-05-21T18:10:50+12:00
+#+categories[]: Tech
+#+tags[]: Blogging
+#+draft: False
 
-There is, I believe, a lot of evidence that posts (be they on blogs
-like this, or other social media such as Facebook). As places such
-as [Edublogs](https://help.edublogs.org/add-images/) note that:
+There is, I believe, a lot of evidence that posts (be they on blogs like this, or other social media such as Facebook). As places such as [[https://help.edublogs.org/add-images/][Edublogs]] note that:
 
-> Images grab your readers attention and encourage them to read your
-> posts.
+#+BEGIN_QUOTE
 
-There are some suggestions that the effect can be
-huge. [This page](https://blogging.com/images-and-photos/) suggests
-that using images can "increase a blogs views by 95%" (whatever that
-means).
+Images grab your readers attention and encourage them to read your posts.
 
-Indeed, some folk, such as
-the
-[Social Media Examine](https://www.socialmediaexaminer.com/wp-content/uploads/2016/05/SocialMediaMarketingIndustryReport2016.pdf) are
-saying that images are not now enough and that videos are needed.
+#+END_QUOTE
 
-But often the images are little more than eye candy. They often only
-tangentially relate to the topic being written about. For example,
-today I was looking at the New Zealand Herald online, and article
-entitled "Banks swamped by 'unprecedented increase' in credit card
-fraud". The image used with the story is of a keyboard, a few credit
-cards, and a combination padlock. Huh! 
+There are some suggestions that the effect can be huge. [[https://blogging.com/images-and-photos/][This page]] suggests that using images can "increase a blogs views by 95%" (whatever that means).
 
-As I roam around the web so many sites seem to be using stock images
-to 'illustrate' their posts. But the images rarely add any value or
-meaning to the post. They're just eye candy.
+Indeed, some folk, such as the [[https://www.socialmediaexaminer.com/wp-content/uploads/2016/05/SocialMediaMarketingIndustryReport2016.pdf][Social Media Examine]] are saying that images are not now enough and that videos are needed.
 
-There are a raft to site giving advice, and software tools designed to
-help you find images on the wild-wild-web, to illustrate your posts.
-And there are also plenty of sites giving advice on how to use images
-in posts. See for
-example,
-[this post](https://www.toprankblog.com/2016/01/images-social-media/).
+But often the images are little more than eye candy. They often only tangentially relate to the topic being written about. For example, today I was looking at the New Zealand Herald online, and article entitled "Banks swamped by 'unprecedented increase' in credit card fraud". The image used with the story is of a keyboard, a few credit cards, and a combination padlock. Huh!
+
+As I roam around the web so many sites seem to be using stock images to 'illustrate' their posts. But the images rarely add any value or meaning to the post. They're just eye candy.
+
+There are a raft to site giving advice, and software tools designed to help you find images on the wild-wild-web, to illustrate your posts. And there are also plenty of sites giving advice on how to use images in posts. See for example, [[https://www.toprankblog.com/2016/01/images-social-media/][this post]].
 
 But where is the information on choosing images that really add value.
 
-I the past six months I have only used two images (besides the
-infrequently updated posts of my runs which
-have [maps](https://www.petersmith.org/running/)). The first image was
-of
-my [speed test results]({{< relref "20180521-faster-internet.md" >}})
-after I upgrade my Internet connection. The second was a test of using
-a image (that was very meaningful to me, but probably not to my
-readers) related
-to [writing]({{< relref "20180514-reflection.md" >}}). Is that enough,
-or is it too much.
+I the past six months I have only used two images (besides the infrequently updated posts of my runs which have [[https://www.petersmith.org/running/][maps]]). The first image was of my [[{{< relref "20180521-faster-internet" >}}][speed test results]] after I upgrade my Internet connection. The second was a test of using a image (that was very meaningful to me, but probably not to my readers) related to [[{{< relref "20180514-reflection" >}}][writing]]. Is that enough, or is it too much?
 
-If the image matters, the content should seem less without it. So, in
-one case, yes the image was good. In the other, I was just presenting
-my readers with a bit of eye candy.
+If the image matters, the content should seem less without it. So, in one case, yes the image was good. In the other, I was just presenting my readers with a bit of eye candy.

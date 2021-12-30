@@ -1,4 +1,5 @@
 #+title: Images and page bundles
+#+slug: images-and-page-bundles
 #+date: 2021-12-15T07:13:17+13:00
 #+lastmod: 2021-12-15T07:13:22+13:00
 #+categories[]: Tech

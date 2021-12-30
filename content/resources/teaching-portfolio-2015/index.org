@@ -1,7 +1,8 @@
 #+title: 2015 Teaching portfolio
 #+date: 2015-09-11T14:56:27+12:00
-#+lastmode: 2021-10-16T18:13:22+13:00
-#+categories[]: portfolio teaching
+#+lastmod: 2021-10-16T18:13:22+13:00
+#+categories[]: Teaching
+#+tags[]: Portfolio
 #+slug: teaching-portfolio-2015
 #+draft: false
 #+weight: 850
@@ -14,7 +15,9 @@ This portfolio documents and demonstrates my scholarship in teaching, especially
 My assertion is supported by my colleagues; for example:
 
 #+BEGIN_QUOTE
+
 Peter Smith is one of the most dedicated teachers I have ever met, if not the most dedicated. His ideas and innovations have inspired, and will inspire, my teaching practice. He is truly concerned about student learning and high academic standards --- /Dr Marc Orlitzky./
+
 #+END_QUOTE
 
 and through the words of students; for example:
@@ -22,19 +25,24 @@ and through the words of students; for example:
 #+BEGIN_QUOTE
 
 Peter has a genuine love of teaching his students new things. His approach towards them is a challenging and a forthright one, where he tries to evoke lateral thinking, rather than just textbook thinking. Coupled with a passion for the topic and a friendly outlook, Peter was able to motivate and encourage students to get more out of their learning --- /Mehreen Ahmed/.
+
 #+END_QUOTE
 
 I actively seek to improve my teaching. This is evident in four main ways: (1) I focus on the learning experiences of students, and the outcomes that arise from those experiences. This is achieved through (2) an orientation towards, and a valuing of, the scholarship of teaching. As a consequence, (3) *I continually seek to improve my teaching as evident in the teaching innovations I have developed, adopted, and promoted*. This allows me to (4) support and assist colleagues in enhancing their own teaching practice.
 
 #+BEGIN_QUOTE
+
 All my best innovations came from Peter Smith --- /Associate Professor Christine Woods/
+
 #+END_QUOTE
 
 
 I believe that once you have read this portfolio, you will agree with Professor of Lifelong Learning, Susan Geertshuis (Director of Learning and Teaching at the Graduate School of Management), who said:
 
 #+BEGIN_QUOTE
+
 Peter takes his teaching very seriously. He thinks deeply about what he is doing, reads the literature and has some firm opinions. *He is willing to take risks in an effort to innovate and is more than eager to share his ideas with others* --- /2014 peer evaluation of my teaching/.
+
 #+END_QUOTE
 
 The rest of this portfolio is structured as follows. First, I reflect upon my teaching re innovation, providing evidence of my efforts to improve teaching through innovation. Next, I expand on my purpose in teaching, my teaching goals and philosophy. An overview of my teaching provides a backdrop against with I provide evidence of my effectiveness in teaching, and in the achievement of learning outcomes.

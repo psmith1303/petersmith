@@ -1,9 +1,9 @@
 #+title: Shrek 2
+#+slug: shrek-2
 #+date: 2004-06-18T09:08:00+12:00
 #+lastmod: 2004-06-18T09:08:00+12:00
 #+categories[]: Arts
 #+tags[]: Movies
-#+slug: shrek-2
 #+draft: False
 
 Last night, on the spur of the moment, Lisa and I decided to go and see [[https://www.imdb.com/title/tt0298148/][Shrek 2]]. What a hoot. It was very funny film. There were so many in-jokes, allusions and references to other movies (e.g. a giant gingerbread man that was reminiscent of the Stay-Puft Marshmallow Man in [[https://www.imdb.com/title/tt0087332/][Ghost Busters]], which itself was a parody of the Pillsbury Dough Boy) I think the animation is the best I've seen. Look out for some of the details on Prince Charming (e.g. his mole, the way his clothes are rumpled, the movement of his hair). However, like many animated features there are times where the animation isn't up to the same high standard.

@@ -1,0 +1,13 @@
+#+title: Marking
+#+slug: marking
+#+date: 2004-05-29T11:58:00+12:00
+#+lastmod: 2004-05-29T11:58:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT301 MGMT302 Marking
+#+draft: False
+
+Well I spent a happy hour from 16:00 to 17:00 yesterday collecting the assignments from Commerce B, checking them against the class list, checking the class list against the TurnItIn results, and sorting them into teams ready for marking. That should only take 20 minutes or so, but because some things are missing it takes a whole hour. The complicating factors are that some people haven't handed the paper copy of their essay in and some haven't submitted it to TurnItIn. However, the main complicating factor is that some students /still/ aren't putting their company name on the coversheet.
+
+Perhaps next time, we should have students hand in their results from TurnItIn with their assignments. That way the matching will done automatically by the students, rather than by one of us. Anyway, I've taken the assignments of two teams home with me and have started marking.
+
+I've marking from MGMT 302 (Business Policy & Strategy) coming in on Monday so I have a strict schedule to meet if I'm going to get it all done in the required time.

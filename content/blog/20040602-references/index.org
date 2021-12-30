@@ -1,0 +1,14 @@
+#+title: References
+#+slug: references
+#+date: 2004-06-02T13:08:00+12:00
+#+lastmod: 2004-06-02T13:08:00+12:00
+#+categories[]: Learning
+#+tags[]: 
+#+draft: False
+
+Besides the recommend readings, some students are finding and using (in their assignments) other /excellent/ readings. They are using some real classics in the field. Based on that, I've decided to read at least one article that each student references (assuming I haven't read it already). The results so far have been mixed.
+
+- Some students are finding and using good articles, and using them well. They clearly understand the main message of the article and the limitations of the article. Hurrah!.
+- Others are selecting rather poor quality sources. E.g. Web sites (like this one[fn::There is nothing I say in class, or that I write here, that is worth citing (in an academic context). In class, and here, there are pointers to some good sources--but don't' waste time by referencing me. Go back and read the original articles to which I-refer.]), trivial "Letters to the editor" types of short pieces, and journals of dubious quality. Good, reliable sources, typically come from good journals (well respected) and the individual article is cited in many other articles (in other journals). Just [[https://www.google.com/][Googling]] three or four key words is unlikely to deliver up high quality sources. Nor will putting the same key words into [[https://ejournals.ebsco.com/][EBSOChost]]. The easiest way to find good sources is to start with a /known good article/ and read the articles that the good article cites, or search for articles that cite the good article. That, combined with keyword, searching is a much more effective technique.
+- A few are picking good articles and are making little on no sense of them, or even using the incorrectly. E.g. an article might say "Some people think that team rationality is important, but they are wrong. Much more important is X Y Z" and the whole article goes on to prove the authors point. Anyway, some students will take a 'sound bite' from the article, such as "rationality is important", and use it to support their point of view. This is bad research and bad writing.
+

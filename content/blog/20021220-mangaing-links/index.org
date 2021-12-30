@@ -1,9 +1,9 @@
 #+title: Managing Links
+#+slug: managing-links
 #+date: 2002-12-20T12:31:00+12:00
 #+lastmod: 2002-12-20T12:31:00+12:00
 #+categories[]: Tech
 #+tags[]: Productivity Movabletype
-#+slug: managing-links
 #+draft: False
 
 I've been looking for some way to manage my links from within MT. So far, no obvious way has come to light. There are some kludges to use "Categories" but that seems fraught with problems. So I have started looking for non MT solutions.

@@ -1,9 +1,9 @@
 #+title: Fitness Assessment
+#+slug: fitness-assessment
 #+date: 2002-12-19T17:25:00+12:00
 #+lastmod: 2002-12-19T17:25:00+12:00
 #+categories[]: Home
 #+tags[]: Fitness
-#+slug: fitness-assessment
 #+draft: False
 
 I had a fitness assessment at the university's [[https://www2.auckland.ac.nz/recreation/][Recreation Centre]] today. Here are the results.

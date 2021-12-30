@@ -1,6 +1,6 @@
 #+title: Emacs and macrons
 #+subtitle: A bit better typograghy
-#+author: Peter Smith
+#+slug: Emacs and macrons
 #+date: 2021-10-15T12:58:22+13:00
 #+lastmod: 2021-10-24T11:27:21+13:00
 #+categories[]: Tech

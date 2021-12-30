@@ -1,27 +1,25 @@
-+++
-title = "Doh!"
-date = "2007-06-10T17:34:00+12:00"
-categories = ["Research"]
-slug = "doh"
-draft = "False"
-+++
-From time to time, I find myself using some words too frequently. When
-this happens I turn to Word's thesaurus (good old F7).
+#+title: Doh!
+#+slug: doh
+#+date: 2007-06-10T17:34:00+12:00
+#+lastmod: 2007-06-10T17:34:00+12:00
+#+categories[]: Research
+#+tags[]: Writing
+#+draft: False
 
-Today, I unleashed the awesome power of Microsoft on "broad', and was
-rewarded with:
+From time to time, I find myself using some words too frequently. When this happens I turn to Word's thesaurus (good old F7).
 
-> Minor road, byroad side street, lane
+Today, I unleashed the awesome power of Microsoft on "broad', and was rewarded with:
 
-WTF? Then Lisa points out, I'm using the
-English thesaurus, and Word thinks I'm talking about a B-road (as
-opposed to main, or A-roads, such as the A1).
+#+BEGIN_QUOTE
+
+Minor road, byroad side street, lane
+
+#+END_QUOTE
+
+WTF? Then Lisa points out, I'm using the English thesaurus, and Word thinks I'm talking about a B-road (as opposed to main, or A-roads, such as the A1).
 
 What is odd, is that it doesn't list all the other meanings of broad.
 
 Switching to the US thesaurus gives me more of what I expected.
 
-Now, I wonder what the mechanism is to let Microsoft know of this
-feature---or will it remain forever causing English writers to
-say-_Doh!_
-
+Now, I wonder what the mechanism is to let Microsoft know of this feature---or will it remain forever causing English writers to say /Doh!/

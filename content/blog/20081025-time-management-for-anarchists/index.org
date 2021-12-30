@@ -1,14 +1,11 @@
-+++
-title = "Time Management for Anarchists"
-date = "2008-10-25T12:49:00+12:00"
-categories = ["Productivity"]
-slug = "time-management-for-anarchists"
-draft = "False"
-+++
-[Jim Munroe](https://nomediakings.org/about) has produced a very entertaining
-and helpful guide to time management.
+#+title: Time Management for Anarchists
+#+slug: time-management-for-anarchists
+#+date: 2008-10-25T12:49:00+12:00
+#+lastmod: 2008-10-25T12:49:00+12:00
+#+categories[]: Home
+#+tags[]: Productivity
+#+draft: False
 
-I really like it's counter-cultural style. So, if you have time check out his
-[time management for
-anarchists](https://nomediakings.org/vidz/time_management_for_anarchists_the_movie.html)
+[[https://nomediakings.org/about][Jim Munroe]] has produced a very entertaining and helpful guide to time management.
 
+I really like it's counter-cultural style. So, if you have time check out his [[https://nomediakings.org/vidz/time_management_for_anarchists_the_movie.html][time management for anarchists]]

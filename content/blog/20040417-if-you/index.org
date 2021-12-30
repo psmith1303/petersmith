@@ -1,9 +1,9 @@
 #+title: If you ...
+#+slug: if-you
 #+date: 2004-04-17T07:03:00+12:00
 #+lastmod: 2004-04-17T07:03:00+12:00
 #+categories[]: Home
 #+tags[]: Friday_fives
-#+slug: if-you
 #+draft: False
 
 And here is this week's [[https://www.fridayfive.org/][Friday Five]] (Okay, I've recycled an old one, as there is no new F5).

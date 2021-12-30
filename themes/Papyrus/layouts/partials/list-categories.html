@@ -1,9 +1,0 @@
-{{ $baseurl := .Site.BaseURL }}
-
-<div class="p-category">
-  {{ range .Params.categories }}
-      <a href="{{ $baseurl }}categories/{{ . | urlize }}">#{{ . }}</a>
-  {{ end }}
-  <a  href="{{ $baseurl }}{{ .Section | urlize}}/">#all</a></p>
-</div>
-

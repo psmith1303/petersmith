@@ -1,4 +1,5 @@
 #+title: The git go
+#+slug: the-git-go
 #+date: 2018-08-23T09:32:30+12:00
 #+lastmod: 2018-08-23T09:32:30+12:00
 #+categories[]: Tech

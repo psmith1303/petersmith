@@ -1,9 +1,10 @@
 #+title: Yippe and Taking a break
+#+tags[]: PhD
+#+tags[]: PhD
 #+date: 2004-08-31T20:21:00+12:00
 #+lastmod: 2004-08-31T20:21:00+12:00
 #+categories[]: Research
 #+slug: yippe-and-taking-a-break
-#+tags[]: PhD
 #+draft: False
 
 I've had had a letter from the [[https://www.auckland.ac.nz/postgraduate/][Graduate Centre]] that says I:

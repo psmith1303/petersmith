@@ -1,9 +1,9 @@
 #+title: Site updates
+#+slug: site-updates
 #+date: 2004-04-14T20:23:00+12:00
 #+lastmod: 2004-04-14T20:23:00+12:00
 #+categories[]: Tech
-#+tags[]: Blogging Wedsite
-#+slug: site-updates
+#+tags[]: Blogging Website
 #+draft: False
 
 I've made a couple of changes to the site. Firstly, on [[https://www.thereflectivepractitioner.org][The reflective practitioner]], I have arranged to display links to the first few new comments that have been made. This can be seen on the left hand side of the main [[https://www.thereflectivepractitioner.org][site]]. I've also changed the way entries from the individual blogs are aggregated and presented on the main site---this will hide some of my longer (and more tedious) entries.

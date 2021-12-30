@@ -1,5 +1,4 @@
-#+title: Markingdown markdown
-#+subtitle: Moving to orgmode
+#+title: Markingdown markdown: Moving to orgmode
 #+slug: markingdown-markdown
 #+date: 2020-07-21T12:00:00+13:00
 #+lastmod: 2021-12-12T13:10:12+13:00
@@ -11,21 +10,16 @@ I used to use ~Markdown~ a lot. But, increasingly, ~org-mode~ has taken over as 
 
 So, with this blog post, I am moving over to org-mode.
 
-The big question that I have yet to answer is, "Should I move my old
-posts from ~markdown~ to ~org-mode~ formatting? It would not be a
-trivial task, even with some scripting. Let's see how it goes :)
+The big question that I have yet to answer is, "Should I move my old posts from ~markdown~ to ~org-mode~ formatting? It would not be a trivial task, even with some scripting. Let's see how it goes :)
 
 
-As, something of a codicil, I also moved to the latest version of Hugo
-(0.74.2). This necessitated me going through and fixing/updating some
-of my templates around RSS handling and date formatting. Template
-debugging is no fun.
+As, something of a codicil, I also moved to the latest version of Hugo (0.74.2). This necessitated me going through and fixing/updating some of my templates around RSS handling and date formatting. Template debugging is no fun.
 
 Update <2020-09-20 Sun>: The date in header of a ~.org~ file (to work with Hugo) needs to look like this:
 
 #+BEGIN_SRC org
-#+title: Markingdown markdown
-#+subtitle: Moving to orgmode
+
+#+title: Markingdown markdown: Moving to orgmode
 #+date: <2020-07-21 Tue>
 #+categories[]: blogging technology
 
@@ -36,12 +30,12 @@ Note the brackets and the day of the week. This is how most dates in org-mode ar
 Update of the Update <2021-12-12 Sun>: The date in header of a ~.org~ file (to work with Hugo) really needs to look like this:
 
 #+BEGIN_SRC org
-#+title: Markingdown markdown
-#+subtitle: Moving to orgmode
+
+#+title: Markingdown markdown: Moving to orgmode
 #+date: 2020-07-21T12:00:00+13:00
 #+categories[]: Tech
 #+tags[] Blogging Markdown Orgmode Hugo
 
 #+END_SRC
 
-And I have moved to new tags and categories
+And I have moved to new tags and categories.

@@ -1,8 +1,9 @@
 #+title: Googling
-#+date: 2004-07-11T12:30:00+12:00
-#+categories[]: Tech
-#+tags[]: Blogging
 #+slug: googling
+#+date: 2004-07-11T12:30:00+12:00
+#+lastmod: 2004-07-11T12:30:00+12:00
+#+categories[]: Tech
+#+tags[]: Blogging Robots.txt
 #+draft: False
 
 I see that [[https://www.thereflectivepractitioner.org/armi/][Amit]] has an [[https://www.thereflectivepractitioner.org/armi/archives/000383.html][interesting]] comment on Google. He says that:

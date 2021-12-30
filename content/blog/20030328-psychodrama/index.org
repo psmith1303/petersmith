@@ -1,9 +1,9 @@
 #+title: Psychodrama
+#+slug: psychodrama
 #+date: 2003-03-28T09:36:00+12:00
 #+lastmod: 2003-03-28T09:36:00+12:00
 #+categories[]: Home
 #+tags[]: Psychodrama Moreno
-#+slug: psychodrama
 #+draft: False
 
 Well I have signed up for an introductory course (well they call it the /Core curriculum/)in [[https://www.psychodrama.org.nz][psychodrama]].  It will be interesting to see what happens.

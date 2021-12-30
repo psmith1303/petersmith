@@ -1,14 +1,12 @@
-+++
-date = "2016-03-26T18:59:26+12:00"
-title = "Autonomous cars"
-slug = "autonomous cars"
-categories = ["Technology"]
-draft = "False"
-+++
+#+date: 2016-03-26T18:59:26+12:00
+#+slug: autonomous cars
+#+lastmod: 2016-03-26T18:59:26+12:00
+#+title: Autonomous cars
+#+categories[]: Research
+#+tags[]: Conferences ISPIM
+#+draft: False
 
-One of the presentations at ISPIM in Boston was by [Nicole Mace](https://www.linkedin.com/in/nichole-mace-44bb65) from [Zip Car](https://www.zipcar.com/). She said a lot of interesting things and, off the back of her comment about Zip Car being bout by Avis, it got me thinking about the nature of the disruption this innovation may create.
-
-<!--more-->
+One of the presentations at ISPIM in Boston was by [[https://www.linkedin.com/in/nichole-mace-44bb65][Nicole Mace]] from [[https://www.zipcar.com/][Zip Car]]. She said a lot of interesting things and, off the back of her comment about Zip Car being bout by Avis, it got me thinking about the nature of the disruption this innovation may create.
 
 To frame these ideas, let's imagine a world where Zip Car comes in several flavours, say, Zip Car City, Zip Car Lux, Zip Car Family. That is to say, their fleet consists of several different ranges of cars (from small city car, through UTEs, to luxury cars) and one can subscribe to different pools of cars depending on one's needs. Let's also assume the fleet if electricity powered and driver-less.
 
@@ -28,9 +26,9 @@ To frame these ideas, let's imagine a world where Zip Car comes in several flavo
 
 8. Ride times will be a bit shorter. All the cars in the network will know (a) the state of the traffic, and (b) the routes of all the other cars. This will allow them to take optimal routes between destinations.
 
-So where is the tipping before this makes a material difference on the roads. Many car manufactures seem to be betting on having driverless cars by 2020. Firms like Zip Cars could be the largest purchasers of this new technology as they can effectively amortize the cost across the most users. I think we will be seeing the effects in the next 10 years. 
+So where is the tipping before this makes a material difference on the roads. Many car manufactures seem to be betting on having driverless cars by 2020. Firms like Zip Cars could be the largest purchasers of this new technology as they can effectively amortize the cost across the most users. I think we will be seeing the effects in the next 10 years.
 
-What might be needed to expedite this. First, some kind of charging network or automatic battery exchange service.  Secondly, ... mmm, I'm not sure that is a second item.
+What might be needed to expedite this. First, some kind of charging network or automatic battery exchange service. Secondly, ... mmm, I'm not sure that is a second item.
 
 So to some up. If this takes off then there will be significant changes in the demand for cars, the nature and need for parking, car insurance may become a thing of the past, as would public transport and independent garages (mechanics).
 

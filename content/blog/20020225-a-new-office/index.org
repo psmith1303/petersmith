@@ -1,9 +1,9 @@
 #+title: A new office
+#+slug: a-new-office
 #+date: 2002-02-25T15:19:00+12:00
 #+lastmod: 2002-02-25T15:19:00+12:00
 #+categories[]: Research Teaching
 #+tags[]: Takapuna
-#+slug: a-new-office
 #+draft: False
 
 I spent part of the morning doing research. The end result---I've have a dozen books from the library, on business simulations. /That should keep me busy for the rest of the week/.

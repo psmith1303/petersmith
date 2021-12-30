@@ -1,9 +1,9 @@
 #+title: Girl with a Pearl Earring
+#+slug: girl-with-a-pearl-earring
 #+date: 2004-04-11T22:52:00+12:00
 #+lastmod: 2004-04-11T22:52:00+12:00
 #+categories[]: Arts
 #+tags[]: Movies
-#+slug: girl-with-a-pearl-earring
 #+draft: False
 
 We went and saw [[https://www.imdb.com/title/tt0335119/][Girl with a Pearl Earring]] today. Lisa's read the [[https://www.amazon.com/exec/obidos/tg/detail/-/0452282152][book]] and was pretty happy with the film adaptation. However, she did point out that a few important parts of the book were missing; for example, the opening scene with the plate of vegetables---that all makes sense if you know that Vermeer hires Griet because of her arrangement (and its explanation) of the vegetables.

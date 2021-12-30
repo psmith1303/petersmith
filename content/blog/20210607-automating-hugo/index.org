@@ -1,31 +1,33 @@
 #+title: Automating Hugo
+#+slug:  %(format "%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
 #+slug: automating-hugo
-#+date:  2021-06-07T11:55:00+13:00
-#+lastmod:  2021-06-07T11:55:00+13:00
+#+date: 2021-06-07T11:55:00+13:00
+#+lastmod: 2021-06-07T11:55:00+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Hugo Emacs
 #+draft: Flase
 
 I've been kind of unhappy with my current way of creating post. It has gotten rather messy, and so I spent some time making things a bit easier --- at least in terms of creating posts.
 
-This isn't the first time I've looked at this issue. From awhile ago, see [{{% ref "20161121-automating-hugo.md" %}}][this post]] and [{{% ref "20161121-automating-hugo-part-2.md" %}}][that post].
+This isn't the first time I've looked at this issue. From awhile ago, see [{{% ref "20161121-automating-hugo" %}}][this post]] and [{{% ref "20161121-automating-hugo-part-2" %}}][that post].
 
 First off, I have a function to create the title of the post.
 
-#+BEGIN_SRC elisp
-  (defun ps/create-hugo-post-file (&optional post-type)
-    "Create a blog org-file in ps/data + path-to-blog"
-	(interactive)
-	(unless post-type (setq post-type "blog"))
-	(setq ps/post-title (read-from-minibuffer "Title: "))
-	(let* ((filename (concat (read-from-minibuffer "Filename: "
-			 (replace-regexp-in-string "-\\.org" ".org"
-						   (concat (format-time-string "%Y%m%d-")
-							   (downcase
-							    (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title))
-							   ".org"))))))
+#+BEGIN_SRC emacslisp
 
-	  (expand-file-name filename (concat ps/hugo-post-dir post-type "/"))))
+(defun ps/create-hugo-post-file (&optional post-type)
+  "Create a blog org-file in ps/data + path-to-blog"
+      (interactive)
+      (unless post-type (setq post-type "blog"))
+      (setq ps/post-title (read-from-minibuffer "Title: "))
+      (let* ((filename (concat (read-from-minibuffer "Filename: "
+                       (replace-regexp-in-string "-\\.org" ".org"
+                                                 (concat (format-time-string "%Y%m%d-")
+                                                         (downcase
+                                                          (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title))
+                                                         ".org"))))))
+
+        (expand-file-name filename (concat ps/hugo-post-dir post-type "/"))))
 
 #+END_SRC
 
@@ -33,21 +35,23 @@ Not knowing much elisp, it's probably a bit clunky. But it does work.
 
 Then I added these lines into my ~org-capture-templates~ definitions.
 
-#+BEGIN_SRC elisp
-  ("h" "Hugo Templates")
-  ("hb" "Blog post" plain (file (lambda() (ps/create-hugo-post-file "blog")))
+#+BEGIN_SRC emacslisp
+
+("h" "Hugo Templates")
+("hb" "Blog post" plain (file (lambda() (ps/create-hugo-post-file "blog")))
    (file ,(concat ps-org-files "Org/tpl-hugo-post.txt")))
-  ("hj" "Journal post" plain (file (lambda() (ps/create-hugo-post-file "journal")))
+("hj" "Journal post" plain (file (lambda() (ps/create-hugo-post-file "journal")))
    (file ,(concat ps-org-files "Org/tpl-hugo-post.txt")))
+
 #+END_SRC
 
 It took some faffing around, and I couldn't quite make the ~ps/create-hugo-post-file~ work right. I kept getting an error, saying ~org-capture-expand-file: Invalid file location: nil~. Grrr. But the ~lambda()~ trick seems to have sorted that. I don't understand why ... I've more reading to do on that.
 
 Finally, as my template string was getting big, I created a file ~tpl-hugo-post.txt~ to make managing it easier. it looks like this (and includes some dummy text):
 
-#+BEGIN_SRC elisp
+#+BEGIN_SRC emacslisp
+
 #+title: %(format "%s" ps/post-title)
-#+slug:  %(format "%s" (downcase (replace-regexp-in-string "[^a-z0-9]+" "-" ps/post-title)))
 #+date:  "%t"
 #+draft: false
 #+categories[]: %^{Categories|technology|it|research|the-arts|blogging|jottings|productivity|learning|teaching}

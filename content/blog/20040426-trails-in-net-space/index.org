@@ -1,9 +1,9 @@
 #+title: Trails in net space
+#+slug: trails-in-net-space
 #+date: 2004-04-26T22:24:00+12:00
 #+lastmod: 2004-04-26T22:24:00+12:00
 #+categories[]: Tech
 #+tags[]: Webstats
-#+slug: trails-in-net-space
 #+draft: False
 
 I think I mentioned before that most people who run web sites are curious about the "source" of their visitors. Well here is an abbreviated list of where people are coming from (This is just a list of the most popular launching points---no particular order).

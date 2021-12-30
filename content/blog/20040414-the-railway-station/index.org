@@ -1,9 +1,9 @@
 #+title: The railway station
+#+slug: the-railway-station
 #+date: 2004-04-14T22:53:00+12:00
 #+lastmod: 2004-04-14T22:53:00+12:00
 #+categories[]: Arts
 #+tags[]: Architecture
-#+slug: the-railway-station
 #+draft: False
 
 Did you know you can have photos in your blog? It is pretty easy. Just choose "Upload file" from the main menu (that is is, if you have a blog here).

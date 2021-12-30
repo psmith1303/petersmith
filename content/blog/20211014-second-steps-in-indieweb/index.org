@@ -1,5 +1,5 @@
 #+title: Second Steps in IndieWeb
-#+author: Peter Smith
+#+slug: second-steps-in-indieweb
 #+date: 2021-10-14T18:53:21+13:00
 #+lastmod: 2021-10-14T21:09:41+13:00
 #+categories[]: Tech
@@ -11,6 +11,7 @@ After [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][my firs
 He said:
 
 #+BEGIN_QUOTE
+
 Hello Peter Smith, How going? I also using Hugo, the getting webmention response working is easier if using a javascript called as [[https://github.com/PlaidWeb/webmention.js/][PlaidWeb/webmention.js]]
 
 Some tips from my experience

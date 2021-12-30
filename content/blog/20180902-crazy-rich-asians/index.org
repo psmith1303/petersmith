@@ -1,7 +1,8 @@
 #+title: Crazy Rich Asians
+#+slug: crazy-rich-asians
 #+date: 2018-09-02T16:57:58+12:00
 #+lastmod: 2018-09-02T16:57:58+12:00
-#+categories[]:Arts
+#+categories[]: Arts
 #+tags[]: Movies
 #+draft: False
 

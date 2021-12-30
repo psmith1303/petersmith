@@ -1,13 +1,11 @@
-+++
-title = "More about Orcon"
-date = "2007-09-24T09:21:00+12:00"
-categories = ["IT"]
-slug = "more-about-orcon"
-draft = "False"
-+++
-In my quest to sort out what I think might be international bandwidth
-limitations, I've been passed on to level-2 support (whatever that
-is).
+#+title: More about Orcon
+#+slug: more-about-orcon
+#+date: 2007-09-24T09:21:00+12:00
+#+lastmod: 2007-09-24T09:21:00+12:00
+#+categories[]: Tech
+#+tags[]: Speedtest
+#+draft: False
 
-Anyway, in case I forget their number it is 0800 55--2000
+In my quest to sort out what I think might be international bandwidth limitations, I've been passed on to level-2 support (whatever that is).
 
+Anyway, in case I forget their number it is 0800 55 2000

@@ -1,9 +1,9 @@
 #+title: Bookmarklets
+#+slug: bookmarklets
 #+date: 2002-12-18T17:17:00+12:00
 #+lastmod: 2002-12-18T17:17:00+12:00
 #+categories[]: Tech
 #+tags[]: Bookmarklets
-#+slug: bookmarklets
 #+draft: False
 
 I'm hooked on bookmarklets.

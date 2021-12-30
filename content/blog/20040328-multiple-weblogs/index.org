@@ -1,9 +1,9 @@
 #+title: Multiple weblogs
+#+slug: multiple-weblogs
 #+date: 2004-03-28T08:31:00+12:00
 #+lastmod: 2004-03-28T08:31:00+12:00
 #+categories[]: Tech
 #+tags[]: SQL Blogging
-#+slug: multiple-weblogs
 #+draft: False
 
 I've spent a happy few hours merging two weblogs together. At first I thought it would be as easy as [[https://www.phpmyadmin.net/][changing]] a few [[https://www.mysql.com/][SQL]] tables.

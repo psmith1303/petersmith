@@ -1,10 +1,9 @@
-#+title: First note
-#+subtitle: Building out my space in the IndieWeb
+#+title: First note: Building out my space in the IndieWeb
 #+slug: first-note
 #+date: 2021-10-23T13:22:38+13:00
 #+lastmod: 2021-10-23T13:22:44+13:00
-#+categories[]: blogging it
-#+tags[]: emacs
+#+categories[]: Tech
+#+tags[]: Emacs Notes
 #+draft: false
 
 Well, to misquote Eccels, "Everybody gotta be somewhere!" and this is where I am.
@@ -16,13 +15,15 @@ This is going to be something of a journey over the week, and I'm not sure how l
 I have tried the first part---IndieWeb---with some success already. But it is a bit of a kludge on my existing site. Hence me starting with a clean slate, and doing:
 
 #+BEGIN_SRC sh
-  psmith> hugo new site IndieWeb
 
-  psmith> hugo new theme Papyrus
+hugo new site IndieWeb
+
+hugo new theme Papyrus
+
 #+END_SRC
 
 
-I'll then build out ~Papyrus~ to be fit for purpose.
+I'll then build out =Papyrus= to be fit for purpose.
 
 The next step will be to put the infrastructure in place so that Webmentions work.
 

@@ -1,46 +1,45 @@
-+++
-title = "Farewelling a fine feline friend, Fred"
-date = "2009-08-17T18:30:00+12:00"
-categories = ["Jottings"]
-slug = "farewelling-a-fine-feline-friend-fred"
-draft = "False"
-+++
-![P1002041.jpg](/images/P1002041.jpg)
+#+title: Farewelling a fine feline friend, Fred
+#+slug: farewelling-a-fine-feline-friend-fred
+#+date: 2009-08-17T18:30:00+12:00
+#+lastmod: 2009-08-17T18:30:00+12:00
+#+categories[]: Home
+#+tags[]: Cats
+#+draft: False
+
+{{< img src="P1002041.jpg" title="Fred" >}}
 
 Fred (born 6 Oct 1997), gone but not forgotten.
 
--   Fitting into a photocopier box (with Ginger and room to-spare).
--   Walking along the fence for the first time with question-mark
-    tails, and wondering if they'll every come-back.
--   Chasing around in a circle after a-stick.
--   Being hit by a car, and wondering if he'll survive. He was so wet
-    and bloody.
--   Sleeping on the bed (and especially on top of-Lisa)
--   Laying on the couch-back.
--   Sitting in the window looking at the-world.
--   Catching some sun. He always knew where the heat-was.
--   Spending time (days) at Maureen's. She misses him-too.
--   Being very quiet and stealthy.
--   Catching birds and rats. A skilled and efficient hunter (when he
-    wanted to-be).
--   Catching worms (just the once), his (and Ginger's first-catch).
--   Making us worry; waiting for days for him to turn up (around
-    Maureen's probably); but only in summer.
--   Taking over Ginger's place in the letter-tray.
--   Sleeping on Lisa's in-progress quilts.
--   Trotting across the grass; watching him from the living-room
-    window.
--   Splashing water all over the place when drinking; dewy droplets on
-    his-nose.
--   The little scar by his-eye.
--   His black, black-paws.
--   His super fine fur that was almost un-comb-able.
--   The funny little trill he would make when hungry.
--   Standing on his rear legs, at the bench when food was being served.
--   Eventually deciding that sitting on/with people was okay (only
-    in the last eight months).
--   Being a old gentleman, and climbing onto furniture, rather than
-    jumping.
+- Fitting into a photocopier box (with Ginger and room to-spare).
+- Walking along the fence for the first time with question-mark tails,
+  and wondering if they'll every come-back.
+- Chasing around in a circle after a-stick.
+- Being hit by a car, and wondering if he'll survive. He was so wet and
+  bloody.
+- Sleeping on the bed (and especially on top of-Lisa)
+- Laying on the couch-back.
+- Sitting in the window looking at the-world.
+- Catching some sun. He always knew where the heat-was.
+- Spending time (days) at Maureen's. She misses him-too.
+- Being very quiet and stealthy.
+- Catching birds and rats. A skilled and efficient hunter (when he
+  wanted to-be).
+- Catching worms (just the once), his (and Ginger's first-catch).
+- Making us worry; waiting for days for him to turn up (around Maureen's
+  probably); but only in summer.
+- Taking over Ginger's place in the letter-tray.
+- Sleeping on Lisa's in-progress quilts.
+- Trotting across the grass; watching him from the living-room window.
+- Splashing water all over the place when drinking; dewy droplets on
+  his-nose.
+- The little scar by his-eye.
+- His black, black-paws.
+- His super fine fur that was almost un-comb-able.
+- The funny little trill he would make when hungry.
+- Standing on his rear legs, at the bench when food was being served.
+- Eventually deciding that sitting on/with people was okay (only in the
+  last eight months).
+- Being a old gentleman, and climbing onto furniture, rather than
+  jumping.
 
 You're sadly (and fondly) missed Fred.
-

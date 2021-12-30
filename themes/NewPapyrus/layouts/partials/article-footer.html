@@ -20,4 +20,45 @@
       {{ end }}
     </ul>
   </div>
+  <section  aria-labelledby="header-webmentions">
+    <form aria-label="Submit your mention URL" id="webmention-form" action="https://webmention.io/petersmith.org/webmention" method="POST" >
+      <fieldset>
+	<legend id="mention-legend"><small>If you <a href="https://indieweb.org/webmention">webmention</a> this page, please enter the URL of your page.</small></legend>
+	<input name="target" value="{{ .Permalink }}" type="hidden">
+	<input id="mention-source" class="input" name="source" placeholder="Your page's URL" required="required" size="50">
+	<button type="submit" aria-describedby="mention-legend">Submit</button>
+ <small><strong>BTW: </strong>Your <em>webmention</em> won't show up until I next "build" my site.</small>
+      </fieldset>
+     
+    </form>
+    <details aria-labelledby="mentions-summary">
+      <summary id="mentions-summary">There  are 5 mentions of this post&hellip;</summary>
+      <ul aria-labelledby="header-webmentions">
+	<li role="comment">
+          <a href="https://takeonrules.com/2021/06/07/amplifying-the-blogosphere-v2021-06-07/" rel="nofollow">Amplifying the Blogosphere (v2021-06-07)</a>
+          by
+          Jeremy Friesen
+	</li>
+	<li role="comment">
+          <a href="https://twitter.com/OSRBlogosphere/status/1401934071240986624" rel="nofollow">twitter.com</a>
+          by
+          <a href="https://twitter.com/OSRBlogosphere" rel="nofollow">OSRBlogosphere</a>
+	</li>
+	<li role="comment">
+          <a href="https://takeonrules.com/2021/06/08/further-molding-emacs-to-reinforce-habits/" rel="nofollow">Further Molding Emacs to Reinforce Habits</a>
+          by
+          Jeremy Friesen
+	</li>
+	<li role="comment">
+          <a href="https://irreal.org/blog/?p=9752" rel="nofollow">irreal.org</a>
+	</li>
+	<li role="comment">
+          <a href="https://takeonrules.com/2021/06/11/amplifying-the-blogosphere-v2021-06-11/" rel="nofollow">Amplifying the Blogosphere (v2021-06-11)</a>
+          by
+          Jeremy Friesen
+	</li>
+      </ul>
+    </details>
+  </section>  
+  
 </div>

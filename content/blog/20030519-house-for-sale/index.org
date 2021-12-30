@@ -1,9 +1,9 @@
 #+title: House for sale
+#+slug: house-for-sale
 #+date: 2003-05-19T21:30:00+12:00
 #+lastmod: 2003-05-19T21:30:00+12:00
 #+categories[]: Home
 #+tags[]: Moving
-#+slug: house-for-sale
 #+draft: False
 
 We've decided to sell our house. We've engaged an agent and now we're sitting back waiting for the qualified buyers to start rolling in. However, before signing on the dotted line we both read /Don't sign anything/ by Neil Jenman. It is a very interesting tail of how some real estate agents operate. It opened our eyes to many practices that could be considered suspect, if not down-right fraudulent.

@@ -1,9 +1,9 @@
 #+title: Nurses at Auckland Hospital
+#+slug: nurses-at-auckland-hospital
 #+date: 2004-05-08T14:51:00+12:00
 #+lastmod: 2004-05-08T14:51:00+12:00
 #+categories[]: Home
 #+tags[]: Health
-#+slug: nurses-at-auckland-hospital
 #+draft: False
 
 Just a big thanks to all the nurses at Auckland Hospital---they were truly marvellous.

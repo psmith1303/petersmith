@@ -1,25 +1,21 @@
-+++
-title = "Under the Grand Chapiteau"
-date = "2007-02-17T19:06:00+12:00"
-categories = ["Out and about"]
-slug = "under-the-grand-chapiteau"
-draft = "False"
-+++
-We went and saw Cirque du Soleil. Actually, there were quite a few of
-us from the University who went. It's nice to get out as a bit of a
-group.
+#+title: Under the Grand Chapiteau
+#+slug: under-the-grand-chapiteau
+#+date: 2007-02-17T19:06:00+12:00
+#+lastmod: 2007-02-17T19:06:00+12:00
+#+categories[]: Arts
+#+tags[]: Theatre
+#+draft: False
 
-What did I enjoy the most---the people on the swings at the end. I do
-enjoy flying through the air myself, and I'd really like to try those
-swings.
+We went and saw Cirque du Soleil. Actually, there were quite a few of us from the University who went. It's nice to get out as a bit of a group.
 
-Lisa asked if anyone has written a case on Cirque du Soliel. I'm
-aware of one in:
+What did I enjoy the most---the people on the swings at the end. I do enjoy flying through the air myself, and I'd really like to try those swings.
 
-> De Wit, B., <span class="amp">&</span> Meyer, R. (1998).
-_Strategy process, content, context: An international perspective (2nd ed.)_.
-Minneapolis, MN: Thompson Learning.
+Lisa asked if anyone has written a case on Cirque du Soliel. I'm aware of one in:
 
-And I think Yvon Dufour (who is about to join the Business School) has
-also worked with them.
+#+BEGIN_QUOTE
 
+De Wit, B., & Meyer, R. (1998). /Strategy process, content, context: An international perspective (2nd ed.)/. Minneapolis, MN: Thompson Learning.
+
+#+END_QUOTE
+
+And I think Yvon Dufour (who is about to join the Business School) has also worked with them.

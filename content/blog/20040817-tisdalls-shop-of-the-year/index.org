@@ -1,9 +1,9 @@
 #+title: Tisdalls - shop of the year
+#+slug: tisdalls-shop-of-the-year
 #+date: 2004-08-17T08:56:00+12:00
 #+lastmod: 2004-08-17T08:56:00+12:00
 #+categories[]: Home
 #+tags[]: Fitness
-#+slug: tisdalls-shop-of-the-year
 #+draft: False
 
 I've been exchanging a few emails with Richard [[https://www.tisdalls.co.nz/][Tisdall]] regarding the "unreliable' stepmeter, that I replaced. He has been concerned by the problem and very helpful in dealing with it. People sometimes complain that Kiwi's don't know how to /do/ customer service, but I think my experiences with Tisdalls shows that some Kiwis give outstanding customer service.

@@ -1,9 +1,9 @@
 #+title: OK
+#+slug: ok
 #+date: 2004-05-20T20:01:00+12:00
 #+lastmod: 2004-05-20T20:01:00+12:00
 #+categories[]: Teaching
 #+tags[]: Blogging
-#+slug: ok
 #+draft: False
 
 The final word in [[https://www.thereflectivepractitioner.org/armi/][Armi's]] [[https://www.thereflectivepractitioner.org/armi/archives/000345.html][journal entry]] was "OK". That brought back some strong memories from last night's psychodrama training. One group member, the protagonist, had just finished saying a rather long and deep piece, and at the end of it the director simply said "OK".

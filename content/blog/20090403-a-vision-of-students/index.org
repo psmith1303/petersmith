@@ -1,0 +1,11 @@
+#+title: A vision of students
+#+slug: a-vision-of-students
+#+date: 2009-04-03T13:57:00+12:00
+#+lastmod: 2009-04-03T13:57:00+12:00
+#+categories[]: Teaching
+#+tags[]: Students
+#+draft: False
+
+I was wondering if my students see the world in a similar way to these students ...
+
+{{< youtube dGCJ46vyR9o >}}

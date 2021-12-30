@@ -1,9 +1,9 @@
 #+title: Pigeon-holing
+#+slug: pigeon-holing
 #+date: 2004-05-08T14:49:00+12:00
 #+lastmod: 2004-05-08T14:49:00+12:00
 #+categories[]: Home
 #+tags[]: Health Professions
-#+slug: pigeon-holing
 #+draft: False
 
 Whilst I was in hospital, or soon after, I heard a piece on the radio about [[https://www.scoop.co.nz/mason/stories/GE0405/S00035.htm][errors]] in

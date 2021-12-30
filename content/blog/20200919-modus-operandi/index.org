@@ -7,7 +7,7 @@
 #+tags[]: Blogging Emacs Orgmode
 #+draft: False
 
-* Tweaking Emacs and Org-mode
+** Tweaking Emacs and Org-mode
 
   I have been trying to get Org Mode to work with a variable-pitch font, when I stumbled across the videos and website of [[https://protesilaos.com/codelog/2020-08-26-modus-themes-0-12-0/][Protesilaos Stavrou]]. Amongst all the 'gold' I found there, was the themes he has developed, Modus Operandi and Modus Vivendi. The first is a light coloured theme, whereas the other is a dark theme. I've been using a dark theme for a long time (I don't know how long), but the elegance of his themes had me switching, first to Modus Vivendi, and then to Modus Operandi. It's rather nice.
 

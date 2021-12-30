@@ -1,14 +1,12 @@
-+++
-date = "2016-05-24T20:50:26+12:00"
-title = "Performance reviews"
-slug = "performance-reviews"
-categories = ["productivity"]
-draft = "False"
-+++
+#+title: Performance reviews
+#+slug: performance-reviews
+#+date: 2016-05-24T20:50:26+12:00
+#+lastmod: 2016-05-24T20:50:26+12:00
+#+categories[]: Service
+#+tags[]: Productivity
+#+draft: False
 
 The University of Auckland is going through the process of reviewing its system of Academic Performance Reviews (which are meant to do what it is says on the box, review the performance of academics). After a period of consultation, the 'process' has provided its responses to the feedback it obtained on the current system of APRs. Here are my notes on those responses.
-
-<!--more-->
 
 Thank you for this opportunity to comment on the responses to the feedback on the proposed changes.
 
@@ -16,7 +14,12 @@ In reviewing the themes of the feedback that was received it appears as if the r
 
 I wish to put forward the notion that the root cause of many--if not all--of the symptoms identified in the first phase of consultation arise because, as Forbes in 2013 put it, it is "Time to scrap performance appraisals". A review of the current trends seems to explain "Why the annual performance review is going extinct" (Fast Company, 2015). Even the Society for Human Resource Management asks, "Is the annual performance review dead?" (2015) arguing that:
 
-> "Performance reviews are based on several long-held assumptions that don’t hold up to scrutiny" 
+#+BEGIN_QUOTE
+
+Performance reviews are based on several long-held assumptions that donâ€™t hold up to scrutiny.
+
+#+END_QUOTE
+
 
 Reading articles like those highlights the facts that the problems that we face--and as identified in the initial feedback--are generally not unique. And yet ...
 
@@ -34,7 +37,12 @@ What is clear is, that if there are performance problems then the evidence is un
 
 As I say, I am not against performance management. Indeed I applaud efforts of firms such as Merrill Lynch who:
 
-> has changed from having simply a performance appraisal system to now having a performance management system. Merrill Lynch is one of the world’s leading financial management and advisory companies, with offices in 36 countries and private client assets of approximately US$1.1 trillion (https://www.ml.com/).  As an investment bank, it is a leading global underwriter of debt and equity securities and strategic advisor to corporations, governments, institutions and individuals worldwide.  Recently, Merrill Lynch started the transition from one performance appraisal per year to focusing on one of the important principles of performance management: the conversation between managers and employees where feedback is exchanged and coaching is given if needed.
+#+BEGIN_QUOTE
+
+[have] changed from having simply a performance appraisal system to now having a performance management system. Merrill Lynch is one of the worldâ€™s leading financial management and advisory companies, with offices in 36 countries and private client assets of approximately US$1.1 trillion (https://www.ml.com/).  As an investment bank, it is a leading global underwriter of debt and equity securities and strategic advisor to corporations, governments, institutions and individuals worldwide.  Recently, Merrill Lynch started the transition from one performance appraisal per year to focusing on one of the important principles of performance management: the conversation between managers and employees where feedback is exchanged and coaching is given if needed.
+
+
+#+END_QUOTE
 
 That attitude, of regular and frequent conversations and coaching seems to be the hallmark of the effective modern approach to performance management. It should not be grounded in what is essentially an annualised process. 
 

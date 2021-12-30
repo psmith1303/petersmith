@@ -1,33 +1,23 @@
-+++
-title = "PBs and PRs"
-date = "2011-04-12T11:04:00+12:00"
-categories = ["Fitness"]
-slug = "pbpr"
-draft = "False"
-+++
-A summary of my Personal Bests (PBs) and Personal Records (PRs) for my
-running.
+#+title: PBs and PRs
+#+slug: pbpr
+#+date: 2011-04-12T11:04:00+12:00
+#+lastmod: 2011-04-12T11:04:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
 
+A summary of my Personal Bests (PBs) and Personal Records (PRs) for my running.
 
-| Distance | Time    | Pace | When       | Where                 | Goal time | Goal pace | 
-|-------:|------:|-----|---------|------------------|------:|-----|
-|    Mile |     6:23 | 4:00 | 02-01-2012 | Lovelock track        |    6:15 | 3:55 |
-|    5 Km |    20:19 | 4:03 | 06-12-2011 | O'Hagans 5k run       |   20:00 | 4:00 |
-|   10 Km |    45:18 | 4:34 | 06-05-2012 | Run Auckland          |   42:30 | 4:15 |
-| 21.1 Km | 01:38:04 | 4:38 | 22-05-2011 | Huntley half-marathon | 1:35:00 | 4:30 |
-| 42.2 Km | 03:43:55 | 5:18 | 30-10-2011 | Auckland Marathon     | 3:30:00 | 4:58 |
+| Distance   | Time       | Pace   | When         | Where                   | Goal time   | Goal pace   |
+|------------+------------+--------+--------------+-------------------------+-------------+-------------|
+| Mile       | 6:23       | 4:00   | 02-01-2012   | Lovelock track          | 6:15        | 3:55        |
+| 5 Km       | 20:19      | 4:03   | 06-12-2011   | O'Hagans 5k run         | 20:00       | 4:00        |
+| 10 Km      | 45:18      | 4:34   | 06-05-2012   | Run Auckland            | 42:30       | 4:15        |
+| 21.1 Km    | 01:38:04   | 4:38   | 22-05-2011   | Huntley half-marathon   | 1:35:00     | 4:30        |
+| 42.2 Km    | 03:43:55   | 5:18   | 30-10-2011   | Auckland Marathon       | 3:30:00     | 4:58        |
 
-## Notes on my goals
-
-I am following a training plan that typically sees me doing three runs
-per week. A tempo run, a fartlek or sprints type of run, and a long run.
-The first two are short runs, between 10 and 15 Km. My long run is
-typically between 25 and 32 Km. This year, I'll be doing some work to
-improve my pace and to improve my tolerance for hills.
+I am following a training plan that typically sees me doing three runs per week. A tempo run, a fartlek or sprints type of run, and a long run. The first two are short runs, between 10 and 15 Km. My long run is typically between 25 and 32 Km. This year, I'll be doing some work to improve my pace and to improve my tolerance for hills.
 
 So, whilst my goals require some stretch, I think they are achievable.
 
-I'm not being lured into long (long) distance running as, unlike
-[Andrew](https://www.andrewisgettingfit.com), ultra-marathons hold no
-interest to me.
-
+I'm not being lured into long (long) distance running as, unlike [[https://www.andrewisgettingfit.com][Andrew]], ultra-marathons hold no interest to me.

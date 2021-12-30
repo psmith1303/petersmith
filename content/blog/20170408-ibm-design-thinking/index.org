@@ -1,86 +1,44 @@
-+++
-slug = "ibm-design-thinking"
-draft = "False"
-date = "2017-04-08T12:14:25+12:00"
-title = "IBM design thinking"
-categories = [
-  "Productivity",
-  "IT",
-  "Technology",
-]
+#+title: IBM design thinking
+#+slug: ibm-design-thinking
+#+date: 2017-04-08T12:14:25+12:00
+#+lastmod: 2017-04-08T12:14:25+12:00
+#+categories[]: Technology
+#+tags[]: Roadmapping
+#+draft: False
 
-+++
+I have just finished a two workshop around my univeristy's "Flexible IT Workspace" programme. The programme is intend to:
 
-I have just finished a two workshop around my univeristy's "Flexible
-IT Workspace" programme. The programme is intend to:
+#+BEGIN_QUOTE
 
-> Deliver the ability for students and staff to access the
-> applications they need to use from any device, at any time, in any
-> location, including campus labs.
+Deliver the ability for students and staff to access the applications they need to use from any device, at any time, in any location, including campus labs.
 
-Fair enough. That feel like something that came out of last year's
-Technology Roadmapping exercise with the End Users Services group of
-ITS (the university's in-house IT activity).
+#+END_QUOTE
 
-The workshop---last Friday, and the Friday before that---was
-facilitated by two people from IBM and used their version of design
-thinking. These are my notes and reflections on the process.
+Fair enough. That feel like something that came out of last year's Technology Roadmapping exercise with the End Users Services group of ITS (the university's in-house IT activity).
 
-![IBM design thinking](/images/IBM-DesignThinking.jpg)
+The workshop---last Friday, and the Friday before that---was facilitated by two people from IBM and used their version of design thinking. These are my notes and reflections on the process.
+
+{{< img src="IBM-DesignThinking.jpg" title="IBM design thinking" >}}
 
 The structure of the two days was meant to be (based on the orientation email that was sent out):
 
-1. Introduction: The say will start with a design thinking video,
-   followed by all participants of the workshop introducing
-   themselves. 
-2. Hopes and fears: This activity helps us get to know each other,
-   exposes aspirations and concerns, and relationships.
-3. Stakeholder map: This activity helps us to identify project
-   stakeholders, their expectations, and relationships.
-4. Empathy map: The activity helps to rapidly put the team in the
-   user's shoes and align on pains and gains.
-5. As-is scenario: The activity helps to document collective
-   understanding of user workflows and are best used precursors to
-   exploring new ideas.
-6. To-be scenario: The activity tells the story of a better experience
-   for the user.
-7. Big idea vignettes: This activity is a great way for meany people
-   to rapidly brainstorm a breadth of possible ideas.
-8. Prioritization grid: This activity helps the team evaluate and
-   prioritize ideas by focusing discussion on importance and
-   feasibility.
-9. Needs statements: This is a very effective activity to make sure
-   the focus of the team is on the actual needs, desires, and goals of
-   your user.
-10. Story-boarding: This activity is a way to iterate and communicate
-    ideas and scenarios visually by telling user-centric stories.
-11. Hills: This activity is to define three statements to turn users'
-    needs into project goals, helping the team align around a common
-    understanding of the intended outcomes to be achieved.
-12. Prototyping: This activity is prototype a high-level user
-    experience to address the hills.
+1.  Introduction: The say will start with a design thinking video, followed by all participants of the workshop introducing themselves.
+2.  Hopes and fears: This activity helps us get to know each other, exposes aspirations and concerns, and relationships.
+3.  Stakeholder map: This activity helps us to identify project stakeholders, their expectations, and relationships.
+4.  Empathy map: The activity helps to rapidly put the team in the user's shoes and align on pains and gains.
+5.  As-is scenario: The activity helps to document collective understanding of user workflows and are best used precursors to exploring new ideas.
+6.  To-be scenario: The activity tells the story of a better experience for the user.
+7.  Big idea vignettes: This activity is a great way for meany people to rapidly brainstorm a breadth of possible ideas.
+8.  Prioritization grid: This activity helps the team evaluate and prioritize ideas by focusing discussion on importance and feasibility.
+9.  Needs statements: This is a very effective activity to make sure the focus of the team is on the actual needs, desires, and goals of your user.
+10. Story-boarding: This activity is a way to iterate and communicate ideas and scenarios visually by telling user-centric stories.
+11. Hills: This activity is to define three statements to turn users' needs into project goals, helping the team align around a common understanding of the intended outcomes to be achieved.
+12. Prototyping: This activity is prototype a high-level user experience to address the hills.
 
-During the introduction the example of the lid on Apple's iBook was
-used, to show the refinement (my word) of the hinge and how it worked
-in a very elegant (their word) and desingerly (my word) way, rather
-than a 'simple' engineering solution. It highlighted a strong design
-aesthetic where the designer really understood things from the users
-perspective.
+During the introduction the example of the lid on Apple's iBook was used, to show the refinement (my word) of the hinge and how it worked in a very elegant (their word) and desingerly (my word) way, rather than a 'simple' engineering solution. It highlighted a strong design aesthetic where the designer really understood things from the users perspective.
 
-Much of the workshop seemed to be orientated toward getting engineers
-(or non-users) to have a user perspective (e.g., through empathy
-maps). However, in this workshop most of the participants were users,
-so they kind of knew what mattered to them. Consequently, a lot of
-focus turned to 'edge cases' rather than typical cases---I don't know
-if that was a good thing or not, but it certainly was a thing.
+Much of the workshop seemed to be orientated toward getting engineers (or non-users) to have a user perspective (e.g., through empathy maps). However, in this workshop most of the participants were users, so they kind of knew what mattered to them. Consequently, a lot of focus turned to 'edge cases' rather than typical cases---I don't know if that was a good thing or not, but it certainly was a thing.
 
-My sense is that the design think approach approximates and systemises
-how a good design goes about tacking design issues. However, the
-approach is predicated on the design having a design aesthetic,
-something that---I suspect---most folk doing a design think workshop
-may not have. As a result, I am not sure that the 'solutions' that
-emerge are particularly 'designerly'.
+My sense is that the design think approach approximates and systemises how a good design goes about tacking design issues. However, the approach is predicated on the design having a design aesthetic, something that---I suspect---most folk doing a design think workshop may not have. As a result, I am not sure that the 'solutions' that emerge are particularly 'designerly'.
 
-Yes, they will tackle important needs for the user, but will they
-result in an engineering solution to the problem (a good mechanical
-hinge) or will they result in an elegant solution (the iBook hinge).
+Yes, they will tackle important needs for the user, but will they result in an engineering solution to the problem (a good mechanical hinge) or will they result in an elegant solution (the iBook hinge).

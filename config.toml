@@ -22,10 +22,7 @@ footnoteReturnLinkContents = '↩'
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
-    journal = "/journal/:year/:month/:day/:slug/"
-    teaching = "/teaching/:year/:month/:slug/"
     notes = "/notes/:year/:month/:day/:slug/"
-    run = "/running/:year/:month/:day/:slug:"
     resources = "/resources/:slug/"
     mention = "/mentions/:year/:month:/:day/:slug/"
 
@@ -57,17 +54,30 @@ footnoteReturnLinkContents = '↩'
     licence = "CC BY-NC-SA"
     licenceURL = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
 
 
-
-[[menu.main]]
-  name = "Journal"
-  url = "/journal"
-  weight = 5
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
+  weight = 5
+
+[[menu.main]]
+  name = "Mentions"
+  url = "/mentions"
   weight = 10
 
 [[menu.main]]

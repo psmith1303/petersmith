@@ -1,9 +1,9 @@
 #+title: GeoURL
+#+slug: geourl
 #+date: 2004-04-11T22:57:00+12:00
 #+lastmod: 2004-04-11T22:57:00+12:00
 #+categories[]: Tech
 #+tags[]: Website
-#+slug: geourl
 #+draft: False
 
 

@@ -1,9 +1,9 @@
 #+title: Abigail's Party
+#+slug: abigails-party
 #+date: 2004-03-28T09:25:00+12:00
 #+lastmod: 2004-03-28T09:25:00+12:00
 #+categories[]: Arts
 #+tags[]: Theater
-#+slug: abigails-party
 #+draft: False
 
 Last night, Lisa and I went to see /Abigail's Party/ at the [[https://www.maidment.auckland.ac.nz/][Maidment Studio]]. As the program says:

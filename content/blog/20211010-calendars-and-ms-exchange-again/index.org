@@ -1,12 +1,12 @@
 #+title: Calendars and MS Exchange, again
-#+slug:  calendars-and-ms-exchange-again
-#+date:  2021-10-07T17:30:15+13:00
-#+lastmod:  2021-10-07T17:30:15+13:00
+#+slug: calendars-and-ms-exchange-again
+#+date: 2021-10-07T17:30:15+13:00
+#+lastmod: 2021-10-07T17:30:15+13:00
 #+categories[]: Tech
 #+tags[]: Exchange Emacs Orgmode
 #+draft: False
 
-My process broke!
+My calendar/diary import process broke!
 
 In debugging the problem, I realised I don't need to go from MS Exchange --> ICAL --> diary --> org-mode.
 

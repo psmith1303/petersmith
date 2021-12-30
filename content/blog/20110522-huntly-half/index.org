@@ -1,18 +1,13 @@
-+++
-title = "Huntly Half"
-date = "2011-05-22T22:58:00+12:00"
-categories = ["Fitness"]
-slug = "huntly-half"
-draft = "False"
-+++
-Did I mention I did the [Huntly half
-marathon](https://www.huntlyhalf.co.nz/). Did I mention that it was a
-new
-personal best time? Did I mention that it gave me a qualifying time for
-the [New York marathon](https://www.nycmarathon.org/) next year?
+#+title: Huntly Half
+#+slug: huntly-half
+#+date: 2011-05-22T22:58:00+12:00
+#+lastmod: 2011-05-22T22:58:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
+
+Did I mention I did the [[https://www.huntlyhalf.co.nz/][Huntly half marathon]]. Did I mention that it was a new personal best time? Did I mention that it gave me a qualifying time for the [[https://www.nycmarathon.org/][New York marathon]] next year?
 
 Well it's all true.
 
-![Finishing at the Huntley half-marathon](/images/Finish-Certificate.jpg "Huntly half marathon finish
-certificate")
-
+{{< img src="Finish-Certificate.jpg" title="Finishing at the Huntley half-marathon" >}}
