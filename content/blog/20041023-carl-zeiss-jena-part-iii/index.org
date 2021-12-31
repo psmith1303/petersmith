@@ -67,7 +67,7 @@ present. By following a proactive change path of cascading
 implementation, I believe that, over time, Carl Zeiss Jena will again
 be a respected and successful organization.
 
-** References
+* References
 
 De Wit, B. & Meyer, R. (1998). /Strategy: Process, content, context: An international perspective/ (2nd Ed.). Minneapolis, MN: Thompson Learning.
 

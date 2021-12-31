@@ -11,6 +11,6 @@ I was talking [[https://staff.business.auckland.ac.nz/rwolfgramm][Rachel]] about
 {{< img src="CulturalWeb.png" title="The cultural web" >}}
 
 
-** References
+* References
 
 Johnson, G. (1992). Managing strategic change: Strategy, culture and action. /Long Range Planning, 25/(1). p.--28---36.

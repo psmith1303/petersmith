@@ -34,7 +34,7 @@ But, more importantly, when is change 'big'? The answer to that, seems to be whe
 Consequently, I regard this as a very practical and useful article.
 
 
-** References
+* References
 
 Pondy, L. R., & Huff, A. S. (1985). Achieving routine in organizational change. /Journal of Management, 11_(2), 103--116.
 

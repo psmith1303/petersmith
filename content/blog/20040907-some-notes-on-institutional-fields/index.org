@@ -40,7 +40,7 @@ Furthermore, Scott (2000) suggests that transformation of a field arises from:
 - Changes in the boundaries of the field itself
 - Changes in the governance structures of firms
 
-** References
+* References
 
 Bourdieu, P., & Wacquant, L. J. D. (1992). The purpose of reflexive sociology: The Chicago workshop. In P. Bourdieu & L. J. D. Wacquant (Eds.), /An invitation to reflexive sociology/. Chicago: University of Chicago Press.
 

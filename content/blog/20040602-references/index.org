@@ -2,8 +2,8 @@
 #+slug: references
 #+date: 2004-06-02T13:08:00+12:00
 #+lastmod: 2004-06-02T13:08:00+12:00
-#+categories[]: Learning
-#+tags[]: 
+#+categories[]: Teaching
+#+tags[]: Learning
 #+draft: False
 
 Besides the recommend readings, some students are finding and using (in their assignments) other /excellent/ readings. They are using some real classics in the field. Based on that, I've decided to read at least one article that each student references (assuming I haven't read it already). The results so far have been mixed.

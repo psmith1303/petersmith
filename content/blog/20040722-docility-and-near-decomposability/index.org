@@ -37,5 +37,6 @@ expert entrepreneurs who where presented with exactly the same imaginary product
 
 Thus we have two important mechanisms of evolutionary development. They consequences of using the two together, is that it can reduce transaction costs, whilst increasing altruism. Overall, the article suggests that docility, near-decomposability, and artefact (which I've not discussed) overcome a number of troublesome dichotomies. However, I'm less convinced about-this.
 
-** References
+* References
+
 Beinhocker, E. D. (2000). On the orgin of stratgies. In C. Willhoite (Ed.), /The McKinsey-Quarterly Anthology: On strategy/ (pp. 81---90): Mckinsey-Quarterly.

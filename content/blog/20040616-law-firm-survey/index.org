@@ -14,7 +14,7 @@ On a technical level, the research is really designed to do two things. Firstly,
 
 My hope is that in doing this work, beside producing useful research outputs, I'll be kept at the forefront of the literature of professional service firms---which will be a big pay-off for my PhD.
 
-** Bibliography
+* Bibliography
 
 Gray, J. (2002). Reflexivity and emerging forms in law firms, in D. Brock, C. (Bob). Hinings, M. Powell (eds). /Restructuring Professional Organizations/. London: Routledge.
 

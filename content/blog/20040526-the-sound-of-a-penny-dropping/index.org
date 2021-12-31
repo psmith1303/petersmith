@@ -2,8 +2,8 @@
 #+slug: the-sound-of-a-penny-dropping
 #+date: 2004-05-26T10:01:00+12:00
 #+lastmod: 2004-05-26T10:01:00+12:00
-#+categories[]: MGMT 301
-#+tags[]: Change Maps
+#+categories[]: Teaching
+#+tags[]: MGMT301 Change Maps
 #+draft: False
 
 As always, it was interesting to read this week's [[https://www.thereflectivepractitioner.org/armi/archives/000347.html][The wonderful world of Armi]].

@@ -2,8 +2,8 @@
 #+slug: grice-and-conversation
 #+date: 2015-02-21T17:46:00+12:00
 #+lastmod: 2015-02-21T17:46:00+12:00
-#+categories[]: BUSINESS 304
-#+tags[]: 
+#+categories[]: Teaching
+#+tags[]: BUSINESS304
 #+draft: False
 
 For the past three days, I have been participating in a workshop on Survey Design. It was all very interesting and helpful. And there was one topic that we did that I think could be useful in BUSINESS 304. The facilitator talk a lot about how, in many ways, a survey is a conversation between the respondent and the survey. To that end, she talked about Grice and his maxims of conversation. These are rules that we typically--albeit unconsciously--adhere to during a conversation.

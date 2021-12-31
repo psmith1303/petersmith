@@ -2,7 +2,7 @@
 #+slug: ISPIM-2016
 #+lastmod: 2016-03-16T05:02:30+13:00
 #+title: ISPIM 2016
-#+categories[]: Reseearch
+#+categories[]: Research
 #+tags[]: Conferences ISPIM
 #+draft: False
 

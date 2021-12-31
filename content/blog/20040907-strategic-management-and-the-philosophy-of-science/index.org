@@ -55,5 +55,6 @@ We must not imagine that the world turns towards us a legible face, which we wou
 
 That strongly reminded me of David Thomas'es /clues/ or /cues/ comments. Anyway, this will be a helpful article when I write the method chapter of my thesis.
 
-** References
+* References
+
 Jarzabkowski, P. (2004). Strategy as practice: Recursiveness, adaptation and practices-in-use. /Organization Studies, 25/(4), 529--560.

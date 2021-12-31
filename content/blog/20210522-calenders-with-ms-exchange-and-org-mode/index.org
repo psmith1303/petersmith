@@ -7,11 +7,11 @@
 #+tags[]: Exchange Emacs Orgmode
 #+draft: False
 
-** The problem
+* The problem
 
 I need to use the calendar provided by MS Exchange and Outlook at work. More correctly, it is Exchange365 and Outlook365. But as an ~Org Mode~ user, I really want to see my Exchange calendar---my meetings etc---in the Agenda of ~Org Mode~. Not all the details, but enough to see that they are there.
 
-** The solution
+* The solution
 
 I publish my calendar for Exchange with all the details. That creates a URL that I can use with ~wget~ to suck everything out as an ICAL file. Then I need to do some massaging.
 

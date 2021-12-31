@@ -2,7 +2,7 @@
 #+slug: ibm-design-thinking
 #+date: 2017-04-08T12:14:25+12:00
 #+lastmod: 2017-04-08T12:14:25+12:00
-#+categories[]: Technology
+#+categories[]: Tech
 #+tags[]: Roadmapping
 #+draft: False
 

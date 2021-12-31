@@ -6,7 +6,7 @@
 #+tags[]: Hardware NAS
 #+draft: False
 
-** They're dead, Dave
+* They're dead, Dave
 
 I woke-up to find an email from my NAS saying:
 

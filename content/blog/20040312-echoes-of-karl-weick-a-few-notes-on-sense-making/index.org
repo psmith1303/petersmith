@@ -26,7 +26,7 @@ I wonder how many of the teams in the class will wrestle with this four things o
 For completeness, I'd just like to make a link between this article and one of the recommended readings for the course. Weick does also say in this article that "People are often thrust into unfamiliar roles to fulfil difficult tasks, and small mistakes can combine into something monstrous" (1996, p. 144). This idea foreshadows his later work on High Reliability Organizations (HROs); as is discussed in Diane Coutu's conversation with Weick, entitled /Sense
 and reliability/.
 
-** References
+* References
 
 Coutu, D. L. (2003). Sense and reliability. /Harvard Business Review, 81/(4), 84-90.
 

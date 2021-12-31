@@ -2,12 +2,15 @@
 #+slug: harnessing-the-diversity-of-strategy-as-practice-research
 #+date: 2021-10-15T14:24:03+13:00
 #+lastmod: 2021-10-15T14:24:02+13:00
-#+categories[]: Reseach
+#+categories[]: Research
 #+tags[]: Articles Strategy EGOS
 #+draft: false
 
+#+BEGIN_QUOTE
 
 Kohtamäki, M., Whittington, R., Vaara, E., & Rabetino, R. (2021). Making connections: Harnessing the diversity of strategy-as-practice research. /International Journal of Management Reviews/. https://doi.org/10/gk9bfs
+
+#+END_QUOTE
 
 This paper 'takes stock' of where we are with strategy-as-practice research. Through a tidy systematic literature review they identify six central themes, that they label as: (1) praxis, (2) sensemaking, (3) discursive, (4) sociomaterial, (5) institutional, and (6) process. For each of these they consider the theme itself, the key theoretical influences, and the characteristic methodological approaches.
 

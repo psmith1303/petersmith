@@ -2,7 +2,7 @@
 #+slug: on-becoming-a-critically-reflexive-practitioner
 #+date: 2004-07-27T12:36:00+12:00
 #+lastmod: 2004-07-27T12:36:00+12:00
-#+categories[]: Teacing
+#+categories[]: Teaching
 #+tags[]: MGMT301 Reflection
 #+draft: False
 

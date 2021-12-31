@@ -2,8 +2,8 @@
 #+slug: academic-productivity
 #+date: 2008-09-22T22:23:00+12:00
 #+lastmod: 2008-09-22T22:23:00+12:00
-#+categories[]: Productivity
-#+tags[]: 
+#+categories[]: Research
+#+tags[]: PhD Productivity
 #+draft: False
 
 PhD's and productivity. What could be relevant at this juncture? [[https://www.academicproductivity.com/][Academic Productivity]] does what it says on the box. Tucked away on the site are the following observations:

@@ -8,7 +8,7 @@
 
 This was a collection of bookmarklets. But in reality, I did not use them.
 
-*** Site data
+* Site data
 #+BEGIN_SRC javascript
 
   [Google Related](javascript:void(0);void(0);void(0);void(0);void("Add%20this%20text%20into%20the%20code%20to%20suppress%20the%20tooltip%20with%20long%20script');void(0);void(0);void(0);void(0);void(0);void(0);void(0);q=location.href;void(location.href="https://www.google.com/search?client=googlet&q=related:'+q))
@@ -21,7 +21,7 @@ This was a collection of bookmarklets. But in reality, I did not use them.
 
   #+END_SRC
 
-*** Validate Site
+* Validate Site
 #+BEGIN_SRC javascript
 
   [W3C HTML Validator](javascript:void(document.location='https://validator.w3.org/check?uri='+document.location))
@@ -30,7 +30,7 @@ This was a collection of bookmarklets. But in reality, I did not use them.
 
 #+END_SRC
 
-*** Selected Text
+* Selected Text
 #+BEGIN_SRC javascript
 
   [Search Google](javascript:q=(document.frames.length?'':document.selection.createRange().text);for(i=0;i<document.frames.length;%20++){q=document.frames[i].document.selection.createRange().text;if(q!='')break;}if(q=='')void(q=prompt('Enter%20text%20to%20search%20using%20Google.%20You%20can%20also%20highlight%20a%20word%20on%20this%20web%20page%20before%20clicking%20Google%20Search.',''));if(q)location.href='https://www.google.com/search?client=googlet&q='+escape(q))
@@ -43,7 +43,7 @@ This was a collection of bookmarklets. But in reality, I did not use them.
 
   #+END_SRC
 
-*** Manipulate Page
+* Manipulate Page
 #+BEGIN_SRC javascript
 
   [Grayscale the page](javascript:document.body.style.filter='gray()';void(null))
@@ -75,7 +75,7 @@ This was a collection of bookmarklets. But in reality, I did not use them.
 
 #+END_SRC
 
-*** Misc
+* Misc
 #+BEGIN_SRC javascript
 
   [Resize](javascript:moveTo(screen.availWidth-800,0);window.resizeTo(800,screen.availHeight))

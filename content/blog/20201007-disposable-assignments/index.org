@@ -7,7 +7,7 @@
 #+tags[]: Assingments
 #+draft: False
 
-** Making the tacit, explicit
+* Making the tacit, explicit
 
 I was talking with Rhiannon today, and the conversation moved on to the topic of /disposable assignments/ and my desire to avoid using them. As we were talking I realised I was not explaining well the concept of the disposable assignment and the need for non-disposable assignment. So, here I am collecting my thoughts.
 
@@ -26,11 +26,11 @@ What if we changed these “disposable assignments” into activities which actu
 
 When I think back my experiences during my MBA, those assignments that where strongly connected to my work and my workplace were---without doubt---the most interesting, useful, and enjoyable. So, Wiley's call for non-disposable assignments resonates with me.
 
-** Some notes on terminology
+* Some notes on terminology
 
 Those assignments that are not disposable are variously known as either /non-disposable assignments/, /renewalble assignments/, or (somewhat confusingly to me) /open pedagogies/.
 
-** Readings of non-disposable assignments
+* Readings of non-disposable assignments
 
 From [[https://teachanywhere.opened.ca/practices/non-disposable-assignments/][Teach anywhere]]
 
@@ -46,7 +46,7 @@ From [[https://teachanywhere.opened.ca/practices/non-disposable-assignments/][Te
 
 
 
-** Examples of non-disposable assignments
+* Examples of non-disposable assignments
 
 Also from [[https://teachanywhere.opened.ca/practices/non-disposable-assignments/][Teach anywhere]]
 

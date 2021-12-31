@@ -42,9 +42,11 @@ I explain to him the problems I had last time getting it fixed. But no, he doesn
 
 #+END_QUOTE
 
-*** Update to the story
+In the end, I had to figure out the solution myself. You'd think after all this time Telecom would have a better error message.
+
+* Update to the story
 
 Okay, I confess. I did try and circumvented the system---perhaps I should have talked to my ISP. And yes, despite the warnings on the site about enabling cookies---and I hadn't---and yes, the problem was caused by a lack of cookies. But seriously, this has to be one of the silliest messages [fn:: The first time I had the problem they had never head of the error message.] ever for saying "Turn cookies on". Having searched [[https://www.google.com/search?q=IafTranslate.C][Google]] for the problem, it seems that not many people encounter this. I wonder why.
 
 
-and I had to figure out the solution myself. You'd think after all this time Telecom would have a better error message.
+

@@ -10,5 +10,5 @@ I'm always looking for ways to improve the site, and [[https://www.richarderikss
 
 It has a rich supply of code (mainly PHP) and ideas. Nice stuff.
 
-*** Update
-See also www.movableblog.com the site where it lives today.
+/Update/
+- See also [[https://www.movableblog.com]] the site where it lives today.

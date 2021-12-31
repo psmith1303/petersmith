@@ -2,8 +2,8 @@
 #+slug: what-use-is-theory
 #+date: 2004-08-25T21:17:00+12:00
 #+lastmod: 2004-08-25T21:17:00+12:00
-#+categories[]: Learning
-#+tags[]: Theory
+#+categories[]: Teaching
+#+tags[]: Theory Learning
 #+draft: False
 
 For me, a good theory is one that does one or more of the following:

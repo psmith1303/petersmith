@@ -2,7 +2,7 @@
 #+slug: running-buddies
 #+date: 2010-09-12T10:29:00+12:00
 #+lastmod: 2010-09-12T10:29:00+12:00
-#+categories[]: Homes
+#+categories[]: Home
 #+tags[]: Running Fitness Marathons
 #+draft: False
 

@@ -2,7 +2,7 @@
 #+slug: a-new-theme
 #+date: 2016-11-18T16:20:00+13:00
 #+lastmod: 2016-11-18T16:20:00+13:00
-#+categories[]: Teach
+#+categories[]: Tech
 #+tags[]: Themes Blogging Hugo
 #+draft: False
 

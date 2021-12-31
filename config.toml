@@ -4,8 +4,7 @@ title = "PeterSmith.org"
 theme = "NewPapyrus"
 
 relativeURLS = false
-
-footnoteReturnLinkContents = '↩'
+canonifyURLs = true
 
 [minify]
   [minify.tdewolff]

@@ -26,7 +26,7 @@ There are a number of things that stand out after reading this article. Firstly,
 
 Finally, it reminds me that I have to get around to reading Linblom's classic 1959 article on /muddling through/.
 
-** References.
+* References.
 
 Lindblom, C. (1959). The science of muddling through. /Public Administration Review, 19/(2), 79--88.
 

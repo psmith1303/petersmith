@@ -77,6 +77,6 @@ In short, the closer the "horizon," the more visible the actor but constrained b
 
 #+END_QUOTE
 
-** Notes
+* Notes
 
 Overall this is an important article and I'm surprised I didn't find (!) it earlier. Thanks to John Gray (and his PhD) for alerting me to it.
