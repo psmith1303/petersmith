@@ -7,6 +7,19 @@
       <img class="u-photo p-name hidden" src="{{ .Site.Author.photo }}" alt="Peter Smith" loading="lazy">
     </p>
     {{ partial "list-categories" . }}&nbsp;{{ partial "list-tags" . }}
+    <p><details aria-labelledby="mentions-summary">
+	<summary id="mentions-summary">Mentions: 2</summary>
+	<ul aria-labelledby="header-webmentions">
+	  <li class="comment">
+            <a href="https://irreal.org/blog/?p=9752" rel="nofollow">irreal.org</a>
+	  </li>
+	  <li class="comment">
+            <a href="https://takeonrules.com/2021/06/11/amplifying-the-blogosphere-v2021-06-11/" rel="nofollow">Amplifying the Blogosphere (v2021-06-11)</a> by Jeremy Friesen
+	  </li>
+	</ul>
+      </details>
+    </p>
+
   </div>
   <div class="column is-right has-text-right">
     <a class="u-url url" href="{{ .Permalink }}"></a>
