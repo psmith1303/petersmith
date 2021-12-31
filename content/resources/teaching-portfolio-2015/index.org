@@ -164,16 +164,16 @@ In thinking about my teaching effectiveness and my propensity to innovate, I am 
 
 Am I an effective teacher? The overall answer from students is "Yes". For example, in the recent iteration of MGMT 300, students agreed (or strongly agreed) that I was an effective teacher:
 
-{{< figure src="mgmt300-instructor.png" title="Student evaluation of instructor" width="80%" >}}
+{{< img src="mgmt300-instructor.png" title="Student evaluation of instructor" width="80%" >}}
 
 In addition, they were also satisfied with the quality of the course:
 
-{{< figure src="mgmt300-course.png" title="Student evaluation of course" width="80%" >}}
+{{< img src="mgmt300-course.png" title="Student evaluation of course" width="80%" >}}
 
 
 It would be easy to select some of the comments from students who gave 'Strongly agreed' responses, but I think the voice of those who are less satisfied also need to be considered. One of the 'Neutral' students said that:
 
-{{< figure src="frustrating.png" title="Student evaluation showing frustration" width="80%" >}}
+{{< img src="frustrating.png" title="Student evaluation showing frustration" width="80%" >}}
 
 I take comments like that as a sign of success, and a sign that I need to do better.
 
@@ -234,7 +234,7 @@ Outcomes like these led me to being the recipient of a Faculty Teaching Excellen
 
 Two of the strongest sources of evidence of achievement of learning outcomes come from BUSINESS 304 and from MGMT 300. In BUSINESS 304, there are two forms of assessment. The first is a weekly quiz that is used to encourage students to engage with the theoretical concepts of the course. There is no difference in the difficulty of the content; this is known because I have extensively analysed the test bank. However, at the end of the course, over 54% of the students are doing better in the tests in the last three weeks than in the previous ten. That is to say, their average performance has increased. Secondly, student participation in case discussions is assessed every week. In these sessions students apply the theory they have acquired to business situations, and argue for their 'position' on the case. Again, there is compelling evidence of students becoming more adept at understanding business and using theory to explain and justify proposed actions: The average mark in the class clearly trends upwards, as shown in the graph.
 
-{{< figure src="304grades.png" title="BUSINESS 304 grade trend" width="80%" >}}
+{{< img src="304grades.png" title="BUSINESS 304 grade trend" width="80%" >}}
 
 
 The evidence from MGMT 300 is of a different type. Each week students submit a learning journal[fn:: The previous two years of learning journals are available through the University's wiki, and several years prior to that are available at https://baddog.ac.nz. These serve as scaffolding for students who have not done learning.] where they demonstrate the most important thing they have learnt that week. At the end of the course, they write a summative learning journal (using the weekly learning journals as source data) to demonstrate their overall learning and their achievement of the learning objectives. The structure of the course including its assessment package is such that, even though on each delivery different staff mark the summative learning journals, and despite adjustments to the marking guide, the course has one of the highest pass rates, and largest number of A-grades in the department. Because of these high grades, there has been auditing of the grades during the past three years, and this has confirmed their veracity.

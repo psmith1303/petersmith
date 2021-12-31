@@ -4,7 +4,7 @@
   <meta  name="author" content="Peter Smith" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
-  <base href="{{ .Site.BaseURL }}">
+
   {{ $title := print .Site.Title " | " .Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>

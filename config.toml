@@ -4,7 +4,7 @@ title = "PeterSmith.org"
 theme = "NewPapyrus"
 
 relativeURLS = false
-canonifyURLs = true
+canonifyURLs = false
 
 [minify]
   [minify.tdewolff]
