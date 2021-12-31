@@ -1,6 +1,6 @@
 #+title: Site policies
-#+date: 2014-02-18T13:34:00+12:00
-#+lastmod: 2014-02-18T13:34:00+12:00
+#+date: 2011-01-04T11:10:00+12:00
+#+lastmod: 2021-12-31T18:59:31+13:00
 #+categories[]: SiteInfo
 #+tags[]: SiteInfo
 #+slug: site-policies

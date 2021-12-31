@@ -3,7 +3,7 @@
 #+date: 2017-06-16T11:03:40+12:00
 #+lastmod: 2017-06-16T11:03:40+12:00
 #+categories[]: Tech
-#+tags[]: Email Gmail Scripts
+#+tags[]: Email Gmail Scripts Python
 #+draft: False
 
 I have been playing around with moving my email reading into Emacs. In doing so, it was useful to see what 'folders' I had on Gmail. So, I put together this quick and dirty script.

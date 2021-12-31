@@ -3,7 +3,7 @@
 #+date: 2021-10-23T13:22:38+13:00
 #+lastmod: 2021-10-23T13:22:44+13:00
 #+categories[]: Tech
-#+tags[]: Emacs Notes
+#+tags[]: Emacs
 #+draft: false
 
 Well, to misquote Eccels, "Everybody gotta be somewhere!" and this is where I am.

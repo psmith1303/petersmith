@@ -1,6 +1,6 @@
+title = "PeterSmith.org"
 baseURL = "https://petersmith.org/"
 languageCode = "en-us"
-title = "PeterSmith.org"
 theme = "NewPapyrus"
 
 relativeURLS = false
@@ -21,9 +21,10 @@ canonifyURLs = false
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
-    notes = "/notes/:year/:month/:day/:slug/"
+    mentions = "/mentions/:year/:month:/:day/:slug/"
     resources = "/resources/:slug/"
-    mention = "/mentions/:year/:month:/:day/:slug/"
+    pages = "/pages/:slug/"
+
 
 
 [sitemap]
@@ -64,7 +65,7 @@ canonifyURLs = false
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = 'monokai'
+    style = 'solarized-light'
     tabWidth = 4
 
 
@@ -76,7 +77,7 @@ canonifyURLs = false
 
 [[menu.main]]
   name = "Mentions"
-  url = "/mentions"
+  url = "/mentions/"
   weight = 10
 
 [[menu.main]]
@@ -86,7 +87,7 @@ canonifyURLs = false
 
 [[menu.main]]
   name = "Site info"
-  url = "/site-info/"
+  url = "/pages/"
   weight = 99
 
 
@@ -124,7 +125,7 @@ canonifyURLs = false
 
 [Params]
   subtitle = "Some kind of bucket for bits and bytes"
-  description = "Peter's IndieWeb hub"
+  description = "Peter's commonplace book"
 
 [[Params.plugins.css]]
 link = "/css/normalize.css"
@@ -132,5 +133,3 @@ link = "/css/normalize.css"
 link = "/css/stylesheet.css"
 [[Params.plugins.css]]
 link = "/css/fontawesome.css"
-[[Params.plugins.css]]
-link = "/css/webmention.css"
