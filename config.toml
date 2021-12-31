@@ -21,6 +21,7 @@ canonifyURLs = false
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
+    notes = "/notes/:year/:month:/:day/:slug/"
     mentions = "/mentions/:year/:month:/:day/:slug/"
     resources = "/resources/:slug/"
     pages = "/pages/:slug/"
@@ -73,17 +74,22 @@ canonifyURLs = false
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
-  weight = 5
+  weight = 10
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 20
 
 [[menu.main]]
   name = "Mentions"
   url = "/mentions/"
-  weight = 10
+  weight = 30
 
 [[menu.main]]
   name = "Resources"
   url = "/resources/"
-  weight = 15
+  weight = 90
 
 [[menu.main]]
   name = "Site info"
