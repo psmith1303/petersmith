@@ -1,3 +1,5 @@
 public/
 \.#*.org
+\.#*.html
 *.swp
+*psmith*
