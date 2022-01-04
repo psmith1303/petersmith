@@ -1,7 +1,7 @@
 title = "PeterSmith.org"
 baseURL = "https://petersmith.org/"
 languageCode = "en-us"
-theme = "NewPapyrus"
+theme = "TypoTyro"
 copyright = "PeterSmith.Org is my commonplace book, covering teaching, research, technology, and whatever else takes my fancy. This site is in a constant state of development and 'becoming'.  A former software engineer, I now teach and research topics in  strategic management (especially in regards to professional service firms, and high-tech firms)."
 
 relativeURLS = false
