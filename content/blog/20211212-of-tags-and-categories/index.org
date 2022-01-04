@@ -24,3 +24,5 @@ I have to main type of content, my journal entries and my blog entries. Generall
 And then I will use tags for a more fine-grained, /ad-hoc/ topics within those categories.
 
 Now I just need to rework all my posts to reflect that. But, I was going through them anyway, as I continues to move from using Markdown to Orgmode for my posts.
+
+# more

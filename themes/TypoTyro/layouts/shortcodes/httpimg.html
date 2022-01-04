@@ -1,9 +1,9 @@
-{{ $image := .Page.Resources.GetMatch (.Get "src" )}}
+{{ $image := .Get "src" }}
 {{ $title := .Get "title" }}
 {{ $class := .Get "class" }}
 {{ $alt   := .Get "alt" }}
 {{ $width := .Get "width" }}
 <figure>
-  <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" width="{{ $width }}" />
+  <img src="{{ $image }}" alt="{{ $alt }}" class="{{ $class }}" width="{{ $width }}" />
   <figcaption><h4>{{ $title }}</h4></figcaption>
 </figure>

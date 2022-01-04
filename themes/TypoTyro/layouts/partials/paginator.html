@@ -1,0 +1,13 @@
+<div class="paginator columns">
+  <div class="column has-text-left">
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">⬅ Older items</a>
+    {{ end }}
+  </div>
+  <div class="column has-text-right">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">Newer  items ⮕</a>
+    {{ end }}
+  </div>
+</div>
+

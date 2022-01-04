@@ -8,6 +8,6 @@
 
 Well, yesterday was the first of the Run Auckland series at [[https://maps.google.com/?q=https://share.abvio.com/4df8/7197/4cb5/61b3/Runmeter-Run-20110327-0857.kml][Waiatarua]]. And I'm pretty pleased with my results.
 
-{{< img src="RUN-Auckland-race-1.png" title="RUN Auckland at Waiatura" >}}
+{{< figure src="RUN-Auckland-race-1.png" title="RUN Auckland at Waiatura" >}}
 
 I'm particularly happy about my relative place ... even if my pace wasn't red hot.

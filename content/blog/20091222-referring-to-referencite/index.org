@@ -8,7 +8,7 @@
 
 In writing my piece on [[{{< relref "20091222-referencing-here-and-now" >}}][referencing]], I just [[https://www.google.co.nz/search?q=apa+referencing][Googled 'apa referencing']] and here are the first page of search results.
 
-{{< img src="googleapa.png" title="Google search results" >}}
+{{< figure src="googleapa.png" title="Google search results" >}}
 
 I was surprised by the results. First, I used Google.co.nz instead of Google.com (I normally use the later), and secondly the [[https://www.auckland.ac.nz/][University of Auckland's]] referencing resource [[https://web.archive.org/web/20090325081529/https://www.cite.auckland.ac.nz/][Referen©ite]] did not feature at all on the first page.
 

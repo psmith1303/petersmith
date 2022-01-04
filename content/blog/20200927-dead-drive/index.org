@@ -34,3 +34,5 @@ When I check in the /Storage Manager/, it says that it has crash. Oh dear.
 Off to PB Tech for a replacement, not swap the drive, add the drive back into the storage pool and ... time passes (12 hours or so) ... the new drive is integrated into the pool, and it all works. Pretty seamless and painless (except having to go out to get a new drive).
 
 I love redundancy.
+
+# more

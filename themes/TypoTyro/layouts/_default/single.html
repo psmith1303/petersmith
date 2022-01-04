@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+  {{- partial "article-header.html" . -}}
+  <div id="article-content">{{ .Content }}</div>
+  {{- partial "article-nav.html" . -}}
+  {{- partial "article-meta.html" . -}}
+</article>
+{{ end }}
+

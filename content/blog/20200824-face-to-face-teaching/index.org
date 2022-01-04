@@ -34,6 +34,8 @@ Muilenburg, L. Y., & Berge, Z. L. (2005). Student barriers to online learning: A
 | Cost and access to the Internet  |  1.29 |          5.15 |        58.28 |
 | Technical problems               |  1.06 |          4.13 |        62.41 |
 
+# more
+
  In more detail, those factors are:
 
  1. /Administrative/instructor issues/. Students perceive barriers that administrators and instructors control, such as course materials not always being delivered on time, lack of sufficient academic advisors online, and lack of timely feedback from the instructor.

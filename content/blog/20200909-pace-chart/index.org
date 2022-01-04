@@ -9,8 +9,9 @@
 
 * A quick and easy pace chart
 
-The times for the distances (5K, 10k, etc) are simple multiplications --- there is no clever maths at work.
+In the table below, the times for the distances (5K, 10k, etc) are simple multiplications --- there is no clever maths at work.
 
+# more 
 
 | KM Per Hour | Miles Per Hour | Mins Per KM | Mins Per Mile |       5k |      10k | Half Marathon | Marathon |
 |-------------+----------------+-------------+---------------+----------+----------+---------------+----------|

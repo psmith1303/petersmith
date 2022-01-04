@@ -3,7 +3,7 @@
 #+date: 2021-10-07T16:48:36+13:00
 #+lastmod: 2021-10-14T21:21:21+43:00
 #+categories[]: Tech
-#+tags[]: Indieweb Hugo Webmention
+#+tags[]: Indieweb Hugo Webmention Themes
 #+draft: false
 
 I stumbled across [[https://aaronparecki.com/ ][Aaron Parecki's]] website, and it got me thinking about [[https://indieweb.org/][Indieweb]] and how I might implement it.
@@ -12,3 +12,4 @@ So I've started to make some changes to my [[https://gohugo.io/][Hugo]] theme in
 
 Now, I really need to get [[https://webmention.io/][webmention]] working, which I've started by following [[https://anaulin.org/blog/adding-webmentions/][Ana Ulin's instructions]]. As a test, I will try mentioning myself on [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][this page]].
 
+# more

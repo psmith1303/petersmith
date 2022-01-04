@@ -30,6 +30,8 @@ In searching around I came across the fact that Emacs can, all by itself, import
 
 Rainer at [[https://koenig-haunstetten.de/2017/01/02/google-calendar-integration-in-orgmode/][König von Haunstetten]] explained how to do it. Yes. I thought. I modified his script and gave it a go. It kind of worked.
 
+# more
+
 * Problem 4: Events are on the wrong day.
 
 When I first ran the script, it all worked expect I events seemed to be one day out. Dates for the 6th were appearing on the 5th. Hmmm. Then it stopped working altogether. The script would run without errors. And stuff would appear in the diary file, but not be displayed in my agenda. Most odd.

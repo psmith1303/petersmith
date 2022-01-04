@@ -2,9 +2,11 @@ title = "PeterSmith.org"
 baseURL = "https://petersmith.org/"
 languageCode = "en-us"
 theme = "NewPapyrus"
+copyright = "PeterSmith.Org is my commonplace book, covering teaching, research, technology, and whatever else takes my fancy. This site is in a constant state of development and 'becoming'.  A former software engineer, I now teach and research topics in  strategic management (especially in regards to professional service firms, and high-tech firms)."
 
 relativeURLS = false
 canonifyURLs = false
+rssLimit = 50
 
 [minify]
   [minify.tdewolff]
@@ -18,14 +20,12 @@ canonifyURLs = false
   category = 'categories'
   tag = 'tags'
 
-
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
     notes = "/notes/:year/:month:/:day/:slug/"
     mentions = "/mentions/:year/:month:/:day/:slug/"
     resources = "/resources/:slug/"
     pages = "/pages/:slug/"
-
 
 
 [sitemap]
@@ -39,14 +39,14 @@ canonifyURLs = false
     languageName = "English"
     languageCode = "en"
 
-[Privacy]
+[privacy]
 
-[Privacy.googleAnalytics]
+[privacy.googleAnalytics]
     anonymizeIP = true
     respectDoNotTrack = true
     useSessionStorage = false
 
-[Author]
+[author]
     name = "Peter Smith"
     photo = "images/PeterInTheOffice-2020-small.jpg"
     profile = "https://google.com/+XXX"
@@ -66,7 +66,7 @@ canonifyURLs = false
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = 'solarized-light'
+    style = 'emacs'
     tabWidth = 4
 
 
@@ -101,7 +101,7 @@ canonifyURLs = false
 [[menu.indieweb]]
   name = "Orid"
   url = "https://orcid.org/0000-0002-6382-7051"
-  post = "<i class='fab fa-orcid'></i>"
+  post = ""
   weight = 5
 [[menu.indieweb]]
   name = "SSRN"
@@ -112,7 +112,7 @@ canonifyURLs = false
 [[menu.indieweb]]
   name = "Github"
   url = "https://github.com/psmith1303"
-  post = "<i class='fab fa-github'></i>"
+  post = "<img src='/images/github-mark.svg' alt='GitHub logo' style='display:inline-block; height:1.5em; top:0.2em; position:relative;'>"
   weight = 90
 
 
@@ -137,5 +137,3 @@ canonifyURLs = false
 link = "/css/normalize.css"
 [[Params.plugins.css]]
 link = "/css/stylesheet.css"
-[[Params.plugins.css]]
-link = "/css/fontawesome.css"

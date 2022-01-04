@@ -1,0 +1,7 @@
+<ul class="footer-links" id="relme">
+  {{ range .Site.Menus.indieweb }}
+  <li>
+    <a rel="me" href="{{ .URL }}">{{ .Post }}</a>
+  </li>
+  {{ end }}
+</ul>

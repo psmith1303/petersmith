@@ -6,7 +6,7 @@
 #+tags[]: Orgmode Bloggin Scripts Hugo Sed webmention Pandoc
 #+draft: False
 
-I did a have hearted port from [[{{< relref "20200721-markingdown-markdown" >}}][Markdown to Orgmode]] for the underlying text of this site. And I also did a half-hearted port to using [[{{< relref "20211215-images-and-page-bundles" >}}][Hugo page bundles]] (in anticipating of getting [[{{< relref "20211010-first-steps-to-indieweb" >}}][webmentions]] working).
+I did a half-hearted port from [[{{< relref "20200721-markingdown-markdown" >}}][Markdown to Orgmode]] for the underlying text of this site. And I also did a half-hearted port to using [[{{< relref "20211215-images-and-page-bundles" >}}][Hugo page bundles]] (in anticipating of getting [[{{< relref "20211010-first-steps-to-indieweb" >}}][webmentions]] working).
 
 But the time has come for me to fix things up properly.
 
@@ -14,7 +14,7 @@ First of all, I need to covert my text files from being formated using markdown 
 
 But that mucks up my frontmatter (that's really important to [[https://gohugo.io/][Hugo]]). So, enter =sed=.
 
-The two scripts that do the heavy lifting, are as shell script =ConvertToOrg.sh=
+The two scripts that do the heavy lifting, are a shell script =ConvertToOrg.sh=
 
 #+BEGIN_SRC sh
 
@@ -30,9 +30,11 @@ done
 
 #+END_SRC
 
-and the =sed= script, =fixFrontmatter.sed=
+and the =sed= script, =fixFrontmatter.sed=, looks like this:
 
-#+BEGIN_SRC sed
+# more
+
+#+BEGIN_SRC sh
 
 /./{H;$!d} ;
 x;

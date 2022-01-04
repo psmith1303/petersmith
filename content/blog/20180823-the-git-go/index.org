@@ -14,6 +14,6 @@ And I use poorly.
 
 So I was really pleased to come across this diagram from [[https://blog.osteele.com/2008/05/my-git-workflow/][Oliver Steele]] which made things much clearer to me.
 
-{{< img src="git-transport.png" title="The git transport mechanism" >}}
+{{< figure src="git-transport.png" title="The git transport mechanism" >}}
 
 And now back to work.

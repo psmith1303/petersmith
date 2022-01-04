@@ -16,3 +16,5 @@ Still ...
 ... Outlook is a pig of a programme. It's bloated. It takes me loads of keystrokes to do what would take me one in Fastmail. The only thing that is worse that Outlook IMHO, is Sharepoint.
 
 For the life of me, I can't figure out how to get Emacs to download my calendar from Outlook (well Exchange) and put it in my org-mode Agenda. Grrr.
+
+# more

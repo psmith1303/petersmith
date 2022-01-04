@@ -10,12 +10,12 @@ If I'm to believe my scales, I am now 30Kg lighter than at "peak Peter". So it's
 
 Anyway, here is a before from a couple of years ago:
 
-{{< img src="BigMe1.jpg" title="Big Peter" >}}
+{{< figure src="BigMe1.jpg" title="Big Peter" >}}
 
 Perhaps this photo shows why I avoided having my picture taken. Anyway, having lost some weight, I'm now doing some running and here is a picture of me at the recent [[https://www.coolrunning.co.nz/races/cathaypacific/][Cathay Pacific half marathon]].
 
 
-{{< img src="CathayPacific-HalfMarathon.jpg" title="Cathy Pacific half-marathon" >}}
+{{< figure src="CathayPacific-HalfMarathon.jpg" title="Cathy Pacific half-marathon" >}}
 
 That's quite a different look for me, and I'm still getting used to it (as are the people I work with).
 

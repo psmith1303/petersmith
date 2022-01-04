@@ -32,3 +32,5 @@ I also managed to fix (mostly) using a variable-pitched font (good old Verdana -
 
 
 Now I am working on getting Olivetti Mode work well, so I can have a pretty writing environment.
+
+# more

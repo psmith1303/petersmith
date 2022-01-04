@@ -1,0 +1,28 @@
+<footer>
+  <div id="footer-nav">
+    <ul>
+      <li><a href="/blog/" >Archives by date</a></li>
+      <li><a href="/tags/">Archives by tag</a></li>
+      <li><a href="/categories/">Archives by category</a></li>
+      <li><a href="/index.xml">RSS feed</a></li>
+    </ul>
+  </div>
+  <div id="footer-pages">
+    <ul>
+      {{ range where .Site.RegularPages "Section" "pages" }}
+        <li><a href="{{ .Permalink }}">{{ .Title }} </a></li>
+      {{ end }}
+    </ul>
+  </div>
+  <div id="footer-about">
+    <p>{{ .Site.Copyright }}</p>
+  </div>
+  <div id="footer-elsewhere">
+    {{- partial "elsewhere.html" . -}}
+  </div>
+  <div id="footer-copyright">
+    <p>&copy;1995&ndash;{{ now.Year }} by
+      <a class="p-name u-url url p-author metatag" rel="me" href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>
+      Licenced under <a href="{{  .Site.Author.licenceurl }}" class="metatag">{{ .Site.Author.licence }}</a>    </p>
+    </div>
+</footer>

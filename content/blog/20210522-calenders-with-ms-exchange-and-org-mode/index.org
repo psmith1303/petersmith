@@ -22,6 +22,8 @@ I publish my calendar for Exchange with all the details. That creates a URL that
 
 The first three of these steps is done by a little ~bash~ script. You can see a few things have been commented out where I've been playing/experimenting/learning.
 
+# more
+
 #+BEGIN_SRC bash
 # customize these
 WGET=/usr/bin/wget

@@ -18,7 +18,7 @@ Moreno, J. L. (1955). Canon of creativity: Analysis of the creativity chart. /So
 
 and is shown diagrammatically as:
 
-{{< img src="dtc.108.tif.gif" title="The canon of creativity" >}}
+{{< figure src="dtc.108.tif.gif" title="The canon of creativity" >}}
 
 I hope to fill in the detail of what this all means after the course. This diagram represents the interplay between the /cultural conserve/ and /spontaneity/ (that's awfully like the interplay between the forces of institutionalism / habitus / etc. and individual agency).
 

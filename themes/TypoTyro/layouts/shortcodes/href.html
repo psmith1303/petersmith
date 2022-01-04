@@ -1,0 +1,5 @@
+{{ $file := .Page.Resources.GetMatch (.Get "src" )}}
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+{{ $alt   := .Get "alt" }}
+<a href="{{ $file.RelPermalink  }}" alt="{{ $alt }}" class="{{ $class }}" />{{ $title }}</a>

@@ -26,6 +26,8 @@ What if we changed these “disposable assignments” into activities which actu
 
 When I think back my experiences during my MBA, those assignments that where strongly connected to my work and my workplace were---without doubt---the most interesting, useful, and enjoyable. So, Wiley's call for non-disposable assignments resonates with me.
 
+# more 
+
 * Some notes on terminology
 
 Those assignments that are not disposable are variously known as either /non-disposable assignments/, /renewalble assignments/, or (somewhat confusingly to me) /open pedagogies/.
@@ -76,7 +78,7 @@ Yet, there is nothing in this definition that explicitly connects the assignment
 
 Then, when referring to the Time-Space-Gravity model (Seraphin, et al., 2019), one can imagine that the time boundary of 10-weeks (the length of our quarter), the workplace (the space), and gravity (being hopefully high), creates some challenges in designing an non-disposable assignment.
 
-{{< img src="Seraphin-2019-TimeSpaceGravity.jpg" title=" A Time–Space–Gravity model for examining utility of NDAs (Seraphin et al., 2019., p. 90)" >}}
+{{< figure src="Seraphin-2019-TimeSpaceGravity.jpg" title=" A Time–Space–Gravity model for examining utility of NDAs (Seraphin et al., 2019., p. 90)" >}}
 
 Again drawing on Seraphin et. al (p. 91),
 

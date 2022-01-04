@@ -31,3 +31,4 @@ I suspect that whilst it is true that asynchronous instruction generally works b
 What worries me is that, having taken this path, many people make take away the lesson that synchronous (sometimes called Zoom lectures) are the way to go when it comes to online teaching; after all it has worked has hasn't it? Hasn't it; maybe not the way our students would have wanted. Yes, like us they have been tolerate of the situation and (often) appreciative of what we have tried to do in these circumstances, but going forward I think we need to get better both at the ongoing 'emergency response' to online teaching and in what we think good online teaching and learning looks like.
 
 
+# more

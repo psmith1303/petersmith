@@ -27,6 +27,8 @@ Human intelligence can be split into eight somewhat related types (Gardner, 1983
 - intrapersonal
 - naturalistic
 
+# more
+
 p.6 "Researchers ... support the concept that the brain is pattern-seeking device that analyzes specific features from the environment and then generates permanent neural activities that represent these features. These newly formed neural patterns .... are being combined and organized with prior knowledge according to core concepts of major themes that guide the thinking, memory, and problems solving of students."
 
 p.7 "O'Keefe and Nadal (1974) discovered two types of memory: /taxon/ and /locale/. Taxon memory is concerned with facts and figures and depends on rehearsal and rote memorization. Because it is non-contextual and not integrated with prior knowledge, the retrial of this type of memory is difficult when needed for problem solving.... it is driven by the limbic system [of the brain].... Locale memory is contextual and situational based. The hippocampus in our limbic system creates a spatial and contextual of the environmental input. These maps are continuously reconstructed in our memory as the new information is combined with prior information. Therefore, our memory becomes internal and virtually permanent."

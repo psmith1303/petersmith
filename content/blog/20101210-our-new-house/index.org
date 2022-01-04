@@ -10,8 +10,8 @@ Well we have finally moved into our new house. It was designed by [[https://www.
 
 So this is the before picture ...
 
-{{< img src="2010-01-10_014.jpg" title="Our empty section" >}}
+{{< figure src="2010-01-10_014.jpg" title="Our empty section" >}}
 
 And this is current(ish) situation ...
 
-{{< img src="2010-12-02_117.jpg" title="Our house currently" >}}
+{{< figure src="2010-12-02_117.jpg" title="Our house currently" >}}

@@ -8,7 +8,7 @@
 
 I still walking---which is good. The daily graph was getting a bit busy, so I thought I'd do a monthly summary, showing the last year. [[https://www.thereflectivepractitioner.org/ps/local/peds_month.php?dummy=x]] The red line shows my average during the period, and the top of the blue bar represents my goal. At the moment I'm trying to get the months to display in the correct order.
 
-{{< img src="peds_lastmonth.php.png" title="Last months steps" >}}
+{{< figure src="peds_lastmonth.php.png" title="Last months steps" >}}
 
 And this is the walking I've done in the last month.The Bottom of the blue band is my minimum target. If I don't make that, I feel I've not achieved the goal at all.
 

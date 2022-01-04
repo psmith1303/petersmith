@@ -10,11 +10,11 @@ I do enjoy writing with a fountain pen. I really, got into them when I realised 
 
 Today, I brought a Pilot MR, and for good measure I also brought a bottle of /Orange Indein/ ink made by [[https://www.jherbin.com/fountain_pen_inks.html][Herbin]]. 
 
-{{< img src="PilotMRwithInk.jpg" title="The Pilot MR" >}}
+{{< figure src="PilotMRwithInk.jpg" title="The Pilot MR" >}}
 
 Kim at [[https://fitzgeraldtaylor.co.nz][Fitzgeral Taylor]] suggested that the ink might not be a good match with the type of notebooks I used, because the paper is a cream colour, rather than pure white. Looking at the writing sample, I've done, I see what she means. But who can resits such a gorgeous ink?
 
-{{< img src="PilotSample.jpg" title="Writing sample with the Pilot MR" >}}
+{{< figure src="PilotSample.jpg" title="Writing sample with the Pilot MR" >}}
 
 The pen itself, is a little 'scratchy'. Mind you, it is the cheapest Pilot pen I've ever bough (at under $40). I'll give it some time and see it the steel knib 'breaks in'.
 

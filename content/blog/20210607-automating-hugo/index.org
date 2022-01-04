@@ -31,6 +31,7 @@ First off, I have a function to create the title of the post.
 
 #+END_SRC
 
+# more 
 Not knowing much elisp, it's probably a bit clunky. But it does work.
 
 Then I added these lines into my ~org-capture-templates~ definitions.

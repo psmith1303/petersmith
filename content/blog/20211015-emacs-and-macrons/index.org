@@ -34,3 +34,5 @@ Enter Xah Lee and his [[http://ergoemacs.org/emacs/emacs_n_unicode.html][Unicode
 #+END_SRC
 
 The result is to type the Ā, I just press ~f9 A~; to get an ā, I press ~f9 a~. That's about as easy as I can imagine it being.
+
+# more

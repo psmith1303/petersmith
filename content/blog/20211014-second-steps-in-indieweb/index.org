@@ -6,7 +6,7 @@
 #+tags[]: Indieweb
 #+draft: false
 
-After [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][my first steps to IndieWeb]], I got a really helpful message from [[https://robbinespu.gitlab.io/][Robbi Nespu]]. Alas, I've not (yet) got webmentions working in any real way, and the page he commented on had a broken URL (all my problems, not Robbi's). 
+After [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][my first steps to IndieWeb]], I got a really helpful message from [[https://robbinespu.gitlab.io/][Robbi Nespu]]. Alas, I've not (yet) got webmentions working in any real way, and the page he commented on had a broken URL (all my problems, not Robbi's).
 
 He said:
 
@@ -36,6 +36,7 @@ So, what's my progress so far? (beside's Robbi's smiley face emoji not displayin
   2. Check your posts are marked up with ~h-entry~: Not so hard, although I have had to tweak the layout of may pages somewhat. Categories, aren't elegant yet.
 
 - Level 3: Add the ability to send Webmentions to other IndieWeb sites
-  
+
 This is a work in progress. I can do it manually using, say, [[ttps://telegraph.p3k.io][https://telegraph.p3k.io]] but I've yet to automate things. The bigger challenge is getting other people's Webmentions to appear on my site.
 
+# more

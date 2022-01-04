@@ -8,7 +8,7 @@
 
 I publish my blog via [[https://github.com]] and [[https://app.netlify.com/][Netlify]]. I've been using [[https://magit.vc/][Magit]] to do the heavy lifting of getting my stuff off my PC and onto github. But it's a bit tidious. I really want one command to do it all.
 
-So, I started off with an elisp function
+So, I started off with an elisp function:
 
 #+BEGIN_SRC emacs-lisp
 
@@ -24,6 +24,7 @@ So, I started off with an elisp function
 
 #+END_SRC
 
+# more 
 which calls my shell script ~Commit.sh~
 
 

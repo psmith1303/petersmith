@@ -6,7 +6,7 @@
 #+tags[]: Blogging
 #+draft: False
 
-{{< img src="pen-and-paper.jpg" title="Got to write" >}}
+{{< figure src="pen-and-paper.jpg" title="Got to write" >}}
 
 I find blogging such a useful process for driving my own reflection. But of late, I've not done a lot of that.
 

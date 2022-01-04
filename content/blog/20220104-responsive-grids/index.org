@@ -1,0 +1,111 @@
+#+title: Responsive grids
+#+slug: responsive-grids
+#+date: 2022-01-04T08:56:16+13:00
+#+lastmod: 2022-01-04T08:56:16+13:00
+#+categories[]: Tech
+#+tags[]: Themes CSS Indieweb Responsive-design
+#+draft: False
+
+As I continue to develop my new template I tackled the issue of /responsive design/; that is, displaying nicely regardless of the device viewing the site. In my previous themes I made no attempt at making them responsive. They were built to be displayed on a computer screen, and that was about it.
+
+This time, however, I done a little work to make it 'somewhat' responsive.
+
+The modern doctrine around site/web design is that one should do /mobile first/, and then do whatever magic is needed to make the theme work on other screen sizes. Not so for me. My initial design was for a full-size computer screen, which I then modified to work on a mobile screen.
+
+In 'laying out' the page to be displayed, I have used a variety of techniques. When I first started designing web pages I used tables; that tells you how long ago that was. Then, with the advent of stylesheets (and CSS). CSS saw me starting to use 'floats' to position things on the page. That soon got messy so I started to use other people's framework, and for a sometime I used /Foundation/.
+
+However, such frameworks (be it Foundation or Bootstrap) seemed to be something of an over kill, and pretty heavyweight. That together with the steep learning curve saw me abandoning other people's frameworks and using my own based on =flexboxes=.
+
+But things have moved on since flexboxes became popular, and now we have =CSS grids=. So, I've bitten the bullet and have spent some time learning how to use them.
+
+# more
+
+My basic design is:
+
+{{< figure src="basic-layout.svg" alt="Basic layout of my theme" width="300px"  >}}
+
+So, I have three main elements: Header, Article, and Footer.
+
+That's pretty straightforward. But for the content, I want to have the title of the content on the left of the content and the actual content on the right, but sized to 720px (where possible). So it looks something like this:
+
+{{< figure src="extended-layout.svg" alt="Basic layout of my theme" width="300px"  >}}
+
+I split the header into 2 parts: Article-header, and Article-content. But, I also want to have navigation (to page through the articles), and present the meta-data about the page. That sees the Article having comprising: Article-header, Article-content, Article-nav, and Article-meta.
+
+To do that two different ways (one for mobile devices, and one for full-size screen) the bits of the code that do the heavy lifting in my style-sheet. So what does this do? It sets up some elements as comprising grids, and then, depending of the media 'sizes' it uses different grid templates. Note, just so that I can check things are working,  I colour my the mobile view a just little bit different to the PC view (=oldlace= instead of =snow=).
+
+
+#+BEGIN_SRC css
+header {
+    grid-area: header;
+    margin: 0;
+    padding: 0.5em 72px;
+    background: DarkSlateGray;
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    display: grid;
+
+    gap: 0;
+    padding-right: 72px;
+    font-size: 0.8em;
+    background-color: DarkSlateGray;
+    color: White;
+}
+
+article {
+    display: grid;
+    align-items: first baseline;
+}
+
+#article-meta {
+    grid-area: ameta;
+    font-size: 0.8em;
+}
+
+
+/* Making it responsive */
+
+* {box-sizing: border-box;}
+
+@media screen {
+    body {
+	background-color: oldlace;
+    }
+    article {
+	display: grid;
+	grid-template-columns: minmax(300px, 1fr);
+	grid-template-areas:
+	    "aheader"
+	    "acontent"
+	    "anav"
+	    "ameta";
+	row-gap: 24px;
+        padding: 0 24px;
+    }
+    footer {
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	    "fnav"
+	    "fpages"
+	    "fabout"
+	    "felsewhere"
+	    "fcopyright";
+    }
+    #article-meta-details {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+#+END_SRC
+
+When I get round to doing web-mentions and the like, I'll add a new sub-section underneath the article content called something like Article-mentions.
+
+So that's it. The theme is as about as responsive as I want it to be. Oh, I still use flexboxes[fn::For example, =flexboxes= work a treat for laying out my footnotes]. There is a lot of information on the Internet saying that CSS grids are not a replacement for flexboxes. They both have their place, and can be used concurrently.
+
+Finally, I read a lot about using CSS grids for responsive layouts without using media queries. However, I can't get those solutions to work because I want a fixed size for my article content. That's because I want to have the content about 60-70 characters wide, so I can't specify that in anything other than absolute terms (e.g., 66em or some px based-width given by line-length / font-size). So, I had to use the media queries (=@media=).
+
+So that is step 1 of my theme redevelopment done. Now onto the Indieweb aspects.

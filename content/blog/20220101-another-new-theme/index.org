@@ -1,0 +1,21 @@
+#+title: Another new theme
+#+slug: another-new-theme
+#+date: 2022-01-01T12:06:23+13:00
+#+lastmod: 2022-01-01T12:06:23+13:00
+#+categories[]: Tech
+#+tags[]: Themes Hugo
+#+draft: False
+
+My current theme, NewPapyrus, looks rather like a page printed on paper; i.e., like this:
+
+{{< figure src="NewPapyrus.png" title="A screenshot of the NewPapyrus theme" >}}
+
+When I first saw a site that looked like this, [[{{< relref "20200906-a-refresh" >}}][I quite liked it]]. However, whilst it does the job, it isn't elegant. It's functional, but I have come to think that, aesthetically, it is lacking. After all, what is the point in replicating paper on a screen?
+
+Looking at  /typographic/ sites such as [[https://ministryoftype.co.uk/][The Ministry of Type]], I am inspired to do something different to what I have (and maybe more like them).
+
+# more
+
+{{< figure src="MinistryOfType.png" title="A screenshot of the Ministry of Type's website" >}}
+
+So, I'm starting on a new theme called /TypoTyro/ which I hope to make more pleasing to the eye.

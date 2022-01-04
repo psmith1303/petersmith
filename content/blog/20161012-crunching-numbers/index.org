@@ -16,6 +16,6 @@ It was very helpful (and worth a read).
 
 Anyway, here is one of my visualizations showing the correlations between the performance of a group of students between courses.
 
-{{< img src="studentdata101.png" title="Correlations between courses" >}}
+{{< figure src="studentdata101.png" title="Correlations between courses" >}}
 
 But there is a coincidence here. The template/design of this site +is+ was largely based on Kieran's own site; if you have followed the links in this post, I am sure you will see the similarities. Thanks Kieran!

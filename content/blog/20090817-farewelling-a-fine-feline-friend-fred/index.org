@@ -6,7 +6,7 @@
 #+tags[]: Cats
 #+draft: False
 
-{{< img src="P1002041.jpg" title="Fred" >}}
+{{< figure src="P1002041.jpg" title="Fred" >}}
 
 Fred (born 6 Oct 1997), gone but not forgotten.
 

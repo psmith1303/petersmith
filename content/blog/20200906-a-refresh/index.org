@@ -3,7 +3,7 @@
 #+date: 2020-09-06T12:00:00+13:00
 #+lastmod: 2020-09-06T12:00:00+13:00
 #+categories[]: Tech
-#+tags[]: Blogging Emacs Hugo
+#+tags[]: Blogging Emacs Hugo Themes
 #+draft: False
 
 * It's time to redecorate
@@ -17,3 +17,5 @@ But in tootling around, looking for options I came across the website of [[https
 Updating/changing my sites look and feel has been on my (org-mode) TO DO list for some time. But, I'm not sure I want to go to using Org to generate this site; I have too many posts that would need converting from Markdown to ".org".
 
 Instead, I have started to create a [[https://gohugo.io/][Hugo]] theme to replicate some of the look and feel of Joot's site. So far, I am pretty happy with the outcome. That doesn't mean I finished. Although I have spent a good chunk of the weekend working on the theme, it isn't perfect yet. There is still a good amount of work to be done to make it sing. But it's good enough for me to take the theme live.
+
+# more

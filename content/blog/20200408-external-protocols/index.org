@@ -45,3 +45,5 @@ Example value (Windows): 0x00000001
 I had to create everything from Google onwards in the registry.
 
 FYI entering 0x00000001 in the regedit, is done as 01 00 00 00
+
+# more

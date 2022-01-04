@@ -3,18 +3,16 @@
 #+date: 2016-11-18T16:20:00+13:00
 #+lastmod: 2016-11-18T16:20:00+13:00
 #+categories[]: Tech
-#+tags[]: Themes Blogging Hugo
+#+tags[]: Themes  Hugo
 #+draft: False
 
 My Hugo original theme was based on the work of [[https://kieranhealy.org/][Kieran Healy]], and it looked very much luck this:
 
-
-{{< img src="SiteSnap-20161118-KieranHealy.jpg" title="Screen capture of Kieran Healy's web site" >}}
+{{< figure src="SiteSnap-20161118-KieranHealy.jpg" title="Screen capture of Kieran Healy's web site" >}}
 
 Any how, I figure it was time to rework things. So, based a bit of looking around at what other folk have been doing, and then adding in some sauce, I came up with this, responsive, mobile-first theme.
 
-
-{{< img src="SiteSnap-20161118-PeterSmith.jpg" title="Screen capture of PeterSmith.Org" >}}
+{{< figure src="SiteSnap-20161118-PeterSmith.jpg" title="Screen capture of PeterSmith.Org" >}}
 
 Maybe they still look similar, but I kinda like my version.
 
