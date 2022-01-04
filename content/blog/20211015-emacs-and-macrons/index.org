@@ -1,5 +1,4 @@
-#+title: Emacs and macrons
-#+subtitle: A bit better typograghy
+#+title: Emacs and macrons: A bit better typograghy
 #+slug: Emacs and macrons
 #+date: 2021-10-15T12:58:22+13:00
 #+lastmod: 2021-10-24T11:27:21+13:00

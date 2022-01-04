@@ -1,5 +1,4 @@
-#+title: Calendars with MS Exchange and Orgmode
-#+subtitle: Across the great divide
+#+title: Calendars with MS Exchange and Orgmode: Across the great divide
 #+slug: calendars-with-ms-exchange-and-orgmode
 #+date: 2021-05-22T11:29:00+13:00
 #+lastmod: 2021-05-22T11:29:00+13:00

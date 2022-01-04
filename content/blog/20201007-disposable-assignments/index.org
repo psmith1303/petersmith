@@ -1,5 +1,4 @@
-#+title: Disposable assignments
-#+subtitle: Is it really better
+#+title: Disposable assignments: Are they really better
 #+slug: disposable-assignments
 #+date: 2020-10-07T08:44:53+13:00
 #+lastmod: 2020-10-07T08:44:53+13:00

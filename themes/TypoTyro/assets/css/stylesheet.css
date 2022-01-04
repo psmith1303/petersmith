@@ -120,8 +120,6 @@ footer ul {
     list-style-type:none;
 }
 
-
-
 #footer-nav {
     grid-area: fnav;
 }
@@ -147,7 +145,6 @@ footer ul {
     grid-area: fcopyright;
     margin: auto;
 }
-
 
 
 #content {
@@ -242,7 +239,6 @@ article a:active {
 }
 
 .toc-link {
-
 }
 
 /** 'Standards' across most containers **/
@@ -325,15 +321,6 @@ blockquote {
 
 }
 
-.subtitle {
-    color: lightgrey;
-}
-
-p.subtitle {
-    margin-top: 0;
-    margin-bottom: 1em;
-
-}
 /** My column framework **/
 
 .columns {
@@ -386,16 +373,6 @@ p.subtitle {
 
 /** Misc settings **/
 
-input,
-button,
-legend {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-    line-height: 1.2em;
-}
-
 
 .topborder {
     border-top: 1px solid LightGrey;
@@ -403,36 +380,14 @@ legend {
     background-color: White;
 }
 
-.e-content > ul{
-    padding-left: 1em;
-
-}
-
-.e-content>ul>li>p:first {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.e-content>ul>li>p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.e-content>ul>li>p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-
-.article-footer {
-   padding-top: 0;
-   padding-bottom: 0;
-}
-
 aside {
     background-color: Violet;
 }
+
+
+/*********************
+Other styling
+*********************/
 
 pre {
     font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
@@ -463,131 +418,6 @@ code.verbatim {
 
 
 
-.elsewhere a {
-    font-size: 0.9em;
-    color: #555;
-}
-
-.channels {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    font-size: 0.8em;
-}
-
-.channels a {
-    text-decoration: none;
-}
-
-.channels a:hover {
-    text-decoration: underline;
-}
-
-ul.footer-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-ul.footer-links li {
-    margin: 0;
-    padding: 0;
-}
-
-.icons {
-    font-size: 1em;
-}
-
-.icon {
-    font-size: 1em;
-    display: inline-block;
-    opacity: 1;
-    margin: 0 .25rem 0 0;
-    width: 1.18em;
-    height: 1em;
-    font-family: Icons;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration: inherit;
-    text-align: center;
-    backface-visibility: hidden;
-}
-
-.meta-data {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;    
-    font-size: 0.8em;
-    font-weight: 400;
-    margin-top: 1em;
-    margin-bottom: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    border-top: 1px solid lightgrey;
-
-    line-height: 1.5em;
-    color: #888;
-}
-
-.meta-data p {
-   margin-top: 0;
-   margin-bottom: 0;
-}
-.p-tag, .p-category {
-    display: inline;
-}
-
-.footer-links a,
-.meta-data a {
-    text-decoration: none;
-    color: #888;
-}
-
-.meta-data a:link {
-    text-decoration: none;
-    color: #888;
-}
-
-.meta-data a:visited {
-    text-decoration: none;
-    color: #888;
-}
-
-.meta-data a:hover {
-    color: #888;
-    text-decoration: underline;
-}
-
-.meta-data a:active {
-    text-decoration: none;
-    color: #888;
-}
-
-.meta {
-    font-size: 0.8em;
-    padding-top: 2em;
-    text-align: center;
-    font-weight: 200;
-}
-
-ul.meta {margin: 0 auto; text-align: center;}
-ul.meta li {display: inline;    }
-ul.meta li:after {content: " \02043";}
-ul.meta li:last-child:after { content: "";}
-
-ul.categories {margin: 0 auto; text-align: left;}
-ul.categories li {display: inline; }
-ul.categories li:after {content: " • ";}
-ul.categories li:last-child:after { content: "";}
-
-
-
-
-
-/*********************
-Other styling
-*********************/
-
 img {
   max-width: 100%;
   height: auto;
@@ -613,14 +443,6 @@ figcaption h4 {
     text-align: center
 }
 
-
-.tags {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
-    font-weight: bold;
-    background-color: White;
-    color: Grey;
-}
-
 .sparklines {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 0.8em;
@@ -643,6 +465,8 @@ ul.sparklines {
     text-decoration: underline;
 }
 
+
+/* Footnote magic */
 
 hr.footnotes-separatator {
     width: 30%;
@@ -673,10 +497,10 @@ hr.footnotes-separatator {
 .footnote-definition sup::before {
     content: "[";
 }
+
 .footnote-definition sup::after {
     content: "]";
 }
-
 
 .footnote-body p {
     flex: 0 1 auto;
