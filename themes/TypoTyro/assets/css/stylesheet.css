@@ -26,7 +26,7 @@
 	    "felsewhere"
 	    "fcopyright";
     }
-    #article-meta-details {
+    .article-meta-details {
         grid-template-columns: 1fr;
     }
 
@@ -55,7 +55,7 @@
 	    "fnav fpages felsewhere"
 	    "fnav fpages fcopyright";
     }
-    #article-meta-details {
+    .article-meta-details {
         grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 0.5em;
     }
@@ -170,28 +170,28 @@ article a:active {
 }
 
 
-#article-header {
+.article-header {
     grid-area: aheader;
 }
 
-#article-header h1 {
+.article-header h1 {
     font-size: 24px;
     text-align: right;
     color: #222;
 }
 
-#article-header h2 {
+.article-header h2 {
     text-align: right;
     font-size: 16px;
     margin: 1em 0 0 0;
 }
 
-#article-header a {
+.article-header a {
     text-align: right;
     font-size: 14px;
 }
 
-#article-header hr {
+.article-header hr {
     width: 85px;
     margin-right: 0;
     margin-left: auto;
@@ -201,20 +201,20 @@ article a:active {
 }
 
 
-#article-content {
+.article-content {
     grid-area: acontent;
 }
 
-#article-meta {
+.article-meta {
     grid-area: ameta;
     font-size: 0.8em;
 }
 
-#article-meta-details {
+.article-meta-details {
     display: grid;
 }
 
-#article-nav {
+.article-nav {
     grid-area: anav;
     font-size: 0.9em;
     display: grid;
@@ -222,7 +222,7 @@ article a:active {
 }
 
 #footer ul,
-#article-header ul {
+.article-header ul {
     padding-left: 2em;
     list-style-type:none;
     text-align: right;
