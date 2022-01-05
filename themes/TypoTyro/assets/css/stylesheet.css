@@ -247,7 +247,8 @@ article a:active {
 h1 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
+    font-style: normal;
     margin: 1em 0 0 0;
     text-align: center;
 }
@@ -255,7 +256,8 @@ h1 {
 h2 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 16px;
-    font-weight: italic;
+    font-weight: 400;
+    font-style: italic;
     margin: 1em 0 0 0;
     text-align: center;
 }
@@ -264,8 +266,8 @@ h2 {
 h3 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    font-style: bold;
+    font-weight: 600;
+    font-style: normal;
     margin: 1em 0 0 0;
     text-align: left;
 }
@@ -274,7 +276,7 @@ h3 {
 h4 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
     margin: 1em 0 0 0;
     text-align: left;
@@ -284,8 +286,8 @@ h4 {
 h5 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    font-style: bold;
+    font-weight: 600;
+    font-style: normal;
     margin: 1em 0 1em 0;
     text-align: left;
 }
@@ -402,7 +404,7 @@ pre:hover, pre:focus {
 
 code {
     font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
-    colour: darkgreen;
+    color: darkgreen;
 }
 
 code.verbatim {
