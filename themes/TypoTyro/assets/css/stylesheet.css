@@ -525,3 +525,32 @@ hr.footnotes-separatator {
 .wrappinglist li {display: inline;        }
 .wrappinglist li:after {content: " \02043";}
 .wrappinglist li:last-child:after { content: "";}
+
+
+.elsewhere ul {margin: 0 auto; text-align: center;}
+.elsewhere li {
+    display: inline;
+    padding: 0 0.5em;
+}
+.elsewhere li:after {content: " ";}
+.elsewhere li:last-child:after { content: "";}
+.elsewhere img {
+    vertical-align: middle;
+    width: auto;
+    height: 20px;
+}
+
+
+/*******************************
+ Indie web and web-mention stuff
+********************************/
+
+.p-name,
+.p-given-name,
+.p-family-name,
+.p-org,
+.p-adr,
+.p-category,
+.u-photo {
+    display: none;
+}

@@ -15,7 +15,7 @@
     </ul>
   </div>
   <div id="footer-about">
-    <p>{{ .Site.Copyright }}</p>
+    {{- partial "h-card.html" . -}}
   </div>
   <div id="footer-elsewhere">
     {{- partial "elsewhere.html" . -}}
