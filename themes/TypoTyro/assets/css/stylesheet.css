@@ -157,7 +157,6 @@ section {
 
 article {
     display: grid;
-    align-items: first baseline;
 }
 
 article a,
@@ -172,10 +171,11 @@ article a:active {
 
 .article-header {
     grid-area: aheader;
-}
+ }
 
 .article-header h1 {
     font-size: 24px;
+    line-height: 1.2em;
     text-align: right;
     color: #222;
 }
@@ -203,6 +203,13 @@ article a:active {
 
 .article-content {
     grid-area: acontent;
+}
+.article-content h1:first-of-type,
+.article-content h3:first-of-type, 
+.article-content p:first-of-type  {
+    zzbackground-color: yellow;
+    margin-top: 28px;
+
 }
 
 .article-meta {
@@ -488,6 +495,10 @@ hr.footnotes-separatator {
   justify-content: flex-start;
   align-content: center;
   align-items: baseline;
+}
+
+.footnote-definition p:first-of-type  {
+    margin-top: 8px;
 }
 
 .footnote-definition sup {

@@ -1,4 +1,4 @@
-<h2 class="has-text-left">{{ .Key }}</h2>
+<h3 class="has-text-left">{{ .Key }}</h3>
 <div id="toc">
 {{ $pages :=  .Pages }}
 {{ $links := apply $pages "partial" "toc-line.html" "." }}
