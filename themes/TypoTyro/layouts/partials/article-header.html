@@ -1,5 +1,5 @@
 <div class="article-header">
-  <a href="{{ .Permalink }}" ><h1 class="article-title p-title">{{ .Title }}</h1></a>
+  <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
   {{ $dateTime := .PublishDate.Format "2006-01-02" }}
   {{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
   <h2><time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time></h2>
@@ -16,7 +16,7 @@
   {{ with .Params.tags }}
     {{ range . }}
       {{ $href := print (absURL "tags/") (urlize .) }}
-      <li><a href="{{ $href }}">{{ . }}</a></li>
+      <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
       {{ end }}
     {{ end }}
   </ul>
