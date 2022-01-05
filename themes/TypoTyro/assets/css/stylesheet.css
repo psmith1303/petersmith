@@ -25,6 +25,8 @@
 	    "fabout"
 	    "felsewhere"
 	    "fcopyright";
+	padding-left: 2em;
+	padding-right: 2em;
     }
     .article-meta-details {
         grid-template-columns: 1fr;
@@ -54,6 +56,7 @@
 	    "fnav fpages fabout"
 	    "fnav fpages felsewhere"
 	    "fnav fpages fcopyright";
+	padding-right: 72px;
     }
     .article-meta-details {
         grid-template-columns: 1fr 1fr 1fr;
@@ -109,7 +112,6 @@ footer {
     display: grid;
 
     gap: 0;
-    padding-right: 72px;
     font-size: 0.8em;
     background-color: DarkSlateGray;
     color: White;
@@ -118,6 +120,7 @@ footer {
 footer ul {
     padding-left: 2em;
     list-style-type:none;
+    padding-inline: 0;
 }
 
 #footer-nav {
