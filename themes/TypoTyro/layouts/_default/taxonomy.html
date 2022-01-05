@@ -1,17 +1,17 @@
 {{ define "main" }}
 <main>
     <article>
-    <div id="article-header"><h1>Folksonomy of {{ .Title }}</h1></div>
+    <div class="article-header"><h1>Folksonomy of {{ .Title }}</h1></div>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}
-    <div id="article-content">
+    <div class="article-content">
       <!-- Ranges through content/posts/*.org -->
       {{ range .Pages.GroupByDate "2006" }}
         {{ partial "toc.html" . }}
       {{ end }}
     </div>
-    <div id="article-nav"></div>
-    <div id="article-meta"></div>
+    <div class="article-nav"></div>
+    <div class="article-meta"></div>
   </article>
 </main>
 {{ end }}
