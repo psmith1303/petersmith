@@ -1,10 +1,8 @@
 {{ define "main" }}
 <article>
-</article>
-<article>
   <div id="article-header"><h1>{{ humanize .Data.Plural }} alphabetically</h1></div>
   <div id="article-content">{{ $data := .Data }}
-    <ul class="categories">
+    <ul class="wrappinglist">
       {{ range .Data.Terms.Alphabetical }}
       <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
       {{ end }}
@@ -14,9 +12,10 @@
   <div id="article-meta"></div>
 </article>
 
+<article>
   <div id="article-header"><h1>{{ humanize .Data.Plural }} by usage</h1></div>
   <div id="article-content">{{ $data := .Data }}
-    <ul class="categories">
+    <ul class="wrappinglist">
       {{ range .Data.Terms.ByCount }}
       <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
       {{ end }}

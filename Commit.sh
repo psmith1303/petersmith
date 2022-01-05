@@ -12,3 +12,5 @@ sleep 2 && \
 git commit -m "${DESCRIPTION}" && \
 sleep 2 && \
 git push origin master
+sleep 2 && \
+rm .git/index.lock
