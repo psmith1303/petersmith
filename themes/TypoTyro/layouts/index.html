@@ -9,7 +9,7 @@
       <article>
         {{- partial "article-header.html" . -}}
 	<div class="article-content">
-	  {{ .Summary }}
+	  {{- .Summary -}}
 	  <a href='{{ .Permalink }}'>Full entry …</a>
 	</div>
 	<div class="article-nav"></div>

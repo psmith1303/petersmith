@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
   {{- partial "article-header.html" . -}}
-  <div class="article-content">{{ .Content }}</div>
+  <div class="article-content">{{- .Content -}}</div>
   {{- partial "article-nav.html" . -}}
   {{- partial "article-meta.html" . -}}
 </article>
