@@ -7,10 +7,10 @@
 	<li>Reading time: {{ .ReadingTime }} minutes</li>
 	<li><a class="u-url u-uid" href="{{ .Permalink }}">Permalink</a></li>
 	{{ $dateTime := .PublishDate.Format "2006-01-02" }}
-	{{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006 15:04" }}
+	{{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006 15:04:05" }}
 	<li>Published: <time class="dt-published"
 			     datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time><li>
-	<li>Updated: {{ .Lastmod.Format "2 Jan 2006 15:04" }}</li>
+	<li>Updated: {{ .Lastmod.Format "2 Jan 2006 15:04:05" }}</li>
 	<li>Author: <a class="p-author h-card" href="{{ .Site.BaseURL }}"><span class="u-author">{{ .Site.Author.name }}</span></a></li>
       </ul>
     </div>
