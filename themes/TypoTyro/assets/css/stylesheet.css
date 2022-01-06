@@ -18,13 +18,12 @@
         padding: 0 24px;
     }
     footer {
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-areas:
-	    "fnav"
-	    "fpages"
-	    "fabout"
-	    "felsewhere"
-	    "fcopyright";
+	    "fnav fpages"
+	    "fabout fabout"
+	    "felsewhere felsewhere"
+	    "fcopyright fcopyright";
 	padding-left: 2em;
 	padding-right: 2em;
     }
@@ -545,7 +544,7 @@ hr.footnotes-separatator {
 .elsewhere img {
     vertical-align: middle;
     width: auto;
-    height: 20px;
+    height: 16px;
 }
 
 
@@ -558,7 +557,6 @@ hr.footnotes-separatator {
 .p-family-name,
 .p-org,
 .p-adr,
-.p-category,
 .u-photo {
     display: none;
 }

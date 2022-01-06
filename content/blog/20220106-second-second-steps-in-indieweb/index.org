@@ -1,0 +1,11 @@
+#+title: Second second steps in Indieweb
+#+slug: second-second-steps-in-indieweb
+#+date: 2022-01-06T14:13:59+13:00
+#+lastmod: 2022-01-06T14:13:59+13:00
+#+categories[]: Tech
+#+tags[]: Indieweb Hugo Themes
+#+draft: False
+
+I have now completed [[{{ relfref "20220103-new-theme-progres" }}][step 2]] in building the new theme for this site; The Indieweb tags to support the h-entry, and h-card entities are working again, as is the bits to get =[[https://indieweb.org/rel-me][rel=me]]= going.
+
+At the same time, I have made the 'mobile' version of the site, a little less clunky.  So, far so very good.

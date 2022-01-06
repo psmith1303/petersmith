@@ -1,7 +1,30 @@
 {{ define "main" }}
 <article class="h-entry">
-  NOTES
-  {{- partial "article-header.html" . -}}
+  <div class="article-header">
+  <a href="{{ .Permalink }}" ><h1 class="article-title p-name">A Note: {{ .Title }}</h1></a>
+  {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+  {{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+  <h2><time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time></h2>
+  <ul>
+  {{ with .Params.categories }}
+    {{ range . }}
+      {{ $href := print (absURL "categories/") (urlize .) }}
+      <li><a href="{{ $href }}">{{ upper . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <hr>
+  <ul>
+  {{ with .Params.tags }}
+    {{ range . }}
+      {{ $href := print (absURL "tags/") (urlize .) }}
+      <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <hr>
+</div>
+
   <div class="article-content e-content">{{- .Content -}}</div>
   {{- partial "article-nav.html" . -}}
   {{- partial "article-meta.html" . -}}
