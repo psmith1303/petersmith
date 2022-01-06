@@ -1,0 +1,24 @@
+<div class="article-header">
+
+  {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+  {{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+  <a href="{{ .Permalink }}" ><h1 class="article-title"><time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <img class="icon-large" src="/images/class-notes.svg"></h1></a>
+  <ul>
+  {{ with .Params.categories }}
+    {{ range . }}
+      {{ $href := print (absURL "categories/") (urlize .) }}
+      <li><a href="{{ $href }}">{{ upper . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <hr>
+  <ul>
+  {{ with .Params.tags }}
+    {{ range . }}
+      {{ $href := print (absURL "tags/") (urlize .) }}
+      <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <hr>
+</div>

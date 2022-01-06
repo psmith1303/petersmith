@@ -6,18 +6,20 @@
   </div>
   <div>
     {{ range (.Paginate (.Site.RegularPages.ByDate.Reverse)).Pages   }}
-      <article>
-        {{- partial "article-header.html" . -}}
-	<div class="article-content">
-	  {{- .Summary -}}
-	  <a href='{{ .Permalink }}'>Full entry …</a>
-	</div>
-	<div class="article-nav"></div>
-	<div class="article-meta"></div>
+    <article>
+      {{- if eq .Type "blog" -}}
+        {{- partial "summary-blog.html" . -}}
+      {{- else if eq .Type "notes" -}}
+        {{- partial "summary-notes.html" . -}}
+      {{- else if eq .Type "mentions" -}}
+        {{- partial "summary-mentions.html" . -}}
+      {{- else -}}
+      DEFAULT
+        {{- partial "summary-blog.html" . -}}
+      {{- end -}}
       </article>
     {{ end }}
     <article><div class="article-content">{{- partial "paginator.html" . -}}</div></article>
   </div>
 </main>
 {{ end }}
-

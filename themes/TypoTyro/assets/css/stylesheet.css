@@ -560,3 +560,13 @@ hr.footnotes-separatator {
 .u-photo {
     display: none;
 }
+
+.icon {
+    height: 16px;
+    width: auto;
+}
+
+.icon-large {
+    height: 24px;
+    width: auto;
+}
