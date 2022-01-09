@@ -7,7 +7,7 @@
 #+draft: False
 #+weight: 200
 
-As [Brian A. Maicke](https://www.personal.psu.edu/bam49/notebook/colophon/) asks, "So what exactly is a colophon?" Well Google says:
+As [[https://www.personal.psu.edu/bam49/notebook/colophon/][Brian A. Maicke]] asks, "So what exactly is a colophon?" Well Google says:
 
 #+BEGIN_QUOTE
 

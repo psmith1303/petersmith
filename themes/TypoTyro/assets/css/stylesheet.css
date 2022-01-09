@@ -13,7 +13,7 @@
 	    "aheader"
 	    "acontent"
 	    "anav"
-	    "ameta";
+	    "afooter";
 	row-gap: 24px;
         padding: 0 24px;
     }
@@ -44,6 +44,7 @@
     grid-template-areas:
 	"aheader acontent"
 	"aheader anav"
+	"aheader afooter"
 	"aheader ameta";
     row-gap: 24px;
     column-gap: 48px;
@@ -242,6 +243,18 @@ article a:active {
     padding: 0;
 }
 
+.afooter {
+    grid-area: afooter;
+}
+
+.afooter li {
+    display: list-item;
+    text-align: match-parent;
+}
+
+
+
+
 
 #toc {
     display: grid;
@@ -254,6 +267,7 @@ article a:active {
 
 .toc-link {
 }
+
 
 /** 'Standards' across most containers **/
 
@@ -336,6 +350,7 @@ blockquote {
     border-left: 1px solid lightgrey;
 
 }
+
 
 /** My column framework **/
 
@@ -552,12 +567,7 @@ hr.footnotes-separatator {
  Indie web and web-mention stuff
 ********************************/
 
-.hidden,
-.p-given-name,
-.p-family-name,
-.p-org,
-.p-adr,
-.u-photo {
+.hidden {
     display: none;
 }
 
@@ -569,4 +579,88 @@ hr.footnotes-separatator {
 .icon-large {
     height: 24px;
     width: auto;
+}
+
+.replies {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.replies-short {
+    display: grid;
+    grid-gap: 0.2em 1.4em;
+    grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+}
+
+.reply {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.reply_bar {
+    display: block;
+    flex-grow: 1;
+    margin-left: -1rem;
+    padding-right: 2em;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    box-shadow: 0 2px 2px rgba(45,134,132,.16),0 0 0 1px rgba(45,134,132,.08);
+}
+
+a:link.reply_bar .reply_author, a:link.reply_bar .reply_date {
+    padding-left: 1.5em;
+    color: #0d57a5;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.reply_avatar > img {
+    width: 50px;
+    height:50px;
+    margin-top: .6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 25%;
+    box-shadow: 0 2px 1px rgba(16,76,75,.1);
+}
+
+/*******************************
+ Rustle up some tabs
+*******************************/
+
+input[type="radio"] { display: none; }                /* hide radio buttons */
+input[type="radio"] + label { display: inline-block } /* show labels in line */
+input[type="radio"] ~ .tab { display: none }          /* hide contents *//* show contents only for selected tab */
+
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content2,
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4 {
+    display: block;
+}
+
+
+input[type="radio"] + label {             /* box with rounded corner */
+  border: 1px solid lightgray;
+  background: #EEE;
+  padding: 4px 12px;
+  border-radius: 7px 7px 0 0;
+  position: relative;
+  top: 1px;
+}
+input[type="radio"]:checked + label {     /* white background for selected tab */
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+input[type="radio"] ~ .tab {          /* grey line between tab and contents */
+  border-top: 1px solid #999;
+  padding: 12px;
+}
+
+.tabs {
+    font-size: 12px;
 }

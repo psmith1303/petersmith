@@ -1,7 +1,7 @@
 #+title: Second Steps in IndieWeb
 #+slug: second-steps-in-indieweb
 #+date: 2021-10-14T18:53:21+13:00
-#+lastmod: 2021-10-14T21:09:41+13:00
+#+lastmod: 2022-01-09T17:04:24+13:00
 #+categories[]: Tech
 #+tags[]: Indieweb
 #+draft: false
@@ -40,3 +40,11 @@ So, what's my progress so far? (beside's Robbi's smiley face emoji not displayin
 This is a work in progress. I can do it manually using, say, [[ttps://telegraph.p3k.io][https://telegraph.p3k.io]] but I've yet to automate things. The bigger challenge is getting other people's Webmentions to appear on my site.
 
 # more
+
+/Update 2022-01-09/
+
+I have just figured out that the posting Robbi did was to a page whose URL was broken; The page should have been [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/]] and not  https://petersmith.org/blog/2021/10/10/20211010-first-steps-to-indieweb/ (notice the extra date in the slug of the posting).
+
+That little problem has been fixed but it does mean his posting doesn't point anyway (for now) --- but I'll fix that in my next update to the blog (using [[https://gohugo.io/content-management/urls/#aliases][Hugo's ability to have aliases]]).
+
+The bigger problem is that the code I am writing to display webmentions would be horribly complicated by dealing with aliases. I cannot see an straightforward way to do that. Sorry [[https://robbinespu.gitlab.io/][Robbi]] ☹

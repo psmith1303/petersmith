@@ -1,0 +1,35 @@
+<h2>Author details:</h2>
+<ul>
+{{ range .author }}
+  <li>{{ . }}</li>
+{{ end }}
+</ul>
+
+
+<p>---DEBUG start----------------------</p>
+<p>------------------------------------</p>
+{{ printf "%#v" . }}
+<p>---DEBUG end -----------------------</p>
+
+
+
+Put this in webmention.html
+
+  <ul>
+    <li>3 replies</li>
+    <li>13 likes</li>
+    <li>16 shares</li>
+  </ul>
+
+And this
+  
+{{ $thisPage := .Permalink }}</p>
+{{ range $.Site.Data.mentions }}
+{{ if eq .type "entry" }}
+<p>URL: {{ .wmXXXtarget }}</p>
+    {{ else }}
+    Unknow type of mention ({{ .type }}
+{{ end }}
+
+{{- partial "displaymention" . -}}
+{{ end }}

@@ -1,0 +1,22 @@
+<div id="pane-likes">
+  {{ $permalink := replace .Permalink "http://localhost:1313/" "https://petersmith.org/" }}
+  {{ $webmentions := .Site.Data.mentions }}
+  {{ $likes := 0 }}
+  <ul id="likes" class="replies replies-short">
+  {{ range $webmentions }}
+  {{ if (and (eq .wm_target $permalink)  .like_of) }}
+  <li class="h-entry">
+    <div class="reply h-card p-author">
+      <a class="reply_avatar u-author" href="{{ .author.url }}">
+	<img class="u-photo" src="{{ .author.photo }}">
+      </a>
+      <a class="reply_bar u-url" href="{{ .url }}">
+	<div class="reply_author p-name">{{ .author.name }}</div>
+	{{ $time := time .wm_received }}
+	<div class="reply_date">{{ $time.Format "2 Jan 06" }}</div>
+      </a>
+    </div>
+  </li>
+  {{ end }}
+  {{ end }}
+</div>
