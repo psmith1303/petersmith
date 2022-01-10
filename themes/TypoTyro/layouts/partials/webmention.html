@@ -6,17 +6,19 @@
   {{ range $webmentions }}
   {{ if (and (eq .wm_target $permalink)  (or .mention_of .in_reply_to) ) }}
   <li class="h-entry">
-    <div class="comment_author reply p-author">
-      <a class="reply_bar u-url" href="{{ .author.url }}">
-	<div class="reply_author reply_author p-author" href="">{{ .author.name }}</div>
-	{{ $time := time .wm_received }}
-	<div class="reply_date">{{ $time.Format "2 Jan 06" }}</div>
-      </a>
-      <a class="reply_avatar u-author" href="https://twitter.com/paulrobertlloyd">
-	<img loading="lazy" class="u-photo" src="{{ .author.photo }}">
-      </a>
+    <div class="comment">
+      <div class="comment_author reply p-author">
+	<a class="reply_bar u-url" href="{{ .author.url }}">
+	  <div class="reply_author reply_author p-author" href="">{{ .author.name }}</div>
+	  {{ $time := time .wm_received }}
+	  <div class="reply_date">{{ $time.Format "2 Jan 06" }}</div>
+	</a>
+	<a class="reply_avatar u-author" href="{{ .author.url }}">
+	  <img loading="lazy" class="u-photo" src="{{ .author.photo }}">
+	</a>
+      </div>
+      <div class="comment_content e-entry">{{- .content.html | safeHTML  -}}</div>
     </div>
-    <div class="comment_content e-entry">{{- .content.html | safeHTML  -}}</div>
   </li>
   {{ end }}
   {{ end }}

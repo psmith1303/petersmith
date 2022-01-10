@@ -581,6 +581,13 @@ hr.footnotes-separatator {
     width: auto;
 }
 
+.comment {
+    display: grid;
+    grid-gap: .2em 1.4em;
+    grid-template-columns: 20ch auto;
+    align-items: baseline;
+}
+
 .replies {
     padding-left: 0;
     list-style-type: none;
