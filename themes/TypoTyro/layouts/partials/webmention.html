@@ -13,7 +13,7 @@
 	<div class="reply_date">{{ $time.Format "2 Jan 06" }}</div>
       </a>
       <a class="reply_avatar u-author" href="https://twitter.com/paulrobertlloyd">
-	<img class="u-photo" src="{{ .author.photo }}">
+	<img loading="lazy" class="u-photo" src="{{ .author.photo }}">
       </a>
     </div>
     <div class="comment_content e-entry">{{- .content.html | safeHTML  -}}</div>
