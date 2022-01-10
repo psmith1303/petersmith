@@ -8,7 +8,7 @@
   <li class="h-entry">
     <div class="reply h-card p-author">
       <a class="reply_avatar u-author" href="{{ .author.url }}">
-	<img loading="lazy" class="u-photo" src="{{ .author.photo }}">
+	<img loading="lazy" class="u-photo" src="{{- if .author.photo -}}{{- .author.photo -}}{{- else -}}/images/anon.svg{{- end -}}">
       </a>
       <a class="reply_bar u-url" href="{{ .url }}">
 	<div class="reply_author p-name">{{ .author.name }}</div>

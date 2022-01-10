@@ -4,6 +4,7 @@
 #+lastmod: 2022-01-10T14:09:27+13:00
 #+categories[]: Tech
 #+tags[]: Indieweb webmention Testing
+#+mention: True
 #+draft: False
 
 This is a test post to see if [[https://webmention.rocks/][Webmention Rocks]] on this site. Let's give it a go.
