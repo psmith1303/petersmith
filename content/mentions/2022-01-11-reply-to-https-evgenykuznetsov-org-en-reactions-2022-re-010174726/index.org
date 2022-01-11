@@ -19,7 +19,7 @@
 
 #+END_SRC
 
-I suppose, it would be easy enough for me, =bash=, and =sed= to move to a directory structure like yours (fix up my many [[Start here][relref]] on the way). Then, the structure 'on-disk' of all my content would be consistent across all the sections (blog, notes, mentions, etc) with how it is presented on the web.
+I suppose, it would be easy enough for me, =bash=, and =sed= to move to a directory structure like yours (fixing up any [[Start here][relref]] on the way). Then, the structure 'on-disk' of all my content would be consistent across all the sections (blog, notes, mentions, etc.) with how it is presented on the web.
 
 # more
 
