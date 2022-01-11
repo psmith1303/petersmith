@@ -3,7 +3,7 @@
 #+date: 2022-01-03T13:01:33+13:00
 #+lastmod: 2022-01-03T13:01:33+13:00
 #+categories[]: Tech
-#+tags[]: Themes Hugo Indieweb Webmentions Fonts
+#+tags[]: Themes Hugo IndieWeb Webmentions Fonts
 #+draft: False
 
 The first phase creating a new theme is complete. The site renders "ok", and I am pretty pleased with how it looks. It feels clean and elegant.
@@ -21,7 +21,7 @@ But there would be problems, as using such a font would definitely increase the 
 Anyway, back to the plan for this theme. The next steps are to:
 
 1. Make it 'responsive' (again).
-2. Get Indieweb working (again).
+2. Get IndieWeb working (again).
 3. Get web-mentions working.
 
 That last point is the whole reason I started down this 'rabbit hole'. The previous theme didn't really lend itself to accommodating web-mentions (in all their glory).

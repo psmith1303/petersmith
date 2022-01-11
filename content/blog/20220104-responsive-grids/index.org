@@ -3,7 +3,7 @@
 #+date: 2022-01-04T08:56:16+13:00
 #+lastmod: 2022-01-04T08:56:16+13:00
 #+categories[]: Tech
-#+tags[]: Themes CSS Indieweb Responsive-design
+#+tags[]: Themes CSS IndieWeb Responsive-design
 #+draft: False
 
 As I continue to develop my new template I tackled the issue of /responsive design/; that is, displaying nicely regardless of the device viewing the site. In my previous themes I made no attempt at making them responsive. They were built to be displayed on a computer screen, and that was about it.
@@ -108,4 +108,4 @@ So that's it. The theme is as about as responsive as I want it to be. Oh, I stil
 
 Finally, I read a lot about using CSS grids for responsive layouts without using media queries. However, I can't get those solutions to work because I want a fixed size for my article content. That's because I want to have the content about 60-70 characters wide, so I can't specify that in anything other than absolute terms (e.g., 66em or some px based-width given by line-length / font-size). So, I had to use the media queries (=@media=).
 
-So that is step 1 of my theme redevelopment done. Now onto the Indieweb aspects.
+So that is step 1 of my theme redevelopment done. Now onto the IndieWeb aspects.

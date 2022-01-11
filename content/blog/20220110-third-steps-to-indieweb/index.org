@@ -1,18 +1,18 @@
-#+title: Third steps to Indieweb
+#+title: Third steps to IndieWeb
 #+slug: third-steps-to-indieweb
 #+date: 2022-01-10T09:57:11+13:00
 #+lastmod: 2022-01-10T09:57:11+13:00
 #+categories[]: Tech
-#+tags[]: Indieweb Hugo Themes JSON Python sed
+#+tags[]: IndieWeb Hugo Themes JSON Python sed
 #+draft: False
 
 My new theme, is working well enough that I have now republished my website using it. It also means that I have webmentions working as well. I have some rough edges to sort out but its definitely a MVP (minimum viable product).
 
 It feels as if a cast of thousands have been involved in the this new theme. I have so many people to thank.
 
-First there is [[https://aaronparecki.com/][Aaron Parecki]]. I had been watching his [[https://www.youtube.com/c/aaronpk][videos]] to help me get into doing my video production (for the [[https://www.youtube.com/channel/UCEli3VWKuB4lyZ3M4uKVIlw][BusDev@Auckland seminar series]]) but then I stumbled into his website, and was introduced to the world of [[https://indieweb.org/][Indieweb]] and [[https://www.w3.org/TR/webmention/][webmentions]]. Aaron's site [[https://webmention.io/][webmention.io]] also provided the glue to get webmentions working here.
+First there is [[https://aaronparecki.com/][Aaron Parecki]]. I had been watching his [[https://www.youtube.com/c/aaronpk][videos]] to help me get into doing my video production (for the [[https://www.youtube.com/channel/UCEli3VWKuB4lyZ3M4uKVIlw][BusDev@Auckland seminar series]]) but then I stumbled into his website, and was introduced to the world of [[https://indieweb.org/][IndieWeb]] and [[https://www.w3.org/TR/webmention/][webmentions]]. Aaron's site [[https://webmention.io/][webmention.io]] also provided the glue to get webmentions working here.
 
-Soon after my first foray into webmentions, I got a [[https://robbinespu.gitlab.io/indieweb/211010050323/][mention]] by [[https://robbinespu.gitlab.io/][Robbi Nespu]]. That was important not just because of the excellent advice Robbi gave me, but it also gave me the impetus to charge ahead with trying to fully implement webmentions. Looking at Robbi's [[https://robbinespu.gitlab.io/indieweb/][site]], I still need to do more work to get things like 'bookmarks', 'rsvps', and other Indieweb things working here.
+Soon after my first foray into webmentions, I got a [[https://robbinespu.gitlab.io/indieweb/211010050323/][mention]] by [[https://robbinespu.gitlab.io/][Robbi Nespu]]. That was important not just because of the excellent advice Robbi gave me, but it also gave me the impetus to charge ahead with trying to fully implement webmentions. Looking at Robbi's [[https://robbinespu.gitlab.io/indieweb/][site]], I still need to do more work to get things like 'bookmarks', 'rsvps', and other IndieWeb things working here.
 
 That all prompted me to start (re)theme-ing this site to better accommodate webmentions. As I say, it works, but there is still more to be done.
 

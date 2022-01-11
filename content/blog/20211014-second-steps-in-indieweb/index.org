@@ -3,7 +3,7 @@
 #+date: 2021-10-14T18:53:21+13:00
 #+lastmod: 2022-01-09T17:04:24+13:00
 #+categories[]: Tech
-#+tags[]: Indieweb
+#+tags[]: IndieWeb
 #+draft: false
 
 After [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][my first steps to IndieWeb]], I got a really helpful message from [[https://robbinespu.gitlab.io/][Robbi Nespu]]. Alas, I've not (yet) got webmentions working in any real way, and the page he commented on had a broken URL (all my problems, not Robbi's).
