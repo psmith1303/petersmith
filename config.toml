@@ -49,7 +49,7 @@ rssLimit = 50
 
 [author]
     name = "Peter Smith"
-    photo = "images/petersmith01.jpg"
+    photo = "/images/petersmith01.jpg"
     profile = "https://google.com/+XXX"
     email = "mail@petersmith.org"
     nick = "Peter"
