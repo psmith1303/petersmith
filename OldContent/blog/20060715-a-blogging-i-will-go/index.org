@@ -1,9 +1,0 @@
-#+title: A blogging I will go
-#+slug: a-blogging-i-will-go
-#+date: 2006-07-15T10:39:00+12:00
-#+lastmod: 2006-07-15T10:39:00+12:00
-#+categories[]: Tech
-#+tags[]: Blogging
-#+draft: False
-
-I had lunch at [[https://www.khao.co.nz/][Khao Thai]] yesterday with David Thomas and Yunyeong Kim. Both berated my lack of blogging. They're right and so I will (particularly with the [[https://www.nzff.telecom.co.nz/][film festival]] coming-up).

@@ -1,9 +1,0 @@
-#+title: Bad Dog
-#+slug: bad-dog-2
-#+date: 2007-02-23T21:31:00+12:00
-#+lastmod: 2007-02-23T21:31:00+12:00
-#+categories[]: Teaching
-#+tags[]: MGMT301 BadDog
-#+draft: False
-
-I've spent a little time today updating the help on [[https://baddog.ac.nz/][BadDog]] with some help information ... oh well, it is a start.

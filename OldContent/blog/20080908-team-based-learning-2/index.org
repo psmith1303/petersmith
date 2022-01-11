@@ -1,9 +1,0 @@
-#+title: Team-based learning
-#+slug: team-based-learning-2
-#+date: 2008-09-08T17:39:00+12:00
-#+lastmod: 2008-09-08T17:39:00+12:00
-#+categories[]: Teaching
-#+tags[]: TBL
-#+draft: False
-
-There is a good (50 minute) podcast at the [[https://web.archive.org/web/20081024215252/https://cis.apsc.ubc.ca/wiki/index.php/Team-Based_Learning][University of British Columbia]] on Team-based learning.

@@ -1,9 +1,0 @@
-#+title: WikiText
-#+slug: wikitext
-#+date: 2006-05-04T14:13:00+12:00
-#+lastmod: 2006-05-04T14:13:00+12:00
-#+categories[]: Tech
-#+tags[]: Wiki Wikitext Textile
-#+draft: False
-
-I don't know about everyone else, but I prefer to use a markup scheme when writing rather than a WYSIWYG editor. It's just that I prefer to see the layers behind the presentation. So, I've abandoned the WYSIWYG editor I had been using and gone back to [[https://bradchoate.com/mt/docs/mtmanual_textile2.html][Textile]]. Alas, I've also been using [[https://en.wikipedia.org/wiki/Wikitext][WikiText]] and I've found I prefer that system to Textile. All I have to do now is to find [[https://www.decafbad.com/twiki/bin/view/Main/MTWikiFormatPlugin][a way to get WikiText working here]].

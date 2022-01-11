@@ -1,9 +1,0 @@
-#+title: The first entry
-#+slug: the-first-entry
-#+date: 2009-12-03T09:04:00+12:00
-#+lastmod: 2009-12-03T09:04:00+12:00
-#+categories[]: Teaching
-#+tags[]: Blogging
-#+draft: False
-
-I've decided to separate out my 'academic' and '[[/blog/][non-academic]]' jottings.

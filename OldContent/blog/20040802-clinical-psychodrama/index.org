@@ -1,9 +1,0 @@
-#+title: Clinical Psychodrama
-#+slug: clinical-psychodrama
-#+date: 2004-08-02T08:54:00+12:00
-#+lastmod: 2004-08-02T08:54:00+12:00
-#+categories[]: Home
-#+tags[]: Psychodrama
-#+draft: False
-
-I spent the weekend (Friday, Saturday, and Sunday) on a Clinical Psychodrama course. Nothing much (clinical) happened.

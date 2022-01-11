@@ -1,9 +1,0 @@
-#+title: Ask Bill Smith
-#+slug: ask-bill-smith
-#+date: 2007-08-05T13:44:00+12:00
-#+lastmod: 2007-08-05T13:44:00+12:00
-#+categories[]: Home
-#+tags[]: Website
-#+draft: False
-
-I see my brother now has his website up and working. It's called [[https://www.askbillsmith.com/][askBillSmith.com]]. I really like his logo (and the t-shirts look great-too).

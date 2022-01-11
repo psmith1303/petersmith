@@ -1,9 +1,0 @@
-#+title: Tips for Zotero
-#+slug: tips-for-zotero
-#+date: 2009-12-23T09:58:00+12:00
-#+lastmod: 2009-12-23T09:58:00+12:00
-#+categories[]: Research
-#+tags[]: Zotero
-#+draft: False
-
-Since [[{{< relref "20080920-moving-to-zotero" >}}][moving to Zotero]], I've found my "work flow' to be much smoother. These [[https://ideophone.org/12-zotero-tips-and-techniques/][few tips]] have made things even easier. I particularly find it useful when I've found a link to the full-text of an article, just to drag the link to the item in Zotero (and have Zotero auto-magically download into my library).

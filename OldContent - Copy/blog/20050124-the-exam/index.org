@@ -1,9 +1,0 @@
-#+title: The exam
-#+slug: the-exam
-#+date: 2005-01-24T20:17:00+12:00
-#+lastmod: 2005-01-24T20:17:00+12:00
-#+categories[]: Teaching
-#+tags[]: MGMT101
-#+draft: False
-
-A few students are keen to know what the exam topics will be--and this is before they have completed the first major assignment. I wonder if they want to know so they can figure out which lectures to skip (not you Marcus--you don't seem the type).
