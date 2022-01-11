@@ -1,0 +1,45 @@
+#+title: More Hugo automation
+#+slug: more-hugo-automation
+#+date: 2021-06-07T16:48:40+13:00
+#+lastmod: 2021-06-07T16:48:40+13:00
+#+categories[]: Tech
+#+tags[]: Netlify Emacs Github
+#+draft: False
+
+I publish my blog via [[https://github.com]] and [[https://app.netlify.com/][Netlify]]. I've been using [[https://magit.vc/][Magit]] to do the heavy lifting of getting my stuff off my PC and onto github. But it's a bit tidious. I really want one command to do it all.
+
+So, I started off with an elisp function:
+
+#+BEGIN_SRC emacs-lisp
+
+  (setq hugo-base-dir (concat ps-2nd-home-dir "Code/Websites-source/petersmith/")
+	hugo-buffer "*hugo*")
+
+  (defun hugo-publish ()
+    (interactive)
+    (setq ps/commit-message (read-from-minibuffer "Commit message: "))
+    (let* ((default-directory (concat (expand-file-name hugo-base-dir) "/")))
+      (when (call-process "bash" nil hugo-buffer t  "-c" (concat "./Commit.sh " ps/commit-message))
+	(message "Blog published"))))
+
+#+END_SRC
+
+# more 
+which calls my shell script ~Commit.sh~
+
+
+#+BEGIN_SRC bash
+#!/bin/bash
+#
+DESCRIPTION="${@:-"A new post"}"
+
+echo "The commit message is:    " \"${DESCRIPTION}\"
+echo "The working directory is :" `pwd`
+
+git add . &&  \
+git add -u && \
+git commit -m "${DESCRIPTION}" && \
+git push origin master
+#+END_SRC
+
+That hardest part was escaping the ~DESCRIPTION~ variable.

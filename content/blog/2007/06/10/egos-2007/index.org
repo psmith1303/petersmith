@@ -1,0 +1,15 @@
+#+title: EGOS 2007
+#+slug: egos-2007
+#+date: 2007-06-10T10:57:00+12:00
+#+lastmod: 2007-06-10T10:57:00+12:00
+#+categories[]: Research
+#+tags[]: Conferences EGOS
+#+draft: False
+
+Well it is only a couple of weeks now until I leave for the [[https://www.egosnet.org/][EGOS]] [[https://www.egosnet.org/conferences/collo23/colloquium_2007.shtml][conference in Vienna]]. So, this week I plan to download and print all of the articles for the [[https://www.egosnet.org/conferences/collo23/sub_05.shtml][Strategizing: Activity and Practice]] stream (i.e. [[https://www.strategy-as-practice.org/][Strategy-as-practice]]).
+
+Unlike many conferences, EGOS has streams which participants are expected to stay with. There is no moving around because so-and-so is giving a paper in a different stream. There are great advantages to the EGOS approach. The two most important ones is that it does foster a strong sense of community in the stream, and secondly it increases the intensity of what goes on in the stream---after 30+ papers, one can't help be very involved in the topics.
+
+I'll use this conference as a chance to polish off my literature review on the subject, and to catch up with colleagues who I rarely get to see.
+
+(Oh, having said I'll print the articles, I will read them too, but I'll save that for next-week).

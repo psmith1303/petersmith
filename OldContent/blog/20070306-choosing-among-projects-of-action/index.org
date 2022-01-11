@@ -1,0 +1,39 @@
+#+title: Choosing among projects of action
+#+slug: choosing-among-projects-of-action
+#+date: 2007-03-06T15:24:00+12:00
+#+lastmod: 2007-03-06T15:24:00+12:00
+#+categories[]: Research
+#+tags[]: Agency
+#+draft: False
+
+I've mentioned [[{{< relref "20040615-what-is-agency" >}}][elsewhere]] Emirbayer & Minche's great article on agency.
+
+In that article they refer to projects of action, and in particular an piece by Alfred Schutz, namely:
+
+#+BEGIN_QUOTE
+
+Schutz, A. (1962). Choosing among projects of action. In M. A. Natanson (Ed.), /Collected papers: Volume 1, The problem of social reality/ (pp. 67---98). The Hague: Martinus Nijhoff.
+
+#+END_QUOTE
+
+Here are my notes from that chapter
+
+1. The concept of action
+2. The time structure of the project
+3. In-order-to and because motive
+4. Fancying and projecting
+5. The foundation of practicability
+
+1) The world as taken for granted
+2) The biographically determined situation
+
+6.  Doubting and questioning
+7.  The problematic and open possibilities according to Husserl
+8.  Choosing among objects within reach
+9.  Choosing among projects
+10. Bergson's theory of choice
+11. Leibniz's theory of volition
+12. The problem of weight
+13. Summary and conclusion
+
+/My comments/

@@ -1,0 +1,166 @@
+#+title: Sociodrama and sociometry
+#+slug: sociodrama-and-sociometry
+#+date: 2004-08-08T15:06:00+12:00
+#+lastmod: 2004-08-08T15:06:00+12:00
+#+categories[]: Research
+#+tags[]: Psychodrama Sociodrama Articles
+#+draft: False
+
+This is a copy of an old article on sociodrama...
+
+#+BEGIN_QUOTE
+
+Mescon, Michael H. (1959). Sociodrama and sociometry: Tools for a modern approach to leadership. _Academy of Management Journal, 2_(1), 21--29.
+
+#+END_QUOTE
+
+
+#+BEGIN_QUOTE
+
+
+* Sociodrama and sociometry: Tools for a modern approach to leadership
+
+Michael H. Mescon Rich's, Incorporated, Atlanta, Georgia
+
+Abstract: Professor Mescon's basic object in this article is to present a summarization and analysis of these techniques as tools of leadership rather than to introduce new and unique applications of sociodrama and sociometry. This he does in an unusual and interesting manner, describing how industry, the military, and other organizations may use these techniques in discovering potential leaders, in selecting individuals for certain key positions in leadership training, in determining the probable behaviour of employees in certain social situations, in the training of foremen and shop stewards, and in sales training programs.
+
+The perpetuation of any enterprise is contingent upon its ability to find, recruit, train, and develop individuals who are capable of wearing the mantel of administrative leadership. The development of administrative leadership poses a constant and difficult challenge to all organizations, which must in effect depend upon human skills and abilities to attain the organization's goals and objectives. The matter is complicated by the lack of completely effective methods for the training of business leaders or, for that matter, agreement upon what type for formal college educations best prepares a student for the rigors of a dynamic industrial society.
+
+It is certainly not the purpose of this article to propose a solution to this academic impasse. Instead, certain leadership-development and leadership-analysis techniques will be considered. There are, respectively, sociodrama and sociometry.
+
+** The nature of sociodrama and sociometry
+
+*** Sociodrama
+
+The concept of sociodrama as a device for teaching and analysis was developed by J. L. Moreno. Literally, sociodrama means action in behalf of the other fellow[fn:1]. Sociodrama is the acting out of certain situations and is dependent upon the spontaneous participation and reactions of the role-players. The importance of spontaneity should not be underestimated, since ready, un-rehearsed reactions give to sociodrama a type of realism that is difficult to capture in the rehearsed acting out of particular situations. Role playing, or sociodrama, is a group-entered approach to the analysis of problem situations. Psychodrama, a method which was also developed by Moreno, is an individually orientated approach to conflict situations. The basic difference, according to Moreno, between psychodrama and sociodrama is this:
+
+Psychodrama has been defined a deep action method dealing with inter-/personal/ relations and /private/ ideologies, and sociodrama as a deep action method dealing with inter---/group/ relations and /collective/ ideologies.[fn:2] Psychodrama, then, is a /individually/ orientated. Sociodrama is a /group/ technique.
+
+ In discussing the nature of sociodrama, Haire states:
+
+The essentials of the technique seem to be that the play situation provides an opportunity to do something in an environment protected from many of the pressures that are imposed upon action in real life. The situation makes it possible for the actor to actually feel the problem within himself, instead of hearing it described verbally, and he may learn entirely different things thereby.[fn:3]
+
+*** Sociometry
+
+In discussing the significance of sociodrama, it appears requisite to mention another of Moreno's contributions, namely, sociometry, which is essentially a method of studying interpersonal relations in terms of attractions-repulsion patterns existing amongst group members.[fn:4] Haire comments:
+
+Moreno's sociometry is essentially an attempt to measure the network of relations between individuals within a group. Instead of taking a group as an entity or as representing a single force ... he tries to get at the kinds of bonds that exist between members, and his sociometric technique is to map these relationships quantitatively by having each member, for instance, list the persons in the group whom he likes most or least. By collecting these responses, it is possible to draw a structural map of the group in terms of the bonds holding the accepted members in and those tending to expel the rejected members.[fn:5]
+
+Smith, in discussing the use of sociometry in industry cites Van Zelst's study pertaining to the placement of carpenters and bricklayers by using sociometric techniques. This particular experiment indicated that a 5% saving in total production costs was realized due to the utilization of sociometric procedures.[fn:6] Iit appears, then, that a two pronged approach to the problem of leadership selection is presented, that is, the use of /sociometry/ to measure group cohesiveness and the utilization of sociodramatic techniques to teach human relations skills requisite to leadership.
+
+** Sociometry as a Useful Technique
+
+It should be understood that sociometry is more than another scheme of the practical social scientist to confuse the hardheaded businessman. As Roger M. Bellows points out: Sociometry is a simple method, easily applied in industry, for determining preferences of workers for each other. With the help of sociometry, workers can be placed where they will tend to derive the greatest satisfaction. It is also possible to apply sociometric techniques of the problems of executive leadership.[fn:7]
+
+Browne is of the opinion that the use of sociometric methods may be employed in an analysis of business leadership, and that they may be especially helpful in understanding the following situations:[fn:8]
+
+- Interpersonal relations within the organization
+- Communication channels among personnel
+- Differences in the flow of activity as reported on the formal and informal organizational charts
+- Study methods employed in the performance of leadership functions
+- Insights into desirable or needed corrections and modifications in personnel relationships
+
+In discussing the relationship between sociometric choices and productivity, Maria Rogers states:
+
+All of the studies of work situations made by sociometrists have revealed that liking, or attraction, between members of a group results in heightened co-operation; that repulsion between workers cause frictions on the job, lowered morale, and limited productivity. In this context, the supervisor or immediate administrator must be considered a member of the group, for leadership is a function of interpersonal relations, dependent on the give-and-take between members of a group. It is relative to the group process. [fn:9]
+
+The resultant data from sociometric tests is frequently presented by a sociogram. A sociogram is basically a chart which indicates the social relationships that exist within a group. For example, if a group of eight persons was asked to name a group member that would make the best supervisor, the following pattern might result:[fn:10]
+
+{{< figure src="sociogram.jpg" title="A sociogram" >}}
+
+In interpreting this sociogram, 'H' would be the star of the functional leader of the group, since he was selected the greatest number of times. The solid lines indicate mutual selections, and the dotted lines indicate one-way choices. 'F' would be considered an isolate since he selected no on in the group and, in turn, no one selected him.
+
+By means of sociograms, the patterns of group relationships are graphically presented, enabling the placement of the individual---provided the circumstances permit---in a social climate most compatible to his own wants and desires.[fn:11]
+
+/The use of sociodramatic devices can be used not only as an integral part of the whole placement process but also can assist management in discovering indigenous existing leadership within the informal organization of an enterprise/. This recognition by management of indigenous group leadership in the informal organizational structure might very well be a major step towards more positive employer-employee relationships. For example, an alert supervisor, recognizing the significance of indigenous leadership in work groups, might, by working with these functional leaders, effect increased production, higher morale, better attendance records, and sounder bonds between management and labor. The use of sociometric tests can also foster the development of work teams. Smith suggests this possibility in the following words:
+
+The success of a business or industry is dependent upon its ability to create satisfying and productive teamwork. Such teamwork is encouraged by (1) creating work for teams; (2) fitting workers together in harmonious groups; (3) encouraging interaction among the members by the organization of work and recreation; (4) stabilizing the team; (5) rewarding the team as a whole, as well as the individuals; (6) letting the group make as many of its own decisions as possible.[fn:12]
+
+In discussing these informal organization group, Terry's remarks in regard to sociometry are of interest:
+
+Limited research indicates that when groups are organized with considerable regard for 'sociometric' ratings, or preferences, their productivity increases. An appreciation of the existence and the influence of informal groups may assist considerably in evaluating happenings. It is well for a manager to take their effect into account to solve organizational problems.[fn:13]
+
+The applications of sociodramatic techniques Sociodrama has been defined as a group-entered approach to the analysis of problem situations. As a training and leadership development technique it might offer the business world the opportunity effectively and economically to assess the relative merits of individuals as human relations practitioners. Smith comments on this in the following words:
+
+Role playing has the important asset of affording practice which is as close to the real situation as the supervisor can get without actually being in it. It therefore has potentialities for correcting a common defect in training: A supervisor reads a book, attends a lecture or participates in a conference on how to supervise. He conscientiously memorizes a list of excellent rules. But he finds on the job he is behaving as he did before he learned the rules. He has learned rules, not actions. Role playing provides the opportunity to learn the actions.[fn:14]
+
+Although role playing situations might more easily be introduced in small groups, the size of the group is not in itself a necessary delimitation to uses of this techniques. Multiple role playing and other allied techniques, while certainly not new, are still not fully recognized or understood as training devices. In utilizing sociodrama in large groups, multiple role playing may be employed. This enables all member of thee large groups to participate simultaneously:
+
+In MRP (multiple role playing), the large group is divided into subgroups of five or six persons each. The trainer presents a problem which each of the groups is to solve by role playing. (For example, how can a supervisor most effectively assign a new truck to his group of five men, all of who have trucks of varying ages and conditions?)[fn:15]
+
+The director of the MRP session issues a written set of instructions to one person in each group who becomes the foreman of that particular group.[fn:16] The foreman then assigns roles to various members of his own particular group, and then the problem is acted out. After a give interval---which provides for the simultaneous acting out of this problem---the groups reconvene, and a discussion pertaining to the results of these simultaneous sessions is conducted.[fn:17]
+
+MRP, however, is not the only approach to the utilization of sociodramatic techniques in large groups. In the military, for example, role playing has been effectively used in groups as large as 700! In this situation participants were arbitrarily selected from the audience, brief, and given the opportunity to act out the situation. It is quite possible, then, that the skill of the instructor, rather than the group size is the vital factor in determining the applications of sociodrama. Role playing as a group involvement technique can be effectively utilized in a myriad of situations. Klein suggests four areas in which role playing might be employed:
+
+(1) Training in leadership and human relations skills;
+(2) training in sensitivity to people and situations;
+(3) the stimulation of discussion; and
+(4) training in more effective group problem solving.[fn:18]
+
+Role playing can also be used effectively in illustrating how the other fellow feels. Chase summarized the comments of several union officials who had used sociodramatic techniques n order to prepare themselves for negotiating a contract:
+
+Several union men take the parts of management representatives while others play union representatives. The rest watch with keen attention. The truth is we get to see the company's point of view too well, and maybe don't fight as hard. Still, we get on better. It's a fine way to get labor and management together on production. You can argue until you're black in the face about cooperation and get nowhere, but when you have to act out the part of Mr. Big protecting his stockholders, you really learn something about the business you are in.[fn:19]
+
+Role playing helps provide the participants and the viewers an opportunity to identify themselves with individuals, ideologies, and concepts. This ability to identify and empathize with others is a significant factor in solving conflict situations.
+
+Actually, the scope of sociodramatic techniques is, in my opinion, limited only by the ingenuity of the user of these techniques. Miller and Form describe how individuals may be selected for certain positions through the use of sociodramatic performance tests: bq. The sociodramatic performance test involves activity by an individual or a group in a social situation of simulated reality. The test is usually given before an audience of observers and participants who provide the necessary social environment. An individual is presented with a task to be performed or a role to be played in a certain problem situation. Performance ratings and sociometric ratings of the performance of the person tested by the other participants are often included.[fn:20]
+
+The use of sociodramatic tests has also be recognized by the military. For instance, during World War II the Office of Strategic Services developed an assessment program in which many role playing tests were used for diagnostic purposes.[fn:21] These tests were employed for the purpose of securing data pertaining to how the individual might behave in various social climates. Industry, however, has not taken complete advantage of sociodramatic performance tests. This is unfortunate since not only may these tests be valuable for employee selection, but they may also be useful as training devices.[fn:22]
+
+Although Moreno developed the formal concept of psychodrama and sociodrama, industrial firms and department stores have long made use of these practice as techniques for injecting realism into the training situation as follows:
+
+Industrial firms and department stores had been training salesmen, for example, by having their employees act out make-believe sales interviews with each other as a a means of practice for their jobs. Such methods have been effective and successful. In recent years role playing has become popular in other fields.[fn:23] The method has been useful in training foremen, supervisors, and shop stewards, as a leadership training device.
+
+** Conclusion
+
+Sociometry and role playing have been and can be successfully applied in industrial situations. That sociometry and sociodrama are not devices created by å¦¬mpractical social scientistsï¿½ is amply express in the many investigations pertaining to the use of these techniques.
+
+It is not suggested that these tools represent a panacea to the problems inherent in leadership selection and training. There are ample and positive indications, however, that they can be effectively utilized in developing leadership skills. Industry might advantageously investigate more fully the potentialities of these interesting tools of modern leadership.
+
+[fn:1] Jacob L. Moreno, "Sociodrama," /Psychodrama Monograph/ , No 1, (New York, Beacon House), 1994, p. 3.
+
+[fn:2] /Ibid/. Italics not in original.
+
+[fn:3] Mason Haire, Group Dynamics in the Industrial Situation, in /Industrial Conflict/, ed. By Arthur Kornhauser, Robert Dubin, and Arthur M. Ross, (New York, McGraw-Hill Book Company, Inc.), 1954, p.  378.
+
+[fn:4] Delbert C. Miller and William H. Form, /Industrial Sociology/ (New York, Harper Brothers), 1951, p. 866.
+
+[fn:5] /Ibid/., p. 377.
+
+[fn:6] Henry Clay Smith, /Psychology of industrial behavior/ (New York, McGraw-Hill Book Company), 1955, p. 195.
+
+[fn:7] Roger M. Bellows, /Psychology of personnel in business and industry/. 2nd ed., (New York, Prentice-Hall, Inc.), 1954, p. 46.
+
+[fn:8] /Ibid/.
+
+[fn:9] Maria Rogers, Problems of human relations within industry, /Sociometry/, November, 1946, p. 354.
+
+[fn:10] There are many types of sociograms. The simple one included in this article will provide some meaningful insight for persons not fully acquainted with sociometry.
+
+[fn:11] Jenkins illustrated how sociometry could be effectively employed in structuring combat teams during World War II. Van Zelst demonstrated the value of placement by socio metrical methods in his experiment with construction workers. For a more complete analysis of these experiments and the applications of sociometry, the read is referred to Henry Clay Smith, /op. cit/., pp. 194--196.
+
+[fn:12] Henry Clay Smith, /op. cit/., p. 376.
+
+[fn:13] George R. Terry, /Principles of management/, Rev. Ed., (New York, Richard D. Irwin, Inc.), 1956, p. 18.
+
+[fn:14] Henry Clay Smith, /op. cit/., p. 376.
+
+[fn:15] /Ibid/., p. 375.
+
+[fn:16] /Ibid/., p. 376.
+
+[fn:17] /Ibid/.
+
+[fn:18] Alan F. Klein, /Role playing in leadership training and group problem solving/, (New York, Richard D. Irwin, Inc.), 1956, p.  18.
+
+[fn:19] Stuart Chase, /Roads to agreement/, (New York, Harper Brothers), 1951, p. 104.
+
+[fn:20] Miller and Form, /op. cit/., p. 418.
+
+[fn:21] /Ibid/., p. 421
+
+[fn:22] /Ibid/.
+
+[fn:23] Alan F. Klein, /op. cit/., p.18. These other fields would certainly include teaching, executive development, the training of military leadership, and nurse's training, to cite just a few. The author has personally utilized sociodrama successfully in each of these-areas.
+
+#+END_QUOTE

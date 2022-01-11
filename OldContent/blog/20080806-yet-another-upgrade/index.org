@@ -1,0 +1,11 @@
+#+title: Yet another upgrade
+#+slug: yet-another-upgrade
+#+date: 2008-08-06T12:43:00+12:00
+#+lastmod: 2008-08-06T12:43:00+12:00
+#+categories[]: Tech
+#+tags[]: Upgrades Movabletype
+#+draft: False
+
+It's been a long time coming, but I finally got around to upgrading the version of [[https://www.movabletype.com][MovableType]] that I use on this site.
+
+It was as painless and problem free process that one could hope for. Just install the new files, copy over the configuration file, install the few plugins I use and voilá---it was done. It probably took less than ten minutes (including reading the documentation).

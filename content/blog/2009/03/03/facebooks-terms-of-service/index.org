@@ -1,0 +1,17 @@
+#+title: Facebook's terms of service
+#+slug: facebooks-terms-of-service
+#+date: 2009-03-03T20:33:00+12:00
+#+lastmod: 2009-03-03T20:33:00+12:00
+#+categories[]: Tech
+#+tags[]: Facebook
+#+draft: False
+
+Like [[https://news.cnet.com/8301-13505_3-10164909--16.html][many other people]], I'm concerned about the recent changes in Facebook's terms of service. Especially, when I read how their [[https://amandafrench.net/2009/02/16/facebook-terms-of-service-compared/][terms of service compare]] This is doubly true now that I've read the [[https://www.newyorker.com/][New Yorker]] article on the subject.
+
+So, being unable to delete my Facebook account, I've:
+
+- turned off as many "applications" as possible
+- limited my visibility to others as much as possible
+- deactivated my account
+
+Facebook is dead to me, and hopefully, I'm dead to Facebook.

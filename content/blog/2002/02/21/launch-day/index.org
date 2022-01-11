@@ -1,0 +1,20 @@
+#+title: Launch Day
+#+slug: launch-day
+#+date: 2002-02-21T15:34:00+12:00
+#+lastmod: 2021-10-25T14:12:24+13:00
+#+categories[]: Tech
+#+tags[]: Zope
+#+draft: False
+
+So, at last, I have a working web log. Most of the [[https://www.frogware.com/weblog/archives/articles/weblogHowTo.html][code]] to get this working came from [[https://www.frogware.com/][Frogware]].
+
+I also, found a lot of interesting things at [[https://vsbabu.org/index.html][Babu's site]]. I think I'll have a go at using his [[https://vsbabu.org/webdev/zopedev/ieeditor.html][IE Editor]] for [[https://www.zope.org/][Zope]] to make editing this a little easier.
+
+Getting the search engine to work is a little problematical. The [[https://www.zope.org/Documentation/How-To/ZCatalogTutorial][How To]] is rather out of date. Perhaps I should be looking in the [[https://web.archive.org/web/20020831032838/https://www.zope.org/Members/michel/ZB][Zope Book]].
+
+Well, the book did help. But, I still needed to hunt around the Zope site for more information. But it all seems to be working now. We had our departmental lunch today. Very nice. The usual people turned out.
+
+This evening Lisa and I went to see [[https://www.imdb.com/title/tt0243133/][The man who wasn't there]]. A film-noir, filmed in black and white. Frances McDormand and Billy Bob Thornton were as good as ever.
+
+I've just been playing with HTML-Kit. It's a general purpose HTML editor, which also understands FTP. So, it should, and is possible to edit content on the Zserver. Yippee!
+

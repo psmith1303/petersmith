@@ -1,0 +1,9 @@
+#+title: Grading
+#+slug: grading-2
+#+date: 2009-09-05T13:02:00+12:00
+#+lastmod: 2009-09-05T13:02:00+12:00
+#+categories[]: Teaching
+#+tags[]: Grading
+#+draft: False
+
+I've just finished reading [[https://www.hastac.org/users/cathy-davidson][Cathy Davidson's]] blog entry on [[https://www.hastac.org/blogs/cathy-davidson/how-crowdsource-grading][crowd-sourcing grades]] and her reflective follow-up on [[https://www.hastac.org/blogs/cathy-davidson/crowdsourcing-grading-follow][grading]].

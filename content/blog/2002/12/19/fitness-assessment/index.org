@@ -1,0 +1,37 @@
+#+title: Fitness Assessment
+#+slug: fitness-assessment
+#+date: 2002-12-19T17:25:00+12:00
+#+lastmod: 2002-12-19T17:25:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness
+#+draft: False
+
+I had a fitness assessment at the university's [[https://www2.auckland.ac.nz/recreation/][Recreation Centre]] today. Here are the results.
+
+| /Basics/                             |                                         |
+| Weight                               | 111.25Kg                                |
+| Blood pressure                       | 156/90 Hypertension Stage 1             |
+| Resting pulse rate                   | 102 bpm                                 |
+|                                      |                                         |
+| /Body composition/                   |                                         |
+| Triceps                              | 27                                      |
+| Subscapular                          | 37                                      |
+| Suprapsinal                          | 41                                      |
+| Medial calf                          | 32                                      |
+| Sum of skin folds                    | 133.2                                   |
+|                                      |                                         |
+| /Astrand Submaximal Cycle Erometer/  |                                         |
+| Mean heart rate                      | 150                                     |
+| Work rate 1.5                        | Kpm/                                    |
+| Est. VO2 Max                         | 2.2 Litres/                             |
+| Age corrected V02 Max                | 1.738 Litres/minute                     |
+|                                      | (this is Estimated VO2 Max 15.62 ml/kg/ |
+| /Flexibility/                        |                                         |
+| /Sit & reach/                        |                                         |
+| Thomas test Tight quads, hip flexors |                                         |
+| /Shoulder assessment/                |                                         |
+| Bench pulls                          | 12 @ 51 Kg                              |
+| Bench presses                        | 11 @ 51.Kg                              |
+| Hover                                | 55 seconds Poor                         |
+
+

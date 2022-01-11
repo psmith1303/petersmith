@@ -1,0 +1,17 @@
+#+title: Learning journals
+#+slug: learning-journals
+#+date: 2004-05-18T13:28:00+12:00
+#+lastmod: 2004-05-18T13:28:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT301 Reflection
+#+draft: False
+
+I've been re-reading the articles for next week ahead of our usual teaching meeting. In particular I've been thinking about Marilyn Daudelin's article /Learning from experience through reflection/.
+
+Firstly, I've been wondering if this reading should be earlier in the course; say during the first week. Would it make a difference to quality of the journals that people have to do? (This is a very different from the question "/Could/ it make a difference to the quality of journals that people have to do?"). But then it struck me --perhaps we should adopt /learning journals/ instead of 'vanilla' journals. (There is plenty of information on learning journals on the web. See [[https://www.audiencedialogue.org/journal.html][here]], [[https://www.qub.ac.uk/mgt/itsoc/proj/learjour.html][here]], or [[https://www.lancs.ac.uk/staff/gyaccp/cjgh_27_2_05lores.pdf][here]]-- these are just a few from a [[https://www.google.com/search?q=%22learning+log%22+%22learning+journal][Google search]] --I didn't even attempt to find a quality source from somewhere like the [[https://www.ingenta.com/journals/browse/sage/j285][Journal of Management Education]]--and yes, there are a couple of article there (one even cites Daudelin)). So maybe in week one we could have student's read the /Learning from experience through reflection/ article, do some research into learning journals, and then write a /learning journal/ each week from that first week.
+
+My questions are: (1) would students learn more this way, (2) how many marks, if any, should be associated with this task, and (3) would students actually read more?
+
+Anyway, I'd be interested in some feedback on this, so please "mail me with your thoughts.
+
+Having said all of this, and having read the /afore-linked/ articles above, including the two in [[https://www.ingenta.com/journals/browse/sage/j285][JME]], I'm very tempted to do trial it. And so, a la Kolb (David A. Kolb, not Darl Kolb), I prepare to go round the leaning cycle-again.

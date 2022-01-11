@@ -1,0 +1,15 @@
+#+title: Faster internet
+#+slug: faster-internet
+#+date: 2018-05-21T07:14:26+12:00
+#+lastmod: 2018-05-21T07:14:26+12:00
+#+categories[]: Tech
+#+tags[:] Productivity ADSL Fiber Internet
+#+draft: False
+
+I first got 'fast' Internet, back in 1993 when I joined Telecom's trial of ASDL. I was overjoyed to move from my 2400 baud modem to a 1Mbs link. It was great. Downloading a 40Mb file took only a few minutes.
+
+Skip forward to this month. I have moved to Bigpipe and their elite plan which can deliver speeds of up to 700--900Mbs download and 400--500Mbs upload. I'm not quite getting that, but it is darn fast.
+
+Using a laptop running Debian Stretch (through two hubs), I get:
+
+{{< figure src="speedtest-7324521651.png" title="Speed test results 2018-05-21" >}}

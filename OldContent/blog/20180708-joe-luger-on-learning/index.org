@@ -1,0 +1,53 @@
+#+title: Joe Luger on Learning
+#+slug: joe-luger-on-learning
+#+date: 2018-07-08T08:11:33+12:00
+#+lastmod: 2018-07-08T08:11:33+12:00
+#+categories[]: Teaching
+#+tags[]: Learning
+#+draft: False
+
+An interesting series of [[file:pic.twitter.com/HUGmAG39Zi][tweets from Joe Luger]] found it's way into my feed, and I thought it was worthwhile enough that I'd kinda quote/paraphrase/reformat it here (as a means of elaborating it (aiding my own learning). The rest of this is pretty much verbatim from Twitter ...
+
+#+BEGIN_QUOTE
+
+1. Learning requires memorization first
+
+   Learning takes memory. In order to learn a skill or set of information, its components must be memorized on the most basic level. Memory is like the base of the learning pyramid. To perform higher level martial arts skills, you must memorize the steps of the basics. To learn calculus, you must memorize the basic steps of algebra. As many of us know, however, memorization is only the first step.
+
+2. Elaboration is essential to truly learn
+
+   In order to truly learn something, you must "elaborate" it in your brain. Elaboration is basically the process of learning a lesson and putting it in your own words for easy retrieval, or to make a skill part of your own repertoire for easy use. And to be an effective memorizer, you must make something /useful/ in your brain. You must connect a new lesson to something you already know.
+
+   Learning foreign vocabulary by relating the words to previous words you know, then putting them into sentences is elaboration. Learning a physical skill and then actually applying it in practice is elaboration. To incorporate it into muscle memory, you must do it enough times that it eventually becomes second nature and no longer requires conscious thought to perform.
+
+3. Retrieval is essential for long term retention
+
+   To learn a lesson better and to greater solidify it into long-term memory, you must purposefully /retrieve/ the information in your brain. So you need to go back and utilize the information or skill you learned. Multiple times. Studies routinely show that students who take quizzes at the end of their classes routinely do better on exams later on. It doesn't matter what you're reading; a book, an article, or this Twitter thread on learning.
+
+   Summarize the most important points /in your own words/ (elaboration) while you're going through it and then review it again when you have completed it. For anything you deem important, you can then bookmark it into a folder to review later, or use any other method you use to review information. This /greatly/ assists you in remembering and understanding the information for later, even if you don't review it again for a while.
+
+4. Spaced practice is critical for long-term retention
+
+   The more spaced out your practice is, the better you will retain it. Spaced practice apps such as [[https://apps.ankiweb.net/][AnkiDroid]] function on this principle. That's why they work so damn well. In the long term, a lesson reviewed over several years is much better retained than one reviewed the same amount of times over several weeks.
+
+   If you truly integrate a technique into your skillset, spaced practice is built in as you naturally use it. I.e. if you pick up a martial arts technique then start incorporating it immediately and routinely, the spaced practice occurs on its own. If you haven't picked up an old lesson in many years, you will retain it better than if you just learned it the first time just now. This is true even if you struggle with relearning it.
+
+5. When you struggle with a lesson, you learn better
+
+   When you struggle with a lesson, you actually learn it /better/, provided that you eventually end up /arriving at the conclusion/. Generally speaking, you use a lot more of your brain when you struggle, which forces you to analyse from many angles.
+
+   Get lost in a new city sometime and you'll see what I mean. Again, see the next lesson for more on this.
+
+6. For greater understand a lesson, analyse it from multiple angles
+
+  Having one method of learning (i.e., being a visual learner) is actually NOT consistent with learning research. The best way to learn something is to "go wide." Visualize it, connect it to something you know, explain it to someone, draw it on a whiteboard, etc. And most importantly, put that lesson into practice as much as possible!
+
+7. You are typically a poor judge of when you are learning
+
+   You often don't realize exactly when you're learning. It takes experience and a degree of mindfulness to realize this. This reality goes hand in hand with lesson number 5. Often times, when you're struggling, it doesn't feel like you're learning, but you're learning better than you are if you don't struggle - again, provided that you eventually reach the conclusion. But you are. You don't realize this until the next time you pick up where you left off, then you realize exactly how much you learned.
+
+   The feeling that you're not learning happens a lot when you're learning a new set of information that is extremely wide and/or deep, such as a foreign language. This case is mostly because there's so much information, it's hard to grasp it all. But with time, you notice progress
+
+#+END_QUOTE
+
+Joe then links to his website at [[https://westernmastery.com][Western Mastery]].

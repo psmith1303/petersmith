@@ -1,0 +1,13 @@
+#+title: AdWords
+#+slug: adwords
+#+date: 2014-03-27T09:23:00+12:00
+#+lastmod: 2014-03-27T09:23:00+12:00
+#+categories[]: Tech
+#+tags[]: Adwords
+#+draft: False
+
+During [[https://www.facebook.com/ekant][Ekant Veer's]] [[{{< relref "20140326-the-use-of-social-media" >}}][talk yesterday on using social media to get exposure for ones research]], it occurred to me than many companies are much further down that path than those in academia.
+
+Some of those organizations have found it more efficacious to use AdWords---to get in front of people as a result of their searching activity, rather than build up a large(ish) footprint on the web.
+
+So, how would it be if, for example, I put together a campaign using keywords from the domain I'm interested in: social practices, Jarzabkowski, strategy-as-practice, and other similar expressions. Would I get much attention from those people interested in social practices and the like?

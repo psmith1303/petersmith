@@ -1,0 +1,11 @@
+#+title: DPE
+#+slug: dpe
+#+date: 2004-03-08T18:26:00+12:00
+#+lastmod: 2004-03-08T18:26:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT301
+#+draft: False
+
+DPE--Darl, Peter, and Emma. We are the teaching team for /MGMT 301: Management Theory and Practice/ for semester 1 of 2004.
+
+Darl and Peter have worked on the course for many years. This is Emma's first time working with Darl and Peter in this way.

@@ -1,0 +1,28 @@
+#+title: Walking
+#+slug: walking
+#+date: 2004-06-16T01:20:00+12:00
+#+lastmod: 2004-06-16T01:20:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness
+#+draft: False
+
+After my little [[{{< relref "20040508-a-wake-up-call/index.org" >}}][scare]], I'm doing many things to try and put the problem (well at least the majority of the medication) behind me. In many ways it is the "usual suspects', viz:
+
+- Exercise
+- Weight loss
+- Diet
+- Low sodium food (less than 1,500 mg per day)
+- and, of course, medication
+
+For exercise, I'm doing a bit of walking. (Well that's pretty much all I'm allowed to do.) So, each day I try and walk 10,000 steps. My progress is shown in the graph. The red line is my daily average; the blue band is my target.
+
+{{< figure src="peds.php.png" title="Graph of steps taken" width="100%" >}}
+
+
+So far, the exercise (and everything else) seems to be having a pay-off. I do feel that I've lost some weight. I've actually had to tighten my belt a couple of notches---and some of my clothes seem to be a bit baggy.
+
+I took the idea from Lisa---she's been doing it for over a year now---and she is definitely fitter and slimmer. The trick is to buy a pedometer and record what you actually do. I find it is a great motivator.
+
+I'll probably never get off all the medication, but I hope to minimise my dependency on it.
+
+PS: The graph is built automatically using [[https://www.aditus.nu/jpgraph/][JPGRAPH]] from data stored using [[https://www.mysql.com/][MySQL]]. The whole thing is glued together using [[https://www.php.net/][PHP]].

@@ -1,0 +1,11 @@
+#+title: The last class
+#+slug: the-last-class
+#+date: 2004-05-30T22:20:00+12:00
+#+lastmod: 2004-05-30T22:20:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT301 Marking
+#+draft: False
+
+Well it's the last class of the semester for MGMT 301, and I'm really looking forward to it. Not because it is the last class, but because the teams present their stories to us (DPE) and the rest of the class. This is where a good portion of our learning takes place (and they are often very entertaining). I'm always impressed by the creativity and learning that some of the teams exhibit.
+
+No doubt, when the marking is over we'll have a debriefing of how the semester went. I'm sure the teams' presentations and the students' integrative assignments will loom large in that discussion.

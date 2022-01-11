@@ -1,0 +1,17 @@
+#+title: Zotero 1.5 beta
+#+slug: zotero-1-5-beta
+#+date: 2009-03-03T20:45:00+12:00
+#+lastmod: 2009-03-03T20:45:00+12:00
+#+categories[]: Research Tech
+#+tags[]: Zotero WedDav
+#+draft: False
+
+I've just moved to beta version 1.5 of Zotero. It was a trial.
+
+- My database wouldn't convert, so I had to upload it to their [[https://www.zotero.org/utils/dbfix/][db repair tool]].
+- Upgrading the Word add-in irrevocably changes your documents so you can't go back to 1.0. That isn't a problem in its self, but it looked as if the upgrade was hanging---it took 20 minutes to upgrade a 144 page, 220 reference document.
+- The sync option often gives errors ... but it always manages to sync in the end.
+
+Now, all I have to do is figure out how to use webdav with [[https://aws.amazon.com/s3/][Amazon's S3]] to back up all my PDF files (Yes, I know I could use Jungle Disk, but I like my solutions more open source than that (generally)).
+
+Anyway, it is working fine now and its nice to be able to [[https://www.zotero.org/petersmith/3276/items][share my bibliography]].

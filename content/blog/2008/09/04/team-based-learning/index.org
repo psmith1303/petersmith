@@ -1,0 +1,21 @@
+#+title: Team-based learning
+#+slug: team-based-learning
+#+date: 2008-09-04T15:23:00+12:00
+#+lastmod: 2008-09-04T15:23:00+12:00
+#+categories[]: Teaching
+#+tags[]: TBL
+#+draft: False
+
+I have seen the future and it's name is "Team based learning"
+
+Today, I went to [[https://www.ucmo.edu/x4262.xml][Larry Michaelsen's]] seminar on [[https://www.teambasedlearning.org/][Team-based Learning]]
+
+He was impressive. Next year I will redesign one course around Team-based Learning (yes, it was that good).
+
+I have been using a range of elements in my own teaching, that are compatible with Team-based Learning. However, it is clear to me that Larry has spent much more time thinking about his teaching than I have (he is, after all, an emeritus professor and has been using this approach for 25 years). So, I think he has a much more robust way of connect the elements together.
+
+A few notes:
+
+- He has written a few [[https://www.amazon.com/s?ie=UTF8&search-type=ss&index=books&field-author=Larry20%20Michaelsen&page=1][books]] many of which are about Team Based Learning.
+
+- Apart from the main /Team-based Learning/ web-site", information can also be found [[https://www.tlcollaborative.org/ABOUT.HTM][here]].

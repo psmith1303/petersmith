@@ -1,0 +1,28 @@
+#+title: Referring to Referencite
+#+slug: referring-to-referencite
+#+date: 2009-12-22T10:54:00+12:00
+#+lastmod: 2009-12-22T10:54:00+12:00
+#+categories[]: Teaching
+#+tags[]: Referencing APA
+#+draft: False
+
+In writing my piece on [[{{< relref "20091222-referencing-here-and-now" >}}][referencing]], I just [[https://www.google.co.nz/search?q=apa+referencing][Googled 'apa referencing']] and here are the first page of search results.
+
+{{< figure src="googleapa.png" title="Google search results" >}}
+
+I was surprised by the results. First, I used Google.co.nz instead of Google.com (I normally use the later), and secondly the [[https://www.auckland.ac.nz/][University of Auckland's]] referencing resource [[https://web.archive.org/web/20090325081529/https://www.cite.auckland.ac.nz/][Referen©ite]] did not feature at all on the first page.
+
+I see:
+
+- www.waikato.ac.nz
+- www.aut.ac.nz
+- www.fmhs.auckland.ac.nz
+- library.ucol.ac.nz
+- library.curtin.edu.au
+- library.canterbury.ac.nz
+- library.manukau.ac.nz
+- www.southernoceansoftware.com
+- owl.english.purdue.edu
+- aut.ac.nz.libguides.com (again)
+
+But there is no sign of Referen©cite. I wonder why Google does not refer to Referen©ite on the first page (that's a rhetorical question; I know how [[https://en.wikipedia.org/wiki/Web_search_engine][search engines]] rank sites).

@@ -1,0 +1,42 @@
+#+title: Docility and near-decomposability
+#+date: 2004-07-22T13:22:00+12:00
+#+lastmod: 2004-07-22T13:22:00+12:00
+#+categories[]: Research
+#+tags[]: Articles
+#+slug: docility-and-near-decomposability
+#+draft: False
+
+I've just finished reading:
+
+#+BEGIN_QUOTE
+
+Augier, M., & Sarasvathy, S. D. (2004). Integrating evolution, cognition and design: Extending ?Simonian? perspectives to strategic organization. /Strategic Organization, 2/(2), 169---204. 
+
+#+END_QUOTE
+
+The abstract is:
+
+#+BEGIN_QUOTE 
+
+Several streams of research in strategic management and organisational theory build upon the early work of Herbert Simon. Yet, as content analyses of articles published in leading management journals show, key ideas from his later years are for the most part either neglected or misinterpreted. We bring to strategic organization three constructs from Simon's later work and make a case for their use in future research in strategic management and entrepreneurship: Docility is a fundamental behavioral assumption in lieu of opportunism or embedded networks of trust; Near-decomposability is an evolutionarily robust structural feature that permeates Nature's designs and has implications for human artifacts; and, Artifacts are products of human design that reshape local environments and/or help select between them to create and achieve human purposes. Each of these constructs embodies a uniquely Simonian integration of evolution, cognition, and design. Together they enable us to conceptualize empirical phenomena as thick three-dimensional reality rather than as abstractions entailed by any one of these perspectives alone.
+
+
+#+END_QUOTE
+
+I was particularly struck by the ideas of /docility/ and /near-decomposability/. Citing Simon (1993---which may be wrong), the authors explain that by /docility/ they "mean the tendency to depend on suggestions, recommendation, persuasion, and information obtained through social channels as a major basis for decision" (p. 176). At first glance this may sound a lot like social learning theory, however they combine it with the idea that "for the most part, most human beings seek and give advice" (p. 178) this is a mechanism for the efficient distribution of learning, or as the authors might put it, it facilitates greater evolutionary fitness. Furthermore, docility leads to "the evolutionary dominance of intelligent altruism over economic or other forms of opportunism" (p. 176). I suspect that this is brought about by the way in which docility relies on and creates identity.
+
+On the other hand, one of the features of near-decomposability (or ND), is that "in ND systems, each component (of the organisation) can evolve towards greater fitness with little dependence upon changes taking place in the details of other components (p. 179). Thus, each component is loosely coupled to others---but bound together by identity. The consequence of this is that rapid change can occur in a component without disrupting the whole.
+
+At this point, I'm remind of Beinhocker's (2000) article, where he describes how components move across a fitness landscape, where vision is limited (maybe by bounded rationality) and so the "best' strategy might be just to continue to move upwards---but where in the long term it is more effective to also seed distant sites, in case they provide access to"higher ground', e.g. greater fitness. This kind of approach can be successful if units are loosely coupled so they can adapt (or even die) without destroying the whole organisation. The example they use is worth remembering.
+
+#+BEGIN_QUOTE
+
+expert entrepreneurs who where presented with exactly the same imaginary product and asked to make typical decisions that occur in a startup form. Received wisdom suggests that these experts would identify the most promising market opportunities for the product and devise strategies to capture leading positions in those markets. In contrast to this, /the subjects often ignored or rejected market research data/. Instead they leveraged who they were, what they new and whom they knew to construct very local and immediately implementable opportunities. They then imaginatively combined these initial segments together with contingencies to stitch together meaningful identifies that in turn pointed to new markets that neither they nor the market researchers could predict ex ante. (emphasis added, p. 183).
+
+#+END_QUOTE
+
+Thus we have two important mechanisms of evolutionary development. They consequences of using the two together, is that it can reduce transaction costs, whilst increasing altruism. Overall, the article suggests that docility, near-decomposability, and artefact (which I've not discussed) overcome a number of troublesome dichotomies. However, I'm less convinced about-this.
+
+* References
+
+Beinhocker, E. D. (2000). On the orgin of stratgies. In C. Willhoite (Ed.), /The McKinsey-Quarterly Anthology: On strategy/ (pp. 81---90): Mckinsey-Quarterly.

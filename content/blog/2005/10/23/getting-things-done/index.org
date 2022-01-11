@@ -1,0 +1,13 @@
+#+title: Getting things done
+#+slug: getting-things-done
+#+date: 2005-10-23T21:34:00+12:00
+#+lastmod: 2005-10-23T21:34:00+12:00
+#+categories[]: Teaching
+#+tags[]: Blogging Productivity
+#+draft: False
+
+[[https://web.archive.org/web/20071119131104/https://www.thereflectivepractitioner.org/cxq/][Chintaka]] has been gentle prodding me for sometime about the lack of activity here. I could comment on the amount of activity at his blog, but I won't (smile).
+
+He is right. I have been slow in doing anything here for awhile. Well hopefully that is about to change. I've being reading [[https://www.davidco.com/][David Allen's]] [[https://www.amazon.com/exec/obidos/tg/detail/-/0670899240/][book]] on /Getting things done/.
+
+The system sounds straight forward enough. So, I'm going to give it a go. It will be interesting to see if I actually get more done. On the way to finding GTD (as many people affectionately call it), I came across a rather interesting site called [[https://www.43folders.com][43 Folders]]. The name comes from need 43 folders in order to have a perpetual tickler-file.

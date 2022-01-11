@@ -1,0 +1,9 @@
+#+title: Interesting place to visit
+#+slug: interesting-place-to-visit
+#+date: 2008-07-18T14:33:00+12:00
+#+lastmod: 2008-07-18T14:33:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness
+#+draft: False
+
+[[https://www.andrewisgettingfit.com/][Andrew is getting fit]] and I'm envious; [[https://jafapete.wordpress.com/][Jaffa Pete]] is thought provoking

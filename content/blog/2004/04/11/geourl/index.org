@@ -1,0 +1,14 @@
+#+title: GeoURL
+#+slug: geourl
+#+date: 2004-04-11T22:57:00+12:00
+#+lastmod: 2004-04-11T22:57:00+12:00
+#+categories[]: Tech
+#+tags[]: Website
+#+draft: False
+
+
+I've installed the necessary meta tags for [[https://web.archive.org/web/20040412160322/https://www.geourl.org/][GeoURL]] to work with this site. You can see the registered sites that are physically close to this one [[https://geourl.org/near/?p=https://www.thereflectivepractitioner.org][here]].
+
+It's surprising how many sites there are around here. If you like things more visually, have a look at the
+[[https://web.archive.org/web/20130324010027/https://geourl.org/near?lat=90&long=-180][maps]].
+

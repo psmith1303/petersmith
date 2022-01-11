@@ -1,0 +1,32 @@
+#+title: First note: Building out my space in the IndieWeb
+#+slug: first-note
+#+date: 2021-10-23T13:22:38+13:00
+#+lastmod: 2021-10-23T13:22:44+13:00
+#+categories[]: Tech
+#+tags[]: Emacs
+#+draft: false
+
+Well, to misquote Eccels, "Everybody gotta be somewhere!" and this is where I am.
+
+# more
+
+This is going to be something of a journey over the week, and I'm not sure how long it will take. The plan is to rebuild my website to be my take on the [[https://indieweb.org/why][IndieWeb]] incorporating [[https://www.w3.org/TR/webmention/][Webmentions]].
+
+I have tried the first part---IndieWeb---with some success already. But it is a bit of a kludge on my existing site. Hence me starting with a clean slate, and doing:
+
+#+BEGIN_SRC sh
+
+hugo new site IndieWeb
+
+hugo new theme Papyrus
+
+#+END_SRC
+
+
+I'll then build out =Papyrus= to be fit for purpose.
+
+The next step will be to put the infrastructure in place so that Webmentions work.
+
+Before I 'go live' and (re)publish the site, I'll import all my old content.
+
+# more

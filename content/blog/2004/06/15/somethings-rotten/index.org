@@ -1,0 +1,21 @@
+#+title: Something's rotten
+#+slug: somethings-rotten
+#+date: 2004-06-15T12:08:00+12:00
+#+lastmod: 2004-06-15T12:08:00+12:00
+#+categories[]: Tech
+#+tags[]: Firefox IE
+#+draft: False
+
+I've noticed that when I quote something, by using block-quotes, e.g.
+
+#+BEGIN_QUOTE
+
+block quotes
+
+#+END_QUOTE
+
+the subsequent paragraphs don't display correctly under Internet Explorer-. They are fine with [[https://www.mozilla.org/][Firefox]]. I suppose I should look into at some stage. Alas, the only time I have is at home, and their I don't use Microsoft... So it might have to wait until the next time I work during the weekend (which should be a long time away).
+
+/I've fixed it/.
+
+Alas, Internet Explorer doesn't handle having a left border and no right border well. Removing the borders and colouring the blockquote gets around the problem. I found this by accident.

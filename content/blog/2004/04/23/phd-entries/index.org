@@ -1,0 +1,10 @@
+#+title: PhD entries
+#+slug: phd-entries
+#+date: 2004-04-23T21:39:00+12:00
+#+lastmod: 2021-12-13T12:15:31+13:00
+#+categories[]: Research
+#+tags[]: PhD
+#+draft: False
+
+I've set up a new +(and relatively private)+ blog for all my PhD notes.
+

@@ -1,0 +1,9 @@
+#+title: Integration with Google+
+#+slug: integration-with-google
+#+date: 2013-11-22T18:47:00+12:00
+#+lastmod: 2013-11-22T18:47:00+12:00
+#+categories[]: Tech
+#+tags[]: Google+
+#+draft: False
+
+Well, if I have done this right, I should get this cross-posted to [[https://plus.google.com/][Google+]]

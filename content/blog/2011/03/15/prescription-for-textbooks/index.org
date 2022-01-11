@@ -1,0 +1,27 @@
+#+title: Prescription for textbooks
+#+slug: prescription-for-textbooks
+#+date: 2011-03-15T08:45:00+12:00
+#+lastmod: 2011-03-15T08:45:00+12:00
+#+categories[]: Teaching
+#+tags[]: BUSINESS101 textbooks
+#+draft: False
+
+I've talked [[{{< ref "the-economics-of-textbook" >}}][elsewhere about the economics of textbooks]] and my surprise at how much of the mark-up goes to the various parties.
+
+Anyway, on [[https://www.boingboing.net/2010/01/03/prescription-for-con.html][Boing Boing]] there is an interesting article that discusses the issue further (and provides some interesting links). The article says:
+
+#+BEGIN_QUOTE
+
+5. Student behavior
+
+   1. Students basically function as a captive consumer audience, like the Joads having to buy from the company store in Grapes of Wrath. Only those with the means or ingenuity to obtain textbooks from alternative sources do so.
+
+   2. 80% of students buy the faculty-prescribed books.
+
+#+END_QUOTE
+
+I don't think that it's that the students are captive in the way that the article suggests. Rather, I suspect that, certainly as freshers, they don't know enough to decide whether they should buy the textbook or not. Anecdotally, by their third year, they are much more canny; preferring to share, use the library, or even make copies of the textbooks.
+
+For the new [[https://www.calendar.auckland.ac.nz/courses/prescriptions/business/business.html][BUSINESS 101 course]] that [[https://web.archive.org/web/20100520025423/https://staff.business.auckland.ac.nz/5137.aspx][Doug]], [[https://web.archive.org/web/20130504104850/https://staff.business.auckland.ac.nz//5129.aspx][Chris]] and I have designed, we've moved right away from textbooks. Most (if not all) that the students need is available through [[https://web.archive.org/web/20130721110519/https://coursepages.library.auckland.ac.nz][the databases that our library]] pays millions of dollars for access.
+
+Having said all that, I do wonder to what extent textbooks act as security blanket for students. Do they feel they are better off for having one. I guess I'll find out (to some extent) when the course kicks-off on Monday.

@@ -1,0 +1,15 @@
+#+title: Moved to Netlify
+#+slug: moved-to-netlify
+#+date: 2018-06-15T12:07:19+12:00
+#+lastmod: 2018-06-15T12:07:19+12:00
+#+categories[]: Tech
+#+tags[]: Netlify Cloudflare Github Letsencrypt
+#+draft: False
+
+I have finally moved all my websites to being hosted on [[https://www.netlify.com/][Netlify]]. They all now have SSL certificates (via [[https://letsencrypt.org/][Letsencrypt]]) and so https works as it should.
+
+To make it all happen, I also moved to using [[https://letsencrypt.org/][Cloudflare]] as my DNS provider. It makes the provisioning of SSL certificates from Letsencrypt much cleaner (as verification is done automatically through an API to the DNS, rather than by creating files on the web server).
+
+To glue everything together, I've put all the 'source' of my sites onto [[https://github.com][GitHub]]. That allows automatic deployment from Netlify when I commit changes.
+
+All pretty good and easy (in hindsight).

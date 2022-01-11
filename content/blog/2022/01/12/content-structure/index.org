@@ -1,0 +1,70 @@
+#+title: Content structure
+#+date: 2022-01-12T07:56:08+13:00
+#+lastmod: 2022-01-12T07:56:08+13:00
+#+categories[]: Tech
+#+tags[]: IndieWeb Hugo
+
+Following on from comments by [[https://evgenykuznetsov.org/en/reactions/2022/re-010053443/][Evgeny]] to my [[https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/][post]], I have changed the directory structure for my posts.
+
+Up until now, I had a directory =blog= which was full of directories, such =20220112-content-structure=, where the first six digits represented the date. In that directory I then had an =index.org= file with the content of my post.
+
+Now I have moved to a hierarchical date structure, where the content for that post is now in =blog/2022/01/12/content-structure/index.org=. I wrote a quick and dirty shell script to move all the posts.
+
+# more
+
+#+BEGIN_SRC bash
+
+#!/bin/bash
+
+#
+# move through my content a rename it all -- let's just do my blog
+#
+cd content/blog
+for SOURCE in [12]*
+do
+    echo Processing $SOURCE
+
+    YEAR=${SOURCE:0:4}
+    MONTH=${SOURCE:4:2}
+    DAY=${SOURCE:6:2}
+    SLUG=${SOURCE:9:99}
+
+    if [ ! -d $YEAR ]
+    then
+        echo mkdir $YEAR
+        mkdir $YEAR
+    fi
+    if [ ! -d $YEAR/$MONTH ]
+    then
+        echo mkdir $YEAR/$MONTH
+        mkdir $YEAR/$MONTH
+    fi
+    if [ ! -d $YEAR/$MONTH/$DAY ]
+    then
+        echo mkdir $YEAR/$MONTH/$DAY
+        mkdir $YEAR/$MONTH/$DAY
+    fi
+    mv $SOURCE $YEAR/$MONTH/$DAY/$SLUG
+done
+
+#+END_SRC
+
+That is all well and good, however quite a few of my posts link to other posts using Hugo's [[https://gohugo.io/functions/relref/][refref]]. Nothing that a quick =find= and =sed= cannot fix. I also used this as an opportunity to move from using =relref= to =ref= (I don't know why I was using relref in the first place).
+
+#+BEGIN_SRC bash
+
+find content -type f -exec grep -l " relref " {} \; | xargs sed -i 's/ relref \"[0-9]*-/ ref \" /g'
+
+#+END_SRC
+
+That left me with a few posts with 'refs' to ambiguous names. For example I had ={{ ref "walking" }}= which could map on to several posts, such as:
+
+- /blog/2004/06/16/walking
+- /blog/2005/05/29/still-walking-after-all-this-time
+- /blog/2009/03/04/walking-the-dogs
+
+For the eight posts that had this type of problem, I then manually fixed them up, e.g., changing 'walking' in the above example to be ={{ ref "/blog/2004/06/16/walking" }}=.
+
+Job done! It took longer to write this post than to do the conversion.
+
+Now to go back and try using the =-cd= option of Evgeny's [[https://github.com/nekr0z/webmention.io-backup][webmention-io-backup]] tool. That will be a longer task as I need to re-do how I process webmention 'replies'. I think I will split out 'mentions' from 'replies' ... let's see what happens.

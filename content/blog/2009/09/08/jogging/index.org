@@ -1,0 +1,9 @@
+#+title: Jogging
+#+slug: jogging
+#+date: 2009-09-08T15:19:00+12:00
+#+lastmod: 2009-09-08T15:19:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
+
+I had a nice trot around the Domain today with [[https://staff.business.auckland.ac.nz/5452.aspx][Winnie]] [[https://www.linkedin.com/pub/winnie-o-grady/6/465/850][O'Grady]]. If [[https://www.gmap-pedometer.com/?r=3169410][Gmaps Pedometer]] is to be believed, we did about 4.5 Km.

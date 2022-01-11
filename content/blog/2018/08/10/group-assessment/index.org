@@ -1,0 +1,21 @@
+#+title: Group assessment
+#+slug: group-assessment
+#+date: 2018-08-16T10:00:55+12:00
+#+lastmod: 2018-08-16T10:00:55+12:00
+#+categories[]: Teaching
+#+tags[]: Marking Groups
+#+draft: False
+
+Lisa Callagher and I were invited to give a Professional Development session by the /Innovative Teaching and Learning Group/ (ITL) here at the Business School. Our topic was /Group Assessment/.
+
+In previous sessions ITL had folk talk about *what* they do in regards to group assessment. For example, what happens in BUSINESS 101/102 or in MGMT 300.
+
+The brief that Lisa and I had was to explain *why* we do what we do.
+
+Overall, our message was:
+
+1. If students are doing group work that does not mean you need to do group assessment
+2. Be clear why you are assessing groups; i.e., the educational goals/purpose
+3. Make sure you have group management/processes in place
+
+Our {{< href src="GroupAssessmentPD-2018.pdf" title="presentation" >}} slides are available if you want them.

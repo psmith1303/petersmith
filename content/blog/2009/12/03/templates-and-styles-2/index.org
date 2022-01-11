@@ -1,0 +1,13 @@
+#+title: Templates and styles
+#+slug: templates-and-styles-2
+#+date: 2009-12-03T12:26:00+12:00
+#+lastmod: 2009-12-03T12:26:00+12:00
+#+categories[]: Tech
+#+tags[]: Movabletype Templates
+#+draft: False
+
+It seems that I don't really understand the way that [[https://www.movabletype.com][Movable Type]] handles styles and templates. I've (yet again) made a total mess of this site in the process of setting up my [[/journal/][academic journalling]].
+
+No doubt this will take me sometime (over the weekend) to sort out ... but I might wait until after the 8th December 2009, when [[https://www.movabletype.org/2009/11/mt5_status.html][Movable Type version 5 comes out]].
+
+I do like the approach taken by the [[https://ministryoftype.co.uk/][Ministry of Type]]. When I redo my own style sheet, I'll have to bear in mind some of the principles that are evident on that elegant site.

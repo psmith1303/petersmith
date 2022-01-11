@@ -1,0 +1,110 @@
+#+title: Orgmode: Part 1
+#+date: 2010-01-17T11:39:00+12:00
+#+lastmod: 2010-01-17T11:39:00+12:00
+#+categories[]: Tech
+#+tags[]: Productivity Orgmode Emacs GTD
+#+slug: orgmode-part-1
+#+draft: False
+
+I've been a big fan and user of [[https://www.rememberthemilk.com/][Remember the milk]]. I found it a great way to manage my task, and so on, in a [[https://www.davidco.com/][GTD]] like manner. As a bit of an aside, the GTD methodology really works for me ... and every time I find work getting a bit out of control its because I've not been ruthlessly applying the principles of GTD.
+
+Anyway, I've switched to using org-mode (aka orgmode). I don't recall how I stumbled across [[https://orgmode.org/][Org-Mode: Your Life in Plain Text]]. No before I go any further, let me say that I don't think orgmode it for everyone. Its an extension to the [[https://www.gnu.org/software/emacs/][emacs text editor]], and in this [[https://en.wikipedia.org/wiki/WYSIWYG][WYSIWYG]] world a text-based programme may be "a bridge to far'. But, as an old hand a unix (albeit a [[https://www.vim.org/][vi/vim]] user) the transition to emacs hasn't been too hard.
+
+But why change? Is this just part of the ongoing search for the perfect tool [Andrew might comment here]? Is it just displacement behaviour (avoiding doing PhD work)?
+
+As I said at the beginning of this post, when I find things spinning a little out of control (or what I've come to regard as control) it's because my GTD system isn't out of date/wack. So, moving to a new central store (orgmode) is a mechanism for me to get things back in order (and on track). So, today I've finished the migration from Remember the Milk to orgmode. No doubt I'll have some ongoing tweaking of orgmode ... but I have deleted my Remember the Milk account.
+
+There are lots of useful resources on using orgmode in a GTD way. For example, [[https://members.optusnet.com.au/~charles57/GTD/orgmode.html][this one]], [[https://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html][this one]] or [[https://www.linuxjournal.com/article/9116][this one]]. Most of the articles assume you already have emacs up an running (which isn't hard), and that you know how to configure emacs (which is harder). Fortunately, emacs now ships with orgmode included, so there isn't a lot of additional work that needs to be done. you can just jump right on in.
+
+Orgmode understands lists and dates ... and a whole lot more; but lists and dates are enough to get started with.
+
+First of all, one needs to turn on orgmode. There are a few ways to do this. I do it thought my .emacs file (which, is normally in your home directory; if it isn't there you can create it). In .emacs I have the following text.
+
+#+BEGIN_EXAMPLE
+
+;;
+;; Peter's setup for orgmode in .emacs
+;;
+(add-to-list "auto-mode-alist '(".(org|org_archive|txt)" .  org-mode))
+(global-set-key "C-cl" 'org-store-link)
+(global-set-key "C-ca" 'org-agenda)
+(global-set-key "C-cb" 'org-iswitchb)
+(add-hook 'org-mode-hook 'turn-on-font-lock) ; Org buffers only
+(setq org-log-done t)
+;;
+;; Some more settings
+;;
+(setq org-agenda-files (file-expand-wildcards "\~/org/\_.org"))
+;;
+;;
+;;quickly open my gtd file - "M-x gtd"
+;;
+(defun gtd () (interactive) (find-file "\~/org/gtd.org") )
+;;
+
+#+END_EXAMPLE
+
+The main parts of this code are (1) the first line turns on orgmode for any file that is ends with .org .txt or .org\_archive. (2) I keep all my orgmode files in a directory off my home directory, i.e., ~/org. any files ending in .org in that directory are scanned when orgmode puts together my agenda. (3) The last little bit of code opens my main "to do' file called gtd.org when I execute M-x gtd (for non-emacs users that means pressing ALT-x then typing gtd and pressing return). This provides me with a quick way to get to my my to do list. Oh, the"org-log-done" line results in my to do items getting a date attached to them when I mark them as being done.
+
+Now for some fun stuff. First I create my gtd.org file (using =C-x C-w= org/gtd.org/ ... that means Control-c Control-x and then typing the path/file name). I can then start making my to do list, vis:
+
+#+BEGIN_EXAMPLE
+
+* Work
+** Review APR
+** Revise article on governance
+** Order textbook for INTBUS 202
+* Home
+** Pick up milk on way home
+** Buy a copy "The Wire" (Series 5).
+
+#+END_EXAMPLE
+
+So far so good. I have to have my APR review done by Monday, so let's put a deadline beside it. Positioning my cursor somewhere on the relevant line I type /c-c c-d mon/ (and press enter) The line changes to be:
+
+#+BEGIN_EXAMPLE
+
+** Review APR DEADLINE: <2010-01-18 Mon>
+
+#+END_EXAMPLE
+
+And I what to schedule doing the article revision on /next/ Monday. So, on the appropriate line, I type /c-c c-d +2mon/ (and enter). The line changes to be:
+
+#+BEGIN_EXAMPLE
+
+** Revise article on governance DEADLINE: <2010-01-25 Mon>
+
+#+END_EXAMPLE
+
+I also want to schedule buying "The Wire" today. On the correct line I
+type =C-c C-s= and press enter. The line changes to be:
+
+#+BEGIN_EXAMPLE
+
+** Buy a copy "The Wire" (Series 5). SCHEDULED: <2010-01-16 Sat>
+
+#+END_EXAMPLE
+
+Now I have dozens of tasks to do. And looking at them all at once doesn't always add clarity. So let's look at my agenda. Pressing =C-c a a= will bring it up (no need to press enter). My agenda looks like:
+
+#+BEGIN_EXAMPLE
+
+Week-agenda (W02):
+
+Monday 11 January 2010 W02
+
+Tuesday 12 January 2010
+
+Wednesday 13 January 2010
+
+Thursday 14 January 2010
+
+Friday 15 January 2010 gtd: Scheduled: Buy a copy "The Wire" (Series 5).
+
+Saturday 16 January 2010
+
+Sunday: 17 January 2010 gtd: In 1 d.: Review APR gtd: In 8 d.: Revise article on governance
+
+#+END_EXAMPLE
+
+And that's probably enough examples for now. So to sum up, =C-c C-d= marks an item with a deadline, =C-c c-s= marks an item with a scheduled date. Oh, and to save your file (the currently open buffer) use =C-x c-s=

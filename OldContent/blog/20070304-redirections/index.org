@@ -1,0 +1,13 @@
+#+title: Redirections
+#+slug: redirections
+#+date: 2007-03-04T16:22:00+12:00
+#+lastmod: 2007-03-04T16:22:00+12:00
+#+categories[]: Tech
+#+tags[]: A2Hosting Movabletype
+#+draft: False
+
+In moving this site to its new host at [[https://www.a2hosting.com/][A2]], I set up [[https://www.sixapart.com/][MovableType]] slightly differently. This meant that many of my old links into and out of the site didn't work any more.
+
+So, I've spent a little time setting up some mod_rewrite rules (Thanks [[https://forums.searchenginewatch.com/showthread.php?t=3925][Mike]]) and tweaking the configuration.
+
+So, hopefully there will be no more =404 Page Not Found= errors.

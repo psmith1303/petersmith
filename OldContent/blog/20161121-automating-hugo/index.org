@@ -1,0 +1,35 @@
+#+title: Automating Hugo
+#+slug:
+#+date: 2016-11-21T18:48:19+13:00
+#+lastmod: 2016-11-21T18:48:19+13:00
+#+categories[]: Tech
+#+tags[]: Emacs Hugo Tagging
+#+slug: automating-hugo
+#+draft: False
+
+I'm starting to live in Emacs, and so I wanted to automate---a bit---the way in which I create posts.
+
+So, I took a bit of code from https://wmanger.com/ and mixed in a lot of code from [[https://blog.tohojo.dk/2015/10/integrating-hugo-into-emacs.html][Toke Høiland-Jørgensen]]. The result is something that, creates a file and opens it with the minimal [[https://gohugo.io/content/front-matter/][Hugo frontmatter]]. For this post the front matter looks like this:
+
+#+BEGIN_EXAMPLE toml
+
++++
+#+date: 2016-11-21T18:48:19+13:00
+#+lastmod: 2016-11-21T18:48:19+13:00
+#+title: Automating Hugo
+
+#+END_EXAMPLE
+
+So far, so good. But I want to have something a little more 'complete'.
+
+I could use some clever stuff like snippets to do, but instead I just tweaked the file =archetypes/blog.md= to look like this:
+
+#+BEGIN_EXAMPLE toml
+
+categories = [ "Jottings", "Blogging", "The Arts", "Out and about", "Running", "Fitness", "Learning", "Teaching", "Case teaching", "Plagiarism", "Research", "Writing", "Data analysis", "Productivity", "IT", "Technology" ]
+#+draft: False
++++
+
+#+END_EXAMPLE
+
+This will magically get merged with the date and title.

@@ -1,0 +1,20 @@
+#+title: More upgrades
+#+slug: more-upgrades
+#+date: 2005-12-27T20:42:00+12:00
+#+lastmod: 2021-12-23T18:26:56+13:00
+#+categories[]: Tech
+#+tags[]: WYSISG Orgmode
+#+draft: False
+
+I've been doing a few more upgrades. The first one should allow me to have a [[https://en.wikipedia.org/wiki/WYSIWYG][WYSISG]] editor.
+
+So I should be able to do
+
+1. *bold* /italics/ underline and of course +strikethrough+,
+2. Numbered outlines (obviously), and
+3. Hyperlinks.
+
+So far so good.
+
+* Update 2021-12-28 Tue
+Of course, this is kind of redundant now that I am using Orgmode to format my documents.

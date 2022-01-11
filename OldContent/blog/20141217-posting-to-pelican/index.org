@@ -1,0 +1,54 @@
+#+title: Posting to Pelican
+#+slug: posting-to-pelican
+#+date: 2014-12-17T19:54:00+12:00
+#+lastmod: 2014-12-17T19:54:00+12:00
+#+categories[]: Tech
+#+tags[]: Blogging Pelican
+#+draft: False
+
+I've been playing around trying to make the process of posting easier. I've taken an idea from [[https://github.com/getpelican/pelican/wiki/Tips-n-Tricks][Pelican Tips n Tricks]] and modified my Makefile (well, actually, on [[https://www.freebsd.org/][FreeBSD]] one needs to use gmake or similar when using Pelican as its version of make is rather BSD in orientation).
+
+Anyway, I've tweaked my Pelican created Makefile to include:
+
+#+BEGIN_SRC sh
+
+PAGESDIR=$(INPUTDIR)
+DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
+SHORTDATE := $(shell date +'%Y-%m-%d-')
+EXT ?= md
+
+newpost:
+ifdef NAME
+    echo "Slug: $(SLUG)" >> $(INPUTDIR)/${SHORTDATE}$(SLUG).$(EXT)
+    echo "Date: $(DATE)" >> $(INPUTDIR)/${SHORTDATE}$(SLUG).$(EXT)
+    echo ""              >> $(INPUTDIR)/${SHORTDATE}$(SLUG).$(EXT)
+    echo ""              >> $(INPUTDIR)/${SHORTDATE}$(SLUG).$(EXT)
+else
+    @echo 'Variable NAME is not defined.'
+    @echo 'Do make newpost NAME='"'"'Post Name'"'"
+endif
+
+#+END_SRC
+
+
+I suspect I could of make things a little cleaner but it works. It allows me to do things like:
+
+#+BEGIN_SRC sh
+
+gmake newpost NAME='Posting to Pelican'
+
+#+END_SRC sh
+
+That will create a file in my /content/ directory called:
+
+#+BEGIN_QUOTE
+
+2014-12-17-posting-to-pelican.md
+
+#+END_QUOTE
+
+I like to date all my filenames to stop any 'clashes' and to reduce the liklihood of me accidently overwriting an old post.
+
+It's a step in the right direction.
+
+Of note, I found out the hard way, that the indents in a gmake Makefile (and presumably in a regular Linux Makefile) have to be TAB characters and not just spaces. That had me going around in circles for a few minutes.

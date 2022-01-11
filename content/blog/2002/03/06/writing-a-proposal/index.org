@@ -1,0 +1,13 @@
+#+title: Writing a proposal
+#+slug: writing-a-proposal
+#+date: 2002-03-06T15:17:00+12:00
+#+lastmod: 2002-03-06T15:17:00+12:00
+#+categories[]: Teaching
+#+tags[]: Awards
+#+draft: False
+
+I've been through the main documentation for the [[https://www.nzqa.govt.nz/circulars/awards/ttea.html][Tertiary Teaching Excellence Awards]] in some detail. And, I've looked at the requirement our [[https://www.auckland.ac.nz/][university]] has. So, now I think I have a handle on the amount of work that is needed for this beast.
+
+/Several hours later/ Well I haven't done much so far--in this area it
+hasn't been a very productive day ... oh well, lets see what can be done
+this evening.

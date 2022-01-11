@@ -1,0 +1,19 @@
+#+title: Running buddies
+#+slug: running-buddies
+#+date: 2010-09-12T10:29:00+12:00
+#+lastmod: 2010-09-12T10:29:00+12:00
+#+categories[]: Home
+#+tags[]: Running Fitness Marathons
+#+draft: False
+
+I've just noticed that [[https://www.andrewisgettingfit.com][Andrew]] has just [[https://web.archive.org/web/20110209082306/https://www.andrewisgettingfit.com/2010/09/10/contrasts/][dobbed me in]] as an [[https://runkeeper.com/user/Peter_Smith/fitnessReports/pr][occasional runner]] and his sometimes running buddy.
+
+Thanks ...
+
+I've been sort of running since about March 2009. I'd been taking a few writing retreats at Orewa, [[{{< relref "20090304-walking-the-dogs" >}}][Totara North]], and Long Bay. In between writing, I'd walk a little. That turned into trying 5K runs, and it's grown. I started to get somewhat habituated to running, and found myself doing it most Sundays.
+
+I then began to think I might do the [[https://www.aucklandmarathon.co.nz/][Auckland half-marathon]] and began doing the occasional run with Andrew (so I could pick his brains about running). This became a regular thing, and now we run most Tuesdays and Thursdays for about 10k or so.
+
+Today, for a change, we're planning to have a crack at the [[https://www.mapmyrun.com/run/new-zealand/onehunga/753123994072981910][route]] of the [[https://www.onehungahalf.co.nz/][Onehunga half-marathon]]. If it goes well we might do the official run at the end of the month ... but that really depends on how it fits with our training plans (mine for the Auckland marathon in October, his for the [[https://secure.wikimedia.org/wikipedia/en/wiki/Taipei_International_Marathon][Taipei marathon]] in December).
+
+Anyway, I should be getting ready to run now ...

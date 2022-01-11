@@ -1,0 +1,27 @@
+#+title: New theme progress
+#+slug: new-theme-progress
+#+date: 2022-01-03T13:01:33+13:00
+#+lastmod: 2022-01-03T13:01:33+13:00
+#+categories[]: Tech
+#+tags[]: Themes Hugo IndieWeb Webmentions Fonts
+#+draft: False
+
+The first phase creating a new theme is complete. The site renders "ok", and I am pretty pleased with how it looks. It feels clean and elegant.
+
+{{< figure src="Screenshot 2022-01-03 at 13-00-05 PeterSmith org Dead drive.png" title="First cut of the TypoTyro theme" >}}
+
+# more
+
+The one question I have is should I change the font for the title of articles ... Except for 'code' blocks, I am using a single font throughout the site, so I don't feel bad about adding a second font. Perhaps, something cursive? Adobe's California?
+
+{{< figure src="AdobeCalifornia.jpg" title="A sample of Adobe's California font" >}}
+
+But there would be problems, as using such a font would definitely increase the 'weight' of my pages, and that's something I am actively trying to reduce.
+
+Anyway, back to the plan for this theme. The next steps are to:
+
+1. Make it 'responsive' (again).
+2. Get IndieWeb working (again).
+3. Get web-mentions working.
+
+That last point is the whole reason I started down this 'rabbit hole'. The previous theme didn't really lend itself to accommodating web-mentions (in all their glory).

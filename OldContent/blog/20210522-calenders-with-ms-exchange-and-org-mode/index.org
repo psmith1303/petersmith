@@ -1,0 +1,121 @@
+#+title: Calendars with MS Exchange and Orgmode: Across the great divide
+#+slug: calendars-with-ms-exchange-and-orgmode
+#+date: 2021-05-22T11:29:00+13:00
+#+lastmod: 2021-05-22T11:29:00+13:00
+#+categories[]: Tech
+#+tags[]: Exchange Emacs Orgmode
+#+draft: False
+
+* The problem
+
+I need to use the calendar provided by MS Exchange and Outlook at work. More correctly, it is Exchange365 and Outlook365. But as an ~Org Mode~ user, I really want to see my Exchange calendar---my meetings etc---in the Agenda of ~Org Mode~. Not all the details, but enough to see that they are there.
+
+* The solution
+
+I publish my calendar for Exchange with all the details. That creates a URL that I can use with ~wget~ to suck everything out as an ICAL file. Then I need to do some massaging.
+
+1. Remove the descriptions from calendar entries; they can be pretty big and that messes up the Agenda view. ~awk~ to the rescue.
+2. Fix up the timezone in the entry when there isn't one. ~sed~ to the rescue.
+3. Convert ICAL format into the format used by the ~diary~ in unix. I run ~emacs~ in the batch mode to do that.
+4. Patch the resulting file into the ~diary~
+
+The first three of these steps is done by a little ~bash~ script. You can see a few things have been commented out where I've been playing/experimenting/learning.
+
+# more
+
+#+BEGIN_SRC bash
+# customize these
+WGET=/usr/bin/wget
+ICSTRIM=/mnt/c/Users/psmith/Dropbox/psmith/bin/ical-trim.awk
+ICS2ORG=/mnt/c/Users/psmith/Dropbox/psmith/bin/ical2org.awk
+ICSFILE=/mnt/c/Users/psmith/Dropbox/psmith/Temp/calendar.ics
+ICS2FILE=/mnt/c/Users/psmith/Dropbox/psmith/Temp/calendar2.ics
+ORGFILE=/mnt/c/Users/psmith/Dropbox/psmith/Org/exchange-diary
+URL=http://mail.auckland.ac.nz/owa/calendar/xxxxx3e52xxxxxfeef6c6eab408e5@auckland.ac.nz/xxxx/calendar.ics
+
+# no customization needed below
+
+$WGET -O $ICSFILE $URL
+
+#
+# Remove the description from the ICS file
+#
+echo $ICSTRIM $ICSFILE  $ICS2FILE
+$ICSTRIM  < $ICSFILE > $ICS2FILE
+#cp $ICSFILE $ICS2FILE
+
+# Creat an empty diary file
+
+rm $ORGFILE
+
+#
+# Fix/set the timezone from (no TZ description) to Pacific/Auckland
+#
+echo Fixing timezone
+sed -i.bak 's/(no TZ description)/Pacific\/Auckland/' $ICS2FILE
+
+
+#
+# Now do the import
+#
+echo emacs -batch --eval="(progn (setq calendar-date-style 'iso) (icalendar-import-file \"$ICS2FILE\" \"$ORGFILE\"))"
+
+emacs -batch --eval="(progn (setq calendar-date-style 'iso) (icalendar-import-file \"$ICS2FILE\" \"$ORGFILE\"))"
+#
+# emacs -batch --eval="(icalendar-import-file \"$ICS2FILE\" \"$ORGFILE\")"
+#
+
+#+END_SRC
+
+Step four is done through the magic of the diary file in ~~/.emacs.d/diary~
+
+It looks like
+#+BEGIN_SRC
+
+#include "/mnt/c/Users/psmith/Dropbox/psmith/Org/exchange-diary"
+
+#+END_SRC
+
+And in case you hadn't guessed. Outlook is running in plain old Windows 10, and ~emacs~ is running under Debian via WSL.
+
+I know I've written about this before, but I've only just got the ~awk~ script that strips out the descriptions working; the ~ical-trim.awk~ script.
+
+#+BEGIN_SRC awk
+#!/usr/bin/gawk -f
+# awk script for converting an iCal formatted file to a sequence of org-mode headings.
+# this may not work in general but seems to work for day and timed events from Google's
+# calendar, which is really all I need right now...
+#
+# usage:
+#   ical-trim.awk  < icalinputfile.ics > orgmodeentries.org
+#
+# Note: change org meta information generated below for author and
+# email entries!
+/^DESCRIPTION\:/ { inBlock = 1
+next
+}
+
+inBlock {
+    if ( /^[A-Z]/ ) {
+        inBlock = 0
+    } else { next }
+}
+{ print }
+#+END_SRC
+
+
+I don't pretend that any of this is elegant, but it seems to work.
+
+* Rinse and repeat
+
+Meanwhile, how do I run it on a regular basis? I was using Window's task manager, but I scrapped that during debugging and switched to using ~cron~ under WSL2. Not straight forward.
+
+My ~crontab -e~ looks like:
+
+#+BEGIN_SRC
+
+55 * * * * /mnt/c/Users/psmith/Dropbox/psmith/bin/getOutlookCalendar.sh
+
+#+END_SRC
+
+I start cron with ~service cron start~. But that's not enough. In windows, I have a Startup short cut that launches cron ... a bit messy, yes. But it works.

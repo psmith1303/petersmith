@@ -65,5 +65,55 @@
     "wm-received": "2021-10-10T11:35:46Z",
     "wm-source": "https://robbinespu.gitlab.io/indieweb/211010050323/",
     "wm-target": "https://petersmith.org/blog/2021/10/10/20211010-first-steps-to-indieweb/"
+  },
+  {
+    "author": {
+      "name": "Evgeny Kuznetsov",
+      "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+      "type": "card",
+      "url": "https://evgenykuznetsov.org"
+    },
+    "content": {
+      "html": "<p>To accomodate a complex layout like this, <code>webmention.io-backup</code> would have to parse the config file and look up the <code>date</code> field in all the content files' front matter to figure out which directory corresponds to which website page (basically, the way Hugo does it when it creates the pages in the first place). Programming all this is not impossible, of course, but it would be quite an endeavor that I’m not sure I want to embark on, especially considering the fact that one’s <code>config.toml</code> may contain something along the lines of</p>\n<pre><code><span>[</span><span>frontmatter</span><span>]</span>\n  <span>date</span> <span>=</span> <span>[</span><span>':git'</span><span>,</span> <span>'lastmod'</span><span>]</span>\n</code></pre><p>I don’t want to open that can of worms!</p>\n<blockquote>\n<p>These ‘mentions’ on my side aren’t being threaded back to the original post.</p>\n</blockquote>\n<p>Beware, this is <a href=\"https://indieweb.org/Salmention\">Salmention</a> territory you’re stepping into. There be dragons.</p>",
+      "text": "To accomodate a complex layout like this, webmention.io-backup would have to parse the config file and look up the date field in all the content files' front matter to figure out which directory corresponds to which website page (basically, the way Hugo does it when it creates the pages in the first place). Programming all this is not impossible, of course, but it would be quite an endeavor that I’m not sure I want to embark on, especially considering the fact that one’s config.toml may contain something along the lines of\n[frontmatter]\n  date = [':git', 'lastmod']\nI don’t want to open that can of worms!\n\nThese ‘mentions’ on my side aren’t being threaded back to the original post.\n\nBeware, this is Salmention territory you’re stepping into. There be dragons."
+    },
+    "in-reply-to": "https://petersmith.org/mentions/2022/01/11/reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010174726/",
+    "published": "2022-01-11T15:28:55+03:00",
+    "rels": {
+      "canonical": "https://evgenykuznetsov.org/en/reactions/2022/re-011120357/"
+    },
+    "type": "entry",
+    "url": "https://evgenykuznetsov.org/en/reactions/2022/re-011120357/",
+    "wm-id": 1329809,
+    "wm-private": false,
+    "wm-property": "in-reply-to",
+    "wm-received": "2022-01-11T12:31:10Z",
+    "wm-source": "https://evgenykuznetsov.org/en/reactions/2022/re-011120357/",
+    "wm-target": "https://petersmith.org/mentions/2022/01/11/reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010174726/"
+  },
+  {
+    "author": {
+      "name": "Evgeny Kuznetsov",
+      "photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+      "type": "card",
+      "url": "https://evgenykuznetsov.org"
+    },
+    "content": {
+      "html": "<p>I see.</p>\n<p>The reason <code>webmention.io-backup</code> is failing to correctly work your directory structure is that it expects the directory structure to mirror the URL path, that is, it expects <code>petersmith.org/blog/2022/01/10/third-steps-to-indieweb/</code> to reside in <code>content/blog/2022/01/10/third-steps-to-indieweb/</code>. In your setup, that directory doesn’t exist; instead, <code>content/blog/20220110-third-steps-to-indieweb</code> is used. I suppose, you are using <code>permalinks</code> <a href=\"https://gohugo.io/content-management/urls/\">config option</a> to achieve that? If so, that’s quite a problem, because in this case <code>webmention.io-backup</code> can not really infer the directory name, since the URL is formed based on the <code>date</code> parameter and not based on the first 8 digits of the directory name, right?</p>\n<p>I mean, I can make a patch for <code>webmention.io-backup</code> to work on your directory structure, it’s fairly trivial. But I’d be reluctant to incorporate it in the main branch, because it wouldn’t be flexible at all.</p>",
+      "text": "I see.\nThe reason webmention.io-backup is failing to correctly work your directory structure is that it expects the directory structure to mirror the URL path, that is, it expects petersmith.org/blog/2022/01/10/third-steps-to-indieweb/ to reside in content/blog/2022/01/10/third-steps-to-indieweb/. In your setup, that directory doesn’t exist; instead, content/blog/20220110-third-steps-to-indieweb is used. I suppose, you are using permalinks config option to achieve that? If so, that’s quite a problem, because in this case webmention.io-backup can not really infer the directory name, since the URL is formed based on the date parameter and not based on the first 8 digits of the directory name, right?\nI mean, I can make a patch for webmention.io-backup to work on your directory structure, it’s fairly trivial. But I’d be reluctant to incorporate it in the main branch, because it wouldn’t be flexible at all."
+    },
+    "in-reply-to": "https://petersmith.org/mentions/2022/01/10/reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010053442/",
+    "published": "2022-01-10T20:47:21+03:00",
+    "rels": {
+      "canonical": "https://evgenykuznetsov.org/en/reactions/2022/re-010174726/"
+    },
+    "type": "entry",
+    "url": "https://evgenykuznetsov.org/en/reactions/2022/re-010174726/",
+    "wm-id": 1329330,
+    "wm-private": false,
+    "wm-property": "in-reply-to",
+    "wm-received": "2022-01-10T18:00:47Z",
+    "wm-source": "https://evgenykuznetsov.org/en/reactions/2022/re-010174726/",
+    "wm-target": "https://petersmith.org/mentions/2022/01/10/reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010053442/"
   }
 ]

@@ -1,0 +1,17 @@
+#+title: Our new house
+#+slug: our-new-house
+#+date: 2010-12-10T08:51:00+12:00
+#+lastmod: 2010-12-10T08:51:00+12:00
+#+categories[]: Home
+#+tags[]: Building
+#+draft: False
+
+Well we have finally moved into our new house. It was designed by [[https://www.christate.co.nz/][Chris Tate]] and built by DW Homes. It's great. Of course there are a few things for [[https://66uqs.tadalist.com/lists/1798221/public][DW Homes to resolve]], but that is probably true of any new building.
+
+So this is the before picture ...
+
+{{< figure src="2010-01-10_014.jpg" title="Our empty section" >}}
+
+And this is current(ish) situation ...
+
+{{< figure src="2010-12-02_117.jpg" title="Our house currently" >}}

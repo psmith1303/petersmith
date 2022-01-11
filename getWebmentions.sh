@@ -1,10 +1,10 @@
 #!/bin/sh
 
 
-FILENAME="data/mentions.json"
+FILENAME="mentions.json"
 rm -fr ${FILENAME}
 
-webmention.io-backup -t -y4QezN6pCs5CNVshkMHaQ -d petersmith.org -f ${FILENAME}  -jf2 -tlo=false -p 
+webmention.io-backup -t ${WEBMENTION_KEY=} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p 
 
 #
 # Now fix the pesy hypens in the poperty names

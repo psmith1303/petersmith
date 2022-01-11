@@ -1,0 +1,37 @@
+#+title: Questions from MGMT 101 students
+#+slug: questions-from-mgmt-101-students
+#+date: 2005-01-24T19:13:00+12:00
+#+lastmod: 2005-01-24T19:13:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT101
+#+draft: False
+
+I'm currently teaching /Organisation & Management/ (aka MGMT 101) at Summer School. The majority of students fall into one of two camps. Firstly, there are the highly motivated (and often highly performing) students who are trying to get ahead in their studies. Secondly, there are those students who have failed the course before and are try to make-up for lost ground.
+
+Anyway, the students have an essay due next week, and it is interesting (and sometimes frustrating) to read their questions about the topic. The essay question is:
+
+#+BEGIN_QUOTE
+
+Smith Bank has a policy of positive discrimination for female employees in New Zealand. As they expand into other countries they attempt to implement this policy as part of their international strategy. Discuss the ethics of such policies.
+
+So, in principle, the students need to address the question "Is it ethical for Smith Bank to engage in these policies?" (And I've said exactly this in class.)
+
+Most student's don't know what is meant by /positive discrimination/, so they will have to do some research in order to answer the question--how can you argue about the ethics of a course of action if you don't know what it is you are arguing about.
+
+#+END_QUOTE
+
+Surprisingly, to me anyway, some students are finding it hard to find a good definition, let alone synthesis one from their research. I spent 10 minutes in the reference section of the library to come up with some pretty robust definition, and found I could get some pretty good ones by using Proquest, AB Inform, EBSCO host, and the like too. (It wasn't to hard to find some pretty good ones on the Internet either; but I guess students have more difficulty evaluating the quality of Internet sources).
+
+So, having decided what it is that /Smith Bank/ is doing, the question is "Is it ethical to do it in New Zealand?" and then to ask "Is it ethical to do it elsewhere?"
+
+Anyway, some of the questions I've been asked are?
+
+- "Does it matter that Smith Bank is a bank, rather than a hospital?" (No)
+- "Do I need to go through all the theories I know about ethics?" (No, it depends on how you are approaching the answer -- inductively or deductively)
+- "Do I need to deal with the situation in New Zealand at the same time as I deal with the international question" (No, you can do them one after the other)
+
+Some people are going down the track of showing how biased employment for women is in New Zealand. This isn't really necessary. It adds spice to the essay, but it isn't needed.
+
+Some people are going through the pros and cons (generally) of positive discrimination, but not really framing it around ethics (which is a clever trick).
+
+Anyway, I'm look forward to reading some of the essays as some of the questions have revealed some deep understanding of the issues involved.

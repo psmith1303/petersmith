@@ -1,0 +1,20 @@
+#+title: Yippe and Taking a break
+#+tags[]: PhD
+#+tags[]: PhD
+#+date: 2004-08-31T20:21:00+12:00
+#+lastmod: 2004-08-31T20:21:00+12:00
+#+categories[]: Research
+#+slug: yippe-and-taking-a-break
+#+draft: False
+
+I've had had a letter from the [[https://www.auckland.ac.nz/postgraduate/][Graduate Centre]] that says I:
+
+#+BEGIN_QUOTE
+
+have satisfactorily completed the goals approved when you were initially registered. Accordingly your registration is confirmed.
+
+#+END_QUOTE
+
+Yippee. I'm fully registered at last. Now to complete the /damn thing/.
+
+However, as I've said [[{{< relref "20040508-a-wake-up-call" >}}][elsewhere]] I need to ease back a little. As part of that process I've decided to suspend my PhD studies for a while (until March). That should give me time enough to get things back on track. So, the same letter said they have accepted my suspension of my PhD studies for six months. So, 40-hour weeks, here I come (and that is a novelty).

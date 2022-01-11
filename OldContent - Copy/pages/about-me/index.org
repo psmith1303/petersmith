@@ -1,0 +1,28 @@
+#+title: About me
+#+date: 2011-01-04T11:41:00+12:00
+#+lastmod: 2021-12-31T18:58:20+13:00
+#+categories[]: SiteInfo
+#+tags[]: SiteInfo
+#+slug: about-me
+#+draft: False
+#+weight: 100
+
+{{< figure src="PeterInTheOffice-2020-small.jpg">}}
+
+Tēnā koe! Ko Peter tōku ingoa.
+
+Greetings! My name is Peter.
+
+
+This website is my little corner on the Internet. As well as being something of a [[https://en.wikipedia.org/wiki/Commonplace_book][commonplace book]], I am trying to make this website into the hub for my online identity and communications.
+
+I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][University of Auckland]], where my main teaching and research activity is in the field of strategy. I am particularly interested in [[https://www.strategy-as-practice.org/][Strategy-as-practice]] (a practice-based view of strategy), *Professional service firms*, especially engineering firms, and *Innovation as strategy*, especially technology roadmapping (TRM).
+
+My consulting activity revolves around strategy and strategising for high-technology firms.
+
+I probably obsess a little too much about coffee.
+
+For more detail regarding my teaching, have a look at my [[/resources/teaching-portfolio-2015/][Teaching Portfolio]]. It outlines my perspective and approach to teaching, along with what I actually do. However, it is a little out of date.
+
+In what little spare time I have, I have been looking into [[https://genes.petersmith.org][the history of my family]].
+

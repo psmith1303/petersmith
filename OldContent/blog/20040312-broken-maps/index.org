@@ -1,0 +1,28 @@
+#+title: Broken maps
+#+slug: broken-maps
+#+date: 2004-03-12T10:11:00+12:00
+#+lastmod: 2004-03-12T10:11:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT301
+#+draft: False
+
+Next week's topic for [[{{< relref "20040308-mgmt-301" >}}][class]] is around sense making. We're framing it in terms of maps and compasses, and so as I've been doing things this week, I've been thinking about things in terms of maps.
+
+Well one of my maps is broken. So I'm not sure what to do. Let me explain. A student has emailed me with a question. "So, what's the problem", I hear you ask. The difficulty is that I don't know how to respond because:
+
+- I'd expect the student to know this, form stage I, and
+- It is easy to find this information from the help built into the simulation, and
+- A quick Google, brings up plenty of help on this.
+
+In any case, it was pretty easy to answer, which I did, but it has left me thinking.
+
+I know my map is broken because I'm become very defensive over this. I'm not sure which map is broken; is it the one around teaching or the one about being a student. It would easy to externalise thinks and say the problem lies with my map around students, and that the student broke it. But that would be very unfair.
+
+Part of the problem is that my maps (around teaching and being a student) are very strong. The consequences of strong maps is that information that doesn't fit tends to be ignored and discarded.
+
+But, that's not happening in this case. Maybe I need to let go of the map and draw a new one. McCaskey (1982) calls this /a little dying/ and I can see (well feel) why.
+
+At this stage, I don't know how the map needs to be different--but at least I'm working-on-it.
+
+* References
+McCaskey, M. B. (1982). /The executive challenge: Managing change and ambiguity/. Boston, MA: Pitman.

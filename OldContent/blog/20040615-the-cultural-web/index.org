@@ -1,0 +1,16 @@
+#+title: The cultural web
+#+slug: the-cultural-web
+#+date: 2004-06-15T13:57:00+12:00
+#+lastmod: 2004-06-15T13:57:00+12:00
+#+categories[]: Research
+#+tags[]: Culture
+#+draft: False
+
+I was talking [[https://staff.business.auckland.ac.nz/rwolfgramm][Rachel]] about some of the work she has been doing with regards to strategy in Maori organisations. We digressed on to Johnson's (1992) and since neither of us had a slide on it, I quickly made this copy using PowerPoint (it looks much better full-size; just click on the image). In analysing any organisation, understanding what is going on inside it is important---and the cultural web helps with just that. I think it is one of Gerry's most practical contributions to strategy.
+
+{{< figure src="CulturalWeb.png" title="The cultural web" >}}
+
+
+* References
+
+Johnson, G. (1992). Managing strategic change: Strategy, culture and action. /Long Range Planning, 25/(1). p.--28---36.

@@ -1,0 +1,71 @@
+#+title: Answering the question
+#+slug: answering-the-question
+#+date: 2004-11-15T21:57:00+12:00
+#+lastmod: 2004-11-15T21:57:00+12:00
+#+categories[]: Teaching
+#+tags[]: MGMT101
+#+draft: False
+
+Since I've just finished marking my share of the /MGMT 101 Organisation & Management/ examination scripts, I thought I'd put my reflections down whilst they are fresh in my mind.
+
+Overall, it was a disappointing experience. The quality of the handwriting (which made the scripts hard to read), the quality of the grammar (which made the scripts hard to understand), and the lack of logic (which failed to answer the question), depressed the average grade well below the B range.
+
+In particular, the lack of care in answering the question had a big impact on the marks. In the prep for the examination we told all the students to "read the question carefully and make sure you answer the question that is asked".
+
+Well, for example, one of the questions was:
+
+#+BEGIN_QUOTE
+
+If you ran a small business providing office cleaning, how would you ensure that a quality product was provided? In answering this question, you should define what is meant by quality.
+
+#+END_QUOTE
+
+The key phrases from this question that need to be addressed are:
+
+- Define quality
+- Small business
+- Office cleaning
+- Deliver a quality product
+
+The question doesn't ask for any of the following (and generally they added no value):
+
+- A history of quality management
+- The importance of TQM in contemporary business
+- The impact of Taylorism of quality
+- How the responsibility for quality has shifted from the worker, to the foreman, to the manager, and so on.
+- A shopping list of every idea / theorist that had anything to do with quality.
+
+I was surprised how well students are able to memorise the text book. Many of the answers began by repeating the first paragraph of the relevant chapter. Alas, that doesn't actually answer the question.
+
+So, thinking of those key phrases in the question, what else might go wrong.
+
+/Define quality/: Many answers said things such as "it is a complicated to define" then gave a one sentence definition. Others, said it means giving the customers what they wanted. And, of course, many people didn't define it at all. Those who did define quality, rarely linked the definition into what they wanted to do. Some answers went wide and said "quality is many things to many people", and didn't try and operationalise the term, i.e. provide a definition that allows you to do something with it. Overall, the definitions were short/trivial, e.g. one sentence long.
+
+/Small business/: So it is a /small business/, that probably means that setting up a /quality department/ isn't going to be viable. Massive training campaigns may not be feasible either.
+
+/Office cleaning/: So, it's a service (good point), where production takes place at the point of delivery (excellent point), and we are highly reliant on people more than machinery (another good point). Also, it probably involves working non-standard hours--who wants to have their office cleaned whilst they are working in it? Whilst students aren't meant to have a detailed knowledge of office cleaning (although a few did), it is necessary to have some sense of what office cleaning is about. Other features of the business are, that is a price sensitive which typically pays very badly; minimum wage or less (bonus points), so managing/motivating the people can be tricky. Often there is a high turnover of staff. Finally, we are dealing with a business-to-business situation, and not a business-to-consumer situation.
+
+/Deliver a quality product/: Many people weren't consistent in what they said. For example, one student said he was going to use Deming's 14 principles and if a employee didn't perform he would fire them -- what ever happened to Deming's idea of "Drive out fear"? Many answers said they would /build in quality/ by having supervisors do random inspections--surely that is /inspecting in/ quality. \_The important thing to do was to link the approach to delivering quality with selected definition, in the given context (small business, service provider)\_\_. Too many answers didn't /connect the dots/ so to speak.
+
+This was the biggest problem; consequently, many answers ended up looking like a shopping list of everything the student knew about quality.
+
+Other boo-boos:
+
+- Adopting /statistical process control/ by surveying customers (the point of process control is that you are controlling the process as it happens and not at the end).
+- Ignoring the cost of the service (bonus to those who brought that into their definitions).
+- Choosing a technique that was different to the definition of quality. For example, if the definition was "zero defects" saying that the method is going to be based on surveying the customers needs and then doing what they want doesn't quite fit,
+- Saying that TQM was the answer to /everything/ without explaining why.
+
+Having read the question, I always asked myself, "Could my mother have written this?" My mother has no training in management, and hasn't been to university. If my mother could have written the answer I have to wonder what "value" the student has taken from their time here.
+
+Some of the nice answers came from a slightly different angle, e.g.:
+
+- Control--pre/concurrent/post
+- Leadership
+
+Some of the more /off-track/ answers drew in ideas from the other questions, such as:
+
+- Teams and centralisation
+- Motivation (with out connecting it to quality, other than by having people work harder)
+
+Anyway, that's it until next year. I do wonder if an essay based question (as a form of summative assessment) is a good choice in this course. Would some other type of examination, e.g. short answer or multiple-choice, be better (and still achieve the same result)?

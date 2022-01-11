@@ -1,0 +1,9 @@
+#+title: Orgmode: Part 2
+#+slug: orgmode-part-2
+#+date: 2010-01-19T15:49:00+12:00
+#+lastmod: 2010-01-19T15:49:00+12:00
+#+categories[]: Tech
+#+tags[]: Productivity Orgmode
+#+draft: False
+
+There is a very good (well, I like it) summary of how to use Orgmode as a day planner at [[https://www.newartisans.com/2007/08/using-org-mode-as-a-day-planner.html][Lost in Technopolis]].

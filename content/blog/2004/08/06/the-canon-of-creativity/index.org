@@ -1,0 +1,27 @@
+#+title: The canon of creativity
+#+slug: the-canon-of-creativity
+#+date: 2004-08-06T23:36:00+12:00
+#+lastmod: 2004-08-06T23:36:00+12:00
+#+categories[]: Home
+#+tags[]: Psychodrama Moreno Agency
+#+draft: False
+
+I've another psychodrama workshop tomorrow. They seem to be coming thick and fast at the moment. Tomorrow we are focusing on the /Canon of creativity/. Just to warm myself up to the work, I thought I'd spend a few moments reading and thinking about it.
+
+This is very briefly talked about in
+
+#+BEGIN_QUOTE
+
+Moreno, J. L. (1955). Canon of creativity: Analysis of the creativity chart. /Sociometry, 18/(4), 103---104.
+
+#+END_QUOTE
+
+and is shown diagrammatically as:
+
+{{< figure src="dtc.108.tif.gif" title="The canon of creativity" >}}
+
+I hope to fill in the detail of what this all means after the course. This diagram represents the interplay between the /cultural conserve/ and /spontaneity/ (that's awfully like the interplay between the forces of institutionalism / habitus / etc. and individual agency).
+
+For Moreno, the /cultural conserve/ are the routinised patterns of behaviours, especially in a group, that provide a sense of stability. Of course the problem with this is that the way in which we respond to new situations, aka spontaneity, is thus limited by our reliance on these ingrained patterns of response.
+
+If I learnt anything over the weekend it is the way in which one becomes unsettled as tentatively attempts are made to break out of the cultural conserve (what was referred to as cracking, but I think that is a local term).

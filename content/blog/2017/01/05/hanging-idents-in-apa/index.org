@@ -1,0 +1,31 @@
+#+title: Hanging idents in APA
+#+slug: hanging-indents-in-apa
+#+date: 2017-01-05T13:52:08+13:00
+#+lastmod: 2017-01-05T13:52:08+13:00
+#+categories[]: Research
+#+tags[]: Latex Pandoc APA
+#+draft: False
+
+As I have mentioned elsewhere, I am writing using markdown formatted files, and converting them to PDFs using =pandoc= and associated tools.
+
+Alas, I noticed today that the reference list is produced without hanging indents (which is an APA requirement). Grrr. After some searching, I found that currently =pandoc-citeproc= does not (yet) support hanging indents. However, there is a work around. Currently, my =.md= files end with a couple of lines that look like:
+
+#+BEGIN_SRC markdown
+References
+==========
+#+END_SRC
+
+What is needed is a little bit of latex 'code' to make the rest of the document use hanging paragraphs --- and thus work. I.e.,
+
+#+BEGIN_SRC latex
+
+References
+==========
+
+\setlength{\parindent}{-1.24cm}
+\setlength{\leftskip}{1.24cm}
+\setlength{\parskip}{8pt}
+
+#+END_SRC
+
+And then I have a beautifully formatted reference list.

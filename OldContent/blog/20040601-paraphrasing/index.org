@@ -1,0 +1,27 @@
+#+title: Paraphrasing
+#+tags[]: MGMT301 Plagiarism
+#+slug: paraphrasing
+#+date: 2004-06-01T16:52:00+12:00
+#+lastmod: 2004-06-01T16:52:00+12:00
+#+categories[]: Teaching
+#+draft: False
+
+In an earlier [[{{< relref "20040525-still-doing-maps-and-incidents" >}}][entry]] I wrote (complete with typo--/out/ should be /our/):
+
+#+BEGIN_QUOTE
+
+Maps filter out perceptions of the real world. They bring some things into sharp relief and diminish the importance of other things.
+
+#+END_QUOTE
+
+Which seems all well and good. But, I'm reading an assignment and I
+
+find:
+
+#+BEGIN_QUOTE
+
+Maps can be used to filter out perceptions of the real world, they can bring some things into sharp relief and they can diminish the importance of other things.
+
+#+END_QUOTE
+
+Spooky. And there is no attribution (citation, reference) whatsoever... Oh-dear.

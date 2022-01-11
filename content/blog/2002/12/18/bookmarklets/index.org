@@ -1,0 +1,12 @@
+#+title: Bookmarklets
+#+slug: bookmarklets
+#+date: 2002-12-18T17:17:00+12:00
+#+lastmod: 2002-12-18T17:17:00+12:00
+#+categories[]: Tech
+#+tags[]: Bookmarklets
+#+draft: False
+
+I'm hooked on bookmarklets.
+
+See [[https://www.fjordaan.uklinux.net/movabletype/fblog/archives/000059.html][Bookmarklets and other useful things for IE's Links bar]] for more details.
+

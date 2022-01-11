@@ -22,9 +22,9 @@ rssLimit = 50
   tag = 'tags'
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:slug/"
-    notes = "/notes/:year/:month:/:day/:slug/"
-    mentions = "/mentions/:year/:month:/:day/:slug/"
+#    blog = "/blog/:year/:month/:day/:slug/"
+#    notes = "/notes/:year/:month:/:day/:slug/"
+#    mentions = "/mentions/:year/:month:/:day/:slug/"
     resources = "/resources/:slug/"
     pages = "/pages/:slug/"
 

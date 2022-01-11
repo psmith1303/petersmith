@@ -12,7 +12,7 @@
       {{- else if eq .Type "notes" -}}
         {{- partial "summary-notes.html" . -}}
       {{- else if eq .Type "mentions" -}}
-        {{- partial "summary-mentions.html" . -}}
+        {{- partial "summary-replies.html" . -}}
       {{- else -}}
       DEFAULT
         {{- partial "summary-blog.html" . -}}

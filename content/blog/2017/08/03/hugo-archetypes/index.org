@@ -1,0 +1,40 @@
+#+title: Hugo archetypes
+#+slug: hugo-archetypes
+#+date: 2017-08-03T20:55:39+12:00
+#+lastmod: 2021-12-27T14:18:08+13:00
+#+categories[]: Tech
+#+tags[]: Hugo Blogging
+#+draft: False
+
+I missed some changes in Hugo ... and my archetype =archetypes/blog.md= was broken, so I amended it to this, and it seems to be working again.
+
+#+BEGIN_EXAMPLE
+
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
+draft = "False"
+categories = [
+        "Jottings",
+        "Blogging",
+        "The Arts",
+        "Out and about",
+        "Running",
+        "Fitness",
+        "Learning",
+        "Teaching",
+        "Case teaching",
+        "Plagiarism",
+        "Research",
+        "Writing",
+        "Data analysis",
+        "Productivity",
+        "IT",
+        "Technology"
+        ]
++++
+
+#+END_EXAMPLE
+
+/Update 2021-12-27T14:18:23+13:00/
+
+As I'm now using a bit of elisp and Orgmode to create new hugo entries, I'm deleting =blog.md= now.

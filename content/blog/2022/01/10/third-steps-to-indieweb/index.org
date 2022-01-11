@@ -1,0 +1,91 @@
+#+title: Third steps to IndieWeb
+#+slug: third-steps-to-indieweb
+#+date: 2022-01-10T09:57:11+13:00
+#+lastmod: 2022-01-10T09:57:11+13:00
+#+categories[]: Tech
+#+tags[]: IndieWeb Hugo Themes JSON Python sed
+#+draft: False
+
+My new theme, is working well enough that I have now republished my website using it. It also means that I have webmentions working as well. I have some rough edges to sort out but its definitely a MVP (minimum viable product).
+
+It feels as if a cast of thousands have been involved in the this new theme. I have so many people to thank.
+
+First there is [[https://aaronparecki.com/][Aaron Parecki]]. I had been watching his [[https://www.youtube.com/c/aaronpk][videos]] to help me get into doing my video production (for the [[https://www.youtube.com/channel/UCEli3VWKuB4lyZ3M4uKVIlw][BusDev@Auckland seminar series]]) but then I stumbled into his website, and was introduced to the world of [[https://indieweb.org/][IndieWeb]] and [[https://www.w3.org/TR/webmention/][webmentions]]. Aaron's site [[https://webmention.io/][webmention.io]] also provided the glue to get webmentions working here.
+
+Soon after my first foray into webmentions, I got a [[https://robbinespu.gitlab.io/indieweb/211010050323/][mention]] by [[https://robbinespu.gitlab.io/][Robbi Nespu]]. That was important not just because of the excellent advice Robbi gave me, but it also gave me the impetus to charge ahead with trying to fully implement webmentions. Looking at Robbi's [[https://robbinespu.gitlab.io/indieweb/][site]], I still need to do more work to get things like 'bookmarks', 'rsvps', and other IndieWeb things working here.
+
+That all prompted me to start (re)theme-ing this site to better accommodate webmentions. As I say, it works, but there is still more to be done.
+
+# more
+
+The basic idea for the current style of this site came from [[https://ministryoftype.co.uk/][The Ministry of Type]]. In many ways it is reminiscent of the style I was using about seven or eight themes (site versions) ago. In other ways, I am paying a big homage to that site. I was rather surprised that it hasn't been updated since 2015.
+
+My basic process for 'dealing to' webmentions is use the API at [[https://webmention.io/][webmention.io]] to download them all as a single JSON file. First I did it using curl. Then I wrote a Python script based on the [[https://randomgeekery.org/post/2020/11/using-the-webmentionio-api/][work]] of [[https://randomgeekery.org/][Brian Wisti]]. I added in some code to process the JSON with a view to splitting it up into separate JSON files for go into the director of each post (My site is structured using Hugo's [[https://gohugo.io/content-management/page-bundles/][page bundles]], with each post (and associated material) living in its own directory).
+
+I then moved on to using [[https://github.com/nekr0z/webmention.io-backup][webmention.io-backup]] to fetch the JSON file. This cunning [[https://evgenykuznetsov.org/en/posts/2020/webmention-backup/][tool]] from [[https://evgenykuznetsov.org/][Evgeny Kuznetsov]] works pretty well. I would have liked to use the option to place the 'mentions' in the same directory as the posts, but I couldn't because his directory structure (the one the tool supports) and mine aren't compatible. Whilst [[https://evgenykuznetsov.org/en/posts/2021/old-comments/][Evgeny also seems to be using page bundles]], his structure is different. Que sera. Having said that, I need to get a bit techy ...
+
+... so, I use Evgeny's tool to download my webmentions. I then access them using =.Site.data= ([[https://gohugo.io/templates/data-templates/][data templates]]) as shown a bit later on.. E.g., with the following, it I want to access the author's name, then I would use =.Site.data.author.name= in my Hugo templates.
+
+#+BEGIN_SRC json
+  {
+    "author": {
+      "name": "Robbi Nespu",
+      "photo": "https://webmention.io/avatar/robbinespu.gitlab.io/6e26274b5791d929b75d7450e7a5c1f9e0d19134bb0c641705f0a1e41742e4d2.png",
+      "type": "card",
+      "url": "https://robbinespu.gitlab.io/"
+    },
+
+#+END_SRC
+
+Easy eh! Well, it actually took me a long time, and posts such as [[https://www.thenewdynamic.com/article/toward-using-a-headless-cms-with-hugo-part-1/][this]] and [[https://www.thenewdynamic.com/article/toward-using-a-headless-cms-with-hugo-part-2-building-from-remote-api/][this]] from [[https://www.thenewdynamic.com/][The New Dynamic]], to get it working. On the way I ran in to a couple of problems. First, in testing (i.e., running the site locally using =hugo server=), the URLs on the local test site didn't match those in the mentions. E.g., my local URLs began =http://localhost:1313/= where as the live posts/mentions had URLs that started with =https://petersmith.org=.  So I bodged that up with a little string replacement in my templates (see, a bit further on).
+
+The second problem had to do the names of the keys used in JSON file. In the above JSON example, there are keys such as "author" and "name". That's great. But later on, following the [[https://github.com/aaronpk/webmention.io#api][webmention docs]], there are keys such as "wm-target" and "mention-of" ... all beginning with "wm-". And the =-= doesn't place nice with with =hugo=. A key such as =wm-target= when accessed through =.Site.data.wm-target= falls over because =hugo= treats it as it it were =.Site.data.wm - target=; it tries to subtract something called =target= from =wm=. Doh!
+
+So, I run a teeny tiny sed script on the JSON file from =webmention.io= to change all the hyphens in key names into underscores. It's not a pretty script of sophisticated script, but it seems to do the job. In total, =getMentions.sh= looks like this:
+
+#+BEGIN_SRC bash
+#!/bin/sh
+
+FILENAME="data/mentions.json"
+rm -fr ${FILENAME}
+
+webmention.io-backup -t -y4QezN6pCs5CNVshkMHaQ -d petersmith.org -f ${FILENAME}  -jf2 -tlo=false -p 
+
+#
+# Now fix the pesky hypens in the poperty names
+#
+sed -i  '
+s/\(^ *\)"like-of":/\1"like_of":/
+s/\(^ *\)"mention-of":/\1"mention_of":/
+s/\(^ *\)"in-reply-to":/\1"in_reply_to":/
+s/\(^ *\)"wm-/\1"wm_/' ${FILENAME}
+
+#+END_SRC
+
+
+So, instead of trying to access  =.Site.data.wm-target=, I go for  =.Site.data.wm_target=, and that works great. As an example, here is the =hugo= partical template I use to check to see how many mentions or replies a post has.
+
+#+BEGIN_SRC
+
+{{- $permalink := replace .Permalink "http://localhost:1313/" "https://petersmith.org/" -}}
+{{- $webmentions := .Site.Data.mentions -}}
+{{- $likes := 0 -}}
+{{- range $webmentions -}}
+{{- if (and (or .in_reply_to .mention_of ) (eq .wm_target $permalink)) -}}
+{{- $likes = add $likes  1 -}}
+{{- end -}}
+{{- end -}}
+{{- $likes -}}
+
+#+END_SRC
+
+The 'partial' returns the count (0 or more) of the mentions as page has. I have similar 'partials' that produce a count of the number of 'likes' a page has.
+
+So far, so good. I don't quite have the displaying of mentions perfect, but it works.
+
+That said, there are some design/architecture choices I have made that I need to revisit, but I don't think any changes to that will change how the site looks and functions from a user's perspective. In practice, I use one large JSON file from =webmention.io=. I still wonder if I should use individual JSON files for each post. I think that would make processing time/site build time/scalability better. But that would me either writing a 'post processor' to run after Evgeny's tool, or to write my own. There's some thinking I need to do about that.
+
+I also wonder about finding a way to fetch and save the author images/avatars to improve page load times. As [[https://www.zachleat.com/web/facepile/][others have found]] this can be a bit of a pig. I do already use 'loading="lazy"' for the avatars, but is that enough. It would be nice to download load them and save them when I build the site.
+
+Oh, well. That's enough for now. Time to go back and tweak the stylesheet to get the 'mentions' looking nice.
+

@@ -1,0 +1,19 @@
+#+title: The git go
+#+slug: the-git-go
+#+date: 2018-08-23T09:32:30+12:00
+#+lastmod: 2018-08-23T09:32:30+12:00
+#+categories[]: Tech
+#+tags[]: Productivity Git Netlify
+#+draft: False
+
+I use =git= a bit.
+
+My main use is around pushing stuff to either [[https://github.com][Github]] or to [[https://bitbucket.com][Bitbucket]]; either as an intermediary for publishing stuff via [[https://netlify.com][Netliy]] or because I'm actually sharing stuff/code with other folk.
+
+And I use poorly.
+
+So I was really pleased to come across this diagram from [[https://blog.osteele.com/2008/05/my-git-workflow/][Oliver Steele]] which made things much clearer to me.
+
+{{< figure src="git-transport.png" title="The git transport mechanism" >}}
+
+And now back to work.

@@ -1,0 +1,35 @@
+#+date: 2016-03-26T18:59:26+12:00
+#+slug: autonomous cars
+#+lastmod: 2016-03-26T18:59:26+12:00
+#+title: Autonomous cars
+#+categories[]: Research
+#+tags[]: Conferences ISPIM
+#+draft: False
+
+One of the presentations at ISPIM in Boston was by [[https://www.linkedin.com/in/nichole-mace-44bb65][Nicole Mace]] from [[https://www.zipcar.com/][Zip Car]]. She said a lot of interesting things and, off the back of her comment about Zip Car being bout by Avis, it got me thinking about the nature of the disruption this innovation may create.
+
+To frame these ideas, let's imagine a world where Zip Car comes in several flavours, say, Zip Car City, Zip Car Lux, Zip Car Family. That is to say, their fleet consists of several different ranges of cars (from small city car, through UTEs, to luxury cars) and one can subscribe to different pools of cars depending on one's needs. Let's also assume the fleet if electricity powered and driver-less.
+
+1. There could be a significant reduction in the number of cars that are needed. Most cars are not used that much; they spend most of their time parked somewhere. Indeed, some estimates say that cars are parked for about 95% of each day. I think Zip Cars say each of their car 'services' between 30 to 40 users. So, the actual number of (new and replacement) cars needed could drop significantly. Yes, the cars would do a much larger mileage, but the new cars could be expected to be more reliable with fewer moving parts. I wonder how the car manufactures will accommodate this change in demand.
+
+2. The could be greater uptake of the service because the cars 'come to you', instead of you going to the car park. Indeed, there may be less need for parking overall, because the cars will be in use more of the time. This would affect many city governments, and parking company providers. Business such as Auckland Airport that get substantial revenue from parking, will also be affected. There would be less need for on-street parking or shopping parking as the cars would go elsewhere. Perhaps there will be a rise in parking stations in and around the suburbs. Cars might also park themselves at the homes/garages of customers. The streets could see less cars parked on them.
+
+3. The participation by city government in schemes like Zip Car will be much less important. They will be needed as much to provide parking to make the scheme viable (see 2 above).
+
+4. Insurance could be a lot cheaper. One can imagine many fewer accidents and it won't matter who is in the car ... as they won't be driving. The perhaps the 'boy racer' and their high insurance premiums will be a thing of the past. One cab imagine that the car insurance market might collapse (or nearly collapse).
+
+5. Traffic patterns will change. As cars are moving around between 'pick-ups' more, the may be some higher levels of traffic off-peak.
+
+6. Independent garages (mechanics) will go away. Most cars will be serviced through Zip Car's/Avis's fleet maintenance. Cars will take themselves to be maintained/repaired. One can imagine large, and possibly highly automated car service centres that be even more cost effective in repairing them. Perhaps, even the car companies themselves will run large repair centres ... one per major city.
+
+7. Public transport could disappear--including taxis and Uber. The combination of Zip Car and a service like Lyft would provide for better, more flexible car pooling. Will we really need that railway extension in central Auckland?
+
+8. Ride times will be a bit shorter. All the cars in the network will know (a) the state of the traffic, and (b) the routes of all the other cars. This will allow them to take optimal routes between destinations.
+
+So where is the tipping before this makes a material difference on the roads. Many car manufactures seem to be betting on having driverless cars by 2020. Firms like Zip Cars could be the largest purchasers of this new technology as they can effectively amortize the cost across the most users. I think we will be seeing the effects in the next 10 years.
+
+What might be needed to expedite this. First, some kind of charging network or automatic battery exchange service. Secondly, ... mmm, I'm not sure that is a second item.
+
+So to some up. If this takes off then there will be significant changes in the demand for cars, the nature and need for parking, car insurance may become a thing of the past, as would public transport and independent garages (mechanics).
+
+I wonder if any of my friends who do transportation modelling have put ideas like these through the mill and made predictions about the state of transportation in 2025. Of course, one could also model the impact of driverless trucks too ... but I'll leave that for others to ponder.

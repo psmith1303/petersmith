@@ -1,0 +1,13 @@
+#+title: Run Auckland: Race 1
+#+slug: run-auckland-race-1
+#+date: 2011-03-28T11:15:00+12:00
+#+lastmod: 2011-03-28T11:15:00+12:00
+#+categories[]: Home
+#+tags[]: Fitness Running
+#+draft: False
+
+Well, yesterday was the first of the Run Auckland series at [[https://maps.google.com/?q=https://share.abvio.com/4df8/7197/4cb5/61b3/Runmeter-Run-20110327-0857.kml][Waiatarua]]. And I'm pretty pleased with my results.
+
+{{< figure src="RUN-Auckland-race-1.png" title="RUN Auckland at Waiatura" >}}
+
+I'm particularly happy about my relative place ... even if my pace wasn't red hot.

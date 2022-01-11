@@ -1,0 +1,24 @@
+#+title: Smashrun 2 blog
+#+slug: smashrun-2-blog
+#+date: 2017-06-12T16:47:46+12:00
+#+lastmod: 2017-06-12T16:47:46+12:00
+#+categories[]: Tech
+#+tags[]: Blogging Running Python Smashrun API
+#+draft: False
+
+Having moved away from using Facebook, I wanted to keep a record of my running, primarily for my own use. Although I do have all my runs on [[https://smashrun.com/peter.smith][SmashRun]], I decide to keep my [[https://www.petersmith.org/running/][runs]] on this site too.
+
+And so, [[https://github.com/psmith1303/BlogMyRun][BlogMyRun]] was born.
+
+This python programme allows me to:
+
+- Drag down all my runs from SmashRun and reformat them for this [[https://gohugo.io/][Hugo-based]] blog.
+- Drag down runs for the past n-days
+
+My =Makefile= then moves the .md and .png files to the right place on my filesystem, and then deploys the new posts to the web (in my case, hosting them on Amazon's S3).
+
+All this was made possible by the very cool [[https://api.smashrun.com/][SmashRun API]]. I do not have all the authorization code (or any actually) working yet. I use SmashRun's API explorer to get the token I need ... see the README.md file for notes on what to do.
+
+I have also used the Google Static Map API to show the run. It is customised the way I like it :)
+
+I plan to build an extension to create monthly, 'macro-logs' in a similar vein to [[https://fellrnr.com/wiki/Training_Macrolog][fellrnr]].

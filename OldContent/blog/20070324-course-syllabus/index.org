@@ -1,0 +1,13 @@
+#+title: Course Syllabus
+#+slug: course-syllabus
+#+date: 2007-03-24T16:02:00+12:00
+#+lastmod: 2007-03-24T16:02:00+12:00
+#+categories[]: Teaching
+#+tags[]: Syllabi Zotero
+#+draft: False
+
+Sometimes, one is asked to teach a new course. In such a circumstance, what is one to do. Judging by the various listservs, e.g. [[https://aomlists.pace.edu/archives/MG-ED-DV.html][Management Education]], the most popular thing to do is to see what others are doing when they have to teach that type of course.
+
+Now finding that information got a little bit easier with [[https://www.dancohen.org/][Dan Cohen's]] very clever [[https://web.archive.org/web/20090422144508/https://chnm.gmu.edu/tools/syllabi/][Syllabus Finder]].
+
+Dan's also a leading light in the [[https://www.zotero.org/][Zotero]] project that adds a citation/bibliography engine to [[https://www.mozilla.com/en-US/firefox/][FireFox]].

@@ -1,9 +1,9 @@
 {{- $permalink := replace .Permalink "http://localhost:1313/" "https://petersmith.org/" -}}
 {{- $webmentions := .Site.Data.mentions -}}
-{{- $likes := 0 -}}
+{{- $count := 0 -}}
 {{- range $webmentions -}}
 {{- if (and (eq .wm_target $permalink)  .like_of) -}}
-{{- $likes = add $likes  1 -}}
+{{- $count = add $count  1 -}}
 {{- end -}}
 {{- end -}}
-{{- $likes -}}
+{{- $count -}}

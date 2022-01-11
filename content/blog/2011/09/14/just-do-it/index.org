@@ -1,0 +1,13 @@
+#+title: Just do it
+#+slug: just-do-it
+#+date: 2011-09-14T10:51:00+12:00
+#+lastmod: 2011-09-14T10:51:00+12:00
+#+categories[]: Home
+#+tags[]: Productivity PhD
+#+draft: False
+
+I think this video of [[https://en.wikipedia.org/wiki/Arthur_L._Williams,_Jr.][Art Williams]] is one of the most motivational I have ever seen. I think he is right; I just need to do it.
+
+{{< youtube b2uFH0NCMY4 >}}
+
+So back to the PhD writing.

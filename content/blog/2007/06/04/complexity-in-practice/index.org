@@ -1,0 +1,29 @@
+#+title: Complexity in practice
+#+slug: complexity-in-practice
+#+date: 2007-06-04T11:56:00+12:00
+#+lastmod: 2007-06-04T11:56:00+12:00
+#+categories[]: Research
+#+tags[]: Complexity
+#+draft: False
+
+I see that [[https://www.business.otago.ac.nz/Mgmt/staff/ccampbellhunt.html][Colin Campbell-Hunt]] has something new in Human Relations. The full details are:
+
+#+BEGIN_QUOTE
+
+Campbell-Hunt, C. (2007). Complexity in practice. /Human Relations/, 60(5), 793---823.
+
+#+END_QUOTE
+
+The abstract says:
+
+#+BEGIN_QUOTE
+
+Theories of social practice point to a wide domain of largely tacit social accommodations as the source from which the dynamic structures of social practices are sedimented. The strategy-as-practice initiative seeks to use these insights to widen our appreciation of the origins and evolution of strategy in organizations. This article suggests that this domain, and its components, can be substantively and literally represented as a complex adaptive system. Complexity gives access to a considerable body of theory on the emergent orders that may arise from social practice, and on the evolution of social order over time. These carry important implications for the scope of practitioners' agency in leading strategic change, for the locus of strategy in organizations, and for the design of research strategies to investigate these complex phenomena.
+
+#+END_QUOTE
+
+I wonder if this came out of the [[{{< ref "anzam-strategising-activity-and-practice" >}}][workshop at the 2005 ANZAM conference]] that he, [[https://www.abs.aston.ac.uk/newweb/staff/detail.asp/sfldStaffID=A0000633][Paula Jarzabkowski]] and I put on.
+
+This year, I'm working on a paper with [[https://staff.business.auckland.ac.nz/lerakovic][Liliana Erakovic]] and [[https://staff.business.auckland.ac.nz/ydufour][Yvon Dufour]]. The paper is due on the 29 June 2007, but both Liliana and I leave in the next few weeks to go to Europe for the [[https://www.egosnet.org/][EGOS]] [[https://www.egosnet.org/conferences/collo23/colloquium_2007.shtml][conference]] in Vienna. Let's hope we have enough time to complete it.
+
+The paper is based on some of the work coming from [[https://www.strategy-as-practice.org/][strategy-as-practice]] folk on [[https://hum.sagepub.com/cgi/content/abstract/60/1/179][pluralistic contexts]] (since that's what all three of us have in common).

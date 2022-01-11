@@ -1,0 +1,15 @@
+#+title: Zotero and Thompson-Reuters
+#+slug: zotero-and-thompson-reuters
+#+date: 2008-10-01T19:23:00+12:00
+#+lastmod: 2008-10-01T19:23:00+12:00
+#+categories[]: Tech
+#+tags[]: Zotero
+#+draft: False
+
+It seems that the producers of [[https://www.endnote.com/][Endnote]] are [[https://crookedtimber.org/2008/09/30/gmu-sued-for-zotero/][suing]] the producers of [[https://www.zotero.org/][Zotero]].
+
+On one level, I'm not surprised. Zotero is pretty damn good. For me, it outperforms Endnote in a number of ways, and in the few areas in which it has failings (the Word integration isn't as slick as it could be), I'm sure it will be sorted out over time.
+
+I can imagine that many people do/will find Zotero a better solution than Endnote, and I wouldn't be surprised if the folks at Endnote are frantically trying to replicate (copy) some of the really cool-things from Zotero.
+
+If I was at Thompson-Reuters, I'd certainly be suing [[https://www.gmu.edu/][GMU]], after all, what would I have to-lose ...

@@ -1,0 +1,11 @@
+#+title: Site maintenance
+#+slug: site-maintenance
+#+date: 2004-07-11T17:55:00+12:00
+#+lastmod: 2004-07-11T17:55:00+12:00
+#+categories[]: Tech
+#+tags[]: Archiving
+#+draft: False
+
+I guess you can tell I'm back by the volume of my postings ... Anyway, I've been running a couple of link checkers over the site to find any dead (or incorrectly entered) links. I've fixed most of the problems that are internal to the [[https://www.thereflectivepractitioner.org/][site]] (i.e., within https://www.thereflectivepractitioner.org/), but some of the links outside the site have suffered from [[https://chronicle.com/free/2002/04/2002041001u.htm][link rot]]. Of course, it may be possible to find a copy of the material that has been lost at the [[https://www.archive.org/web/web.php][Wayback machine]] (aka the Internet Archive).
+
+I wonder how many people know their sites are being archived like that?
