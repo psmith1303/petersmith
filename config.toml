@@ -78,14 +78,10 @@ rssLimit = 50
   weight = 10
 
 [[menu.main]]
-  name = "Notes"
-  url = "/notes/"
+  name = "Likes"
+  url = "/likes/"
   weight = 20
 
-[[menu.main]]
-  name = "Mentions"
-  url = "/mentions/"
-  weight = 30
 
 [[menu.main]]
   name = "Resources"

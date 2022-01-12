@@ -1,0 +1,20 @@
+[
+  {
+    "author": {
+      "name": "Peter Smith",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/3137f5a9d0f023f5b980fef20cc43153a4d225d511239fb2da0907f7ffab6a29.jpg",
+      "type": "card",
+      "url": "https://twitter.com/JustAnotherCog"
+    },
+    "like-of": "https://petersmith.org/blog/2022/01/06/second-second-steps-in-indieweb/",
+    "published": null,
+    "type": "entry",
+    "url": "https://twitter.com/JustAnotherCog/status/1479614881091309568#favorited-by-13262722",
+    "wm-id": 1328205,
+    "wm-private": false,
+    "wm-property": "like-of",
+    "wm-received": "2022-01-08T00:52:58Z",
+    "wm-source": "https://brid.gy/like/twitter/JustAnotherCog/1479614881091309568/13262722",
+    "wm-target": "https://petersmith.org/blog/2022/01/06/second-second-steps-in-indieweb/"
+  }
+]
