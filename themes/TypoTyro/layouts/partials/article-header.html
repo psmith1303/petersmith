@@ -1,6 +1,6 @@
 <div class="article-header">
   <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
-  {{ $dateTime := .PublishDate.Format "2006-01-02 15:04" }}
+  {{ $dateTime := .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}
   <h2><time class="dt-published" datetime="{{ $dateTime }}">{{ .PublishDate.Format "2 Jan 2006" }}</time></h2>
   <ul>
   {{ with .Params.categories }}

@@ -1,5 +1,5 @@
 <div class="article-header">
-  {{ $dateTime := .PublishDate.Format "2006-01-02 15:04" }}
+  {{ $dateTime := .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}
   <a href="{{ .Permalink }}" ><h1 class="article-title"><time class="dt-published" datetime="{{ $dateTime }}">{{ .PublishDate.Format "2 Jan 2006" }}</time> <img class="icon-large" src="/images/mention.svg"></h1></a>
   <ul>
   {{ with .Params.categories }}
