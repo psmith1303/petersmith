@@ -10,6 +10,7 @@ I missed some changes in Hugo ... and my archetype =archetypes/blog.md= was brok
 
 #+BEGIN_EXAMPLE
 
++++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
 draft = "False"
