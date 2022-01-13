@@ -33,10 +33,11 @@
     </ul>
   </div>
   <div class="article-content">
-    <a class="u-url u-like-of" href="{{ .Permalink }}" >
-      <h1 class="article-title p-name has-text-left">{{ .Title }}</h1>
+    <p>{{ .Slug }}</p>
+    <a class="u-url u-like-of" href="{{ .Params.likeURL }}" >
+      <h1 class="article-title p-name has-text-left">{{ .Params.likeURL }}</h1>
     </a>
-    <div clas="e-content">
+    <div class="e-content blockquote">
       {{- .Content -}}
     </div>
   </div>

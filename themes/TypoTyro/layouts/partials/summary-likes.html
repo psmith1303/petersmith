@@ -1,6 +1,6 @@
 {{- partial "article-header.html" . -}}
 <div class="article-content">
-  <a href="{{ .Params.likeURL }}">{{ .Params.likeURL }}</a>
+  <h1 class="has-text-left"><a href="{{ .Params.likeURL }}">{{ .Params.likeURL }}</a></h1>
   <div class="blockquote">{{- .Summary -}}</div>
   <a href='{{ .Permalink }}'>Full details …</a>
 </div>

@@ -4,7 +4,7 @@
 #+categories[]: Tech
 #+tags[]: IndieWeb Hugo
 
-Following on from comments by [[https://evgenykuznetsov.org/en/reactions/2022/re-010053443/][Evgeny]] to my [[https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/][post]], I have changed the directory structure for my posts.
+Following on the comments from [[https://evgenykuznetsov.org/en/reactions/2022/re-010053443/][Evgeny]] to my [[https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/][post]], I have changed the directory structure for my posts.
 
 Up until now, I had a directory =blog= which was full of directories, such =20220112-content-structure=, where the first six digits represented the date. In that directory I then had an =index.org= file with the content of my post.
 
