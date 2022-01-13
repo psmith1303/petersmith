@@ -5,25 +5,18 @@
     <input name="target" value="{{ .Permalink }}" type="hidden" .>
     <input id="mention-source" class="input" name="source" placeholder="Your page's URL" required="required" size="50"/>
     <button type="submit" aria-describedby="mention-legend" />Submit</button>
-    <p>
-      <small><strong>BTW: </strong>Your <em>webmention</em> won't show up until I next "build" my site.</small>
-    </p>
+    <p><small><strong>BTW: </strong>Your <em>webmention</em> won't show up until I next "build" my site.</small> </p>
   </fieldset>
-</form>
-<div  class="status hidden"> &nbsp;</div>
-  <input type="radio" name="tabs" id="tab1" />
-  <label for="tab1" class="tabs">{{ partial "count-replies.html" . }} Replies</label>
-  <input type="radio" name="tabs" id="tab2" />
-  <label for="tab1" class="tabs">{{ partial "count-mentions.html" . }} Mentions</label>
-  <input type="radio" name="tabs" id="tab3" />
-  <label for="tab2" class="tabs">{{ partial "count-likes.html" . }} Likes</label>
-  <input type="radio" name="tabs" id="tab3" /><label for="tab4" class="tabs">Shares</label>
-  <input type="radio" name="tabs" id="tab4" /><label for="tab5" class="tabs">Meta info</label>
+  </form>
+  <div  class="status hidden"> &nbsp;</div>
+  <input type="radio" name="tabs" id="tab1" /><label for="tab1" class="tabs">{{ partial "count-replies.html" . }} Replies</label>
+  <input type="radio" name="tabs" id="tab2" /><label for="tab2" class="tabs">{{ partial "count-mentions.html" . }} Mentions</label>
+  <input type="radio" name="tabs" id="tab3" /><label for="tab3" class="tabs">{{ partial "count-likes.html" . }} Likes</label>
+  <input type="radio" name="tabs" id="tab4" /><label for="tab4" class="tabs">Shares</label>
+  <input type="radio" name="tabs" id="tab5" /><label for="tab5" class="tabs">Meta info</label>
   <div class="tab content1">{{- partial "webreplies.html" . -}}</div>
   <div class="tab content2">{{- partial "webmentions.html" . -}}</div>
   <div class="tab content3">{{- partial "weblikes.html" . -}}</div>
-  <div class="tab content4">
-     Show all the shares aka https://keithjgrant.com/posts/2019/01/low-friction-workflow-for-notes/
-  </div>
+  <div class="tab content4">Show all the shares aka https://keithjgrant.com/posts/2019/01/low-friction-workflow-for-notes/</div>
   <div class="tab content5">{{- partial "article-meta.html" . -}}</div>
 </div>

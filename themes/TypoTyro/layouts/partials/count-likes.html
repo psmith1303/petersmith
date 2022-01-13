@@ -1,9 +1,10 @@
-{{- $permalink := replace .Permalink "http://localhost:1313/" "https://petersmith.org/" -}}
-{{- $webmentions := .Site.Data.mentions -}}
 {{- $count := 0 -}}
-{{- range $webmentions -}}
-{{- if (and (eq .wm_target $permalink)  .like_of) -}}
+{{- with .Resources.GetMatch "responses.json" -}}
+{{- $responses := unmarshal .Content -}}
+{{- range $responses -}}
+{{- if  .like_of -}}
 {{- $count = add $count  1 -}}
+{{- end -}}
 {{- end -}}
 {{- end -}}
 {{- $count -}}

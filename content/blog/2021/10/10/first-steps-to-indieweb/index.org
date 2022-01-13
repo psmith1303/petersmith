@@ -1,6 +1,5 @@
 #+title: First Steps to IndieWeb
 #+slug: first-steps-to-indieweb
-#+aliases[]: /blog/2021/10/10/20211010-first-steps-to-indieweb/
 #+date: 2021-10-07T16:48:36+13:00
 #+lastmod: 2021-10-14T21:21:21+43:00
 #+categories[]: Tech

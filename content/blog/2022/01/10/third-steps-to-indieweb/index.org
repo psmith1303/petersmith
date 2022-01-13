@@ -88,4 +88,3 @@ That said, there are some design/architecture choices I have made that I need to
 I also wonder about finding a way to fetch and save the author images/avatars to improve page load times. As [[https://www.zachleat.com/web/facepile/][others have found]] this can be a bit of a pig. I do already use 'loading="lazy"' for the avatars, but is that enough. It would be nice to download load them and save them when I build the site.
 
 Oh, well. That's enough for now. Time to go back and tweak the stylesheet to get the 'mentions' looking nice.
-
