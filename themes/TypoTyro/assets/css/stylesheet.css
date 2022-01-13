@@ -341,6 +341,14 @@ a:active {
     color: inherit;
 }
 
+.blockquote {
+    font-family: "Cambria", "Times New Roman", serif;
+    padding-left: 1em;
+    margin: 1em 0;
+    border-left: 1px solid lightgrey;
+}
+
+
 blockquote {
     font-family: "Cambria", "Times New Roman", serif;
     font-style: italic;

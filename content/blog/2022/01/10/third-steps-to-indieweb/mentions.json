@@ -10,7 +10,7 @@
       "html": "<p>Wow! I’m glad to know my little tools are of use to someone else.</p>\n<p>I wonder just how different your directory structure is from mine. Perhaps, we could add an option or two to <code>webmention.io-backup</code> to make your life easier? ;-)  Drop me a line if you’re interested, we’ll try to figure something out.</p>\n<p>Also, there’s a workaround I use to avoid <code>sed</code>ing the JSON for dashes: a parsed JSON is (obviously) a map in Hugo, so you can get the values of its keys by <code>index</code>ing them. And since <code>index</code> takes a string for the key name, dashes can be used freely, too. So, while <code>.Site.data.wm-target</code> fails, <code>index .Site.data \"wm-target\"</code> can be used to achieve the same goal successfully.</p>",
       "text": "Wow! I’m glad to know my little tools are of use to someone else.\nI wonder just how different your directory structure is from mine. Perhaps, we could add an option or two to webmention.io-backup to make your life easier? ;-)  Drop me a line if you’re interested, we’ll try to figure something out.\nAlso, there’s a workaround I use to avoid seding the JSON for dashes: a parsed JSON is (obviously) a map in Hugo, so you can get the values of its keys by indexing them. And since index takes a string for the key name, dashes can be used freely, too. So, while .Site.data.wm-target fails, index .Site.data \"wm-target\" can be used to achieve the same goal successfully."
     },
-    "in-reply-to": "https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/",
+    "in_reply_to": "https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/",
     "published": "2022-01-10T08:34:35+03:00",
     "rels": {
       "canonical": "https://evgenykuznetsov.org/en/reactions/2022/re-010053443/"
@@ -20,11 +20,11 @@
     ],
     "type": "entry",
     "url": "https://evgenykuznetsov.org/en/reactions/2022/re-010053443/",
-    "wm-id": 1329112,
-    "wm-private": false,
-    "wm-property": "in-reply-to",
-    "wm-received": "2022-01-10T05:52:46Z",
-    "wm-source": "https://evgenykuznetsov.org/en/reactions/2022/re-010053443/",
-    "wm-target": "https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/"
+    "wm_id": 1329112,
+    "wm_private": false,
+    "wm_property": "in-reply-to",
+    "wm_received": "2022-01-10T05:52:46Z",
+    "wm_source": "https://evgenykuznetsov.org/en/reactions/2022/re-010053443/",
+    "wm_target": "https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/"
   }
 ]
