@@ -2,9 +2,60 @@
 #+date: 2022-01-14T15:46:02+13:00
 #+lastmod: 2022-01-14T15:46:02+13:00
 #+categories[]: Tech
-#+tags[]: 
+#+tags[]: IndieWeb Hugo JSON
 
-Start here
+Diving into IndieWeb (in general) and into to webmention's 'likes' (in particular), I have had to get to grips with how to work with JSON under [[https://gohugo.io/][Hugo]].
+
+Having [[https://petersmith.org/blog/2022/01/12/content-structure/][restructured my content layout on disk]], I turned my attention to what to do with the =webmentions.json= file that I downloaded from [[https://webmention.io/][webmention.io]] using [[https://github.com/nekr0z/webmention.io-backup][webmention.io-backup]]. Originally, I had been downloading a single monolithic file with all the responses folk had done to my website. I put the file in my =Data= directory and accessed from within Hugo using [[https://gohugo.io/templates/data-templates/][data templates]].
+
+All well and good. But one of the great thing about [[https://evgenykuznetsov.org/en/posts/2020/webmention-backup/][Evgeny's tool]] is that it can store the response from webmention.io into the directory of the relevant [[https://gohugo.io/content-management/page-bundles][page bundle]]. So, I tweaked the script I used to call =webmention.io-backup= to look like this.
+
+#+BEGIN_SRC bash
+
+#!/bin/sh
+
+FILENAME="responses.json"
+
+webmention.io-backup -t ${WEBMENTION_KEY=} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p -ts
+
+#
+# Now fix the pesy hypens in the poperty names
+#
+find . -name ${FILENAME} -exec sed -i  '
+s/\(^ *\)"like-of":/\1"like_of":/
+s/\(^ *\)"mention-of":/\1"mention_of":/
+s/\(^ *\)"in-reply-to":/\1"in_reply_to":/
+s/\(^ *\)"wm-/\1"wm_/' {} \;
+
+#+END_SRC
 
 # more
 
+NB. [[https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/#in-reply-to_1329112][Evgeny]] [fn:1] suggested not to use  =sed=, but instead, I should use [[https://gohugo.io/functions/index-function][index]], but in my larger templates I find it easier to access stuff using, say, =.like_of= rather than =index $responses "like=of"=. 
+
+The important bits are the =-cd content -tlo=false -p -ts=, that causes the =webmention.io-backup= to store the webmentions it finds in the directory associated with the URL of post (that's why I had to change my physical structure on-disk to match the logical structure presented to users), time-stamp the files it creates (so it adds, rather than overwrites), and to skip creating a top-level-object in the JSON file.
+
+Great, but now I had to recode the way I accessed the JSON file (as it was now in the directory of the post, and not in the =Data= directory). This took me forever to figure out. I just don't know enough about how Hugo deals with JSON files that are [[https://gohugo.io/content-management/page-resources/]['page' resources]]. Googling didn't help much, so it took a lot of trial-and-error to get it working.
+
+I'll use the code I wrote to count the number of 'likes' for a page to illustrate what I did. This is a [[https://gohugo.io/templates/partials][partial tempate]] called =count-likes.html=. The code works, and if anyone can see a cleaner way to do it, let me know
+
+#+BEGIN_SRC html
+
+{{- $count := 0 -}}
+  {{- with .Resources.GetMatch "responses.json" -}}
+    {{- $responses := unmarshal .Content -}}
+    {{- range $responses -}}
+      {{- if  .like_of -}}
+        {{- $count = add $count  1 -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- $count -}}
+
+#+END_SRC
+
+In detail, the line that says =.Resources.GetMatch "responses.json"= creates some kind of object. That had me fooled for a long time; I thought it would just read the JSON file into a variable, but no, it's an object. To access the JSON of the object, I need to use Hugo's [[https://gohugo.io/functions/transform.unmarshal/][=unmarshal=]] function. And so =$reponses= now contains an object (a list) of all the reponses. I can then [[https://gohugo.io/functions/range/][=range=]] of the list looking for a key called 'like_of'. If I find that key, I can increment the count of 'likes' that I have.  It looks easy and clean (to me) but it took me days to get it right.
+
+So, I think I have likes working now. I now need to get onto making sure that 'reply-to's and 'mentions' work correctly. Some folk lump those two type of responses together and treat them as one, but I've decided I'll keep the separate for now. My code for mentions works well, but I want to do some magic and truncate the text of the mention so it just shows a few lines around the actual mention of my page.
+
+[fn:1] This post took a little longer to write, as I realised when I displayed replies/comments that people made, I couldn't link to them 'in-context'. I had not created anchors for individual posts. So I had to fix that before completing this post.
