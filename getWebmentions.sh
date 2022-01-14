@@ -1,9 +1,9 @@
 #!/bin/sh
 
 FILENAME="responses.json"
-find . -name ${FILENAME} -delete
+### find . -name ${FILENAME} -delete
 
-webmention.io-backup -t ${WEBMENTION_KEY=} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p 
+webmention.io-backup -t ${WEBMENTION_KEY=} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p -ts
 
 #
 # Now fix the pesy hypens in the poperty names

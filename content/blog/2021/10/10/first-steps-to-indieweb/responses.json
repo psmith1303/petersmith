@@ -1,10 +1,10 @@
 [
-      {
+    {
     "author": {
-      "name": "",
-      "photo": "",
+      "name": "Peter Smith",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/3137f5a9d0f023f5b980fef20cc43153a4d225d511239fb2da0907f7ffab6a29.jpg",
       "type": "card",
-      "url": ""
+      "url": "https://twitter.com/JustAnotherCog"
     },
     "content": {
       "html": "<p>\nAfter <a href=\"https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/\">my first steps to IndieWeb</a>, I got a really helpful message from <a href=\"https://robbinespu.gitlab.io/\">Robbi Nespu</a>. Alas, I've not (yet) got webmentions working in any real way, and the page he commented on had a broken URL (all my problems, not Robbi's). </p>\n<p>\nHe said:</p>\n<blockquote>\n<p>Hello Peter Smith, How going? I also using Hugo, the getting webmention response working is easier if using a javascript called as <a href=\"https://github.com/PlaidWeb/webmention.js/\">PlaidWeb/webmention.js</a></p>\n<p>\nSome tips from my experience</p>\n<ul><li>\n<p>Setup the <code>h-card</code> because it important and needed for indieAuth (to use some external services such as <a href=\"https://webmention.io\"></a><a href=\"https://webmention.io\">https://webmention.io</a></p>\n</li>\n<li>\n<p>You may use <a href=\"https://xray.p3k.io\"></a><a href=\"https://xray.p3k.io\">https://xray.p3k.io</a> to inspect if the HTML are parse correctly, you can submit the URL or just paste the raw HTML (even with <code>localhost</code> / <code>127.0.0.1</code> addressed inside the source code, it working very well). It save my time during debugging.</p>\n</li>\n<li>\n<p>I also use <a href=\"https://telegraph.p3k.io\"></a><a href=\"https://telegraph.p3k.io\">https://telegraph.p3k.io</a> to preview (check) if all link inside <code>h-entry</code> support webmention. You also can manually send webmention by give a source and target from there.</p>\n</li>\n<li>\n<p>Lastly, validate published web using <a href=\"https://indiewebify.me/\">https://indiewebify.me/</a>  get your website until level 3.</p>\n</li>\n</ul><p>Hope this helpful 😀</p>\n</blockquote>\n<p>\nSo, what's my progress so far? (beside's Robbi's smiley face emoji not displaying correctly in emacs)</p>\n\n<h5>\nLevel 1: Become a citizen of the IndieWeb\n</h5>\n\n<ol><li>\n<p>Get your own domain name: Done. Many years ago.</p>\n</li>\n<li>\n<p>Set up Web Sign In: That was easy. Or it was until I decided to not use <code>&lt;link rel=\"me\" href= ..../&gt;</code>. And once I had that working I too the time to break it again.</p>\n</li>\n</ol>\n\n\n<h5>\nLevel 2: Publishing on the IndieWeb\n</h5>\n\n<ol><li>\n<p>Check your homepage h-card: I really should read the specs more closely. I bashed my head against a brick wall for a while with this. Even though I used bits of HTML from <a href=\"https://aaronparecki.com/\">Aaron Parecki</a> and from <a href=\"https://boffosocko.com/\">Chris Aldrich</a>, it still took too much time.</p>\n</li>\n<li>\n<p>Check your posts are marked up with <code>-h-entry</code>: Not so hard, although I have had to tweak the layout of may pages somewhat. Categories, aren't elegant yet.</p>\n</li>\n</ol>\n\n\n<h5>\nLevel 3: Add the ability to send Webmentions to other IndieWeb sites\n</h5>\n\n<p>This is a work in progress. I can do it manually using, say, <a></a><a href=\"https://telegraph.p3k.io\">https://telegraph.p3k.io</a> but I've yet to automate things. The bigger challenge is getting other people's Webmentions to appear on my site.</p>",
@@ -24,9 +24,8 @@
     "wm_received": "2021-10-14T08:35:51Z",
     "wm_source": "https://petersmith.org/blog/2021/10/14/second-steps-in-indieweb/",
     "wm_target": "https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/"
-      },
-    
-    {
+    },
+  {
     "author": {
       "name": "Robbi Nespu",
       "photo": "https://webmention.io/avatar/robbinespu.gitlab.io/6e26274b5791d929b75d7450e7a5c1f9e0d19134bb0c641705f0a1e41742e4d2.png",
@@ -48,5 +47,8 @@
     "wm_received": "2021-10-10T11:35:46Z",
     "wm_source": "https://robbinespu.gitlab.io/indieweb/211010050323/",
     "wm_target": "https://petersmith.org/blog/2021/10/10/20211010-first-steps-to-indieweb/"
+  },
+  {
+    "timestamp": "2022-01-13T01:35:19Z"
   }
 ]
