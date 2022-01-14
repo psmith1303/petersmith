@@ -1,0 +1,10 @@
+#+title: Hugo and JSON
+#+date: 2022-01-14T15:46:02+13:00
+#+lastmod: 2022-01-14T15:46:02+13:00
+#+categories[]: Tech
+#+tags[]: 
+
+Start here
+
+# more
+
