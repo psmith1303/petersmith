@@ -16,7 +16,10 @@
 	  <img loading="lazy" class="u-photo" src="{{- if .author.photo -}}{{- .author.photo -}}{{- else -}}/images/anon.svg{{- end -}}">
 	</a>
       </div>
-      <div class="comment_content e-entry">... {{- index (findRE ".*petersmith.*" .content.html 1) 0 | safeHTML  -}} </div>
+      <div class="comment_content e-entry">
+	<a href="{{ .url }}"><h1 class="has-text-left">{{ .url }}</h1></a>
+	<p class="blockquote">... {{- index (findRE ".*petersmith.*" .content.html 1) 0 | safeHTML  -}}</p>
+      </div>
     </div>
   </li>
   {{- end -}}
