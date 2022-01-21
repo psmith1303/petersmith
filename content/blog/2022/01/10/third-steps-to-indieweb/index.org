@@ -49,7 +49,7 @@ So, I run a teeny tiny sed script on the JSON file from =webmention.io= to chang
 FILENAME="data/mentions.json"
 rm -fr ${FILENAME}
 
-webmention.io-backup -t -y4QezN6pCs5CNVshkMHaQ -d petersmith.org -f ${FILENAME}  -jf2 -tlo=false -p 
+webmention.io-backup -t -y2QezN2pCs2CNVshkMHaQ -d petersmith.org -f ${FILENAME}  -jf2 -tlo=false -p 
 
 #
 # Now fix the pesky hypens in the poperty names
