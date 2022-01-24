@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="h-entry">
+  <div class="article-header">
+    <h2 class="h-card author post-author p-author  has-text-right">
+      <a href="{{ .Site.BaseURL}}" class="u-url url">
+	<img class="u-photo photo" src="{{ .Site.Author.photo }}"><br>
+	<span class="p-name">{{ .Site.Author.name }}</span>
+      </a>
+    </h2>
+    {{ $dateTime := .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+    <h2 class=" has-text-left">
+      <time class="dt-published" datetime="{{ $dateTime }}">{{ .PublishDate.Format "2 Jan 2006" }}</time>
+    </h2>
+
+    <hr>
+    <ul>
+      {{ with .Params.categories }}
+      {{ range . }}
+      {{ $href := print (absURL "categories/") (urlize .) }}
+      <li><a href="{{ $href }}">{{ upper . }}</a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    <hr>
+    <ul>
+      {{ with .Params.tags }}
+      {{ range . }}
+      {{ $href := print (absURL "tags/") (urlize .) }}
+      <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+  <div class="article-content">
+    <p>{{ .Slug }}</p>
+    <a class="u-url u-like-of" href="{{ .Params.likeURL }}" >
+      <h1 class="article-title p-name has-text-left">{{ .Params.likeURL }}</h1>
+    </a>
+    <div class="e-content blockquote">
+      {{- .Content -}}
+    </div>
+  </div>
+  {{- partial "article-nav.html" . -}}
+  <div class="article-meta"></div>
+</article>
+{{ end }}
