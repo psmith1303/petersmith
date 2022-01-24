@@ -11,7 +11,7 @@
       <div id="toc">
 	{{- range .Pages -}}
 	<span class="toc-date">{{ .Date.Format "02 Jan" }}</span>
-	<span class="toc-link"><a href="{{ .Permalink }}">{{ .Params.likeURL | safeHTML }}</a></span>
+	<span class="toc-link"><a href="{{ .Permalink }}">{{ .Params.replyURL | safeHTML }}</a></span>
 	{{- end -}}
       </div>
       {{ end }}
