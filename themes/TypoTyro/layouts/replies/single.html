@@ -33,13 +33,13 @@
     </ul>
   </div>
   <div class="article-content">
-    <p>{{ .Slug }}</p>
-    <a class="u-url u-in-reply-to" href="{{ .Params.replyURL }}" >
-      <h1 class="article-title p-name has-text-left">{{ .Params.replyURL }}</h1>
-    </a>
+    <p class="article-title p-name has-text-left">{{ .Title }}<a class="u-url u-in-reply-to" href="{{ .Params.replyURL }}">
+      {{ .Params.replyURL }}</a>
+    </p>
     <div class="e-content blockquote">
       {{- .Content -}}
     </div>
+    <p>Permalink for this reply is <a href="{{ .Permalink }}">{{ .Slug }}</a></p>
   </div>
   {{- partial "article-nav.html" . -}}
   <div class="article-meta"></div>
