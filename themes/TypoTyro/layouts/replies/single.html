@@ -1,6 +1,7 @@
 {{ define "main" }}
 <article class="h-entry">
   <div class="article-header">
+    <a href="{{ .Permalink }}" ><h1>{{ .Slug }}</h1></a>
     <h2 class="h-card author post-author p-author  has-text-right">
       <a href="{{ .Site.BaseURL}}" class="u-url url">
 	<img class="u-photo photo" src="{{ .Site.Author.photo }}"><br>
@@ -39,7 +40,6 @@
     <div class="e-content blockquote">
       {{- .Content -}}
     </div>
-    <p>Permalink for this reply is <a href="{{ .Permalink }}">{{ .Slug }}</a></p>
   </div>
   {{- partial "article-nav.html" . -}}
   <div class="article-meta"></div>

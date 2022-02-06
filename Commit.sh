@@ -2,6 +2,7 @@
 #
 DESCRIPTION="${@:-"A new post"}"
 
+echo "Started at: " `date`
 echo "The commit message is:    " \"${DESCRIPTION}\"
 echo "The working directory is :" `pwd`
 

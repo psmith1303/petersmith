@@ -1,5 +1,6 @@
-#+title: Reply to https://evgenykuznetsov.org/en/reactions/2022/re-010174726/
-#+slug: reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010174726-
+#+title: Reply to:
+#+slug: reply-202202Tue155113
+#+replyURL: https://evgenykuznetsov.org/en/reactions/2022/re-010174726/
 #+date: 2022-01-11T15:51:13+13:00
 #+lastmod: 2022-01-11T15:51:13+13:00
 #+categories[]: Tech IndieWeb

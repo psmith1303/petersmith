@@ -1,7 +1,8 @@
-#+title: Reply to: https://evgenykuznetsov.org/en/reactions/2022/re-010053443/
-#+slug: reply-to-https-evgenykuznetsov-org-en-reactions-2022-re-010053442
+#+title: Reply to: 
+#+slug: reply-202202Mon181605
 #+date: 2022-01-10T19:16:05+13:00
 #+lastmod: 2022-01-10T19:16:05+13:00
+#+replyURL: https://evgenykuznetsov.org/en/reactions/2022/re-010053443/
 #+categories[]: Indieweb Tech
 #+tags[]: Indieweb
 #+draft: False
