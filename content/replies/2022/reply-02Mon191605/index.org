@@ -1,4 +1,4 @@
-#+title: Reply to: 
+#+title: In reply to:
 #+slug: reply-202202Mon181605
 #+date: 2022-01-10T19:16:05+13:00
 #+lastmod: 2022-01-10T19:16:05+13:00
@@ -12,7 +12,7 @@ Oh joy. I got a response from [[https://evgenykuznetsov.org/en/reactions/2022/re
 To answer your questions, my directory structure is using =page bundeles= with each section (blog, notes, pages, etc) having all my posts, like this:
 
 #+BEGIN_SRC text
-  
+
   petersmith.org
           archetypes
           config.toml
@@ -54,7 +54,7 @@ To answer your questions, my directory structure is using =page bundeles= with e
           resources
           static
           themes
-  
+
 #+END_SRC
 
 # more

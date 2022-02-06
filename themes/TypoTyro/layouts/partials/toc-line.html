@@ -1,2 +1,6 @@
-  <span class="toc-date">{{ .Date.Format "02 Jan" }}</span>
-  <span class="toc-link"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></span>
+<span class="toc-date">{{ .Date.Format "02 Jan" }}</span>
+{{- if .Params.replyURL }}
+<span class="toc-link"><a href="{{ .Permalink }}">{{ .Title | safeHTML }} {{ .Params.replyURL | safeHTML }}</a></span>
+{{- else -}}
+<span class="toc-link"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></span>
+{{- end -}}
