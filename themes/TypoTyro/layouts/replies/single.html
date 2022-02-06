@@ -37,9 +37,7 @@
     <p class="article-title p-name has-text-left">{{ .Title }}<a class="u-url u-in-reply-to" href="{{ .Params.replyURL }}">
       {{ .Params.replyURL }}</a>
     </p>
-    <div class="e-content blockquote">
-      {{- .Content -}}
-    </div>
+    <div class="e-content blockquote">{{- .Content -}}</div>
   </div>
   {{- partial "article-nav.html" . -}}
   <div class="article-meta"></div>
