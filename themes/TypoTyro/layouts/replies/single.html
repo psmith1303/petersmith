@@ -16,7 +16,5 @@
 
   <p class="article-title p-name has-text-left">{{ .Title }} <a class="u-url u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
   <div class="e-content">{{- .Content -}}</div>
-  {{- partial "article-nav.html" . -}}
-  <div class="article-meta"></div>
 </article>
 {{ end }}
