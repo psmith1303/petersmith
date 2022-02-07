@@ -12,9 +12,11 @@
       {{- else if eq .Type "notes" -}}
         {{- partial "summary-notes.html" . -}}
       {{- else if eq .Type "likes" -}}
-        {{- partial "summary-likes.html" . -}}
+        {{- .Scratch.Set "webmentionURL" .Params.likeURL -}}
+        {{- partial "summary-webmention.html" . -}}
       {{- else if eq .Type "replies" -}}
-        {{- partial "summary-replies.html" . -}}
+        {{- .Scratch.Set "webmentionURL" .Params.replyURL -}}
+        {{- partial "summary-webmention.html" . -}}
       {{- else -}}
       DEFAULT
         {{- partial "summary-blog.html" . -}}
