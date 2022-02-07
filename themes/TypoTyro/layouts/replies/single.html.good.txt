@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article>
+  <div class="h-entry">
+    <p class="article-title has-text-left">{{ .Title }} <a class="u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
+    <p class="e-content">12 {{- replace .Content "\n" ""  | safeHTML -}}</p>
+  </div>
+</article>
+{{ end }}
