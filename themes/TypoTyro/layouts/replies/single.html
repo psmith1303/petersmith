@@ -14,7 +14,7 @@
   </h2>
 
 
-  <p class="article-title p-name has-text-left">{{ .Title }} <a class="u-url u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
+  <p class="article-title p-name has-text-left">{{ .Title }} <a class="u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
   <section class="e-content">{{- .Content -}}</section>
 </article>
 {{ end }}
