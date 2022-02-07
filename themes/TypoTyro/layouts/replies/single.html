@@ -2,7 +2,7 @@
 <article>11
   <div class="h-entry">
     <p class="article-title p-name has-text-left">{{ .Title }} <a class="u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
-    <p class="e-content">{{- .Content -}}</p>
+    <p class="e-content">{{- replace .Content "\n" ""  | safeHTML -}}</p>
   </div>
 </article>
 {{ end }}
