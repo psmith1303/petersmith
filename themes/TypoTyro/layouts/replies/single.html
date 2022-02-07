@@ -1,20 +1,6 @@
 {{ define "main" }}
-<article>
+<article>11
   <div class="h-entry">
-    <a href="{{ .Permalink }}" ><h1>{{ .Slug }}</h1></a>
-    <h2 class="h-card author post-author p-author  has-text-right">
-      <a href="{{ .Site.BaseURL}}" class="u-url url">
-	<img class="u-photo photo" src="{{ .Site.Author.photo }}"><br>
-	<span class="p-name">{{ .Site.Author.name }}</span>
-      </a>
-    </h2>
-    {{ $dateTime := .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}
-    {{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
-    <h2 class=" has-text-left">
-      <time class="dt-published" datetime="{{ $dateTime }}">{{ .PublishDate.Format "2 Jan 2006" }}</time>
-    </h2>
-
-
     <p class="article-title p-name has-text-left">{{ .Title }} <a class="u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
     <p class="e-content">{{- .Content -}}</p>
   </div>
