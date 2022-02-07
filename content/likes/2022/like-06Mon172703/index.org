@@ -1,0 +1,17 @@
+#+title: A like of:
+#+slug: like-202206Mon172703
+#+date: 2022-02-07T17:27:03+13:00
+#+likeURL: https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/
+#+categories[]: IndieWeb
+#+tags[]: IndieWeb Typography
+
+Thank's for such a useful posting. It really helped me a lot in terms of the behind-the-scenes work I needed to do, and with the front-of-curtain stuff (how I could make things look).
+
+The way in which you showed 'replies', 'likes', and 'shares' was really clever IMHO. 
+
+# more
+
+Now I need to automate a few things, whilst checking that my 'micro-formatting' is correct all the time. I hit a brick wall for weeks, trying to debug why my 'replies' and 'likes' weren't showing up on [[https://aaronparecki.com/2018/06/30/11/your-first-webmention][Aaron P's test site]]. Eventually, I tracked it down to an errant =p-name= in one of the =<div> classes= I was using.
+
+In particular, you also converted me to [[https://brid.gy][Brid.gy]]. Thanks for that too.
+
