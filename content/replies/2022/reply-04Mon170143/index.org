@@ -6,3 +6,5 @@
 #+tags[]: IndieWeb Testing
 
 This is a really helpful page. It allows you to try out webmentions (especially replies).
+
+This is a test page. So it doesn't really count.
