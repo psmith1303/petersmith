@@ -1,7 +1,15 @@
 {{ define "main" }}
+{{- if eq .Params.wm_type "like" -}}
+{{- .Scratch.Set "webmentionURL" .Params.likeURL -}}
+{{- .Scratch.Set "webmentionType" "u-like-of" -}}
+This is a like
+{{- else if eq .Params.wm_type "like" -}}
+{{- .Scratch.Set "webmentionURL" .Params.replyURL -}}
+{{- .Scratch.Set "webmentionType" "u-in-reply-to" -}}
+{{- end -}}
 <main>
   <article>
-    <div class="article-header"><h1>{{ .Title }} to</h1></div>
+    <div class="article-header"><h1>{{ .Title }} of</h1></div>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}
     <div class="article-content">
@@ -11,7 +19,7 @@
       <div id="toc">
 	{{- range .Pages -}}
 	<span class="toc-date">{{ .Date.Format "02 Jan" }}</span>
-	<span class="toc-link"><a href="{{ .Permalink }}">{{ .Params.replyURL | safeHTML }}</a></span>
+	<span class="toc-link"><a href="{{ .Permalink }}">{{ .Title }} {{ .Scratch.Get "webmentionURL" | safeHTML }}</a></span>
 	{{- end -}}
       </div>
       {{ end }}

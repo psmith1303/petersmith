@@ -35,9 +35,9 @@ Windows 10).
 
 However, these days, my main PC runs Windows 10, and I run Debian under WSL2 for all my 'unix' needs.
 
-That being said, I host the site via [[https://netlify.com][Netlify]]. The current status of my build is: {{< httpimg src="https://api.netlify.com/api/v1/badges/cf268698-6366-4bb2-9b47-e4543db35806/deploy-status" title="Netlify Status" >}}
+That being said, I host the site via [[https://netlify.com][Netlify]]. Hey, its all static content so no heavy lifting is required. The current status of my build is: {{< httpimg src="https://api.netlify.com/api/v1/badges/cf268698-6366-4bb2-9b47-e4543db35806/deploy-status" >}}
 
-Hey, its all static content so no heavy lifting is required.
+
 
 * Writing: Emacs
 
@@ -49,7 +49,7 @@ I have used many ways of generating sites. Oringally, I hand-coded HTML. Then ca
 
 * Responsive Layout: Foundation
 
-My original Hugo theme came from [[https://kieranhealy.org/][Kieran Healy]], and he used the [[https://imperavi.com/kube/][Kube CSS framework]] from [[https://imperavi.com/][[Impervari]]. As I redesigned the site, I have stuck with my own [[https://en.wikipedia.org/wiki/Cascading_Style_Sheets][CSS]] framework. Nothing fancy, just plain-ole CSS.
+My original Hugo theme came from [[https://kieranhealy.org/][Kieran Healy]], and he used the [[https://imperavi.com/kube/][Kube CSS framework]] from [[https://imperavi.com/][Impervari]]. As I redesigned the site, I have stuck with my own [[https://en.wikipedia.org/wiki/Cascading_Style_Sheets][CSS]] framework. Nothing fancy, just plain-ole CSS.
 
 That said, Hugo does some clever injecting of styles for code-blocks and the like using a Go framework called  [[https://github.com/alecthomas/chroma][Chroma]].
 

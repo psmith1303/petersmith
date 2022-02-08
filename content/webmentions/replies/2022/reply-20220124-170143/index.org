@@ -1,9 +1,10 @@
 #+title: In reply to:
-#+slug: reply-202204Mon170143
+#+slug: reply-20220124-170143
 #+date: 2022-01-24T17:01:43+13:00
 #+replyURL: https://aaronparecki.com/2018/06/30/11/your-first-webmention
 #+categories[]: IndieWeb
 #+tags[]: IndieWeb Testing
+#+wm_type: reply
 
 This is a really helpful page. It allows you to try out webmentions (especially replies).
 

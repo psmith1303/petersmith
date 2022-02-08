@@ -14,9 +14,9 @@
   <input type="radio" name="tabs" id="tab3" /><label for="tab3" class="tabs">{{ partial "count-likes.html" . }} Likes</label>
   <input type="radio" name="tabs" id="tab4" /><label for="tab4" class="tabs">Shares</label>
   <input type="radio" name="tabs" id="tab5" /><label for="tab5" class="tabs">Meta info</label>
-  <div class="tab content1">{{- partial "webreplies.html" . -}}</div>
-  <div class="tab content2">{{- partial "webmentions.html" . -}}</div>
-  <div class="tab content3">{{- partial "weblikes.html" . -}}</div>
+  <div class="tab content1">{{- partial "pane-webreplies.html" . -}}</div>
+  <div class="tab content2">{{- partial "pane-webmentions.html" . -}}</div>
+  <div class="tab content3">{{- partial "pane-weblikes.html" . -}}</div>
   <div class="tab content4">Show all the shares aka https://keithjgrant.com/posts/2019/01/low-friction-workflow-for-notes/</div>
   <div class="tab content5">{{- partial "article-meta.html" . -}}</div>
 </div>

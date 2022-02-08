@@ -1,11 +1,11 @@
 #+title: In reply to:
-#+slug: reply-202202Tue155113
-#+replyURL: https://evgenykuznetsov.org/en/reactions/2022/re-010174726/
+#+slug: reply-20220111-155113
 #+date: 2022-01-11T15:51:13+13:00
+#+replyURL: https://evgenykuznetsov.org/en/reactions/2022/re-010174726/
 #+lastmod: 2022-01-11T15:51:13+13:00
 #+categories[]: Tech IndieWeb
 #+tags[]: Hugo IndieWeb
-#+draft: False
+#+wm_type: reply
 
 [[https://evgenykuznetsov.org/en/reactions/2022/re-010174726/][Evgeny]], yes, I thought that would be the problem. I have been using [[https://gohugo.io/content-management/urls/#permalinks][permalinks]] like that ever since I started using Hugo back in [[{{ ref "20160314-more-static" }}][2016]]. It's messier than it might first appear, because as you can see from this 'snip' of my =config.toml= only some content is laid out that way.
 

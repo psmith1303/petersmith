@@ -1,7 +1,14 @@
-{{ define "main" }}
+{{- define "main" -}}
+{{- if eq .Params.wm_type "like" -}}
+{{- .Scratch.Set "webmentionURL" .Params.likeURL -}}
+{{- .Scratch.Set "webmentionType" "u-like-of" -}}
+{{- else if eq .Params.wm_type "like" -}}
+{{- .Scratch.Set "webmentionURL" .Params.replyURL -}}
+{{- .Scratch.Set "webmentionType" "u-in-reply-to" -}}
+{{- end -}}
 <article class="h-entry">
   <div class="article-header">
-    <a href="{{ .Permalink }}" ><h1>{{ .Slug }}</h1></a>
+    <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
     <h2 class="h-card author post-author p-author  has-text-right">
       <a href="{{ .Site.BaseURL}}" class="u-url url">
 	<img class="u-photo photo" src="{{ .Site.Author.photo }}"><br>
@@ -34,10 +41,14 @@
     </ul>
   </div>
   <div class="article-content">
-    <p class="article-title has-text-left">{{ .Title }} <a class="u-in-reply-to" href="{{ .Params.replyURL }}">{{ .Params.replyURL }}</a></p>
-    <div class="e-content blockquote">{{- .Content -}}</div>
+    <a class="{{ .Scratch.Get "webmentionType" }}" href="{{ .Scratch.Get "webmentionURL" }}" >
+      <h1 class="article-title has-text-left">{{ .Scratch.Get "webmentionURL" }}</h1>
+    </a>
+    <div class="e-content blockquote">
+      {{- .Content -}}
+    </div>
   </div>
   {{- partial "article-nav.html" . -}}
-  <div class="article-meta"></div>
+  {{- partial "article-footer.html" . -}}
 </article>
 {{ end }}

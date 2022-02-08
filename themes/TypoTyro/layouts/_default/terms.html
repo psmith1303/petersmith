@@ -5,7 +5,7 @@
     <ul class="wrappinglist">
       {{ range .Data.Terms.Alphabetical }}
       <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
-      {{ end }}
+      {{- end -}}
     </ul>
   </div>
   <div class="article-nav"></div>
@@ -24,5 +24,4 @@
   <div class="article-nav"></div>
   <div class="article-meta"></div>
 </article>
-
 {{ end }}

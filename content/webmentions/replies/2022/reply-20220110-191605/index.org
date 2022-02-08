@@ -1,11 +1,11 @@
 #+title: In reply to:
-#+slug: reply-202202Mon181605
+#+slug: reply-20220110-191605
 #+date: 2022-01-10T19:16:05+13:00
 #+lastmod: 2022-01-10T19:16:05+13:00
 #+replyURL: https://evgenykuznetsov.org/en/reactions/2022/re-010053443/
 #+categories[]: Indieweb Tech
 #+tags[]: Indieweb
-#+draft: False
+#+wm_type: reply
 
 Oh joy. I got a response from [[https://evgenykuznetsov.org/en/reactions/2022/re-010053443/][Evgeny]]. Now I need to sort out my workflow for responding to responses.
 
