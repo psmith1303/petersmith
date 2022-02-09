@@ -1,0 +1,25 @@
+#+title: Hugo directory structure
+#+date: 2022-02-09T14:50:59+13:00
+#+lastmod: 2022-02-09T14:50:59+13:00
+#+categories[]: Tech
+#+tags[]: IndieWeb Blogging Hugo Webmentions
+
+When I started to dabble with Webmentions I first created a new [[https://gohugo.io/content-management/types/][type of content]] called ~likes~. This basically entailed me making a directory in my ~content~ directory called ~likes~ anb putting my 'likes' in there. That also meant I had to create some new templates in my theme directory:
+
+- layouts/likes/single.html
+- layouts/likes/list/.html
+
+The I made a new type of webmention response called ~replies~.
+
+That entailed another new directory in my ~content~ directory, and [[https://gohugo.io/templates/single-page-templates/][single]] and [[https://gohugo.io/templates/lists/][list]] [[https://gohugo.io/templates/][templates]].
+
+# more
+
+Then I began to think about the future. I would want other types ... and that would mean some proliferation of directories and template. But, the single and list templates for the ~likes~ and ~replies~ were pretty much the same. And so, wanting to be [[https://indieweb.org/DRY][DRY]] I created and new type of response called ~webmentions~ and moved all my templating for likes and replies into:
+
+- layouts/webmentions/single.html
+- layouts/webmentions/list/.html
+
+I moved all the likes and replies that I've done so far (not many) into the directory ~content/webmentions~.
+
+Of course that's going to break a few links for folk; but I still see my likes/replies as being rather experimental (still). So, I hope I'll be forgiven.
