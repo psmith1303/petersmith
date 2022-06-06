@@ -1,0 +1,51 @@
+#+title: Four thousand weeks
+#+date: 2022-03-28T14:41:52+13:00
+#+lastmod: 2022-03-28T14:41:52+13:00
+#+categories[]: Arts
+#+tags[]: Book Time-management
+
+Since I read this book (about a month ago), I find myself recommending it to many people. More so than any other book I've read (and that includes non-fiction as well as fiction). In some ways this is a book about managing your time, in other ways it is about managing your attention. Certainly, that second perspective is the most useful in the modern world were there is always more to be done not matter how good your time management.
+
+# more
+
+{{< figure src="4000weeks.jpg" width="200px" class="float-left">}}
+
+Oliver Burkeman's point of departure for this book is the simple fact that the average life comprises about 4,000 weeks. And so the essential question is what will choose to spend that time on. The book certainly doesn't argue for some kind of saintly life, but rather to make decisions about what to do, against that backdrop.
+
+The second point of the book---for me---is that some things are totally beyond our control. So, our efforts are going to be rewarded by putting effort into what we can control.
+
+The book ends with *Ten tools for embracing your finitude* [fn:1].
+
+1. Adopt a 'fixed volume' approach to productivity
+   One can't do everything. No way. No how. So, what you need to do is make tough choices and only focus on a limited number of things. This can be done by having two to-do lists. The 'open' list has everything on it. It'll be big. The 'closed' list has a maximum of 10 items on it. Things can only progress from the open list to the closed list when a task on the closed list gets completed.
+
+   It's also good to have clear (and predetermined) boundaries around ones daily work. E.g., I'll start by 8:00 and I'll stop by 17:00.
+
+2. Serialise, serialise, serialise
+   Focus on one big project at a time. Don't move onto another big project until the current one is complete. It's a version of having two lists -- but for projects.
+
+3. Decide in advance what to fail at
+   Aka *strategic underachievement*. Focus on what you focusing on, and---as much as possible---let other things fail.
+
+4. Focus on what you've already completed, not just what's left to complete
+   It's easy to become overwhelmed by what is yet to be done. A counter strategy is to track what you accomplish each day, not what is left to be done. This helps one to get a good sense of perspective, to see how much has been achieved.
+
+5. Consolidate you caring
+   You can't care about everything; it's easy to become overwhelmed by everything that needs attention in the workd. And so you need to consciously pick the areas you'll try and make a differences (after all caring without doing anything isn't helpful).
+
+6. Embrace boring and single-purpose technology
+   This is another way to maintain focus -- to not become distracted.  If your phone was just a phone, then it wouldn't be a YouTube time-suck :)
+
+7. Seek out novelty in the mundane
+   Time seems to pass more quickly as we age, as we have few novel experiences; so it feels as if time is passing faster. As it is somewhat impractical to seek out endless new 'excitements', one can---by finding novelty in the mundane---make time pass more slowly.
+
+8. Be a 'researcher' in relationships
+   Being in control all the time also works to drive out novelty (and makes time pass more quickly). Another way to counter this is to constantly try "to figure out who this human being is that we're with". This increases unpredictability and novelty.
+
+9. Cultivate instantaneous generosity
+   Act on impulses to do good immediately; the only donations that count are the ones we actually do.
+
+10. Practice doing nothing.
+    .... and so I won't.
+
+[fn:1] Finitude is sort of the combination of those first two points of this on steroids. Following Heidegger's perspective "We /are/ a limited amount of time. That's how completely our limited time defines us" as Burkeman says it.

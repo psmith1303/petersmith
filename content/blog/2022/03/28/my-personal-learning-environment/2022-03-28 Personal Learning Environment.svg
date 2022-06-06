@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="711.90845"
+   height="712.66663"
+   overflow="hidden"
+   version="1.1"
+   id="svg121"
+   sodipodi:docname="2022-03-28 Personal Learning Environment.svg"
+   style="overflow:hidden"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata125">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     id="namedview123"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.8875"
+     inkscape:cx="236.60918"
+     inkscape:cy="259.36029"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g119" />
+  <defs
+     id="defs33">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect2" />
+    </clipPath>
+    <linearGradient
+       x1="621.5"
+       y1="8.5000496"
+       x2="621.5"
+       y2="720.5"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill1">
+      <stop
+         offset="0"
+         stop-color="#FFDD9C"
+         id="stop5" />
+      <stop
+         offset="0.5"
+         stop-color="#FFD78E"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#FFD479"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       x1="688.5"
+       y1="17.500099"
+       x2="688.5"
+       y2="335.5"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill2">
+      <stop
+         offset="0"
+         stop-color="#B5D5A7"
+         id="stop12" />
+      <stop
+         offset="0.5"
+         stop-color="#AACE99"
+         id="stop14" />
+      <stop
+         offset="1"
+         stop-color="#9CCA86"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       x1="688.5"
+       y1="498.5"
+       x2="688.5"
+       y2="710.5"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill3">
+      <stop
+         offset="0"
+         stop-color="#B5D5A7"
+         id="stop19" />
+      <stop
+         offset="0.5"
+         stop-color="#AACE99"
+         id="stop21" />
+      <stop
+         offset="1"
+         stop-color="#9CCA86"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       x1="688.5"
+       y1="340.5"
+       x2="688.5"
+       y2="494.5"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill4">
+      <stop
+         offset="0"
+         stop-color="#B5D5A7"
+         id="stop26" />
+      <stop
+         offset="0.5"
+         stop-color="#AACE99"
+         id="stop28" />
+      <stop
+         offset="1"
+         stop-color="#9CCA86"
+         id="stop30" />
+    </linearGradient>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g119"
+     transform="matrix(0.98239437,0,0,1,-254.60387,-8.1667165)">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       id="rect35"
+       style="fill:#ffffff" />
+    <path
+       d="M 259.5,127.169 C 259.5,61.63 312.63,8.50005 378.169,8.50005 H 864.831 C 930.37,8.50005 983.5,61.63 983.5,127.169 V 601.831 C 983.5,667.37 930.37,720.5 864.831,720.5 H 378.169 C 312.63,720.5 259.5,667.37 259.5,601.831 Z"
+       stroke-miterlimit="8"
+       id="path37"
+       inkscape:connector-curvature="0"
+       style="fill:url(#fill1);fill-rule:evenodd;stroke:#ffc000;stroke-width:0.66666698;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="24"
+       transform="translate(302.962,343)"
+       id="text43"
+       style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif">My personal<tspan
+   font-size="24"
+   x="0"
+   y="29"
+   id="tspan39"
+   style="font-size:24px">learning</tspan>
+<tspan
+   font-size="24"
+   x="0"
+   y="58"
+   id="tspan41"
+   style="font-size:24px">environment</tspan>
+</text>
+    <path
+       d="m 456.5,70.5013 c 0,-29.2718 23.73,-53.0012 53.001,-53.0012 h 357.998 c 29.272,0 53.001,23.7294 53.001,53.0012 V 282.499 c 0,29.272 -23.729,53.001 -53.001,53.001 H 509.501 C 480.23,335.5 456.5,311.771 456.5,282.499 Z"
+       stroke-miterlimit="8"
+       id="path45"
+       inkscape:connector-curvature="0"
+       style="fill:url(#fill2);fill-rule:evenodd;stroke:#70ad47;stroke-width:0.66666698;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="24"
+       transform="translate(480.878,169)"
+       id="text49"
+       style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif">Expression/ <tspan
+   font-size="24"
+   x="0"
+   y="29"
+   id="tspan47"
+   style="font-size:24px">communicating</tspan>
+</text>
+    <path
+       d="m 456.5,533.834 c 0,-19.514 15.82,-35.334 35.334,-35.334 h 393.332 c 19.515,0 35.334,15.82 35.334,35.334 v 141.332 c 0,19.515 -15.819,35.334 -35.334,35.334 H 491.834 C 472.32,710.5 456.5,694.681 456.5,675.166 Z"
+       stroke-miterlimit="8"
+       id="path51"
+       inkscape:connector-curvature="0"
+       style="fill:url(#fill3);fill-rule:evenodd;stroke:#70ad47;stroke-width:0.66666698;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="24"
+       transform="translate(475.749,612)"
+       id="text53"
+       style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif">Finding</text>
+    <path
+       d="m 456.5,366.167 c 0,-14.175 11.492,-25.667 25.667,-25.667 h 412.666 c 14.175,0 25.667,11.492 25.667,25.667 v 102.666 c 0,14.175 -11.492,25.667 -25.667,25.667 H 482.167 c -14.175,0 -25.667,-11.492 -25.667,-25.667 z"
+       stroke-miterlimit="8"
+       id="path55"
+       inkscape:connector-curvature="0"
+       style="fill:url(#fill4);fill-rule:evenodd;stroke:#70ad47;stroke-width:0.66666698;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="24"
+       transform="translate(472.888,425)"
+       id="text57"
+       style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif">Recalling</text>
+    <path
+       d="m 656.5,30.5003 c 0,-3.3139 2.686,-6.0002 6,-6.0002 h 220 c 3.314,0 6,2.6863 6,6.0002 v 23.9995 c 0,3.3139 -2.686,6.0002 -6,6.0002 h -220 c -3.314,0 -6,-2.6863 -6,-6.0002 z"
+       stroke-miterlimit="8"
+       id="path59"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,49)"
+       id="text61"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Fastmail</text>
+    <path
+       d="m 656.5,84.3336 c 0,-3.2218 2.612,-5.8335 5.834,-5.8335 h 220.333 c 3.221,0 5.833,2.6117 5.833,5.8335 v 23.3334 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path63"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,102)"
+       id="text67"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: <tspan
+   font-size="16"
+   x="57.833302"
+   y="0"
+   id="tspan65"
+   style="font-size:16px">Orgmode</tspan>
+</text>
+    <path
+       d="m 656.5,138.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path69"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,156)"
+       id="text71"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: Latex/Beamer/HTML</text>
+    <path
+       d="m 656.5,191.5 c 0,-3.314 2.686,-6 6,-6 h 220 c 3.314,0 6,2.686 6,6 v 24 c 0,3.314 -2.686,6 -6,6 h -220 c -3.314,0 -6,-2.686 -6,-6 z"
+       stroke-miterlimit="8"
+       id="path73"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,209)"
+       id="text75"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: Beamer</text>
+    <path
+       d="m 656.5,298.5 c 0,-3.314 2.686,-6 6,-6 h 220 c 3.314,0 6,2.686 6,6 v 24 c 0,3.314 -2.686,6 -6,6 h -220 c -3.314,0 -6,-2.686 -6,-6 z"
+       stroke-miterlimit="8"
+       id="path77"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,316)"
+       id="text79"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Hugo</text>
+    <path
+       d="m 656.5,245.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path81"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,263)"
+       id="text83"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">MS (Office) Word/Excel/PPT</text>
+    <path
+       d="m 656.5,459.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path85"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,477)"
+       id="text87"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Outlook calendar</text>
+    <path
+       d="m 656.5,352.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path89"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,370)"
+       id="text93"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: <tspan
+   font-size="16"
+   x="57.833302"
+   y="0"
+   id="tspan91"
+   style="font-size:16px">Ormode</tspan>
+</text>
+    <path
+       d="m 656.5,405.5 c 0,-3.314 2.686,-6 6,-6 h 220 c 3.314,0 6,2.686 6,6 v 24 c 0,3.314 -2.686,6 -6,6 h -220 c -3.314,0 -6,-2.686 -6,-6 z"
+       stroke-miterlimit="8"
+       id="path95"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,424)"
+       id="text99"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: <tspan
+   font-size="16"
+   x="57.833302"
+   y="0"
+   id="tspan97"
+   style="font-size:16px">Zettlekasten</tspan>
+</text>
+    <path
+       d="m 656.5,673.5 c 0,-3.314 2.686,-6 6,-6 h 220 c 3.314,0 6,2.686 6,6 v 24 c 0,3.314 -2.686,6 -6,6 h -220 c -3.314,0 -6,-2.686 -6,-6 z"
+       stroke-miterlimit="8"
+       id="path101"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,691)"
+       id="text103"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Wikipedea</text>
+    <path
+       d="m 656.5,566.5 c 0,-3.314 2.686,-6 6,-6 h 220 c 3.314,0 6,2.686 6,6 v 24 c 0,3.314 -2.686,6 -6,6 h -220 c -3.314,0 -6,-2.686 -6,-6 z"
+       stroke-miterlimit="8"
+       id="path105"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,584)"
+       id="text107"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Google scholar</text>
+    <path
+       d="m 656.5,513.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path109"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,531)"
+       id="text111"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Google</text>
+    <path
+       d="m 656.5,620.334 c 0,-3.222 2.612,-5.834 5.834,-5.834 h 220.333 c 3.221,0 5.833,2.612 5.833,5.834 v 23.333 c 0,3.221 -2.612,5.833 -5.833,5.833 H 662.334 c -3.222,0 -5.834,-2.612 -5.834,-5.833 z"
+       stroke-miterlimit="8"
+       id="path113"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#70ad47;stroke-width:1.33333004;stroke-miterlimit:8" />
+    <text
+       font-weight="400"
+       font-size="16"
+       transform="translate(667.763,638)"
+       id="text117"
+       style="font-weight:400;font-size:16px;font-family:Arial, Arial_MSFontService, sans-serif">Emacs: <tspan
+   font-size="16"
+   x="57.833302"
+   y="0"
+   id="tspan115"
+   style="font-size:16px">Elfeed</tspan>
+</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+#+title: My personal learning environment
+#+date: 2022-03-28T10:54:43+13:00
+#+lastmod: 2022-03-28T10:54:43+13:00
+#+categories[]: Tech
+#+tags[]: Zotero Emacs Firefox OrgMode
+
+It has been nearly 15 years since I wrote about my [[{{ ref "/blog/2009/12/16/my-personal-learning-environment" }}][personal learning environment]] (PLE), and things have changed a bit. So it's time to update that diagram. And here it is.
+
+# more
+
+
+{{< figure src="2022-03-28 Personal Learning Environment.svg" width="75%" >}}
+
+What's noticeable, to me anyway, is that Emacs permeates many areas of what I do. Indeed, if I didn't have to collaborate with others, I'd probably drop MS Office entirely.
+
+PowerPoint came back to the fore, as I designed and built out the new Masters of Business Development; so many slides to share with people. That said, if I was really up to speed with something like [[https://inkscape.org/][Inkscape]] (for diagrams) then I might not use it at all -- it is only for diagrams that PowerPoint gets a look in.
+
+In particular it's [[https://orgmode.org/][Org Mode]] that I really hammer in Emacs. I manage all my tasks in it, and all my notetaking.
+
+Anyway, that's what my PLE now looks like.

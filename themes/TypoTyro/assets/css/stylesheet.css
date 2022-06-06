@@ -461,6 +461,12 @@ img {
   height: auto;
 }
 
+figure.float-left {
+    float: left;
+    text-align: left;
+    padding-right: 2em;
+}
+
 .hidden {
     display: none;
 }
