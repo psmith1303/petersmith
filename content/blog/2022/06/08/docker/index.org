@@ -1,0 +1,138 @@
+#+title: Docker
+#+date: 2022-06-08T16:54:57+12:00
+#+lastmod: 2022-06-08T16:54:57+12:00
+#+categories[]: Tech
+#+tags[]: Docker Containers Ubiquiti Common_book
+
+I want to write more and use this more as my [[https://petersmith.org/pages/about-me/][commonplace book]]. So here we go ...
+
+I have drifted into reading (and doing a little) bit about [[https://www.docker.com][Docker]]. That came about because I'm running a 'Dockerized' version of [[https://uisp.ui.com][UISP]]. When I say run, it's just that -- I followed the instructions and got it going. But what it all meant, I wasn't really sure. That's not to say I don't understand UISP, I do. I just don't/didn't understand all this docker stuff.
+
+# more
+
+So here are my notes on Docker. They are mainly to help me remember them :)
+
+Step 1. Install docker. As I was installing the docker engine (instead of Docker Desktop), I followed the regular [[https://docs.docker.com/engine/install/][installation instructions]].
+
+Docker isn't a VM (Virutal machine). Rather it runs an *image* in userland (i.e., it's non-kernel). When an image is running, that is a *container*. The *host* is the machine that runs the image. The host can be running Linux, Windows, or macOS.
+
+To run docker from the command line we use the ~run~ command; e.g.,:
+
+#+BEGIN_SRC bash
+  $ docker run -it --rm ubuntu /bin/bash
+#+END_SRC
+
+   Where ~-it~ means its an interactive process and so the STDIN should be kept open and run as a pseudo-tty, ~--rm~, means clean up after the command being run terminates,  the image that is being run is called ~ubuntiu~, and the command that gets executed in that image is ~/bin/bash~
+
+To find out which containers are running on the machine use the ~ps~ command:
+
+#+BEGIN_SRC bash
+  $ docker ps
+  CONTAINER ID   IMAGE                      COMMAND                  CREATED      STATUS                          PORTS                                    NAMES
+  0590374939e7   ubnt/unms:1.4.2            "/usr/bin/dumb-init …"   6 days ago   Up 15 minutes                                                            unms
+  2cd4b1b6ddc3   ubnt/unms-crm:3.4.2        "dumb-init -- make s…"   6 days ago   Up 15 minutes                   80-81/tcp, 443/tcp, 9000/tcp, 2055/udp   ucrm
+  f97d9d563370   ubnt/unms-siridb:1.4.2     "/entrypoint.sh siri…"   6 days ago   Up 15 minutes (healthy)                                                  unms-siridb
+  0bb0f8455ad4   rabbitmq:3.7.14-alpine     "docker-entrypoint.s…"   6 days ago   Up 15 minutes                                                            unms-rabbitmq
+  aa87084756f9   ubnt/unms-postgres:1.4.2   "entrypoint.sh postg…"   6 days ago   Restarting (1) 19 seconds ago                                            unms-postgres
+  ad1ea1717442   ubnt/unms-fluentd:1.4.2    "/entrypoint.sh /bin…"   6 days ago   Up 15 minutes                   5140/tcp, 127.0.0.1:24224->24224/tcp     unms-fluentd
+#+END_SRC
+
+You can always refer to a container by enough of its ID to make it uniquely distinguishable. E.g., 05 (or even 0) is enough to identify the fist container listed above. You can also use the NAME of the container.
+
+   Names are allocated automatically, but you can always give a container a name you want by using the ~--name~ option, say:
+
+#+BEGIN_SRC bash
+
+  $ docker run -it --rm --name MyShell ubuntu /bin/bash
+
+#+END_SRC
+
+  and on another terminal we can see it running
+
+#+BEGIN_SRC bash
+
+ $ docker ps
+ CONTAINER ID   IMAGE                      COMMAND                  CREATED          STATUS                    PORTS                                    NAMES
+ 130081adec76   ubuntu                     "/bin/bash"              10 seconds ago   Up 7 seconds                                                       MyShell
+ 0590374939e7   ubnt/unms:1.4.2            "/usr/bin/dumb-init …"   6 days ago       Up 54 minutes                                                      unms
+ 2cd4b1b6ddc3   ubnt/unms-crm:3.4.2        "dumb-init -- make s…"   6 days ago       Up 54 minutes             80-81/tcp, 443/tcp, 9000/tcp, 2055/udp   ucrm
+ f97d9d563370   ubnt/unms-siridb:1.4.2     "/entrypoint.sh siri…"   6 days ago       Up 54 minutes (healthy)                                            unms-siridb
+ 0bb0f8455ad4   rabbitmq:3.7.14-alpine     "docker-entrypoint.s…"   6 days ago       Up 54 minutes                                                      unms-rabbitmq
+ aa87084756f9   ubnt/unms-postgres:1.4.2   "entrypoint.sh postg…"   6 days ago       Up 27 minutes                                                      unms-postgres
+ ad1ea1717442   ubnt/unms-fluentd:1.4.2    "/entrypoint.sh /bin…"   6 days ago       Up 54 minutes             5140/tcp, 127.0.0.1:24224->24224/tcp     unms-fluentd
+
+#+END_SRC
+
+
+To clean up a stopped container use the ~rm~ command:
+
+ #+BEGIN_SRC bash
+ $ docker rm 05
+ #+END_SRC
+
+Use can use the same image to start-up multiple containers.
+
+Now here is an example from Aaron Powell. Let's say I want to extract a rar file.
+
+#+BEGIN_SRC bash
+
+  $ docker run --rm -v `pwd`:/files maxcnunes/unrar unrar x -r GNU-coreutils-5.3.0.rar
+
+#+END_SRC
+
+What's going on here?
+
+~run~ and ~--rm~ we know means run and then tidy up when the container stops.
+
+~-v `pwd`:/files~  in my case expands to ~-v /home/psmith:/files~ creates a docker volume. It effectively mounts my home directory (~/home/psmith~ on the host) on to the directory (~/files~) in the container. Thus I can share files with the container.
+
+~maxcnunes/unrar~ is the image to use
+
+and finally, ~unrar x -r GNU-coreutils-5.3.0.rar~ is the command to be run in the container.
+
+The end result is that the the .rar file gets unrar-ed.
+
+Not only can we map files into the container, we can also map ports to the container. So let's set up a container that does just that, and---as a bonus---with provide a GUI to manage containers, images, networks, and volumes. The magic below is the ~-p~ which maps a host port into a container port. Note, that the two don't have to be the same. We could have done ~-p 8443:9443~ in which case we could access portainer on port 8443. But for now lets stick with the default of port 9443. FYI, this default port is a HTTPS port.
+
+#+BEGIN_SRC bash
+
+  $ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+#+END_SRC
+
+
+If you don't expose a port using ~-p~ then you'll never be able to access it.
+
+
+
+Now how do you create an image to use with docker? The answer is, you use a ~dockerfile~. I won't go into the details here. For now, it's enough to know that such a thing exists. But here is an example with comments.
+
+#+BEGIN_SRC dockerfile
+
+  FROM ubuntu:18.04                   # The source docker image
+
+  EXPOSE: 2080                        # Expose a port
+  RUN mkdir /src/                     # Make a directory in the new image
+  COPY mini-http.sh /src              # Copy a file to the new image
+  WORKDIR /src                        # Set the working directory for when we 'run' the image
+  CMD ubuntu mini-http.sh             # Set the command to be run when the container starts up
+
+#+END_SRC
+
+And to turn a ~dockerfile~ into an image do:
+
+#+BEGIN_SRC bash
+
+  $ docker build -t my-http-server .
+
+  $ docker run --rm -p8000:2080 -d my-http-server
+
+#+END_SRC
+
+Where ~-t my-http-server~ names the new image and ~.~ says where to find the ~dockerfile~, and then I run the new image as a container, opening up the port 8000 on the host system and connecting it to port 2080 in the container. Then, if you like, you can ship the new container to other folk.
+
+Okay, now on to some less immediate things.
+
+~docker-compose~ can be used to set up all the options you might need when running an image with a service (or lots of services).
+
+That's probably enough about docker to get me going.

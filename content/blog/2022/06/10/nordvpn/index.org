@@ -1,0 +1,24 @@
+#+title: Nordvpn
+#+date: 2022-06-10T19:30:50+12:00
+#+lastmod: 2022-06-10T19:30:50+12:00
+#+categories[]: Tech
+#+tags[]: VPN, Nordvpn
+
+I use ~nordvpn~. It works well. Every time I re-install it on one of my linux boxes I forget how to login ... as I don't have a browser on them (command line only).  So the trick is to user:
+
+#+BEGIN_SRC bash
+
+nordvpn login --legacy
+
+#+END_SRC
+
+That's it.
+
+And then I need to tell it a few other things.
+
+
+#+BEGIN_SRC bash
+
+  nordvpn set firewall disable
+
+#+END_SRC
