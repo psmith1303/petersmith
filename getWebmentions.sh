@@ -1,7 +1,6 @@
 #!/bin/sh
 
 FILENAME="responses.json"
-WEBMENTION_KEY="-y4QezN6pCs5CNVshkMHaQ"
 ### find . -name ${FILENAME} -delete
 
 echo webmention.io-backup -t ${WEBMENTION_KEY} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p -ts
