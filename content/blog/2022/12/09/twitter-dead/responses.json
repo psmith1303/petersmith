@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "name": "Peter Smith",
+      "photo": "https://webmention.io/avatar/petersmith.org/92c24affb77d92500a334a255b4bae20d52d52c212e3da59de3e621ee3337a68.jpg",
+      "type": "card",
+      "url": "https://petersmith.org/"
+    },
+    "content": {
+      "html": "<p>\nRight on!</p>",
+      "text": "Right on!"
+    },
+    "like_of": "https://petersmith.org/blog/2022/12/09/twitter-dead/",
+    "name": "A like of:",
+    "published": "2022-12-09T16:42:44+13:00",
+    "rels": {
+      "canonical": "https://petersmith.org/webmentions/likes/2022/like-202220221209-164244/"
+    },
+    "type": "entry",
+    "url": "https://petersmith.org/webmentions/likes/2022/like-202220221209-164244/",
+    "wm_id": 1577597,
+    "wm_private": false,
+    "wm_property": "like-of",
+    "wm_received": "2022-12-09T03:49:15Z",
+    "wm_source": "https://petersmith.org/webmentions/likes/2022/like-202220221209-164244/",
+    "wm_target": "https://petersmith.org/blog/2022/12/09/twitter-dead/"
+  }
+]

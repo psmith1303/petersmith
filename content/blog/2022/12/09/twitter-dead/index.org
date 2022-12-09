@@ -4,11 +4,9 @@
 #+categories[]: Tech
 #+tags[]: Twitter SocialWeb
 
-I have deleted my account from Twitter. It seemed like the right thing to do.
+I have deleted my account from Twitter. It seemed like the right thing to do. Maybe I am just following the crowd, but I have left Twitter -- normally, I'd put a link to it here, but it's dead to me now.
 
 # more
-
-Maybe I am just following the crowd, but I have left Twitter -- normally, I'd put a link to it here, but it's dead to me now.
 
 I am thinking about joining [[https://joinmastodon.org/][Mastodon]] but I am not sure that I need a social 'net' like that. Yes, it might be fun to set up a Mastodon instance ... there are links such as these to help with that:
 
