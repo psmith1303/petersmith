@@ -1,0 +1,17 @@
+#+title: Zettelkasten
+#+date: 2022-12-10T07:42:16+13:00
+#+lastmod: 2022-12-10T07:42:16+13:00
+#+categories[]: Tech
+#+tags[]: Zettelkasten Notetaking Commonplace-book Emacs Orgmode
+
+I have a bit of a soft spot for Niklas Luhmann ever since [[https://www.business.uzh.ch/en/research/professorships/om/team/staff/seidl.html][David Seidl]] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=371249][introduced]] me to his ideas. I think it was at an EGOS conference in the early 2000s.
+
+So when I read about Luhmann's approach to note taking, the [[https://zettelkasten.de/introduction/][Zettelkasten]], I thought I'd give it a go. Now, whilst I love paper-based systems I thought I'd do some kind to computer-based system. Since I keep my to-do list using [[https://orgmode.org/][Org mode]], I cobbled together some elisp to glue it together with [[https://www.emacswiki.org/emacs/DeftMode][Deft mode]] and [[https://orgmode.org/manual/Capture.html][Org-capture]] to get a working system.
+
+When I say 'working', I used it successfully to complete the six-course [[https://www.coursera.org/professional-certificates/google-project-management][Google Project Management: Professional Certificate]]. At that point my Zettelkasten had about 176 cross-linked entries.
+
+# more
+
+Now, I've just finished reading Chris Aldrich's essay [[https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/][Reframing and simplifying the idea of how to keep a Zettelkasten]] where he suggests using a commonplace book as a step towards having a Zettelkasten. Indeed, the way he writes it sounds like a big step. And, I pretty much agree with all he says.
+
+But, I'm left wondering if I need a separate Zettelkasten, or should I integrate it to this, my work-in-progress of a commonplace book.
