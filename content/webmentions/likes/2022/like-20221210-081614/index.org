@@ -6,4 +6,3 @@
 #+tags[]: Zettelkasten
 #+wm_type: like
 
-
