@@ -7,7 +7,7 @@ echo webmention.io-backup -t ${WEBMENTION_KEY} -d petersmith.org -cd content -f 
 webmention.io-backup -t ${WEBMENTION_KEY} -d petersmith.org -cd content -f ${FILENAME}  -jf2 -tlo=false -p -ts
 
 #
-# Now fix the pesy hypens in the poperty names
+# Now fix the pesy hypens in the property names
 #
 find . -name ${FILENAME} -exec sed -i  '
 s/\(^ *\)"like-of":/\1"like_of":/
