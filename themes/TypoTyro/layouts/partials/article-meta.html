@@ -11,9 +11,9 @@
 			     datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time><li>
 	<li>Updated: {{ .Lastmod.Format "2 Jan 2006 15:04:05" }}</li>
 	<li>Author: 
-	  <div class="p-author h-card"><img rel="me" class="u-photo hidden" src="{{ .Site.Author.photo }}" alt="Headshot of Peter Smith" />
+	  <span class="p-author h-card"><img rel="me" class="u-photo hidden" src="{{ .Site.Author.photo }}" alt="Headshot of Peter Smith" />
 	    <a  rel="me" class="u-url u-uid url uid url fn n" href="{{ .Site.BaseURL }}"><span class="p-name"><span class="p-given-name">Peter</span> <span class="p-family-name">Smith</span></span></a>
-	  </div>
+	  </span>
 	</li>
       </ul>
     </div>
