@@ -4,14 +4,13 @@
 #+categories[]: Tech
 #+tags[]: Blogging Hugo IndieWeb
 
-For a while I have had two items on my to-do list. One said "Archive website" and the other said "Get one-page website". I thought I was over having a blog, and as part of simplifying my life, I was going to do away with it---, more or less---and replace it with something like this (from one of my other websites):
+For a while I have had two items on my to-do list. One said "Archive website" and the other said "Get one-page website". I thought I was over having a blog, and as part of simplifying my life, I was going to do away with it--- more or less---and replace it with something like this (from one of my other websites that does nothing):
 
-{{< figure src="ThisIsNotTheWebsite.png" title="Some other website" >}}
-
-# more
+{{< figure src="ThisIsNotTheWebsite.png" title="The front page of a private website" >}}
 
 Then, today, into my RSS feed came [[https://theacademicdesigner.com/2022/winners-of-the-2022-best-personal-academic-websites-contest/][Winners of the 2022 Best Personal Academic Websites Contest]]. My first thought was, what's the difference between an Academic Website and any other? "The contest recognizes the best personal websites of: Faculty, Professors, Scientists, Postdocs, Grad students, Independent researchers".  They are all pretty polished for sure. And it's a very different list compared to, say, [[https://blog.feedspot.com/academic_blogs/][20 Best Academic Blogs and Websites]] which has classics such as [[https://thesiswhisperer.com/][The Thesis Whisperer]]. As a side note, I had forgotten how good the Thesis Whisper is ... and it's not just about theses. Her post on [[https://thesiswhisperer.com/2022/12/02/looking-back-at-the-pandemic/][What can we expect in the next phase of the pandemic?]] is jam-packed with meaty food for thought. 
 
+# more
 
 But back to the theme of this post; killing or keeping my site.
 
