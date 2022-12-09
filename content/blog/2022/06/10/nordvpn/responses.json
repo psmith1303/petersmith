@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "name": "Peter Smith",
+      "photo": "https://webmention.io/avatar/petersmith.org/92c24affb77d92500a334a255b4bae20d52d52c212e3da59de3e621ee3337a68.jpg",
+      "type": "card",
+      "url": "https://petersmith.org/"
+    },
+    "content": {
+      "html": "<p>\nNordVPn have now updated their client. The <code>--legacy</code> option has been removed. Instead there are new ways to login in using a URL (which I never got working) or using <code>--token</code> (which worked faultlessly).</p>",
+      "text": "NordVPn have now updated their client. The --legacy option has been removed. Instead there are new ways to login in using a URL (which I never got working) or using --token (which worked faultlessly)."
+    },
+    "in_reply_to": "https://petersmith.org/blog/2022/06/10/nordvpn/",
+    "name": "In reply to:",
+    "published": "2022-12-09T07:21:05+13:00",
+    "rels": {
+      "canonical": "https://petersmith.org/webmentions/replies/2022/reply-202220221209-072105/"
+    },
+    "type": "entry",
+    "url": "https://petersmith.org/webmentions/replies/2022/reply-202220221209-072105/",
+    "wm_id": 1577596,
+    "wm_private": false,
+    "wm_property": "in-reply-to",
+    "wm_received": "2022-12-09T03:40:23Z",
+    "wm_source": "https://petersmith.org/webmentions/replies/2022/reply-202220221209-072105/",
+    "wm_target": "https://petersmith.org/blog/2022/06/10/nordvpn/"
+  }
+]
