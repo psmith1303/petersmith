@@ -1,0 +1,9 @@
+#+title: A like of: 
+#+slug: like-202220221210-081614
+#+date: 2022-12-10T08:16:14+13:00
+#+likeURL: https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/
+#+categories[]: IndieWeb
+#+tags[]: Zettelkasten
+#+wm_type: like
+
+
