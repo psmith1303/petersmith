@@ -106,11 +106,6 @@ rssLimit = 50
   post = "<img src='/images/ssrn.svg' alt='SSRN logo'>"
   weight = 10
 [[menu.indieweb]]
-  name = "Twitter"
-  url = "https://twitter.com/JustAnotherCog"
-  post = "<img src='/images/Twitter_bird_logo_2012.svg' alt='SSRN logo'>"
-  weight = 10
-[[menu.indieweb]]
   name = "Github"
   url = "https://github.com/psmith1303"
   post = "<img src='/images/github-mark.svg' alt='GitHub logo'>"

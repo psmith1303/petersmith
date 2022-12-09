@@ -1,0 +1,20 @@
+#+title: Twitter-dead
+#+date: 2022-12-09T09:35:25+13:00
+#+lastmod: 2022-12-09T09:35:25+13:00
+#+categories[]: Tech
+#+tags[]: Twitter SocialWeb
+
+I have deleted my account from Twitter. It seemed like the right thing to do.
+
+# more
+
+Maybe I am just following the crowd, but I have left Twitter -- normally, I'd put a link to it here, but it's dead to me now.
+
+I am thinking about joining [[https://joinmastodon.org/][Mastodon]] but I am not sure that I need a social 'net' like that. Yes, it might be fun to set up a Mastodon instance ... there are links such as these to help with that:
+
+- [[https://til.simonwillison.net/mastodon/custom-domain-mastodon][Getting Mastodon running on a custom domain]]
+
+- [[https://tech.oeru.org/join-fediverse-installing-mastodon-40-ubuntu-2204-docker-compose][Join the Fediverse: installing Mastodon 4.0 on Ubuntu 22.04 with Docker Compose]]
+
+But is that just another complication to my life? After all, I do have a re-occurring "TO-DO" of 'Simplify my life'. So, for now, I'll hold off on joining in.
+
