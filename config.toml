@@ -20,6 +20,7 @@ rssLimit = 50
 [taxonomies]
   category = 'categories'
   tag = 'tags'
+  section = 'sections'
 
 [permalinks]
 #    blog = "/blog/:year/:month/:day/:slug/"

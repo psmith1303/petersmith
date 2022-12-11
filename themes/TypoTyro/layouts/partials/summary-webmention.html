@@ -2,8 +2,8 @@
 <div class="article-content">
   {{- $webmentionURL := .Scratch.Get "webmentionURL" }}
   <h1 class="has-text-left"><a href="{{ $webmentionURL }}">{{ $webmentionURL }}</a></h1>
-  <div class="blockquote">{{- .Summary -}}</div>
-  <a href='{{ .Permalink }}'>Full details …</a>
+  <div class="blockquote">{{- chomp .Summary -}}</div>
+  {{- partial "summary-leader.html" . -}}
 </div>
 <div class="article-nav"></div>
 <div class="article-meta"></div>

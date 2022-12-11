@@ -1,18 +1,20 @@
 {{ define "main" }}
 <main>
-    <article>
-    <div class="article-header"><h1>Taxonomy term: {{ .Title }}</h1></div>
+  <article>
+    <div class="article-header"><h1>{{ .Title }}</h1></div>
+    <h2>The default taxonomy template</h2>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}
     <div class="article-content">
       <!-- Ranges through content/posts/*.org -->
-      {{ range .Pages.GroupByDate "2006" }}
-        {{ partial "toc.html" . }}
+      <ul>
+      {{ range .Data.Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ end }}
+      </ul>
     </div>
     <div class="article-nav"></div>
     <div class="article-meta"></div>
   </article>
 </main>
 {{ end }}
-

@@ -1,7 +1,6 @@
 {{ define "main" }}
 <article>
   <div class="article-header"><h1>{{ humanize .Data.Plural }}</h1></div>
-  <h2>Default terms template</h2>
   <div class="article-content">{{ $data := .Data }}
     <ul class="wrappinglist">
       {{ range .Data.Terms.Alphabetical }}

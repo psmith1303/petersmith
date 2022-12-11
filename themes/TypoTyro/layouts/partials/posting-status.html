@@ -1,0 +1,12 @@
+{{ range .Pages.GroupBy "Section" }}
+{{ $MyKey := .Key }}
+
+ <ul class="sparklines">
+   {{ range .Pages }}
+   <li>
+      <embed {{ printf "src=%q" ( replaceRE "(\\s)" "" (partial "sparkline-data" (dict "context" . "WhatSection" $MyKey ))) | safeHTMLAttr }}  width="100" height="15">
+     {{ len .Pages }} <a href="{{ .Permalink }}">{{ .Title }}</a> 
+   </li>
+   {{ end }}
+ </ul>
+{{ end }}
