@@ -1,0 +1,81 @@
+#+title: Posts by month, again
+#+date: 2022-12-12T19:28:42+13:00
+#+lastmod: 2022-12-12T19:28:42+13:00
+#+categories[]: Tech
+#+tags[]: Hugo
+
+
+[[{{< ref "posts-by-month" >}}][Just over a year ago]], I strung together a bit of Hugo 'code' to display all my posts as a sparkline. Somewhere in the mists of time, I stopped doing that, but yesterday I decided I wanted to show all the types of content ([[https://gohugo.io/content-management/sections/][sections]]) I had, and thought I'd add in sparklines.  Going back to my code, which used partials, I couldn't get it to work so I did a bit of rewriting.
+
+After a bit of faffing around with the old code, I finally got it working the way I wanted it (more or less)
+
+{{< figure src="SectionSparklines.png" title="Example of my sparklines" >}}
+
+# more
+
+I collapsed all the code into the file I use to display the contents of my Sections.
+
+First, I range over the ~.Site.Sections~ and do it ~.ByTitle~. It took me a bit of time/trial-and-error to get that working, as I thought I could just use ~.Alphabetical~ --- but I was wrong.
+
+Then, range over the posts by year, and in a dictionary, note how many entries there are (i.e., by month and year).
+
+Next, I build up a string of entries for the 20 + years * 12 months of the number of posts I have, and use some magic to display it as an ~.svg~ image.
+
+
+I have a file called ~sections.html~ which has this in it.
+
+#+BEGIN_SRC html
+
+  {{ define "main" }}
+  <article>
+    <div class="article-header"><h1>{{ humanize .Data.Plural }}</h1></div>
+    <div class="article-content">
+      <ul class="sparklines">
+      {{ range $section, $taxonomy := .Site.Sections.ByTitle }}
+        <li>
+          {{ $ThisSection := $taxonomy.Title }}
+          {{ $master_list := dict "2021 10" 0 }}
+          {{ range (($taxonomy.Pages).GroupByDate "y2006_01").Reverse  }}
+              {{ $my_year := .Key }} {{ $my_entries := len (.Pages.Reverse) }}
+              {{ $temp := dict $my_year $my_entries }}
+              {{ $master_list = merge  $temp $master_list}}
+           {{ end }}
+
+           {{ $StartYear := 2000 }}
+           {{ $EndYear := now.Format "2006" }}
+
+           {{ $MyList := "0" }}
+           {{ $NewOne := "" }}
+           {{ range $index, $year := (seq $StartYear $EndYear ) }}
+              {{ range $month := (seq 1 12) }}
+                 {{ $key := (printf "y%d_%02d" $year $month) }}
+                 {{ $entries := index $master_list $key }}
+                 {{ if $entries }}
+                    {{ $NewOne = $entries }}
+                 {{ else }}
+                    {{ $NewOne = "0" }}
+                 {{ end }}
+                 {{ $MyList = print $MyList ", " $NewOne }}
+               {{ end }}
+            {{ end }}
+
+          {{- $MyList = print "/images/sparkline.svg?" $MyList -}}
+
+          <embed {{ printf "src=%q" ( replaceRE "(\\s)" "" $MyList ) | safeHTMLAttr }}  width="300" height="30">
+            {{ len .Pages }} <a href="{{ .Permalink }}">{{ .Title }}</a> 
+        </li>
+      {{ end }}
+      </ul>
+    </div>
+    <div class="article-nav"></div>
+    <div class="article-meta"></div>
+  </article>
+  {{ end }}
+
+#+END_SRC
+
+Job done.
+
+Or maybe not. I feel I should make the code more flexible, reliable, and re-usable. But it's working right now.
+
+One thing I would like to do, if figure out the CSS I need so that the ~content~, the white bit in the middle of the screenshot, was automagically big enough so that when I only had a little bit of content---as in this case---it would expand to fill the whole screen. That'll take some time to work out, so I'll put that on my to-do list too :)
