@@ -1,9 +1,9 @@
 {{ define "main" }}
 <article>
-  <div class="article-header"><h1>{{ humanize .Data.Plural }}: Kinds of entries</h1></div>
+  <div class="article-header"><h1>{{ humanize .Data.Plural }}</h1></div>
   <div class="article-content">
     <ul class="sparklines">
-    {{ range $section, $taxonomy := .Site.Sections }}
+    {{ range $section, $taxonomy := .Site.Sections.ByTitle }}
     <li>
       {{ $ThisSection := $taxonomy.Title }}
       {{ $master_list := dict "2021 10" 0 }}
@@ -39,7 +39,6 @@
 
     {{ end }}
     </ul>
-
   </div>
   <div class="article-nav"></div>
   <div class="article-meta"></div>
