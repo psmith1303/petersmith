@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
   <article>
-    <div class="article-header"><h1>{{ .Title | singularize }} entries by date</h1></div>
+    <div class="article-header"><h1>{{ .Title }} by date</h1></div>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}
     <div class="article-content">
