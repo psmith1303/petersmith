@@ -1,0 +1,43 @@
+#+title: Checking with check-ins
+#+date: 2022-12-15T09:47:34+13:00
+#+lastmod: 2022-12-15T09:47:34+13:00
+#+categories[]: Tech
+#+tags[]: Blogging Hugo Python Go
+
+I rather like the way [[https://boffosocko.com][Chris Aldrich]] has check-ins on his website. But my current workflow for posting isn't friendly enough to do it:
+
+- Take a photo (or more)
+- Create a Hugo post (in Emacs, which creates the directory as I'm using [[https://gohugo.io/content-management/page-bundles/][page bundles]])
+- Move the photo(s) into the directory
+- Add the details of the photo's into the post
+- Publish the whole thing. Yes, I don't have continuous integration going; well I do, but only when I make a commit to ~git~.
+
+There is a lot of friction involved; so much that I couldn't be bothered to do it. But technology is wonderful, ain't it.
+
+# more
+
+I've created a [[{{< ref "/sections" >}}][new section]] at [[{{< ref "/check-ins" >}}][check-ins]]. A pretty obvious name. I toyed with just creating regular blog posts and tagging them as check-ins, but the formatting is a little different to regular posts, and that drove my decision. That said, I think Chris is using 'regular posts' (based on the URLs he is using). 
+
+I spent most of yesterday getting to grips with using Python to access my email provider through IMAP. Which allowed me to create a smoother process.
+
+- Take a photo or two
+- Email them to myself (well, a special email address)
+- My ~process-email.py~ script does some magic
+  - Scan my inbox for the special email address
+  - Use the subject as the title of the post
+  - Create the folder
+  - Save the photos
+  - Create a ~check-in~ post using the body of the email, and embedding the photos
+- Publish the whole thing
+
+This flow seems to work for me, and I think it is probably just as easy as using an app or similar (especially once I add a tweaks that follow).
+
+I'm umm-ing and ah-ing about whether I should run the script periodically from ~cron~ or just do it manually once in a while. 
+
+Things still to do. I have to manually /post hoc/ add tags to the check-in. I think I want to embedded them in the email and parse them out. E.g., Using something like #coffee #travel in the email message, and convert them to tags.
+
+I would also like a smarter way to display the photos. Currently I stack them one on top of the other, but I like how [[https://boffosocko.com/2021/06/26/55792885/][Chris has done some of his]].
+
+Finally, I'd like to surface the location. I have the GPS info from the photo's [[https://en.wikipedia.org/wiki/Exif][exif data]] and that will just take a little more processing.
+
+As an aside, I wondering about using this as an opportunity to create something in [[https://go.dev/][Go]]. I've dabbled a little with it in the past, but I've never had something 'real' to do with it. W

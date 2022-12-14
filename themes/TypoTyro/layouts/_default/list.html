@@ -1,6 +1,7 @@
 {{ define "main" }}
 <main>
   <article>
+    {{ "<!-- -default/list.html -->" | safeHTML }}
     <div class="article-header"><h1>{{ .Title }} by date</h1></div>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}

@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="h-entry">
+  {{ "<!-- The notes/single.html template -->" | safeHTML }}
   <div class="article-header">
   <a href="{{ .Permalink }}" ><h1 class="article-title p-name">A Note: {{ .Title }}</h1></a>
   {{ $dateTime := .PublishDate.Format "2006-01-02" }}

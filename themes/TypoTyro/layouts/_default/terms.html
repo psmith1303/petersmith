@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article>
+  {{ "<!-- _default/terms.html -->" | safeHTML }}
   <div class="article-header"><h1>{{ humanize .Data.Plural }}</h1></div>
   <h2>Default terms template</h2>
   <div class="article-content">{{ $data := .Data }}

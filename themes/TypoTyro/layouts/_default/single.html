@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="h-entry">
+  {{ "<!-- -default/single.html -->" | safeHTML }}
   {{- partial "article-header.html" . -}}
   <div class="article-content e-content">{{- .Content -}}</div>
   {{- partial "article-nav.html" . -}}

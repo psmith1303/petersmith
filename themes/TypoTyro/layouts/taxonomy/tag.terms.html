@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article>
+  {{ "<!-- taxonomy/tag.terms.html -->" | safeHTML }}
   <div class="article-header"><h1>{{ humanize .Data.Plural }} alphabetically</h1></div>
   <div class="article-content">{{ $data := .Data }}
     <ul class="wrappinglist">

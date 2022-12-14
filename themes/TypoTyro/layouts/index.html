@@ -9,6 +9,8 @@
     <article>
       {{- if eq .Type "blog" -}}
         {{- partial "summary-blog.html" . -}}
+      {{- else if eq .Type "check-ins" -}}
+        {{- partial "summary-check-in.html" . -}}
       {{- else if eq .Type "notes" -}}
         {{- partial "summary-notes.html" . -}}
       {{- else if eq .Params.wm_type "like" -}}

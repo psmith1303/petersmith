@@ -9,6 +9,7 @@ This is a like
 {{- end -}}
 <main>
   <article>
+    {{ "<!-- webmentions/list.html -->" | safeHTML }}
     <div class="article-header"><h1>{{ .Title }} of</h1></div>
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}

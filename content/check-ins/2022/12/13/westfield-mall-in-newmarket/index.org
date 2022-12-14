@@ -1,0 +1,9 @@
+#+title: Westfield Mall in Newmarket
+#+date: 2022-12-13T11:38:25+1300
+#+lastmod: 2022-12-13T11:38:25+1300
+#+categories[]: Check-ins
+#+tags[]: Shopping
+
+{{< figure src="2022-12-13-img_7506.jpg" >}}
+
+Some early morning shopping before the crowds. 

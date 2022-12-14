@@ -10,6 +10,7 @@
 {{- .Scratch.Set "webmentionType" "u-in-reply-to" -}}
 {{- end -}}
 <article class="h-entry">
+ {{ "<!-- webmentions/single.html -->" | safeHTML }}
   <div class="article-header">
     <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
     <h2 class="h-card author post-author p-author  has-text-right">

@@ -1,16 +1,17 @@
 {{ define "main" }}
 <main>
   <article>
+    {{ "<!-- _default/taxonomy.html -->" | safeHTML }}
     <div class="article-header"><h1>{{ .Title }}</h1></div>
-    <h2>The default taxonomy template</h2>
+    {{ "<!-- The default taxonomy template -->" | safeHTML }}
     <!-- "{{.Content}}" pulls from the content of the corresponding _index.org -->
     {{ .Content }}
     <div class="article-content">
       <!-- Ranges through content/posts/*.org -->
       <ul>
-      {{ range .Data.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
+	{{ range .Data.Pages.GroupByDate "2006" }}
+           {{ partial "toc.html" . }}
+	{{ end }}
       </ul>
     </div>
     <div class="article-nav"></div>
