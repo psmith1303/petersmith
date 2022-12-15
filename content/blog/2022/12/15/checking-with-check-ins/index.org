@@ -1,6 +1,6 @@
 #+title: Checking with check-ins
 #+date: 2022-12-15T09:47:34+13:00
-#+lastmod: 2022-12-15T09:47:34+13:00
+#+lastmod: 2022-12-15T`9:56:22+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Hugo Python Go
 
@@ -16,7 +16,7 @@ There is a lot of friction involved; so much that I couldn't be bothered to do i
 
 # more
 
-I've created a [[{{< ref "/sections" >}}][new section]] at [[{{< ref "/check-ins" >}}][check-ins]]. A pretty obvious name. I toyed with just creating regular blog posts and tagging them as check-ins, but the formatting is a little different to regular posts, and that drove my decision. That said, I think Chris is using 'regular posts' (based on the URLs he is using). 
+I've created a [[{{< ref "/sections" >}}][new section]] at [[{{< ref "/check-ins" >}}][check-ins]]. A pretty obvious name. I toyed with just creating regular blog posts and tagging them as check-ins, but the formatting is a little different to regular posts, and that drove my decision. That said, I think Chris is using 'regular posts' (based on the URLs he is using).
 
 I spent most of yesterday getting to grips with using Python to access my email provider through IMAP. Which allowed me to create a smoother process.
 
@@ -32,11 +32,11 @@ I spent most of yesterday getting to grips with using Python to access my email 
 
 This flow seems to work for me, and I think it is probably just as easy as using an app or similar (especially once I add a tweaks that follow).
 
-I'm umm-ing and ah-ing about whether I should run the script periodically from ~cron~ or just do it manually once in a while. 
+I'm umm-ing and ah-ing about whether I should run the script periodically from ~cron~ or just do it manually once in a while.
 
-Things still to do. I have to manually /post hoc/ add tags to the check-in. I think I want to embedded them in the email and parse them out. E.g., Using something like #coffee #travel in the email message, and convert them to tags.
+Things still to do. +I have to manually /post hoc/ add tags to the check-in. I think I want to embedded them in the email and parse them out. E.g., Using something like #coffee #travel in the email message, and convert them to tags.+
 
-I would also like a smarter way to display the photos. Currently I stack them one on top of the other, but I like how [[https://boffosocko.com/2021/06/26/55792885/][Chris has done some of his]].
+I would also like a smarter way to display the photos. Currently I stack them one on top of the other, but I like how [[https://boffosocko.com/2021/06/26/55792885/][Chris has done some of his]]. I also need to use something like [[https://nilsnh.no/2018/06/10/hugo-how-to-add-support-for-responsive-images-trough-image-processing-and-page-bundles-3/][srcset]] to get the right size image to the browser, and use a better format for images. E.g., [[https://en.wikipedia.org/wiki/WebP][webp]].
 
 Finally, I'd like to surface the location. I have the GPS info from the photo's [[https://en.wikipedia.org/wiki/Exif][exif data]] and that will just take a little more processing.
 

@@ -4,10 +4,9 @@
       <li><a href="/blog/">Posts by date</a></li>
       <li><a href="/tags/">Tags</a></li>
       <li><a href="/categories/">Categories</a></li>
+      <li><a href="/check-ins/">Check-ins</a></li>
       <li><a href="/webmentions/">Webmentions</a></li>
       <li><a href="/sections/">Sections</a></li>
-      <li><a href="/index.xml">RSS feed</a></li>
-
     </ul>
   </div>
   <div id="footer-pages">
@@ -15,6 +14,7 @@
       {{ range where .Site.RegularPages "Section" "pages" }}
         <li><a href="{{ .Permalink }}">{{ .Title }} </a></li>
       {{ end }}
+      <li><a href="/index.xml">RSS feed</a></li>
     </ul>
   </div>
   <div id="footer-about">

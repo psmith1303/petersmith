@@ -73,29 +73,6 @@ rssLimit = 50
 
 
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 10
-
-[[menu.main]]
-  name = "Likes"
-  url = "/likes/"
-  weight = 20
-
-
-[[menu.main]]
-  name = "Resources"
-  url = "/resources/"
-  weight = 90
-
-[[menu.main]]
-  name = "Site info"
-  url = "/pages/"
-  weight = 99
-
-
-
 [[menu.indieweb]]
   name = "Orid"
   url = "https://orcid.org/0000-0002-6382-7051"
