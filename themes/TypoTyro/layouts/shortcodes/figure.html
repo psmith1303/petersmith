@@ -1,4 +1,43 @@
 {{- $image := .Page.Resources.GetMatch (.Get "src" ) -}}
+<!-- Check to see if the image can be processed; i.e., is is not an SVG file -->
+{{- if ne $image.MediaType.SubType "svg" -}}
+   {{ $orientation := 0 }}
+   {{ with $image.Exif }}
+   {{ $orientation = .Tags.Orientation }}
+   {{ end }}
+   {{ $myTransform := "" }}
+   {{ if eq $orientation  "0" }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 1 }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 2 }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 3 }}
+      {{ $myTransform = "r180" }}
+   {{ else if eq $orientation 4 }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 5 }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 6 }}
+      {{ $myTransform = "r270" }}
+   {{ else if eq $orientation 7 }}
+      {{ $myTransform = "" }}
+   {{ else if eq $orientation 8 }}
+      {{ $myTransform = "r90" }}
+   {{ else }}
+      {{ $myTransform = "" }}
+      {{ printf "Broken orientation: %#v" $orientation }}
+   {{ end }}
+
+  {{ $do_it := printf "%dx %s" 640 $myTransform }}
+
+  {{ if gt $image.Width 640 }}  
+    {{ $image = $image.Resize $do_it }}  
+  {{ end }}
+{{- end -}}
+
+
+
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>

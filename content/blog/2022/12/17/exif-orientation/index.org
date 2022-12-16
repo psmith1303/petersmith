@@ -1,0 +1,88 @@
+#+title: EXIF orientation
+#+date: 2022-12-17T11:22:52+13:00
+#+lastmod: 2022-12-17T11:22:52+13:00
+#+categories[]: Tech
+#+tags[]: Photos Hugo
+
+There is a lot of advice scattered around the internet about the need to optimize images; only deliver the right size to the browser/device. E.g., many of my photos are around 1-2Mb, and when I display them on this site, no matter what size will actually be displayed, the full 1-2Mb image gets transferred. That's a bit wasteful.
+
+So, let's do the "responsive image" thing, as suggested by someone like [[https://www.vegard.net/hugo-resize-images/][Vegard Skjefstad]]. It's good advice. However, I have found a few challenges that I'm working through. First, some of my images are [[https://developer.mozilla.org/en-US/docs/Web/SVG][SVG]], and most of the code I've found falls over when applied to a SVG. So, in my [[https://gohugo.io/content-management/shortcodes/][shortcode]], I've had to mix in something like:
+
+#+BEGIN_SRC html
+
+  {{- $image := .Page.Resources.GetMatch (.Get "src" ) -}}
+  <!-- Check to see if the image can be processed; i.e., is is not an SVG file -->
+  {{- if ne $image.MediaType.SubType "svg" -}}
+
+      <!-- Now do all my image processing in here :)  -->
+
+  {{- end -}}
+
+#+END_SRC
+
+One problem down. But there are more 😞
+
+# more
+
+Most of the "responsive image" work relies on resizing and/or converting the image to more efficient formats, e.g., [[https://en.wikipedia.org/wiki/WebP][webp]]. That's all well and good, but the Go libraries for image manipulation (upon which the Hugo methods are based) don't know about EXIF infomation. As [[https://github.com/gohugoio/hugo/issues/1014#issuecomment-353418635][BEP says]]:
+
+#+BEGIN_QUOTE
+The thing is, Go's image library does not have any support for EXIF data, so there is bound to be situations where the image taken with the iPhone looks fine in some preview but gets the wrong rotation when viewed in Hugo. The user could take the round back to Photoshop, but ... Go image resizer services I have looked at have taken a similar approach.
+
+The "specific cropping" is the thumbnail use case etc., and having an (optional) way to set the anchoring position is pretty powerful. This kind of cropping is my main motivation for this feature -- in my head, this has very little to do with galleries etc.
+#+END_QUOTE
+
+The upshot is that when I resize/reformat an image taken on an iPhone (pretty much all of my images), then the orientation information is stripped out, so some images are then presented in the wrong orientation; e.g., portrait instead of landscape. ::sigh::
+
+So, I need to build in a way to preserve the orientation. [[http://sylvana.net/jpegcrop/exif_orientation.html][This helpful page]] explains how the EXIF orientation tag works. In summary:
+
+/The orientation of the camera relative to the scene, when the image was captured. The relation of the '0th row' and '0th column' to visual position is shown as below./
+
+| Value | 0th Row    | 0th Column |
+|-------+------------+------------|
+|     1 | top        | left side  |
+|     2 | top        | right side |
+|     3 | bottom     | right side |
+|     4 | bottom     | left side  |
+|     5 | left side  | top        |
+|     6 | right side | top        |
+|     7 | right side | bottom     |
+|     8 | left side  | bottom     |
+|-------+------------+------------|
+
+The same page provides a script to do the transformations:
+
+#+BEGIN_SRC bash
+    # exifautotran [list of files]
+  #
+  # Transforms Exif files so that Orientation becomes 1
+  #
+  for i
+  do
+   case `jpegexiforient -n "$i"` in
+   1) transform="";;
+   2) transform="-flip horizontal";;
+   3) transform="-rotate 180";;
+   4) transform="-flip vertical";;
+   5) transform="-transpose";;
+   6) transform="-rotate 90";;
+   7) transform="-transverse";;
+   8) transform="-rotate 270";;
+   ,*) transform="";;
+   esac
+   if test -n "$transform"; then
+    echo Executing: jpegtran -copy all $transform $i
+    jpegtran -copy all $transform "$i" > tempfile
+    if test $? -ne 0; then
+     echo Error while transforming $i - skipped.
+    else
+     rm "$i"
+     mv tempfile "$i"
+     jpegexiforient -1 "$i" > /dev/null
+    fi
+   fi
+  done
+
+#+END_SRC
+
+All I need to do now is implement that in my shortcode as part of resizing/reformatting my images. Phew.
