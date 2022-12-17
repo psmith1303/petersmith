@@ -188,9 +188,24 @@ My weapon of choice for looking at the performance of pages is [[https://pagespe
 
 {{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="Performance pre-responsive images" >}}
 
-The performance is not so good (at 68).
+The performance is not so good (at 68). The two images total more than 5Mb, are jpg files, and have no width and height info -- let's work on that a bit. First, I'll reduce the size of the images to be 640 wide. Does that make a difference. Why, yes it does. As you can see below, that bumps the page's performance score up to 94. PageSpeed still complains about not using next-gen image formats (webp), and not indicating the size of the images.
 
 
 {{< figure src="Screenshot 2022-12-17 at 12-57-21 PageSpeed Insights.png" title="The canon of creativity" >}}
 
-{{< figure src="Screenshot 2022-12-17 at 14-21-05 PageSpeed Insights.png" title="The canon of creativity" >}}
+The next step is implementing Tim's shortcode (with my tweaks for SVG and image orientation). Looking at the report below, that take the page's performance up to 100. Woohoo.
+
+{{< figure src="Screenshot 2022-12-17 at 14-21-05 PageSpeed Insights.png" title="The canon of creativity" >}}.
+
+So what is left to do. In terms of performance, PageSpeed notes that:
+
+- Largest Contentful Paint image was lazily loaded
+  Above-the-fold images that are lazily loaded render later in the page lifecycle, which can delay the largest contentful paint
+
+Now I need to turn my attention to accessibility (with a score of 87). Here PageSpeed notes that:
+
+- Image elements do not have [alt] attributes
+- Links do not have a discernible name
+- Background and foreground colors do not have a sufficient contrast ratio. 
+
+  That last one is really about the colour I use for the Categories and Tags. They are a nice blue (#4169e1;). Maybe I need something darker.
