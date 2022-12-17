@@ -4,7 +4,7 @@
 #+categories[]: Check-ins
 #+tags[]: 
 
-{{< figure src="2022-12-14-img_7514.jpg" >}}
+{{< figure src="2022-12-14-img_7514.jpg" alt="A picture of a glass of coffee" >}}
 
 A double-shot piccolo. Nice. Very nice, and punchy too. 
 

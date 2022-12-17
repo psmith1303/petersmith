@@ -12,4 +12,4 @@ Skip forward to this month. I have moved to Bigpipe and their elite plan which c
 
 Using a laptop running Debian Stretch (through two hubs), I get:
 
-{{< figure src="speedtest-7324521651.png" title="Speed test results 2018-05-21" >}}
+{{< figure src="speedtest-7324521651.png" caption="Speed test results 2018-05-21" >}}

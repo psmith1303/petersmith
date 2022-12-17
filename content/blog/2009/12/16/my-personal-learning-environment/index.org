@@ -10,13 +10,13 @@
 [[https://drbadgr.wordpress.com/about/][Jo Badge]] talks a bit about her [[https://drbadgr.wordpress.com/tag/ple/][personal learning environment]], and so I thought I'd draft out mine. I'm really web-centric and spend most of time "in' [[https://www.mozilla.com/en-US/firefox/personal.html][Firefox]] (I sometimes think about switching to [[https://www.google.com/chrome][Chrome]], but I'm hooked on [[https://www.zotero.org/][Zotero]]).
 
 
-{{< figure src="My personal learning environment.png" title="My personal learning environment" >}}
+{{< figure src="My personal learning environment.png" caption="My personal learning environment" >}}
 
 I found it interesting to consider what is missing here ... there is no PowerPoint. I so rarely use "slides'; often all I have is a single slide so students coming into class know they are in the right place. Increasingly, when I need slides I'm trying/learning to do them using [[https://latex-beamer.sourceforge.net/][Beamer]]. Having said that, for the odd complex set of ideas I do use [[https://www.mindjet.com/][MindManager]] in presentation mode to show how I see the connections between things.
 
 Since writing this, I've come across Hull, Pettifer, and Kell (2008). They present an interesting figure, which seems to show how much I can actually do in [[https://www.zotero.org/][Zotero]] (which is most of it).
 
-{{< figure src="Figure4-workflow.PNG" title="Figure 4: Workflow" >}}
+{{< figure src="Figure4-workflow.PNG" caption="Figure 4: Workflow" >}}
 
 #+BEGIN_QUOTE
 

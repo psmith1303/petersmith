@@ -10,7 +10,7 @@ Our BUSINESS 101 course (aka Business and Enterprise) is based on [[https://www.
 
 We have just completed a practice run through and the results are quite interesting (but not unexpected).
 
-{{< figure src="2011S1B101PeerEvals-practice.png" title="Practice Peer Evaluation results for BUSINESS 101, Semester 1, 2011" >}}
+{{< figure src="2011S1B101PeerEvals-practice.png" caption="Practice Peer Evaluation results for BUSINESS 101, Semester 1, 2011" >}}
 
 Approximately half the class completed the practice team review.
 

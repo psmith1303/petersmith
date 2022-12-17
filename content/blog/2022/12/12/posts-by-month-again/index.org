@@ -9,7 +9,7 @@
 
 After a bit of faffing around with the old code, I finally got it working the way I wanted it (more or less)
 
-{{< figure src="SectionSparklines.png" title="Example of my sparklines" >}}
+{{< figure src="SectionSparklines.png" caption="Example of my sparklines" alt="Some sparklines" >}}
 
 # more
 

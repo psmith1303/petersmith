@@ -96,7 +96,6 @@ Figure block begins, based on Hugo's default and Mozilla's example
     {{ end }}{{ if ($.Scratch.Get "largewebp") }}      {{($.Scratch.Get "largewebp").RelPermalink}} 1440w{{ end }}'
         />
         <img
-          loading="lazy"
           sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
           srcset='
     {{ if ($.Scratch.Get "tiny") }}      {{($.Scratch.Get "tiny").RelPermalink}} 360w,

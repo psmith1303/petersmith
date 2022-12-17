@@ -19,7 +19,7 @@ Although the race is described as generally down hill, the first third of the ra
 The spectators were great; they offered a lot of encouragement, and many pointed out that "It's all downhill from here". That might have been true, in general, but the undulating nature of the course meant that there was also going to be some kind of uphill after each of the downhills.
 
 
-{{< figure src="kerikeri-half-marathon2011.png" title="Peter Smith's results from the 2011 Kerikeri half-marathon" >}}
+{{< figure src="kerikeri-half-marathon2011.png" caption="Peter Smith's results from the 2011 Kerikeri half-marathon" >}}
 
 There were some competitors in wheelchairs. One, was dressed as a gorilla and could really motor downhill (and he wasn't too shabby going up hill either). What an inspiration, especially given the heat. (Oh, and yes, he did beat me.)
 

@@ -10,7 +10,7 @@ A few people have noticed that I have lost some weight, and that's true.
 
 I'm also getting a few questions about the how I did it ... so here it is.
 
-{{< figure src="psmith1303PhysicsDiet.png" title="Graphs of weighloss progress" >}}
+{{< figure src="psmith1303PhysicsDiet.png" caption="Graphs of weighloss progress" >}}
 
 I really only did did two things. First, I began tracking my weight daily on [[https://physicsdiet.com/][Physics Diet]]. Secondly, I everything that I ate through [[https://www.livestrong.com][Live Strong]] (and in particular the /Daily Plate/ function there). Putting my managerial hat on, I would say that we know "you get what you measure", and so I measured.
 

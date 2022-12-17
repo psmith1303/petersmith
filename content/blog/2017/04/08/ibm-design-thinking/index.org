@@ -18,7 +18,7 @@ Fair enough. That feel like something that came out of last year's Technology Ro
 
 The workshop---last Friday, and the Friday before that---was facilitated by two people from IBM and used their version of design thinking. These are my notes and reflections on the process.
 
-{{< figure src="IBM-DesignThinking.jpg" title="IBM design thinking" >}}
+{{< figure src="IBM-DesignThinking.jpg" caption="IBM design thinking" >}}
 
 The structure of the two days was meant to be (based on the orientation email that was sent out):
 

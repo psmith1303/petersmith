@@ -16,4 +16,4 @@ For the first half of the marathon, my average pace was 5:03 whereas for the sec
 
 I need to do more long distance training (beyond 32Km), some low heart-rate training, and sort out my nutrition during races. That should all help to delay the onset on "the wall'.
 
-{{< figure src="Auckland2011Marathon.png" title="Auckland Marathon 2011" >}}
+{{< figure src="Auckland2011Marathon.png" caption="Auckland Marathon 2011" >}}

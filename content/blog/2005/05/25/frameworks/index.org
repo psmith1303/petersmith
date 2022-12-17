@@ -8,6 +8,6 @@
 
 As part of the /Integrating Strategy/ course that our MBA students do, we did a case /McKinsey & Company: Managing knowledge and learning/. As part of "doing" the case I thought it would be interesting to use McKinsey's own 7S framework to look at the case (see below). My purpose in using the 7S framework wasn't as an exposition on its usefulness as a tool (I thought we had got beyond that), but as a little bit of playfulness to enliven the discussion.
 
-{{< figure src="7s.jpg" title="McKinsey's 7S framework" >}}
+{{< figure src="7s.jpg" caption="McKinsey's 7S framework" >}}
 
 Well it seems that at least one person has taken this the wrong way saying "I wish we had this [framework] 12 weeks ago. This course hasn't been about applying frameworks (or cookie cutters, as they often become). Each firm's situation is unique, and too many people forget that when they try and do strategy--Ken Simmonds and I have made a serious attempt to get away from a formulaic approach to strategy. Instead with tried to get people to think about what is going on in the particular situations we have encountered. I guess that I didn't get that across as well as I had hoped in class.

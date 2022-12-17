@@ -8,7 +8,7 @@ Whilst out walking around Newmarket we went past [[https://www.gordonharris.co.n
 
 # more
 
-{{< figure src="StaedtlerResina.jpg" >}}
+{{< figure src="StaedtlerResina.jpg" alt="A picture of a pen" >}}
 
 
 The pen writes quite nicely. I'd be surprised if it didn't ☺.

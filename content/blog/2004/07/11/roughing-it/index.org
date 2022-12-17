@@ -8,9 +8,9 @@
 
 On my recent trip to [[https://www.egosnet.org/][EGOS]], Lisa and I spent a couple of days in the UK catching up the Lisa's family. Here I am with Malcolm, her brother-in-law, cooking at a BBQ in the "English' manner---that is to say in the pouring rain. It actually had been a lovely day up until we started to cook.
 
-{{< figure src="DCP_2184.JPG" title="An English BBQ" >}}
+{{< figure src="DCP_2184.JPG" caption="An English BBQ" alt="Picture in the garden having a BBW" >}}
 
 
 We also took the time to go on the [[https://www.londoneye.com/][London Eye]]. By chance, rather than by good planing, we got there early and didn't have to queue too long. This is a lovely picture of Lisa, with London in the background, taken in mid 'flight' as they call the ride.
 
-{{< figure src="DCP_2266.JPG" title="The London Eye" width="100%" >}}
+{{< figure src="DCP_2266.JPG" caption="The London Eye" >}}

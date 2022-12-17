@@ -7,7 +7,7 @@
 #+draft: False
 #+weight: 100
 
-{{< figure src="PeterInTheOffice-2020-small.jpg">}}
+{{< figure src="PeterInTheOffice-2020-small.jpg" alt="Peter posing in his office" >}}
 
 Tēnā koe! Ko Peter tōku ingoa.
 

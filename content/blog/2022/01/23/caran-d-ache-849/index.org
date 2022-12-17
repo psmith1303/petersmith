@@ -8,7 +8,7 @@ I went back into the office last Tuesday, and sitting on my desk was my trusty T
 
 # more
 
-{{< figure src="CarandArche-849.jpg" >}}
+{{< figure src="CarandArche-849.jpg" alt="A picture of a pen" >}}
 
 The pen came with one cartridge, which is what I used for this sample.
 

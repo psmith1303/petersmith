@@ -25,6 +25,6 @@ However, that is easier said than done ... as all kinds of biases may enter the 
 A different approach is that offered by the /process-decomposition perspective/. In this perspective the overall process of decision-making is 'decomposed' into individual elements. The argument being that, if all the elements are executed well the decision-making is likely to be good. Although t is hard to know how to effectively split decisions into elements, research in many fields have arrived at what is called the /cardinal decision issue perspective/. It looks something like:
 
 
-{{< figure src="fig_ch24.f1.jpg" title="A big picture of the cardinal decision issue perspective" >}}
+{{< figure src="fig_ch24.f1.jpg" caption="A big picture of the cardinal decision issue perspective" >}}
 
 Such an approach, as shown in the figure above, is often used in root-cause analysis.

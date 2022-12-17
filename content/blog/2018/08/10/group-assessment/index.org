@@ -18,4 +18,4 @@ Overall, our message was:
 2. Be clear why you are assessing groups; i.e., the educational goals/purpose
 3. Make sure you have group management/processes in place
 
-Our {{< href src="GroupAssessmentPD-2018.pdf" title="presentation" >}} slides are available if you want them.
+Our {{< href src="GroupAssessmentPD-2018.pdf" caption="presentation" >}} slides are available if you want them.

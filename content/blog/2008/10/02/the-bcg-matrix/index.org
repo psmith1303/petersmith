@@ -10,7 +10,7 @@ A quick guide to the BCG growth-share matrix.
 
 I often find that students understand the concepts behind the BCG growth-share matrix, but don't know what 'numbers' to use when 'drawing' it. So here we are.
 
-{{< figure src="bcg.png" title="BCG Growth-share matrix" >}}
+{{< figure src="bcg.png" caption="BCG Growth-share matrix" >}}
 
 The BCG growth share matrix is a tool for the evaluation of the performance of a company that operates in a number of markets; i.e. it is a way to examine the portfolio of businesses in which the firm operates. I have taken an illustration of the matrix from Hedley's original 1977 paper. The description of /stars/, question marks, cash cows, and dogs can be found in Hendley's paper.
 

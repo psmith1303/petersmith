@@ -16,7 +16,7 @@ After my little [[{{< ref "a-wake-up-call" >}}][scare]], I'm doing many things t
 
 For exercise, I'm doing a bit of walking. (Well that's pretty much all I'm allowed to do.) So, each day I try and walk 10,000 steps. My progress is shown in the graph. The red line is my daily average; the blue band is my target.
 
-{{< figure src="peds.php.png" title="Graph of steps taken" width="100%" >}}
+{{< figure src="peds.php.png" caption="Graph of steps taken" alt="Graph of steps taken" >}}
 
 
 So far, the exercise (and everything else) seems to be having a pay-off. I do feel that I've lost some weight. I've actually had to tighten my belt a couple of notches---and some of my clothes seem to be a bit baggy.

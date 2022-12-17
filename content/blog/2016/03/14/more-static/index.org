@@ -10,15 +10,15 @@ I was kind of happy using Pelican to publish my (now static) website. However, t
 
 My teaching portfolio looked like this:
 
-{{< figure src="2016portfolio.png" title="My teaching portfolio" >}}
+{{< figure src="2016portfolio.png" caption="My teaching portfolio" >}}
 
 Whereas my teaching journal (where I talk about teaching) looked like this:
 
-{{< figure src="2016journal.png" title="My journal" >}}
+{{< figure src="2016journal.png" caption="My journal" >}}
 
 And finally, my little blog looked like this:
 
-{{< figure src="2016blog.png" title="My blog" >}}
+{{< figure src="2016blog.png" caption="My blog" >}}
 
 It all worked, but having three sites seemed somewhat messy. I thought about integrating it all in one Pelican site/configuration. But, there were some things that I did not like. The main one is that Pelican is really a blogging platform more than anything else. Other types of data---publications---would need to be kludged in. So, I started to look for something else.
 

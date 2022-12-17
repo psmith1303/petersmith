@@ -9,7 +9,7 @@ It has been nearly 15 years since I wrote about my [[{{ ref "/blog/2009/12/16/my
 # more
 
 
-{{< figure src="2022-03-28 Personal Learning Environment.svg" width="75%" >}}
+{{< figure src="2022-03-28 Personal Learning Environment.svg" alt="Diagram of my PLE" >}}
 
 What's noticeable, to me anyway, is that Emacs permeates many areas of what I do. Indeed, if I didn't have to collaborate with others, I'd probably drop MS Office entirely.
 

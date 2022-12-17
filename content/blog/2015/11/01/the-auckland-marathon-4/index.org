@@ -16,4 +16,4 @@ The basic plan was good; easy up the hills. Constant effort. The weather was pre
 
 The massage afterwards was good. The ASICS hospitality tent was perfect with its beer (for Lisa) and bacon butties for me.
 
-{{< figure src="Auckland2015Marathon.png" title="My Auckland marathon results for 2015" >}}
+{{< figure src="Auckland2015Marathon.png" caption="My Auckland marathon results for 2015" >}}

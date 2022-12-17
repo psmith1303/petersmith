@@ -22,13 +22,13 @@ But things have moved on since flexboxes became popular, and now we have =CSS gr
 
 My basic design is:
 
-{{< figure src="basic-layout.svg" alt="Basic layout of my theme" width="300px"  >}}
+{{< figure src="basic-layout.svg" alt="Basic layout of my theme" width="300px"  alt="The layout of my site" >}}
 
 So, I have three main elements: Header, Article, and Footer.
 
 That's pretty straightforward. But for the content, I want to have the title of the content on the left of the content and the actual content on the right, but sized to 720px (where possible). So it looks something like this:
 
-{{< figure src="extended-layout.svg" alt="Basic layout of my theme" width="300px"  >}}
+{{< figure src="extended-layout.svg" alt="Basic layout of my theme" width="300px" alt="The layout of my site"  >}}
 
 I split the header into 2 parts: Article-header, and Article-content. But, I also want to have navigation (to page through the articles), and present the meta-data about the page. That sees the Article having comprising: Article-header, Article-content, Article-nav, and Article-meta.
 

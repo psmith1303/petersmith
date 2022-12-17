@@ -6,9 +6,9 @@
 
 For a while I have had two items on my to-do list. One said "Archive website" and the other said "Get one-page website". I thought I was over having a blog, and as part of simplifying my life, I was going to do away with it--- more or less---and replace it with something like this (from one of my other websites that does nothing):
 
-{{< figure src="ThisIsNotTheWebsite.png" title="The front page of a private website" >}}
+{{< figure src="ThisIsNotTheWebsite.png" caption="The front page of a private website" alt="A picture spoof/meme of Obi Wan Kenobe" >}}
 
-Then, today, into my RSS feed came [[https://theacademicdesigner.com/2022/winners-of-the-2022-best-personal-academic-websites-contest/][Winners of the 2022 Best Personal Academic Websites Contest]]. My first thought was, what's the difference between an Academic Website and any other? "The contest recognizes the best personal websites of: Faculty, Professors, Scientists, Postdocs, Grad students, Independent researchers".  They are all pretty polished for sure. And it's a very different list compared to, say, [[https://blog.feedspot.com/academic_blogs/][20 Best Academic Blogs and Websites]] which has classics such as [[https://thesiswhisperer.com/][The Thesis Whisperer]]. As a side note, I had forgotten how good the Thesis Whisper is ... and it's not just about theses. Her post on [[https://thesiswhisperer.com/2022/12/02/looking-back-at-the-pandemic/][What can we expect in the next phase of the pandemic?]] is jam-packed with meaty food for thought. 
+Then, today, into my RSS feed came [[https://theacademicdesigner.com/2022/winners-of-the-2022-best-personal-academic-websites-contest/][Winners of the 2022 Best Personal Academic Websites Contest]]. My first thought was, what's the difference between an Academic Website and any other? "The contest recognizes the best personal websites of: Faculty, Professors, Scientists, Postdocs, Grad students, Independent researchers".  They are all pretty polished for sure. And it's a very different list compared to, say, [[https://blog.feedspot.com/academic_blogs/][20 Best Academic Blogs and Websites]] which has classics such as [[https://thesiswhisperer.com/][The Thesis Whisperer]]. As a side note, I had forgotten how good the Thesis Whisper is ... and it's not just about theses. Her post on [[https://thesiswhisperer.com/2022/12/02/looking-back-at-the-pandemic/][What can we expect in the next phase of the pandemic?]] is jam-packed with meaty food for thought.
 
 # more
 
@@ -19,7 +19,5 @@ I've gone with keeping it. Looking at it, I really like it. The integrations wit
 But yes, there are things to be done. The workflow around [[https://indieweb.org/][Indieweb]] is a bit clunky. I have to run a [[https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/][script]] that picks up any new mentions from [[https://webmention.io/][Webmention]]. It's clunky and I need to do some stuff to automate it so that when new mentions are found, it rebuilds the site. But then I need to put is some checking in case someone 'bombs' the site with junk. For now, at least, it will stay a manual process.
 
 The workflow around images is also clunky; I have to move them manually into the right directory. That dissuades me from using more images. Fixing that might take some more time learning [[https://www.gnu.org/software/emacs/manual/html_node/elisp/][elisp]] to integrate it into my Emacs workflow. We'll see ...
-
-
 
 But, the main thing is that commonplace book of mine is staying.

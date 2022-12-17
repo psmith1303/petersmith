@@ -23,17 +23,17 @@ Which calls ~themes/NewPapyrus/layouts/shortcodes/img.html~
 
 #+BEGIN_SRC go
 {{ $image := .Page.Resources.GetMatch (.Get "src" )}}
-{{ $title := .Get "title" }}
+{{ $caption := .Get "caption" }}
 {{ $class := .Get "class" }}
 {{ $alt   := .Get "alt" }}
 {{ $width := .Get "width" }}
 <figure>
   <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" width="{{ $width }}" />
-  <figcaption><h4>{{ $title }}</h4></figcaption>
+  <figcaption><h4>{{ $caption }}</h4></figcaption>
 </figure>
 
 #+END_SRC
 
 That does the job.
- 
+
 # more

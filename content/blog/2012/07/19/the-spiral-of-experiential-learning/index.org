@@ -12,7 +12,7 @@ Starting off withe the classic article on learning from experience (D. A. Kolb, 
 
 The article referenced, to my surprise, to some work done by the New Zealand Ministry of Education (2004 [2012]), and in particular to what the Kolbs called the "spiral of experiential learning". I tracked back through the citation in Kolb and Kolb to original publication and to the following diagram
 
-{{< figure src="diagram5.gif" title="The spiral of experiential learning" >}}
+{{< figure src="diagram5.gif" caption="The spiral of experiential learning" >}}
 
 I think many people will know I'm enthusiastic about experiential learning and Kolb's cycle (D. A. Kolb, 1976), but this diagram served as a powerful reminder to me as to my role in students' learning process; that is "to help students make connections and transfer learning to and from similar and /dissimilar/ learning contexts" (my emphasis added).
 

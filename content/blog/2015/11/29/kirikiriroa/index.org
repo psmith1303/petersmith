@@ -10,4 +10,4 @@ I have signed up to do the inaugural [[https://www.kirikiriroamarathon.co.nz/][K
 
 It should be fun. The field is small--only 300 competitors, max--and as you can see from the map, it is pretty flat.
 
-{{< figure src="KKMarathon.png" title="Route map" >}}
+{{< figure src="KKMarathon.png" caption="Route map of the Kirikiroa marathon" >}}

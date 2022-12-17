@@ -8,14 +8,12 @@
 
 I do enjoy writing with a fountain pen. I really, got into them when I realised I could mark assignments much quicker, and with less hand fatigue, if I used a fountain pen. That was a loooong time ago when assignments where usually (always?) printed or even handwritten on paper.
 
-Today, I brought a Pilot MR, and for good measure I also brought a bottle of /Orange Indein/ ink made by [[https://www.jherbin.com/fountain_pen_inks.html][Herbin]]. 
+Today, I brought a Pilot MR, and for good measure I also brought a bottle of /Orange Indein/ ink made by [[https://www.jherbin.com/fountain_pen_inks.html][Herbin]].
 
-{{< figure src="PilotMRwithInk.jpg" title="The Pilot MR" >}}
+{{< figure src="PilotMRwithInk.jpg" caption="The Pilot MR" alt="A picture of a pen" >}}
 
 Kim at [[https://fitzgeraldtaylor.co.nz][Fitzgeral Taylor]] suggested that the ink might not be a good match with the type of notebooks I used, because the paper is a cream colour, rather than pure white. Looking at the writing sample, I've done, I see what she means. But who can resits such a gorgeous ink?
 
-{{< figure src="PilotSample.jpg" title="Writing sample with the Pilot MR" >}}
+{{< figure src="PilotSample.jpg" caption="Writing sample with the Pilot MR" alt="A picture of a sample" >}}
 
 The pen itself, is a little 'scratchy'. Mind you, it is the cheapest Pilot pen I've ever bough (at under $40). I'll give it some time and see it the steel knib 'breaks in'.
-
-

@@ -10,4 +10,4 @@ Did I mention I did the [[https://www.huntlyhalf.co.nz/][Huntly half marathon]].
 
 Well it's all true.
 
-{{< figure src="Finish-Certificate.jpg" title="Finishing at the Huntley half-marathon" >}}
+{{< figure src="Finish-Certificate.jpg" caption="Finishing at the Huntley half-marathon" >}}

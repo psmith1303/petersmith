@@ -4,6 +4,6 @@
 #+categories[]: Check-ins
 #+tags[]: Coffee
 
-{{< figure src="2022-12-13-img_7511.jpg" >}}
+{{< figure src="2022-12-13-img_7511.jpg" alt="A picture of a coffee" >}}
 
 Another fine coffee from one of my local coffee haunts.

@@ -10,6 +10,6 @@ Sunday was the second race in the Run Auckland series. This time it was at [[htt
 
 Race results for race two in the 2011 RUN Auckland series
 
-{{< figure src="RunAuckland2.png" title="Race results for race two in the 2011 RUN Auckland series" >}}
+{{< figure src="RunAuckland2.png" caption="Race results for race two in the 2011 RUN Auckland series" >}}
 
 The first lap, of 5K, I pretty much matched my time for the first [[{{< ref "run-auckland-race-1" >}}][run]] in the series. However, I slowed down a lot in the second lap. I wonder how much that was because (a) I had been taking it easy for 10 days because of my hamstring, and (b) I had no-one to chase ... because I started at the front of the pack, I was being chased instead.

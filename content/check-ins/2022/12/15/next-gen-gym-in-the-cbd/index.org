@@ -4,9 +4,9 @@
 #+categories[]: Check-ins
 #+tags[]:  Exercise Gym
 
-{{< figure src="2022-12-15-img_7518.jpg" >}}
+{{< figure src="2022-12-15-img_7518.jpg" alt="Picture inside the gym" >}}
 
-{{< figure src="2022-12-15-img_7519.jpg" >}}
+{{< figure src="2022-12-15-img_7519.jpg" alt="Picture of a gym machine" >}}
 
  
 

@@ -10,7 +10,7 @@ It's hot. Darn hot. Looking at the comments from my [[https://runkeeper.com/user
 
 I know that even after a 10Km run, or so, in this weather I'm quite thirsty. And then there are my long (20-35Km) runs. Even before summer arrived, I would drink a litre or two at the end of my run. But no more (I hope). I've invested in a [[https://www.camelbak.com/en/sports-recreation/run/2011-octane-xtc.aspx][Camelbak Octane XCT]].
 
-{{< figure src="CamelbakXCT.jpg" title="My Camelback XCT" >}}
+{{< figure src="CamelbakXCT.jpg" caption="My Camelback XCT" >}}
 
 With two litres of water, that should make my long runs more comfortable. And yes, I did get the bright yellow one ... it was all I could find in the Boxing Day sales.
 

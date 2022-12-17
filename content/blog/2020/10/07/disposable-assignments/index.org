@@ -77,7 +77,7 @@ Yet, there is nothing in this definition that explicitly connects the assignment
 
 Then, when referring to the Time-Space-Gravity model (Seraphin, et al., 2019), one can imagine that the time boundary of 10-weeks (the length of our quarter), the workplace (the space), and gravity (being hopefully high), creates some challenges in designing an non-disposable assignment.
 
-{{< figure src="Seraphin-2019-TimeSpaceGravity.jpg" title=" A Time–Space–Gravity model for examining utility of NDAs (Seraphin et al., 2019., p. 90)" >}}
+{{< figure src="Seraphin-2019-TimeSpaceGravity.jpg" caption="A Time–Space–Gravity model for examining utility of NDAs (Seraphin et al., 2019., p. 90)" alt="A picture of a graph" >}}
 
 Again drawing on Seraphin et. al (p. 91),
 

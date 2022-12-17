@@ -10,10 +10,10 @@ I use =git= a bit.
 
 My main use is around pushing stuff to either [[https://github.com][Github]] or to [[https://bitbucket.com][Bitbucket]]; either as an intermediary for publishing stuff via [[https://netlify.com][Netliy]] or because I'm actually sharing stuff/code with other folk.
 
-And I use poorly.
+And I use it poorly.
 
 So I was really pleased to come across this diagram from [[https://blog.osteele.com/2008/05/my-git-workflow/][Oliver Steele]] which made things much clearer to me.
 
-{{< figure src="git-transport.png" title="The git transport mechanism" >}}
+{{< figure src="git-transport.png" caption="The git transport mechanism" alt="Diagram of how git fits together" >}}
 
 And now back to work.

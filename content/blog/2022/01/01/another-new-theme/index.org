@@ -8,7 +8,7 @@
 
 My current theme, NewPapyrus, looks rather like a page printed on paper; i.e., like this:
 
-{{< figure src="NewPapyrus.png" title="A screenshot of the NewPapyrus theme" >}}
+{{< figure src="NewPapyrus.png" caption="A screenshot of the NewPapyrus theme" >}}
 
 When I first saw a site that looked like this, [[{{< ref "a-refresh" >}}][I quite liked it]]. However, whilst it does the job, it isn't elegant. It's functional, but I have come to think that, aesthetically, it is lacking. After all, what is the point in replicating paper on a screen?
 
@@ -16,6 +16,6 @@ Looking at  /typographic/ sites such as [[https://ministryoftype.co.uk/][The Min
 
 # more
 
-{{< figure src="MinistryOfType.png" title="A screenshot of the Ministry of Type's website" >}}
+{{< figure src="MinistryOfType.png" caption="A screenshot of the Ministry of Type's website" alt="A screenshot" >}}
 
 So, I'm starting on a new theme called /TypoTyro/ which I hope to make more pleasing to the eye.

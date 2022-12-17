@@ -47,11 +47,11 @@ So, my ~figure.html~ shortcode had to handle those situations.  I took the code 
      {{ end }}
 
      {{ $src := $image }}
-  <!-- 
+  <!--
   Set responsive image sizes, these are hardcoded throughout this
-  shortcode, 
+  shortcode,
   - 'x' dictates that images are resized to this width
-  - q50 is for 50% quality. 
+  - q50 is for 50% quality.
   - Box filtering because we're downsampling anyway (anyone can do that),
     and other filters (like Lanczos - https://github.com/disintegration/imaging)
     increase PNG filesize enormously. Doc:
@@ -70,11 +70,11 @@ So, my ~figure.html~ shortcode had to handle those situations.  I took the code 
   {{ $largewwebp := default (printf "1440x webp q50 Box%s" $myTransform) }}
 
   <!--
-  Resize the source image to the given responsive sizes. Be sure to set 
-  variable scope correctly. 
+  Resize the source image to the given responsive sizes. Be sure to set
+  variable scope correctly.
 
   Doc:
-  https://code.luasoftware.com/tutorials/hugo/hugo-scope-variable-in-template/ 
+  https://code.luasoftware.com/tutorials/hugo/hugo-scope-variable-in-template/
   -->
   {{ $.Scratch.Set "tiny" false }}{{ if gt $src.Width "360" }}{{ $.Scratch.Set "tiny" ($src.Resize $tinyw) }}{{ end }}
   {{ $.Scratch.Set "small" false }}{{ if gt $src.Width "720" }}{{ $.Scratch.Set "small" ($src.Resize $smallw) }}{{ end }}
@@ -100,7 +100,7 @@ So, my ~figure.html~ shortcode had to handle those situations.  I took the code 
           <a href="{{ with $src }}{{.RelPermalink}}{{ end }}">
       {{- end }}
       <!--
-      Show responsive images here, first in one source tag (for webp), second 
+      Show responsive images here, first in one source tag (for webp), second
       in img as fallback / jpeg. Note we can't include a second source tag
       with 'image/jpeg' as mime-type because we're not sure if the original is
       jpeg (e.g. could be png as well).
@@ -114,7 +114,6 @@ So, my ~figure.html~ shortcode had to handle those situations.  I took the code 
       {{ end }}{{ if ($.Scratch.Get "largewebp") }}      {{($.Scratch.Get "largewebp").RelPermalink}} 1440w{{ end }}'
           />
           <img
-            loading="lazy"
             sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
             srcset='
       {{ if ($.Scratch.Get "tiny") }}      {{($.Scratch.Get "tiny").RelPermalink}} 360w,
@@ -175,7 +174,7 @@ So, my ~figure.html~ shortcode had to handle those situations.  I took the code 
       {{- end }}
   </figure>
   {{- end -}}
-  
+
 #+END_SRC
 
 It's a little more complicated that I would like, as it falls back to some code taken from Hugo's default shortcode for figures when it hits SVG images. I've been a little lazy and not dug too deeply into Tim's code to see if I could get it handling SVGs in some other (easier way). But it seems to work.
@@ -184,7 +183,7 @@ Well, the proof is in the eating as they say. Do my pages load faster? To see if
 
 {{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="The test page" >}}
 
-My weapon of choice for looking at the performance of pages is [[https://pagespeed.web.dev/][PageSpeed Insights]]. Running it on my test page I got the following results:  
+My weapon of choice for looking at the performance of pages is [[https://pagespeed.web.dev/][PageSpeed Insights]]. Running it on my test page I got the following results:
 
 {{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="Performance pre-responsive images" >}}
 
@@ -206,6 +205,8 @@ Now I need to turn my attention to accessibility (with a score of 87). Here Page
 
 - Image elements do not have [alt] attributes
 - Links do not have a discernible name
-- Background and foreground colors do not have a sufficient contrast ratio. 
+- Background and foreground colors do not have a sufficient contrast ratio.
 
   That last one is really about the colour I use for the Categories and Tags. They are a nice blue (#4169e1;). Maybe I need something darker.
+
+*2022-12-18* I went through and changed all the /titles/ in my existing figures to be /captions/. It works better that way. I also removed the lazy loading, as most of my figures/images are above the fold.

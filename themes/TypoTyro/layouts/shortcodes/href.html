@@ -1,5 +1,5 @@
 {{ $file := .Page.Resources.GetMatch (.Get "src" )}}
-{{ $title := .Get "title" }}
+{{ $caption := .Get "caption" }}
 {{ $class := .Get "class" }}
 {{ $alt   := .Get "alt" }}
-<a href="{{ $file.Permalink  }}" alt="{{ $alt }}" class="{{ $class }}" />{{ $title }}</a>
+<a href="{{ $file.Permalink  }}" alt="{{ $alt }}" class="{{ $class }}" />{{ $caption }}</a>

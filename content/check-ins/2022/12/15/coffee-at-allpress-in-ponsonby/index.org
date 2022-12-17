@@ -4,9 +4,9 @@
 #+categories[]: Check-ins
 #+tags[]: Coffee Hugo Blogging
 
-{{< figure src="2022-12-15-img_7515.jpg" >}}
+{{< figure src="2022-12-15-img_7515.jpg" alt="A picture of the RedRabbit store" >}}
 
-{{< figure src="2022-12-15-img_7516.jpg" >}}
+{{< figure src="2022-12-15-img_7516.jpg" alt="A picture of a glass of coffee" >}}
 
 Another excellent piccolo and an almond sweet treat.
 
