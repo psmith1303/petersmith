@@ -2,7 +2,7 @@
 #+date: 2022-12-17T11:22:52+13:00
 #+lastmod: 2022-12-17T11:22:52+13:00
 #+categories[]: Tech
-#+tags[]: Photos Hugo
+#+tags[]: Graphics Hugo
 
 There is a lot of advice scattered around the internet about the need to optimize images; only deliver the right size to the browser/device. E.g., many of my photos are around 1-2Mb, and when I display them on this site, no matter what size will actually be displayed, the full 1-2Mb image gets transferred. That's a bit wasteful.
 

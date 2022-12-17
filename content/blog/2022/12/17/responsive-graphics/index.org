@@ -1,0 +1,196 @@
+#+title: Responsive graphics
+#+date: 2022-12-17T14:22:20+13:00
+#+lastmod: 2022-12-17T14:22:20+13:00
+#+categories[]: Tech
+#+tags[]: Graphics Hugo
+
+I think I have the responsive graphics 'thing' working now. To recap, most solutions didn't work for me because:
+
+- They didn't handle .SVG images, or
+- They didn't handle rotated images.
+
+So, my ~figure.html~ shortcode had to handle those situations.  I took the code from [[https://www.vanwerkhoven.org/][Tim]] on [[https://www.vanwerkhoven.org/blog/2021/responsive_images_in_hugo_theme/][Responsive images & image grids for Hugo]] and patched it so it would handle those situations. In case anyone is interested, it looks like this:
+
+
+# more
+
+#+BEGIN_SRC html
+    {{- $image := .Page.Resources.GetMatch (.Get "src" ) -}}
+  <!-- Check to see if the image can be processed; i.e., is is not an SVG file -->
+  {{- if ne $image.MediaType.SubType "svg" -}}
+     {{ $orientation := 0 }}
+     {{ with $image.Exif }}
+     {{ $orientation = .Tags.Orientation }}
+     {{ end }}
+     {{ $myTransform := "" }}
+     {{ if eq $orientation  "0" }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 1 }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 2 }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 3 }}
+        {{ $myTransform = " r180" }}
+     {{ else if eq $orientation 4 }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 5 }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 6 }}
+        {{ $myTransform = " r270" }}
+     {{ else if eq $orientation 7 }}
+        {{ $myTransform = "" }}
+     {{ else if eq $orientation 8 }}
+        {{ $myTransform = " r90" }}
+     {{ else }}
+        {{ $myTransform = "" }}
+        {{ printf "Broken orientation: %#v" $orientation }}
+     {{ end }}
+
+     {{ $src := $image }}
+  <!-- 
+  Set responsive image sizes, these are hardcoded throughout this
+  shortcode, 
+  - 'x' dictates that images are resized to this width
+  - q50 is for 50% quality. 
+  - Box filtering because we're downsampling anyway (anyone can do that),
+    and other filters (like Lanczos - https://github.com/disintegration/imaging)
+    increase PNG filesize enormously. Doc:
+  - we also generate the same set in webp format for advanced browsers
+
+  TODO: check if source image is not already in WebP format (rare case)
+
+  See also: https://gohugo.io/content-management/image-processing/
+  -->
+  {{ $tinyw := default (printf "360x q50 Box%s"  $myTransform) }}
+  {{ $smallw := default (printf "720x q50 Box%s" $myTransform)  }}
+  {{ $largew := default (printf "1440x q50 Box%s" $myTransform) }}
+
+  {{ $tinywwebp := default (printf "360x webp q50 Box%s" $myTransform) }}
+  {{ $smallwwebp := default (printf "720x webp q50 Box%s" $myTransform) }}
+  {{ $largewwebp := default (printf "1440x webp q50 Box%s" $myTransform) }}
+
+  <!--
+  Resize the source image to the given responsive sizes. Be sure to set 
+  variable scope correctly. 
+
+  Doc:
+  https://code.luasoftware.com/tutorials/hugo/hugo-scope-variable-in-template/ 
+  -->
+  {{ $.Scratch.Set "tiny" false }}{{ if gt $src.Width "360" }}{{ $.Scratch.Set "tiny" ($src.Resize $tinyw) }}{{ end }}
+  {{ $.Scratch.Set "small" false }}{{ if gt $src.Width "720" }}{{ $.Scratch.Set "small" ($src.Resize $smallw) }}{{ end }}
+  {{ $.Scratch.Set "large" false }}{{ if gt $src.Width "1440" }}{{ $.Scratch.Set "large" ($src.Resize $largew) }}{{ end }}
+
+  {{ $.Scratch.Set "tinywebp" false }}{{ if ge $src.Width "360" }}{{ $.Scratch.Set "tinywebp" ($src.Resize $tinywwebp) }}{{ end }}
+  {{ $.Scratch.Set "smallwebp" false }}{{ if ge $src.Width "720" }}{{ $.Scratch.Set "smallwebp" ($src.Resize $smallwwebp) }}{{ end }}
+  {{ $.Scratch.Set "largewebp" false }}{{ if ge $src.Width "1440" }}{{ $.Scratch.Set "largewebp" ($src.Resize $largewwebp) }}{{ end }}
+
+  <!--
+  Figure block begins, based on Hugo's default and Mozilla's example
+
+  <picture>
+    <source type="image/jpeg" srcset="pyramid.svg" sizes="">
+    <source type="image/webp" srcset="pyramid.webp" sizes="">
+    <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles" width="640" height="480" >
+  </picture>
+  -->
+  <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+      {{- if .Get "link" -}}
+          <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+      {{ else }}
+          <a href="{{ with $src }}{{.RelPermalink}}{{ end }}">
+      {{- end }}
+      <!--
+      Show responsive images here, first in one source tag (for webp), second 
+      in img as fallback / jpeg. Note we can't include a second source tag
+      with 'image/jpeg' as mime-type because we're not sure if the original is
+      jpeg (e.g. could be png as well).
+        -->
+      <picture>
+          <source type="image/webp"
+            sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
+            srcset='
+      {{ if ($.Scratch.Get "tinywebp") }}      {{($.Scratch.Get "tinywebp").RelPermalink}} 360w,
+      {{ end }}{{ if ($.Scratch.Get "smallwebp") }}      {{($.Scratch.Get "smallwebp").RelPermalink}} 720w,
+      {{ end }}{{ if ($.Scratch.Get "largewebp") }}      {{($.Scratch.Get "largewebp").RelPermalink}} 1440w{{ end }}'
+          />
+          <img
+            loading="lazy"
+            sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
+            srcset='
+      {{ if ($.Scratch.Get "tiny") }}      {{($.Scratch.Get "tiny").RelPermalink}} 360w,
+      {{ end }}{{ if ($.Scratch.Get "small") }}      {{($.Scratch.Get "small").RelPermalink}} 720w,
+      {{ end }}{{ if ($.Scratch.Get "large") }}      {{($.Scratch.Get "large").RelPermalink}} 1440w,
+      {{ end }}{{ with $src }}      {{.RelPermalink}} {{.Width}}w{{ end }}'
+            {{ if ($.Scratch.Get "small") }}src="{{ ($.Scratch.Get "small").RelPermalink }}" width="{{ ($.Scratch.Get "small").Width }}" height="{{ ($.Scratch.Get "small").Height }}"
+            {{ else }}src="{{ $src.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}"{{ end }}
+            {{- if or (.Get "alt") (.Get "caption") }}
+            alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+            {{- end -}}
+          /> <!-- Closing responsive img tag -->
+      </picture>
+      {{- if .Get "link" }}</a>{{ else }}</a>{{ end -}}
+      {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+          <figcaption>
+              {{ with (.Get "title") -}}
+                  <h4>{{ . }}</h4>
+              {{- end -}}
+              {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                  {{- .Get "caption" | markdownify -}}
+                  {{- with .Get "attrlink" }}
+                      <a href="{{ . }}">
+                  {{- end -}}
+                  {{- .Get "attr" | markdownify -}}
+                  {{- if .Get "attrlink" }}</a>{{ end }}</p>
+              {{- end }}
+          </figcaption>
+      {{- end }}
+  </figure>
+  {{- else -}}
+  <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+      {{- if .Get "link" -}}
+          <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+      {{- end -}}
+      <img src="{{ $image.Permalink  }}"
+           {{- if or (.Get "alt") (.Get "caption") }}
+           alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"
+           {{- end -}}
+           {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+           {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+      /><!-- Closing img tag -->
+      {{- if .Get "link" }}</a>{{ end -}}
+      {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+          <figcaption>
+              {{ with (.Get "title") -}}
+                  <h4>{{ . }}</h4>
+              {{- end -}}
+              {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                  {{- .Get "caption" -}}
+                  {{- with .Get "attrlink" }}
+                      <a href="{{ . }}">
+                  {{- end -}}
+                  {{- .Get "attr" -}}
+                  {{- if .Get "attrlink" }}</a>{{ end }}</p>
+              {{- end }}
+          </figcaption>
+      {{- end }}
+  </figure>
+  {{- end -}}
+  
+#+END_SRC
+
+It's a little more complicated that I would like, as it falls back to some code taken from Hugo's default shortcode for figures when it hits SVG images. I've been a little lazy and not dug too deeply into Tim's code to see if I could get it handling SVGs in some other (easier way). But it seems to work.
+
+Well, the proof is in the eating as they say. Do my pages load faster? To see if they do, I did some measurements on one page to see how the changes affect it. The page is [[https://petersmith.org/check-ins/2022/12/15/next-gen-gym-in-the-cbd/][this one]], as it has a couple of photos on it.
+
+{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="The test page" >}}
+
+My weapon of choice for looking at the performance of pages is [[https://pagespeed.web.dev/][PageSpeed Insights]]. Running it on my test page I got the following results:  
+
+{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="Performance pre-responsive images" >}}
+
+The performance is not so good (at 68).
+
+
+{{< figure src="Screenshot 2022-12-17 at 12-57-21 PageSpeed Insights.png" title="The canon of creativity" >}}
+
+{{< figure src="Screenshot 2022-12-17 at 14-21-05 PageSpeed Insights.png" title="The canon of creativity" >}}
