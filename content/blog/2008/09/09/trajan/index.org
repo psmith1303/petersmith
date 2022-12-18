@@ -10,4 +10,4 @@ I have a large number of documents that I need to "re-style' before I import the
 
 As I trawled the web looking for a solution, I can across this amusing [[https://www.goodiebag.tv/episodes/06_trajan_is_the_movie_font.htm][rant]] against the font [[https://www.linotype.com/8565/trajanregular-font.html][Trajan]]. Indeed, there is an entire website devoted to [[https://www.retiretrajan.com/][retiring Trajan]]
 
-{{< figure src="trajan.jpg" >}}
+{{< figure src="trajan.jpg" alt="The Trajan font sample" >}}

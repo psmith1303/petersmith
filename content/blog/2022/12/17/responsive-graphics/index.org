@@ -181,20 +181,20 @@ It's a little more complicated that I would like, as it falls back to some code 
 
 Well, the proof is in the eating as they say. Do my pages load faster? To see if they do, I did some measurements on one page to see how the changes affect it. The page is [[https://petersmith.org/check-ins/2022/12/15/next-gen-gym-in-the-cbd/][this one]], as it has a couple of photos on it.
 
-{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="The test page" >}}
+{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" caption="The test page" >}}
 
 My weapon of choice for looking at the performance of pages is [[https://pagespeed.web.dev/][PageSpeed Insights]]. Running it on my test page I got the following results:
 
-{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" title="Performance pre-responsive images" >}}
+{{< figure src="Screenshot 2022-12-17 at 12-56-43 PageSpeed Insights.png" caption="Performance pre-responsive images" >}}
 
 The performance is not so good (at 68). The two images total more than 5Mb, are jpg files, and have no width and height info -- let's work on that a bit. First, I'll reduce the size of the images to be 640 wide. Does that make a difference. Why, yes it does. As you can see below, that bumps the page's performance score up to 94. PageSpeed still complains about not using next-gen image formats (webp), and not indicating the size of the images.
 
 
-{{< figure src="Screenshot 2022-12-17 at 12-57-21 PageSpeed Insights.png" title="The canon of creativity" >}}
+{{< figure src="Screenshot 2022-12-17 at 12-57-21 PageSpeed Insights.png" caption="The canon of creativity" >}}
 
 The next step is implementing Tim's shortcode (with my tweaks for SVG and image orientation). Looking at the report below, that take the page's performance up to 100. Woohoo.
 
-{{< figure src="Screenshot 2022-12-17 at 14-21-05 PageSpeed Insights.png" title="The canon of creativity" >}}.
+{{< figure src="Screenshot 2022-12-17 at 14-21-05 PageSpeed Insights.png" caption="The canon of creativity" >}}.
 
 So what is left to do. In terms of performance, PageSpeed notes that:
 

@@ -1,5 +1,8 @@
 <div class="h-card">
-  <img class="u-photo hidden" alt="A photo of Peter Smith" src="{{ "/images/petersmith01.jpg" | absURL }}"/>
+  {{- $src := "/images/petersmith01.jpg" -}}
+  {{- $class := "u-photo hidden" -}}
+  {{- $alt := "A photo of Peter Smith" -}}
+  {{ partial "image.html" (dict "context" . "class" $class  "alt" $alt "src" $src ) }}
   <a class="p-name u-url u-uid hidden" rel="me" href="http://petersmith.org/">Peter Smith</a>
   <span class="p-given-name hidden">Peter</span>
   <span class="p-family-namee hidden">Smith</span>

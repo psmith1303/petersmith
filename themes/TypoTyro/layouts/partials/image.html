@@ -1,0 +1,88 @@
+{{- $image := .Resources.Get .src  -}}
+{{- if ne $image.MediaType.SubType "svg" -}}
+   {{- $orientation := 0 -}}
+   {{- with $image.Exif -}}
+   {{- $orientation = .Tags.Orientation -}}
+   {{- end -}}
+   {{- $myTransform := "" -}}
+   {{- if eq $orientation  "0" -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 1 -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 2 -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 3 -}}
+      {{- $myTransform = " r180" -}}
+   {{- else if eq $orientation 4 -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 5 -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 6 -}}
+      {{- $myTransform = " r270" -}}
+   {{- else if eq $orientation 7 -}}
+      {{- $myTransform = "" -}}
+   {{- else if eq $orientation 8 -}}
+      {{- $myTransform = " r90" -}}
+   {{- else -}}
+      {{- $myTransform = "" -}}
+   {{- end -}}
+
+   {{- $src := $image -}}
+
+{{- $tinyw := default (printf "360x q50 Box%s"  $myTransform) -}}
+{{- $smallw := default (printf "720x q50 Box%s" $myTransform)  -}}
+{{- $largew := default (printf "1440x q50 Box%s" $myTransform) -}}
+
+{{- $tinywwebp := default (printf "360x webp q50 Box%s" $myTransform) -}}
+{{- $smallwwebp := default (printf "720x webp q50 Box%s" $myTransform) -}}
+{{- $largewwebp := default (printf "1440x webp q50 Box%s" $myTransform) -}}
+
+
+{{- $.Scratch.Set "tiny" false }}{{ if gt $src.Width "360" }}{{ $.Scratch.Set "tiny" ($src.Resize $tinyw) }}{{ end -}}
+{{- $.Scratch.Set "small" false }}{{ if gt $src.Width "720" }}{{ $.Scratch.Set "small" ($src.Resize $smallw) }}{{ end -}}
+{{- $.Scratch.Set "large" false }}{{ if gt $src.Width "1440" }}{{ $.Scratch.Set "large" ($src.Resize $largew) }}{{ end -}}
+
+{{- $.Scratch.Set "tinywebp" false }}{{ if ge $src.Width "360" }}{{ $.Scratch.Set "tinywebp" ($src.Resize $tinywwebp) }}{{ end -}}
+{{- $.Scratch.Set "smallwebp" false }}{{ if ge $src.Width "720" }}{{ $.Scratch.Set "smallwebp" ($src.Resize $smallwwebp) }}{{ end -}}
+{{- $.Scratch.Set "largewebp" false }}{{ if ge $src.Width "1440" }}{{ $.Scratch.Set "largewebp" ($src.Resize $largewwebp) }}{{ end -}}
+
+<picture>
+  <source type="image/webp"
+          sizes={{- with .Resources.Get "sizes" -}}"{{.}}"{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
+          srcset='
+    {{ if ($.Scratch.Get "tinywebp") }}      {{($.Scratch.Get "tinywebp").RelPermalink}} 360w,
+    {{ end }}{{ if ($.Scratch.Get "smallwebp") }}      {{($.Scratch.Get "smallwebp").RelPermalink}} 720w,
+    {{ end }}{{ if ($.Scratch.Get "largewebp") }}      {{($.Scratch.Get "largewebp").RelPermalink}} 1440w{{ end }}'
+        />
+  <img loading="lazy"
+       {{- with .class }} class="{{ . }}"{{ end -}}
+       {{- with .title }} title="{{ . }}"{{ end -}}
+       {{- with .alt }} alt="{{ . }}"{{ end }}
+       sizes={{ with resources.Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
+       srcset='
+	       {{ if ($.Scratch.Get "tiny") }}      {{($.Scratch.Get "tiny").RelPermalink}} 360w,
+	       {{ end }}{{ if ($.Scratch.Get "small") }}      {{($.Scratch.Get "small").RelPermalink}} 720w,
+	       {{ end }}{{ if ($.Scratch.Get "large") }}      {{($.Scratch.Get "large").RelPermalink}} 1440w,
+	       {{ end }}{{ with $src }}      {{.RelPermalink}} {{.Width}}w{{ end }}'
+          {{ if ($.Scratch.Get "small") }}src="{{ ($.Scratch.Get "small").RelPermalink }}" width="{{ ($.Scratch.Get "small").Width }}" height="{{ ($.Scratch.Get "small").Height }}"
+          {{ else }}src="{{ $src.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}"{{ end }}
+          {{- if or (.alt) (.title) }}
+          alt="{{ with .alt }}{{ . }}{{ else }}{{ .title | markdownify| plainify }}{{ end }}"
+          {{- end -}}
+        /> <!-- Closing responsive img tag -->
+</picture>
+
+{{- else -}}
+
+<img loading="lazy" src="{{ $image.Permalink  }}"
+     {{- with .class }} class="{{ . }}"{{ end -}}
+     {{- with .title }} title="{{ . }}"{{ end -}}
+     {{- with .alt }} alt="{{ . }}"{{ end -}}
+
+     {{- if or (.alt) (.title) }}
+        alt="{{ with .alt }}{{ . }}{{ else }}{{ .title }}{{ end }}"
+     {{- end -}}
+     {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+     {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+     /><!-- Closing img tag -->
+{{- end -}}

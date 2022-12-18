@@ -76,17 +76,17 @@ rssLimit = 50
 [[menu.indieweb]]
   name = "Orid"
   url = "https://orcid.org/0000-0002-6382-7051"
-  post = "<img src='/images/ORCID_iD.svg' alt='ORCID logo'>"
+  post = "<img src='/images/ORCID_iD.svg' alt='ORCID logo' loading='lazy'>"
   weight = 5
 [[menu.indieweb]]
   name = "SSRN"
   url = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=657683"
-  post = "<img src='/images/ssrn.svg' alt='SSRN logo'>"
+  post = "<img src='/images/ssrn.svg' alt='SSRN logo' loading='lazy'>"
   weight = 10
 [[menu.indieweb]]
   name = "Github"
   url = "https://github.com/psmith1303"
-  post = "<img src='/images/github-mark.svg' alt='GitHub logo'>"
+  post = "<img src='/images/github-mark.svg' alt='GitHub logo' loading='lazy'>"
   weight = 90
 
 
