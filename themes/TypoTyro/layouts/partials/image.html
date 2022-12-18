@@ -1,4 +1,4 @@
-{{- $image := .Resources.Get .src  -}}
+{{- $image := resources.Get .src  -}}
 {{- if ne $image.MediaType.SubType "svg" -}}
    {{- $orientation := 0 -}}
    {{- with $image.Exif -}}
