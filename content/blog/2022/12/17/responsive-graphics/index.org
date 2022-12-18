@@ -209,4 +209,6 @@ Now I need to turn my attention to accessibility (with a score of 87). Here Page
 
   That last one is really about the colour I use for the Categories and Tags. They are a nice blue (#4169e1;). Maybe I need something darker.
 
-*2022-12-18* I went through and changed all the /titles/ in my existing figures to be /captions/. It works better that way. I also removed the lazy loading, as most of my figures/images are above the fold.
+/Update 2022-12-18/ I went through and changed all the /titles/ in my existing figures to be /captions/. It works better that way. I also removed the lazy loading, as most of my figures/images are above the fold.
+
+/Update 2022-12-19/ Fixed a few more things.
