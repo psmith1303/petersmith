@@ -8,10 +8,13 @@ echo "The working directory is :" `pwd`
 
 git add . &&  \
 sleep 3 && \
+echo "git add -u" && \
 git add -u && \
 sleep 3 && \
+echo "git commit " && \
 git commit -m "${DESCRIPTION}" && \
 sleep 3 && \
+echo "git push origin master" && \
 git push origin master
 sleep 3 && \
 rm -fr .git/index.lock
