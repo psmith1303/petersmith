@@ -1,0 +1,160 @@
+{{- $currentPage := . -}}
+
+{{- $images := (.Page.Resources.ByType "image") -}}
+{{- if .Get "match"}}
+	{{- $images = (.Page.Resources.Match (.Get "match")) -}}
+{{- end -}}
+
+{{- $filterOptions := .Get "filterOptions" | default (.Site.Params.galleryFilterOptions | default "[]") -}}
+{{- if not $filterOptions -}}
+	{{- $filterOptions = "[]" -}}
+{{- end -}}
+
+{{- $storeSelectedFilterInUrl := .Get "storeSelectedFilterInUrl" | default (.Site.Params.storeSelectedFilterInUrl | default false) -}}
+
+{{- $sortOrder := .Get "sortOrder" | default (.Site.Params.gallerySortOrder | default "asc") -}}
+
+{{- $rowHeight := .Get "rowHeight" | default (.Site.Params.galleryRowHeight | default 150) -}}
+
+{{- $margins := .Get "margins" | default (.Site.Params.galleryRowMargins | default 5) -}}
+
+{{- $randomize := .Get "randomize" | default (.Site.Params.galleryRandomize | default false) -}}
+
+{{- $thumbnailResizeOptions := .Get "thumbnailResizeOptions" | default (.Site.Params.galleryThumbnailResizeOptions | default "300x150 q85 Lanczos") -}}
+
+{{- $imageResizeOptions := .Get "imageResizeOptions" | default .Site.Params.galleryImageResizeOptions -}}
+
+{{- $loadJQuery := .Get "loadJQuery" | default (.Site.Params.galleryLoadJQuery | default false) -}}
+
+{{- $showExif := .Get "showExif" | default (.Site.Params.galleryShowExif | default false) -}}
+
+{{- $justifiedGalleryParameters := .Get "justifiedGalleryParameters" | default (.Site.Params.galleryJustifiedGalleryParameters | default "") -}}
+
+{{- $previewType := .Get "previewType" | default (.Site.Params.galleryPreviewType | default "blur") -}}
+
+{{- $embedPreview := .Get "embedPreview" | default (.Site.Params.galleryEmbedPreview | default true) -}}
+
+{{- $thumbnailHoverEffect := .Get "thumbnailHoverEffect" | default (.Site.Params.galleryThumbnailHoverEffect | default "none") -}}
+
+<!-- hugos image processing saves images at resources/_gen/images, if the property resourceDir
+	 is changed in hugos config.toml file the images are save <resourceDir>/_gen/images.
+	 Because it is not possible to access the value of resourceDir, users who change resourceDir also have to change
+	[params] resourceDir. -->
+{{- $thumbnailResourceDir := printf "%s%s" (.Site.Params.resourceDir | default "resources") "/_gen/images/" -}}
+
+
+{{- $galleryId := (printf "gallery-%v-%v" .Page.File.UniqueID .Ordinal)}}
+  {{- $galleryWrapperId := (printf "gallery-%v-%v-wrapper" .Page.File.UniqueID .Ordinal)}}
+
+{{- printf "%#v" . -}}
+
+<div id="{{ $galleryWrapperId }}" class="gallery-wrapper">
+<div id="{{ $galleryId }}" class="justified-gallery">
+	{{ range $original := sort $images "Name" $sortOrder}}
+		{{ if eq $original.ResourceType "image" }}
+			{{/* Get metadata from sidecar file, if present. Else an empty dictionary is used. */}}
+			{{ $metaFileName := print $original.Name ".meta"}}
+			{{ $metadata := $currentPage.Page.Resources.GetMatch ($metaFileName) }}
+			{{ if $metadata }}
+				{{ $metadata = $metadata.Content }}
+				{{ $metadata = $metadata | unmarshal }}
+			{{ else }}
+				{{ $metadata = dict }}
+			{{ end }}
+
+			{{/* If the image has exif informations, those are merged together with the metadata from the file */}}
+			{{ if in "jpg jpeg tiff" $original.MediaType.SubType }}
+				{{ with $original.Exif }}
+					{{ $metadata = merge .Tags $metadata }}
+				{{ end }}
+			{{ end }}
+
+
+			{{/* Compute rotation to correct orientation of thumbnail (and downscaled gallery images) in case the exif contains a value for orientation. See issue #22. */}}
+			{{ $rotation := "" }}
+			{{ with $metadata.Orientation }}
+				{{/* Exif orientation is explained here: https://www.impulseadventure.com/photo/exif-orientation.html */}}
+				{{/* Example images can be found here: https://github.com/recurser/exif-orientation-examples*/}}
+				{{/* We can fix orientation 3, 6 and 8 by rotating. */}}
+				{{/* To fix orientation 2, 4, 5, 6 we would need to flip the image, sadly hugo can not do that. */}}
+				{{/* So we can only fix them a "bit" by rotating them but they will be mirrored. */}}
+				{{/* An orientation of 2 means that the image only needs to be flipped so we do nothing in that case. */}}
+				{{/* An orientation of 1 means that the image has the correct rotation and is not mirrored. */}}
+				{{ if or (eq . 8) (eq . 7) }}
+					{{ $rotation = " r90" }}
+				{{ else if or (eq . 3) (eq . 4) }}
+					{{ $rotation = " r180" }}
+				{{ else if or (eq . 6) (eq . 5) }}
+					{{ $rotation = " r270" }}
+				{{ end }}
+			{{ end }}
+
+			{{/* Create thumbnail, rotate it if needed */}}
+			{{ $thumbnail := ($original.Fit (printf "%s %s" $thumbnailResizeOptions $rotation)) }}
+
+
+			<div>
+				{{ $full := "" }}
+				{{ if $imageResizeOptions }}
+					{{/* Downscale gallery image, rotate it if needed */}}
+					{{ $full = ($original.Fit (printf "%s %s" $imageResizeOptions $rotation)) }}
+				{{ else }}
+					{{ $full = $original }}
+				{{ end }}
+				<a href="{{ $full.RelPermalink }}"
+					class="galleryImg"
+					{{ with $metadata }}
+						{{ if .Title }}
+							title="{{ .Title }}"
+						{{ else if .ImageDescription }}
+							title="{{ .ImageDescription }}"
+						{{ end }}
+
+						{{ if $showExif }}
+							data-description="{{ .Model }} + {{ .LensModel }}<br/>{{ .FocalLength }}mm f/{{ .FNumber }} {{ .ExposureTime }}sec ISO {{ .ISOSpeedRatings }}"
+						{{ end }}
+
+						{{ if not (eq $filterOptions "[]")  }}
+							{{/* only include fields that are currently supported by the filter mechanism (in JS at the end of the file) */}}
+							data-meta="{{ (dict "Tags" $metadata.Tags "Rating" $metadata.Rating "ColorLabels" $metadata.ColorLabels "ImageDescription" $metadata.ImageDescription) | jsonify }}"
+						{{ end }}
+					{{ end }}
+					>
+					<img
+						width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}"
+
+						{{ if (eq $previewType "blur") }}
+							{{ $preview_b := ($thumbnail.Fit ("32x32 q70 box jpg")) }}
+							style="filter: blur(25px);"
+							{{ if $embedPreview }}
+								src="data:image/jpeg;base64,{{ $preview_b.Content | base64Encode }}"
+							{{ else }}
+								src="{{ $preview_b.RelPermalink }}"
+							{{ end }}
+							class="lazy"
+							data-src="{{ $thumbnail.RelPermalink }}"
+						{{ else if (eq $previewType "color") }}
+							{{ $preview_1p := ($thumbnail.Resize ("1x1 box png")) }}
+							{{ if $embedPreview }}
+								src="data:image/png;base64,{{ $preview_1p.Content | base64Encode }}"
+							{{ else }}
+								src="{{ $preview_1p.RelPermalink }}"
+							{{ end }}
+							class="lazy"
+							data-src="{{ $thumbnail.RelPermalink }}"
+						{{ else }}
+							src="{{ $thumbnail.RelPermalink }}"
+						{{ end }}
+
+						{{ with $metadata }}
+							{{ if .ImageDescription }}
+								alt="{{ .ImageDescription }}"
+							{{ end }}
+						{{ end }}
+					>
+				</a>
+			</div>
+		{{ end }}
+	{{ end }}
+</div>
+</div>

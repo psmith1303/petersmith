@@ -1,0 +1,30 @@
+#+title: Making a gallery component
+#+date: 2022-12-19T14:50:11+13:00
+#+lastmod: 2022-12-19T14:50:11+13:00
+#+categories[]: Tech
+#+tags[]: Images Hugo Blogging
+#+draft: True
+
+So, I want to be able to display a few images in an elegant way. As something of a gallery. There are lots of 'widgets' out there to do it for Hugo, but they all seem to rely on a good deal of Javascript. Yet Hugo has some pretty niffty [[https://gohugo.io/content-management/image-processing/][image processing features]]. So, I wonder if I can do a gallery just using Hugo (and some CSS).
+
+Let's see ...
+
+... this page is going to be kind of messy as I test the build
+
+I aspire to have the flexibility offered by the [[https://github.com/mfg92/hugo-shortcode-gallery][Hugo short code gallery]]. It's based on a rather powerful shortcode that handles a lot of options.
+
+#+BEGIN_SRC html
+
+  {{</* gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true */>}}
+
+#+END_SRC
+
+# more
+
+My Gallery starts here.
+
+{{< gallery match="*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true >}}
+
+
+
+
