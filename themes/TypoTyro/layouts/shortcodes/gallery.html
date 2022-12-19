@@ -1,5 +1,4 @@
 {{- $currentPage := . -}}
-
 {{- $images := (.Page.Resources.ByType "image") -}}
 {{- if .Get "match"}}
 	{{- $images = (.Page.Resources.Match (.Get "match")) -}}
@@ -13,15 +12,10 @@
 {{- $storeSelectedFilterInUrl := .Get "storeSelectedFilterInUrl" | default (.Site.Params.storeSelectedFilterInUrl | default false) -}}
 
 {{- $sortOrder := .Get "sortOrder" | default (.Site.Params.gallerySortOrder | default "asc") -}}
-
 {{- $rowHeight := .Get "rowHeight" | default (.Site.Params.galleryRowHeight | default 150) -}}
-
 {{- $margins := .Get "margins" | default (.Site.Params.galleryRowMargins | default 5) -}}
-
 {{- $randomize := .Get "randomize" | default (.Site.Params.galleryRandomize | default false) -}}
-
 {{- $thumbnailResizeOptions := .Get "thumbnailResizeOptions" | default (.Site.Params.galleryThumbnailResizeOptions | default "300x150 q85 Lanczos") -}}
-
 {{- $imageResizeOptions := .Get "imageResizeOptions" | default .Site.Params.galleryImageResizeOptions -}}
 
 {{- $loadJQuery := .Get "loadJQuery" | default (.Site.Params.galleryLoadJQuery | default false) -}}
@@ -31,9 +25,7 @@
 {{- $justifiedGalleryParameters := .Get "justifiedGalleryParameters" | default (.Site.Params.galleryJustifiedGalleryParameters | default "") -}}
 
 {{- $previewType := .Get "previewType" | default (.Site.Params.galleryPreviewType | default "blur") -}}
-
 {{- $embedPreview := .Get "embedPreview" | default (.Site.Params.galleryEmbedPreview | default true) -}}
-
 {{- $thumbnailHoverEffect := .Get "thumbnailHoverEffect" | default (.Site.Params.galleryThumbnailHoverEffect | default "none") -}}
 
 <!-- hugos image processing saves images at resources/_gen/images, if the property resourceDir
