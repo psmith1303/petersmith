@@ -23,7 +23,7 @@ I aspire to have the flexibility offered by the [[https://github.com/mfg92/hugo-
 
 My Gallery starts here.
 
-{{< gallery match="*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true >}}
+{{< gallery match="*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="200x200 q90 Lanczos" showExif=true previewType="blur" embedPreview=true >}}
 
 
 

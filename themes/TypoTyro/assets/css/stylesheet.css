@@ -690,3 +690,20 @@ input[type="radio"] ~ .tab {          /* grey line between tab and contents */
     font-size: 12px;
 }
 
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.photo-wrapper img {
+  margin: 0;
+  width: 100%;
+}
+
+.photo-item {
+  width: 20%;
+}

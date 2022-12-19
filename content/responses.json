@@ -147,6 +147,54 @@
     "wm_target": "https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/"
   },
   {
-    "timestamp": "2022-12-18T12:21:19Z"
+    "author": {
+      "name": "robbinespu ",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/ab6af50adf89b1416f07e3f8662c3ee5d57b4efb74b365ec92c1058b80e4a1bb.jpg",
+      "type": "card",
+      "url": "https://twitter.com/RobbiNespu"
+    },
+    "content": {
+      "html": "📝 New post:  ↩️ Reply to: <a href=\"https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/\">petersmith.org/webmentions/li…</a> -  ➡️ <a href=\"https://journal.robbi.my/notes/221218071647/\">journal.robbi.my/notes/22121807…</a>",
+      "text": "📝 New post:  ↩️ Reply to: petersmith.org/webmentions/li… -  ➡️ journal.robbi.my/notes/22121807…"
+    },
+    "mention_of": "https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/",
+    "published": "2022-12-18T18:37:40+00:00",
+    "type": "entry",
+    "url": "https://twitter.com/RobbiNespu/status/1604546453375967233",
+    "wm_id": 1583456,
+    "wm_private": false,
+    "wm_property": "mention-of",
+    "wm_received": "2022-12-18T19:50:27Z",
+    "wm_source": "https://brid.gy/post/twitter/robbinespu/1604546453375967233",
+    "wm_target": "https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/"
+  },
+  {
+    "author": {
+      "name": "Robbi Nespu",
+      "photo": "https://webmention.io/avatar/journal.robbi.my/6e26274b5791d929b75d7450e7a5c1f9e0d19134bb0c641705f0a1e41742e4d2.png",
+      "type": "card",
+      "url": "https://journal.robbi.my/"
+    },
+    "content": {
+      "html": "<p>Previously, I always send my URL to the Wayback Machine to archive it. But now, I have a better way to do it. I use the\n<a href=\"https://docs.gitlab.com/ee/ci/\">Gitlab CI/CD</a>\nservice to send my URL to the Wayback Machine. It is a free service and it is very easy to use. I just need to add a few lines of code to my Hugo build script.</p><p>Here is an example:</p><p>First, I need to add some python script called\n<a href=\"https://github.com/oduwsdl/archivenow\">archivenow</a>\nduring build stage.</p><pre style=\"color:#f8f8f2;background-color:#272822;\"><code><span><span>pages:\n</span></span><span><span>  stage: deploy\n</span></span><span><span>  script:\n</span></span><span><span>    - hugo --verbose --minify --enableGitInfo\n</span></span><span><span>    - git clone git@github.com:oduwsdl/archivenow.git\n</span></span><span><span>    - cd archivenow\n</span></span><span><span>    - pip install -r requirements.txt\n</span></span><span><span>    - pip install ./\n</span></span><span><span>    - cd ..\n</span></span><span><span>    - ./submit10url2backway.sh\n</span></span><span><span>    - echo <span style=\"color:#e6db74;\">'Build is complete and feed submited to web archieved..!!!'</span>\n</span></span></code></pre><p>Then, I need to add “<strong>submit10url2backway</strong>” script to send my URL to the Wayback Machine. Here is the script:</p><pre style=\"color:#f8f8f2;background-color:#272822;\"><code><span><span><span style=\"color:#75715e;\">#!/usr/bin/env bash\n</span></span></span><span><span><span style=\"color:#75715e;\"></span><span style=\"color:#75715e;\"># Copyright Robbi Nespu &lt;contact@robbi.my&gt; , 2022</span>\n</span></span><span><span><span style=\"color:#75715e;\"># License: MIT</span>\n</span></span><span><span>\n</span></span><span><span><span style=\"color:#75715e;\"># This script is used to archive my website to the Internet Archive.</span>\n</span></span><span><span>\n</span></span><span><span><span style=\"color:#75715e;\"># Fetch RSS and read the first 10 URLs send send it to the Wayback Machine</span>\n</span></span><span><span>urls1<span style=\"color:#f92672;\">=</span><span style=\"color:#66d9ef;\">$(</span>curl -s https://robbinespu.gitlab.io/index.xml | grep <span style=\"color:#e6db74;\">\"&lt;link&gt;\"</span> | head -n <span style=\"color:#ae81ff;\">10</span> | awk -F<span style=\"color:#e6db74;\">\"&lt;guid&gt;\"</span> <span style=\"color:#e6db74;\">'{print $2} '</span> | awk -F<span style=\"color:#e6db74;\">\"&lt;/guid&gt;\"</span> <span style=\"color:#e6db74;\">'{print $1}'</span><span style=\"color:#66d9ef;\">)</span>\n</span></span><span><span><span style=\"color:#66d9ef;\">for</span> i in $urls1\n</span></span><span><span>    <span style=\"color:#66d9ef;\">do</span>  archivenow --ia --is --mg <span style=\"color:#e6db74;\">\"</span>$i<span style=\"color:#e6db74;\">\"</span>\n</span></span><span><span><span style=\"color:#66d9ef;\">done</span>\n</span></span><span><span>\n</span></span><span><span><span style=\"color:#75715e;\"># Same like previous but for the IndieWeb RSS</span>\n</span></span><span><span>urls2<span style=\"color:#f92672;\">=</span><span style=\"color:#66d9ef;\">$(</span>curl -s https://robbinespu.gitlab.io/indieweb/index.xml | grep <span style=\"color:#e6db74;\">\"&lt;link&gt;\"</span> | head -n <span style=\"color:#ae81ff;\">10</span> | awk -F<span style=\"color:#e6db74;\">\"&lt;guid&gt;\"</span> <span style=\"color:#e6db74;\">'{print $2} '</span> | awk -F<span style=\"color:#e6db74;\">\"&lt;/guid&gt;\"</span> <span style=\"color:#e6db74;\">'{print $1}'</span><span style=\"color:#66d9ef;\">)</span>\n</span></span><span><span><span style=\"color:#66d9ef;\">for</span> i in $urls2\n</span></span><span><span>    <span style=\"color:#66d9ef;\">do</span>  archivenow --ia --is --mg <span style=\"color:#e6db74;\">\"</span>$i<span style=\"color:#e6db74;\">\"</span>\n</span></span><span><span><span style=\"color:#66d9ef;\">done</span>\n</span></span><span><span>\n</span></span><span><span><span style=\"color:#75715e;\"># Archive the main website</span>\n</span></span><span><span>archivenow --ia --is --mg <span style=\"color:#e6db74;\">\"https://robbinespu.gitlab.io/\"</span>\n</span></span><span><span>echo <span style=\"color:#e6db74;\">\"Done!\"</span>\n</span></span></code></pre><p>But I have turn off / comment out the script since a year ago because I don’t want to archive my website too often (because I added a webhook to execute CI/CD when received\n<a href=\"https://github.com/aaronpk/webmention.io/blob/45a06629e59d56efdba1ce39936e61b81fc92d97/views/webhooks.erb\">payload from webmention</a>\n).</p><p>Plus this tricks only work for existing old post, the new post not being archived yet because pipeline still running and it the “artifacts” still un-publish.</p><p>I only want to archive it when I have a new post. So, I will archive it manually 😊</p>",
+      "text": "Previously, I always send my URL to the Wayback Machine to archive it. But now, I have a better way to do it. I use the\nGitlab CI/CD\nservice to send my URL to the Wayback Machine. It is a free service and it is very easy to use. I just need to add a few lines of code to my Hugo build script.Here is an example:First, I need to add some python script called\narchivenow\nduring build stage.pages:\n  stage: deploy\n  script:\n    - hugo --verbose --minify --enableGitInfo\n    - git clone git@github.com:oduwsdl/archivenow.git\n    - cd archivenow\n    - pip install -r requirements.txt\n    - pip install ./\n    - cd ..\n    - ./submit10url2backway.sh\n    - echo 'Build is complete and feed submited to web archieved..!!!'\nThen, I need to add “submit10url2backway” script to send my URL to the Wayback Machine. Here is the script:#!/usr/bin/env bash\n# Copyright Robbi Nespu <contact@robbi.my> , 2022\n# License: MIT\n\n# This script is used to archive my website to the Internet Archive.\n\n# Fetch RSS and read the first 10 URLs send send it to the Wayback Machine\nurls1=$(curl -s https://robbinespu.gitlab.io/index.xml | grep \"<link>\" | head -n 10 | awk -F\"<guid>\" '{print $2} ' | awk -F\"</guid>\" '{print $1}')\nfor i in $urls1\n    do  archivenow --ia --is --mg \"$i\"\ndone\n\n# Same like previous but for the IndieWeb RSS\nurls2=$(curl -s https://robbinespu.gitlab.io/indieweb/index.xml | grep \"<link>\" | head -n 10 | awk -F\"<guid>\" '{print $2} ' | awk -F\"</guid>\" '{print $1}')\nfor i in $urls2\n    do  archivenow --ia --is --mg \"$i\"\ndone\n\n# Archive the main website\narchivenow --ia --is --mg \"https://robbinespu.gitlab.io/\"\necho \"Done!\"\nBut I have turn off / comment out the script since a year ago because I don’t want to archive my website too often (because I added a webhook to execute CI/CD when received\npayload from webmention\n).Plus this tricks only work for existing old post, the new post not being archived yet because pipeline still running and it the “artifacts” still un-publish.I only want to archive it when I have a new post. So, I will archive it manually 😊"
+    },
+    "in_reply_to": "https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/",
+    "name": "↩️ Reply to: https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/",
+    "published": "2022-12-18T19:16:47",
+    "rels": {
+      "canonical": "https://journal.robbi.my/notes/221218071647/"
+    },
+    "type": "entry",
+    "url": "https://journal.robbi.my/notes/221218071647/",
+    "wm_id": 1583386,
+    "wm_private": false,
+    "wm_property": "in-reply-to",
+    "wm_received": "2022-12-18T18:21:41Z",
+    "wm_source": "https://journal.robbi.my/notes/221218071647/",
+    "wm_target": "https://petersmith.org/webmentions/likes/2022/like-202220221213-124654/"
+  },
+  {
+    "timestamp": "2022-12-18T19:50:27Z"
   }
 ]
