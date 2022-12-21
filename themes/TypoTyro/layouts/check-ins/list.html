@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main>
+  <article>
+    {{ "<!-- -default/list.html -->" | safeHTML }}
+    <div class="article-header"><h1>{{ .Title }}</h1></div>
+    <!-- "{{.Content}}" pulls from the content of the corresponding _index.org, if any -->
+    {{ .Content }}
+    <div class="article-content">
+       <div class="photo-container">
+	 {{ range (where .Site.RegularPages "Type" "in" (slice "check-ins")) }}
+	    {{ $myPage := .RelPermalink }}
+	    {{ $myTitle := .Title }}
+	    {{ range .Resources.ByType "image" }}
+	       <div class="photo-item">
+                  <div class="photo-title">{{ $myTitle }}</div>
+		  <a href="{{ $myPage }}">
+		      <picture>
+			 <img src="{{ .RelPermalink }}">
+		      </picture>
+		  </a>
+	       </div>
+	    {{ end }}
+	 {{ end }}
+     </div>
+    </div>
+    <div class="article-nav"></div>
+    <div class="article-meta"></div>
+  </article>
+</main>
+{{ end }}

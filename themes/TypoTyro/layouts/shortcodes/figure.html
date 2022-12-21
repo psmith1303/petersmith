@@ -43,10 +43,12 @@ TODO: check if source image is not already in WebP format (rare case)
 
 See also: https://gohugo.io/content-management/image-processing/
 -->
+{{- $teenyw := default (printf "180x q50 Box%s"  $myTransform) -}}
 {{- $tinyw := default (printf "360x q50 Box%s"  $myTransform) -}}
 {{- $smallw := default (printf "720x q50 Box%s" $myTransform)  -}}
 {{- $largew := default (printf "1440x q50 Box%s" $myTransform) -}}
 
+{{- $teenywwebp := default (printf "180x webp q50 Box%s" $myTransform) -}}
 {{- $tinywwebp := default (printf "360x webp q50 Box%s" $myTransform) -}}
 {{- $smallwwebp := default (printf "720x webp q50 Box%s" $myTransform) -}}
 {{- $largewwebp := default (printf "1440x webp q50 Box%s" $myTransform) -}}
@@ -58,10 +60,12 @@ variable scope correctly.
 Doc:
 https://code.luasoftware.com/tutorials/hugo/hugo-scope-variable-in-template/
 -->
+{{- $.Scratch.Set "teeny" false -}}{{- if gt $src.Width "180" -}}{{- $.Scratch.Set "teeny" ($src.Resize $teenyw) -}}{{- end -}}
 {{- $.Scratch.Set "tiny" false -}}{{- if gt $src.Width "360" -}}{{- $.Scratch.Set "tiny" ($src.Resize $tinyw) -}}{{- end -}}
 {{- $.Scratch.Set "small" false -}}{{- if gt $src.Width "720" -}}{{- $.Scratch.Set "small" ($src.Resize $smallw) -}}{{- end -}}
 {{- $.Scratch.Set "large" false -}}{{- if gt $src.Width "1440" -}}{{- $.Scratch.Set "large" ($src.Resize $largew) -}}{{- end -}}
 
+{{- $.Scratch.Set "teenywebp" false -}}{{- if ge $src.Width "180" -}}{{- $.Scratch.Set "teenywebp" ($src.Resize $teenywwebp) -}}{{- end -}}
 {{- $.Scratch.Set "tinywebp" false -}}{{- if ge $src.Width "360" -}}{{- $.Scratch.Set "tinywebp" ($src.Resize $tinywwebp) -}}{{- end -}}
 {{- $.Scratch.Set "smallwebp" false -}}{{- if ge $src.Width "720" -}}{{- $.Scratch.Set "smallwebp" ($src.Resize $smallwwebp) -}}{{- end -}}
 {{- $.Scratch.Set "largewebp" false -}}{{- if ge $src.Width "1440" -}}{{- $.Scratch.Set "largewebp" ($src.Resize $largewwebp) -}}{{- end -}}

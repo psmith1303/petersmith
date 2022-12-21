@@ -15,7 +15,7 @@
 	    "anav"
 	    "afooter";
 	row-gap: 24px;
-        padding: 0 24px;
+	padding: 0 24px;
     }
     footer {
 	grid-template-columns: 1fr 1fr;
@@ -28,7 +28,7 @@
 	padding-right: 2em;
     }
     .article-meta-details {
-        grid-template-columns: 1fr;
+	grid-template-columns: 1fr;
     }
 
 }
@@ -59,7 +59,7 @@
 	padding-right: 72px;
     }
     .article-meta-details {
-        grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 0.5em;
     }
 }
@@ -208,7 +208,7 @@ article a:active {
     grid-area: acontent;
 }
 .article-content h1:first-of-type,
-.article-content h3:first-of-type, 
+.article-content h3:first-of-type,
 .article-content p:first-of-type  {
     zzbackground-color: yellow;
     margin-top: 28px;
@@ -525,7 +525,7 @@ hr.footnotes-separatator {
 }
 
 .footnote-definitions {
-        font-size: 80%;
+	font-size: 80%;
 }
 
 .footnote-definition {
@@ -690,3 +690,31 @@ input[type="radio"] ~ .tab {          /* grey line between tab and contents */
     font-size: 12px;
 }
 
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.photo-container img {
+    margin: 0;
+    width: 100%;
+}
+
+.photo-item {
+    margin: 0;
+    width: 33%;
+    line-height: 0px;
+}
+
+.photo-title {
+    word-wrap: break-word;
+    display: none;
+}
+.photo-container:hover .photo-title {
+    opacity: 1;
+}
