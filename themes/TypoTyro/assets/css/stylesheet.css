@@ -709,12 +709,28 @@ input[type="radio"] ~ .tab {          /* grey line between tab and contents */
     margin: 0;
     width: 33%;
     line-height: 0px;
+    position: relative;
 }
 
 .photo-title {
+    /*positioned relative to parent div (container) */
+    position: absolute;
+    top:0;
+    /* bottom margin is 0 so that it
+    coincides with container's bottom margin*/
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px 0;
+    text-align: center;
+    /*invisible because opacity is 0*/
+    opacity: 0;
+    transition: 0.6s;
+    overflow-wrap: break-word;
     word-wrap: break-word;
-    display: none;
+    line-height: 20px;
+    width: 100%;
+    
 }
-.photo-container:hover .photo-title {
+.photo-item:hover .photo-title {
     opacity: 1;
 }
