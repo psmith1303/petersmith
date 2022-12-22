@@ -2,7 +2,7 @@
 #+slug: some-notes-on-the-assignment-for-next-time
 #+date: 2004-05-19T15:07:00+12:00
 #+lastmod: 2004-05-19T15:07:00+12:00
-#+categories[]: Teching
+#+categories[]: Teaching
 #+tags[]: MGMT301 Assignments
 #+draft: False
 
