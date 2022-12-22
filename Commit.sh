@@ -6,10 +6,7 @@ echo "Started at: " `date`
 echo "The commit message is:    " \"${DESCRIPTION}\"
 echo "The working directory is :" `pwd`
 
-git add . &&  \
-sleep 3 && \
-echo "git add -u" && \
-git add -u && \
+git add -A &&  \
 sleep 3 && \
 echo "git commit " && \
 git commit -m "${DESCRIPTION}" && \

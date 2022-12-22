@@ -1,0 +1,30 @@
+#+title: Next notebook
+#+date: 2022-12-22T15:03:05+13:00
+#+lastmod: 2022-12-22T15:03:05+13:00
+#+categories[]: Academia Tech
+#+tags[]: Pens Notebooks Leuchtturm Moleskine Inks Org Mod
+
+Back when I used to grade/mark on paper, I moved to using a fountain pen instead of ballpoint pens. I found that writing with a fountain pen was much less tiring on my hand. The pen would smoothly flow over the paper. That reminds me how much marking I used to do; there was a lot of essays to be graded.
+
+At first I used a black ink, but it didn't stand out well from the students writing (which was often printed). So I moved to a variety of blues and blue-black inks. That probably what set me on my quest to find the perfect ink. TL;DR, there isn't one---it depends on the task, the paper, and my mood.
+
+
+After some time, I found that I was using my fountain pens (yes, they had multiplied) for all my paper-based note taking. For sometime, I used the pocket-size Moleskine notebooks; that must have been around 2005. That size was same as the notebooks that Brendon Potter used (to good effect when he was the deputy director of the MBA programme).
+
+Moleskines notebooks were about the only ones I could find that worked well with fountain pens.
+
+My current workflow is that for meetings, seminars, and the like, I make notes in my notebook. If there are any to-dos, I flag them (thanks 3M) and transfer them into [[{{ relref "/tags/orgmode/][Org Mode]] as part of my /Daily Review/.
+
+# more
+
+Nowadays, there is so much choice. But since around 2014 I've been using the A5 Leuchtturm 1917 notebooks (even thought I can't say the name properly). They've many features that make them better for my purposes: page numbers, index pages, and etc.  My 'ruling' of choice is the DotGrid. The orange notebook below, is a Rhodia. Nice paper, but I missed the page numbers, and I'm too lazy to number the pages by hand. I use A4 Rhodia DotPads, for sketching out bigger things, such as web page designs, deck designs--for the garden, or network diagrams. I still use the pocket-size soft Moleskines for notes I do in my garage workshop (as I'll often stuff them in my pocket when I go to the hardware store).
+
+I keep the A5 notebooks I use for work in case I need to refer back to them. For example, I was at a conference with [[https://www.paulajarzabkowski.com/][Paul Jarzabkowski]] were she described her 'model' for collecting data and using it for producing papers. I drew it out, and still find I go back to it from time to time.
+
+{{< figure src="IMG_7513.jpg" alt="My pile of notebooks since 2014" >}}
+
+As part of my /Monthly Review/ I like to write out the month as it helps shift my thinking into what to. This is what my December 'spread' looks like.
+
+{{< figure src="IMG_7512.jpg" alt="The 'spread' of my notebook for January 2023" >}}
+
+It's a new format I trying for my new notebook. My plan is that during my /Weekly Review/ I'll add to it if there are big things coming up in the week. I don't think I a 'weekly spread'. I'm also trying to keep it pretty straightforward. I see many examples of people of the Internet doing quite elaborate spreads, but that's not really me.
