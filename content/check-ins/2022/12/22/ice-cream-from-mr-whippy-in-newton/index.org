@@ -4,7 +4,7 @@
 #+categories[]: Check-ins
 #+tags[]:  IceCream
 
-{{< figure src="2022-12-22-img_7523.jpg" caption="Ice cream from Mr Whippy in Newton">}}
+{{< figure src="2022-12-22-img_7523.jpg" alt="Ice cream from Mr Whippy in Newton">}}
 
 Who can resist the Mr Whippy jingle. 
 

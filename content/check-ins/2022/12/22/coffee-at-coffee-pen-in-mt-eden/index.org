@@ -4,7 +4,7 @@
 #+categories[]: Check-ins
 #+tags[]:  Coffee
 
-{{< figure src="2022-12-22-img_7522.jpg" caption="Coffee at Coffee Pen in Mt Eden">}}
+{{< figure src="2022-12-22-img_7522.jpg" alt="Coffee at Coffee Pen in Mt Eden">}}
 
 A tiny coffee shop that is really busy at lunchtime … so I had a bit of a wait. But as always it was worth it. 
 

@@ -4,9 +4,9 @@
 #+categories[]: Check-ins
 #+tags[]:  Food
 
-{{< figure src="2022-12-23-img_7524.jpg" caption="PYO at Zakberry Farms, Waitākere">}}
+{{< figure src="2022-12-23-img_7524.jpg" alt="PYO at Zakberry Farms, Waitākere">}}
 
-{{< figure src="2022-12-23-img_7525.jpg" caption="PYO at Zakberry Farms, Waitākere">}}
+{{< figure src="2022-12-23-img_7525.jpg" alt="PYO at Zakberry Farms, Waitākere">}}
 
 Busy picking our own strawberries for the Christmas lunch (trifle). 
 
