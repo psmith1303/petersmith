@@ -5,7 +5,7 @@
   <div class="article-content">{{ $data := .Data }}
     <ul class="wrappinglist">
       {{ range .Data.Terms.Alphabetical }}
-      <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+      <li>&nbsp;<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
       {{- end -}}
     </ul>
   </div>
