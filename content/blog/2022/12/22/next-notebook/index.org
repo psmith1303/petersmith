@@ -2,7 +2,7 @@
 #+date: 2022-12-22T15:03:05+13:00
 #+lastmod: 2022-12-22T15:03:05+13:00
 #+categories[]: Academia Tech
-#+tags[]: Pens Notebooks Leuchtturm Moleskine Inks Org Mod
+#+tags[]: Pens Notebooks Leuchtturm Moleskine Inks Orgmode
 
 Back when I used to grade/mark on paper, I moved to using a fountain pen instead of ballpoint pens. I found that writing with a fountain pen was much less tiring on my hand. The pen would smoothly flow over the paper. That reminds me how much marking I used to do; there was a lot of essays to be graded.
 
@@ -13,7 +13,7 @@ After some time, I found that I was using my fountain pens (yes, they had multip
 
 Moleskines notebooks were about the only ones I could find that worked well with fountain pens.
 
-My current workflow is that for meetings, seminars, and the like, I make notes in my notebook. If there are any to-dos, I flag them (thanks 3M) and transfer them into [[{{ relref "/tags/orgmode/][Org Mode]] as part of my /Daily Review/.
+My current workflow is that for meetings, seminars, and the like, I make notes in my notebook. If there are any to-dos, I flag them (thanks 3M) and transfer them into [[{{< ref "/tags/orgmode" >}}][Org Mode]] as part of my /Daily Review/.
 
 # more
 
