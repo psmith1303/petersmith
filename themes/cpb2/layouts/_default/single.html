@@ -3,7 +3,14 @@
 <article class="h-entry">
   <div class="article-content e-content">
     <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
-      {{- .Content -}}
+    <a class="u-url u-uid hidden" href="{{ .Permalink }}">{{ .Permalink }}</a>
+    <time class="dt-published hidden" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2 Jan '06 15:04" }}</time>
+    <span class="p-author h-card hidden"><img rel="me" class="u-photo hidden" src="{{ .Site.Author.photo }}" alt="Headshot of Peter Smith" />
+      <a  rel="me" class="u-url u-uid url uid url fn n hidden" href="{{ .Site.BaseURL }}">
+	<span class="p-name hidden"><span class="p-given-name">Peter</span>
+	  <span class="p-family-name hidden">Smith</span></span></a>
+    </span>
+     {{- .Content -}}
   </div>
   {{- partial "article-nav" . -}}
   <hr>
