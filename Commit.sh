@@ -6,6 +6,8 @@ echo "Started at: " `date`
 echo "The commit message is:    " \"${DESCRIPTION}\"
 echo "The working directory is :" `pwd`
 
+rm -fr .git/index.lock
+
 git add -A &&  \
 sleep 3 && \
 echo "git commit " && \
