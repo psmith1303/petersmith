@@ -1,8 +1,10 @@
 {{- define "main" -}}
 {{"<!-- _default/single.html -->" | safeHTML }}
-<article>
-  <h1>{{ .Title }}</h1>
-  {{- .Content -}}
+<article class="h-entry">
+  <div class="article-content e-content">
+    <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
+      {{- .Content -}}
+  </div>
   {{- partial "article-nav" . -}}
   <hr>
 </article>

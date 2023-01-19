@@ -7,7 +7,7 @@
     {{- with .Params.tags -}}
     {{- range . -}}
     {{- $href := print (absURL "tags/") (urlize .) -}}
-    <li><a href="{{ $href }}">{{ . }}</a></li>
+    <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
     {{- end -}}
     {{- end -}}
     {{- if ne ($.Scratch.Get "compact") true -}}
