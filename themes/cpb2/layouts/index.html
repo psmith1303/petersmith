@@ -1,11 +1,14 @@
 {{- define "main" -}}
 {{"<!-- index.html -->" | safeHTML }}
-<article class="article header">
+
+{{- if (eq .Paginator.HasPrev false) -}}
+<article class="header">
   <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
   {{- .Content -}}
 </article>
+{{- end -}}
 
-{{- range  .Site.RegularPages.ByDate.Reverse -}}
+{{- range  (.Paginate .Site.RegularPages.ByDate.Reverse).Pages -}}
     <article class="summary">
       <div class="grid-child">
 	<h3><a href="{{ .Permalink }}" class="article-title p-name">{{ .Title }}</a></h3>
@@ -20,7 +23,11 @@
       </div>
     </article>
 {{- end -}}
-<article class="summary"></article>
+
+<article>
+  {{- partial "paginator" . -}}
+  <hr>
+</article>
 
 {{- partial "article-webmentions" . -}}
 {{- partial "listPageResources" . -}}

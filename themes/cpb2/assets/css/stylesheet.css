@@ -1,8 +1,11 @@
-fpag/* Making it responsive */
+/*****************************
+     Making it responsive
+******************************/
 
 * {
     box-sizing: border-box;
 }
+
 
 @media screen {
     body {
@@ -49,7 +52,9 @@ fpag/* Making it responsive */
 
 }
 
-/** Main sections **/
+/*****************************
+        Main sections
+******************************/
 
 html {
     padding: 0;
@@ -92,23 +97,6 @@ footer {
     font-size: 0.9em;
 }
 
-.copyright {
-    border-top: solid 2px #f0d0b0;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.indieweb {
-   padding-left: 1em;
-    padding-right: 1em;
-}
-
-
-#content {
-    padding-top: 12px;
-}
-
-
 section {
     background-color: purple;
 }
@@ -125,6 +113,14 @@ section#webmentions {
     background-color: white;
 }
 
+section#webmentions {
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 6em;
+}
+
+
 section#article-meta {
     grid-area: article_meta;
     background-color: #f3efcc;
@@ -140,20 +136,14 @@ section#article-meta div {
     padding-top: 1em;
 }
 
-.hidden {
-    display: none;
-}
-
 section#article-meta p {
     margin: 0.1em;
 }
 
-#webmentions {
-    padding-top: 1em;
-    padding-left: 6em;
-    padding-right: 6em;
-    padding-bottom: 6em;
-}
+
+/*****************************
+      Article details
+******************************/
 
 article {
     grid-area: article;
@@ -190,20 +180,93 @@ article > hr:after {
     top: -13px;
 }
 
-article a,
-article a:link,
-article a:visited,
-article a:hover,
-article a:active {
-    color: mediumblue;
-    font-weight: 600;
+.article-content a,
+.article-content a:link,
+.article-content a:visited,
+.article-content a:hover,
+.article-content a:active {
+    color: red;
+    font-weight: 400;
 }
 
+.article-content a:hover{
+    text-decoration: underline;
+}
 .article-webmentions {
     grid-area: webmebmentions;
 }
 
-.article-meta {
+article.header {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+
+article.summary {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    flex-flow: column wrap;
+    column-gap: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+article.summary > * {
+  min-width: 0px;
+}
+
+.summary img {
+    width: 100%
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.summary h3 {
+    padding: 12px 0;
+    margin: 0;
+}
+
+article.summary h3 > a {
+    color: black;
+}
+
+article.summary  div.tag-list  a,
+article.summary  div.category-list  a {
+    color: grey;
+    font-weight: normal;
+}
+
+article.summary  div.tag-list,
+article.summary  div.category-list {
+    display: inline;
+}
+
+
+div.article-content > a > h1{
+    color: black;
+}
+
+
+/*****************************
+    Sub-sections (classes)
+******************************/
+
+.copyright {
+    border-top: solid 2px #f0d0b0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.indieweb {
+   padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+#content {
+    padding-top: 12px;
 }
 
 
@@ -288,6 +351,10 @@ a:active {
 
 /* Cheap text formating */
 
+.hidden {
+    display: none;
+}
+
 .has-text-left {
     text-align: left;
 }
@@ -308,6 +375,9 @@ a:active {
     margin-bottom: 0.5em;
 }
 
+/*****************************
+     Making it responsive
+******************************/
 
 /*********************
 Other styling
@@ -339,6 +409,11 @@ code.verbatim {
     font-size: 0.9em;
     color: Lime;
 }
+
+/*****************************
+     Making it responsive
+******************************/
+
 
 .masonry-gallery {
   display: flex;
@@ -415,6 +490,10 @@ svg.bi {
     display: inline-block;
 }
 
+/*****************************
+     Making it responsive
+******************************/
+
 
 ul.elsewhere {
     padding-left: 0;
@@ -428,6 +507,9 @@ ul.elsewhere {
 .elsewhere li:after {content: " ";}
 .elsewhere li:last-child:after { content: "";}
 
+/*****************************
+    Header title breadcrumbs
+******************************/
 
 ul.breadcrumbs {
     list-style: none;
@@ -436,21 +518,17 @@ ul.breadcrumbs {
     font-weight: 600;
 }
 
-/* Display list items side by side */
 ul.breadcrumbs li {
   display: inline;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumbs li+li:before {
   padding: 2px;
   color: black;
   content: "→";
 }
 
-/* Add a color to all links inside the list */
 ul.breadcrumbw li a {
-  color: #0275d8;
   text-decoration: none;
 }
 
@@ -481,7 +559,9 @@ ul.horizontal > li {
     display: none;
 }
 
-
+/*****************************
+     Sparklines
+******************************/
 
 .sparklines {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
@@ -505,6 +585,9 @@ ul.sparklines {
     text-decoration: underline;
 }
 
+/*****************************
+     My tables of contents
+******************************/
 
 
 #toc {
@@ -512,23 +595,29 @@ ul.sparklines {
     grid-template-columns: 4em 3fr 1fr;
 }
 
-.toc-date {
-
-}
-
-.toc-link {
-}
-
 .toc-tags div {
     font-size: 0.8em;
     display: inline;
 }
+
+/*****************************
+     Misc tweaks
+******************************/
 
 
 .paginator {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 0.9em;
+}
+
+.paginator a,
+.paginator a:link,
+.paginator a:visited,
+.paginator a:hover,
+.paginator a:active {
+    color: blue;
+    font-weight: 400;
 }
 
 ul.main-index {
@@ -539,37 +628,6 @@ ul.main-index h2 {
     text-align: left;
 }
 
-article.summary {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-flow: column wrap;
-    column-gap: 2em;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    margin-top: 3em;
-}
-article.summary > * {
-  min-width: 0px;
-}
-
-.summary img {
-    width: 100%
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
-
-.summary h3 {
-    padding: 12px 0;
-    margin: 0;
-}
-
-article.summary h3 > a {
-    color: black;
-}
-
-div.article-content > a {
-    color: black;
-}
 
 /*****************************
       Footnote magic
