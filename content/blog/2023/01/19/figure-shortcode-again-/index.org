@@ -1,4 +1,21 @@
-{{/*
+#+title: Figure shortcode (again)
+#+date: 2023-01-19T19:17:50+13:00
+#+lastmod: 2023-01-19T19:17:50+13:00
+#+categories[]: Tech
+#+tags[]: Hugo Graphics
+
+To have responsive images, I used a shortcode for [[{{< ref "responsive-graphics" >}}][figures]]. I modified it to handle SVG and rotated images. Alas, I had some other problems with it (too hard to change the size of the images generated for ~srcset~). So I have switched to the [[https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/][code]] by [[https://gist.github.com/cpbotha][Charl P. Botha]]. It's pretty nice.
+
+And again, I've made it work for both SVG and rotated images.
+
+# more
+
+I've not done any real testing (other than checking a few of my own pages), but is seems to be good.
+
+~figure.html~
+
+#+BEGIN_SRC html
+  {{/*
 
 figure with auto-resizing and srcset v2020-05-10
 
@@ -64,50 +81,52 @@ Changes:
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
-	<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{- end -}}>
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{- end -}}>
     {{- end }}
     <img
       {{ if $src -}}
-	 {{- if ne $src.MediaType.SubType "svg" -}}
-	    sizes="(min-width: 35em) 1200px, 100vw"
-	    {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-	    srcset='
-	    {{ range $sizes }}
-		   {{ if ge $src.Width . }}{{ ($src.Resize (printf "%sx webp %s" . $myTransform)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
-	    {{ end }}'
+         {{- if ne $src.MediaType.SubType "svg" -}}
+            sizes="(min-width: 35em) 1200px, 100vw"
+            {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+            srcset='
+            {{ range $sizes }}
+                   {{ if ge $src.Width . }}{{ ($src.Resize (printf "%sx webp %s" . $myTransform)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
+            {{ end }}'
 
-	    {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
-	    {{/* if image smaller than 800, then load the image itself */}}
-	    {{- if ge $src.Width "800" -}}src="{{ ($src.Resize "800x webp" ).Permalink }}"
-	    {{- else }}src="{{ $src.Permalink }}"{{- end -}}
-	{{- else -}}
-	    src="{{ $src }}"
-	{{- end -}}
+            {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
+            {{/* if image smaller than 800, then load the image itself */}}
+            {{- if ge $src.Width "800" -}}src="{{ ($src.Resize "800x webp" ).Permalink }}"
+            {{- else }}src="{{ $src.Permalink }}"{{- end -}}
+        {{- else -}}
+            src="{{ $src }}"
+        {{- end -}}
     {{- else -}}
-	{{/* fall back to stock hugo behaviour when image is not available in bundle */}}
-	src="{{ .Get "src" }}"
+        {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
+        src="{{ .Get "src" }}"
     {{- end -}}
 
     {{- if or (.Get "alt") (.Get "caption") }}
-	alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+        alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
     {{- end -}}
     {{- with .Get "width" }} width="{{ . }}"{{ end -}}
     {{- with .Get "height" }} height="{{ . }}"{{ end -}}
     /> <!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-	<figcaption>
-	    {{ with (.Get "title") -}}
-		<h4>{{ . }}</h4>
-	    {{- end -}}
-	    {{- if or (.Get "caption") (.Get "attr") -}}<p>
-		{{- .Get "caption" | markdownify -}}
-		{{- with .Get "attrlink" }}
-		    <a href="{{ . }}">
-		{{- end -}}
-		{{- .Get "attr" | markdownify -}}
-		{{- if .Get "attrlink" }}</a>{{ end }}</p>
-	    {{- end }}
-	</figcaption>
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
     {{- end }}
 </figure>
+
+#+END_SRC
