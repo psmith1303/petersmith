@@ -3,7 +3,7 @@
 #+date: 2021-12-27T13:55:59+13:00
 #+lastmod: 2021-12-30T15:38:56+13:00
 #+categories[]: Tech
-#+tags[]: Orgmode Bloggin Scripts Hugo Sed webmention Pandoc
+#+tags[]: Orgmode Blogging Scripts Hugo Sed Webmention Pandoc
 #+draft: False
 
 I did a half-hearted port from [[{{< ref "markingdown-markdown" >}}][Markdown to Orgmode]] for the underlying text of this site. And I also did a half-hearted port to using [[{{< ref "images-and-page-bundles" >}}][Hugo page bundles]] (in anticipating of getting [[{{< ref "first-steps-to-indieweb" >}}][webmentions]] working).
@@ -15,6 +15,8 @@ First of all, I need to covert my text files from being formated using markdown 
 But that mucks up my frontmatter (that's really important to [[https://gohugo.io/][Hugo]]). So, enter =sed=.
 
 The two scripts that do the heavy lifting, are a shell script =ConvertToOrg.sh=
+
+# more
 
 #+BEGIN_SRC sh
 

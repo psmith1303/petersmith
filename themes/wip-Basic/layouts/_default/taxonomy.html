@@ -1,0 +1,16 @@
+{{- define "main" -}}
+{{"<!-- _default/taxonomy.html -->" | safeHTML }}
+<main>
+  <div>
+   <h1>List of the {{ .Title }} taxonomy</h1>
+   <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+     <ul class="contents">
+       {{- range .Pages.ByTitle -}}
+       <li>
+	 <a href="{{ .Permalink }}" alt="Full item">{{ .Title }}</a>
+       </li>
+       {{- end -}}
+     </ul>
+  </div>
+</main>
+{{- end -}}

@@ -1,0 +1,15 @@
+{{"<!-- partial/listPageResources.html -->" | safeHTML }}
+{{- if .IsPage -}}
+  {{- $showPageResources := $.Params.showPageResources | default (.Site.Params.showPageResources | default false) -}}
+  {{- if (and (ge (len .Resources) 1) $showPageResources) -}}
+<section id="listresources">
+	<h1>Debug: Page resources</h1>
+	<p>To turn this display off, set "showPageResources" to false in either the page's frontmatter, or in the Params section of the config file</p>
+	{{- range .Resources -}}
+	<ul>
+          <li><a href="{{ .Permalink}}" alt="Link to full item">{{ .Title }}</a></li>
+	</ul>
+	{{- end -}}
+      </section>
+    {{- end -}}
+{{- end -}}

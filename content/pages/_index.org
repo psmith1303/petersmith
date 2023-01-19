@@ -1,0 +1,4 @@
+#+title: Pages
+#+weight: 300
+
+The standard sorts of pages you find on any site, plus some idosyncratic pages.

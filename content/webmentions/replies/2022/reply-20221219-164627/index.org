@@ -1,4 +1,4 @@
-#+title: In reply to: 
+#+title: In reply to https://journal.robbi.my/posts/221218071647/
 #+slug: reply-202220221219-164627
 #+date: 2022-12-19T16:46:27+13:00
 #+replyURL: https://journal.robbi.my/posts/221218071647/
@@ -10,7 +10,9 @@ Robbie, that's a very helpful post. That is so wonderfully systematic of you. By
 
 What I really like is your use of the webhooks for webmentions. I need to figure out how to do that.
 
-My 'build' process is rather manual and crude. Basically, once I make a post (or similar), I
+My 'build' process is rather manual and crude. Basically, once I make a post (or similar), then I
+
+# more
 
 - run a script that does a ~git commit~ to Github
 - wait for [[https://www.netlify.com/][Netlify]] (or its [[https://app.netlify.com/][app]]) to notice the changes and build my site

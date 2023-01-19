@@ -1,0 +1,10 @@
+{{- $count := 0 -}}
+{{- with .Resources.GetMatch "responses.json" -}}
+{{- $responses := unmarshal .Content -}}
+{{- range $responses -}}
+{{- if  .like_of -}}
+{{- $count = add $count  1 -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $count -}}

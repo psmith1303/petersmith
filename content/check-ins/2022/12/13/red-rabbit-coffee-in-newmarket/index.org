@@ -4,10 +4,8 @@
 #+categories[]: Check-ins
 #+tags[]: Coffee
 
-{{< figure src="2022-12-13-img_7509.jpg" alt="A picture of the RedRabbit store">}}
-
-{{< figure src="2022-12-13-img_7510.jpg" alt="A picture of a coffee in a takeaway cup" >}}
-
 My brother reminded me of this place earlier in the week, and as I happened to be here I thought 'Why not?'.
 
 A fine single-origin coffee.
+# more
+{{< gallery2 >}}

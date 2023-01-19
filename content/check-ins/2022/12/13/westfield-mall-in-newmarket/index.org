@@ -4,6 +4,6 @@
 #+categories[]: Check-ins
 #+tags[]: Shopping
 
-{{< figure src="2022-12-13-img_7506.jpg" alt="A picture of the outside of Westfield Mall" >}}
-
 Some early morning shopping before the crowds. 
+# more
+{{< gallery2 >}}

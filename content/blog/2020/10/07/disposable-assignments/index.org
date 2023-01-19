@@ -3,7 +3,7 @@
 #+date: 2020-10-07T08:44:53+13:00
 #+lastmod: 2020-10-07T08:44:53+13:00
 #+categories[]: Teaching
-#+tags[]: Assingments
+#+tags[]: Assignments
 #+draft: False
 
 * Making the tacit, explicit

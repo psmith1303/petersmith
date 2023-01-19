@@ -1,4 +1,4 @@
-#+title: A like of:
+#+title: A like of https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/
 #+slug: like-20220207-172703
 #+date: 2022-02-07T17:27:03+13:00
 #+likeURL: https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/

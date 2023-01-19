@@ -1,0 +1,10 @@
+#+title: Departures at Honolulu airport
+#+date: 2023-01-01T11:04:04-1000
+#+lastmod: 2023-01-01T11:04:04-1000
+#+categories[]: Check-ins
+#+tags[]: Coffee Travel
+
+I could only find a Starbucks coffee here at the airport. I wish I hadn’t. 😝
+# more
+{{< gallery2 >}}
+

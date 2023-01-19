@@ -1,0 +1,12 @@
+{{"<!-- partial/stylesheets.html -->" | safeHTML }}
+{{- $cssBundle := slice -}}
+{{- range .Site.Params.plugins.css -}}
+  {{- if findRE "^http" .link -}}
+    <link rel="stylesheet" href="{{- .link | absURL -}}">
+  {{- else -}}
+    {{- $cssFile := resources.Get .link | minify -}}
+    {{- $cssBundle = $cssBundle | append $cssFile -}}
+  {{- end -}}
+{{- end -}}
+{{- $cssBundle := $cssBundle | resources.Concat "/css/bundle.css" | resources.Fingerprint -}}
+<style>{{- $cssBundle.Content | safeCSS -}}</style>

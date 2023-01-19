@@ -1,0 +1,567 @@
+fpag/* Making it responsive */
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen {
+    body {
+	background-color: oldlace;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	    "header"
+	    "main"
+	    "article_meta"
+	    "footer";
+	row-gap: 0;
+	column-gap: 0;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    body {
+	display: grid;
+	grid-template-columns: 210mm 1fr;
+	grid-template-areas:
+	    "main header"
+	    "main article_meta"
+	    "main footer"
+	    "main .";
+	row-gap: 0;
+	column-gap: 2em;
+	background-color: #fafaff;
+	max-width: 297mm;
+	margin-top: 2em;
+    }
+
+    main {
+	margin-top: 3em;
+	align-self: start;
+    }
+
+    header {
+	    border-top-left-radius: 8px;
+	    border-top-right-radius: 8px;
+	    margin-top: 3em;
+    }
+}
+
+/** Main sections **/
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: gainsborough;
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+main {
+    grid-area: main;
+    max-width: 210mm;
+}
+
+header {
+    grid-area: header;
+    background-color: #f3efcc;
+    text-align: left;
+    border-bottom: solid 2px #f0d0b0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+footer {
+    grid-area: footer;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: solid 2px #f0d0b0;
+    background-color: #f3efcc;
+    color: grey;
+    font-size: 0.9em;
+}
+
+.copyright {
+    border-top: solid 2px #f0d0b0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.indieweb {
+   padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+#content {
+    padding-top: 12px;
+}
+
+
+section {
+    background-color: purple;
+}
+
+section#listresources {
+    background-color: white;
+    padding: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    margin: 0;
+}
+
+section#webmentions {
+    background-color: white;
+}
+
+section#article-meta {
+    grid-area: article_meta;
+    background-color: #f3efcc;
+    color: grey;
+    font-size: 0.9em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+section#article-meta div {
+    padding-top: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+section#article-meta p {
+    margin: 0.1em;
+}
+
+#webmentions {
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 6em;
+}
+
+article {
+    grid-area: article;
+    background-color: white;
+    padding-top: 6em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 1em;
+}
+
+article > ul > li > h3,
+article > ul > li > h3 > a {
+    color: black !important;
+}
+
+
+article > hr {
+    border: none;
+    border-top: 1px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 40%;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+
+article > hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+article a,
+article a:link,
+article a:visited,
+article a:hover,
+article a:active {
+    color: mediumblue;
+    font-weight: 600;
+}
+
+.article-webmentions {
+    grid-area: webmebmentions;
+}
+
+.article-meta {
+}
+
+
+/** 'Standards' across most containers **/
+
+
+h1 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+
+h4 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+
+h5 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 1em 0;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+.blockquote {
+    padding-left: 1em;
+    margin: 1em 0;
+    border-left: 1px solid lightgrey;
+}
+
+
+/* Cheap text formating */
+
+.has-text-left {
+    text-align: left;
+}
+
+.has-text-right {
+    text-align: right;
+}
+
+.has-text-center {
+    text-align: center;
+}
+
+.is-tight-top {
+    margin-top: 0.5em;
+}
+
+.is-tight-bottom {
+    margin-bottom: 0.5em;
+}
+
+
+/*********************
+Other styling
+*********************/
+
+div.src {
+    width: 300px;
+}
+
+pre {
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    overflow-x: scroll;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+pre:hover, pre:focus {
+    width: min-content;
+}
+
+code {
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    color: darkgreen;
+}
+
+code.verbatim {
+    background: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.language-sh {
+    font-size: 0.9em;
+    color: Lime;
+}
+
+.masonry-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px
+}
+
+.masonry-gallery >  div {
+    background: white;
+    flex: flex-grow;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.gallery-image {
+    max-width: 100%;
+    margin: 0;
+    vertical-align: middle;
+    position: relative;
+}
+
+.gallery-image:hover .image-title {
+    opacity: 1;
+}
+
+
+.overlay {
+    /*positioned relative to parent div (container) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom margin is 0 so that it
+    coincides with container's bottom margin*/
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px 0;
+    text-align: center;
+    /*invisible because opacity is 0*/
+    opacity: 0;
+    transition: 0.6s;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 20px;
+    width: 100%;
+
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure {
+    margin: 0;
+}
+
+/****************************************
+ bootstrap SVG-Icons and icons in general
+*****************************************/
+svg.bi {
+    position: relative;
+    top: 4px;
+    fill: currentcolor;
+}
+
+.inline-svg {
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+    height: 16px;
+    display: inline-block;
+}
+
+
+ul.elsewhere {
+    padding-left: 0;
+    text-align: center;
+}
+
+.elsewhere li {
+    display: inline;
+    padding: 0;
+}
+.elsewhere li:after {content: " ";}
+.elsewhere li:last-child:after { content: "";}
+
+
+ul.breadcrumbs {
+    list-style: none;
+    padding-left: 0;
+    color: black;
+    font-weight: 600;
+}
+
+/* Display list items side by side */
+ul.breadcrumbs li {
+  display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumbs li+li:before {
+  padding: 2px;
+  color: black;
+  content: "→";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumbw li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumbs li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+ul#likes,
+ul.horizontal  {
+    display: inline;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul#likes > li,
+ul.horizontal > li {
+    display: inline-block;
+    padding-inline-start: 0;
+    margin-right: 0.5em;
+}
+
+#pane-replies img,
+#pane-mentions img,
+#pane-likes img {
+    display: none;
+}
+
+
+
+.sparklines {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    min-width: 200px;
+}
+
+ul.sparklines {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sparklines a {
+    text-decoration: none;
+}
+
+.sparklines a:hover {
+    text-decoration: underline;
+}
+
+
+
+#toc {
+    display: grid;
+    grid-template-columns: 4em 3fr 1fr;
+}
+
+.toc-date {
+
+}
+
+.toc-link {
+}
+
+.toc-tags div {
+    font-size: 0.8em;
+    display: inline;
+}
+
+
+.paginator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.9em;
+}
+
+ul.main-index {
+    list-style-type: none;
+}
+
+ul.main-index h2 {
+    text-align: left;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-flow: column wrap;
+    column-gap: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 3em;
+}
+.summary img {
+    width: 100%
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.summary h3 {
+    padding: 12px 0;
+    margin: 0;
+}
+
+article.summary h3 > a {
+    color: black;
+}

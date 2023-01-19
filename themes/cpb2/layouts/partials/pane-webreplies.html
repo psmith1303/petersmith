@@ -1,0 +1,27 @@
+<div id="pane-replies">
+  {{- with .Resources.GetMatch "responses.json" -}}
+      {{- $responses := unmarshal .Content -}}
+      {{- if ge (len (where $responses ".in_reply_to" "!=" nil)) 1 -}}
+          <h3>Replies</h3>
+	  <ul id="mentions" class="replies">
+	    {{- range where $responses ".in_reply_to" "!=" nil -}}
+            <li class="h-entry">
+	      <div class="comment">
+		<div class="comment_author reply p-author">
+		  <a class="reply_bar u-url" id="{{- printf "%s_%1.f" .wm_property .wm_id -}}" href="{{- printf "%s#%s_%1.f" $.Page.Permalink .wm_property .wm_id -}}">
+		    <div class="reply_author reply_author p-author">{{- if .author.name -}}{{- .author.name -}}{{- else -}}Author Unkown{{- end -}}</div>
+		    {{- $time := time .wm_received -}}
+		    <div class="reply_date">{{- $time.Format "2 Jan 06" -}}</div>
+		  </a>
+		  <a class="reply_avatar u-author" href="{{ .author.url }}">
+		    <img loading="lazy" class="u-photo" src="{{- if .author.photo -}}{{- .author.photo -}}{{- else -}}/images/anon.svg{{- end -}}">
+		  </a>
+		</div>
+		<div class="comment_content e-entry">{{- .content.html | safeHTML  -}}</div>
+	      </div>
+	    </li>
+	    {{- end -}}
+	  </ul>
+      {{- end -}}
+  {{- end -}}
+</div>

@@ -1,0 +1,9 @@
+#+title: Lunch at Kusina Ni Jayboy, Lahania
+#+date: 2023-01-02T13:34:44-1000
+#+lastmod: 2023-01-02T13:34:44-1000
+#+categories[]: Check-ins
+#+tags[]: Food
+
+Philippinno food truck. So tasty.
+# more
+{{< gallery2 >}}

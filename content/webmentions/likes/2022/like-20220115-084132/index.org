@@ -1,9 +1,7 @@
-#+title: A like of:
+#+title: A like of https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/
 #+slug: like-20220115-084132
 #+date: 2022-01-15T08:41:32+13:00
 #+likeURL: https://petersmith.org/blog/2022/01/10/third-steps-to-indieweb/
 #+categories[]: IndieWeb
 #+tags[]: IndieWeb
 #+wm_type: like
-
-# more

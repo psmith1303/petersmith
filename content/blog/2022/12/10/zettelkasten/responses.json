@@ -1,0 +1,31 @@
+[
+  {
+    "author": {
+      "name": "Chris Aldrich",
+      "photo": "https://webmention.io/avatar/secure.gravatar.com/b5d27a7230ae76638b52b03067982bcfe4f4d4924600b32586c0435542681733.jpg",
+      "type": "card",
+      "url": ""
+    },
+    "content": {
+      "html": "<p>Unless you’ve got a pressing need for the extra structure, and especially if you’re regularly consulting your commonplace, then I’d usually suggest sticking with that workflow.</p>",
+      "text": "Unless you’ve got a pressing need for the extra structure, and especially if you’re regularly consulting your commonplace, then I’d usually suggest sticking with that workflow."
+    },
+    "in_reply_to": "https://petersmith.org/blog/2022/12/10/zettelkasten/",
+    "published": "2023-01-17T16:47:15-08:00",
+    "rels": {
+      "canonical": "https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/"
+    },
+    "summary": {
+      "content-type": "text/plain",
+      "value": "Unless you’ve got a pressing need for the extra structure, and especially if you’re regularly consulting your commonplace, then I’d usually suggest sticking with that workflow."
+    },
+    "type": "entry",
+    "url": "https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/?replytocom=403243",
+    "wm_id": 1601339,
+    "wm_private": false,
+    "wm_property": "in-reply-to",
+    "wm_received": "2023-01-18T00:47:18Z",
+    "wm_source": "https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/?replytocom=403243",
+    "wm_target": "https://petersmith.org/blog/2022/12/10/zettelkasten/"
+  }
+]

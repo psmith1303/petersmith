@@ -1,0 +1,13 @@
+<div class="paginator">
+  <div class="grid-child has-text-left">
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">⬅ Older items</a>
+    {{ end }}
+  </div>
+   <div class="grid-child has-text-right">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">Newer  items ⮕</a>
+    {{ end }}
+  </div>
+</div>
+

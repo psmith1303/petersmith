@@ -8,6 +8,7 @@ There is a lot of advice scattered around the internet about the need to optimiz
 
 So, let's do the "responsive image" thing, as suggested by someone like [[https://www.vegard.net/hugo-resize-images/][Vegard Skjefstad]]. It's good advice. However, I have found a few challenges that I'm working through. First, some of my images are [[https://developer.mozilla.org/en-US/docs/Web/SVG][SVG]], and most of the code I've found falls over when applied to a SVG. So, in my [[https://gohugo.io/content-management/shortcodes/][shortcode]], I've had to mix in something like:
 
+# more 
 #+BEGIN_SRC html
 
   {{- $image := .Page.Resources.GetMatch (.Get "src" ) -}}

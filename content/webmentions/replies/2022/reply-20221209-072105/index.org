@@ -1,4 +1,4 @@
-#+title: In reply to: 
+#+title: In reply to https://petersmith.org/blog/2022/06/10/nordvpn/
 #+slug: reply-202220221209-072105
 #+date: 2022-12-09T07:21:05+13:00
 #+replyURL: https://petersmith.org/blog/2022/06/10/nordvpn/

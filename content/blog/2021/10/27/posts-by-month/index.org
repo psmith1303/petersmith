@@ -8,6 +8,8 @@
 
 I want to get a count of blog posts by month. Actually, I want to do that for each of my types of content. Ultimately, the idea is to generate a sparkline, rather like [[https://aaronparecki.com/][Aaron Parecki]] does on his website.
 
+# more
+
 {{< figure src="AaronParecki-Sparklines.png" caption="Screenshot of sparklines from Aaron Parecki's website" alt="A partial screenshot" >}}
 
 The code I finally ended up with looks like this. First I have a partial template ~posting-status.html~. It cycles through all the types of sections I have and draws a sparkline, a count of posts, and a link to the section. I don't think the code is pretty, but it seems to work.
@@ -30,8 +32,6 @@ The code I finally ended up with looks like this. First I have a partial templat
 #+END_SRC
 
 Then there is another partial that gets the data needed for the sparkline. This took a lot of messing around because (a) Hugo was keen to HTML encode the data, and (b) I could figure way to build an 'array' of the count of posts by month. Anyway, in the end ~sparkline-data.html~ looks like this:
-
-# more
 
 #+BEGIN_SRC hugo
 {{ $master_list := dict "2021 10" 0 }}

@@ -1,0 +1,6 @@
+{{"<!-- shortcodes/gallery2.html -->" | safeHTML }}
+{{- range first 1 ( .Resources.ByType "image") -}}
+ <img src="{{ .Permalink }}" />
+{{- end -}}
+
+

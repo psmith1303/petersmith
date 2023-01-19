@@ -9,9 +9,9 @@
 
 After a bit of faffing around with the old code, I finally got it working the way I wanted it (more or less)
 
-{{< figure src="SectionSparklines.png" caption="Example of my sparklines" alt="Some sparklines" >}}
-
 # more
+
+{{< figure src="SectionSparklines.png" caption="Example of my sparklines" alt="Some sparklines" >}}
 
 I collapsed all the code into the file I use to display the contents of my Sections.
 

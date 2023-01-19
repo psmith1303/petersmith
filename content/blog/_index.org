@@ -1,0 +1,4 @@
+#+title: Blog posts
+#+weight: 100
+
+These posts started out as rather normal blog-like entries. Nowadays, they contain my writings on the things I find interesting.

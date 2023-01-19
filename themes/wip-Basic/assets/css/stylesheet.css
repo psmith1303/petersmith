@@ -1,0 +1,233 @@
+/* Making it responsive */
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen {
+    body {
+	background-color: oldlace;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    body {
+	background-color: #fafaff;
+    }
+}
+
+
+
+
+/** Main sections **/
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: gainsborough;
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4em;
+    background-color: lightgrey;
+    max-width: 297mm;
+    margin: auto;
+}
+
+main {
+    background: lightyellow;
+}
+
+header {
+    background: DarkSlateGray;
+    color: pink;
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 0.8em;
+    background-color: yellow;
+    color: green;
+}
+
+#content {
+    padding-top: 12px;
+}
+
+
+section {
+    background-color: purple;
+}
+
+article {
+    background-color: white;
+    padding: 12px;
+}
+
+.article-webmentions {
+    background-color: limegreen;
+}
+
+.article-meta {
+    background-color: lightblue;
+}
+
+/** 'Standards' across most containers **/
+
+
+h1 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+
+h4 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+
+h5 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 1em 0;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+.blockquote {
+    padding-left: 1em;
+    margin: 1em 0;
+    border-left: 1px solid lightgrey;
+}
+
+
+/* Cheap text formating */
+
+.has-text-left {
+    text-align: left;
+}
+
+.has-text-right {
+    text-align: right;
+}
+
+.has-text-center {
+    text-align: center;
+}
+
+.is-tight-top {
+    margin-top: 0.5em;
+}
+
+.is-tight-bottom {
+    margin-bottom: 0.5em;
+}
+
+
+/*********************
+Other styling
+*********************/
+
+pre {
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    overflow-x: scroll;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+pre:hover, pre:focus {
+    width: min-content;
+}
+
+code {
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    color: darkgreen;
+}
+
+code.verbatim {
+    background: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.language-sh {
+    font-size: 0.9em;
+    color: Lime;
+}
+
+
+.masonry-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.masonry-gallery >  div {
+    height: 200px;
+    line-height: 200px;
+    background: #EC985A;
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 2rem;
+    flex: 1 0 auto;
+    padding: 0px;
+    margin: 2px;
+}

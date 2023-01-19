@@ -3,14 +3,14 @@
   <article>
     {{ "<!-- -default/list.html -->" | safeHTML }}
     <div class="article-header"><h1>{{ .Title }}</h1></div>
-    <!-- "{{.Content}}" pulls from the content of the corresponding _index.org, if any -->
-    {{ .Content }}
     <div class="article-content">
+      <!-- "{{.Content}}" pulls from the content of the corresponding _index.org, if any -->
+      {{- .Content -}}
        <div class="photo-container">
-	 {{ range (where .Site.RegularPages "Type" "in" (slice "check-ins")) }}
-	    {{ $myPage := .RelPermalink }}
-	    {{ $myTitle := .Title }}
-	    {{ range .Resources.ByType "image" }}
+	 {{- range (where .Site.RegularPages "Type" "in" (slice "check-ins")) -}}
+	    {{- $myPage := .RelPermalink -}}
+	    {{- $myTitle := .Title -}}
+	    {{- range first 1 (.Resources.ByType "image") -}}
 	       <div class="photo-item">
                   <div class="photo-title">{{ $myTitle }}</div>
 		  <a href="{{ $myPage }}">
@@ -19,8 +19,8 @@
 		      </picture>
 		  </a>
 	       </div>
-	    {{ end }}
-	 {{ end }}
+	    {{- end -}}
+	 {{- end -}}
      </div>
     </div>
     <div class="article-nav"></div>

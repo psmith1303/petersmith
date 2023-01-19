@@ -3,10 +3,12 @@
 #+date: 2009-01-11T07:40:00+12:00
 #+lastmod: 2009-01-11T07:40:00+12:00
 #+categories[]: Tech
-#+tags[]: Gmail backups
+#+tags[]: Gmail Backups
 #+draft: False
 
 I tend to keep all my email. In fact, I've been doing that since 1999. The [[https://www.business.auckland.ac.nz/][University of Auckland Business School]] uses Exchange and puts quotas on the amount of mail that each individual can store. Although, over the years, the size of the quota has increased, it isn't enough to allow me to keep all my email. So, I've been using a PST file to keep all my old mail (i.e., mail that isn't current for this year). That PST file is now over 3Gb (which I suppose isn't much in the scheme of things), but it is a constant source of worry to our IT folks.
+
+# more
 
 I've often wondered how else I might store the messages, and I think I might put them all up on [[https://gmail.com][gmail]]. Although gmail is reliable, it isn't 100%, so if I do use it as my mail archive, I also want a separate backup.
 

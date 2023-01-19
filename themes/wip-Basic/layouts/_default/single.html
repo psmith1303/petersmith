@@ -1,0 +1,11 @@
+{{- define "main" -}}
+{{"<!-- _default/single.html -->" | safeHTML }}
+<main>
+  <article>
+     <h1>{{ .Title }}</h1>
+     {{- .Content -}}
+  </article>
+  {{- partial "article-webmentions" . -}}
+  {{- partial "article-meta" . -}}
+</main>
+{{- end -}}

@@ -1,0 +1,11 @@
+{{- define "main" -}}
+{{"<!-- _default/single.html -->" | safeHTML }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{- .Content -}}
+  {{- partial "article-nav" . -}}
+  <hr>
+</article>
+{{- partial "article-webmentions" . -}}
+{{- partial "listPageResources" . -}}
+{{- end -}}

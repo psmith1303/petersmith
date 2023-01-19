@@ -1,0 +1,9 @@
+#+title: Tacos at Honoapiilani Food Truck Park in Kaanapali
+#+date: 2023-01-05T17:50:54-1000
+#+lastmod: 2023-01-05T17:50:54-1000
+#+categories[]: Check-ins
+#+tags[]: Food Travel
+
+So very tasty.
+# more
+{{< gallery2 >}}

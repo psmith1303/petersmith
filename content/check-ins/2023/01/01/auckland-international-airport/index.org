@@ -1,0 +1,11 @@
+#+title: Auckland International Airport
+#+date: 2023-01-01T21:47:22+1300
+#+lastmod: 2023-01-01T21:47:22+1300
+#+categories[]: Check-ins
+#+tags[]: Travel
+
+The joys of international travel. On our way to Hawaii and the HICSS 56 Conference.
+
+The queue was for times this size by the time we got checked in.
+# more
+{{< gallery2 >}}

@@ -1,9 +1,9 @@
-#+title: A like of: 
+#+title: A like of https://boffosocko.com/2022/12/16/55812850/
 #+slug: like-202220221219-071356
 #+date: 2022-12-19T07:13:56+13:00
 #+likeURL: https://boffosocko.com/2022/12/16/55812850/
 #+categories[]: IndieWeb
-#+tags[]: Indieweb 
+#+tags[]: Indieweb
 #+wm_type: like
 
 Yes, the Indeweb community is very supportive.

@@ -1,0 +1,38 @@
+<div>
+  <ul class="sparklines">
+    {{- range $section, $taxonomy := .Site.Sections.ByTitle -}}
+    <li>
+      {{- $ThisSection := $taxonomy.Title -}}
+      {{- $master_list := dict "2021 10" 0 -}}
+      {{- range (($taxonomy.Pages).GroupByDate "y2006_01").Reverse  -}}
+      {{- $my_year := .Key -}} {{- $my_entries := len (.Pages.Reverse) -}}
+      {{- $temp := dict $my_year $my_entries -}}
+      {{- $master_list = merge  $temp $master_list}}
+      {{- end -}}
+
+      {{- $StartYear := 2000 -}}
+      {{- $EndYear := now.Format "2006" -}}
+
+      {{- $MyList := "0" -}}
+      {{- $NewOne := "" -}}
+      {{- range $index, $year := (seq $StartYear $EndYear ) -}}
+      {{- range $month := (seq 1 12) -}}
+      {{- $key := (printf "y%d_%02d" $year $month) -}}
+      {{- $entries := index $master_list $key -}}
+      {{- if $entries -}}
+      {{- $NewOne = $entries -}}
+      {{- else -}}
+      {{- $NewOne = "0" -}}
+      {{- end -}}
+      {{- $MyList = print $MyList ", " $NewOne -}}
+      {{- end -}}
+      {{- end }}
+
+      {{- $MyList = print "/images/sparkline.svg?" $MyList -}}
+
+      <embed {{ printf "src=%q" ( replaceRE "(\\s)" "" $MyList ) | safeHTMLAttr }}  width="360" height="30">
+	{{ len .Pages }} <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>

@@ -1,0 +1,45 @@
+{{"<!-- partials/article-meta.html -->" | safeHTML }}
+<section class="article-meta">
+  <div>
+    {{- $dateTime := .PublishDate.Format "2006-01-02" -}}
+    <ul class="has-text-left">
+      <li>Permalink: <a class="u-url u-uid" href="{{ .Permalink }}">{{ .Permalink }}</a></li>
+      <li>Word count: {{ .FuzzyWordCount }}</li>
+      <li>Reading time: {{ .ReadingTime }} minutes</li>
+      <li>Published: <time class="dt-published" datetime="{{ $dateTime }}">{{ .PublishDate.Format "2 Jan 2006 15:04:05" }}</time></li>
+      <li>Updated: {{ .Lastmod.Format "2 Jan 2006 15:04:05" }}</li>
+      <li>Author: <span class="p-author h-card"><img rel="me" class="u-photo hidden" src="{{ .Site.Author.photo }}" alt="Headshot of Peter Smith" />
+          <a  rel="me" class="u-url u-uid url uid url fn n" href="{{ .Site.BaseURL }}"><span class="p-name"><span class="p-given-name">Peter</span> <span class="p-family-name">Smith</span></span></a>
+	</span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul class="has-text-left">
+      {{- with .Params.categories -}}
+          {{- range . -}}
+              {{- $href := print (absURL "categories/") (urlize .) -}}
+                  <li><a  href="{{ $href }}">{{ upper . }}</a></li>
+          {{- end -}}
+      {{- end -}}
+      <li><a  href="/categories">ALL</a></li>
+    </ul>
+    <ul class="has-text-left">
+      {{- with .Params.tags -}}
+          {{- range . -}}
+              {{- $href := print (absURL "tags/") (urlize .) -}}
+              <li><a  href="{{ $href }}">{{ . }}</a></li>
+          {{- end -}}
+      {{- end -}}
+      <li><a  href="/tags">All</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="has-text-left">
+      <li>Section: {{ .Type }}</li>
+      <li>Kind: {{ .Kind }}</li>
+      <li>Bundle type: {{ .BundleType }}</li>
+      <li>Source: {{ .File.Path }}</li>
+  </div>
+  {{- partial "listPageResources" . -}}
+</section>

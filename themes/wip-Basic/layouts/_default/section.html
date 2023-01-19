@@ -1,0 +1,16 @@
+{{- define "main" -}}
+{{"<!-- _default/section.html -->" | safeHTML }}
+<main>
+  <h1>Section: {{ .Title }}</h1>
+  {{ .Content | safeHTML}}
+  <!-- Now cycle through all the items here -->
+  <h1>Contents</h1>
+  <ul class="contents">
+  {{- range .Pages -}}
+     <li>
+       <a href="{{ .Permalink }}" alt="Full item">{{ .Title }}</a>
+     </li>
+     {{- end -}}
+  </ul>
+</main>
+{{- end -}}

@@ -8,6 +8,7 @@ Back when I used to grade/mark on paper, I moved to using a fountain pen instead
 
 At first I used a black ink, but it didn't stand out well from the students writing (which was often printed). So I moved to a variety of blues and blue-black inks. That probably what set me on my quest to find the perfect ink. TL;DR, there isn't one---it depends on the task, the paper, and my mood.
 
+# more
 
 After some time, I found that I was using my fountain pens (yes, they had multiplied) for all my paper-based note taking. For sometime, I used the pocket-size Moleskine notebooks; that must have been around 2005. That size was same as the notebooks that Brendon Potter used (to good effect when he was the deputy director of the MBA programme).
 
@@ -15,9 +16,8 @@ Moleskines notebooks were about the only ones I could find that worked well with
 
 My current workflow is that for meetings, seminars, and the like, I make notes in my notebook. If there are any to-dos, I flag them (thanks 3M) and transfer them into [[{{< ref "/tags/orgmode" >}}][Org Mode]] as part of my /Daily Review/.
 
-# more
 
-Nowadays, there is so much choice. But since around 2014 I've been using the A5 Leuchtturm 1917 notebooks (even thought I can't say the name properly). They've many features that make them better for my purposes: page numbers, index pages, and etc.  My 'ruling' of choice is the DotGrid. The orange notebook below, is a Rhodia. Nice paper, but I missed the page numbers, and I'm too lazy to number the pages by hand. I use A4 Rhodia DotPads, for sketching out bigger things, such as web page designs, deck designs--for the garden, or network diagrams. I still use the pocket-size soft Moleskines for notes I do in my garage workshop (as I'll often stuff them in my pocket when I go to the hardware store).
+Nowadays, there is so much choice. But since around 2014 I've been using the A5 Leuchtturm 1917 notebooks (even though I can't say the name properly). They've many features that make them better for my purposes: page numbers, index pages, and etc.  My 'ruling' of choice is the DotGrid. The orange notebook below, is a Rhodia. Nice paper, but I missed the page numbers, and I'm too lazy to number the pages by hand. I use A4 Rhodia DotPads, for sketching out bigger things, such as web page designs, deck designs--for the garden, or network diagrams. I still use the pocket-size soft Moleskines for notes I do in my garage workshop (as I'll often stuff them in my pocket when I go to the hardware store).
 
 I keep the A5 notebooks I use for work in case I need to refer back to them. For example, I was at a conference with [[https://www.paulajarzabkowski.com/][Paul Jarzabkowski]] were she described her 'model' for collecting data and using it for producing papers. I drew it out, and still find I go back to it from time to time.
 

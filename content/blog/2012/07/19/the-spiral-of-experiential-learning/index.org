@@ -3,7 +3,7 @@
 #+date: 2012-07-19T12:36:00+12:00
 #+lastmod: 2012-07-19T12:36:00+12:00
 #+categories[]: Teaching
-#+tags[]: MGMT300 Mikesbiks Minto
+#+tags[]: MGMT300 MikesBikes Minto
 #+draft: False
 
 After talking with [[https://directory.auckland.ac.nz/profile/lm-mitchell][Lynne Mitchell]] yesterday, I thought I would try out [[https://www.library.auckland.ac.nz.ezproxy.auckland.ac.nz/databases/learn_database/public.asp?record=Scopus%20%22Scopus%20at%20the%20UoA%20for%20academics%20(students%20and%20staff)%22][Scopus]] again.

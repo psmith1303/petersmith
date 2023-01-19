@@ -1,0 +1,22 @@
+<div class="index-list">
+  {{- $numberOfPages := .Get "numberOfPages" | default 5 -}}
+  {{- $showWebmentions := .Get "showWebmentions" | default 0 -}}
+  {{- $showDate := .Get "showDate" | default true -}}
+  {{- $URL := "" -}}
+  {{- if ne (len $.Page.Pages ) 0 -}}
+  <ul>
+     {{- range first $numberOfPages ($.Page.Pages) -}}
+     {{- $myDate := "" -}}
+     {{- if (and .Date $showDate ) -}}
+         {{- $myDate = .Lastmod.Format "02 Jan '06  " -}}
+     {{- else -}}
+         {{- $myDate = "" -}}
+     {{- end -}}
+     <!-- Get the webmentions -->
+     {{- if .Params.likeURL -}}{{- $URL = .Params.likeURL -}}{{- end -}}
+     {{- if .Params.replyURL -}}{{- $URL = .Params.replyURL -}}{{- end -}}
+         <li>{{ $myDate}}<a href="{{ .Permalink -}}" alt="Full item">{{ .Title }} {{ $URL }}</a></li>
+       {{- end -}}
+   </ul>
+{{- end -}}
+</div>

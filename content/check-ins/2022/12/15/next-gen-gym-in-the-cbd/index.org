@@ -2,13 +2,8 @@
 #+date: 2022-12-15T16:06:30+1300
 #+lastmod: 2022-12-15T16:06:30+1300
 #+categories[]: Check-ins
-#+tags[]:  Exercise Gym
-
-{{< figure src="2022-12-15-img_7518.jpg" alt="Picture inside the gym" >}}
-
-{{< figure src="2022-12-15-img_7519.jpg" alt="Picture of a gym machine" >}}
-
- 
+#+tags[]: Exercise Gym
 
 At the gym with my brother 
-
+# more
+{{< gallery2 >}}

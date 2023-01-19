@@ -1,4 +1,4 @@
-#+title: In reply to:
+#+title: In reply to https://evgenykuznetsov.org/en/reactions/2022/re-010053443/
 #+slug: reply-20220110-191605
 #+date: 2022-01-10T19:16:05+13:00
 #+lastmod: 2022-01-10T19:16:05+13:00
@@ -9,7 +9,9 @@
 
 Oh joy. I got a response from [[https://evgenykuznetsov.org/en/reactions/2022/re-010053443/][Evgeny]]. Now I need to sort out my workflow for responding to responses.
 
-To answer your questions, my directory structure is using =page bundeles= with each section (blog, notes, pages, etc) having all my posts, like this:
+To answer your questions, my directory structure is using =page bundeles= with each section (blog, notes, pages, etc.) having all my posts, like this:
+
+# more
 
 #+BEGIN_SRC text
 
@@ -56,8 +58,6 @@ To answer your questions, my directory structure is using =page bundeles= with e
           themes
 
 #+END_SRC
-
-# more
 
 I'm no =Go= programmer, so I didn't try and play with your code, but if you think it could be an easy job .... ☺
 

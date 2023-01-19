@@ -1,0 +1,22 @@
+<div id="mentions">
+  {{- $json_filename := "/responses.json" -}}
+  {{- $json_data_filepath := path.Join "/content" $json_filename -}}
+  {{- if fileExists $json_data_filepath -}}
+      {{- $responses := getJSON $json_data_filepath -}}
+      <ul class="replies">
+        {{- range $responses -}}
+	<!-- Skip the entry that is a timestamp -->
+	{{- if ne .wm_id nil }}
+	    {{- $time := time .wm_received -}}
+	    <ul>
+	     <li>On {{ $time.Format "2 Jan 06" }} {{ if .author.name -}}<a  href="{{- .author.url -}}">{{- .author.name -}}</a>{{- else -}}An unknown author{{- end }} posted</li>
+	       <ul>
+		 <li><a href="{{ .wm_source }}">{{ .wm_source }}</a> {{ .wm_property }}</li>
+		 <li><a href="{{ .wm_target }}">{{ .wm_target }}</a></li>
+	       </ul>
+      	     </ul>
+	   {{- end -}}
+	 {{- end -}}
+      </ul>
+      {{- end -}}
+</div>

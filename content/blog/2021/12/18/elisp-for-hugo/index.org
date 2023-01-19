@@ -8,6 +8,11 @@
 
 Now that I am writing all my blog posts using orgmode, I wanted a way to create the file I need for a new post automatically. I couldn't find quite what I wanted, so here is my attempt and writing some elisp to make it happen.
 
+A good chunk of the code came from a [[https://takeonrules.com/2021/05/20/emacs-function-to-rename-hugo-blog-post/][post]] by Jeremy Friesen at [[https://takeonrules.com/][Take on Rules]]. Thanks! (And that reminds me, I still have to get webmentions working).
+
+I modified Jeremy's code a bit to allow for the fact that I use Hugo's page bundles.
+
+# more
 
 #+BEGIN_SRC emacs-lisp
 
@@ -45,8 +50,3 @@ Now that I am writing all my blog posts using orgmode, I wanted a way to create 
 
 #+END_SRC
 
-A good chunk of the code came from a [[https://takeonrules.com/2021/05/20/emacs-function-to-rename-hugo-blog-post/][post]] by Jeremy Friesen at [[https://takeonrules.com/][Take on Rules]]. Thanks! (And that reminds me, I still have to get webmentions working).
-
-I modified Jeremy's code a bit to allow for the fact that I use Hugo's page bundles.
-
-# more

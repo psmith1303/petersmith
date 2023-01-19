@@ -1,0 +1,15 @@
+{{- define "main" -}}
+{{"<!-- _default/list.html -->" | safeHTML }}
+<main class="list">
+  <h1>List of {{ .Title }}</h1>
+  {{ .Content | safeHTML}}
+  <h1>Contents</h1>
+  <!-- Now cycle through all the items here -->
+  <ul class="contents">
+  {{- range .Pages -}}
+     <li>
+       <a href="{{ .Permalink }}" alt="Full item">{{ .Title }}</a>
+     </li>
+  {{- end -}}
+</main>
+{{- end -}}

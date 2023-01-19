@@ -3,7 +3,7 @@
 #+date: 2006-03-06T21:42:00+12:00
 #+lastmod: 2006-03-06T21:42:00+12:00
 #+categories[]: Teaching
-#+tags[]: MGMT301 Journaling
+#+tags[]: MGMT301 Journalling
 #+draft: False
 
 Today, I had to stand-in for Darl (who had to go overseas rather unexpectedly).

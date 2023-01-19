@@ -1,0 +1,29 @@
+{{- define "main" -}}
+{{"<!-- index.html -->" | safeHTML }}
+<article>
+  <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+  {{- .Content -}}
+</article>
+
+{{- range  .Site.RegularPages.ByDate.Reverse -}}
+    <article class="summary">
+      {{- $dateTime := .PublishDate.Format "2006-01-02T15:04:05Z07:00" -}}
+      <div class="grid-child">
+	<h3><a href="{{ .Permalink }}" class="article-title p-name">{{ .Title }}</a></h3>
+	{{ partial "showanyimage" . }}
+      </div>
+      <div class="grid-child">
+	<p>A <a href="/{{ .Type }}"/ alt="Link to all {{ .Type }}">{{ .Type }}</a> entry on {{ .PublishDate.Format "2 Jan 2006" }}</p>
+	{{ .Summary }}
+	<p><a  href='{{ .Permalink }}'>{{- if ne .Summary .Content -}}Full item  … {{- end -}}</a></p>
+	{{ partial "category-list" . }}
+	{{ partial "tag-list" . }}
+      </div>
+    </article>
+{{- end -}}
+<article class="summary"></article>
+
+{{- partial "article-webmentions" . -}}
+{{- partial "listPageResources" . -}}
+
+{{- end -}}

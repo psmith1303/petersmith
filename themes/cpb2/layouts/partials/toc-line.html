@@ -1,0 +1,7 @@
+<span class="toc-date">{{ .Date.Format "02 Jan" }}</span>
+<span class="toc-link"><a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a></span>
+<span class="toc-tags">
+  {{- $.Scratch.Set "compact" true -}}
+  {{- partial "tag-list"  . -}}
+  {{- $.Scratch.Delete "compact" -}}
+</span>

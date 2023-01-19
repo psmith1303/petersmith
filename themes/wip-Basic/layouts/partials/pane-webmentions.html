@@ -1,0 +1,29 @@
+<div id="pane-mentions">
+  {{- with .Resources.GetMatch "responses.json" -}}
+  {{- $responses := unmarshal .Content -}}
+  <ul id="mentions" class="replies">
+  {{- range $responses -}}
+  {{- if .mention_of -}}
+  <li class="h-entry">
+    <div class="comment">
+      <div class="comment_author reply p-author">
+	<a class="reply_bar u-url" href="{{- .url -}}">
+	  <div class="reply_author reply_author p-author" href="">{{- if .author.name -}}{{- .author.name -}}{{- else -}}Author Unknown{{- end -}}</div>
+	  {{- $time := time .wm_received -}}
+	  <div class="reply_date">{{- $time.Format "2 Jan 06" -}}</div>
+	</a>
+	<a class="reply_avatar u-author" href="{{- .author.url -}}">
+	  <img loading="lazy" class="u-photo" src="{{- if .author.photo -}}{{- .author.photo -}}{{- else -}}/images/anon.svg{{- end -}}">
+	</a>
+      </div>
+      <div class="comment_content e-entry">
+	<a href="{{ .url }}"><h1 class="has-text-left">{{ .url }}</h1></a>
+	<p class="blockquote">... {{- index (findRE ".*petersmith.*" .content.html 1) 0 | safeHTML  -}}</p>
+      </div>
+    </div>
+  </li>
+  {{- end -}}
+  {{- end -}}
+  {{- end -}}
+  </ul>
+</div>

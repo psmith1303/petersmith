@@ -1,0 +1,17 @@
+{{"<!-- partials/tag-list.html -->" | safeHTML}}
+<div class="tag-list">
+  {{- if ne ($.Scratch.Get "compact") true -}}
+  {{ partial "svg" "tags" }}
+  {{- end -}}
+  <ul class="horizontal">
+    {{- with .Params.tags -}}
+    {{- range . -}}
+    {{- $href := print (absURL "tags/") (urlize .) -}}
+    <li><a href="{{ $href }}">{{ . }}</a></li>
+    {{- end -}}
+    {{- end -}}
+    {{- if ne ($.Scratch.Get "compact") true -}}
+    <li><a  href="/tags">All</a></li>
+    {{- end -}}
+  </ul>
+</div>

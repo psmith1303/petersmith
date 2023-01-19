@@ -10,7 +10,7 @@ I'm working on a few projects at the moment.
 
 Firstly, I'm setting up a couple of [[https://en.wikipedia.org/wiki/Wiki][Wikis]]. One I'll use to create a resource for students doing the [[https://www.mbanotebook.ac.nz/index.php/Main_Page][MBA Research Project]].
 
-The other will provide an overall guide _[[https://www.mbanotebook.ac.nz/][The Auckland MBA™]] programme.
+The other will provide an overall guide [[https://www.mbanotebook.ac.nz/][The Auckland MBA™]] programme.
 
 Secondly, I'm playing around with podcasts. I think it might be a useful way to promote the MBA programme to potential students, and keep existing students informed of what is happening.
 

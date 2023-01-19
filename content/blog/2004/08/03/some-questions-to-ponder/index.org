@@ -3,7 +3,7 @@
 #+date: 2004-08-03T16:10:00+12:00
 #+lastmod: 2004-08-03T16:10:00+12:00
 #+categories[]: Teaching
-#+tags[]: MGMT301 Journaling
+#+tags[]: MGMT301 Journalling
 #+draft: False
 
 I've just finished reading the journals. And I'm prompted to ask the following questions.

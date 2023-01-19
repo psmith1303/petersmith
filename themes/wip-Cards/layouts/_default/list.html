@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{"<!-- _default/list.html -->" | safeHTML }}
+<div class="cardbox">
+  <article class="card">
+    <h1>{{ partial "breadcrumbs" . }}</h1>
+    {{ .Content | safeHTML}}
+  </article>
+    <!-- Now cycle through all the items here -->
+  {{ range .Pages.ByWeight }}
+     <article class="card">
+       <h1><a href="{{ .Permalink }}" alt="Full item">{{ .Title }}</a></h1>
+       {{ .Content }}
+       <div class="continued"></div>
+     </article>
+  {{ end }}
+     <article class="card">
+       <h1><a href="{{ .Permalink }}" alt="Full item">Tag index</a></h1>
+       Something goes here
+       <div class="continued"></div>
+     </article>
+     <article class="card">
+       <h1><a href="{{ .Permalink }}" alt="Full item">Category index</a></h1>
+       <h2>Most popular</h2>
+       Something goes here
+       <div class="continued"></div>
+     </article>
+     <article class="card">
+       <h1><a href="{{ .Permalink }}" alt="Full item">About me</a></h1>
+       about me
+       <div class="continued"></div>
+     </article>
+</div>
+{{ end }}

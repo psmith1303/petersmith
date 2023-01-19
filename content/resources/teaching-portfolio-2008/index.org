@@ -2,7 +2,7 @@
 #+slug: 2008-teaching-portfolio
 #+date: 2008-09-11T14:56:27+12:00
 #+lastmod: 2008-09-11T14:56:27+12:00
-#+categories[]: Teaching
+#+categories[]: Teaching Academia
 #+tags[]: Portfolio
 #+draft: False"
 #+weight: 900

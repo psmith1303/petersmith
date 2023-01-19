@@ -1,0 +1,29 @@
+{{"<!-- partials/article-meta.html -->" | safeHTML }}
+<section id="article-meta">
+  {{ partial "category-list" . }}
+  {{ partial "tag-list" . }}
+  <div>
+    <p>Word count: {{ .FuzzyWordCount }}</p>
+    <p>Reading time: {{ .ReadingTime }} minutes</p>
+    <p>Published:
+	{{- if .IsPage -}}
+	    <time class="dt-published" datetime="{{ .PublishDate.Format "2006-01-02" }}">
+	       {{ .PublishDate.Format "2 Jan '06 15:04" }}</time>
+	{{- else -}}
+	    <time class="dt-published" datetime="{{ .Lastmod.Format "2006-01-02" }}">
+	      {{ .Lastmod.Format "2 Jan '06 15:04" }}</time>
+	  {{- end -}}
+    </p>
+    <p>Updated: {{ .Lastmod.Format "2 Jan '06 15:04" }}</p>
+    <p>Author: <span class="p-author h-card"><img rel="me" class="u-photo hidden" src="{{ .Site.Author.photo }}" alt="Headshot of Peter Smith" />
+	<a  rel="me" class="u-url u-uid url uid url fn n" href="{{ .Site.BaseURL }}"><span class="p-name"><span class="p-given-name">Peter</span> <span class="p-family-name">Smith</span></span></a>
+    </span></p>
+    <p>Permalink: <a class="u-url u-uid" href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+  </div>
+  <div>
+      <p>Section: <a href="/{{ .Type }}"/ alt="Link to all {{ .Type }}">{{ .Type }}</a></p>
+      <p>Kind: {{ .Kind }}</p>
+      <p>Bundle type: {{ .BundleType }}</p>
+      <p>Source: {{ with .File }}{{ .Path }}{{ end }}</p>
+  </div>
+</section>

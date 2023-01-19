@@ -1,4 +1,4 @@
-#+title: A like of: 
+#+title: A like of https://robbinespu.gitlab.io/posts/homepage-history/
 #+slug: like-202220221213-124654
 #+date: 2022-12-13T12:46:54+13:00
 #+likeURL: https://robbinespu.gitlab.io/posts/homepage-history/

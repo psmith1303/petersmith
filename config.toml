@@ -2,12 +2,13 @@ title = "PeterSmith.org"
 baseURL = "https://petersmith.org/"
 language = "en"
 languageCode = "en-us"
-theme = "TypoTyro"
+theme = "cpb2"
 copyright = "PeterSmith.Org is my commonplace book, covering teaching, research, technology, and whatever else takes my fancy. This site is in a constant state of development and 'becoming'.  A former software engineer, I now teach and research topics in  strategic management (especially in regards to professional service firms, and high-tech firms)."
 
 relativeURLS = false
 canonifyURLs = false
 rssLimit = 50
+paginate = 10
 
 [minify]
   [minify.tdewolff]
@@ -76,17 +77,17 @@ rssLimit = 50
 [[menu.indieweb]]
   name = "Orid"
   url = "https://orcid.org/0000-0002-6382-7051"
-  post = "<img src='/images/ORCID_iD.svg' alt='ORCID logo' loading='lazy'>"
+  post = "orcid-logo"
   weight = 5
 [[menu.indieweb]]
   name = "SSRN"
   url = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=657683"
-  post = "<img src='/images/ssrn.svg' alt='SSRN logo' loading='lazy'>"
+  post = "ssrn-logo"
   weight = 10
 [[menu.indieweb]]
   name = "Github"
   url = "https://github.com/psmith1303"
-  post = "<img src='/images/github-mark.svg' alt='GitHub logo' loading='lazy'>"
+  post = "github-logo"
   weight = 90
 
 

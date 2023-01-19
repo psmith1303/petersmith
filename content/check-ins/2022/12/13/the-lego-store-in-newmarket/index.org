@@ -4,7 +4,6 @@
 #+categories[]: Check-ins
 #+tags[]: Shopping
 
-{{< figure src="2022-12-13-img_7507.jpg" alt="A picture inside the LEGO store" >}}
-
 Picking up a gift voucher for some lucky person.
-
+# more
+{{< gallery2 >}}

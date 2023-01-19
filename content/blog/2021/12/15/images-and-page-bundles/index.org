@@ -12,12 +12,13 @@ With pages bundles, resources such as images are kept in the same directory as t
 
 Until now, to include an image I've been using a [[https://gohugo.io/templates/shortcode-templates/][shortcode]] such as this:
 
-
 #+BEGIN_SRC go
 { {< img src="AaronParecki-Sparklines.png"
    title="Screenshot of sparklines from Aaron Parecki"
    width="50%" >}}
 #+END_SRC
+
+# more
 
 Which calls ~themes/NewPapyrus/layouts/shortcodes/img.html~
 
@@ -35,5 +36,3 @@ Which calls ~themes/NewPapyrus/layouts/shortcodes/img.html~
 #+END_SRC
 
 That does the job.
-
-# more

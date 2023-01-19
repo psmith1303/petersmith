@@ -10,6 +10,8 @@ Having [[https://petersmith.org/blog/2022/01/12/content-structure/][restructured
 
 All well and good. But one of the great thing about [[https://evgenykuznetsov.org/en/posts/2020/webmention-backup/][Evgeny's tool]] is that it can store the response from webmention.io into the directory of the relevant [[https://gohugo.io/content-management/page-bundles][page bundle]]. So, I tweaked the script I used to call =webmention.io-backup= to look like this.
 
+# more
+
 #+BEGIN_SRC bash
 
 #!/bin/sh

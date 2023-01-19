@@ -1,0 +1,7 @@
+<ul id="relme" class="elsewhere">
+  {{ range .Site.Menus.indieweb }}
+  <li>
+    <a rel="me" href="{{ .URL }}">{{ partial "svg" .Post }}</a>
+  </li>
+  {{ end }}
+</ul>

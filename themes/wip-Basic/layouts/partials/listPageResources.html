@@ -1,0 +1,10 @@
+{{"<!-- partial/listPageResources.html -->" | safeHTML }}
+<section>
+  <h1>Page resources</h1>
+  {{- range .Resources -}}
+     <ul>
+        <li><a href="{{ .Permalink}}" alt="Link to full item">{{ .Title }}</a></li>
+     </ul>
+  {{- end -}}
+</section>
+

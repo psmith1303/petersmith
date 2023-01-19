@@ -14,6 +14,8 @@ Kohtamäki, M., Whittington, R., Vaara, E., & Rabetino, R. (2021). Making connec
 
 This paper 'takes stock' of where we are with strategy-as-practice research. Through a tidy systematic literature review they identify six central themes, that they label as: (1) praxis, (2) sensemaking, (3) discursive, (4) sociomaterial, (5) institutional, and (6) process. For each of these they consider the theme itself, the key theoretical influences, and the characteristic methodological approaches.
 
+# more
+
 All-in-all, it provides a well considered snapshot of where we are.
 
 One thing that stood out for me was the comment that:
@@ -35,5 +37,3 @@ Indeed, the ‘micro’ focus on empirical detail in much praxis-orientated SAP 
 I had, sometime ago, theorised this problem away, but I never got around to publishing it (although I have talk with colleges at [[https://egos.org/][EGOS]] about it on a few occasions, including one on-line event last year. Maybe it's time to put /pen to paper/ on it.
 
 Time to start writing.
-
-# more

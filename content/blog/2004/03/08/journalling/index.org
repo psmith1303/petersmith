@@ -3,7 +3,7 @@
 #+date: 2004-03-08T19:54:00+12:00
 #+lastmod: 2004-03-08T19:54:00+12:00
 #+categories[]: Teaching
-#+tags[]: Journaling MGMT301
+#+tags[]: Journalling MGMT301
 #+draft: False
 
 As we ([[{{< ref "dpe" >}}][DPE]]) know it is hard to journal well. It doesn't come naturally to every. So, I thought it would be useful to do some of my own journaling for everyone, especially in the [[{{< ref "mgmt-301" >}}][class]], to see. My hope is that it will help the students to develop their own practice of journaling.

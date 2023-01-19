@@ -1,0 +1,12 @@
+{{- define "main" -}}
+{{"<!-- _default/term.html -->" | safeHTML }}
+<article>
+  <h1>Content with {{ .Title }} {{ .Section | singularize }} </h1>
+  {{ .Content | safeHTML}}
+  <!-- Now cycle through all the items here -->
+  {{- range .Pages.GroupByDate "2006" -}}
+      {{- partial "toc.html" . -}}
+  {{- end -}}
+</article>
+{{- partial "article-webmentions" . -}}
+{{- end -}}

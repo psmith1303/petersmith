@@ -1,0 +1,38 @@
+{{ with .Page.Resources }}
+<hr>
+<h4>themes/theme/shortcodes/pageresources.html</h4>
+
+<h3>Page Resources:</h3>
+<table class="table is-hoverable is-bordered is-striped">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Resource</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range . }}
+      <tr>
+        <td>{{.ResourceType}}</td>
+        <td>
+          {{if eq .ResourceType "image" }}
+          <figure>
+            <img src="{{.Permalink |safeHTMLAttr}}">
+            <figcaption><a href="{{.Permalink |safeHTMLAttr}}">{{.Name}}</a></figcaption>
+          </figure>
+          {{ else if eq .ResourceType "page"}}
+          {{ . }}
+          <hr>
+          {{.Content}}
+          {{ else }}
+          <a href="{{.Permalink |safeHTMLAttr}}">{{.Name}}</a>
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  
+  <hr>
+
+{{ end }}

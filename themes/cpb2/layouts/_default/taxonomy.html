@@ -1,0 +1,53 @@
+{{- define "main" -}}
+{{"<!-- _default/taxonomy.html -->" | safeHTML }}
+<article>
+  <h1>List of {{ .Title }} taxonomy</h1>
+  <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+  <!-- And now some magic to make the list better -->
+
+  <div>
+  {{- $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" -}}
+  {{- $pages := .Pages.ByTitle -}}
+  {{- $pages_by_letters := dict -}}
+  {{- range $pages -}}
+     {{- $page := . -}}
+     {{- $first_letter := upper ( substr $page.Name 0 1 ) -}}
+     {{- if not (in $letters $first_letter) -}}
+	 {{- $first_letter = "#" -}}
+     {{- end -}}
+     {{- $new_list := slice -}}
+     {{- with index $pages_by_letters $first_letter -}}
+	{{- $new_list = . | append $page -}}
+     {{- else -}}
+	{{- $new_list = slice $page -}}
+     {{- end -}}
+     {{- $pages_by_letters = merge $pages_by_letters (dict $first_letter $new_list) -}}
+  {{- end -}}
+
+  {{- range $key, $items := $pages_by_letters -}}
+  <h3 class="key">{{ $key }}</h3>
+  <ul class="contents horizontal">
+    {{- range $items -}}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Name }}</a><sup>{{ len .Pages }}</sup>&nbsp;</sup>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+</div>
+<hr>
+<div>
+<!--  <h2>Frequency</h2>
+  <ul class="contents horizontal">
+    {{- range .Pages.ByLength -}}
+    <li>
+      <a href="{{ .Permalink }}" alt="Full item">{{ .Title }}<sup>{{- len .RegularPages -}}</sup>&nbsp;</a>
+    </li>
+    {{- end -}}
+  </ul>
+</div>
+<hr>
+-->
+</article>
+{{- partial "article-webmentions" . -}}
+{{- end -}}

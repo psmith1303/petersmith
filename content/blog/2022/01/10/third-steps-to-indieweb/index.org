@@ -12,11 +12,11 @@ It feels as if a cast of thousands have been involved in the this new theme. I h
 
 First there is [[https://aaronparecki.com/][Aaron Parecki]]. I had been watching his [[https://www.youtube.com/c/aaronpk][videos]] to help me get into doing my video production (for the [[https://www.youtube.com/channel/UCEli3VWKuB4lyZ3M4uKVIlw][BusDev@Auckland seminar series]]) but then I stumbled into his website, and was introduced to the world of [[https://indieweb.org/][IndieWeb]] and [[https://www.w3.org/TR/webmention/][webmentions]]. Aaron's site [[https://webmention.io/][webmention.io]] also provided the glue to get webmentions working here.
 
+# more
+
 Soon after my first foray into webmentions, I got a [[https://robbinespu.gitlab.io/indieweb/211010050323/][mention]] by [[https://robbinespu.gitlab.io/][Robbi Nespu]]. That was important not just because of the excellent advice Robbi gave me, but it also gave me the impetus to charge ahead with trying to fully implement webmentions. Looking at Robbi's [[https://robbinespu.gitlab.io/indieweb/][site]], I still need to do more work to get things like 'bookmarks', 'rsvps', and other IndieWeb things working here.
 
 That all prompted me to start (re)theme-ing this site to better accommodate webmentions. As I say, it works, but there is still more to be done.
-
-# more
 
 The basic idea for the current style of this site came from [[https://ministryoftype.co.uk/][The Ministry of Type]]. In many ways it is reminiscent of the style I was using about seven or eight themes (site versions) ago. In other ways, I am paying a big homage to that site. I was rather surprised that it hasn't been updated since 2015.
 

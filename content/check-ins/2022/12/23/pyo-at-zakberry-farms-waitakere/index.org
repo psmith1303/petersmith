@@ -2,12 +2,8 @@
 #+date: 2022-12-23T11:30:53+1300
 #+lastmod: 2022-12-23T11:30:53+1300
 #+categories[]: Check-ins
-#+tags[]:  Food
+#+tags[]: Food
 
-{{< figure src="2022-12-23-img_7524.jpg" alt="PYO at Zakberry Farms, Waitākere">}}
-
-{{< figure src="2022-12-23-img_7525.jpg" alt="PYO at Zakberry Farms, Waitākere">}}
-
-Busy picking our own strawberries for the Christmas lunch (trifle). 
-
-
+Busy picking our own strawberries for the Christmas lunch (trifle).
+# more
+{{< gallery2 >}}

@@ -1,0 +1,8 @@
+{{"<!-- _default/section.html -->" | safeHTML }}
+<h3 class="has-text-left">{{ .Key }}</h3>
+<div id="toc">
+{{- $pages :=  .Pages -}}
+{{- $links := apply $pages "partial" "toc-line.html" "." -}}
+{{- $clean := apply $links "chomp" "." -}}
+{{- delimit $clean " " -}}
+</div>
