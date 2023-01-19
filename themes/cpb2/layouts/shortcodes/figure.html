@@ -26,12 +26,11 @@ Changes:
 - 2020-05-02 initial release
 
 */}}
-
 {{/* hugo will resize to all of these sizes that are smaller than your original. configure if you like! */}}
-{{ $sizes := (slice "240" "480" "625" "800" "1200" "1500") }}
+{{- $sizes := (slice "240" "480" "625" "800" "1200" "1500") -}}
 
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
-{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{- $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) -}}
 
 <!-- Check to see if the image can be processed; i.e., is is not an SVG file -->
 {{- $myTransform := "" -}}
@@ -61,13 +60,15 @@ Changes:
 {{- else -}}
     {{- $myTransform = "" -}}
 {{- end -}}
+{{- end -}}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
-	<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+	<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{- end -}}>
     {{- end }}
     <img
-	{{ if $src }}
+      {{- if $src -}}
+         {{- if ne $src.MediaType.SubType "svg" -}}
 	    sizes="(min-width: 35em) 1200px, 100vw"
 	    {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
 	    srcset='
@@ -77,20 +78,21 @@ Changes:
 
 	    {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
 	    {{/* if image smaller than 800, then load the image itself */}}
-	    {{ if ge $src.Width "800" }}src="{{ ($src.Resize "800x webp" ).Permalink }}"
-	    {{ else }}src="{{ $src.Permalink }}"
-	    {{ end }}
+	    {{- if ge $src.Width "800" -}}src="{{ ($src.Resize "800x webp" ).Permalink }}"
+	    {{- else }}src="{{ $src.Permalink }}"{{- end -}}
+        {{- else -}}
+            src="{{ $src }}" 
+        {{- end -}}
+    {{- else -}}
+        {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
+        src="{{ .Get "src" }}"
+    {{- end -}}
 
-	{{ else }}
-	    {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
-	    src="{{ .Get "src" }}"
-	{{ end }}
-
-	{{- if or (.Get "alt") (.Get "caption") }}
-	    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-	{{- end -}}
-	{{- with .Get "width" }} width="{{ . }}"{{ end -}}
-	{{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    {{- if or (.Get "alt") (.Get "caption") }}
+	alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+    {{- end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
     /> <!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
@@ -109,4 +111,3 @@ Changes:
 	</figcaption>
     {{- end }}
 </figure>
-{{- end -}}
