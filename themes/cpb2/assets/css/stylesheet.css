@@ -565,3 +565,7 @@ ul.main-index h2 {
 article.summary h3 > a {
     color: black;
 }
+
+div.article-content > a {
+    color: black;
+}
