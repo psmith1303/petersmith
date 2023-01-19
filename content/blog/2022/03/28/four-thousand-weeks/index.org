@@ -8,7 +8,7 @@ Since I read this book (about a month ago), I find myself recommending it to man
 
 # more
 
-{{< figure src="4000weeks.jpg" width="200px" class="float-left" alt="A picture of the book's cover">}}
+{{< figure src="4000weeks.jpg" alt="A picture of the book's cover">}}
 
 Oliver Burkeman's point of departure for this book is the simple fact that the average life comprises about 4,000 weeks. And so the essential question is what will choose to spend that time on. The book certainly doesn't argue for some kind of saintly life, but rather to make decisions about what to do, against that backdrop.
 

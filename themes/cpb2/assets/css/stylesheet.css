@@ -569,3 +569,51 @@ article.summary h3 > a {
 div.article-content > a {
     color: black;
 }
+
+/*****************************
+      Footnote magic
+******************************/
+
+hr.footnotes-separatator {
+    width: 30%;
+    margin-left: 0;
+    height: 1px;
+    border: 0 none;
+    background-color: Gray;
+}
+
+.footnote-definitions {
+        font-size: 80%;
+}
+
+.footnote-definition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: baseline;
+}
+
+.footnote-definition p:first-of-type  {
+    margin-top: 8px;
+}
+
+.footnote-definition sup {
+    font-size: 100%;
+    top: 0;
+    margin-right: 1em;
+}
+
+.footnote-definition sup::before {
+    content: "[";
+}
+
+.footnote-definition sup::after {
+    content: "]";
+}
+
+.footnote-body p {
+    flex: 0 1 auto;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
