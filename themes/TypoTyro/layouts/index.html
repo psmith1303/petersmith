@@ -1,9 +1,17 @@
 {{ define "main" }}
 <main>
+  {{- if eq .Paginator.HasPrev false -}}
+
+
   <div class="homepage-content">
-    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-    {{- .Content -}}
+    <article>
+      <div class="article-content">
+      <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+      {{- .Content -}}
+      </div>
+    </article>
   </div>
+  {{- end -}}
   <div>
     {{ range (.Paginate (.Site.RegularPages.ByDate.Reverse)).Pages   }}
     <article>

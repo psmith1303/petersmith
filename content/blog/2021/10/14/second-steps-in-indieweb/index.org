@@ -10,6 +10,8 @@ After [[https://petersmith.org/blog/2021/10/07/first-steps-to-indieweb/][my firs
 
 He said:
 
+# more
+
 #+BEGIN_QUOTE
 
 Hello Peter Smith, How going? I also using Hugo, the getting webmention response working is easier if using a javascript called as [[https://github.com/PlaidWeb/webmention.js/][PlaidWeb/webmention.js]]
@@ -39,7 +41,6 @@ So, what's my progress so far? (beside's Robbi's smiley face emoji not displayin
 
 This is a work in progress. I can do it manually using, say, [[ttps://telegraph.p3k.io][https://telegraph.p3k.io]] but I've yet to automate things. The bigger challenge is getting other people's Webmentions to appear on my site.
 
-# more
 
 /Update 2022-01-09/
 
