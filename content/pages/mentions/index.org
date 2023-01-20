@@ -1,6 +1,6 @@
-#+title: Mentions
-#+date: 2011-01-04T11:41:00+12:00
-#+lastmod: 2022-12-14T09:29:20+13:00
+#+title: Indieweb mentions
+#+date: 2022-01-09T12:41:00+12:00
+#+lastmod: 2023-01-20T15:27:20+13:00
 #+categories[]: Indieweb
 #+tags[]: Webmentions
 #+slug: mentions
@@ -8,4 +8,3 @@
 #+weight: 200
 
 {{< mentions >}}
-

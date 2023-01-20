@@ -3,12 +3,12 @@ baseURL = "https://petersmith.org/"
 language = "en"
 languageCode = "en-us"
 theme = "cpb2"
-copyright = "PeterSmith.Org is my commonplace book, covering teaching, research, technology, and whatever else takes my fancy. This site is in a constant state of development and 'becoming'.  A former software engineer, I now teach and research topics in  strategic management (especially in regards to professional service firms, and high-tech firms)."
+copyright = "This is my commonplace book, covering teaching, research, technology, and whatever else takes my fancy. This site is in a constant state of development and 'becoming'.  A former software engineer, I now teach and research topics in strategic management (especially in regards to professional service firms, and high-tech firms)."
 
 relativeURLS = false
 canonifyURLs = false
 rssLimit = 50
-paginate = 10
+paginate = 30
 
 [minify]
   [minify.tdewolff]
