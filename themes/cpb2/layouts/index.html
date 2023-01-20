@@ -1,6 +1,8 @@
 {{- define "main" -}}
 {{"<!-- index.html -->" | safeHTML }}
 
+{{- $paginator := (.Paginate .Site.RegularPages.ByPublishDate.Reverse) -}}
+
 {{- if (eq .Paginator.HasPrev false) -}}
 <article class="header">
   <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
@@ -8,7 +10,7 @@
 </article>
 {{- end -}}
 
-{{- range  (.Paginate .Site.RegularPages).Pages.ByPublishDate.Reverse -}}
+{{- range  $paginator.Pages -}}
     <article class="summary">
       <div class="grid-child">
 	<h3><a href="{{ .Permalink }}" class="article-title p-name">{{ .Title }}</a></h3>

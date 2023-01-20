@@ -1,6 +1,6 @@
 #+title: Thinking about capstone courses
 #+slug: thinking-about-capstone-courses
-#+date: 2019-10-08T09:53:17+13:0
+#+date: 2019-10-08T09:53:17+13:00
 #+lastmod: 2019-10-08T09:53:17+13:00
 #+categories[]: Teaching
 #+tags[]: Capstones
