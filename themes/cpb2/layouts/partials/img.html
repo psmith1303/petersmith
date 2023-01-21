@@ -1,6 +1,6 @@
 {{"<!-- partials/img.html -->" | safeHTML }}
 {{/* Set defaults */}}
-{{ $imgSrcSet := slice }}
+{{- $imgSrcSet := slice -}}
 {{- $opts := . | merge (dict
     "image" .img
     "alt" ""
@@ -8,7 +8,7 @@
     "loading" ""
     "format" "webp"
     "webpHint"  (default "photo" $.webpHint)
-    "widths" (slice 200 480 768 992 1200)
+    "widths" (slice 1200 992 768 480 200)
     "quality" (default 75 $.quality))
 -}}
 {{- $metadata := dict "Orientation"  0 -}}
@@ -43,21 +43,22 @@
            {{- $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $imgUrl $width) -}}
        {{- end -}}
 
-       {{ $imgSrcSet = (delimit $imgSrcSet ",") }}
+       {{- $imgSrcSet = (delimit $imgSrcSet ",") -}}
 
        <!-- Format additional HTML attributes -->
-       {{ $attributes := slice }}
-       {{ range $name, $value := .attrs }}
-          {{ $attributes = $attributes | append (printf "%s=%q" $name $value) }}
-       {{ end }}
-       {{ $attributes = (delimit $attributes " ") }}
+       {{- $attributes := slice -}}
+       {{- range $name, $value := .attrs -}}
+          {{- $attributes = $attributes | append (printf "%s=%q" $name $value) -}}
+       {{- end -}}
+       {{- $attributes = (delimit $attributes " ") -}}
 
        <!-- Create the sizes magic -->
        {{- $imageSizes := "" }}
        {{- range $width := where $opts.widths "<=" .Width -}}
            {{- $imageSizes = printf "%s (max-width %dpx) %dpx," $imageSizes  $width (sub $width 40) -}}
        {{- end -}}
-       <img sizes="{{ $imageSizes }}" srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
+           {{- $imageSizes = printf "%s 100vw" $imageSizes -}}
+       <img srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
 	    src="{{ .image.Permalink }}">
    {{- end -}}
 {{- end -}}

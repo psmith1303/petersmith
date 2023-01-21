@@ -1,6 +1,6 @@
-{{"<!-- shortcodes/gallery2.html -->" | safeHTML }}
+{{"<!-- partials/showanyimage.html -->" | safeHTML }}
 {{- range $image := first 1 ( .Resources.ByType "image") -}}
-    {{ partial "img" (dict "img" $image "alt" "First image in gallery") }}
+    {{- partial "img" (dict "img" $image "alt" "First image in gallery") -}}
 {{- end -}}
 
 
