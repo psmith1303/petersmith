@@ -83,9 +83,7 @@
 	  <a href="{{ $full.RelPermalink -}}" class="galleryImg"
 	     title="{{ $title }}" data-description="{{ $datadescription}}">
 	     <img width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}" src="{{ $thumbnail.RelPermalink }}"
-		 {{- with $metadata -}}
-                     {{- if .ImageDescription -}}alt="{{ .ImageDescription -}}"{{- end -}}
-	         {{- end -}}/></a>
+                  alt="{{- if $metadata.ImageDescription -}}{{ $metadata.ImageDescription -}}{{ else }}{{ .Title }}{{- end -}}"/></a>
 	  <span class="overlay">{{ $title -}}<br/>{{$datadescription | safeHTML}}</span>
 	</div>
       {{- end -}}
