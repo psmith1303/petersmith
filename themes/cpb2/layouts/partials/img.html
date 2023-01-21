@@ -51,7 +51,7 @@
           {{ $attributes = $attributes | append (printf "%s=%q" $name $value) }}
        {{ end }}
        {{ $attributes = (delimit $attributes " ") }}
-       {{ printf ">>>>%#v<<<<" $imgSrcSet }}
+
        <!-- Create the sizes magic -->
        {{- $imageSizes := "" }}
        {{- range $width := where $opts.widths "<=" .Width -}}
