@@ -1,0 +1,42 @@
+{{/*
+    Only include image if image width exceeds breakpoint width, and if breakpoint
+    shouldn't be skipped.
+*/}}
+{{ $width := cond (eq .width -1) .img.Width .width }}
+{{- $myTransform := "" -}}
+{{/*
+{{- $orientation := 0 -}}
+{{- with .img.Exif -}}
+    {{- $orientation = .Tags.Orientation -}}
+{{- end -}}
+{{- if eq $orientation  "0" -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 1 -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 2 -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 3 -}}
+    {{- $myTransform = " r180" -}}
+{{- else if eq $orientation 4 -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 5 -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 6 -}}
+    {{- $myTransform = " r270" -}}
+{{- else if eq $orientation 7 -}}
+    {{- $myTransform = "" -}}
+{{- else if eq $orientation 8 -}}
+    {{- $myTransform = " r90" -}}
+{{- else -}}
+    {{- $myTransform = "" -}}
+{{- end -}}
+*/}}
+{{- if and (lt $width .img.Width) (ne $width -2) -}}
+    {{ with .img.Resize (printf "%dx {{ $myTransform }} webp q%d %s" $width .quality .webpHint) }}
+        {{- $breakpoint := "" -}}
+        {{- with $.breakpoint -}}
+            {{ $breakpoint = printf "media=(min-width:%dpx)" . }}
+        {{- end -}}
+        <source {{ $breakpoint|safeHTMLAttr }} srcset="{{.RelPermalink}}" type="image/webp" />
+    {{- end -}}
+{{- end -}}

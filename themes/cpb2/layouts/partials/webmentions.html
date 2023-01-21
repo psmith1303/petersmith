@@ -42,6 +42,8 @@
 		<blockquote>
 	      {{- if eq $response_type "reply" -}}
                   {{- .content.html | safeHTML -}}
+	      {{- else if eq $response_type "like" -}}
+                  {{- .content.html | safeHTML -}}
 	      {{- else if eq $response_type "mention" -}}
 		  <p class="blockquote">... {{- index (findRE ".*petersmith.*" .content.html 1) 0 | safeHTML  -}}</p>
 	      {{- else -}}
