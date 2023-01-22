@@ -3,12 +3,13 @@
 {{- $imgSrcSet := slice -}}
 {{- $opts := . | merge (dict
     "image" .img
+    "photosize" 800
     "alt" ""
     "class" ""
     "loading" ""
     "format" "webp"
     "webpHint"  (default "photo" $.webpHint)
-    "widths" (slice 1200 992 768 480 200)
+    "widths" (slice 200 480 625 768 1024)
     "quality" (default 75 $.quality))
 -}}
 {{- $metadata := dict "Orientation"  0 -}}
@@ -19,7 +20,7 @@
    {{- $attributes := "" -}}
    {{- if eq .image.MediaType.SubType "svg" -}}
       <!-- This is NOT an svg -->
-      <img src="{{.RelPermalink}}" type="{{.MediaType}}" {{ $attributes|safeHTMLAttr }} />
+      <img src="{{.RelPermalink}}" type="{{.MediaType}}" alt="{{ .alt }}"/>
    {{- else -}}
        <!-- This is NOT an svg -->
        {{- with .image.Exif -}}
@@ -37,28 +38,18 @@
             {{- end -}}
        {{- end -}}
 
-       {{- range $width := where $opts.widths "<=" .Width -}}
-           {{- $newImage := $opts.image.Resize (printf "%dx %s %s" $width $opts.format $rotation) -}}
-           {{- $imgUrl :=   $newImage.Permalink -}}
-           {{- $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $imgUrl $width) -}}
+       {{ $imgSrcSet := slice }}
+       {{- range $width := $opts.widths  -}}
+           {{- if le $width $opts.photosize -}}
+               {{- $newImage := $opts.image.Resize (printf "%dx %s %s" $width $opts.format $rotation) -}}
+               {{- $imgUrl :=   $newImage.Permalink -}}
+               {{- $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $imgUrl $width) -}}
+           {{- end -}}
        {{- end -}}
-
-       {{- $imgSrcSet = (delimit $imgSrcSet ",") -}}
-
-       <!-- Format additional HTML attributes -->
-       {{- $attributes := slice -}}
-       {{- range $name, $value := .attrs -}}
-          {{- $attributes = $attributes | append (printf "%s=%q" $name $value) -}}
-       {{- end -}}
-       {{- $attributes = (delimit $attributes " ") -}}
-
-       <!-- Create the sizes magic -->
-       {{- $imageSizes := "" }}
-       {{- range $width := where $opts.widths "<=" .Width -}}
-           {{- $imageSizes = printf "%s (max-width %dpx) %dpx," $imageSizes  $width (sub $width 40) -}}
-       {{- end -}}
-           {{- $imageSizes = printf "%s 100vw" $imageSizes -}}
-       <img srcset="{{ $imgSrcSet }}" {{ print $attributes | safeHTMLAttr }}
-	    src="{{ .image.Permalink }}">
+       {{- $imgSrcSet := delimit $imgSrcSet ", " -}}
+       <img sizes="(min-width: 35em) 1200px, 100vw"
+	    srcset="{{ $imgSrcSet }}"
+	    src="{{ .image.Permalink }}"
+            alt="{{ .alt }}">
    {{- end -}}
 {{- end -}}

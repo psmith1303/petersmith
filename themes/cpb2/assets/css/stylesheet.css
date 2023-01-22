@@ -48,7 +48,9 @@
 	    border-top-right-radius: 8px;
 	    margin-top: 3em;
     }
-
+    img {
+	sizes: "(min-width: 35em) 625px, 100vw"
+    }
 }
 
 /*****************************
@@ -82,14 +84,14 @@ header {
 }
 
 .card-header {
-    text-align: left;
+    text-align: start;
     padding: 1em;
     border-bottom: solid 2px #f0d0b0;
 }
 
 header a  {
     font-weight: 600;
-    text-align: left;
+    text-align: start;
     color: green;
 
 }
@@ -333,7 +335,7 @@ h3 {
     font-weight: 600;
     font-style: normal;
     margin: 1em 0 0 0;
-    text-align: left;
+    text-align: start;
 }
 
 
@@ -343,7 +345,7 @@ h4 {
     font-weight: 400;
     font-style: italic;
     margin: 1em 0 0 0;
-    text-align: left;
+    text-align: start;
 }
 
 
@@ -353,7 +355,7 @@ h5 {
     font-weight: 600;
     font-style: normal;
     margin: 1em 0 1em 0;
-    text-align: left;
+    text-align: start;
 }
 
 a {
@@ -391,11 +393,11 @@ blockquote {
 }
 
 .has-text-left {
-    text-align: left;
+    text-align: start;
 }
 
 .has-text-right {
-    text-align: right;
+    text-align: end;
 }
 
 .has-text-center {
@@ -500,7 +502,8 @@ div.gallery-image {
 }
 
 img {
-    max-width: 100%;
+    max-inline-size: 100%;
+    block-size: auto;
     vertical-align: middle;
 }
 
@@ -658,7 +661,7 @@ ul.main-index {
 }
 
 ul.main-index h2 {
-    text-align: left;
+    text-align: start;
 }
 
 
