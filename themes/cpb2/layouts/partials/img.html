@@ -38,7 +38,7 @@
             {{- end -}}
        {{- end -}}
 
-       {{ $imgSrcSet := slice }}
+       {{- $imgSrcSet := slice -}}
        {{- range $width := $opts.widths  -}}
            {{- if le $width $opts.photosize -}}
                {{- $newImage := $opts.image.Resize (printf "%dx %s %s" $width $opts.format $rotation) -}}
@@ -46,10 +46,10 @@
                {{- $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $imgUrl $width) -}}
            {{- end -}}
        {{- end -}}
+
+       {{- $fallbackImage := $opts.image.Resize (printf "800x %s %s" $opts.format $rotation) -}}
        {{- $imgSrcSet := delimit $imgSrcSet ", " -}}
-       <img sizes="(min-width: 35em) 1200px, 100vw"
-	    srcset="{{ $imgSrcSet }}"
-	    src="{{ .image.Permalink }}"
-            alt="{{ .alt }}">
+       <img sizes="(min-width: 35em) 1200px, 100vw" srcset="{{ $imgSrcSet }}" src="{{ $fallbackImage.Permalink }}" 
+	    alt="{{ .alt | markdownify| plainify }}">
    {{- end -}}
 {{- end -}}
