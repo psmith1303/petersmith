@@ -1,0 +1,61 @@
+#+title: Now
+#+date: 2023-01-23T11:47:52+13:00
+#+lastmod: 2023-01-23T11:47:52+13:00
+#+categories[]: SiteInfo
+#+tags[]: Reflection
+#+draft: False
+#+weight: 110
+
+My [[{{< ref "about-me" >}}][About Me]] page provides a thumbnail sketch of who I am. This page, is more about what I'm doing and planning to do now.
+
+The biggest thing is that I'm now on Research and Study Leave (RSL/sabbatical) for a year (until 23 January 2023). So much of what I'm doing now---work wise---is about my research projects.
+
+Other things are sort of hanging off that big endeavour.
+# more
+
+* Travel plans
+- +HICSS56 3rd--6th January 2023 in Maui.+
+
+  The oldest and most popular conferences on Service Science. This was a good conference, I can see why it is the biggest. The venue was pretty good too.
+
+- Process workshop at the University of Queensland, 14th February 2023 in Brisbane.
+
+  This looks like a great session with [[https://scholar.google.fi/citations?user=N_Dy1J8AAAAJ][Ann]] [[https://en.wikipedia.org/wiki/Ann_Langley][Langley]], and [[https://scholar.google.fi/citations?user=jofbUSsAAAAJ][Paula Jarzabkowski]].
+
+- Visit to the University of Zurich
+
+  From April to August, I'll be visiting with [[https://www.business.uzh.ch/en/research/professorships/om/team/staff/seidl.html][David]] [[https://scholar.google.cz/citations?user=vdrx0DIAAAAJ][Seidl]] and his research group at the [[https://www.uzh.ch/en.htm][Univserity of Zurich]].
+
+- Visit to the [[https://www.uio.no/english/][University of Oslo]], June 2023.
+
+  The plan is to work with my co-authors on our paper on multi-sided platforms.
+
+- [[https://www.egos.org/2023_Cagliari/General-Theme][European Group on Organizational Studies]] (EGOS), 6th--8th July 2023 in Sardinia,
+
+  I regard EGOS as my intellectual home as far as conferences are concerned. With Covid-19 and other things it's been a few years since I was last at one ([[https://www.egos.org/2016_naples/general_theme][Naples, 2016]]).
+
+- [[https://aom.org/events/annual-meeting][Academy of Management Annual General Meeting]] (AoM), 4th--8th August 2023 in Boston.
+
+  This will be my first time at AoM. Normally, it would clash with my teaching obligations, but this year, as I'm on Research and Study leave ...
+
+* Research projects
+1. The comminication of science
+2. Instructional design for interdisciplinary learning (AoM)
+3. DAOs, Open-strategy, and trust (EGOS)
+4. Orchestrating multi-sided platforms (TBC)
+5. Thoughtworlds (HR)
+6. Wayfinding and internationalisation (Oxford Professional Service conference)
+7. Multiple commitments and IWB
+
+* Activities
+- (re)Learning German.
+
+* Watching
+- The White Lotus
+  We held off watching this until after our trip (conference and holiday) to Maui and Honolulu.
+- Only connect
+  I can rarely answer the questions, but the programme makes me feel smarter :)
+
+* Listening
+- Bach Partitas Nos. 1--6 on the piano by Igor Levit
+  I 'discovered' these through [['][Dana Stevens]] at the [[https://slate.com/podcasts/culture-gabfest/2023/01/m3gan-is-camp-but-is-it-good-plus-the-annual-slate-movie-club-and-how-tiktok-is-shaping-our-culture][Slate Culture Gabfest]]. Well, not this particular recording, but the piano version of the partitas.
