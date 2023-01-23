@@ -5,6 +5,7 @@
 #+tags[]: Reflection
 #+draft: False
 #+weight: 110
+#+url: /now
 
 My [[{{< ref "about-me" >}}][About Me]] page provides a thumbnail sketch of who I am. This page, is more about what I'm doing and planning to do now.
 
