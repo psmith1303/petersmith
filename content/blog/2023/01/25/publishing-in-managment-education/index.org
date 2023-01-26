@@ -99,6 +99,9 @@ Following Beatty and Leigh (2010), the journals look like this:
 This is a theory-driven journal: its goal is to build or test theory about management learning, management education, and business schools. It also hopes that papers will contribute more broadly in the areas of management, organization, and research. Importantly, it is not a teaching or pedagogical journal --- it doesn't publish papers that relate to teaching methods, classroom exercises, or the like.
 
 *** Ranking of the management learning journals
+:PROPERTIES:
+:ID:       ffa54796-462a-4342-aa1a-2405a5912e18
+:END:
 
 Currie and Pandher (2013) classified 84 "potential venues for publishing research in management learning and education" using the Active Scholar Assessment methodology. This gave the following results:
 
@@ -148,7 +151,7 @@ C. The next 40 percentile group forms tier C and is considered to be well regard
 
 D. The remaining 25% of the ranked journals constitute tier D.
 
-The analysis by Currie and Pandher, suggests where active scholars in management learning believe the important debates are happing. Yet, this result stands in contracts to the assessments of research quality made by the Australian Business-school Deans' Committee (ABDC). This 'descrepency' is of concern; given the current climate can one afford to work on topics that they are passionate about but that can only be published in niche or unranked journals?
+The analysis by Currie and Pandher, suggests where active scholars in management learning believe the important debates are happing. Yet, this result stands in contracts to the assessments of research quality made by the Australian Business-school Deans' Committee (ABDC). This 'discrepancy' is of concern; given the current climate can one afford to work on topics that they are passionate about but that can only be published in niche or unranked journals?
 
 * References
 Beatty, J. E., & Leigh, J. S. A. (2010). Taking stock of management education: a comparison of three management education journals, /Journal of Management Education, 34/(3), 367-392
