@@ -1,7 +1,7 @@
 {{- define "main" -}}
 {{"<!-- index.html -->" | safeHTML }}
 
-{{- $paginator := (.Paginate .Site.RegularPages.ByLastmod.Reverse) -}}
+{{- $paginator := (.Paginate .Site.RegularPages.ByDate.Reverse) -}}
 
 {{- if (eq .Paginator.HasPrev false) -}}
 <article class="header">
