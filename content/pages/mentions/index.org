@@ -7,4 +7,8 @@
 #+draft: False
 #+weight: 200
 
+These are the  Indieweb mentions that I have received.
+
+# more
+
 {{< mentions >}}

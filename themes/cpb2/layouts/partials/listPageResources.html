@@ -2,14 +2,37 @@
 {{- if .IsPage -}}
   {{- $showPageResources := $.Params.showPageResources | default (.Site.Params.showPageResources | default false) -}}
   {{- if (and (ge (len .Resources) 1) $showPageResources) -}}
-<section id="listresources">
+<section id="resourcelist">
 	<h1>Debug: Page resources</h1>
-	<p>To turn this display off, set "showPageResources" to false in either the page's frontmatter, or in the Params section of the config file</p>
-	{{- range .Resources -}}
-	<ul>
-          <li><a href="{{ .Permalink}}" alt="Link to full item">{{ .Title }}</a></li>
-	</ul>
-	{{- end -}}
-      </section>
-    {{- end -}}
+	<p>Note: To turn this display off, set "showPageResources" to false in either the page's frontmatter, or in the Params section of the config file</p>
+	{{- $page_resources := .Page.Resources -}}
+	<table class="table table-responsive table-condensed">
+	  <th>Icon</th>
+	  <th><span style="padding-left:20px"></th>
+  	  <th>Name</th>
+	  <th><span style="padding-left:20px"></th>
+	  <th>Size in byte</th>
+	  {{- range $page_resources -}}
+	      <tr>
+		<td>
+		  <!-- if the actual file is an image, we'd like to show a small thumbnail image...  -->
+		    {{- if eq .MediaType.MainType "image" -}}
+		    <img src="{{ .Resize "60x" }}" width="60px">
+		    {{- else if eq (. | path.Ext ) ".pdf" -}}
+		    <i class="icon-file-pdf1" style="font-size:22px;color:Orange" ></i>
+		    {{- else -}}
+		    <i class="icon-line-file" style="font-size:22px;color:DarkGrey" ></i>
+		    {{- end -}}
+		</td>
+		<th></th>
+		<td><a href="{{ .RelPermalink }}"> {{ .Name  }} </a>
+		</td>
+		<th></th>
+		<td> {{ len .Content }} </td>
+	      </tr>
+	      {{- end -}}
+	</table>
+</section>
 {{- end -}}
+{{- end -}}
+

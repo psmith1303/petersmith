@@ -1,7 +1,7 @@
 {{- define "main" -}}
 {{"<!-- index.html -->" | safeHTML }}
 
-{{- $paginator := (.Paginate .Site.RegularPages.ByPublishDate.Reverse) -}}
+{{- $paginator := (.Paginate .Site.RegularPages.ByLastmod.Reverse) -}}
 
 {{- if (eq .Paginator.HasPrev false) -}}
 <article class="header">
@@ -10,14 +10,19 @@
 </article>
 {{- end -}}
 
+
 {{- range  $paginator.Pages -}}
+{{- $updated := "posted" -}}
+{{- if eq .Date .Lastmod -}}
+{{- $updated ="updated" -}}
+{{- end -}}
     <article class="summary">
       <div class="grid-child">
 	<h3><a href="{{ .Permalink }}" class="article-title p-name">{{ .Title }}</a></h3>
 	{{ partial "showanyimage" . }}
       </div>
       <div class="grid-child">
-	<p>A <a href="/{{ .Type }}"/ alt="Link to all {{ .Type }}">{{ .Type }}</a> entry on {{ .PublishDate.Format "2 Jan 2006" }}</p>
+	<p>A <a href="/{{ .Type }}"/ alt="Link to all {{ .Type }}">{{ .Type }}</a> entry {{ $updated }} on {{ .Lastmod.Format "2 Jan 2006" }}</p>
 	{{ .Summary }}
 	{{- if .Truncated }}
 	<p><a href='{{ .Permalink }}'>Full item … </a></p>

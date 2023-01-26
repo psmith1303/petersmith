@@ -59,9 +59,3 @@ s/ +++ /\n/ ;
 Getting the multi-line replaces working in =sed= took some time, but I've come to kinda of like sed now.
 
 All in all, it's all a bit of a kludge and it's not 100%. I'm now going through all my old posts to check and touch-up the converted files.
-
-/Update 2021-12-30 Thu/
-
-This update to my site has also see me strip out the pages that detail my publications, my teaching (courses), and the details of my individual runs.
-
-That'll cause a little link rot. But I doubt many/any folk will notices.

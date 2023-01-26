@@ -1,0 +1,6 @@
+{{"<!-- partial/list-extra-content.html -->" | safeHTML }}
+<ul class="extra">
+  {{- range .Resources.Match "**.org" -}}
+  <li><a href="{{ .Permalink}}#{{ .Params.slug }}" class="title" alt="Link to full item">{{ .Title }}</a></li>
+  {{- end -}}
+</ul>

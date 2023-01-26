@@ -29,6 +29,7 @@ paginate = 30
 #    mentions = "/mentions/:year/:month:/:day/:slug/"
     resources = "/resources/:slug/"
     pages = "/pages/:slug/"
+#    updates = "/update/:year/:month/:day/:slug/"
 
 
 [sitemap]

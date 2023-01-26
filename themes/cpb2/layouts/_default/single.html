@@ -2,9 +2,12 @@
 {{"<!-- _default/single.html -->" | safeHTML }}
 <article class="h-entry">
   <div class="article-content e-content">
-    <a href="{{ .Permalink }}" ><h1 class="article-title p-name">{{ .Title }}</h1></a>
+    <h2><a href="{{ .Permalink }}" class="title">{{ .Title }}</a></h2>
     {{- partial "article-h-entry" . -}}
+    {{- partial "list-extra-content" . }}
     {{- .Content -}}
+    {{- partial "extra-content" . -}}
+    {{- partial "backlinks" (dict "page" .) -}}
   </div>
   {{- partial "article-nav" . -}}
   <hr>

@@ -1,0 +1,104 @@
+#+title: Adding updates to a page
+#+date: 2023-01-25T19:40:20+13:00
+#+lastmod: 2023-01-25T19:40:20+13:00
+#+categories[]: Tech
+#+tags[]: Blogging Hugo Updates
+
+
+I rather like the way [[https://karl-voit.at/][Karl Voit]] shows how pages have been [[https://karl-voit.at/restaurants-Graz/][updated]] on his site. It's not a Hugo site, but I can see the value in doing something like that.
+
+First, you should know I am using [[https://gohugo.io/content-management/page-bundles/][page bundles]]. It seems clean to have all the 'content' for a page in one place. Secondly, I'm using ~org~ files and not ~.md~ files (no markdown).
+
+Rather than actually modify posts when there is an update, I want to add a separate file with the details of the update. In the example below I might have two updates to the blog entry made on 2022-12-27.
+
+# more
+
+#+BEGIN_EXAMPLE
+
+content/
+├── pages
+│   └─ about-me
+│       └── index.org
+│
+├── blog
+│   └── 2022
+│       └── 12
+│            ├── 27
+│            │  └── a-post
+│            │         ├── index.org
+│            │         ├── 20230101-113159-update.org
+│            │         └── 20230121-173512-update.org
+│            ├── 29
+│                 └── another-post
+│                      └── index.org
+... etc
+
+
+#+END_EXAMPLE
+
+To incorporate the updates I have added two parts to my ~_default/single.html~ file. The first is a partial to ~list-extra-content~. The second partial is ~extra-content~.
+
+#+BEGIN_SRC html
+
+{{- define "main" -}}
+{{"<!-- _default/single.html -->" | safeHTML }}
+<article class="h-entry">
+  <div class="article-content e-content">
+    <h2><a href="{{ .Permalink }}" class="title">{{ .Title }}</a></h2>
+    {{- partial "article-h-entry" . -}}
+    {{- partial "list-extra-content" . }}
+    {{- .Content -}}
+    {{- partial "extra-content" . -}}
+  </div>
+  {{- partial "article-nav" . -}}
+  <hr>
+</article>
+{{- partial "webmentions" . -}}
+{{- partial "listPageResources" . -}}
+{{- end -}}
+
+#+END_SRC
+
+The first partial, ~-list-extra-content~ does what it says. It ranges over the pages resources looking for ~.org~ files and creates a list of what it finds.
+
+#+BEGIN_SRC html
+
+{{"<!-- partial/list-extra-content.html -->" | safeHTML }}
+<ul class="extra">
+  {{- range .Resources.Match "**.org" -}}
+  <li><a href="{{ .Permalink}}#{{ .Params.slug }}" class="title" alt="Link to full item">{{ .Title }}</a></li>
+  {{- end -}}
+</ul>
+
+#+END_SRC
+
+
+The second partial, ~extra-content~ incorporates the content of the ~org~ files into the page.
+
+#+BEGIN_SRC html
+
+{{"<!-- partial/extra-content.html -->" | safeHTML }}
+{{ with .Resources.ByType "page" }}
+    {{ range sort . ".Params.date" "value" "asc" }}
+    <div class="extras">
+      <h9><a href="{{ .Permalink}}" id="{{.Params.slug}}" class="title" alt="Link to full item">{{ .Title }}</a></h9>
+      {{ .Content }}
+    </div>
+    {{- end -}}
+{{- end -}}
+
+#+END_SRC
+
+Currently, the update file contains this type of content.
+
+#+BEGIN_SRC
+#+title: Updated on 18 December 2022
+#+date: 2022-12-18T11:02:20+13:00
+#+slug: update-18-december-2022
+#+type: update
+
+I went through and changed all the titles in my existing figures to be captions. It works better that way. I also removed the lazy loading, as most of my figures/images are above the fold.
+
+#+END_SRC
+
+I have a vague, undeveloped notion, that at some stage I'd like to be able 

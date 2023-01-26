@@ -2,7 +2,7 @@
 #+date: 2022-06-08T16:54:57+12:00
 #+lastmod: 2022-06-08T16:54:57+12:00
 #+categories[]: Tech
-#+tags[]: Docker Containers Ubiquiti Common_book
+#+tags[]: Docker Containers Ubiquiti Commonplace-book
 
 I want to write more and use this more as my [[https://petersmith.org/pages/about-me/][commonplace book]]. So here we go ...
 

@@ -118,6 +118,7 @@ section#listresources {
     margin: 0;
 }
 
+section#backlinks,
 section#webmentions {
     background-color: white;
 }
@@ -153,6 +154,10 @@ section#article-meta p {
 }
 
 
+
+section#resourcelist {
+    background-color: lightblue;
+}
 /*****************************
       Article details
 ******************************/
@@ -353,6 +358,15 @@ h5 {
     font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
     font-size: 1em;
     font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 1em 0;
+    text-align: start;
+}
+
+h9 {
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
     font-style: normal;
     margin: 1em 0 1em 0;
     text-align: start;
@@ -711,4 +725,16 @@ hr.footnotes-separatator {
     flex: 0 1 auto;
     margin-top: 0;
     margin-bottom: 0.3em;
+}
+
+
+a.title:link,
+a.title:visited {
+    color: black;
+    font-weight: 600;
+}
+
+.backlinks ul,
+ul.extra {
+    padding: 1em;
 }

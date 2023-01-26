@@ -1,0 +1,9 @@
+{{"<!-- partial/extra-content.html -->" | safeHTML }}
+{{ with .Resources.ByType "page" }}
+    {{ range sort . ".Params.date" "value" "asc" }}
+    <div class="extras">
+      <h9><a href="{{ .Permalink}}" id="{{.Params.slug}}" class="title" alt="Link to full item">{{ .Title }}</a></h9>
+      {{ .Content }}
+    </div>
+    {{- end -}}
+{{- end -}}

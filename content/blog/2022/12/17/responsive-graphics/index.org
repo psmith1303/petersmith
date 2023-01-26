@@ -1,6 +1,6 @@
 #+title: Responsive graphics
 #+date: 2022-12-17T14:22:20+13:00
-#+lastmod: 2022-12-17T14:22:20+13:00
+#+lastmod: 2022-12-19T14:22:20+13:00
 #+categories[]: Tech
 #+tags[]: Graphics Hugo
 
@@ -207,8 +207,4 @@ Now I need to turn my attention to accessibility (with a score of 87). Here Page
 - Links do not have a discernible name
 - Background and foreground colors do not have a sufficient contrast ratio.
 
-  That last one is really about the colour I use for the Categories and Tags. They are a nice blue (#4169e1;). Maybe I need something darker.
-
-/Update 2022-12-18/ I went through and changed all the /titles/ in my existing figures to be /captions/. It works better that way. I also removed the lazy loading, as most of my figures/images are above the fold.
-
-/Update 2022-12-19/ Fixed a few more things.
+That last one is really about the colour I use for the Categories and Tags. They are a nice blue (#4169e1;). Maybe I need something darker.

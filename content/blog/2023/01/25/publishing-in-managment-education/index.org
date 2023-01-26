@@ -1,0 +1,156 @@
+#+title: Publishing in managment education
+#+date: 2023-01-25T10:50:56+13:00
+#+lastmod: 2023-01-25T10:50:56+13:00
+#+categories[]: Academia Research
+#+tags[]: Writing Publishing
+
+This is something of a synthesis of two presentations I found on the web.
+
+- [[https://slidetodoc.com/so-i-want-to-publish-in-amle-what/][So, I want to publish in AMLE... what do I need to know?]] by [[https://orcid.org/0000-0002-9139-8434][William M. Foster]], and
+- [[https://harzing.com/download/pubinme.pdf][A Guide to Publishing in Management Education Journals]] by  [[https://www.linkedin.com/in/jon-billsberry-ba987b2/][Jon Billsberry]] via [[https://harzing.com/blog/2018/03/publishing-in-management-education-journals][Harzing.com]]
+
+Much of the advices applies to publishing in many/most/all management and organisation studies journals. I.e., it is important to have a clear research question, a rigorous methodology, and a well-written and well-structured manuscript that adheres to the journal's guidelines. Additionally, it is important to have a strong and relevant theoretical or practical contribution to the field, and to properly cite and acknowledge any previous research that has influenced the research. Finally, it is important to be able to clearly communicate the significance and implications of your findings for practitioners and future research.
+
+# more
+
+** Why publish in management education journals?
+
+Firstly, for most academics teaching is half the job. Well, in my case its 40% [fn::My contract is a typical 40/40/20 --- 40 percent teaching, 40 percent research, and 20 percent service]. By publishing in management education, you're getting double the benefit from it. Teaching comes with many students (participants) and assessments (measurements). Any innovation in teaching could be interesting. And, being a big part of your job, you should be passionate about it.
+
+Secondly, doing research into management education helps your chances of promotion and recruitment. It demonstrates that you are passionate about teaching; you are at the leading edge of teaching; and that you are creative/innovative in your teaching.
+
+However, you shouldn't make educational research your only research; very few people are successful in doing that (unless they are in a education faculty). There are very few highly ranked journals in the field of management education, so they are poorly rated. Just doing this type of research will see you typecase as a education specialist and not as a management, business, or organizational person. Generally, some education publications are good for your CV, but its a problem if they dominate your CV.
+
+
+** The major problems with papers
+
+As I read through the following list, there isn't one of these problems that I'm not guilty of in my papers; although I am working to be better.
+
+1. The kitchen sink approach to theorizing
+
+   These papers include to many idea (probably in the fear that something will be overlooked). This tends to mean that there is a alack of focus and/or the research questions is not well formed. As a result the papers tend to meander and be too long.
+
+2. Unclear contribution
+
+   These papers are not clear what (existing) conversation they are joining, or it is not clear how the paper contributes to the conversation. Such papers tend to have unclear research questions, or 'merely' apply theory to a new empirical context.
+
+3. Lack of construct clarity
+
+   The constructs in paper are either not defined at all, or they are poorly defined. As a consequence, the boundary conditions of the paper are unclear. Typically, these papers have overlapping ideas and theories
+
+4. Poor literature review
+   These papers do not outline the key gap in the literature or they fail to problematize some empirical observation. The citations are often (a) stale/ dated, (b) do not include key citations---this is different to point a, or (c) have a limited number of citations. As a consequence the literature review is often unfocused.
+
+5. Unpolished work
+   These papers are poorly written, and don't look and feel like an academic paper. Typically, they have poor grammar, spelling mistakes, and poor formatting. The first two of those---grammar and spelling---can be fixed by using [[https://app.grammarly.com][Grammarly]] or similar tools.
+
+** Myths about publishing
+- Quick-and-dirty versus going for a top-journal
+  It takes just as long to write a good paper as it does to write a poor paper. So it is always worth shooting high.
+
+- The reviewers will fix it
+  The reviews role is it provide constructive feedback. You can't expect them to know how to fix a paper---although sometimes they might make suggestions.
+
+- The reviews don't understand your brilliance
+  Actually, it's the authors' job to make them understand. So always be very clear in what is being said.
+
+** How to improve your work
+
+1. Look for exemplars in *both* the journal you are targeting and in the top journals.
+
+2. Ask for a friendly review---ideally from someone who knows the topic---and not necessarily from someone friendly. What you want is an honest appraisal of your work. Presenting your work a numerous venues/conferences will help sharpen up your paper (and your presentation) and the feedback will always give your food for thought (even when they audience doesn't 'get it).
+
+3. Keep it simple (KISS, as they say). Can your grandma read it and understand where you are going (but not necessarily knowing the detail).
+
+4. The abstract; this is often an important and overlooked aspect of academic writing. Keep the abstract short and to the. You don't want to recreate your introduction.
+   
+5. Keywords
+   In this age of full-text search you might think keywords don't matter but they do, if for no other reason than editors and associate editors use them to select reviewers.
+
+6. Letters to the editor
+   These matter because although some editors don't read them, many do. In the covering letter, make it clear if you have a conflict of interest with any potential reviews, or if there are reasons why you want a particular editor or reviewer.
+
+   And remember, everyone gets their paper rejected.
+
+** The major journals in management education
+
+The four best known (and most highly ranked) journals in management education are: Academy of Management Learning & Education (AMLE), the Journal of Management Education (JME), Management Learning (ML), and the Journal of Innovative Education (JIE).
+
+{{< gallery2 >}}
+
+Following Beatty and Leigh (2010), the journals look like this:
+
+|---------------+-------------------+-------------------+--------------------+------------|
+|               | AMLE              | DSJIE             | JME                | ML         |
+|---------------+-------------------+-------------------+--------------------+------------|
+| Affiliation   | Academy of        | Decision Sciences | OB Teaching        | None       |
+|               | Management (AoM)  | Institute         | Society (OBTS)     | None       |
+| Founding      | 2002              | 2003              | 1975               | 1970       |
+|               |                   |                   |                    |            |
+| Issues/Year   | 4                 | 4                 | 6                  | 5          |
+| Sections      | R&R; EDI; EC; BRR | Features; Briefs  | Various            | None       |
+| Indexing SSCI | Yes: 2.533        | No                | No                 | Yes: 1.206 |
+|               |                   |                   |                    |            |
+| Slant         | Scientific        | Scientific        | Teaching Inclusive | Critical   |
+|---------------+-------------------+-------------------+--------------------+------------|
+
+
+*** Academy of Management Learning & Education (AMLE)
+This is a theory-driven journal: its goal is to build or test theory about management learning, management education, and business schools. It also hopes that papers will contribute more broadly in the areas of management, organization, and research. Importantly, it is not a teaching or pedagogical journal --- it doesn't publish papers that relate to teaching methods, classroom exercises, or the like.
+
+*** Ranking of the management learning journals
+
+Currie and Pandher (2013) classified 84 "potential venues for publishing research in management learning and education" using the Active Scholar Assessment methodology. This gave the following results:
+
+A. The top 10 percentile group of journals are defined as tier A and may be regarded as the top journals in the field.
+   - A+
+     - Academy of Management Learning and Education
+     - Journal of Business Ethics
+     - Journal of Management Education
+   - A
+     - Journal of Management and Organization Research in Higher Education
+     - Journal of Educational Psychology
+     - Journal of Education for Business
+     - Communications of The ACM
+B. The next 25 percentile group forms tier B and is considered to be widely known and of high quality.
+  - B+
+    - Journal of Leadership and Organizational Studies
+    - Case Research Journal
+    - Issues in Accounting Education
+    - Management Learning
+    - Decision Support Systems
+  - B
+    - Decision Sciences Journal of Innovative Education
+    - SAM Advanced Management Journal
+    - Journal of Accounting Education
+    - Journal of Management Development
+    - Organization Management Journal
+    - Journal of Marketing Education
+    - Journal of Economic Education
+    - Business Communication Quarterly
+    - Information and Management
+    - The Case Journal
+  - B-
+    - Accounting Education: Anais: An International Journal
+    - Simulation and Gaming
+    - The Accounting Educator’s Journal
+    - International Journal of Case Method Research and Application
+    - Review of Research in Education
+    - Journal of Financial Education
+
+C. The next 40 percentile group forms tier C and is considered to be well regarded in the field.
+   - C+
+     - Journal of Human Resources Education
+     - British Journal of Educational Technology
+     - Journal of Leadership
+     - Marketing Education Review
+     - Journal of Business Ethics Education
+
+D. The remaining 25% of the ranked journals constitute tier D.
+
+The analysis by Currie and Pandher, suggests where active scholars in management learning believe the important debates are happing. Yet, this result stands in contracts to the assessments of research quality made by the Australian Business-school Deans' Committee (ABDC). This 'descrepency' is of concern; given the current climate can one afford to work on topics that they are passionate about but that can only be published in niche or unranked journals?
+
+* References
+Beatty, J. E., & Leigh, J. S. A. (2010). Taking stock of management education: a comparison of three management education journals, /Journal of Management Education, 34/(3), 367-392
+
+Currie, R., & Pandher, G. (2013). Management education journals' rank and tier by active scholars. /Academy of Management Learning & Education, 12/(2), 194-218.

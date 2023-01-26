@@ -1,0 +1,11 @@
+#+title: Added backlinks
+#+date: 2023-01-26T16:10:59+13:00
+#+lastmod: 2023-01-26T16:10:59+13:00
+#+categories[]: Tech
+#+tags[]: Hugo Zettelkasten Commonplace-Book
+
+As I work towards integrating my [[{{< ref "/blog/2022/12/10/zettelkasten" >}}][Zettlekasten]] with this commonplace book, I need a way to have backlinks between my pages; e.g., when I reference/create a link, say, from "Page 1" → "Page 2", I want to automagically create a backlink that goes in the other direction "Page 1" ← "Page 1".
+
+[[https://scripter.co/parsing-backlinks-in-hugo/][A scriptor's notes]] to the rescue.
+
+
