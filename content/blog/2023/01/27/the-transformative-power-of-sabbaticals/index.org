@@ -1,0 +1,93 @@
+#+title: The transformative power of sabbaticals
+#+date: 2023-01-27T09:59:58+13:00
+#+lastmod: 2023-01-27T09:59:58+13:00
+#+categories[]: Academia Teaching
+#+tags[]: Reading
+
+Schabram, K., Bloom, M., & Didonna, D. (2022). Recover, explore, practice: The transformative potential of sabbaticals. Academy of Management Discoveries. https://doi.org/10.5465/amd.2021.0100
+
+#+BEGIN_QUOTE
+
+Sabbaticals have seen an exponential growth in adoption over the last two decades and are ascribed extensive benefits by employers and employees alike. Little is known, however, about how individuals spend their time or how their experiences impact them after they return to work. Drawing on narrative interviews with 50 diverse professionals, we discover that sabbaticals combine "building blocks"− distinct periods dedicated to recover, explore, or practice− into three typical trajectories: working holidays (alternating recovery and practice), free dives (alternating recovery and exploration), and quests (unfolding from recovery to exploration to practice). While participants returned from all sabbaticals feeling affirmed in their own voice, periods of exploration and practice were associated with the extent to which sabbaticals fundamentally changed their self-narrative and disrupted the trajectory of their working lives. Those on working holidays tended to return to their former lives (though with a greater confidence and need for balance), while free divers pursued better fitting but similar work (e.g., a change in position or employer), and questers were most likely to make drastic career changes. Our model extends the breaks literature and authenticity scholarship, and offers insights to those considering a sabbatical.
+
+#+END_QUOTE
+
+# more
+
+This is appeared in my fire hose that is my RSS feed. As I just started my /Research and Study Leave/ (aka sabbatical leave), it was timely. The three trajectories make a lot of sense.
+
+More importantly, it highlighted the need (for me) of detachment from my 'regular' work. And so, I've started breaking a few links that have kept me well integrated into the routines of Uni life. E.g., I've culled some Signal groups that normally keep me 'in the loop'.
+
+
+
+
+* Annotations from the paper
+
+"The earliest sabbaticals were intended for rest and recovery" (p. 2).
+
+"When North American universities adopted the practice of the sabbatical in the late 19 th century, however, they retained only the seven year cycle but decidedly dropped the emphasis on rest" (p. 2).
+
+The notion of "sabbaticals as a time to complete important research in many publications highlight that this tradition remains alive and well" (p. 3).
+
+"Despite a lack of agreement on the content of sabbaticals, a host of memoirs and practitioners guides unequivocally tout the benefits of such time off for employees and employers alike" (p. 4).
+
+"In short, there exists considerable enthusiasm for the concept of sabbaticals as well as rapidly growing anecdotal and some limited empirical evidence for their importance" (p. 5).
+
+"While participants consistently defined their sabbatical as "an extended period of time intentionally spent on something that’s not your routine job" (5), their specific experiences seemed at first a combination of idiosyncratic details (e.g. length of sabbatical, entry mechanism), choices (e.g., rest, write a novel, travel the world) and constraints (e.g. budgets, travel with children) ... however, revealed that sabbaticals play out in predictable patterns .... we learned that all sabbaticals were comprised of three building blocks, distinct periods determined by a core purpose to either recover, explore, or practice.... These building blocks combined into three distinct trajectories: the working holiday (alternating recovery and practice), the free dive (alternating recovery and exploration), and the quest (recovery, exploration, and practice, commonly in that order)" (p. 12).
+
+"the exploration periods that mark free dives and quests, provided individuals with the opportunity to clarify and extend themselves beyond limitations imposed by other’s expectations (i.e. a greater sense of authenticity)" (p. 13).
+
+*** Recover
+
+During periods of recovery, individuals "wanted to rest, recover, heal...I wouldn’t say so much physically because I don’t think it was so much that, but really the mental recovery". Recovery involved "nursing themselves" back to health: "that was one of the highest priorities... Recovery also involved restoring that which was lost, foremost relationships that had been neglected either from years of prioritizing work  or by moving far away to pursue career opportunities" (p. 13).
+
+"Travel was not a priority and instead individuals "loved having a home base", either remaining in their home or moving back to their hometown. When they did travel it involved comfortable accommodations, such as luxury hotels... Regardless of their physical location in the world, it was crucial for participants to be completely "disconnected" (p. 14).
+
+*** Explore
+
+"The second building block comprised exploration, broadly conceived. Participants sought the "opportunity to also explore who I am as a person and try new things and travel and experience new people and places. Exploration involved detachment in several important ways. Physically, participants reported "wanderlust and craving some distance...It was having the space to invest in this personal spiritual practice that felt very foundational and profound and more important than career .... Participants also detached socially with many leaving old relations behind in favor of seeking new ones, such as becoming "connected with the community...when you think about sabbatical, it can be pretty self-centered but also keeping this link into the community."
+
+"Finally, participants detached from not only their day-to-day work life but from previous professional pressures and identities. It was important to "separate yourself from your circumstancestake time to grapple with the bigger questions of life" (p. 16).
+
+*** Practice
+
+"The third building block, practice, refers to periods of the sabbatical dedicated to non-routine work and can take many forms from engaging in special projects, to applying what one had learned during exploration to new endeavors, to trying on new types and locations of work. The most straight-forward reason for periods of practice was when projects had been the primary pull into the sabbatical" (p. 17).
+
+"The cognitive and emotional experiences during periods of practice were not singular, but rather contingent on participants’ relations to the non-routine work" (p. 19).
+
+*** Sabbatical Trajectories
+
+"We discovered three typical sabbatical trajectories (working holiday, free dive, and quest) each with a unique catalyst into the sabbatical, pattern of building blocks during the sabbatical, and transformation upon return".
+
+**** Working Holidays that Affirm
+
+"Thirteen participants spent their sabbatical on a working holiday, which combined alternating periods of recovery and practice, but no time for exploration. The prototypical way to start a working holiday was being pulled in by a non-routine project that required time off from routine work such as writing a book. founding a business or nonprofit, or volunteering" (p. 20).
+
+"One of our most robust insights is that all sabbatical trajectories led to individuals feeling more affirmed upon their return. This was the central transformation reported by those engaged in working holidays" (p. 21).
+
+**** Free Dives into Authenticity
+For another fourteen participants, the sabbatical catalyst was the dream of travel and adventure. It involved "kind of pull[ing] the trigger on something I’ve been thinking about for a long time" (41). For many, it was the chance to finally pursue a dream" (p. 22)
+
+"Free divers credited "taking that time off to really focus on how can you be the best and most authentic version of yourself" (35). While they returned more affirmed (like those on working holidays), they also described a more significant transformation that seemed to come from intense periods of exploration." (p. 24)
+
+**** "Questing for Autonomy
+
+"The final twenty-three participants spent their sabbatical on a quest, a term we directly adapted several references to "Joseph Campbell. The Hero’s Journey...I thought about it every day"; "I think there’s a Joseph Campbell archetype type here, right? There’s a journey that is pretty common...there’s a rest and recovery objective, there’s a work objective, there’s an experiential or joy objective"" (p. 26).
+
+"In contrast to those on working holidays and free dives, questers did not plan their sabbaticals but often left unexpectedly when they were "pushed" over the edge by toxic workplaces in which they felt "taken advantage of because...‘we don’t have to hire new people, you’ll just keep doing it" (p. 26).
+
+"Questers initially craved only recovery. They decompressed at home, sleeping in and watching TV or made cross-country road trips to move back in with parents, siblings, or long-lost friends" (p. 27).
+
+*** Discussion
+
+"our study challenges current understandings of the activities undertaken during breaks. Scholars tend to distinguish between chores, which require high effort and deplete resources, and respites, which are low-effort activities that replenish depleted resources" (p. 30).
+
+"The general consensus is "that it is precisely this absence of work-related demands that allows for the process of recovery from work to occur" (Fritz, Ellis, Demsky, Lin, & Guros, 2013: 274) and that "for a break to result in recovery, people must utilize this time to engage in activities that reduce demands on personal resources" (Trougakos & Hideg, 2009: 42)" (p. 30).
+
+"Our work highlights the benefits of both high-effort non-work activities (e.g., exploration) and the kinds of high-effort work activities (e.g. practice) that have been previously considered as detrimental to recovery. We suggest that exploration activities are" (p. 30).
+
+"crucial for individuals to gain perspective and reflect on what is missing in their routine life" (p. 31).
+
+"Third, our work underscores the importance of agency during breaks (Sonnentag & Fritz, 2007; Trougakos, Beal, Green, & Weiss, 2008; Trougakos, Hideg, Cheng, & Beal, 2014). Scholars have long emphasized that individuals must choose preferred break activities (Hunter & Wu, 2016) to accommodate their idiosyncratic needs (Kim et al., 2018)" (p. 31).
+
+"Research has commonly stressed that detachment from work matters (Chong et al., 2020; Coffeng, van Sluijs, Hendriksen, van Mechelen, & Boot, 2015; Sianoja et al., 2018; Sonnentag, 2001; Ten Brummelhuis & Bakker, 2012). But, Fritz and colleagues (2013) have highlighted a curvilinear relationship where moderate levels of detachment are the most more beneficial, while Bosch and colleagues (2018) found no link at all. Our study suggests that this may be in part because detachment is more idiosyncratic than previously considered. At various times, participants craved different degrees of social detachment from established relationships, physical detachment from home, and detachment from their work and professional lives" (p. 32).

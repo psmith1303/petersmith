@@ -8,6 +8,6 @@ As I work towards integrating my [[{{< ref "/blog/2022/12/10/zettelkasten" >}}][
 
 # more
 
-[[https://scripter.co/parsing-backlinks-in-hugo/][A scriptor's notes]] to the rescue.
+[[https://scripter.co/parsing-backlinks-in-hugo/][A scriptor's notes]] came to the rescue with some tidy code.
 
 

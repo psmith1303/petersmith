@@ -1,0 +1,20 @@
+#+title: Free ice cream at Flower Street
+#+date: 2023-01-25T16:37:55+1300
+#+lastmod: 2023-01-25T16:37:55+1300
+#+categories[]: Check-ins
+#+tags[]:  Icecream Music Food
+#+draft: false
+
+Free ice cream courtesy of the Link Alliance. Yum, yum, yum. There was also some street art. I couldn't quite make out what the text said. I think it is, "Forget about the last one. Get yourself another". If so, that's from a song by "Th'Dudes" called [[https://www.youtube.com/watch?v=K5kmSgCPpXw]["Bliss"]].
+
+# more
+{{< gallery2 >}}
+
+
+[Chorus]
+Drink yourself more bliss
+Forget about the last one
+Get yourself another
+Drink yourself more bliss
+Forget about the last one
+Get yourself another

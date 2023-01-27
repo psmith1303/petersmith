@@ -1,9 +1,0 @@
-#+title: Coffee at Fluffy in Newton
-#+date: 2022-12-13T11:43:33+1300
-#+lastmod: 2022-12-13T11:43:33+1300
-#+categories[]: Check-ins
-#+tags[]: Coffee
-
-Another fine coffee from one of my local coffee haunts.
-# more
-{{< gallery2 >}}

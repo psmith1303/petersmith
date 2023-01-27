@@ -1,6 +1,6 @@
 #+title: Updated on 30 December 2021
 #+date: 2021-12-30T13:38:56+13:00
-#+slug: update-30-december-2021
+#+slug: updated-on-30-december-2021
 #+type: update
 
 This update to my site has also see me strip out the pages that detail my publications, my teaching (courses), and the details of my individual runs.

@@ -2,8 +2,8 @@
 #+slug: like-202220221213-124654
 #+date: 2022-12-13T12:46:54+13:00
 #+likeURL: https://robbinespu.gitlab.io/posts/homepage-history/
-#+categories[]: IndieWeb
-#+tags[]: Blogging
+#+categories[]: Social
+#+tags[]: Indieweb Blogging
 #+wm_type: like
 
 I wish I had been as thoughtful as [[https://robbinespu.gitlab.io][@Robbie]] in recording what my website had looked like over the years.

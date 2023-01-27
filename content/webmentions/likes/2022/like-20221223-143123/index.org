@@ -2,6 +2,6 @@
 #+slug: like-202220221223-143123
 #+date: 2022-12-23T14:31:23+13:00
 #+likeURL: https://martymcgui.re/2020/07/15/what-we-talk-about-when-were-talking-about-webmentions/
-#+categories[]: IndieWeb
+#+categories[]: Social
 #+tags[]: Indieweb Tech Webmentions
 #+wm_type: like

@@ -1,7 +1,7 @@
 #+title: Now
 #+date: 2023-01-23T11:47:52+13:00
 #+lastmod: 2023-01-23T11:47:52+13:00
-#+categories[]: SiteInfo
+#+categories[]: Social
 #+tags[]: Reflection
 #+draft: False
 #+weight: 110

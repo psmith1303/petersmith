@@ -682,7 +682,6 @@ ul.main-index h2 {
 /*****************************
       Footnote magic
 ******************************/
-
 hr.footnotes-separatator {
     width: 30%;
     margin-left: 0;
@@ -737,4 +736,15 @@ a.title:visited {
 .backlinks ul,
 ul.extra {
     padding: 1em;
+}
+
+
+hr.key {
+    width: 20%;
+    margin-left: 1.2em;
+    height: 1px;
+    border: 0 none;
+    background-color: Gray;
+    position: relative;
+    top: -1.2em;
 }

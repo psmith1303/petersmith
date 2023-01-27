@@ -101,4 +101,5 @@ I went through and changed all the titles in my existing figures to be captions.
 
 #+END_SRC
 
-I have a vague, undeveloped notion, that at some stage I'd like to be able 
+
+I have a vague, undeveloped notion, that at some stage I'd like to be able use this approach to incorporate webmentions into a page rather than my [[{{< ref "third-steps-to-indieweb" >}}][current approach]] of using a ~.JSON~ file.

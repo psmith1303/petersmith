@@ -18,6 +18,7 @@
 
 {{- with $opts -}}
    {{- $attributes := "" -}}
+   {{- if or (eq .MediaType "image/png") (eq .MediaType "image/jpeg") -}}
    {{- if eq .image.MediaType.SubType "svg" -}}
       <!-- This is NOT an svg -->
       <img src="{{.RelPermalink}}" type="{{.MediaType}}" alt="{{ .alt }}"/>
@@ -52,4 +53,5 @@
        <img sizes="(min-width: 35em) 1200px, 100vw" srcset="{{ $imgSrcSet }}" src="{{ $fallbackImage.Permalink }}" 
 	    alt="{{ .alt | markdownify| plainify }}">
    {{- end -}}
+{{- end -}}
 {{- end -}}

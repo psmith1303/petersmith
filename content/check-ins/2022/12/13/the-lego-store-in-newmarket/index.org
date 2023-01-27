@@ -1,9 +1,0 @@
-#+title: The Lego Store in Newmarket
-#+date: 2022-12-13T11:40:05+1300
-#+lastmod: 2022-12-13T11:40:05+1300
-#+categories[]: Check-ins
-#+tags[]: Shopping
-
-Picking up a gift voucher for some lucky person.
-# more
-{{< gallery2 >}}

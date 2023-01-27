@@ -2,7 +2,7 @@
 #+slug: about-risk
 #+date: 2004-04-30T14:09:00+12:00
 #+lastmod: 2004-04-30T14:09:00+12:00
-#+categories[]: Home
+#+categories[]: Social
 #+tags[]: Friday_fives
 #+draft: False
 
@@ -16,4 +16,3 @@ And here is this week's [[https://www.fridayfive.org/][Friday Five]] (Okay, I've
     sure if it is worth the effort, reward, etc.
 
 This was recycled from [[https://agg.zive.net/\~chihir/blog/archives/000148.html][Chirir Blog]].
-

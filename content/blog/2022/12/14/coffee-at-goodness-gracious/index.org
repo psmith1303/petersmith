@@ -1,0 +1,12 @@
+#+title: Coffee at Goodness Gracious
+#+date: 2022-12-14T14:07:00+1300
+#+lastmod: 2022-12-14T14:07:00+1300
+#+categories[]: Check-ins
+#+tags[]: Coffee
+#+draft: false
+
+A double-shot piccolo. Nice. Very nice, and punchy too. 
+
+It’s been a few years since I was here (on Great North Road). This building used to be the garage of the undertaker/funeral directors that used to be here. They’ve been long gone now; more than 10 years, I think. 
+# more
+{{< gallery2 >}}

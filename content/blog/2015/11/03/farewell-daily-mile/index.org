@@ -2,7 +2,7 @@
 #+slug: farewell-daily-mile
 #+date: 2015-11-03T18:36:00+12:00
 #+lastmod: 2015-11-03T18:36:00+12:00
-#+categories[]: Home Tech
+#+categories[]: Social
 #+tags[]: Fitness Running DailyMile SmashRun
 #+draft: False
 

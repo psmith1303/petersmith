@@ -2,8 +2,8 @@
 #+slug: like-202220221209-164244
 #+date: 2022-12-09T16:42:44+13:00
 #+likeURL: https://petersmith.org/blog/2022/12/09/twitter-dead/
-#+categories[]: IndieWeb
-#+tags[]: SocialWeb
+#+categories[]: Social
+#+tags[]: Indieweb 
 #+wm_type: like
 
 Right on!

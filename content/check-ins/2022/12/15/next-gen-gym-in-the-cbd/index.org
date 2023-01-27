@@ -1,9 +1,0 @@
-#+title: Next Gen gym in the CBD
-#+date: 2022-12-15T16:06:30+1300
-#+lastmod: 2022-12-15T16:06:30+1300
-#+categories[]: Check-ins
-#+tags[]: Exercise Gym
-
-At the gym with my brother 
-# more
-{{< gallery2 >}}

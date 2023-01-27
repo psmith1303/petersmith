@@ -1,0 +1,10 @@
+#+title: PYO at Zakberry Farms, Waitākere
+#+date: 2022-12-23T11:30:53+1300
+#+lastmod: 2022-12-23T11:30:53+1300
+#+categories[]: Check-ins
+#+tags[]: Food
+#+draft: false
+
+Busy picking our own strawberries for the Christmas lunch (trifle).
+# more
+{{< gallery2 >}}

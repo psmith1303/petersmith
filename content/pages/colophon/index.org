@@ -2,7 +2,7 @@
 #+slug: colophon
 #+date: 2011-01-04T11:21:00+12:00
 #+lastmod: 2022-12-23T17:30:56+13:00
-#+categories[]: SiteInfo
+#+categories[]: Administrivia
 #+tags[]: SiteInfo
 #+draft: False
 #+weight: 200

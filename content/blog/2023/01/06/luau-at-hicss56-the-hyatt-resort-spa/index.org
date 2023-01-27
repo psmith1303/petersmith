@@ -1,0 +1,10 @@
+#+title: Luau at HICSS56, the Hyatt Resort & Spa
+#+date: 2023-01-06T18:42:55-1000
+#+lastmod: 2023-01-06T18:42:55-1000
+#+categories[]: Check-ins
+#+tags[]: Food
+#+draft: false
+
+What a excellent conference dinner. Does it get any better than this?
+# more
+{{< gallery2 >}}

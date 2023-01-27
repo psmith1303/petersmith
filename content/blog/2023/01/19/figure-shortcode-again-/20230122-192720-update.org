@@ -1,6 +1,6 @@
 #+title: Updated on 22 January 2023
 #+date: 2023-01-22T19:27:20+13:00
-#+slug: update-22-january-2023
+#+slug: updated-on-22-january-2023
 #+type: update
 
 I've reworked the partial (again). Now I draw on my ~img~ partial that does all the heavy lifting for the ~srcset~.

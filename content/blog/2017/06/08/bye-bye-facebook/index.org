@@ -2,7 +2,7 @@
 #+slug: bye-bye-facebook
 #+date: 2017-06-08T15:38:11+12:00
 #+lastmod: 2017-06-08T15:38:11+12:00
-#+categories[]: Tech
+#+categories[]: Social
 #+tags[]: Facebook
 #+draft: False
 

@@ -3,8 +3,8 @@
 #+date: 2022-12-09T07:21:05+13:00
 #+replyURL: https://petersmith.org/blog/2022/06/10/nordvpn/
 #+lastmod: 2022-12-09T07:21:05+13:00
-#+categories[]: IndieWeb Tech
-#+tags[]: VPN Nordvpn
+#+categories[]: Social Tech
+#+tags[]: Indieweb VPN Nordvpn
 #+wm_type: reply
 
 NordVPn have now updated their client. The ~--legacy~ option has been removed. Instead there are new ways to login in using a URL (which I never got working) or using ~--token~ (which worked faultlessly).

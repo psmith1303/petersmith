@@ -1,0 +1,10 @@
+#+title: TRY Coffee in Honolulu
+#+date: 2023-01-08T08:57:21-1000
+#+lastmod: 2023-01-08T08:57:21-1000
+#+categories[]: Check-ins
+#+tags[]: Coffee
+#+draft: false
+
+Mighty fine coffee. Found this place by accident: the mini mall seemed closed except for the co-working space, where this coffee shop was.
+# more
+{{< gallery2 >}}

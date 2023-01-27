@@ -2,7 +2,7 @@
 #+slug: smashrun-2-blog
 #+date: 2017-06-12T16:47:46+12:00
 #+lastmod: 2017-06-12T16:47:46+12:00
-#+categories[]: Tech
+#+categories[]: Social Tech
 #+tags[]: Blogging Running Python Smashrun API
 #+draft: False
 

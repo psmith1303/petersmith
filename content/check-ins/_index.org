@@ -1,4 +1,0 @@
-#+title: Check-ins
-#+weight: 110
-
-Various places I have visited. Some are more interesting that others. A lot of them relate to [[{{< ref "/tags/coffee" >}}][coffee]].

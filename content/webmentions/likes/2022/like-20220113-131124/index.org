@@ -2,8 +2,8 @@
 #+slug: like-20220113-131124
 #+date: 2022-01-13T13:11:24+13:00
 #+likeURL: https://petersmith.org/blog/2022/01/12/content-structure/
-#+categories[]: IndieWeb
-#+tags[]: Blogging IndieWeb
+#+categories[]: Social
+#+tags[]: Indieweb Blogging
 #+wm_type: like
 
 Sometime a like can have a comment, like this.

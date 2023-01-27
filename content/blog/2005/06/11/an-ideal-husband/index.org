@@ -3,7 +3,7 @@
 #+date: 2005-06-11T22:09:00+12:00
 #+lastmod: 2005-06-11T22:09:00+12:00
 #+categories[]: Arts
-#+tags[]: Theater
+#+tags[]: Theatre
 #+draft: False
 
 Lisa and I went to see Oscar Wilde's /An ideal husband/ at the [[https://www.maidment.auckland.ac.nz/][Maidement Studio]]. A very enjoyable romp through the mores of Victorian England. A solid performance.

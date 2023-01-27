@@ -1,6 +1,6 @@
 #+title: Updated on 22 December 2022
 #+date: 2022-12-19T19:14:22+13:00
-#+slug: update-22-december-2022
+#+slug: updated-on-22-december-2022
 #+type: update
 
 Fixed a few more little things.

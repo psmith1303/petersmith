@@ -2,7 +2,7 @@
 #+slug: like-202220221219-071356
 #+date: 2022-12-19T07:13:56+13:00
 #+likeURL: https://boffosocko.com/2022/12/16/55812850/
-#+categories[]: IndieWeb
+#+categories[]: Social
 #+tags[]: Indieweb
 #+wm_type: like
 

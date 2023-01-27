@@ -1,0 +1,12 @@
+#+title: Ice cream from Mr Whippy in Newton
+#+date: 2022-12-22T14:39:16+1300
+#+lastmod: 2022-12-22T14:39:16+1300
+#+categories[]: Check-ins
+#+tags[]: Food IceCream
+#+draft: false
+
+Who can resist the Mr Whippy jingle.
+
+Shades of [[https://en.m.wikipedia.org/wiki/Comfort_and_Joy_(1984_film)][Comfort and joy]].
+# more
+{{< gallery2 >}}

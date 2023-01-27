@@ -1,0 +1,10 @@
+#+title: Updated on 26 January 2023
+#+date: 2022-01-26T18:55:11+13:00
+#+slug: updated-on-26-januway-2022
+#+type: update
+
+As part of my redesign---that is my new theme *cbp2*---I've changed my ~favicon.ico~ to be a book. It better reflects that I aspire to this being my commonplace book.
+
+{{< figure src="images/book-16.ico" caption="A redbook icon" >}}
+
+{{< figure src="images/book-512.png" caption="A bigger redbook icon" >}}

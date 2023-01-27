@@ -2,7 +2,7 @@
 #+date: 2022-12-17T14:22:20+13:00
 #+lastmod: 2022-12-19T14:22:20+13:00
 #+categories[]: Tech
-#+tags[]: Graphics Hugo
+#+tags[]: Graphics Hugo cpb2
 
 I think I have the responsive graphics 'thing' working now. To recap, most solutions didn't work for me because:
 

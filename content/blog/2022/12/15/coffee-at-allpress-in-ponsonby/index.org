@@ -1,0 +1,14 @@
+#+title: Coffee at Allpress in Ponsonby
+#+date: 2022-12-15T08:04:01+1300
+#+lastmod: 2022-12-15T08:04:01+1300
+#+categories[]: Check-ins
+#+tags[]: Coffee Hugo Blogging
+#+draft: false
+
+Another excellent piccolo and an almond sweet treat.
+
+I know I seem to be checking in and drinking a lot of coffee, but I’m busy testing my email to Hugo importer.
+
+So, it’s all in the aid of science.
+# more
+{{< gallery2 >}}

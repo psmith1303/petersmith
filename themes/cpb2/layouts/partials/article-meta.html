@@ -22,6 +22,6 @@
     <p>Section: <a href="/{{ .Type }}"/ alt="Link to all {{ .Type }}">{{ .Type }}</a></p>
     <p>Kind: {{ .Kind }}</p>
     <p>Bundle type: {{ .BundleType }}</p>
-    <p>Source: {{ with .File }}{{ .Path }}{{ end }}</p>
+    <p>Source: {{ with .File }}{{ replaceRE "\\\\" "/" .Path }}{{ end }}</p>
   </div>
 </section>

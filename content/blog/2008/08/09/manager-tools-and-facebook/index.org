@@ -2,7 +2,7 @@
 #+slug: manager-tools-and-facebook
 #+date: 2008-08-09T20:34:00+12:00
 #+lastmod: 2008-08-09T20:34:00+12:00
-#+categories[]: Teaching
+#+categories[]: Social Teaching
 #+tags[]: Facebook
 #+draft: False
 

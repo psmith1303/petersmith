@@ -57,7 +57,12 @@
 	{{- end -}}
 
         {{/* Create thumbnail, rotate it if needed */}}
-        {{- $thumbnail := ($original.Resize (printf "%s %s" $thumbnailResizeOptions $rotation)) -}}
+        {{- $thumbnail := "" }}
+        {{- if in "png jpg jpeg tiff" $original.MediaType.SubType -}}
+           {{- $thumbnail = ($original.Resize (printf "%s %s" $thumbnailResizeOptions $rotation)) -}}
+        {{- else -}}
+           {{- $thumbnail = $original -}}
+        {{- end -}}
 
         <div class="gallery-image">
 	  {{- $full := "" -}}
@@ -82,7 +87,10 @@
 
 	  <a href="{{ $full.RelPermalink -}}" class="galleryImg"
 	     title="{{ $title }}" data-description="{{ $datadescription}}">
-	     <img width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}" src="{{ $thumbnail.RelPermalink }}"
+	    <img src="{{ $thumbnail.RelPermalink }}"
+                 {{ if in "png jpg jpeg tiff" .MediaType.SubType }}
+	         width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}"
+		 {{ end }}
                   alt="{{- if $metadata.ImageDescription -}}{{ $metadata.ImageDescription -}}{{ else }}{{ .Title }}{{- end -}}"/></a>
 	  <span class="overlay">{{ $title -}}<br/>{{$datadescription | safeHTML}}</span>
 	</div>

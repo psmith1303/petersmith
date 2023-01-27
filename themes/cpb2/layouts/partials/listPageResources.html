@@ -16,8 +16,8 @@
 	      <tr>
 		<td>
 		  <!-- if the actual file is an image, we'd like to show a small thumbnail image...  -->
-		    {{- if eq .MediaType.MainType "image" -}}
-		    <img src="{{ .Resize "60x" }}" width="60px">
+		    {{- if in "png jpg jpeg tiff" .MediaType.SubType -}}
+                    <img src="{{ .Resize "60x" }}" width="60px">
 		    {{- else if eq (. | path.Ext ) ".pdf" -}}
 		    <i class="icon-file-pdf1" style="font-size:22px;color:Orange" ></i>
 		    {{- else -}}
@@ -28,7 +28,7 @@
 		<td><a href="{{ .RelPermalink }}"> {{ .Name  }} </a>
 		</td>
 		<th></th>
-		<td> {{ len .Content }} </td>
+		<td> {{ with .Content }}{{ len . }}{{ end }}</td>
 	      </tr>
 	      {{- end -}}
 	</table>

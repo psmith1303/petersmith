@@ -1,13 +1,13 @@
 #+title: Indieweb mentions
 #+date: 2022-01-09T12:41:00+12:00
 #+lastmod: 2023-01-20T15:27:20+13:00
-#+categories[]: Indieweb
-#+tags[]: Webmentions
+#+categories[]: Social
+#+tags[]: Webmentions Indieweb
 #+slug: mentions
 #+draft: False
 #+weight: 200
 
-These are the  Indieweb mentions that I have received.
+These are the Indieweb mentions that I have received.
 
 # more
 

@@ -1,9 +1,0 @@
-#+title: Ali’i Coffee in Honolulu
-#+date: 2023-01-11T08:10:46-1000
-#+lastmod: 2023-01-11T08:10:46-1000
-#+categories[]: Check-ins
-#+tags[]: Coffee Food
-
-Fuelling up for the flight home
-# more
-{{< gallery2 >}}
