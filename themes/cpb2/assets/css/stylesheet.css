@@ -49,7 +49,7 @@
 	    margin-top: 3em;
     }
     img {
-	sizes: "(min-width: 35em) 625px, 100vw"
+
     }
 }
 
@@ -60,16 +60,16 @@
 html {
     padding: 0;
     margin: 0;
-    background-color: gainsborough;
+    background-color: gainsboro;
     height: 100%;
 }
 
 body {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5em;
-    background-color: lightgrey;
+    background-color: gainsboro;
     margin: auto;
 }
 
@@ -240,7 +240,7 @@ article.summary > * {
 }
 
 .summary img {
-    width: 100%
+    width: 100%;
     margin-right: 1em;
     margin-bottom: 1em;
 }
@@ -263,7 +263,7 @@ article.summary  div.category-list  a {
 /* This applies to the article.summary and the article-meta */
 div.tag-list,
 div.category-list {
-    display: block-inline;
+    display: inline-block;
 }
 
 
@@ -316,7 +316,7 @@ ul.replies {
 
 
 h1 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1.4em;
     font-weight: 600;
     font-style: normal;
@@ -325,7 +325,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1.4em;
     font-weight: 400;
     font-style: italic;
@@ -335,7 +335,7 @@ h2 {
 
 
 h3 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1.4em;
     font-weight: 600;
     font-style: normal;
@@ -345,7 +345,7 @@ h3 {
 
 
 h4 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1.4em;
     font-weight: 400;
     font-style: italic;
@@ -355,7 +355,7 @@ h4 {
 
 
 h5 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1em;
     font-weight: 600;
     font-style: normal;
@@ -364,7 +364,7 @@ h5 {
 }
 
 h9 {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 1em;
     font-weight: bold;
     font-style: normal;
@@ -435,7 +435,7 @@ Other styling
 *********************/
 
 pre {
-    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", "monospace";
     overflow-x: scroll;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -446,7 +446,7 @@ pre:hover, pre:focus {
 }
 
 code {
-    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", monospace;
+    font-family: "Consolas", "Lucida Console", "DejaVu Sans Mono", "monospace";
     color: darkgreen;
 }
 
@@ -477,7 +477,6 @@ code.verbatim {
 
 .masonry-gallery >  div {
     background: white;
-    flex: flex-grow;
     padding: 0px;
     margin: 0px;
 }
@@ -614,7 +613,7 @@ ul.horizontal > li {
 ******************************/
 
 .sparklines {
-    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Verdana", "Arial", "Helvetica", "sans-serif";
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -751,6 +750,6 @@ hr.key {
 
 figcaption {
     text-align: center;
-    text-weight: 600;
+    font-weight: 600;
     color: grey;
 }
