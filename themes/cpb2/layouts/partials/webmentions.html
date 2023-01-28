@@ -1,11 +1,12 @@
 {{"<!-- partials/webmentions.html -->" | safeHTML }}
 <section id="webmentions">
+  <h9>Webmentions</h9>
   <form action="https://webmention.io/petersmith.org/webmention" method="POST" >
     <fieldset>
       <legend id="mention-legend"><small>If you <a href="https://indieweb.org/webmention">webmention</a> this page, please let me know the URL of your page.</small></legend>
-      <input name="target" value="{{ .Permalink }}" type="hidden"/>
-      <input id="mention-source" class="input" name="source" placeholder="Your page's URL" required="required" size="50"/>
-      <button type="submit" aria-describedby="mention-legend" />Submit</button>
+      <input name="target" value="{{ .Permalink }}" type="hidden">
+      <input id="mention-source" class="input" name="source" placeholder="Your page's URL" required="required" size="50">
+      <button type="submit" aria-describedby="mention-legend">Submit</button>
 <p><small><strong>BTW: </strong>Your <em>webmention</em> won't show up until I next "build" my site.</small></p>
 
     </fieldset>
@@ -26,32 +27,31 @@
 	{{- else -}}
 	    {{- $response_type = "??{{ .wm_property }}??" -}}
 	{{- end -}}
-
-        <li class="h-entry">
+	<li class="h-entry">
 	  A {{ $response_type }} by <a class="reply_url p-url" href="{{ .author.url }}">
 	    <span class="reply_author p-name">{{ .author.name }}</span></a>
 	  {{- if .wm_received -}}
-              {{- $time := time .wm_received -}}
+	      {{- $time := time .wm_received -}}
 	      &nbsp;on <span class="reply_date">{{- $time.Format "2 Jan 06" -}}</span>
 	  {{- else -}}
 	     <p>Debug {{ .wm_received }}<p>
 	    {{- end -}}
-	  &nbsp;at <a href="{{ .wm_source }}">{{ .wm_source }}</a>  
+	  &nbsp;at <a href="{{ .wm_source }}">{{ .wm_source }}</a>
 	  {{- if .content -}}
 	      <div class="comment_content e-entry">
 		<blockquote>
 	      {{- if eq $response_type "reply" -}}
-                  {{- .content.html | safeHTML -}}
+		  {{- .content.html | safeHTML -}}
 	      {{- else if eq $response_type "like" -}}
-                  {{- .content.html | safeHTML -}}
+		  {{- .content.html | safeHTML -}}
 	      {{- else if eq $response_type "mention" -}}
 		  <p class="blockquote">... {{- index (findRE ".*petersmith.*" .content.html 1) 0 | safeHTML  -}}</p>
 	      {{- else -}}
 		  <!-- Do not mark as safe HTML -->
 		  {{- .content.html -}}
-              {{- end -}}
+	      {{- end -}}
 	      </blockquote>
-              </div>
+	      </div>
 	  {{- end -}}
 	</li>
     {{- end -}}

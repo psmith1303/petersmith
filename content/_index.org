@@ -2,7 +2,6 @@
 #+weight: 000
 
 * Tēnā koe! Ko Peter tōku ingoa --- Greetings! My name is Peter.
-
 {{< figure src="PeterInTheOffice-2020.jpg" alt="Peter posing in his office" >}}
 
 I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][University of Auckland]], where my main teaching and research activity is in the field of strategy. I am particularly interested in [[https://www.strategy-as-practice.org/][Strategy-as-practice]] (a practice-based view of strategy), *Professional service firms*, especially engineering firms, and *Innovation as strategy*, especially technology roadmapping (TRM).
@@ -10,5 +9,3 @@ I am a teacher and lecturer at the [[https://www.auckland.ac.nz/][University of 
 This website is my little corner on the Internet. As well as being something of a [[https://en.wikipedia.org/wiki/Commonplace_book][commonplace book]], I am trying to make this website into the hub for my online identity and communications.
 
 {{< sparklines >}}
-
-
