@@ -3,7 +3,7 @@
   <form action="https://webmention.io/petersmith.org/webmention" method="POST" >
     <fieldset>
       <legend id="mention-legend"><small>If you <a href="https://indieweb.org/webmention">webmention</a> this page, please let me know the URL of your page.</small></legend>
-      <input name="target" value="{{ .Permalink }}" type="hidden" .>
+      <input name="target" value="{{ .Permalink }}" type="hidden"/>
       <input id="mention-source" class="input" name="source" placeholder="Your page's URL" required="required" size="50"/>
       <button type="submit" aria-describedby="mention-legend" />Submit</button>
 <p><small><strong>BTW: </strong>Your <em>webmention</em> won't show up until I next "build" my site.</small></p>
