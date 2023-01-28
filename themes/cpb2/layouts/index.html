@@ -22,7 +22,7 @@
 	{{ partial "showanyimage" . }}
       </div>
       <div class="grid-child">
-	<p>A <a href="/{{ .Type }}/" alt="Link to all {{ .Type }}">{{ .Type }}</a> entry {{ $updated }} on {{ .Lastmod.Format "2 Jan 2006" }}</p>
+	<p>A <a href="/{{ .Type }}/" title="Link to all {{ .Type }}">{{ .Type }}</a> entry {{ $updated }} on {{ .Lastmod.Format "2 Jan 2006" }}</p>
 	{{ .Summary }}
 	{{- if .Truncated }}
 	<p><a href='{{ .Permalink }}'>Full item … </a></p>
