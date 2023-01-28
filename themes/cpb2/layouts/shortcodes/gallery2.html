@@ -91,8 +91,8 @@
                  {{ if in "png jpg jpeg tiff" .MediaType.SubType }}
 	         width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}"
 		 {{ end }}
-                  alt="{{- if $metadata.ImageDescription -}}{{ $metadata.ImageDescription -}}{{ else }}{{ .Title }}{{- end -}}"/></a>
-	  <span class="overlay">{{ $title -}}<br/>{{$datadescription | safeHTML}}</span>
+                  alt="{{- if $metadata.ImageDescription -}}{{ $metadata.ImageDescription -}}{{ else }}{{ .Title }}{{- end -}}"></a>
+	  <span class="overlay">{{ $title -}}<br>{{$datadescription | safeHTML}}</span>
 	</div>
       {{- end -}}
     {{- end -}}

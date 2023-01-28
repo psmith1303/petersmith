@@ -21,7 +21,7 @@
 
     {{- if (in "svg ico" $imageExt) -}}
         <!-- This is an .svg or an .ico -->
-        {{- with .image -}}<img src="{{ .RelPermalink }}" alt="{{ $opts.alt }}"/>{{- end -}}
+        {{- with .image -}}<img src="{{ .RelPermalink }}" alt="{{ $opts.alt }}">{{- end -}}
     {{- else -}}
 
        {{- if .image.Exif -}}
