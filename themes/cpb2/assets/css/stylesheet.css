@@ -748,3 +748,9 @@ hr.key {
     position: relative;
     top: -1.2em;
 }
+
+figcaption {
+    text-align: center;
+    text-weight: 600;
+    color: grey;
+}

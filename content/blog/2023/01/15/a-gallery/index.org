@@ -3,7 +3,6 @@
 #+lastmod: 2023-01-15T15:01:28+13:00
 #+categories[]: Tech
 #+tags[]: Blogging Hugo Photos
-#+showPageResources: true
 
 I am in the process of redesigning the site. Well, technically, I'm just doing a new skin (layout, template, or whatever). As part of that I wanted to have a gallery function.
 

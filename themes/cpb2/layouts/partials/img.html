@@ -14,20 +14,19 @@
 -}}
 {{- $metadata := dict "Orientation"  0 -}}
 
-
-
 {{- with $opts -}}
-   {{- $attributes := "" -}}
-   {{- if or (eq .MediaType "image/png") (eq .MediaType "image/jpeg") -}}
-   {{- if eq .image.MediaType.SubType "svg" -}}
-      <!-- This is NOT an svg -->
-      <img src="{{.RelPermalink}}" type="{{.MediaType}}" alt="{{ .alt }}"/>
-   {{- else -}}
-       <!-- This is NOT an svg -->
-       {{- with .image.Exif -}}
-           {{- $metadata = merge $metadata .Tags -}}
-       {{- end -}}
+    {{- $imageTypeArray := split .image "." -}}
+    {{- $imageLast := (sub (len $imageTypeArray) 1) -}}
+    {{- $imageExt := index $imageTypeArray  $imageLast -}}
 
+    {{- if (in "svg ico" $imageExt) -}}
+        <!-- This is an .svg or an .ico -->
+        {{- with .image -}}<img src="{{ .RelPermalink }}" alt="{{ $opts.alt }}"/>{{- end -}}
+    {{- else -}}
+
+       {{- if .image.Exif -}}
+           {{- $metadata = merge $metadata .image.Exif.Tags -}}
+       {{- end -}}
        {{- $rotation := "" -}}
        {{- with $metadata.Orientation -}}
            {{- if or (eq . 8) (eq . 7) -}}
@@ -52,6 +51,7 @@
        {{- $imgSrcSet := delimit $imgSrcSet ", " -}}
        <img sizes="(min-width: 35em) 1200px, 100vw" srcset="{{ $imgSrcSet }}" src="{{ $fallbackImage.Permalink }}" 
 	    alt="{{ .alt | markdownify| plainify }}">
+
+
    {{- end -}}
-{{- end -}}
 {{- end -}}

@@ -1,0 +1,70 @@
+#+title: SSL Certificates
+#+date: 2023-01-28T11:17:33+13:00
+#+lastmod: 2023-01-28T11:17:33+13:00
+#+categories[]: Tech
+#+tags[]: Synology NAS Ubiquiti Acme.sh WebDaV Zotero Letsencrypt
+
+SSL certificates are something of a pain for me. I have a number of devices that need then. For example, I use [[{{< ref "/tags/zotero/" >}}][Zotero]] and keep all my ~.PDFs~ on my NAS. That requires WebDAV, and https is the only way to go, so my [[{{< ref "/tags/synology" >}}][Synology]] NAS needs an SSL certificate. Nowadays, the way to go seems to be [[https://letsencrypt.org/][Let's Encrypt]].
+
+# more
+
+{{< figure src="Synology-RS2122.jpg" title="A NAS like mine">}}
+
+And that is all good, but getting Let's Encrypt / acme.sh to work reliably on a Synology NAS has been ... challenging. The software that comes with the NAS expects it to sit exposed to the world wide web; i.e., it has a web server that one can directly access it using a browser from anyway. But I'm not that 'game'. I have my NAS sitting on my own private network, and whilst the NAS can get out, other things can't get in.
+
+That's more secure.
+
+However, as I say, that also means the built in method for the Synology to get it's SSL certificate won't work.
+
+So I need to use 'DNS mode'. Rather than exposing the NAS to the web, the NAS writes to a DNS record to prove it has authority. Whilst [[https://certbot.eff.org/][Certbot]] is a more modern approach, I'm hooked on [[https://github.com/acmesh-official/acme.sh][acme.sh]] to do this.
+
+Over the years, I have used a lot of different approaches to using ~amce.sh~ on my Synology box. But I keep forgetting which approach I have used and have to start again. That's because I also use ~amce.sh~ for my Ubiquiti routers and switches, and for my certificates for OpenVPN.
+
+Anyway, this time I'm making a note of how I did.
+
+I followed [[https://lippertmarkus.com/2020/03/14/synology-le-dns-auto-renew/][Markus Lippert's recipe]].
+
+First, I download and installed the necessary programmes.
+
+#+BEGIN_SRC sh
+
+  wget -O /tmp/acme.sh.zip https://github.com/acmesh-official/acme.sh/archive/master.zip
+  sudo 7z x -o/usr/local/share /tmp/acme.sh.zip
+  sudo mv /usr/local/share/acme.sh-master/ /usr/local/share/acme.sh
+  sudo chown -R mycertadmin /usr/local/share/acme.sh/  # use your newly created admin user
+
+#+END_SRC
+
+Next, I did my initial fetch of a certificate.
+
+#+BEGIN_SRC sh
+  cd /usr/local/share/acme.sh
+  # set environment variables for your DNS provider and your used DNS API
+  export CF_Token='stuff'
+  export CF_Account_ID='more stuf'
+  export CF_Zone_ID='even more stuff'
+  ./acme.sh --issue -d "*.example.com" --dns dns_cf --home $PWD --server letsencrypt
+
+  # set deployment options, see https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-cert-into-synology-dsm
+  #export SYNO_Scheme="http"  # Can be set to HTTPS, defaults to HTTP
+  #export SYNO_Hostname="localhost"  # Specify if not using on localhost
+  #export SYNO_Port="5000"  # Port of DSM WebUI, defaults to 5000 for HTTP and 5001 for HTTPS
+  export SYNO_Username="mycertadmin"
+  export SYNO_Password="MyPassw0rd!"
+  export SYNO_Certificate="p3000"  # description text shown in Control Panel ➡ Security ➡ Certificate
+  export SYNO_Create=1  # create certificate if it doesn't exist
+  #export SYNO_DID=aSdF...  # device id to skip two-factor-authentication, see bonus section below for an explanation
+  ./acme.sh -d "*.example.com" --deploy --deploy-hook synology_dsm --home $PWD
+#+END_SRC
+
+It took me a while to get this step working as my password had a space in it, and the code in ~acme.sh~ didn't handle that well, and gave me few clues to the problem.
+
+
+The I set up a reoccurring task (using the Synology's task scheduler, not ~cron~) to run this code every month
+
+#+BEGIN_SRC sh
+  # Renew all certificates issued via acme.sh
+  /usr/local/share/acme.sh/acme.sh --cron --home /usr/local/share/acme.sh
+#+END_SRC
+
+Job done, I hope. We'll see when the task runs next month.
