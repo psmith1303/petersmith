@@ -1,0 +1,110 @@
+#+title: Typography
+#+slug: typography
+#+date: 2023-01-29T15:07:31+13:00
+#+lastmod: 2023-01-29T15:07:31+13:00
+#+categories[]: Administrivia
+#+tags[]: SiteInfo ToDo Example
+#+draft: true
+#+weight: 900
+
+Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+* Heading 1
+
+** Heading 2
+
+*** Heading 3
+
+**** Heading 4
+
+***** Heading 5
+
+****** Heading 6
+
+******* Heading 7
+
+******** Heading 8
+
+********* Heading 9
+
+------
+
+** Typography
+
+Lid est laborum et dolorum fuga, This is [[http://example.com/][an example]] inline link. Et harum quidem rerum facilis, *This is bold* and /emphasis/ cumque nihilse impedit quo minus id quod amets untra dolor amet sad. While this is ~code block()~ and following is a `pre` tag.
+
+: print 'this is pre tag'
+
+Following is the syntax highlighted code block
+
+#+BEGIN_SRC go
+
+func getCookie(name string, r interface{}) (*http.Cookie, error) {
+	rd := r.(*http.Request)
+	cookie, err := rd.Cookie(name)
+	if err != nil {
+		return nil, err
+	}
+	return cookie, nil
+}
+
+func setCookie(cookie *http.Cookie, w interface{}) error {
+	// comment
+	wr := w.(http.ResponseWriter)
+	http.SetCookie(wr, cookie)
+	return nil
+}
+#+END_SRC
+
+This is blockquote, Will make it *better now*
+
+#+BEGIN_QUOTE
+
+'I want to do with you what spring does with the cherry trees.' <cite>cited ~Pablo Neruda</cite>*
+
+Et harum quidem *rerum facilis* est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit
+
+#+END_QUOTE
+
+Unordered list
+
+* Red
+* Green
+* Blue
+
+Ordered list
+
+1. Red
+2. Green
+3. Blue
+
+------
+
+** A table
+
+| Date   | Item  | Description                         |
+|--------+-------+-------------------------------------|
+| 31 Jan | Cup   | A blue and white willow pattern cup |
+| 12 Mar | Plate | A pewter plate from about 1871      |
+
+** Images
+
+{{< figure src="photo-1560032779-0a8809186efd.jpg" title="Dave Herring" >}}
+
+{{< figure src="Coffee_cup_icon.svg" title="A coffee cup from Wikipedia" >}}
+
+** Github Gist
+
+{{< gist spf13 7896402 >}}
+
+** Youtube video
+
+{{< youtube w7Ft2ymGmfc >}}
+
+** Tweet
+
+{{< tweet 877500564405444608 >}}
+
+** Vimeo
+
+{{< vimeo id="146022717" >}}

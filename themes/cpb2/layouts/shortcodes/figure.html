@@ -12,7 +12,7 @@
    {{- else if .Get "caption" -}}
        {{- $alt = .Get "caption" -}}
    {{- else -}}
-     {{- $alt = $src.Title -}}
+     {{- $alt = $src -}}
    {{- end -}}
    {{- partial "img" (dict "img" $src "alt" $alt "photosize" 625) -}}
 

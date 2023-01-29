@@ -59,7 +59,7 @@ To incorporate the updates I have added two parts to my ~_default/single.html~ f
 
 #+END_SRC
 
-The first partial, ~-list-extra-content~ does what it says. It ranges over the pages resources looking for ~.org~ files and creates a list of what it finds.
+The first partial, ~list-extra-content.html~ does what it says. It ranges over the pages resources looking for ~.org~ files and creates a list of what it finds.
 
 #+BEGIN_SRC html
 
@@ -73,7 +73,7 @@ The first partial, ~-list-extra-content~ does what it says. It ranges over the p
 #+END_SRC
 
 
-The second partial, ~extra-content~ incorporates the content of the ~org~ files into the page.
+The second partial, ~extra-content.html~ incorporates the content of the ~org~ files into the page.
 
 #+BEGIN_SRC html
 
@@ -89,7 +89,7 @@ The second partial, ~extra-content~ incorporates the content of the ~org~ files 
 
 #+END_SRC
 
-Currently, the update file contains this type of content.
+Currently, update file, such as ~20221218-11020-update.org~, are structured like this:
 
 #+BEGIN_SRC
 #+title: Updated on 18 December 2022
@@ -101,5 +101,19 @@ I went through and changed all the titles in my existing figures to be captions.
 
 #+END_SRC
 
+I'm not sure I have the 'font matter' in these update files right yet, nor am I sure that the filenames I use for them are right.
 
-I have a vague, undeveloped notion, that at some stage I'd like to be able use this approach to incorporate webmentions into a page rather than my [[{{< ref "third-steps-to-indieweb" >}}][current approach]] of using a ~.JSON~ file.
+
+That's because, I have a vague, undeveloped notion, that at some stage I'd like to be able use this approach to incorporate webmentions into a page rather than my [[{{< ref "third-steps-to-indieweb" >}}][current approach]] of using a ~.JSON~ file. If I do that then, I can imagine I'd have a mixture of files such as:
+
+#+BEGIN_SRC
+
+  20230101-113159-update.org
+  20230105-231907-reply.org
+  20230112-104523-like.org
+  20230121-173512-update.org
+  ... and so on
+
+#+END_SRC
+
+Ultimately, maybe one day, at the bottom of the 'post' there will be all the updates, webmentions, backlink etc.
