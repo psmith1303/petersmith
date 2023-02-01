@@ -1,0 +1,11 @@
+#+title: My site in history
+#+date: 2023-01-31T09:18:54+13:00
+#+lastmod: 2023-01-31T09:18:54+13:00
+#+categories[]: Tech SiteInfo
+#+tags[]: Blogging
+
+So this is how my site has looked over the years.
+
+# more
+
+{{< gallery2 >}}

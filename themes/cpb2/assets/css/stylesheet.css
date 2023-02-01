@@ -150,7 +150,8 @@ section#article-meta div {
 }
 
 section#article-meta p {
-    margin: 0.1em;
+    padding: 0 1em;
+    margin: 0;
 }
 
 
@@ -261,11 +262,15 @@ article.summary  div.category-list  a {
 }
 
 /* This applies to the article.summary and the article-meta */
-div.tag-list,
-div.category-list {
+.tag-list,
+.category-list {
     display: inline-block;
+    padding-top: 0;
 }
 
+ul.categories-and-tags  li:first-child {
+    padding-left: 1em;
+}
 
 div.article-content > a > h1{
     color: black;
@@ -522,7 +527,7 @@ img {
 
 figure {
     margin: 0;
-    text-align: center;
+    align: center;
 }
 
 /****************************************
@@ -567,6 +572,7 @@ ul.breadcrumbs {
     list-style: none;
     color: black;
     font-weight: 600;
+    margin-top: 0;
 }
 
 ul.breadcrumbs li {
@@ -591,9 +597,9 @@ ul.breadcrumbs li a:hover {
 ul#likes,
 ul.horizontal  {
     display: inline;
-    padding-left: 0;
     margin-bottom: 0;
     margin-top: 0;
+    padding-left: 0;
 }
 
 ul#likes > li,

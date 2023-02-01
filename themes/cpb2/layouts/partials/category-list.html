@@ -1,13 +1,11 @@
 {{"<!-- partials/category-list.html -->" | safeHTML }}
-<div class="category-list">
-  {{ partial "svg" "cardlist" }}
-  <ul class="horizontal">
-    {{- with .Params.categories -}}
-    {{- range . -}}
-    {{- $href := print (absURL "categories/") (urlize .) -}}
-    <li><a  href="{{ $href }}">{{ upper . }}</a></li>
-    {{- end -}}
-    {{- end -}}
-    <li><a  href="/categories">ALL</a></li>
-  </ul>
-</div>
+{{ partial "svg" "cardlist" }}
+<ul class="horizontal category-list">
+  {{- with .Params.categories -}}
+  {{- range . -}}
+  {{- $href := print (absURL "categories/") (urlize .) -}}
+  <li><a  href="{{ $href }}">{{ upper . }}</a></li>
+  {{- end -}}
+  {{- end -}}
+  <li><a  href="/categories">ALL</a></li>
+</ul>
