@@ -152,6 +152,22 @@ C. The next 40 percentile group forms tier C and is considered to be well regard
 D. The remaining 25% of the ranked journals constitute tier D.
 
 The analysis by Currie and Pandher, suggests where active scholars in management learning believe the important debates are happing. Yet, this result stands in contracts to the assessments of research quality made by the Australian Business-school Deans' Committee (ABDC). This 'discrepancy' is of concern; given the current climate can one afford to work on topics that they are passionate about but that can only be published in niche or unranked journals?
+*** General comments
+These comments apply to much of the writing we do for journals; if not for all of the,
+1. Write clearly and simply; don't write to sound clever.
+2. Focus on explanatory language (explaining stuff) rather than declarative language (telling stuff).
+3. If you have a problem in the third act, the real problem is in the second act (Billy Wilder).
+   - Act 1: Establish what the field knows about the subject (what's relevant)
+   - Act 2: Report what you did, and how you did it (to answer the research questions)
+   - Act 3: Explain how you understand things differently now in the light of your findings.
+4. Avoid desk rejects
+   - Submit papers on a topic the journal publishes papers.
+   - Not just a contribution, but a significant contribution
+   - Length: Contribution ratio
+   - Underdeveloped manuscripts
+   - Is it relevant to the journal's readers?
+   - Have you properly explained your method?
+
 
 * References
 Beatty, J. E., & Leigh, J. S. A. (2010). Taking stock of management education: a comparison of three management education journals, /Journal of Management Education, 34/(3), 367-392
