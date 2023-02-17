@@ -1,0 +1,9 @@
+#+title: In reply to https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/
+#+slug: reply-202320230217-134119
+#+date: 2023-02-17T13:41:19+13:00
+#+replyURL: https://boffosocko.com/2022/06/10/reframing-and-simplifying-the-idea-of-how-to-keep-a-zettelkasten/
+#+categories[]: Social
+#+tags[]: Indieweb Zettelkasten
+#+wm_type: reply
+
+Thanks for the recommendation Chris. I've been pondering it for a while now; basically putting off doing anything. Then I came across [[https://zettelkasten.de/posts/how-many-zettelkasten/][this post on how many zettlekasten]]. I think you and the post have pushed me over the edge, and I'll start the process of 'collapsing' my separate Zettelkasten into my commonplace book.
