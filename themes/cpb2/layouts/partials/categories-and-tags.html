@@ -3,17 +3,17 @@
   {{- with .Params.categories -}}
       {{- range . -}}
           {{- $href := print (absURL "categories/") (urlize .) -}}
-          <li><a  href="{{ $href }}">{{ upper . }}</a></li>
+          <li><a  href="{{ $href }}" class="category">{{ upper . }}</a></li>
       {{- end -}}
   {{- end -}}
-  <li><a  href="/categories">ALL</a></li>
+  <li><a  href="/categories" class="category">ALL</a></li>
   {{- with .Params.tags -}}
       {{- range . -}}
           {{- $href := print (absURL "tags/") (urlize .) -}}
-          <li><a class="p-category" href="{{ $href }}">{{ . }}</a></li>
+          <li><a class="p-category tag" href="{{ $href }}">{{ . }}</a></li>
       {{- end -}}
   {{- end -}}
   {{- if ne ($.Scratch.Get "compact") true -}}
-      <li><a  href="/tags">All</a></li>
+      <li><a  class="tag" href="/tags" >All</a></li>
   {{- end -}}
 </ul>

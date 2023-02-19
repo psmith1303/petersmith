@@ -760,3 +760,21 @@ figcaption {
     font-weight: 600;
     color: grey;
 }
+
+
+a.tag {
+    background-color: #EEF; /* Set the background color */
+    border-radius: 5px;     /* Add some roundness */
+    border: 1px #CCF solid; /* Add a border */
+    padding: 2px 5px;
+    display: inline;
+}
+
+a.category {
+    background-color: grey; /* Set the background color */
+    border-radius: 5px;     /* Add some roundness */
+    border: 1px #CCF solid; /* Add a border */
+    padding: 2px 5px;
+    display: inline;
+    color: white;
+}
