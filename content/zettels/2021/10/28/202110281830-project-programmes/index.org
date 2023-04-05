@@ -1,0 +1,26 @@
+#+title: Project programmes
+#+date: 2021-10-28T18:30:00+1300
+#+lastmod: 2021-10-28T18:30:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+* Project: One single-focused endeavour
+A project manager oversees individual projects and has short-term, concrete deliverables.
+
+The project manager is tasked with continuously improving their assigned project
+
+* Programme: A collection of projects
+A programme manager supervises groups of projects and even other project managers.
+
+This program manager is tasked with continuously improving their assigned collection of projects.
+
+When a project is 'over' if it needs to keep going, it morphs into a programme.
+
+
+* Portfolio: A collection of projects and programmes across the whole organization
+A portfolio manager supervises a grouping of projects and programs and provides centralized management to them.
+
+This portfolio manager is tasked with continuously improving their assigned collection of projects and programs.
+
+* Backlinks
+- [[{{< ref "202109121934-project-phase-execution" >}}][Project phase - execution]]

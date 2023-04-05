@@ -1,0 +1,33 @@
+#+title: Permanent notes
+#+date: 2023-02-21T15:33:37+13:00
+#+lastmod: 2023-02-21T15:33:37+13:00
+#+categories[]: Zettels
+#+tags[]: Zettelkasten Notetaking
+
+The ideas that seem useful should become permanent notes. They are the 'meat' of the [[{{< ref "202302201536-zettelkasten" >}}][Zettelkasten method]], but the secret sauce is [[{{< ref "202302211548-linking-notes" >}}][linking notes]] together.
+
+Each time a new permanent note is added to the Zettelkasten, it's necessary to:
+
+1. Think how this is relevant/interesting to what I am doing
+2. How does this new information:
+  - Contradict
+  - Correct
+  - Support
+  - Add
+  - Develop/extend
+  the existing ideas in the Zettelkasten?
+
+3. Does it allow the combination of existing ideas?
+4. Does it create new questions?
+5. Does it reveal gaps in my knowledge base?
+6. What does it make me want to explore further
+
+Each permanent note should represent a single ideas. This is sometime referred to as /atomicity/.
+
+The note should be written as if someone else was going to read it. In other words, no shorthand abbreviations. They should be written as full sentences. This is important, as it may be many years before you return to a note, and what seems obvious and top of mind may elude you completely.
+
+Finally, always include the source of the idea and make all the links that are needed (see point 2 above).
+
+******** Source
+- [[https://zk.zettel.page/types-of-notes][PKM Zettelkasten: Types of notes]]
+

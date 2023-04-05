@@ -1,0 +1,41 @@
+#+title: Project budgets - creation
+#+date: 2021-10-10T09:40:00+1300
+#+lastmod: 2021-10-10T09:40:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+The main approaches are: historical data, leverage experts, bottom-up, confirm accuracy, and baseline.
+
+* Historical data
+Review past projects
+
+* Leverage experts
+Talking to PMs who have done similar work.
+
+* Bottom-up
+:PROPERTIES:
+:ID:       0470e52b-a6ab-4585-b4df-c8892b165f5e
+:END:
+List everything and get quotes
+- Break project into tasks
+- Estimate the cost of each item, including:
+  - fixed costs
+  - material costs
+  - travel expenses
+  - meals
+  - buffers (usually 5%)
+- Add the estimates together
+- Add contingency and /tax/
+- Seek approval from key stakeholders
+
+* Confirm accuracy
+
+
+* Baseline
+The dollar amount used to track if you are on-track with the budget
+
+
+
+* Backlinks
+- [[{{< ref "202110091614-project-budgets" >}}][Project budgets]]
+

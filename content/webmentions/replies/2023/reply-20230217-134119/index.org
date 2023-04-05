@@ -6,4 +6,4 @@
 #+tags[]: Indieweb Zettelkasten
 #+wm_type: reply
 
-Thanks for the recommendation Chris. I've been pondering it for a while now; basically putting off doing anything. Then I came across [[https://zettelkasten.de/posts/how-many-zettelkasten/][this post on how many zettlekasten]]. I think you and the post have pushed me over the edge, and I'll start the process of 'collapsing' my separate Zettelkasten into my commonplace book.
+Thanks for the recommendation Chris. I've been pondering it for a while now; basically putting off doing anything. Then I came across [[https://zettelkasten.de/posts/how-many-zettelkasten/][this post on how many zettelkasten]]. I think you and the post have pushed me over the edge, and I'll start the process of 'collapsing' my separate Zettelkästen into my commonplace book.

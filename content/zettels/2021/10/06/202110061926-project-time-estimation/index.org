@@ -1,0 +1,51 @@
+#+title: Project time estimation
+#+date: 2021-10-06T19:26:00+1300
+#+lastmod: 2021-10-06T19:26:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Time estimation is a predication of the total amount of time required to complete a task (how much time needs to pass -- might include necessary idle time or transportation time).
+
+Effort estimation is a predication of the amount a difficulty of active work required to complete a task (how much work has to be done)
+
+If there is idle time baked into to a time estimate (i.e., the time estimate is more than the effort estimate) the resources can be redeployed for the difference in time.
+
+Too much optimism can lead you to overlook potential risks that could set your plans behind schedule.
+
+To reduce the chances of overly optimistic assumptions, you should communicate with team-mates assigned to each task and get their input -- they will have the most realistic estimates.
+
+It is necessary to assess all sub-tasks of the task being estimated.
+
+Add a /buffer/ to estimates to accommodate (some)
+- Task buffers are used for tasks outside the team's control
+- Task buffers should be used sparingly for tasks within the team's control
+- Project buffers add extra time across the whole project
+
+* Capacity
+The amount of work that the people or resources assigned to a project can reasonably complete in a set period of time.
+
+* Capacity planning
+The act of allocating people and resources to project tasks, and determining whether or not you have the sufficient resources to complete the work on time.
+
+* The critical path
+:PROPERTIES:
+:ID:       39b99424-4058-40d8-9567-a4c3010247dc
+:END:
+The list of project milestones you much reach in order to meet the project goal on schedule, as well as the mandatory tasks that contribute to the completion of each milestone.
+
+The critical path comprises the bare minimum number of tasks and milestones you need to reach your product goal.
+
+Using the WBS ([[{{< ref "202110031257-project-work-breakdown-structure" >}}][work breakdown structure]]) with its sequenced hierarchy of tasks, assess the dependency, and the time estimates (with the team) of each task.
+- Identify the tasks that can happen in parallel
+- Identify the tasks that must happen sequentially
+- Identify the tasks that have a fixed start date
+- Identify the tasks that have an earliest start date
+- Identify if a task has /float/ (aka slack) -- the amount of wiggle room a task has
+
+How to do a critical path [[{{< ref "202110071950-project-creating-a-critical-path" >}}][Project - Creating a critical path]]
+
+
+* Backlinks
+- [[{{< ref "202110040711-project-plans" >}}][Project plans]]
+- [[{{< ref "202109121932-project-phase-planning" >}}][Project phase - planning]]
+

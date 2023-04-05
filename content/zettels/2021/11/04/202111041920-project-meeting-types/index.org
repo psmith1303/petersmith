@@ -1,0 +1,37 @@
+#+title: Project meeting types
+#+date: 2021-11-04T19:20:00+1300
+#+lastmod: 2021-11-04T19:20:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+* Project kick-off meeting
+The official beginning of a project, and servers as a way to align the team's understanding of the project goals with actual plans and procedures.
+- Members of the project team
+- SMT
+
+* Status update meeting
+This category includes regular team meetings where the primary goal is to align the team on updates, progress, challenges, and next steps. Includes: Project performance reports
+- Task updates
+- Schedule status
+- Budget status
+- Current or anticipated issues
+- Action items (owner and due date)
+
+Fixed agenda and times
+
+* Stakeholder meeting (topics)
+The goal of a stakeholder meeting is to get buy-in and support
+- Present a brief project update (2-5 minutes)
+- Seek and listen to feedback
+- Make a decision or resolve a major issue
+
+* Retrospective
+:PROPERTIES:
+:ID:       2e3824bb-5556-403b-96a6-f3875ab87979
+:END:
+- Lessons learned - what worked
+- Lessons learned - what to improve
+- Celebrate success
+
+* Backlinks
+- [[{{< ref "202111041851-project-communication" >}}][Project communication]]

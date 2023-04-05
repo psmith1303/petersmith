@@ -1,0 +1,13 @@
+#+title: Criticisms of capstone courses
+#+date: 2023-02-22T07:10:54+13:00
+#+lastmod: 2023-02-22T07:10:54+13:00
+#+categories[]: Zettels
+#+tags[]: Teaching MBA
+
+Capstone courses are not without their critics; famously by Mintzberg.
+
+#+BEGIN_QUOTE
+
+Mintzberg, H. (2003). /Managers not MBAs: A hard look at the soft practice of managing and management development/. Berren-Kochler.
+
+#+END_QUOTE

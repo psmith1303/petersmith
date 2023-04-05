@@ -1,0 +1,57 @@
+#+title: Scrum - Sprint Retrospective
+#+date: 2021-10-03T09:32:00+1300
+#+lastmod: 2021-10-03T09:32:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+An essential meeting of up to 3 hours for the Scrum Team to take a step back, reflect, and identify improvements about how to work as a team.
+
+1. What's working or not working for the team regarding the people, processes, and the tools
+2. What improvements are worth exploring in the next Sprint
+3. What improvements were put in place in for the last Sprint? Where they helpful or not? Why?
+
+To do this, need to demonstrate respect:
+- *Blamelessness*: Create a safe space for candour by acknowledging potential awkwardness and if needed create a space for anonymous of private feedback.
+- *Participation*: Retrospectives only work if participants feel that their input matters
+- *Balance the negatives with the positives*: Don't just ask where you can improve, but also ask, "Where did we see success?"
+- *Act on it*: Search for improvements or simply convert the things that worked best into your teams habits and norms.
+
+* Pitfalls
+:PROPERTIES:
+:ID:       a496b2ca-c0f7-420b-951d-2489dcc9cd9e
+:END:
+
+- Avoid too many gimmicks.
+  There are many fun games and exercises that can be used by a Scrum Master when facilitating a Sprint Retrospective. However, not all teams enjoy this style. Consider using these exercises only occasionally or when the team asks for new ways of doing retrospectives.
+
+- Try not to only focus on the negative.
+  Not only is it necessary for the team to recognize what’s not working well, it is also important to highlight where they exceeded expectations. This ensures that the team both avoids failures and repeats successes as well.
+
+- Avoid changing processes after each retrospective.
+  It is okay to keep a new process in place for a few Sprints before deciding whether it was useful or not. You can always make note of opportunities for change, but try to wait a few Sprints before implementing new changes.
+
+* Best practices
+
+- Ask open-ended, probing questions.
+  Ask questions that require thoughtful discussion rather than a yes-or-no answer. For example, ask, "How could we have better achieved our Sprint Goal?" rather than "Did we achieve the Sprint Goal?"
+
+- Consider diverse styles of communication and participation.
+  Make it easy for all team members to contribute their ideas and feedback. For example, not everyone feels comfortable speaking up in a large group. Try things like starting the retrospective with silent reflection by journalling or putting the team into pairs before starting a larger group conversation.
+
+- Cover the many aspects of the Sprint when conducting a retrospective.
+
+  1. The productivity and efficiency of the team
+
+  2. The scope and understanding of the definition of done
+
+  3. Communication and interactions within the team
+
+  4. Stakeholder communication
+
+  5. Progress towards more long-range release plans
+
+- Consider reflecting periodically on Scrum theory and values by asking specific questions.
+  For example, ask, “How could the team become more transparent?” or “How did we abide by our Scrum values in this Sprint?”
+
+* Backlinks
+- [[{{< ref "202110021152-scrum-sprints" >}}][Scrum - Sprints]]

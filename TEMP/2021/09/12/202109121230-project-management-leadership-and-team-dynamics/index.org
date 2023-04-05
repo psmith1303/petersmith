@@ -1,0 +1,28 @@
+#+title: Project management leadership and team dynamics
+#+date: 2021-09-12T12:30:00+1300
+#+lastmod: 2021-09-12T12:30:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+* Influencing without authority
+
+A project manager's ability to guide team members to complete their assigned work /without/ acting as their direct managers.
+
+Without that authority, this has to be achieved through interpersonal skills.
+
+* Key interpersonal skills
+- Communication
+  In the context of leading a team, communication can include checking in with teammates to understand how they're progressing on a task and providing clear feedback on the quality of a teammate's work
+
+- Negotiation
+  Need to use negotiation skills often with your teammates and stakeholders to balance their needs and what is best for the project.
+
+- Conflict mediation
+  Project plans can change and issues will arise. This can sometimes lead to tension and conflict within the team. Conflict mediation is a great skill to practice and develop to ensure the project does not suffer as a result.
+
+- Understanding motivations
+  This means getting to know your team members and figuring out what pushes them to do their best work. Understanding motivations might also include learning how your teammates prefer to receive feedback, and how they like to receive recognition for doing a great job.
+
+* Backlinks
+- [[{{< ref "202109111201-project-managers" >}}][Project managers]]
+- [[{{< ref "202109120921-project-manager-responsibilities" >}}][Project manager responsibilities]]

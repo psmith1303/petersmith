@@ -1,0 +1,27 @@
+#+title: The Zettelkasten method
+#+date: 2023-02-20T15:36:55+13:00
+#+lastmod: 2023-02-20T15:36:55+13:00
+#+categories[]: Zettels
+#+tags[]: Productivity Notetaking
+
+The Zettelkasten method helps one collect and organize their thoughts, ideas, and information in a structured or categorical way. Following the steps and technique allows one to build upon existing knowledge and create a knowledge archive of information in a pseudo-replica of how your brains work.
+
+Zettelkasten method is based on four main types of notes:
+
+- [[{{< ref "202302211526-fleeting-notes" >}}][Fleeting notes]]
+- [[{{< ref "202302211537-literature-notes" >}}][Literature notes]]
+- [[{{< ref "202302211533-permanent-notes" >}}][Permanent notes]]
+- [[{{< ref "202302211607-index-notes" >}}][Index or structure notes]]
+
+
+Each note has a distinct objective and serves a specific function.
+
+The two important things are:
+
+1. [[{{< ref "202302211548-linking-notes" >}}][Linking the notes together]], and
+2. Using the information
+
+
+* Reference
+- [[https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/][A beginner's guide to the zettelkasten method]]
+- [[https://zk.zettel.page/types-of-notes][PKM Zettelkasten: Types of notes]]

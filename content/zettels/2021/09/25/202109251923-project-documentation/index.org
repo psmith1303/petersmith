@@ -1,0 +1,15 @@
+#+title: Project documentation
+#+date: 2021-09-25T19:23:00+1300
+#+lastmod: 2021-09-25T19:23:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Documentation
+
+Clear and consistent documentation can ensure transparency and clear communication.
+
+1. Project proposal
+2. Project charter
+
+
+* Backlinks
+- [[{{< ref "202109251921-project-proposals" >}}][Project proposals]]
+- [[{{< ref "202109251908-project-charter" >}}][Project charter]]

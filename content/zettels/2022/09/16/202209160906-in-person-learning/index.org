@@ -1,0 +1,7 @@
+#+title: In-person learning
+#+date: 2022-09-16T09:06:00+1300
+#+lastmod: 2022-09-16T09:06:00+1300
+#+categories[]: Zettels
+#+tags[]: Learning
+
+'In-person' means "all instruction takes place in an in-person setting".

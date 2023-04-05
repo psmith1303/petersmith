@@ -1,0 +1,21 @@
+#+title: Project documentation
+!#+date: 2021-10-17T15:54:00+1300
+#+lastmod: 2021-10-17T15:54:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_mananagement Documentation
+
+Document storage and sharing is very important.
+
+Having plans in one place make communication quicker, easier, and more streamlined.
+
+Documenting and organizing plans provides viability and accountability
+
+Documentation provides for continuity.
+
+This all part of knowledge management --- a way of ensuring that project data can be accessed in the future by others who need it for informing decisions or planning similar projects.
+
+
+
+
+* Backlinks
+- [[{{< ref "202109121932-project-phase-planning" >}}][Project phase - planning]]

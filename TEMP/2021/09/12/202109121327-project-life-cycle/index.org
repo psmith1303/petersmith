@@ -1,0 +1,46 @@
+#+title: Project life cycle
+#+date: 2021-09-12T13:27:00+1300
+#+lastmod: 2021-09-12T13:27:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+There are four main phases to any project: initiation, planning, execute, and closing.
+
+1. Initiate the project
+   - define project goals and deliverables,
+   - identify the budget and resources you'll need,
+   - the people involved in your project,
+   - and any other details that can impact the successful completion of your project.
+
+   Document all this information in the /project proposal/ to showcase the *project's value*, and hopefully then get approval to move forward with it.
+
+2. Make a plan --- how to meet the goals of the project:
+   - create a budget,
+   - make a schedule (a breakdown of all the tasks that you need to be completed)
+   - establish the team
+   - plan for risk and change (what to do in case your project encounters problems or needs to change)
+   - communicate team roles and responsibilities (and resources)
+
+3. Execute and complete tasks
+   Remember: your project team has the job of completing the project tasks. You might be in charge of completing certain tasks in the project,but your primary tasks as the project manager.
+   - manage the process (monitor progress)
+   - communicate, and keep your team motivated
+   - make adjustments (and communicated)
+   - remove any obstacles that might come up, so that the tasks are executed well and on time.
+
+4. Closing
+   - Ensure all tasks have been completed (e.g., all invoices are paid)
+   - Confirm acceptance of the project outcome
+   - Reflect on what went well (a retrospective or hot wash)
+     A retrospect is a change to note best practices and learn how to manage a project more effectively next time. The notes from the retrospective are valuable to the organisation as they can use it to inform decisions next time the do a project
+   - Communicate results with stakeholders (collect all the project documentation together).
+   - Celebrate with the team the results of their hard work
+   - Formally move on from the project
+
+   notes:
+   - connect with anyone outside your team who may have had interest in the project's goal.
+   - let everyone know what was completed and what you accomplished.
+
+* Backlinks
+- [[{{< ref "202109111145-project-management" >}}][Project management]]
+

@@ -1,0 +1,28 @@
+#+title: The 5 values of Scrum
+#+date: 2021-09-28T19:52:00+1300
+#+lastmod: 2021-09-28T19:52:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Scrum
+
+The values are commitment, courage, focus, openness, and respect.
+
+** Commitment
+Personally committing to achieving the goals of the Scrum Team
+
+** Courage
+The Scrum Team member must have the courage to do the right thing and work on tough problems
+
+** Focus
+Everyone focusing on the work of the Sprint and the overall goals of the Scrum Team
+
+** Openness
+The Scrum Team and its stakeholders agree to be open about all of the work and the challenges with performing the work
+
+** Respect
+Team members should respect the opinions, skill, and independence of their team mates
+
+The three pillars enable and support the five values of Scrum
+
+* Backlinks
+-[[{{< ref "202109131858-scrum" >}}][ Scrum]]
+- [[{{< ref "202109281944-the-three-pillars-of-scrum" >}}][The three pillars of Scrum]]

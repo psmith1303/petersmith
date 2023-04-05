@@ -1,0 +1,17 @@
+#+title: Project proposals
+#+date: 2021-09-25T19:21:00+1300
+#+lastmod: 2021-09-25T19:21:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+A project proposal that persuades stakeholders that a project should begin.
+
+Typically created by a senior manager
+
+The proposal kicks off the initiation phase by influencing and persuading the company to move forward with the project.
+
+For Academic projects this could be the CUAP paperwork.
+
+* Backlinks
+- [[{{< ref "202109121929-project-phase-initiation" >}}][Project phase - initiation]]
+

@@ -1,0 +1,39 @@
+#+title: Asana
+!#+date: 2021-09-26T12:05:00+1300
+#+lastmod: 2021-09-26T12:05:00+1300
+#+categories[]: Zettels
+#+tags[]: Project_management Tools Asana
+
+
+* Description/Benefits
+- Map out each step and organize all the details of your work in one place.
+- See where work stands in a flash, identify next steps, and quickly take action to stay on track.
+- Use Timeline to create a plan that shows you how the pieces of your project fit together, and helps you keep work on track as things change.
+- Get real-time insight into the state of your team’s work. Gauge progress across projects. Troubleshoot problems instantly. And keep work on trackall in one place.
+- Don’t waste time on tedious manual tasks. Let Automation do it for you. Simplify workflows, reduce errors, and save time for solving more important problems.
+- Create a standard work intake process with Forms. Make it easy for others to request work, and get the details your team needs upfront.
+
+
+* Link to product website
+https://asana.com/
+
+* Link to course content in Coursera
+- [[{{< ref "202109251912-project-tools" >}}][Project tools]]
+
+
+* Cost to use
+- Basic AU $0
+- Premium AU $15/month
+- Business AU$34/month
+
+
+* Requirements (training/equipment)
+
+* Current experience with the tool
+None
+
+*  Notes
+
+
+* Backlinks
+- [[{{< ref "202109251912-project-tools" >}}][Project tools]]

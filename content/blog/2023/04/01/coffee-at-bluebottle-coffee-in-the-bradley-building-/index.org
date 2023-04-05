@@ -1,0 +1,12 @@
+#+title: Coffee at Bluebottle Coffee in the Bradley Building. 
+#+date: 2023-04-01T10:30:59-0700
+#+lastmod: 2023-04-01T10:30:59-0700
+#+categories[]: Check-ins
+#+tags[]:  Coffee
+
+Famous for Bladerunner
+
+# more
+{{< gallery2 >}}
+
+

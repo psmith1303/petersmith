@@ -1,0 +1,25 @@
+#+title: Project risk and changes
+#+date: 2021-10-25T19:00:00+1300
+#+lastmod: 2021-10-25T19:00:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Change is anything that alters or impacts the tasks, structures, or processes with a project.
+
+Sometimes, change can have a positive effect --- but that is rare.
+
+Types of changes:
+- New or changing dependencies
+- Changing priorities
+- Capacity and people
+- Limitations on budgets or resources
+- Scope creep
+- Force majeure
+
+Changes should be measured against the baseline estimates of scope, budget, and time allotted for your project, given the original requirements.
+
+Organisationally, changes may require a *change request form*
+
+
+* Backlinks
+- [[{{< ref "202110171207-project-risk-management" >}}][Project risk management]]

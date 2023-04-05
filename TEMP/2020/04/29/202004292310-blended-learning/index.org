@@ -1,0 +1,36 @@
+#+title: Blended learning
+#+date: 2020-04-29T23:10:00+1300
+#+lastmod: 2020-04-29T23:10:00+1300
+#+categories[]: Zettels
+#+tags[]: Teaching
+
+There are three main notions of blended learning:
+
+1. Using a combination of "instructional modalities" or delivery media
+2. Combining instructional methods
+3. /Combining online and face-to-face instruction/
+
+The first two types of learning are so broad as to cover pretty much all forms of teaching.
+
+Overall, blended learning means using the two (different) learning environments of online and face-to-face. This can be seen as having four dimensions:
+
+| Dimension   |                                        |                           |                             |
+|-------------+----------------------------------------+---------------------------+-----------------------------|
+| /Space/     | Live (physical/face-to-face)           | Mixed reality             | Virtual (distributed)       |
+| /Time/      | Live synchronos (very short  lag time) |                           | Asychronous (long lag time) |
+| /Fidelity/  | High (rich, all senses)                | Medium (e.g., audio only) | Low (text only)             |
+| /Humanness/ | High human/ No machine                 |                           | No human/ High machine      |
+
+
+However, there are other ways of thinking about blended learning \autocite{cleveland-innes_2018_GuideBlendedLearning}
+
+Blended learning can also be where there are synchronous and asynchronous components, regardless of how they are delivered. For example, there may be synchronous on-line tutorials or problem clinics, and asynchronous discussion boards. This mode is sometimes called the 'fully online' mode of blended learning.
+
+
+* Backlinks
+  - [[{{< ref "202004292320-dimensions-of-blended-learning" >}}][Dimensions of blended learning - Laurillard]]
+
+
+* References
+Bonk, C. J., Graham, C. R., Cross, J., & Moore, M. G. (2005). /The handbook of blended learning: Global perspectives, local designs/. Center for Creative Leadership.
+http://ebookcentral.proquest.com/lib/auckland/detail.action?docID=700321

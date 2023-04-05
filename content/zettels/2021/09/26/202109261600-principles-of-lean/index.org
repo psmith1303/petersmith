@@ -1,0 +1,25 @@
+#+title: Principles of Lean
+#+date: 2021-09-26T16:00:00+1300
+#+lastmod: 2021-09-26T16:00:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Lean Principles
+
+1. Define value
+   identify and focus on what the customer wants and include the customer.
+
+2. Map value stream
+   Map out the steps to production and challenge all the wasted steps.
+
+3. Create flow
+   Ensure that the product flows through the value stream efficiently, eliminating wast throughout the cycle.
+
+4. Establish pull
+   Ensure that the customer is "pulling" on the product through this stream by asking for features and incremental deliveries.
+
+5. Pursue perfection
+   Push the team to continuously improve the first four process steps.
+
+
+* Backlinks
+- [[{{< ref "202109141911-lean" >}}][Lean]]
+- [[{{< ref "202109131850-agile-project-management" >}}][Agile project management]]

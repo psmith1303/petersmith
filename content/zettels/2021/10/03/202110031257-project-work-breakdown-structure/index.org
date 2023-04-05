@@ -1,0 +1,53 @@
+#+title: Project work breakdown structure
+#+date: 2021-10-03T12:57:00+1300
+#+lastmod: 2021-10-03T12:57:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+A work breakdown structure (or WBS) is a tool that sorts the milestones and tasks of a project in a hierarchy, in the order they need to be completed.
+
+I's a hierarchical chart :)
+
+{{< figure src="WBS.jpg" >}}
+
+- You should have a set of discrete project tasks that ladder up to each of your milestones
+- You are now in a position to assign those task to members of the project team
+
+* Steps to build a WBS
+
+As a reminder, here are three main steps to follow when creating a WBS:
+
+- Start with the high-level, overarching project picture. Brainstorm with your team to list the major deliverables and milestones. Example: Imagine you are planning a company event. Your major milestones might include categories like "secure venue",  "finalize guest logistics", and "establish agenda."
+
+- Identify the tasks that need to be performed in order to meet those milestones. Example: You could break a milestone like “secure venue” down into tasks like “research venues,” “tour and decorate space,” “make down payment,” and so on.
+
+ - Examine those tasks and break them down further into sub-tasks. Example: You could break down a task like "tour and decorate space" further into sub-tasks like "organize decorating committee," "purchase decorations," "assign decorating responsibilities," and so on.
+
+* Task assignment
+- Normally done based on a person's role in the project
+- To assign task between two or more team members with the same roles, take into consideration /each person's familiarity with the task at hand/
+- Take into account each person's workload (e.g., their work in the project, versus the other work they have to do)
+- Ensure teammate are clear on their assigned task
+- Ensure that due dates are clear.
+-
+
+It's good practice to begin the name of a task with a verb.
+
+* Benefits of assigning tasks
+1. It creates ownership
+
+* Tips for making a work breakdown structure
+
+As you make a work breakdown structure, use the following rules for best results:
+
+- The 100% rule. The work represented by your WBS must include 100% of the work necessary to complete the overarching goal without including any extraneous or unrelated work. Also,  child tasks on any level must account for all of the work necessary to complete the parent task.
+- Mutually exclusive. Do not include a sub-task twice or account for any amount of work twice. Doing so would violate the 100% rule and will result in miscalculations as you try to determine the resources necessary to complete a project.
+- Outcomes, not actions. Remember to focus on deliverables and outcomes rather than actions. For example, if you were building a bike, a deliverable might be “the braking system” while actions would include "calibrate the brake pads".
+- The 8/80 rule. There are several ways to decide when a work package is small enough without being too small. This rule is one of the most common suggestionsa work package should take no less than eight hours of effort, but no more than 80. Other rules suggest no more than ten days (which is the same as 80 hours if you work full time) or no more than a standard reporting period. In other words, if you report on your work every month, a work package should take no more than a month to complete. When in doubt, apply the "if it makes sense" rule and use your best judgement.
+- Three levels. Generally speaking, a WBS should include about three levels of detail. Some branches of the WBS will be more subdivided than others, but if most branches have about three levels, the scope of your project and the level of detail in your WBS are about right.
+-  Make assignments. Every work package should be assigned to a specific team or individual. If you have made your WBS well, there will be no work overlap so responsibilities will be clear.
+
+* Backlinks
+- [[{{< ref "202110031202-project-milestones" >}}][Project milestones]]
+- [[{{< ref "202109121932-project-phase-planning" >}}][Project phase - planning]]
+

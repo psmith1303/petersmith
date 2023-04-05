@@ -1,0 +1,39 @@
+#+title: Agile project management
+#+date: 2021-09-13T18:50:00+1300
+#+lastmod: 2021-09-13T18:50:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Agile
+
+Agile project management is one of the most popular [[{{< ref "202109121956-project-management-methodology" >}}][project management methodologies]]. The term agile means being
+able to move quickly and easily. It also refers to flexibility, which means being willing and able to change and adapt.
+
+- Agile emerged in 1990s in reponse to a need for faster (software) projects.
+
+- Was named 'agile' in 2001. See: [[{{< ref "202009042320-agile-development-manifesto-values" >}}][Agile values]] and [[{{< ref "202009042310-agile-development-manifesto-principles" >}}][Agile principles]]
+
+- Agile projects see multiple tasks overlapping and even being worked on at the same time; thus, it is an [[{{< ref "202109121956-project-management-methodology" >}}][iterative]] approach to project management. It's like a lot of mini-waterfalls.
+
+- In the [[{{< ref "202109131858-scrum" >}}][Scrum]] variation/flavour of agile, phases of the project are called 'sprints'.
+
+- An agile project still follow the normal project life cycle of [[{{< ref "202109121327-project-life-cycle" >}}][initiating, planning, executing, and closing]].
+
+* Overall ...
+... the focus of agile is on pleasing the customer rather than a focus on planning and documenting projects.
+
+* Mindset
+Importantly, an agile approach is mindset more than just a series of steps or phases. It's concerned with building an effective, collaborative team that seeks regular feedback from the client so that they can deliver the best value as quickly as possible and adjust as changes emerge.
+
+* Why use an agile approach?
+Projects that are best suited for an Agile approach are those where the client has an idea of what they want but doesn't have a concrete picture in mind, or they have a set of qualities they'd like to see in the end result, but aren't as concerned with exactly what it looks like.
+
+Another indicator that a project may benefit from Agile is the level of high uncertainty and risk involved with the project.
+
+* Summary
+Agile involves short phases of collaborative, iterative work with frequent testing and regularly-implemented improvements. Some phases and tasks happen at the same time as others. In Agile projects, teams share responsibility for managing their own work. Scrum and Kanban are examples of Agile frameworks, which are specific development approaches based on the Agile philosophy.
+
+
+* Backlinks
+- 
+- [[{{< ref "202109131858-scrum" >}}][Scrum]]
+- [[{{< ref "202109141901-kanban" >}}][Kaban]]
+

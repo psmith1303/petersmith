@@ -1,0 +1,38 @@
+#+title: Coleman's boat
+#+date: 2020-04-30T23:00:00+1300
+#+lastmod: 2020-04-30T23:00:00+1300
+#+categories[]: Zettels 
+#+tags[]: Theory Micro Macro
+
+#+BEGIN_QUOTE
+
+Raub, W., Buskens, V., & van Assen, M. A. L. M. (2011). Micro-macro links and microfoundations in sociology. /The Journal of Mathematical Sociology, 35/(1-3), 1-25. https://doi.org/10.1080/0022250X.2010.532263
+
+#+END_QUOTE
+
+Coleman (1987, 1990) provided a scheme that has become something of a standard way of representing macro-micro links.
+
+A --> D (4) represents the macro conditions and the /empirical regularity/ of the macro outcomes or macro regularities.
+
+A --> B (1) represents /empirical regularity/ of the represents the micro conditions that arise from A. These macro to micro relations are various called action formation mechanisms (Coleman, xx) or bridge assumptions (Lindenberg 1981; Wippler and Lindenberg, 1987).
+
+B --> C (2) represents the /regularity/ of the micro outcomes, that is, individual behaviour arising from the micro conditions. Arrow 2 provides a micro theory.
+
+C --> D (3) represents how actors' behaviour generations macro outcomes. These are variously called transformational mechanisms (Coleman, 1987) or transformation rules (Lindenberg 1981; Wippler and Lindenberg, 1987).
+
+{{< figure title="Coleman's boat" src="2020-04-30 Colemans Bathtub - raub_2011_MicromacroLinksMicrofoundations -- linked figures.jpg" >}}
+
+
+The macro and micro in this model can apply to large (e.g., a city) or small social systems (e.g., families).
+
+The arrows in the model represent assumptions about the empirical regularities, rather than general causal laws.
+
+
+
+#+BEGIN_QUOTE
+
+Hedström, P., & Ylikoski, P. (2011). Analytical Sociology. In I. Jarvie & J. Zamora-Bonilla, /The SAGE Handbook of the Philosophy of Social Sciences/ (pp. 386398). SAGE Publications Ltd. https://doi.org/10.4135/9781473913868.n19
+
+#+END_QUOTE
+
+"The situational mechanisms describe how social structures constrain individuals’ action and cultural environments shape their desires and beliefs, the action-formation mechanisms describe how individuals choose their preferred courses of action among the feasible alternatives, and the transformational mechanisms describe how individual actions produce various intended and unintended social outcomes."

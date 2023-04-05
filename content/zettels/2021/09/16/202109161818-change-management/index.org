@@ -1,0 +1,24 @@
+#+title: Change management
+#+date: 2021-09-16T18:18:00+1300
+#+lastmod: 2021-09-16T18:18:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Change_management
+
+The process of delivering your completed project and getting people to adopt it.
+
+* Core concepts
+** Create a sense of ownership and urgency
+
+- Ownership means getting others to feel they are empowered to take responsibility for the successful completion of their tasks.
+- Urgency means getting them to understand that the project is important and to identify what actions need to be taken to move the project along.
+** Figure out the right combination of skills and personalities
+- Team members can be advocates for the project and change
+** Effective communication
+-
+
+* Note
+Many of the principles of Agile Project Management align with successful change management.
+
+
+* Backlinks
+- [[{{< ref "202109111145-project-management" >}}][Project management]]

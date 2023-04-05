@@ -1,0 +1,18 @@
+#+title: Organizational structure
+#+date: 2021-09-16T18:40:00+1300
+#+lastmod: 2021-09-16T18:40:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Organizational_structure
+
+The way a company or organization is arranged.
+
+* Classic structure
+The Classic grouping includes what are usually called "functional" or "top-down" structures. The Classic grouping follows a typical chain of command where the Chief Executive Officer, also known as CEO, and other executives are at the top, followed by directors or managers, then their direct reports and so on. Each of these directors or managers typically oversee teams within their function of the organization, like marketing, sales, or human resources.
+
+
+* Matrix structure
+Matrix structure as a grid where you still have people above you, but you also have people in adjacent departments who expect to hear updates on your work progress.
+
+
+* Backlinks
+- [[{{< ref "202109161840-organizational-structure" >}}][Organizational structure]]

@@ -1,0 +1,55 @@
+#+title: Agile - Changing an organization to agile practices
+!#+date: 2021-10-03T17:06:00+1300
+#+lastmod: 2021-10-03T17:06:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_managment
+
+Understanding organizational culture and the change management process is crucial when introducing new ways of working. Organizational culture is based on shared workplace values and pops up in people's behaviours, activities, the way they communicate, and how they work with each other.
+
+
+* Change management
+The process of getting folks to adopt a new product, process, or in Agile's case, a new value system.
+
+"Change takes patient persistence"
+
+1. Create a sense of ownership
+   - Find an executive sponsor who feels a sense of ownership for the change you are creating.
+   - Having buy-in from someone at the top increases your chances of successfully driving any change in organizational culture.
+2. Create a sense urgency
+   - Ask questions about what's work and what's not working right now.
+   - Ensure the changes connect to those things
+   -
+* Agile team challenges
+** Delivery
+*** Issues
+*** Solutions
+- More demos of the solutions
+- Use retrospectives
+- Make sure everyone understands what "done" means
+- Focus on only a few user stories per Sprint
+** Business collaboration issues
+*** Issues
+- Team is overwhelmed with critical feedback or change requests
+- Us vs Them mentality between the team doing the work and management
+*** Solutions
+- Address critical feedback and change requests by doing more demons
+- Conduct a solution design sprint
+- Ensure changes to the Backlog are introduced only in between Sprints
+
+** Team dynamics and culture
+How human beings are complex creatures with a lot of different motivations and styles of working.
+*** Issues
+- Low moral
+- Lot's of conflict
+- Low conflict
+*** Solutions
+- Run a team brainstorm session on how to work better together
+- Change up workflows (e.g., working in pairs)
+- Take a training class together
+- Six-hats technique to explore the retrospective
+
+
+* Backlinks
+- [[{{< ref "202109131850-agile-project-management" >}}][Agile project management]]
+- [[{{< ref "202109161652-organizational-culture" >}}][Organizational culture]]
+

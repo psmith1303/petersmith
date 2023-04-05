@@ -1,0 +1,51 @@
+#+title: Project communicating change
+#+date: 2021-10-25T19:45:00+1300
+#+lastmod: 2021-10-25T19:45:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Communicating change to project team members and stakeholders isn't just a matter of keeping your tracking documents up to date. Even the smallest changes will be meaningful to someone on your team and should be communicated.
+
+- When communicating a small change that will effect and individual, its good idea to (have a chant and) send an email
+- When there is a big change within your project that impacts more than one person and is likely to change the budget, deadline, or scope of the project, you'll want to have a team meeting
+
+A *Timeout* can help. Taking a moment away from the project in order to take a breath, regroup, and adjust the game plan.
+
+* Retrospectives
+Throughout the process, you will want to hold meetings in order to discuss successes, setbacks, and possible feature improvements to the project.
+
+A retrospective focuses on identifying the contributing causes of an incident or pattern of incidents without blaming one individual. While conducting a retrospective, you should always assume that everyone has good intentions and did the right thing with the information they had, whether or not it worked out well in the end. There's always a chance to learn and do better.
+
+* Writing an effective escalation email
+** Escalation email best practices
+
+All projectseven those managed by experienced project managersoccasionally have problems. Your role as the project manager is to help resolve problems and remove barriers that prevent your team from making progress toward your goals. While many problems might be small enough to resolve within your core team, other problems like a major change in your budget or timelinemay need to be brought to stakeholders for a final decision. Detailing these problems, their potential impact, and the support you need in a clear and direct email to your audience can be an effective communication tool.
+
+Effective escalation emails:
+
+- Maintain a friendly tone
+- State your connection to the project
+- Explain the problem
+- Explain the consequences
+- Make a request
+
+** Maintain a friendly tone
+
+When drafting an escalation email, you may feel tempted to get straight to the point, especially when dealing with a stressful and time-sensitive problem. But keep in mind that it is important to address issues with grace. Consider opening your email with a simple show of goodwill, such as “I hope you’re doing well.” When describing the issue, aim for a blameless tone. Above all, keep the email friendly and professional. After all, you are asking for the recipient’s help. Be sure to close your email by thanking the recipient for their time.
+State your connection to the project
+
+Introduce yourself early in the email if you have less familiarity with the project stakeholders. Be sure to clearly state your name, role, and relationship to the project. This helps the reader understand why you are reaching out. Keep your introduction brief and to the pointa single sentence should suffice. If you know the person on the receiving end of the escalation email, you can simply reinforce your responsibility on the project before getting straight to the problem.
+Explain the problem
+
+Once you greet your recipient and briefly introduce yourself, explain the issue at hand. Clearly state the problem you need to solve. Provide enough context for the reader to understand the issue, but aim to keep your message as concise as possible. Avoid long, dense paragraphs that may obscure your message and tempt the reader to skim.
+
+** Explain the consequences
+
+After explaining the problem, clearly outline the consequences. Describe specifically how this issue is negatively impacting the project or how it has the potential to negatively impact the project later in the project timeline. Again, keep your explanation concise and your tone friendly.
+Propose a course of action and make a request
+
+This is the central piece of a strong escalation email. In this section, you propose a solution (or solutions) and state what you need from the recipient. A thoughtful solution accompanied by a clear request lets the recipient know how they can help and moves you toward a resolution.
+
+
+* Backlinks
+- [[{{< ref "202110251900-project-risk-and-changes" >}}][Project risk and changes]]

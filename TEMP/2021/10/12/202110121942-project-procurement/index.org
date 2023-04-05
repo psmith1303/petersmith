@@ -1,0 +1,106 @@
+#+title: Project procurement
+#+date: 2021-10-12T19:42:00+1300
+#+lastmod: 2021-10-12T19:42:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Procurement
+
+Procurement is obtaining all of the materials, services, and supplies required to complete the project.
+
+Vendor management is the process of researching and selecting vendors.
+- Sourcing vendors
+- Getting quotes for vendor's work
+- Deciphering which vendors will fulfil your needs
+- Negotiating vendor contracts
+- Setting deadlines for vendors
+- Evaluating performance
+- Ensuring vendors are paid
+
+Being aware of any regulations (e.g., Americans with disabilities act) that may impact things.
+
+
+* The procurement process
+** Initiating
+The process of defining what help you may need outside of your current resources to hit the project goals.
+
+In this step, you will also make a case for getting extra resources via the procurement process.
+
+While planning your project, figure out which materials, resources, and supplies you will need to get the job done. During this step, you will decide which items will be internally procured and which items will be externally outsourced. Once you’ve decided which items you need to outsource, compare each of those items specifications, components, quality measurements, standards, and characteristics with your project’s requirements. You may find that some of the items have features you don’t need. If you can identify those unnecessary features, you will know exactly what you want and don’t want in an item, possibly reducing your total cost.
+
+** Selecting
+Deciding what supplies you need and which vendors you'll go through.
+
+Now that you have outlined what you need for your project, you need to determine vendors to source these items. Research and assess various vendors and suppliers, and try to find out if your preferred vendors have a reputation for delivering quality work on time. After you’ve identified your preferred vendors and suppliers, interview them to learn more about their products and services. If possible, make site visits to see exactly how each vendor runs their business in person.
+
+** Contract writing
+The contracts are developed, reviewed, and signed.
+
+Contract writing requires excellent attention to detail, so pay close attention to the inclusions and exclusions in the vendor’s offer. There may be some items included in the vendor’s price that you can provide in-house at low or no additional cost. For example, the vendor’s offer may include charges for storing materials, using certain equipment, or labor. These are all things that you may be able to provide from your organization’s resources, so you can opt to save costs with the vendor on those items by using in-house materials and resources.
+
+Sometimes, the vendor may write the contract. In this case, checking carefully for clarity and accuracy ensures that you know exactly what you are getting from the vendor. Whether the contract is written by you or by the vendor, you will almost always want to consult with a legal and compliance team to ensure that everything in the contract is ethical and legal.
+
+** Control
+:PROPERTIES:
+:ID:       3ee90c3d-5dbd-4be9-887d-0169b10eb63e
+:END:
+When you make payments, set up logistics and requirements to maintain quality, and ensure the service agreement is being met.
+
+The procurement process isn’t over when the contracts are signed. The next step is to ensure that the work is being done according to the terms of the contract. You will need to periodically review the performance and quality of each vendor. When communicating with vendors, remain professional but firm to ensure that all project requirements are being fulfilled and that all major milestones are being met on time and at cost.
+
+Building and maintaining a good relationship with your vendors benefits the team and the overall project. This relationship will make it easier to make adjustments and contract revisions if the need arises. Taking certain measures, like conducting regular check-in meetings, will ensure that the work is being completed according to plan.
+
+** Completing
+Where you measure the success of the procurement.
+
+In the completing step of the procurement process, you will measure the success of your procurements. Ask yourself:
+
+- Were the materials created good quality?
+- Were there any issues with labor contracts?
+- How were your relationships with vendors?
+
+During this step, it is also important to document any lessons learned. It is likely that you will be involved in another project similar to this one in the future. Take notes about how the procurement process went so you can use this information on a future project.
+
+* Agile procurement management
+Often more collaborative, with both the project team and the end supplier than traditional approaches. There is a heavy emphasis on the relationship between these parties. The whole project team plays a larger role in identifying what needs to be procured. Rather than featuring contracts that are based on fixed deliverables, Agile procurement management tends to have a living contract that can be adapted based on the evaluation of the project.
+
+* Traditional procurement management
+Tends to focus on standard contracts with clear terms and deliverables. When it comes to traditional approaches, the project manager may be responsible for end-to-end procurement instead of the entire team providing input. The contracts may feature lengthy and extensive documentation that includes fixed requirements and comprehensive detail of the services and deliverables. While this may appear more rigid, the benefit is you've outlined clearer workstreams and deadlines. This way, you're much more protected from unforeseen circumstances and may not have to pay for unpredictable changes. In traditional approaches, the negotiation process can be a little bit trickier.
+
+* Avoiding ethical traps in procurement
+
+An ethical trap is an ethical dilemma that causes us to make a certain decision without regard for our ethical principles. You may face ethical traps throughout the course of a project. However, ethics can be of particular concern when it comes to procurement. As you have learned, project managers must take precautions to ensure that they and their suppliers are following ethical principles during the procurement process.
+Common ethical traps
+
+Sometimes, potential ethical issues can be overlooked or can be considered the necessary cost of doing business. This is a dangerous line of thinking since these types of assumptions can put your project, company, and career at risk. To review what we discussed in the video, a few of the most common ethical traps that exist when conducting procurements are corruption and bribery, sole-supplier sourcing, and interactions with state-owned agencies.
+** Corruption and bribery
+
+You may be confronted with different types of corruption when going through the procurement process. One form of corruption is when a vendor seeks to reduce the competition for a contract during the bidding process. A company may attempt to bribe members within the organization to sway their decision into a favorable outcome for the vendor. Bribes may include things like money, gifts, tickets to events, and more. Another type of corruption scheme is to offer a certain percentage of an awarded contractalso known as a kickbackto an official who can ensure that their company wins the bid.
+
+** Sole-supplier sourcing
+
+In some situations, having a vendor who a company is already familiar with smooths the procurement process and works well for both parties. Ethical issues arise when other vendors aren’t even allowed to bid for contracts for which they are similarly qualified. With sole-supplier sourcing, vendors may reach out to buyers before a bid is even requested. When the buyer’s organization decides to work with that vendor based on their previously-established relationship, that limits competition before the bidding has even begun. When this happens, companies and the public miss out on the advantages of competition, such as reasonable pricing, product quality standards, or speedy delivery options.
+
+** Interactions with state-owned entities
+
+There are some instances in which government agencies require an organization to adhere to stricter ethical standards than they might have otherwise. Most government regulatory agencies exist because a company or an entire industry has ranked profits over their workers or the environment. Governmental agencies such as the Food and Drug Administration and The Occupational Safety and Health Administration, for example, keep businesses within legal and ethical standards. If you are unfamiliar with any governmental restrictions that may affect your industry, organization, or project, you could unintentionally fall into an ethical trap.
+
+* Avoiding ethical traps
+
+Here are some guidelines that will help you avoid falling into ethical traps when it comes to procurement:
+Understand the legal requirements for your procurements.
+
+Every country has regulations to adhere to when conducting business in that country. Be sure to research the legal and ethical requirements based on your project and procurement needs, and if your organization has a legal team, make sure to lean on them for support and advice.
+Stick to your ethical codes.
+
+Honesty, responsibility, respect, and fairness are the values that underpin ethical behavior in the project management profession. The Project Management Institute’s (PMI) code of ethics provides detailed guidelines to help ensure you maintain ethical conduct in your projects.
+Test your ethics.
+
+When you face an ethical dilemma, ask yourself questions in each of the following categories:
+
+- Shame: Would you be ashamed if someone knew what you did?
+- Community: Would you want your friends to know the decision you made?
+- Legal: Would you face legal action if you took this action?
+- Situation: Would your actions be justified in this situation?
+- Consequence: Would a negative outcome be worth your actions?
+
+* Backlinks
+- [[{{< ref "202109121932-project-phase-planning" >}}][Project phase - planning]]

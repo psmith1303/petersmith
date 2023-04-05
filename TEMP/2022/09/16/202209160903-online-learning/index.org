@@ -1,0 +1,7 @@
+#+title: Online learning
+#+date: 2022-09-16T09:03:00+1300
+#+lastmod: 2022-09-16T09:03:00+1300
+#+categories[]: Zettels
+#+tags[]: Learning
+
+'Online learning' means "all instruction and interaction is fully online (synchronous or asynchronous)".

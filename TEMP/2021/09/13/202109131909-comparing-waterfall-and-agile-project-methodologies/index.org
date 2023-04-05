@@ -1,0 +1,76 @@
+#+title: Comparing waterfall and agile project methodologies
+#+date: 2021-09-13T19:09:00+1300
+#+lastmod: 2021-09-13T19:09:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+* Waterfall and Agile Comparison
+** Project manager's role
+*** Waterfall
+Project manager serves as an active leader by prioritizing and assigning tasks to team members.
+
+*** Agile
+Project manager (or Scrum Master) acts primarily as a facilitator, removing any barriers the team faces.
+
+Team shares more responsibility in managing their own work.
+
+** Scope
+*** Waterfall
+Project deliverables and plans are well-established and documented in the early stages of initiating and planning.
+
+Changes go through a formal change request process.
+
+*** Agile
+Planning happens in shorter iterations and focuses on delivering value quickly.
+
+Subsequent iterations are adjusted in response to feedback or unforeseen issues.
+
+** Schedule
+*** Waterfall
+Follows a mostly linear path through the initiating, planning, executing, and closing phases of the project.
+
+*** Agile
+Time is organized into phases called Sprints. Each Sprint has a defined duration, with a set list of deliverables planned at the start of the Sprint.
+
+** Cost
+*** Waterfall
+Costs are kept under control by careful estimation up front and close monitoring throughout the life cycle of the project.
+
+*** Agile
+Costs and schedule could change with each iteration.
+
+** Quality
+*** Waterfall
+Project manager makes plans and clearly defines criteria to measure quality at the beginning of the project.
+
+*** Agile
+Team solicits ongoing stakeholder input and user feedback by testing products in the field and regularly implementing improvements.
+
+** Communication
+*** Waterfall
+Project manager continually communicates progress toward milestones and other key indicators to stakeholders, ensuring that the project is on track to meet the customer’s expectations.
+
+*** Agile
+Team is customer-focused, with consistent communication between users and the project team.
+
+** Stakeholders
+*** Waterfall
+Project manager continually manages and monitors stakeholder engagement to ensure the project is on track.
+
+*** Agile
+Team frequently provides deliverables to stakeholders throughout the project. Progress toward milestones is dependent upon stakeholder feedback.
+
+
+* Three aspects of project management
+- Requirements: conditions that must be met or tasks that must be finished to ensure the successful completion of the project.  In agile, the requirements are ranked and then the list is worked on in order of importance.
+
+- Documentation: There are a lot in waterfall projects because there are so many 'hand-offs'.
+
+- Deliverables: A Tangible outcome. In agile, they are released as soon as they are ready. In waterfall they are release all at the end.
+
+
+* Backlinks
+- [[{{< ref "202109121956-project-management-methodology" >}}][Project management methodology]]
+- [[{{< ref "202109131838-waterfall-project-management" >}}][Waterfall project management]]
+- [[{{< ref "202109131850-agile-project-management" >}}][Agile project management]]
+

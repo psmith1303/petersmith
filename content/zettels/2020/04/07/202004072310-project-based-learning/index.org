@@ -1,0 +1,12 @@
+#+title: Project-based learning
+#+date: 2020-04-07T23:10:00+1300
+#+lastmod: 2020-04-07T23:10:00+1300
+#+categories[]: Notes
+#+tags[]: Teaching Learning
+
+
+#+BEGIN_QUOTE
+
+Project-based learning has several phases (Barrows, 1985; Dunlap, 2005) that may include (a) reasoning through the problem, (b) working independently through a self directedstudy, (c) application and critical thinking: applying knowledge to the problem and critiquing prior problem work, (d) synthesis: summarizing and integrating learning, and (e) self-reflection or self-evaluation resulting in the development of lifelong compe tenciesthat encompass technical, individual and interpersonal abilities/attributes (Davis et al., 2010)
+
+#+END_QUOTE

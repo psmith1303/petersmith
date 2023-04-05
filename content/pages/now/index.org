@@ -17,11 +17,11 @@ Other things are sort of hanging off that big endeavour.
 * Travel plans
 - +HICSS56 3rd--6th January 2023 in Maui.+
 
-  The oldest and most popular conferences on Service Science. This was a good conference, I can see why it is the biggest. The venue was pretty good too.
+  +The oldest and most popular conferences on Service Science. This was a good conference, I can see why it is the biggest. The venue was pretty good too.+
 
-- Process workshop at the University of Queensland, 14th February 2023 in Brisbane.
+- +Process workshop at the University of Queensland, 14th February 2023 in Brisbane.+
 
-  This looks like a great session with [[https://scholar.google.fi/citations?user=N_Dy1J8AAAAJ][Ann]] [[https://en.wikipedia.org/wiki/Ann_Langley][Langley]], and [[https://scholar.google.fi/citations?user=jofbUSsAAAAJ][Paula Jarzabkowski]].
+  +This was a great session with [[https://scholar.google.fi/citations?user=N_Dy1J8AAAAJ][Ann]] [[https://en.wikipedia.org/wiki/Ann_Langley][Langley]], and [[https://scholar.google.fi/citations?user=jofbUSsAAAAJ][Paula Jarzabkowski]]+
 
 - Visit to the University of Zurich
 
@@ -40,7 +40,7 @@ Other things are sort of hanging off that big endeavour.
   This will be my first time at AoM. Normally, it would clash with my teaching obligations, but this year, as I'm on Research and Study leave ...
 
 * Research projects
-1. The comminication of science
+1. The comminication of science  - Submitted
 2. Instructional design for interdisciplinary learning (AoM)
 3. DAOs, Open-strategy, and trust (EGOS)
 4. Orchestrating multi-sided platforms (TBC)

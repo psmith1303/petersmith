@@ -1,0 +1,21 @@
+#+title: Tenets of post-experience teaching
+#+date: 2020-11-23T10:22:00+1300
+#+lastmod: 2020-11-23T10:22:00+1300
+#+categories[]: Zettels
+#+tags[]: Teaching
+
+
+From Gosling and Mintzberg (2004):
+
+- /Tenet #1: Management education should be restricted to practicing managers, selected on the basis of performance/. Managers cannot simply be created in a classroom. The practice can be enhanced there, but not established.
+- /Tenet #2: Management education and practice should be concurrent and integrated/. It makes little sense to select people steeped in practice and then remove them from that practice to educate them. Managers should stay on the job, so their work experience and educational experience can be interwoven.
+- /Tenet #3: Management education should leverage work and life experience. Theory is important and cases are useful. The former are like maps of the world, the latter like travelers’ tales. Both are best appreciated---as are their limitations--by people who already know the territory. Thus learning becomes most powerful when managers can assess the theory in their own contexts and can apply the messages of cases to their own experiences.
+- /Tenet #3: Management education should leverage work and life experience/.... Reflecting does not mean musing; it means wondering, probing, analyzing,synthesizing --- and struggling. People have to be engaged, curious and alert on a personal level and in a social process.
+- /Tenet #5: Management development should result in organization development/. The ongoing effects of an educational program should
+have impact beyond the recipient.
+- /Tenet #6: Management education must be an interactive process/.... move seamlessly back and forth between concept-based and experience-based learning, reflecting collectively across sessions and modules, the learning blended into one continuous flow, sometimes smooth, sometimes gusty.
+- /Tenet #7: Every aspect of the education must facilitate learning/.
+
+
+* References
+Gosling, J., & Mintzberg, H. (2004). The education of practicing managers. /MIT Sloan Management Review, 45(4)./ https://sloanreview.mit.edu/article/the-education-of-practicing-managers/

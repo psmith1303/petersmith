@@ -1,0 +1,36 @@
+#+title: Six Sigma
+#+date: 2021-09-14T19:06:00+1300
+#+lastmod: 2021-09-14T19:06:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Six_sigma
+
+
+Six Sigma is a methodology used to reduce variations by ensuring that quality processes are followed every time. The term “Six Sigma” originates from statistics and generally means that items or processes should have 99.9996% quality.
+
+The seven key principles of Six Sigma are:
+
+- Always focus on the customer.
+
+- Identify and understand how the work gets done. Understand how work really happens.
+
+- Make your processes flow smoothly.
+
+- Reduce waste and concentrate on value.
+
+- Stop defects by removing variation.
+
+- Involve and collaborate with your team.
+
+- Approach improvement activity in a systematic way.
+
+Use this methodology to find aspects of the product or process that are measurable like time, cost, or quantity. Then inspect that measurable item and reject any products that do not meet the Six Sigma standard. Any process that created unacceptable products has to be improved upon.  
+
+* Summary
+Six Sigma involves reducing variations by ensuring that quality processes are followed every time. The Six Sigma method follows a process-improvement approach called DMAIC, which stands for define, measure, analyze, improve, and control.
+
+* Backlinks
+:PROPERTIES:
+:ID:       3863f584-c34b-4bd3-81d7-566772804f17
+:END:
+- [[{{< ref "202109131906-lean-six-sigma-project-management" >}}][Lean six sigma project management]]
+

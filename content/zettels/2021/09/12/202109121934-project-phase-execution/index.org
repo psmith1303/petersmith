@@ -1,0 +1,17 @@
+#+title: Project phase - execution
+#+date: 2021-09-12T19:34:00+1300
+#+lastmod: 2021-09-12T19:34:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Put all of your hard work from the first two phases into action.
+
+- Monitor your project team as they complete project tasks.
+- Break down any barriers that would slow or stop the team from completing tasks.
+- Help keep the team aware of schedule and deliverable expectations.
+- Address weaknesses in your process or examine places where your team may need additional training to meet the project’s goals.
+- Adapt to changes in the project as they arise
+
+* Backlinks
+- [[{{< ref "202109121327-project-life-cycle" >}}][Project life cycle]]
+

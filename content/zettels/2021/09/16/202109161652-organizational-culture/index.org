@@ -1,0 +1,58 @@
+#+title: Organizational culture
+#+date: 2021-09-16T16:52:00+1300
+#+lastmod: 2021-09-16T16:52:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Culture
+
+* Intro
+An organization's culture provides context and acts as a guide for what their people value, how they operate on a daily basis, how they relate to one another, and how they can be expected to perform. 
+
+Organizational culture is in part the values employees share, as well as the organization's values, mission, history, and so on
+
+
+If you can demonstrate how the project supports the company's mission or how the project aligns with the company's values, you'll have more support from executives and stakeholders to get the approvals and resources you need.
+
+
+* The importance of organizational culture 
+
+Identity: An organization’s culture defines its identity. Its identity essentially describes the way the company conducts  business, both internally and externally. A company’s values and organizational culture go hand-in-hand; its values are part of its identity. You can almost think of an organization’s culture as its personality. That is why it is important to learn your company’s (or target company’s) mission and value statements. The mission and value statements will help you understand why the company exists and will give you insight into what the company believes in and how it will behave. 
+
+People: Strong, positive organizational culture helps retain a company’s best employees. People who feel valued, engaged, and challenged are more likely to give their best and want to drive for success. An organization’s culture can help keep talented employees at a company, and it can attract great people too! On the other hand, a toxic culture can have the opposite effect. It is important to find an organization with a culture that fits your personality. One way to find out more about an organization's culture is to talk to the people who work there. You can also take note of the current employees’ attire, expressions, and overall behavior.
+
+Processes: Organizational culture can have direct impacts on a company's processes, and ultimately, its productivity. The organization’s culture is instilled throughout the companyfrom its employees to how its employees do their job. For example, a company that values feedback and employee involvement might have that reflected in their processes by including many opportunities for employees to comment. By allowing employees to feel their voices are heard, this company is adhering to its culture. 
+
+* Understanding an organization’s culture
+
+As a project manager, it is important to understand your company’s culture, especially because it could affect the projects you work on. Some aspects of an organization’s culture that are directly related to how you will manage projects are communication, decision-making, rituals, previous management styles, and values. To learn more about a company’s culture and how it applies to you as a project manager, you can: 
+
+- Ask questions
+
+- Look Policies
+
+- Review Processes
+
+- Determine Values
+
+- Listen to people’s stories
+
+- Take note of company rituals
+
+
+* Understand your impact
+
+As a project manager, you become a change agent. Remember: a change agent is a person from inside an organization who helps the organization transform by focusing on improving organizational effectiveness and development. When you begin a new role, sit down with management to better understand what is expected of you and how you can make the most of the opportunity.
+
+* Sharpen your communication skills
+
+Interpersonal communication skills are a major part of project management. How a company communicates is directly tied to its organizational culture. You will most likely have interactions with various departments and management levels while executing projects. To communicate effectively, you will need to understand how to navigate the different channels in your company. Ask questions about communication practices when you start a new role such as: Is it customary to sign emails from the team rather than from you individually? Should presentations include team members or be solely presented by the project manager? This can help you make sure you are adhering to expectations.
+
+Approaching projects differently from how similar projects were managed in the past may be met with some resistance. Although some projects may call for you to break the status quo, when you show an appreciation of your organization’s culture, you may help your team members accept any improvements you are implementing.
+
+* Key takeaway
+
+Organizational culture is important because it has a direct impact on you as a project manager, and learning how to navigate organizational culture gives you a great advantage when you are executing projects. Being able to navigate departmental interactions, communicate effectively, and plan your project in line with the organization’s culture will help set you up for success in your project management career path.
+
+
+* Backlinks
+- [[{{< ref "202109111145-project-management" >}}][Project management]]
+

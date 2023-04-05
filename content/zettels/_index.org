@@ -1,0 +1,36 @@
+#+title: My Zettelkasten
+#+weight: 700
+
+This Zettelkasten is my collection of my /permanent notes/ on the topics I find most interesting. I try and limit it to about 12 main items.
+
+* Research areas
+  - Theories of practice
+  - Strategy as practice
+  - Open strategy
+  - The professions
+  - Professional Service Firms
+  - Teaching: facilitating learning
+    - Programme design
+    - Curriculum design
+    - Course design
+      [[{{< ref "2020/04/06/202004062300-capstone-courses/" >}}][Capstone courses]]
+    - Course delivery
+      - [[{{< ref "202004072310-project-based-learning" >}}][Project based learning]]
+    - Assessment
+  - Learning: How people learn
+    - What it means to know something
+
+* Academic life
+  - [[{{< ref "202302211622-the-academic-process" >}}][The academic process]]
+
+
+* Personal productivity
+  - Getting things done
+  - Time management
+  - Information management
+  - Note taking
+    - [[{{< ref "202302201536-zettelkasten" >}}][The Zettelkasten method]]
+  - Reading
+
+* Skills development
+  - [[{{< ref "202109111145-project-management" >}}][Project management]]

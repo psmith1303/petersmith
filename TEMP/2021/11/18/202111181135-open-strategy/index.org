@@ -1,0 +1,47 @@
+#+title: Open strategy
+#+date: 2021-11-18T11:35:00+1300
+#+lastmod: 2021-11-18T11:35:00+1300
+#+categories[]: Zettels
+#+tags[]: Strategy Open_Strategy
+
+"Open strategy is an emerging information technology (IT)-enabled strategizing practice in which organisations involve large numbers of internal or external people in strategy making (Whittington et al., 2011)" (Tavakoli, 2017, p. 163).
+
+"Open strategy is unique in its overall transparency (Dobusch and Mueller-Seitz, 2012; Whittington et al., 2011), wide inclusiveness (Santalainen and Baliga, 2015; Stieger et al., 2012) and the central use of social IT to effectively enable mass participation (Amrollahi and Ghapanchi, 2016; Haefliger et al., 2011)" (Tavakoli, 2017, p. 164).
+
+Thus there are three dimensions in which the "ideal types" of open and closed strategy processes are different: inclusiveness, transparency, IT-enabledness:
+
+** Inclusiveness
+"[T]he range of participants involved in, and contributing to, the strategy process. The open strategy process is more participative and inclusive than the closed strategy process. In closed strategy, the strategy formation process is restricted to a limited, C-level group of people and their immediate affiliates" (Tavakoli et al., 2015, p.4).
+
+** Transparency
+"[T]he term “transparency” to mean the degree of openness and visibility of the inputs to, outputs from and the activities of the strategy process itself. The open strategy process is more transparent and visible than the closed strategy process. In closed strategy, the strategy is developed in secret and only limited details are shared with selected personnel" (Tavakoli et al., 2015, p.5).
+
+** IT-enabledness
+:PROPERTIES:
+:ID:       0fc4ea93-889c-4f4b-af3b-21236fda783c
+:END:
+"Traditional tools that support closed strategy include enterprise resource planning and management information systems dashboards and other “non-social” IS (e.g., Schlagwein et al. 2011; Whittington 2015). The closed strategy process is possible without IT, and was in use before contemporary IT existed. In contrast, the open strategy process is not possible without IT (Amrollahi et al. 2014; Haefliger et al. 2011). Social IS (e.g., social media, enterprise social software, collaboration and co-creation platforms) are used to enable *open participation* (e.g., Schlagwein et al. 2011; Whittington 2015). Organizations use adjusted common tools such as forums (Stieger et al. 2012) or custom-built IT (Amrollahi et al. 2014) to enable open strategizing. In relation to operational openness, scholars have recognized that IT “enables” (Schlagwein and Bjørn-Andersen 2014) and “shapes” (Majchrzak and Malhotra 2013) open processes; it is not a mere “support” of existing processes. In addition, open strategy is one phenomenon in which IT is best thought of as an inseparable part of the phenomenon itself (Orlikowski and Scott 2008). That is, the enabling role of IT is a constituent part of the phenomenon and one of its main characteristics." (Tavakoli et al., 2015, p.5).
+
+* Background
+
+"a range of organizations has also used IT to enable openness for strategic work. That is, in these organizations, IT-enabled openness is not only used to perform operational work but also to define organizational strategy. Examples of these open approaches to strategy have been documented at, for instance, IBM (Bjelland and Wood 2008), Red Hat (Gast and Zanini 2012) and the Wikimedia Foundation (Dobusch and Kapeller 2013)" (Tavakoli et al., 2015, p.2).
+
+"we found the IS literature on open strategy to be surprisingly sparse, with a few exceptions
+(Amrollahi et al. 2014; Matzler et al. 2014a). The majority of papers on the topic to date have been
+published in strategic management outlets"  (Tavakoli et al., 2015, p.3).
+
+
+* Open strategy and Strategy as practice
+"Our analysis of the cases suggests that open strategy combines two sets of practices. The first set of practices is what we could call (traditional) "strategizing practices" (e.g., communicating a strategic vision) with these largely drawn from and mainly identical to closed strategizing. The second set of practices is what we could call "open practices", with these practices typically not found in traditional, closed ways of strategizing. This second set of practices is much more akin to practices in crowdsourcing, open source software development and other IT-enabled "openness" phenomena. IT is enabling and shaping such practices, the practices would not be possible without IT. We focused our analysis below on the set of open practices used in open strategy (i.e., the second set)" (Tavakoli, 2017, p. 173).
+** Open practices for open strategy
+*** Transparent discourse
+In open strategy, strategic discourse is enacted in an open, interactive and public fashion: all practitioners can read, follow and react to ongoing discussions. This is not a common practice in closed strategy where a select few discuss strategy proposals "behind closed doors". In transparent discourse, large groups of internal or external practitioners are invited via open calls (open invitations) to follow or join the discussion.)" (Tavakoli, 2017, p. 173).
+*** Co-creation / collaborative creation
+In open strategy, strategy is jointly and iteratively created by a wide group of practitioners working in a collaborative fashion. This contrasts with closed strategy where, typically, a specialist group of practitioners performs strategy work in a more linear fashion. In co-creation, ideas are continuously, collaboratively and iteratively developed and revised....  this led to ideas and solutions that were more widely supported due to the collaborative and iterative nature of their development (i.e., increased commitment, approval and perceptions of legitimacy by employees). Participation was voluntary and not typically rewarded financially" (Tavakoli, 2017, p. 173).
+*** Democratic decision making
+The practitioners involved could decide which topics were interesting and which avenues were to be followed in open strategy. This contrasts with authoritative decision making by the upper echelon in closed strategy. Practitioner groups, acting outside their reporting hierarchies and job descriptions for the purpose of open strategy, decided jointly on substantial aspects of the organisation's future path. Voting, ratings, ranking or consensus-based discussions were used for decision makingy" (Tavakoli, 2017, p. 174).
+
+* References
+Tavakoli, A., Schlagwein, D., & Schoder, D. (2015, December 13). Open strategy: Consolidated definition and processual conceptualization. /ICIS 2015 Proceedings/. Thirty-Sixth International Conference on Information Systems, Fort Worth, TX. http://aisel.aisnet.org/icis2015/proceedings/ISstrategy/2
+
+Tavakoli, A., Schlagwein, D., & Schoder, D. (2017). Open strategy: Literature review, re-analysis of cases and conceptualisation as a practice. /The Journal of Strategic Information Systems, 26/(3), 163184. https://doi.org/10/ggvd9d

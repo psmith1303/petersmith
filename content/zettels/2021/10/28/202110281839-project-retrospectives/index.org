@@ -1,0 +1,64 @@
+#+title: Project retrospectives
+#+date: 2021-10-28T18:39:00+1300
+#+lastmod: 2021-10-28T18:39:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+A workshop or meeting that gives project teams time to reflect on a project.
+
+Often done after major milestones, or at the end of project.
+
+** The main purposes of retrospectives
+1. Encourage team building
+2. Facilitate improved collaboration
+3. Promote positive changes
+
+The emphasis in retrospectives is on continuous improvement and change instead of recycling old and potentially bad habits, procedures, and processes.
+
+** Reasons to hold a retrospective
+- Missed deadlines or expectations
+- Miscommunication between stakeholders
+- Reach the end of a sprint
+- Project launches and landings
+- Record key lessons that other people can learn from
+
+The way you choose to structure a retrospective will depend on your team and workplace.
+
+** Best practices
+- Ensure the discussion is blameless
+  Achieved by:
+  - Changing perspectives, and
+  - Switching from "you" language to "we" language
+- Reflect on positive aspects of the project as well as the negatives
+
+* Running a retrospective
+- The retrospective should be considered a positive experience, where team members feel comfortable about sharing their feedback.
+- Be considerate of teams outside your own.
+- Should include:
+  + Project summary
+    - Goals and objectives
+    - Duration
+    - Team members
+    - Methodology
+  + Key accomplishments
+  + Lessons learned
+    - Things that went well
+    - Things that need improvement
+    - Where we got lucky
+  + Action items
+    What actions should we take as a result of our lessons learned?
+    - Action item
+    - Type (tools, process, team)
+    - Owner
+    - Link(s)
+  + Future considerations
+    What would we recommend future projects of a similar nature mitigate or design contingency plans for?
+    - Risk
+    - Type (technical, process, team, schedule)
+    - Contact
+    - Link(s)
+  + Resources and notes
+
+
+* Backlinks
+- [[{{< ref "202109121934-project-phase-execution" >}}][Project phase - execution]]

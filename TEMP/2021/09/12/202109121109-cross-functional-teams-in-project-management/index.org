@@ -1,0 +1,27 @@
+#+title: Cross-functional teams in project management
+#+date: 2021-09-12T11:09:00+1300
+#+lastmod: 2021-09-12T11:09:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+A cross-functional team is one where team members have different:
+- Backgrounds
+- Types of expertise
+- Job functions
+
+Managing cross-functional teams requires the project manager to:
+
+- Clarify goals: is important to ensure that each member of the team understands their role, how they support each other, and the common goals of the project.
+
+- Get team members with the right skills to ensure the project will suceed
+- Measure progress: This helps everyone see the full picture and recognize their impact on the project
+  - Showing your team how much they have accomplished helps keep them motivated.
+- Recognize the efforts of team members
+  - Some skills might be more recognized than others
+  - Make sure all team members feel valued
+
+
+* Backlinks
+
+- [[{{< ref "202109121052-project-manager-roles" >}}][Project manager roles]]
+- [[{{< ref "202109120921-project-manager-responsibilities" >}}][Project manager responsibilities]]

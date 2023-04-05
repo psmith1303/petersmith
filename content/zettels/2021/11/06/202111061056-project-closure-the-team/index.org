@@ -1,0 +1,13 @@
+#+title: Project closure - the team
+#+date: 2021-11-06T10:56:00+1300
+#+lastmod: 2021-11-06T10:56:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+- Do a retrospective
+
+- Do a project close-out report for the project manager
+
+
+* Backlinks
+- [[{{< ref "202109121935-project-phase-closure" >}}][Project phase - closure]]

@@ -1,0 +1,35 @@
+#+title: Project tracking methods
+#+date: 2021-10-20T18:38:00+1300
+#+lastmod: 2021-10-20T18:38:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Which ever method or methods are used, the team needs to be able to easily understand it.
+
+
+* GANTT Chart
+The Gantt chart is one of the most popular tracking methods and can be used for all types of projects. Gantt charts typically live in your project charter and are updated as the project progresses.
+
+- Useful for staying on schedule
+- Useful for projects with many dependencies, tasks, and activities
+- Useful for larger project teams
+
+Typically these live in the project chareter. Particularly useful with [[{{< ref "202109131838-waterfall-project-management" >}}][Waterfall project management]].
+
+* Roadmap
+Roadmaps are another common tracking method. Like Gantt charts, Roadmaps also track both individual and project progress toward milestones. However, Roadmaps are best suited for tracking big milestones in your project.
+
+- Useful for high-level tracking of larger milestones
+- Useful for illustrating how a project should evolve over time.
+
+* Burndown chart
+Burndown charts are typically used by Agile Scrum teams. Burndown charts reveal how quickly your team is working by displaying how much work is left and how much time remains to complete the work. The main uses of a Burndown chart are to keep the project team on top of targeted completion dates and make them aware of scope creep if it occurs. The chart should be displayed so everyone can see it and needs to be updated regularly in order to be effective.
+
+Measures time against the amount of work done versus the amount of work remaining. It is the most granular method of project tracking.
+- Useful for projects that require a granular, broken-down look at each task
+- Useful for projects where finishing on time is the top priority
+
+A Burndown chart helps you, as a project manager, understand how your team works and what influences their ability to complete tasks on time. This way, you can address issues right away, before they become major problems. They also help you plan more efficiently for the next project by identifying potential problem areas.
+* Backlinks
+- [[{{< ref "202110201827-project-tracking" >}}][Project tracking]]
+

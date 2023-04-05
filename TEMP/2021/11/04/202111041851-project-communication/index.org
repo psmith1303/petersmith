@@ -1,0 +1,86 @@
+#+title: Project communication
+#+date: 2021-11-04T18:51:00+1300
+#+lastmod: 2021-11-04T18:51:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+* Project document responsibilities
+:PROPERTIES:
+:ID:       b8316969-4309-4d4c-9c70-551dc68b0037
+:END:
+- How documents get used
+- Who has access to documents
+- How often documents get updated
+
+ Some people learn by seeing, some by hearing, and some by doing.
+
+* Common communication tools
+** Messaging
+** Virtual meetings
+** Work management and collaboration tools
+
+* Organizing effective meetings
+:PROPERTIES:
+:ID:       b1eab330-73cd-470b-8d7d-4ca80a609de2
+:END:
+- Structured
+  + Start and end on time
+  + Carefully selected attendees
+  + Prioritized topics (agenda, timeboxing)
+  + Designated notetaker
+- Intentional
+  + Clearly stated purpose and expectation (in the invite and the agenda)
+    - You meeting's purpose or goal describes the reason you're meeting and what you'd like to achieve.
+    - Send any pre-reading materials in advance of the meeting, so that everyone shows up prepared to participate
+  + Everyone  understands why they're meeting
+- Collaborative
+  + People working together to create something.
+    - Make sure the agenda isn't just about dumping information
+    - Have a shared digital document everyone can write on.
+    - Embrace peoples communication styles
+- Inclusive
+  +
+
+* Checklist for productive meetings
+You may have attended a few meetings that you did not think were the best use of your time. Frequent and unproductive meetings tend to have a negative impact on individual and team productivity and well-being. In this reading, you will learn best practices for ensuring productivity before, during and after meetings.
+
+Plenty of things can make meetings unproductive, but an internal study at Google revealed that productive meetings have three elements in common:
+
+- Active participation from attendees
+- A clear and concise agenda that is followed throughout
+- The correct attendees (meaning the participants can contribute to achieving the meeting’s goal)
+
+Follow this checklist to help achieve these aims and facilitate more productive meetings for you and your project team:
+
+** Before the meeting
+
+- Prepare an agenda that states the purpose and goals of the meeting, and share the agenda with participants.
+- Only invite people who need to be there and who can help reach the goals of the meeting. Make participants’ roles and responsibilities for the meeting clear. Add non-essential participants as optional to the meeting invitation.
+- If you are working with people in different time zones, share the time zone burden by alternating recurring meeting times.
+- Evaluate the need for the meeting and cancel if it isn’t necessary. Consider whether the meeting content can be covered via email.
+- Schedule shorter meetings. Meetings tend to expand to the time allotted to them, so try to get more done in a shorter amount of time.
+- Set aside time to prepare for the meeting. Read the necessary materials, review the agenda, and come ready to participate.
+
+** During the meeting
+
+- At the beginning of the meeting, clearly state the meeting goals. Stick to the agenda throughout the meeting to avoid getting derailed. For recurring meetings, review the action items from the previous meeting to ensure accountability.
+- Encourage participants to put phones and laptops away during meetings and silence notifications, if possible.
+- Practice and demonstrate active listening. Respond verbally (e.g., “That makes sense. Tell us more.”) and non-verbally (through head nodding and eye contact) to show engagement.
+- Encourage participation and give everyone a chance to speak, including remote participants. Ask open-ended questions like, “What does everyone think?” instead of “Does everyone agree?”
+- Help everyone relax and feel more comfortable by starting meetings with open-ended, personal questions like, “How was your weekend?”
+- Capture key points, action items, and decisions from the meeting, and assign action items to the appropriate meeting participants.
+
+** After the meeting
+
+- Recap key decisions, action items, timelines, and notes and send out to participants.
+- Schedule necessary follow-up meetings with relevant context.
+- Assess the need for and frequency of recurring meetings. Schedule meetings less frequently, if possible.
+
+Pro Tip: If you are new to the company or team, find out about and try to apply their typical meeting practices before making any major changes.
+
+* Backlinks
+:PROPERTIES:
+:ID:  30751415-8423-4cb3-b81c-af0463c225c2
+:END:
+- [[{{< ref "202109121934-project-phase-execution" >}}][Project phase - execution]]
+

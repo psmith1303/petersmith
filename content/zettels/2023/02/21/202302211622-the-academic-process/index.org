@@ -1,0 +1,26 @@
+#+title: The academic process
+#+date: 2023-02-21T16:22:08+13:00
+#+lastmod: 2023-02-21T16:22:08+13:00
+#+categories[]: Zettels
+#+tags[]: Academe
+
+The academic process, sounds so straight forward when laid out like this
+
+1. Reading and understanding what has been read
+2. Remembering what has been read
+3. Referencing and citing what has been read
+4. Choosing your research conversation
+5. Designing the research
+6. Conducting the research
+   1. Data collection
+   2. Data Processing
+   3. Data analysis
+7. Writing-up
+8. Revising
+9. Gathering Feedback
+10. Publishing
+
+Although the list looks like a linear process it is more complex than that; there many times of looping back and of iteration.
+
+******** Source
+[[https://www.lukaskawerau.com/academic-process-management/][Lukas Kawerau]]

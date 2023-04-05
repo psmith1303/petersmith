@@ -1,0 +1,19 @@
+#+title: Scrum - Daily Scrum or Stand-ups
+#+date: 2021-10-02T15:38:00+1300
+#+lastmod: 2021-10-02T15:38:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+The time when the Scrum Team synchronizes and prioritizes activities for the day.
+
+In 15 minutes, each team member answers the question:
+- What did I do yesterday to help the team meet the Sprint Goal
+- What will I do today to help the team meet the Sprint Goal
+- What impediments do I see to the team meeting the Sprint Goal
+
+This helps the Scrum Master unblock the team.
+
+
+
+* Backlinks
+- [[{{< ref "202110021152-scrum-sprints" >}}][Scrum - Sprints]]

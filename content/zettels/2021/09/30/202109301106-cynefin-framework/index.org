@@ -1,0 +1,55 @@
+#+title: Cynefin framework
+!#+date: 2021-09-30T11:06:00+1300
+#+lastmod: 2021-09-30T11:06:00+1300
+#+categories[]: Zettels
+#+tags[]: Sensemaking: Cynefin
+
+This framework is a decision framework and an analytical framework based on five spaces:  Simple, Complicated, Complex, and Chaotic, Disorder. It can be used for decision theory, knowledge management, for IT design, for project management, and so on.
+
+It recognises the causal difference between each type of system (space).
+
+Each space has its own causal model, a decision model, and form of practice.
+
+Depending on which space you are in you need to think differently, and act different.
+
+* Simple
+- Cause and effect relationships exist, are predictable and repeatable
+- Sense --> Categorise --> Respond
+- "Best practice"
+- Bureaucracts (see things as a failure of process)
+
+* Complicated
+- Cause and effect relationships exist, but are not self-evident, and therefore require expertise
+  May need to call in the experts
+- Sense --> Analyse --> Respond
+- Good practice
+  Several different ways of doing things all of which are legitimate if you have the right expertise. Forcing people to apply a good practice when they don't have expertise will just upset them
+- Domain of the experts
+
+* Complex
+- Cause and effect are only obvious in hindsight, with unpredictable emergent outcomes.
+- Probe --> Sense --> Respond
+  We conduct safe fail experiments, we don't do fail-safe design
+- Emergent practice
+- Battlefield commanders, politicians
+  Get lots of people with different ideas together
+
+* Chaotic
+- No cause and effect relationship can be determined
+- Act --> Sense --> Respond
+- Novel practice
+-
+
+* Disorder
+- Not knowing which space you are in
+- Tend to interpret things as if we are in our favourite space
+-
+-
+
+The boundary between the simple and chaotic spaces is more like a cliff. The complacent zone is on the boundary between the two, and in a crisis you fall over the edge into the chaotic. For all the other boundaries allow for transitions. For this boundary, it is very expensive to cross.
+
+Therefore you should manage in the complex and complicated spaces, and only move a small amount of material  into the simple space as it is very vulnerable to rapid or accelerating change (if it falls into the chaotic).
+
+
+* References
+[[https://www.youtube.com/channel/UCGQSVeVADPY8FO9-wq6fTcg][YouTube channel for CognitiveEdge]]

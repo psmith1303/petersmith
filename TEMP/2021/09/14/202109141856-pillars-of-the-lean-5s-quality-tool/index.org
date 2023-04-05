@@ -1,0 +1,27 @@
+#+title: Pillars of the Lean 5S quality tool
+#+date: 2021-09-14T18:56:00+1300
+#+lastmod: 2021-09-14T18:56:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Implementing the 5S method means cleaning up and organizing the workplace to achieve the smallest amount of wasted time and material. The 5S method includes these five steps:
+
+* Sort
+Remove all items not needed for current production operations and leave only the bare essentials.
+
+* Set in order
+Arrange needed items so that they are easy to use. Label items so that anyone can find them or put them away.
+
+* Shine
+Keep everything in the correct place. Clean your workspace every day.
+
+* Standardize
+Perform the process in the same way every time.
+
+* Sustain
+Make a habit of maintaining correct procedures and instill this discipline in your team.
+
+
+* Backlinks
+- [[{{< ref "202109131906-lean-six-sigma-project-management" >}}][Lean six sigma project management]]
+- [[{{< ref "202109141901-kaban" >}}][Kaban]]

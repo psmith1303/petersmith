@@ -1,0 +1,24 @@
+#+title: Project goals
+#+date: 2021-09-19T17:31:00+1300
+#+lastmod: 2021-09-19T17:31:00+1300
+#+categories[]: Zettels
+#+tags[]: \Coursera Project_management
+
+The desired outcome of the project.
+
+The provide a clear roadmap to the projects destination (what the destination is), not how to get there.
+
+Well-defined goals are clear and specific (may need more feedback from the stakeholders).
+
+The project team and the stakeholders need to be understand the goal in the same way.
+
+If these goals can be well defined, so much the better. SMART does the,
+
+- Specific
+- Measurable
+- Achievable
+- Relevant
+- Time-bound
+
+* Backlinks
+- [[{{< ref "202109191630-project-initiation-components" >}}][Project initiation - components]]

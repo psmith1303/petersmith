@@ -1,0 +1,18 @@
+#+title: Project tools
+#+date: 2021-09-25T19:12:00+1300
+#+lastmod: 2021-09-25T19:12:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Tools
+
+Tools are aids that make it easier for a project manager or team to manage resources and organize work.
+
+The can help to:
+- Track tasks
+- Management budgets
+- Organize work
+- Provide visibility to others
+- Create helpful diagrams
+
+* Backlinks
+- [[{{< ref "202109251906-project-resources" >}}][Project resources]]
+- [[{{< ref "202109261134-introducing-project-tools-to-a-team" >}}][Introducing project tools to a team]]

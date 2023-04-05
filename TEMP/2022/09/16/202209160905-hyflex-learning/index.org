@@ -1,0 +1,7 @@
+#+title: Hyflex learning
+#+date: 2022-09-16T09:05:00+1300
+#+lastmod: 2022-09-16T09:05:00+1300
+#+categories[]: Zettels
+#+tags[]: Learning
+
+'hyflex learning' means "means that students can move between online and in-person instruction as they see fit (also referred to as multi-access or co-modal Learning)".

@@ -1,0 +1,16 @@
+#+title: Industries
+#+date: 2020-10-30T23:30:00+1300
+#+lastmod: 2020-10-30T23:30:00+1300
+#+categories[]: Zettels
+#+tags[]: Strategy
+
+"*Delineating industries*. An industry is defined as a group of firms making a similar type of product or employing a similar set of value-adding processes or resources. In other words, an industry consists of producers that are much alike–there is supply side similarity" (p. 238)
+
+When we talk about the demand side, we talking about [[{{< ref "202010302340-markets" >}}][markets]].
+
+* Backlinks
+- 
+
+* References
+de Wit, B., & Meyer, R. (2015). /BUSINESS 304: Strategic Management/ (P. Smith & L. Erakovic, Eds.; 1st ed.). Cengage Learning.
+

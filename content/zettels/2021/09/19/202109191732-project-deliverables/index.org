@@ -1,0 +1,15 @@
+#+title: Project deliverables
+!#+date: 2021-09-19T17:32:00+1300
+#+lastmod: 2021-09-19T17:32:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_managament
+
+The products or services that are created for the customer, client or project sponsor.
+
+The deliverables are what gets produced or presented at the end of a task, event, or process. Necessarily, these are tangible.
+
+Project deliverables help quantify and realize the impact of the project.
+
+
+* Backlinks
+- [[{{< ref "202109191630-project-initiation-components" >}}][Project initiation - components]]

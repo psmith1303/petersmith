@@ -1,0 +1,40 @@
+#+title: Trello
+!#+date: 2021-09-28T13:48:00+1300
+#+lastmod: 2021-09-28T13:48:00+1300
+#+categories[]: Zettels
+#+tags[]: Project_management Tools Trello
+
+
+* Description/Benefits
+A Kanban project management plaform.
+
+* Link to product website
+https://trello.com/
+
+* Link to course content in Coursera
+https://www.coursera.org/account/accomplishments/records/C9SYLTWSMZA8
+
+* Cost to use
+Free for:
+- Unlimited cards
+- Unlimited members
+- Up to 10 boards per Workspace
+- Unlimited Power-Ups per board
+- Unlimited storage (10MB/file)
+- 250 Workspace command runs per month
+- Custom backgrounds & stickers
+- Unlimited activity log
+- Assignee and due dates
+- iOS and Android mobile apps
+- 2-factor authentication
+
+* Requirements (training/equipment)
+
+* Current experience with the tool
+Beginner
+
+*  Notes
+
+* Backlinks
+- [[{{< ref "202109251912-project-tools" >}}][Project tools]]
+

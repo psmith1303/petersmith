@@ -1,0 +1,14 @@
+#+title: Index notes
+#+date: 2023-02-21T16:07:27+13:00
+#+lastmod: 2023-02-21T16:07:27+13:00
+#+categories[]: Zettels
+#+tags[]: Zettelkasten Notetaking
+
+Index notes, are where you collect similar notes together to create some sort of index of ideas. In this way structure begins to image from the individual ideas --- rather than the simple links between ideas.
+
+The index notes provide a structure for a topic or a concept. For example, my entry on the [[{{< ref "202302201536-zettelkasten" >}}][Zettelkasten method]] is something of a structure note.
+
+That said, index notes should reflect interests in broader topics such as Programming, Art, Music, Learning -- they are the big ideas that you are working with.
+
+******** Source
+- [[https://zk.zettel.page/types-of-notes][PKM Zettelkasten: Types of notes]]

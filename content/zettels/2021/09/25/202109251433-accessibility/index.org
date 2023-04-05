@@ -1,0 +1,15 @@
+#+title: Accessibility
+#+date: 2021-09-25T14:33:00+1300
+#+lastmod: 2021-09-25T14:33:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Accessibility
+
+Accessibility can be defined in a number of different ways. To me, it means actively removing any barriers that might prevent persons with disabilities from being able to access technology, information, or experiences, and levelling in the playing field so everyone has an equal chance of enjoying life and being successful.
+
+A disability is often defined as a physical or mental condition that substantially limits a major life activity, such as walking, talking, seeing, hearing, or learning.
+
+As a project manager, you are responsible for making sure a group of people can come together to achieve a common goal using shared tools and systems. In order to be successful, you need to make sure the infrastructure and culture you set up works for everyone.
+
+* Backlinks
+- [[{{< ref "202109111145-project-management" >}}][Project management]]
+

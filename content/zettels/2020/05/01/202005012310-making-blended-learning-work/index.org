@@ -1,0 +1,23 @@
+#+title: Making blended learning work
+#+date: 2020-05-01T23:10:00+1300
+#+lastmod: 2020-05-01T23:10:00+1300
+#+categories[]: Zettels
+#+tags[]: Learning
+
+Cleveland et al. \parencite[p. 6]{cleveland-innes_2018_GuideBlendedLearning} provide five things that need to be considered in order to make blended learning work. They are:
+
+
+1. Technology access: A critical first step is to know which resources are available to your students. Is there limited bandwidth, unreliable Internet connectivity, or lack of devices such as laptops or smartphones? Once you are clear about access, you can choose learning activities with the technology in ways that allow all to participate.
+
+2. Design: Creating the appropriate in-person and online activities means designing courses with the pedagogic principles of both and integrating technology in a way that supports meaningful learning.
+
+3. Safety and security: Create awareness of cyber-malice and ensure security interventions against unethical learning practices, academic dishonesty, identity theft and bullying are in place.
+
+4. Skill development, support and training: /Both students and instructors/ must have technological literacy and competence with technology applications.
+
+5. Motivation: Students need adequate motivation when engaging in a wide range of often shifting learning modalities, some of which may require significant skill development.
+
+
+* Backlinks
+  - [[{{< ref "202004292310-blended-learning" >}}][Blended learning]]
+  - [[{{< ref "202004292350-the-challenges-of-blended-learning" >}}][The challenges of blended learning]]

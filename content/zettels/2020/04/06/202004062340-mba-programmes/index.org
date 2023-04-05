@@ -1,0 +1,14 @@
+#+title: MBA programmes
+#+date: 2020-04-06T23:40:00+1300
+#+lastmod: 2020-04-06T23:40:00+1300
+#+categories[]: Zettels
+#+tags[]: Teaching MBA
+
+MBA prorgrammes are usually geared towards those with non-cognate degrees, say, Engineering who which to develop their managerial capabilities.
+
+Often they target those who are a few years out from their first degree.
+
+* Backlinks
+- [[{{< ref "20200406-2310-carter-2019-capstonecapstoneexperiential" >}}][MBA strategy capstone courses]]
+
+

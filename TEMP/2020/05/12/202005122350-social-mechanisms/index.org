@@ -1,0 +1,37 @@
+#+title: Social mechanisms
+#+date: 2020-05-12T23:50:00+1300
+#+lastmod: 2020-05-12T23:50:00+1300
+#+categories[]: Zettels
+#+tags[]: Theory
+
+"In Social Theory and Social Structure, Merton defines social mechanisms as "social processes having designated consequences for designated parts of the social structure" and argues that it constitutes the main task of sociology to "identify" mechanisms and to establish under which conditions they "come into being," "fail to operate," and so on (Merton 1968:43-44)." (Hedström & Swedberg, 1996,p.6).
+
+...
+
+"As suggested by Harre ( 1970), one key defining characteristic of an explanatory mechanism is the function it performs in an explanatory account" (Hedström & Swedberg, 1966, p.7).
+
+"Sometimes these mechanisms counteract one another, and sometimes they work together" (Hedström & Swedberg, 1966, p. 21).
+
+"[Mechanisms are] hypothetical causal models which make sense of individual behavior [and] have the form 'given certain conditions K, an agent will do because of [mechanism] M with x probability p." (Hedström & Swedberg, citing Gambetta, 1966, p.22)
+
+Mechanisms are used throughout social theory, although they are often implicit rather than explicit. They can---as in the case of Coleman's boat---connect macro-level phenomena to other macro-level phenomena, macro- to micro-phenomena, micro- to micro-phenomena, and micro- to macro-phenomena (Anderson, et al., 2006)
+
+Mechanisms explain how two "variables covary" (p. 103); they explain how "one thing leads to another" (Anderson, et al., 2006, p. 103).
+
+Importantly, "Mechanisms are not like the deterministic laws of physics in which certain inputs lead to certain outputs with no ifs, ands, or buts" (Anderson, et al., 2006, p. 104). They are a "sometimes-true" theory, or even a generally-true theory.
+
+
+"Mechanisms in a theory are defined here as bits of theory about entities at a different level (e.g. individuals) than the main entities being theorized about (e.g. groups), which make the higher-level theory supple, to serve more more general accurate, or more (Stinchcombe 1991:367)"  (Hedström & Swedberg, 1998,p.284).
+
+
+* Backlinks
+- [[{{< ref "202004302300-coleman-s-boat" >}}][Coleman's boat or bath tub]]
+
+* References
+
+Anderson, P. J. J., Blatt, R., Christianson, M. K., Grant, A. M., Marquis, C., Neuman, E. J., Sonenshein, S., & Sutcliffe, K. M. (2006). Understanding mechanisms in organizational research: Reflections from a collective journey. /Journal of Management Inquiry, 15/(2), 102–113. https://doi.org/10.1177/1056492605280231
+
+Hedström, P., & Swedberg, R. (1996). Social mechanisms. /Acta Sociologica, 39/(3), 281308. https://doi.org/10.1177/000169939603900302
+
+Hedström, P., & Swedberg, R. (1998). Social mechanisms: An introductory essay. In P. Hedström & R. Swedberg (Eds.), /Social mechanisms: An analytical aproach to social theory/ (pp. 131). Cambridge University Press; Cambridge Core. https://doi.org/10.1017/CBO9780511663901.001
+

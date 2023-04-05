@@ -1,0 +1,48 @@
+#+title: Project managers
+#+date: 2021-09-11T12:01:00+1300
+#+lastmod: 2021-09-11T12:01:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Project Managers shepherd projects from start to finish and serve as guides for their teach using their impeccable organizational and interpersonal skills every step of the way.
+
+Project Managers add value to the their team and to their organization.
+
+* They add value to their teams through:
+- Prioritization of tasks:
+  - Help team members break down larger tasks into smaller steps
+  - Prioritize the most critical steps by taking to team members and stakeholders
+- Delegation
+  - Add value to their teams by matching tasks to individuals who can best complete the work
+- Effective communication
+  - Add value thought effective communication with their team and with key stakeholders
+  - Being transparent
+  - Regularly update people
+
+* The add value to their organisations through:
+- Focusing on the customer (the person/organisation who defines the requirements of the project)
+  - Ask questions of the customer
+    - What problem needs solving?
+    - How does it impact the organization?
+    - What prompted you to  ask for help now?
+    - What is your hope for the outcome of the project?
+- Building a great team
+  - By understanding the requirements of the customers, they can identify the skills needed in the team
+  - Ensuring each team member knows they are valued, trusted, and appreciated.
+  - Allow team members to have input and ask questions
+  - Addressing team needs as soon as possible.
+- Fostering relationships and communication
+  - This is the basis upon which /focusing on the customer/ and /building a great team/ is based.
+  - Take time to build relationships, communicates, and treat others with consideration and respect.
+  - Check in with the team daily/regularly to see if there is anything they need help with
+- Managing projects
+  - Team members don't often see the whole project
+  - The project manager sees the impact of each process in the project and communicates those to the team
+- Breaking down barriers
+  - To allow the team to innovate, to find new ways to solve problems
+  - To reach out to others to help keep the team on track and on schedule
+
+
+* Backlinks
+- [[{{< ref "202109111145-project-management" >}}][Project management]]
+- [[{{< ref "202109111153-project-management-tasks" >}}][Project management tasks]]

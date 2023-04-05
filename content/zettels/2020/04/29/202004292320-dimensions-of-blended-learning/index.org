@@ -1,0 +1,31 @@
+#+title: Dimensions of blended learning
+#+date: 2020-04-29T23:20:00+1300
+#+lastmod: 2020-04-29T23:20:00+1300
+#+categories[]: Zettels
+#+tags[]: Teaching
+
+We can think of the dimensions of [[{{< ref "202004292310-blended-learning" >}}][blended learning]] learning as having two poles
+
+| /Pole/            |   |   |   |   |   | /Contrast/        |
+|-------------------+---+---+---+---+---+-------------------|
+| Fleeting know-how |   |   |   |   |   | Lasting knowledge |
+| Individual        |   |   |   |   |   | Community         |
+| Generic           |   |   |   |   |   | Propriety         |
+| Training          |   |   |   |   |   | Knowledge sharing |
+| Text              |   |   |   |   |   | Visual            |
+| Self-directed     |   |   |   |   |   | Guided navigation |
+| Content focus     |   |   |   |   |   | Experience focus  |
+| Exploring         |   |   |   |   |   | Participating     |
+| Push              |   |   |   |   |   | Pull              |
+| Personalized      |   |   |   |   |   | One-size-fits-all |
+| Skills            |   |   |   |   |   | Values            |
+| Information       |   |   |   |   |   | Transformation    |
+| Formal            |   |   |   |   |   | Informal          |
+
+Bonk, C. J., Graham, C. R., Cross, J., & Moore, M. G. (2005). /The handbook of blended learning: Global perspectives, local designs/. Center for Creative Leadership. http://ebookcentral.proquest.com/lib/auckland/detail.action?docID=700321
+
+
+* Backlinks
+
+- [[{{< ref "202004062350-six-types-of-learning" >}}][Six types of learning - Laurillard]]
+

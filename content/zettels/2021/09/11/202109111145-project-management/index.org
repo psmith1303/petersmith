@@ -1,0 +1,20 @@
+#+title: Project management
+#+date: 2021-09-11T11:45:00+1300
+#+lastmod: 2021-09-11T11:45:00+1300
+#+categories[]: Notes
+#+tags[]: Coursera Project_management
+
+* What is project management?
+- The management of a project (not the management of people /per se/)
+- The application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome
+
+* What is a project?
+- A unique endeavour, and usually includes a set of unique deliverables
+- A temporary pursuit; it has a defined beginning and end
+
+* The value of project management
+Project management is valuable to businesses because it helps ensure that a project delivers the expected outcomes
+
+
+* Backlinks
+- [[file:20210911-1201-project-managers" >}}][Project managers]]

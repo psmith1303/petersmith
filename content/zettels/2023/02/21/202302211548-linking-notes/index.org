@@ -1,0 +1,11 @@
+#+title: Linking notes together
+#+date: 2023-02-21T15:48:39+13:00
+#+lastmod: 2023-02-21T15:48:39+13:00
+#+categories[]: Zettels
+#+tags[]: Zettelkasten Notetabking
+
+Each note in a Zettelkasten has a unique identifier. In the case of this Zettelkasten, it is a combination of a datestamp and the title of the entry. E.g., this entry's identifier is /202302211548-linking-notes/.
+
+
+******** Source
+- [[https://zk.zettel.page/types-of-notes][PKM Zettelkasten: Types of notes]]

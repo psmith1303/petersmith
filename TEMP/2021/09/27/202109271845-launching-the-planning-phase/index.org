@@ -1,0 +1,26 @@
+#+title: Launching the planning phase
+#+date: 2021-09-27T18:45:00+1300
+#+lastmod: 2021-09-27T18:45:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Project plans don't have to be perfect the first time
+
+Three things are needed:
+1. The schedule
+2. The budget
+3. The risk management plan
+
+* Schedule
+The project timeline, which includes the start date, the end date, and the dates for events in between
+
+* Budget
+The budget accounts for the total cost to complete the project
+
+* Risk management
+Searching for possible problems related to the project and planning ahead of time to mitigate these risks
+
+
+* Backlinks
+- [[{{< ref "202109121929-project-phase-initiation" >}}][Project phase - initiation]]
+

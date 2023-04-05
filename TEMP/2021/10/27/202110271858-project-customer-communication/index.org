@@ -1,0 +1,22 @@
+#+title: Project customer communication
+#+date: 2021-10-27T18:58:00+1300
+#+lastmod: 2021-10-27T18:58:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Based on soft skills such as: Negotiation, Empathetic listening, and Trust Building
+
+It's important to ask open-ended questions and actively listen to understand the customer's current state versus their desired state and what might help them get from here to there.
+
+Set clear expectations about when you will communicate with customers.
+
+Exhibit empathy for your client
+- Understand their frustrations
+- Address those frustrations
+- Find a solution that's beneficial for both of you
+
+Get feedback from customers
+
+
+* Backlinks
+- [[{{< ref "202109121934-project-phase-execution" >}}][Project phase - execution]]

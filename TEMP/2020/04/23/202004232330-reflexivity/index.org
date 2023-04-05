@@ -1,0 +1,47 @@
+#+title: Reflexivity
+#+date: 2020-04-23T23:30:00+1300
+#+lastmod: 2020-04-23T23:30:00+1300
+#+categories[]: Zettels
+#+tags[]: Theory Learning
+
+According to Booth (2000), reflexivity may "be defined in this sense as a general scepticism towards one's own and others' knowledge or truth claims)". It is about questioning what one takes to be true (either explicitly or implicitly).
+
+Figure 1: A Taxonomy of Reflexivities
+
+- Mechanical Reflexivity:
+  - Knee-jerk reflexivity (reflexivity  as habitual response to
+    stimulus)
+  - Cybernetic loopiness (Reflexivity as property of feedback systems)
+  - Reflections ad infinitum (Reflexivity as Escherian loop or hall of mirrors)
+
+- Substantive Reflexivity:
+  - Systemic-reflexivity (Reflexivity as organizing principle in late modernity)
+  - Reflexive social construction (Reflexivity as property of intersubjective
+    relations)
+
+- Methodological Reflexivity:
+  - Philosophical self-reflection (Reflexivity as self-knowledge)
+  - Methodological self-consciousness(Reflexivity as aid to correcting bias)
+  - Methodological self-criticism (Reflexivity as communal or individual
+    critical
+  - Methodological self-congratulation (Reflexivity as property of specific
+    research programmes)
+
+- Meta-theoretical Reflexivity:
+  - Reflexive objectification (Reflexivity as detached hyper-objectivity)
+  - Standpoint reflexivity (Reflexivity as existential engagement with
+    marginalised standpoints)
+  - Breaking frame (Reflexivity as exposure of theatricality of
+    taken-for-granted reality)
+
+- Interpretative Reflexivity:
+  - Hermeneutic reflexivity (Reflexivity as toolkit for sociological
+    interpretation and exegesis)
+  - Radical referential reflexivity (Reflexivity as problematization of
+    representation and objectification)
+
+- Ethnomethodological Reflexivity:
+  - Ethnomethodological reflexivity (Reflexivity as everyday property of
+    networks of entities, practices and interactions)
+
+Source: Lynch (2000, p. 27-34)

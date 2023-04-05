@@ -1,0 +1,13 @@
+{{- define "main" -}}
+{{"<!-- _default/section.html -->" | safeHTML }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content | safeHTML}}
+  <h1>The Zettels in my Zettelkasten</h1>
+  In case it is needed, here is a complete list of all my notes
+  <!-- Now cycle through all the items here -->
+  {{- range .Pages.GroupByDate "2006" -}}
+      {{- partial "toc.html" . -}}
+  {{- end -}}
+</article>
+{{- end -}}

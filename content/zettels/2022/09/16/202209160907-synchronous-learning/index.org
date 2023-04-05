@@ -1,0 +1,7 @@
+#+title: Synchronous learning
+#+date: 2022-09-16T09:07:00+1300
+#+lastmod: 2022-09-16T09:07:00+1300
+#+categories[]: Zettels
+#+tags[]: Learning
+
+Synchronous learning means "instruction takes place in real-time and requires student presence (in-person or virtual) at a set time".

@@ -1,0 +1,17 @@
+#+title: Types of capstone courses
+#+date: 2020-04-09T23:20:00+1300
+#+lastmod: 2020-04-09T23:20:00+1300
+#+categories[]: Zettels
+#+tags[]: Teaching Capstones
+
+One of the 'models' of capstone projects I like describes three varieties of [[{{< ref "202004062300-capstone-courses" >}}][capstone courses]]: The mountain top, the magnet, and the mandate.
+
+"Mountaintops refer to capstone experiences that are interdisciplinary or multidisciplinary, in which students from two (or more) disparate majors ascend to the capstone experience from different, unique disciplinary perspectives, coming together at the summit; essentially, this is a capstone experience that makes use of the rich diversity of disciplines."
+
+"Magnets refer to capstone experiences that are discipline-specific and that, like a magnet attracting precious metal, pull together the richness of content from the discipline in a summative manner."
+
+"Mandates refer to capstone experiences that are organized around meeting the needs of an external constituency, typically when licensure, certification, or other circumstances require that competences be mastered and demonstrated in a summative manner."
+
+
+*** References
+Assessment Update. (2004). /Assessment Update, 16/(1), 1-16. https://doi.org/10/cc42t9

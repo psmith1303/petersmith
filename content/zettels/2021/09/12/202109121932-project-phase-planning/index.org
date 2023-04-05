@@ -1,0 +1,36 @@
+#+title: Project phase - planning
+#+date: 2021-09-12T19:32:00+1300
+#+lastmod: 2021-09-12T19:32:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management
+
+Make a plan to get your project from start to finish.
+
+- Create a detailed project plan.
+- What are the major milestones?
+- What tasks or deliverables make up each milestone?
+- Build out the schedule so you can properly manage the resources, budget, materials, and timeline.
+- Create an itemized budget.
+
+*[[{{< ref "202110031202-project-milestones" >}}][Project milestones]]*: An important point within the project schedule that indicates progress and usually signals the completion of a deliverable or phase of the project.
+
+*Project Tasks*: An activity that needs to be accomplished within a set period of time (to help reach those milestones).
+
+  
+* Benefits
+- Understand the work needed to achieve the goals
+- Coordinate efforts and timelines with other teams, contractors, and vendors
+- Identify and prepare for risks
+- Get buy-in from key members of the project team
+- Demonstrates to stakeholders that the team is taking care to start the project with a detailed plan
+- Planning together gets everyone to be on board and engaged as a team
+
+* Steps
+:PROPERTIES:
+:ID:       41dffb89-d7e4-4bf7-8c30-de359d5ae0ac
+:END:
+1. [[{{< ref "202109271845-launching-the-planning-phase" >}}][Launching the planning phase]]
+2. [[{{< ref "202109271858-project-kick-off-meeting" >}}][Project kick-off meeting]]
+
+* Backlinks
+- [[{{< ref "202109121327-project-life-cycle" >}}][Project life cycle]]

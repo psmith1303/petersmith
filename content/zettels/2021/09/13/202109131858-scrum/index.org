@@ -1,0 +1,67 @@
+#+title: Scrum
+#+date: 2021-09-13T18:58:00+1300
+#+lastmod: 2021-09-13T18:58:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Scrum
+
+Scrum is an Agile framework that focuses on developing, delivering, and sustaining complex projects and products through collaboration, accountability, and an iterative process. Work is completed by small, cross-functional teams led by a Scrum Master and is divided into iterative incremental short Sprints with a set list of deliverables.
+
+Scrum was codified and put into use around 1995.
+
+The *Scrum Guide* is the main source of truth for Scrum Teams and is available for free at Scrumguides.org
+
+Note: agile is the foundational philosophy and mindset, while Scrum is a framework that materializes or brings that philosophy to life.
+
+* Key concepts
+** Backlog
+The Backlog is the central *authoritative* artifact in Scrum, where all possible ideas, deliverables, features, or tasks are captured for the team to work on. It's prioritized and proactively managed by the team continuously throughout the life of the project.
+- Product features
+- Product requirements
+- Activities associated with product deliverables
+
+** Sprint
+The Sprint is the name of the time-boxed period in Scrum where work is done. This Sprint can be between one and four weeks long, but most Sprints are around two weeks. This is often called the "iteration." A set of increments leads to the next instance of the 'product'. Each instance and increment is understood as a mini-experiment.
+
+** Daily scrum or Stand-up
+This is where the team meets for 15 minutes or less every day of the Sprint to inspect their progress toward their goal.
+
+** Team Mission
+A short statement that stays constant for the team throughout the process and gives them something to work towards.
+
+** Product vision
+The product vision makes it clear what the team is responsible for, and where the team's boundaries are.
+
+* Roles
+** Scrum master
+This role is responsible for ensuring that the team lives Agile values and principles, follows the processes and practices that the team agreed to, sharing information to the larger project team, and they also help the team focus on doing their best work.
+
+** Product owner
+The Product Owner is responsible for maximizing the value of the product and the work of the team. The Product Owner owns the inventory of work and has the final say on how to prioritize the work.
+
+** The development team
+The Development Team is responsible for how a team will deliver that product.
+
+* The popularity of Scrum
+- It has clear roles and responsibilities for the folks on the team while continuously emphasizing the power of the team as a whole.
+- Scrum has very regular and predictable meetings and delivery schedules with predefined agendas and outcomes for the meetings, making it easy to teach new team members.
+- It supports and reinforces the Agile values and principles while adding some structure and foundations that help new Agile teams get started and more experienced teams get better.
+- It's all free and open for all to use. There's also a huge amount of guidance and support online, as well as Scrum-specific training and certifications.
+
+** When to use Scrum
+- a Scrum team should be cross-functional, with around three to nine team members. Some call this a "pizza-size team" because it has the same amount of people who could share a large pizza.
+- If the team is too small, you might not have the diversity of skills to get work done.
+- If the team is too large, it gets hard to distribute information.
+- Scrum works best for projects where the team and management are open-minded, adaptable, and value continuously learning how to be a better team.
+
+
+* Backlinks
+- [[{{< ref "202109261512-scrum-founding-principles" >}}][Scrum - Founding principles]]
+- [[{{< ref "202109291903-scum-roles" >}}][Scum - Roles]]
+- [[{{< ref "202109131850-agile-project-management" >}}][Agile project management]]
+- [[{{< ref "202109121956-project-management-methodology" >}}][Project management methodology]]
+
+* References                                                         :ATTACH:
+:PROPERTIES:
+:ID:       55810bea-632c-4601-9d05-522a843d8f93
+:END:
+See the attached Scum guides

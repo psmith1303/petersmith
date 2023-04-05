@@ -1,0 +1,17 @@
+#+title: Scrum - Sprint planning
+#+date: 2021-10-02T12:11:00+1300
+#+lastmod: 2021-10-02T12:11:00+1300
+#+categories[]: Zettels
+#+tags[]: Coursera Project_management Scrum
+
+The entire Scrum Teach comes together and meets to confirm how much capacity (time and people) are available during this Sprint. This becomes the Sprint Backlog and the ultimately the Sprint Goal.
+
+* Sprint Backlog
+The set of Product Backlog items that are identified for completion during the upcoming Sprint.
+
+* Spring Goal
+The Sprint goal is the overarching objective that the team aims to achieve and helps the team understand the why of the Sprint.
+
+* Backlinks
+- [[{{< ref "202110021152-scrum-sprints" >}}][Scrum - Sprints]]
+-
