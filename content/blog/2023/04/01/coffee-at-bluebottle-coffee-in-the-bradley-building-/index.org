@@ -1,10 +1,13 @@
-#+title: Coffee at Bluebottle Coffee in the Bradley Building. 
+#+title: Coffee at Bluebottle Coffee in the Bradley Building
 #+date: 2023-04-01T10:30:59-0700
 #+lastmod: 2023-04-01T10:30:59-0700
 #+categories[]: Check-ins
-#+tags[]:  Coffee
+#+tags[]:  Coffee Travel LosAngeles
 
-Famous for Bladerunner
+
+We went to Downtown LA to do a bit of sightseeing, etc, and had excellent cortados from Bluebottle Coffee.
+
+Of note, the cafe is in the Bradley Building, which featured in Bladerunner. The building has been done up rather nicely and seems like a rather exclusive haunt.
 
 # more
 {{< gallery2 >}}
