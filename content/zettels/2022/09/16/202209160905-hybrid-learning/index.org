@@ -1,7 +1,0 @@
-#+title: Hybrid learning
-#+date: 2022-09-16T09:05:00+1300
-#+lastmod: 2022-09-16T09:05:00+1300
-#+categories[]: Zettels
-#+tags[]: Learning
-
-'Hybrid learning' means "a blend of online and in-person instruction (online instruction is synchronous or asynchronous)".

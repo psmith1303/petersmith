@@ -1,7 +1,0 @@
-#+date: 2020-04-26T23:40:00+1300
-#+title: Diffused-mode thinking
-#+lastmod: 2020-04-26T23:40:00+1300
-#+categories[]: Zettels
-#+tags[]: Learning
-
-This mode of thinking is used when one is thinking of/working on something new; the neural pathways are yet to be well established. One cannot do diffused-mode thinking at the same time as [[{{< ref "202004262350-focused-mode-thinking" >}}][focused-mode thinking]].

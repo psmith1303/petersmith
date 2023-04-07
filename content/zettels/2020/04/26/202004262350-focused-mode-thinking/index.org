@@ -1,7 +1,0 @@
-#+title: Focused-mode thinking
-#+date: 2020-04-26T23:50:00+1300
-#+lastmod: 2020-04-26T23:50:00+1300
-#+categories[]: Zettels
-#+tags[]: Learning
-
-This is when the brain is using well-know (well-trod) neural pathways ways. It is thinking that is done when attending to something familiar. This mode of thinking cannot be done at the same time as [[{{< ref "202004262340-diffused-mode-thinking" >}}][diffused-mode thinking]].
