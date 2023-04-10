@@ -5,14 +5,11 @@
 #+tags[]:  Coffee Food
 
 A lovely Easter coffee and sweet pastries.
- 
+
 # more
 
 It was surprising to find this place---a full bakery---on one of the poshest streets in Zürich (Bahnhof Strasse), alongside shops like Dior, Van Cleef 8 Arples, and so on. They have their own flour, that is milled here in Switzerland. All in all, an impressive opeation
 
 Maybe that is why it is so popular.
 
-
 {{< gallery2 >}}
-
-
