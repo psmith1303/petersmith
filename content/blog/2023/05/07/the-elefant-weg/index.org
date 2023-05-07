@@ -1,0 +1,13 @@
+#+title: The Elefant weg
+#+date: 2023-05-07T11:08:52+0200
+#+lastmod: 2023-05-07T11:08:52+0200
+#+categories[]: Check-ins
+#+tags[]:  Walk
+
+
+
+A stroll in the woods around Zürich. 
+# more
+{{< gallery2 >}}
+
+
