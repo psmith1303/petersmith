@@ -15,14 +15,6 @@ Other things are sort of hanging off that big endeavour.
 # more
 
 * Travel plans
-- +HICSS56 3rd--6th January 2023 in Maui.+
-
-  +The oldest and most popular conferences on Service Science. This was a good conference, I can see why it is the biggest. The venue was pretty good too.+
-
-- +Process workshop at the University of Queensland, 14th February 2023 in Brisbane.+
-
-  +This was a great session with [[https://scholar.google.fi/citations?user=N_Dy1J8AAAAJ][Ann]] [[https://en.wikipedia.org/wiki/Ann_Langley][Langley]], and [[https://scholar.google.fi/citations?user=jofbUSsAAAAJ][Paula Jarzabkowski]]+
-
 - Visit to the University of Zurich
 
   From April to August, I'll be visiting with [[https://www.business.uzh.ch/en/research/professorships/om/team/staff/seidl.html][David]] [[https://scholar.google.cz/citations?user=vdrx0DIAAAAJ][Seidl]] and his research group at the [[https://www.uzh.ch/en.htm][Univserity of Zurich]].
@@ -40,23 +32,26 @@ Other things are sort of hanging off that big endeavour.
   This will be my first time at AoM. Normally, it would clash with my teaching obligations, but this year, as I'm on Research and Study leave ...
 
 * Research projects
-1. The comminication of science  - Submitted
-2. Instructional design for interdisciplinary learning (AoM)
+1. The comminication of science  - Rejected, reworking for resubmission
+2. Instructional design for interdisciplinary learning (AoM) - submitted
 3. DAOs, Open-strategy, and trust (EGOS)
-4. Orchestrating multi-sided platforms (TBC)
-5. Thoughtworlds (HR)
+4. Orchestrating multi-sided platforms (Journal of Information Technology)
+5. Thoughtworlds (Human Relations)
 6. Wayfinding and internationalisation (Oxford Professional Service conference)
-7. Multiple commitments and IWB
+7. +Multiple commitments and+ Inovative Work Behaviours
 
 * Activities
 - (re)Learning German.
 
 * Watching
-- The White Lotus
-  We held off watching this until after our trip (conference and holiday) to Maui and Honolulu.
-- Only connect
-  I can rarely answer the questions, but the programme makes me feel smarter :)
+- Beef
+  I thought this was going to be more fun. But being a 'completist' I'll see it through.
+- Anatomy of a scandal
 
-* Listening
-- Bach Partitas Nos. 1--6 on the piano by Igor Levit
-  I 'discovered' these through [['][Dana Stevens]] at the [[https://slate.com/podcasts/culture-gabfest/2023/01/m3gan-is-camp-but-is-it-good-plus-the-annual-slate-movie-club-and-how-tiktok-is-shaping-our-culture][Slate Culture Gabfest]]. Well, not this particular recording, but the piano version of the partitas.
+* Listening to
+- My own playlist of what I like to most
+
+* Reading
+- Graham Allcott --- How to be a productivity ninja: Worry less, achieve more and love what you do
+- A. C. Grayling --- The frontiers of knowledge: What we know about science, history and the mind
+  I am mainly reading this for the last section on the mind and cognitive neuroscience.
