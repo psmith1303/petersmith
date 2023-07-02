@@ -1,0 +1,13 @@
+#+title: Deep learning
+#+date: 2023-07-02T09:37:32+02:00
+#+lastmod: 2023-07-02T09:37:32+02:00
+#+categories[]: Teaching
+#+tags[]: Learning 
+
+This [[https://www.downes.ca/post/75380][post by Stephen Downes]] took me to this [[https://blog.tcea.org/interactive-touch-screens/][piece on the adoption of interactive touchscreens]]. I won't repeat much (if anything) of what was said there, but led (via a tweet) to this diagram on deep learning created by [[https://www.impact.wales/][Impact Wales]]. What a chain of links! There is so much 'curation' of content going on here.
+
+But my point was that the digram is very useful, such that I wanted to keep a record of it.
+
+
+{{< figure src="2023-07-02 Deep Learning -- linked figures.jpg" caption="Promoting deep learning" >}}
+
