@@ -11,3 +11,17 @@ But my point was that the digram is very useful, such that I wanted to keep a re
 
 {{< figure src="2023-07-02 Deep Learning -- linked figures.jpg" caption="Promoting deep learning" >}}
 
+
+# more
+
+But to return to the topic of the chain of links, there is so much 'curation' of content going on here. This fact prompts two thoughts, one about old technology and one about new technology. First, RSS feeds. Stephen also pointed to this piece on [[https://www.theverge.com/23778253/google-reader-death-2013-rss-social][Who killed Google Reader]] (the excellent RSS reader that met an untimely, and some would say unwarranted, demise). RSS with Reader was meant to "become the world’s best collaborative and intelligent web content delivery service". In other words, it was meant to enable the sort of curation that led me to the deep learning image.
+
+Second, and much more contemporary, this sort of chaining is something we're seeing AI (in the form of chaptGPT, Bard, etc) working towards. For example, Google is now talking about when you ask it a question (which is what most of us do, I think, when we use Google), it will present a synthesized answer from all the links it has; i.e., a paragraph that answers the question. One can then ask Google to 'unpack' the answer, in which case it will provide the links to the main sources it used to create the answer. As an aside, I'm not pretending that's unproblematic, I'm just parking for issues for now.
+
+Either way, this ability to chain content together seems like a form of deep learning to me.
+
+
+
+
+
+
