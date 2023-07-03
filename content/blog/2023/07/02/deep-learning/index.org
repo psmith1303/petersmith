@@ -8,11 +8,10 @@ This [[https://www.downes.ca/post/75380][post by Stephen Downes]] took me to thi
 
 But my point was that the digram is very useful, such that I wanted to keep a record of it.
 
+# more
 
 {{< figure src="2023-07-02 Deep Learning -- linked figures.jpg" caption="Promoting deep learning" >}}
 
-
-# more
 
 But to return to the topic of the chain of links, there is so much 'curation' of content going on here. This fact prompts two thoughts, one about old technology and one about new technology. First, RSS feeds. Stephen also pointed to this piece on [[https://www.theverge.com/23778253/google-reader-death-2013-rss-social][Who killed Google Reader]] (the excellent RSS reader that met an untimely, and some would say unwarranted, demise). RSS with Reader was meant to "become the world’s best collaborative and intelligent web content delivery service". In other words, it was meant to enable the sort of curation that led me to the deep learning image.
 
