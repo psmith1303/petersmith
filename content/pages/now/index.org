@@ -11,17 +11,16 @@ My [[{{< ref "about-me" >}}][About Me]] page provides a thumbnail sketch of who 
 
 The biggest thing is that I'm now on Research and Study Leave (RSL/sabbatical) for a year (until 23 January 2023). So much of what I'm doing now---work wise---is about my research projects.
 
-Other things are sort of hanging off that big endeavour.
 # more
 
 * Travel plans
 - +Visiting colleagues at Manchester University, St Andrews University, and Heriot Watt University.+
   
-- [[https://aom.org/events/annual-meeting][+Academy of Management Annual General Meeting]] (AoM), 4th--8th August 2023 in Boston.+
+- +[[https://aom.org/events/annual-meeting][Academy of Management Annual General Meeting]] (AoM), 4th--8th August 2023 in Boston.+
 
 +This will be my first time at AoM. Normally, it would clash with my teaching obligations, but this year, as I'm on Research and Study leave ...+
 
-I am now back in New Zealand. No more academic travel until I go to ANZAM in December.
+I am now back in New Zealand.
 
 I also hope to take a short break before then to visit family in Australia.
 
@@ -36,17 +35,17 @@ I also hope to take a short break before then to visit family in Australia.
 
 * Activities
 - (re)Learning German. Even though I have returned from Switzerland, I am continuing with learning German.
+- Tidying up the garage (non-trivial); seeing what we don't really need.
 
 * Watching
-- +Beef+
-  I thought this was going to be more fun. But being a 'completist' I'll see it through.
-- Anatomy of a scandal
-- The Great
+- The Great (I watch this when I am doing my ironing).
+- Some cosy crime (Death in Provence)
 
 * Listening to
 - My own playlist of what I like to most
+- Re-recording all my CDs. When I first started doing it them, I did pretty low quality MP3 recordings. Now I am redoing them all as FLAC files. The hard part will be re-integrating them into iTunes (probably as ALAC files).
 
 * Reading
-- +Graham Allcott --- How to be a productivity ninja: Worry less, achieve more and love what you do+
+- +Richard Osman --- The Bullet That Missed+
 - A. C. Grayling --- The frontiers of knowledge: What we know about science, history and the mind
   I am mainly reading this for the last section on the mind and cognitive neuroscience.
