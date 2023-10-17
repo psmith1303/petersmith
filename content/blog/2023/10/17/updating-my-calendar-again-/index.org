@@ -4,7 +4,7 @@
 #+categories[]: Tech
 #+tags[]: emacs wsl orgmode exchange
 
-I have written a [[{{< ref "calendars-with-ms-exchange-and-orgmode" >}}][a few]] [[{{< ref "calendars-and-ms-exchange-again" >}}][times]] about importing Fastmail calendars into orgmode.
+I have written a [[{{< ref "calenders-with-ms-exchange-and-org-mode" >}}][a few]] [[{{< ref "calendars-and-ms-exchange-again" >}}][times]] about importing Fastmail calendars into orgmode.
 
 This week, I have been reworking it; I had move to using Exchange/Outlook for my calendaring again, but whilst on RSL/sabbatical, I walked away from that approach, and returned to having my calendar in Fastmail and importing the details into [[{{< ref "/tags/orgmode/" >}}][orgmode]].
 
