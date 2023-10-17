@@ -1,0 +1,36 @@
+#+title: Updating my calendar (again)
+#+date: 2023-10-17T16:16:47+13:00
+#+lastmod: 2023-10-17T16:16:47+13:00
+#+categories[]: Tech
+#+tags[]: emacs wsl orgmode exchange
+
+I have written a [[{{< ref "calendars-with-ms-exchange-and-orgmode" >}}][a few]] [[{{< ref ¨calendars-and-ms-exchange-again" >}}][times]] about importing Fastmail calendars into orgmode.
+
+This week, I have been reworking it; I had move to using Exchange/Outlook for my calendaring again, but whilst on RSL/sabbatical, I walked away from that approach, and returned to having my calendar in Fastmail and importing the details into orgmode.
+
+
+# more
+
+All pretty good, but for so unknown reason, I resorted to using Windows' Task-scheduler to launch the import every hour. Not fun, as it pops up a window (and grabs the focus) whenever the script runs.
+
+So, back to using ~cron~ under WSL.
+
+First, I made sure that cron could be started by anyone. So a quick ~sudo visudo~ to make sure it had a line like this:
+
+#+BEGIN_SRC
+
+  %sudo ALL=NOPASSWD: /usr/sbin/service cron start
+
+#+END_SRC
+
+Then I set up task to run the command ~C:\Windows\System32\wsl.exe~ with the options ~sudo /usr/sbin/service cron start~ when the PC starts up.
+
+Finally, I edited my crontab (~crontab -e~) and put in the following line to run the my import script between 06:00 and 17:00 every 50 minutes.
+
+#+BEGIN_SRC
+
+  50 6-17 * * * /mnt/c/Users/psmith/Dropbox/psmith/bin/getFastmailCalendar.sh > /dev/null 2>&1
+
+#+END_SRC
+
+Now I am watching ~top~ to make sure the script runs :)
