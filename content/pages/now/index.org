@@ -14,15 +14,9 @@ The biggest thing is that I'm now on Research and Study Leave (RSL/sabbatical) f
 # more
 
 * Travel plans
-- +Visiting colleagues at Manchester University, St Andrews University, and Heriot Watt University.+
-  
-- +[[https://aom.org/events/annual-meeting][Academy of Management Annual General Meeting]] (AoM), 4th--8th August 2023 in Boston.+
-
-+This will be my first time at AoM. Normally, it would clash with my teaching obligations, but this year, as I'm on Research and Study leave ...+
-
 I am now back in New Zealand.
 
-I also hope to take a short break before then to visit family in Australia.
++I also hope to take a short break before then to visit family in Australia.+ This will how happen in the new year
 
 * Research projects
 1. Instructional design for interdisciplinary learning (AoM) - R&R in process
@@ -30,22 +24,21 @@ I also hope to take a short break before then to visit family in Australia.
 3. The comminication of science. This was reject and is now being reworked to address its shortcomings.
 4. Thoughtworlds (Human Relations)
 5. Wayfinding and internationalisation
-6. +DAOs, Open-strategy, and trust (EGOS)+
-7. +Multiple commitments and+ Inovative Work Behaviours
+6. Planning for what I will do for EGOS 2024 in Milan
 
 * Activities
 - (re)Learning German. Even though I have returned from Switzerland, I am continuing with learning German.
-- Tidying up the garage (non-trivial); seeing what we don't really need.
+
 
 * Watching
-- The Great (I watch this when I am doing my ironing).
-- Some cosy crime (Death in Provence)
+- Some cosy crime (Shetaland; is that really cosy)
 
 * Listening to
 - My own playlist of what I like to most
-- Re-recording all my CDs. When I first started doing it them, I did pretty low quality MP3 recordings. Now I am redoing them all as FLAC files. The hard part will be re-integrating them into iTunes (probably as ALAC files).
+- +Re-recording all my CDs. When I first started doing it them, I did pretty low quality MP3 recordings. Now I am redoing them all as FLAC files. The hard part will be re-integrating them into iTunes (probably as ALAC files).+
+- Tagging all my [[https://absolutelybaching.com/music-articles/the-axioms-of-classical-music-tagging/][classical music]] correctly, and so listening to a lot of classics.
 
 * Reading
-- +Richard Osman --- The Bullet That Missed+
-- A. C. Grayling --- The frontiers of knowledge: What we know about science, history and the mind
-  I am mainly reading this for the last section on the mind and cognitive neuroscience.
+- +A. C. Grayling --- The frontiers of knowledge: What we know about science, history and the mind
+  I am mainly reading this for the last section on the mind and cognitive neuroscience.+
+- The joys of [[https://libbyapp.com/library/auckland][Libby]]; listening to too many audio books ::smile::
