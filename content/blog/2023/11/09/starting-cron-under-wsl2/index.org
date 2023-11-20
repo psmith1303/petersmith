@@ -1,0 +1,36 @@
+#+title: Starting cron under wsl2
+#+date: 2023-11-09T08:49:31+13:00
+#+lastmod: 2023-11-09T08:49:31+13:00
+#+categories[]: Tech
+#+tags[]: wsl cron
+
+There are a lot of "recipes" out there for how to start ~cron~ under ~wsl~ when a Windows PC starts up. I won't bore you with why I wanted to do that. Suffice to say, the recipes didn't work for me. But eventually, I found a way.
+
+# more
+
+The recipes have two parts to them. First set things up so any user under WSL can start the ~cron~ service. This means editing ~/etc/sudoers~ and adding a line like:
+
+#+BEGIN_QUOTE
+  %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service cron start
+#+END_QUOTE
+
+The second step revolves around setting up a task in Window's ~taskmgr~ to run on system boot up. This task wouldn't work for me ... it would run and fail. The recipes set things up to lauch the following command.
+
+#+BEGIN_SRC bash
+  C:\Windows\System32\wsl.exe /usr/sbin/service cron start
+#+END_SRC
+
+But that produced an error for me. E.g.,
+
+#+BEGIN_SRC bash
+  C:\Windows\System32\wsl.exe /usr/sbin/service cron start
+
+  Starting periodic command scheduler: croncron: can't open or create /var/run/crond.pid: Permission denied failed!
+#+END_SRC
+
+What I found was that I needed to explicitly use the ~sudo~ command to start the ~service~ command. Changing the ~taskmgr~ job to the following resulted in success. Yay!
+
+
+#+BEGIN_SRC bash
+  C:\Windows\System32\wsl.exe /usr/bin/sudo /usr/sbin/service cron start
+#+END_SRC

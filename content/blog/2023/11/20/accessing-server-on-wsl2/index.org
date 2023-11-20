@@ -1,0 +1,33 @@
+#+title: Accessing a server running under WSL2
+#+date: 2023-11-20T19:56:27+13:00
+#+lastmod: 2023-11-20T19:56:27+13:00
+#+categories[]: Tech 
+#+tags[]: wsl2 docker
+
+I wanted to tidy away a server and mover to using docker containers under WSL. That's a story for another day.
+
+But when I have a server running in my docker container, that I can happily access via https://localhost:9443, how do I access it from the local LAN. I.e., use https://example.com:9443
+
+There is a lot [[https://learn.microsoft.com/en-us/windows/wsl/networking][written]] on [[https://superuser.com/questions/1758109/accessing-a-wsl-2-distribution-from-your-local-area-network-lan][this]] and the [[https://github.com/microsoft/WSL/issues/10494][problems associated with it].
+
+What to do.
+
+# more
+
+There are [[https://www.reddit.com/r/bashonubuntuonwindows/comments/13xtjt9/wsl2_unable_to_access_application_running_in_wsl2/][scripts]] that never quite worked for me.
+
+One of the problems is that WSL2 gets a new IP address with each reboot.  Arrgh!.
+
+My simple solution was to proxy traffic that comes to the target port to the localhost (and thence automagically to WSL2), like this.
+
+Using ~powershell~ in Administration mode I did this proxy:
+
+#+BEGIN_SRC bash
+  netsh interface portproxy add v4tov4 listenport=9443 listenaddress=0.0.0.0 connectport=9443 connectaddress=127.0.0.1
+#+END_SRC
+
+Great. On my machine running WSL (example.com), I can now access the server as https://example.com:9443.
+
+All I need to do is to expose that port now, so that systems on local LAN can get through Windows Firewall. Back in ~powershell~ I run ~wf~ and set a rule to allow access to port 9443 on this machine (example.com).
+
+Yay! It all works.
