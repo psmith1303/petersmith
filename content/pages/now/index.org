@@ -14,31 +14,34 @@ The biggest thing is that I'm now on Research and Study Leave (RSL/sabbatical) f
 # more
 
 * Travel plans
-I am now back in New Zealand.
+I am now back in New Zealand having spent most of last year travelling as part of my sabbatical/Research and Study Leave.
 
-+I also hope to take a short break before then to visit family in Australia.+ This will how happen in the new year
+This year I hope to go to:
+
+- Brisbane for a workshop
+- Byron Bay, to see relatives
+- Zurich, to catch up with colleagues and attend an Open Strategy Workshop
+- Milan, for the EGOS Conference
+- Istanbul (very unlikely) for the SMS conference.
+
 
 * Research projects
-1. Instructional design for interdisciplinary learning (AoM) - R&R in process
-2. Orchestrating multi-sided platforms (Journal of Information Technology)
-3. The comminication of science. This was reject and is now being reworked to address its shortcomings.
-4. Thoughtworlds (Human Relations)
-5. Wayfinding and internationalisation
-6. Planning for what I will do for EGOS 2024 in Milan
+1. Orchestrating multi-sided platforms (Journal of Information Technology)
+2. The comminication of science. This was reject and is now being reworked to address its shortcomings.
+3. Thoughtworlds (Human Relations)
+4. Wayfinding and internationalisation
+5. Revises EGOS paper on Open Strategy and boundary-crossing
+
 
 * Activities
-- (re)Learning German. Even though I have returned from Switzerland, I am continuing with learning German.
+- Learning backgammon
 
 
 * Watching
-- Some cosy crime (Shetaland; is that really cosy)
+- Some cosy crime
 
 * Listening to
 - My own playlist of what I like to most
-- +Re-recording all my CDs. When I first started doing it them, I did pretty low quality MP3 recordings. Now I am redoing them all as FLAC files. The hard part will be re-integrating them into iTunes (probably as ALAC files).+
-- Tagging all my [[https://absolutelybaching.com/music-articles/the-axioms-of-classical-music-tagging/][classical music]] correctly, and so listening to a lot of classics.
 
 * Reading
-- +A. C. Grayling --- The frontiers of knowledge: What we know about science, history and the mind
-  I am mainly reading this for the last section on the mind and cognitive neuroscience.+
 - The joys of [[https://libbyapp.com/library/auckland][Libby]]; listening to too many audio books ::smile::

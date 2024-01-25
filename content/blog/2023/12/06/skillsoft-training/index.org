@@ -1,0 +1,20 @@
+#+title: Skillsoft training
+#+date: 2023-12-06T13:55:21+13:00
+#+lastmod: 2023-12-06T13:55:21+13:00
+#+categories[]: Tech
+#+tags[]: docker aws skillsoft codeacademy
+
+Here at the University of Auckland, we have access to the library of courses and training from Skillsoft. Browsing through the immense catalogue, I notice a short course (30 minutes or so) on containerised application. So, I thought I would give it ago.
+
+{{< figure src="bbayptof_1701824543465_badge.png" caption="AWS SysOps Associate 2021: Application Containers badge" >}}
+
+# more
+
+You can see that the full name of the course was *AWS SysOps Associate 2021: Application Containers*. Overall, it was pretty straightforward.
+
+
+Well, I say that; the course is based on docker, and I have been using ~docker~ for sometime. Consequently, what was talked about in the course wasn't that new to me (other than using the *AWS* services to run containers). I'm not sure I would have felt that way if I hadn't already been a ~docker~ user.
+
+The course was of the "chalk and talk" variety; there was no interaction, let alone "No try this yourself". From that perspective it wasn't engaging.
+
+Nevertheless, I learnt enough to get the badge :)

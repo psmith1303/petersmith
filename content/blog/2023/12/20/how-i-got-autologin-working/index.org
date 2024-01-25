@@ -1,0 +1,47 @@
+#+title: How I got autologin working
+#+date: 2023-12-20T19:56:30+13:00
+#+lastmod: 2023-12-20T19:56:30+13:00
+#+categories[]: Tech
+#+tags[]: raspberry 
+
+It's a long story, but at the end of the day, I wanted a little raspberry pi 4B, to auto login and run a script (on the console only).
+
+This is how I got it going.
+
+# more
+
+First, I modified ~root~'s ~.bashrc~ file to have this line that runs a script when I login on the console.
+
+#+BEGIN_SRC shell
+
+  # If I'm on the console then run the start.sh scrip
+  #
+  #
+  [ `tty` == /dev/tty1 ] && /root/start.sh
+
+#+END_SRC
+
+Great. I can test that it works, and it does.
+
+Next, in the directory ~/etc/systemd/system/getty@tty1.service.d~ The directory may or may not exist, so create it if needed.
+
+Then create I create a file called ~override.conf~ in that directory, with the following content.
+
+#+BEGIN_SRC shell
+
+  [Service]
+  ExecStart=
+  ExecStart=-/sbin/agetty --autologin root --noclear %I 38400 linux
+
+#+END_SRC
+
+I can test is the auto login works (without rebooting), by executing the commands:
+
+#+BEGIN_SRC shell
+
+  systemctl daemon-reload
+  systemctl restart getty@tty1.service
+
+#+END_SRC
+
+If that all works, then it's time to reboot ... and hopefully, job done. I but no, it's broken. Back to the drawing board :(
