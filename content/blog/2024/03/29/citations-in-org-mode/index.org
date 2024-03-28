@@ -6,7 +6,7 @@
 
 A fair amount of my writing requires citations (typically using APA formatting).
 
-Because I used to use ~reftex~ (such that it's now a habit) I have set ~C-c (~ to insert a citation by calling ~citar-insert-citation~. This inserts a link like [cite:@whittington_taking_2003] 
+Because I used to use ~reftex~ (such that it's now a habit) I have set ~C-c (~ to insert a citation by calling ~citar-insert-citation~. This inserts a link like [cite:@whittington_taking_2003]
 
 
 # more
@@ -22,7 +22,7 @@ As describe [[https://blog.tecosaur.com/tmio/2021-07-31-citations.html][This Mon
   - Some citation processors recognise locators, which refer to a particular part of the work, for example: /p. 7/ to refer to page 7.
 
 Time for some examples, using a bibliography file containing the following entry:
-    
+
 #+BEGIN_SRC
 @article{whittington_taking_2003,
   title = {Taking Strategy Seriously: {{Responsibility}} and Reform of an Important Social Practice},
@@ -40,13 +40,36 @@ Time for some examples, using a bibliography file containing the following entry
 #+END_SRC
 
 
-| Style           | /s/v  | Citation                             | In-text result                                                        |
-|-----------------+-------+--------------------------------------+-----------------------------------------------------------------------|
-| default         |       | [cite:@whittington_taking_2003]      | (Whittington et al., 2003)                                            |
-| text            | /t    | [cite/t:@whittington_taking_2003]    | Whittington et al. (2003)                                             |
-| text full       | /a/f  | [cite/t/f:@whittington_taking_2003]  | Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, & Rouleau (2003) |
-| no author       | /na   | [cite/na:@whittington_taking_2003]   | (2003)                                                                |
-| no author, bare | /na/b | [cite/na/b:@whittington_taking_2003] | 2003                                                                  |
-| author, bare    | /a    | [cite/a/b:@whittington_taking_2003]  | Whittington et al.                                                    |
-| author, full    | /a/f  | [cite/a/f:@whittington_taking_2003]  | Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, & Rouleau        |
-|                 |       |                                      |                                                                       |
+** Default
+- [cite:@whittington_taking_2003]
+- (Whittington et al., 2003)
+
+** Text
+- /t
+- [cite/t:@whittington_taking_2003]
+- Whittington et al. (2003)
+
+** Text full
+- /a/f
+- [cite/t/f:@whittington_taking_2003]
+- Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, & Rouleau (2003)
+
+** No author
+- /na
+- [cite/na:@whittington_taking_2003]
+- (2003)
+
+** No author, bare
+- /na/b
+- [cite/na/b:@whittington_taking_2003]
+- 2003
+
+** Author, bare
+- /a
+- [cite/a/b:@whittington_taking_2003]
+- Whittington et al.
+
+** Author, full
+- /a/f
+- [cite/a/f:@whittington_taking_2003]
+- Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, & Rouleau
