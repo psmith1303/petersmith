@@ -1,0 +1,52 @@
+#+title: Citations in Org Mode
+#+date: 2024-03-29T09:41:19+13:00
+#+lastmod: 2024-03-29T09:41:19+13:00
+#+categories[]: Research
+#+tags[]: emacs orgmode citations
+
+A fair amount of my writing requires citations (typically using APA formatting).
+
+Because I used to use ~reftex~ (such that it's now a habit) I have set ~C-c (~ to insert a citation by calling ~citar-insert-citation~. This inserts a link like 
+
+
+# more
+
+As describe [[https://blog.tecosaur.com/tmio/2021-07-31-citations.html][This Month in Org]]:
+
+{{< figure src="citation-structure-full.svg" caption="The new citations syntax, in full" >}}
+
+- The style and variant determine what form the exported citation takes
+- The common prefix and suffix and put at the start and end of the generated citation, respectively
+  - The citation key refers to a Bib(La)TeX or CSL-JSON key
+  - The citation prefix and suffix are put before and after the reference to the key
+  - Some citation processors recognise locators, which refer to a particular part of the work, for example: /p. 7/ to refer to page 7.
+
+Time for some examples, using a bibilography file containing the following entry:
+    
+#+BEGIN_SRC
+@article{whittington_taking_2003,
+  title = {Taking Strategy Seriously: {{Responsibility}} and Reform of an Important Social Practice},
+  author = {Whittington, Richard and Jarzabkowski, Paula A. and Mayer, Michael and Mounoud, El{\'e}onore and Nahapiet, Janine and Rouleau, Linda},
+  year = {2003},
+  journal = {Journal of Management Inquiry},
+  volume = {12},
+  number = {4},
+  pages = {396--409},
+  doi = {10.1177/1056492603258968},
+  keywords = {Strategizing,Strategy-as-practice},
+  annotation = {00005},
+  file = {Z:\PARA\Research\Zotero\storage\CPFDUQ86\Whittington et al_2003_Taking strategy seriously.pdf}
+}
+#+END_SRC
+
+
+| Style           | /s/v  | In-text result                      |
+|-----------------+-------+-------------------------------------|
+| default         |       | [cite:@whittington_taking_2003]     |
+| text            | /t    | [cite/t:@whittington_taking_2003]   |
+| text full       | /a/f  | [cite/t/f:@whittington_taking_2003] |
+| no author       | /na   | [cite/na:@whittington_taking_2003]  |
+| no author, bare | /na/b | [cite/na/b:@whittington_taking_2003] |
+| author          | /a    | [cite/a:@whittington_taking_2003]   |
+| author full     | /a/f  | [cite/a/f:@whittington_taking_2003] |
+|                 |       |                                     |

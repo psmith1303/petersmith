@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-29 Fri 10:37 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Citations in Org Mode</title>
+<meta name="author" content="Peter Smith" />
+<meta name="generator" content="Org Mode" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Citations in Org Mode</h1>
+<p>
+A fair amount of my writing requires citations (typically using APA formatting).
+</p>
+
+<p>
+Because I used to use <code>reftex</code> (such that it's now a habit) I have set <code>C-c (</code> to insert a citation by calling <code>citar-insert-citation</code>. This inserts a link like 
+</p>
+
+
+<p>
+As describe <a href="https://blog.tecosaur.com/tmio/2021-07-31-citations.html">This Month in Org</a>:
+</p>
+
+<p>
+{{&lt; figure src="citation-structure-full.svg" caption="The new citations syntax, in full" &gt;}}
+</p>
+
+<ul class="org-ul">
+<li>The style and variant determine what form the exported citation takes</li>
+<li>The common prefix and suffix and put at the start and end of the generated citation, respectively
+<ul class="org-ul">
+<li>The citation key refers to a Bib(La)TeX or CSL-JSON key</li>
+<li>The citation prefix and suffix are put before and after the reference to the key</li>
+<li>Some citation processors recognise locators, which refer to a particular part of the work, for example: <i>p. 7</i> to refer to page 7.</li>
+</ul></li>
+</ul>
+
+<p>
+Time for some examples, using a bibilography file containing the following entry:
+</p>
+
+<pre class="example">
+@article{whittington_taking_2003,
+  title = {Taking Strategy Seriously: {{Responsibility}} and Reform of an Important Social Practice},
+  author = {Whittington, Richard and Jarzabkowski, Paula A. and Mayer, Michael and Mounoud, El{\'e}onore and Nahapiet, Janine and Rouleau, Linda},
+  year = {2003},
+  journal = {Journal of Management Inquiry},
+  volume = {12},
+  number = {4},
+  pages = {396--409},
+  doi = {10.1177/1056492603258968},
+  keywords = {Strategizing,Strategy-as-practice},
+  annotation = {00005},
+  file = {Z:\PARA\Research\Zotero\storage\CPFDUQ86\Whittington et al_2003_Taking strategy seriously.pdf}
+}
+</pre>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Citation</th>
+<th scope="col" class="org-left">/s/v</th>
+<th scope="col" class="org-left">In-text result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">default</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">(Whittington et al., 2003)</td>
+</tr>
+
+<tr>
+<td class="org-left">text</td>
+<td class="org-left">/t</td>
+<td class="org-left">Whittington et al. (2003)</td>
+</tr>
+
+<tr>
+<td class="org-left">no author</td>
+<td class="org-left">/na</td>
+<td class="org-left">(2003)</td>
+</tr>
+
+<tr>
+<td class="org-left">no author, bare</td>
+<td class="org-left">/na/b</td>
+<td class="org-left">2003</td>
+</tr>
+
+<tr>
+<td class="org-left">author</td>
+<td class="org-left">/a</td>
+<td class="org-left">(Whittington et al.)</td>
+</tr>
+
+<tr>
+<td class="org-left">author full</td>
+<td class="org-left">/a/f</td>
+<td class="org-left">(Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, &#38; Rouleau)</td>
+</tr>
+
+<tr>
+<td class="org-left">text full</td>
+<td class="org-left">/a/f</td>
+<td class="org-left">Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, &#38; Rouleau (2003)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
