@@ -73,5 +73,3 @@ Time for some examples, using a bibliography file containing the following entry
 - /a/f
 - [cite/a/f:@whittington_taking_2003]
 - Whittington, Jarzabkowski, Mayer, Mounoud, Nahapiet, & Rouleau
-
-  [[{{< ref "/blog/2009/09/08/jogging/index.org" >}}][Jogging]]
