@@ -16,18 +16,18 @@ I am now back in New Zealand having spent most of last year travelling as part o
 
 This year I hope to go to:
 
-- Brisbane for a workshop
-- Byron Bay, to see relatives
-- Zurich, to catch up with colleagues and attend an Open Strategy Workshop
-- Milan, for the EGOS Conference
-- Istanbul (very unlikely) for the SMS conference.
+- [X] Brisbane for a workshop
+- [ ]Byron Bay, to see relatives
+- [ ] Zurich, to catch up with colleagues and attend an Open Strategy Workshop
+- [ ] Milan, for the EGOS Conference
+- +[ ] Istanbul (very unlikely) for the SMS conference.+
 
 
 * Research projects
 1. Orchestrating multi-sided platforms (Journal of Information Technology)
-2. The comminication of science. This was reject and is now being reworked to address its shortcomings.
-3. Thoughtworlds (Human Relations)
-4. Wayfinding and internationalisation
+2. The microfoundations of strategy tools (British Journal of Management; an early version has been accepted for this year's Academy of Management Conference in Chicago)
+3. The communication of science. This was reject and is now being reworked to address its shortcomings.
+4. Thoughtworlds (Human Relations)
 5. Revises EGOS paper on Open Strategy and boundary-crossing
 
 
@@ -36,10 +36,12 @@ This year I hope to go to:
 
 
 * Watching
+- +The Gone+ This was an outstanding show.
 - Some cosy crime
 
 * Listening to
 - My own playlist of what I like to most
+- I'm in the process of re-recording all my music using the .flac format (having previously been in the Apple ecosystem). This is a long process.
 
 * Reading
 - The joys of [[https://libbyapp.com/library/auckland][Libby]]; listening to too many audio books ::smile::
